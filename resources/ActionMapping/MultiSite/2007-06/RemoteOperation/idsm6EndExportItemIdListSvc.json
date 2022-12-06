@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "clientNode" : "String",
+            "userId" : "String",
+            "osUserName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String"
+         },
+         "exportStagingDir" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm6EndExportItemIdListSvc",
+   "OperationResponse" : "IServiceData"
+}

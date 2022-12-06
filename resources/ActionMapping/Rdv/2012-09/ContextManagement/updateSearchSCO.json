@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "resultStored" : "bool",
+            "scoInfo" : {
+               "workParts" : "IModelObject[]",
+               "prdItemRevision" : "IModelObject",
+               "tgtBomLines" : "IModelObject[]",
+               "bgdSearchCrtGrp" : "IModelObject",
+               "varRule" : "IModelObject",
+               "selBgdBomLines" : "IModelObject[]",
+               "revRule" : "IModelObject",
+               "tgtSearchCrtGrp" : "IModelObject",
+               "bgdBomLines" : "IModelObject[]",
+               "selTgtBomLines" : "IModelObject[]"
+            },
+            "srchSCO" : "IModelObject",
+            "nodes" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "srchSCO" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Rdv-2012-09-ContextManagement/updateSearchSCO"
+}

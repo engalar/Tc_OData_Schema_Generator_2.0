@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "eventObject" : "IModelObject",
+      "description" : "String",
+      "name" : "String",
+      "plannedFinishDate" : "Date",
+      "plannedStartDate" : "Date",
+      "scheduleOptions" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "ServiceOperation" : "PPSMInterfaceAw-2017-06-PPSMInterface/createIntegratedScheduleAsync",
+   "OperationResponse" : {}
+}

@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "action" : "String",
+      "featureKey" : "String"
+   },
+   "ServiceOperation" : "Core-2008-03-Session/connect",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputVal" : "int"
+   }
+}

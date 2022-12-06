@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "structureContext" : "IModelObject",
+      "views" : "IModelObject[]",
+      "context" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "views" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2011-06-DataManagement/openViews"
+}

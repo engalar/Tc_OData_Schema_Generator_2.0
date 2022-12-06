@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "newPhysPartRev" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "AsBuilt-2010-04-AsBuilt/rebuildAsBuiltStructure",
+   "OperationInput" : {
+      "input" : [
+         {
+            "rebuildDate" : "Date",
+            "clientId" : "String",
+            "selectedBOMLine" : "IModelObject"
+         }
+      ]
+   }
+}

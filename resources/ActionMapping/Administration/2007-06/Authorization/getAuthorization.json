@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "accessorTag" : "IModelObject",
+            "accessibleNames" : "String[]",
+            "ruleDomain" : "String"
+         }
+      ],
+      "partialErrors" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Administration-2007-06-Authorization/getAuthorization",
+   "OperationInput" : {
+      "inputAccessors" : [
+         {
+            "accessorTag" : "IModelObject",
+            "ruleDomain" : "String"
+         }
+      ]
+   }
+}

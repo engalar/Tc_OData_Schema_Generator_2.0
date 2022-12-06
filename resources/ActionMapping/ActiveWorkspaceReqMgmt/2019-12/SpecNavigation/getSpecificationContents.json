@@ -1,0 +1,49 @@
+{
+   "OperationResponse" : {
+      "htmlContent" : "String",
+      "markUpData" : [
+         {
+            "properties" : {
+               "SampleKeyString" : "String"
+            },
+            "baseObject" : "IModelObject",
+            "version" : "String",
+            "markups" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "specInfo" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2019-12-SpecNavigation/getSpecificationContents",
+   "OperationInput" : {
+      "inputData" : {
+         "inputCtxt" : {
+            "structureContextObject" : "IModelObject",
+            "productContext" : "IModelObject",
+            "pageSize" : "int",
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            },
+            "configuration" : {
+               "configurationObject" : "IModelObject",
+               "now" : "bool",
+               "variantRule" : "IModelObject",
+               "effectivityDate" : "Date",
+               "unitNo" : "int",
+               "revisionRule" : "IModelObject",
+               "svrOwningProduct" : "IModelObject",
+               "endItem" : "IModelObject"
+            }
+         },
+         "specOptions" : {
+            "SampleKeyString" : "String"
+         },
+         "typesPropsMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "inputObjects" : "IModelObject[]"
+      }
+   }
+}

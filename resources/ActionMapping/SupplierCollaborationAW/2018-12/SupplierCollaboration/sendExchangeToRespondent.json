@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "exchangeObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-12-SupplierCollaboration/sendExchangeToRespondent",
+   "OperationResponse" : "IServiceData"
+}

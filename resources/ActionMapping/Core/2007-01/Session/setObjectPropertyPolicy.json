@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Core-2007-01-Session/setObjectPropertyPolicy",
+   "OperationResponse" : "bool",
+   "OperationInput" : {
+      "policyName" : "String"
+   }
+}

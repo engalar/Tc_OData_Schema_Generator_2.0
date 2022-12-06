@@ -1,0 +1,89 @@
+{
+   "OperationInput" : {
+      "alignmentInput" : {
+         "authorization" : "String",
+         "updateAndAlignInfo" : [
+            {
+               "designs" : [
+                  {
+                     "design" : "IModelObject",
+                     "clientID" : "String"
+                  }
+               ],
+               "pmmObjectUpdateInfo" : {
+                  "clientID" : "String",
+                  "field" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "relatedObjectUpdate" : [
+                     {
+                        "relatedObjects" : [
+                           {
+                              "action" : "Add Update Del",
+                              "field" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "tuid" : "String"
+                           }
+                        ],
+                        "table" : "String"
+                     }
+                  ],
+                  "tuid" : "String"
+               }
+            }
+         ],
+         "operation" : "String",
+         "pmmInputObject" : {
+            "rowSet" : {
+               "row" : [
+                  {
+                     "clientID" : "String",
+                     "value" : "String[]"
+                  }
+               ]
+            },
+            "columnSet" : {
+               "table" : "String",
+               "column" : [
+                  {
+                     "datatype" : "String",
+                     "logicalName" : "String",
+                     "name" : "String",
+                     "table" : "String",
+                     "width" : "int"
+                  }
+               ]
+            }
+         },
+         "autoCommit" : "bool"
+      }
+   },
+   "ServiceOperation" : "Internal-CbaExt-2014-12-AlignmentManagement/alignDesignsWithParts",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "updatedItemRowSet" : {
+         "rowSet" : {
+            "row" : [
+               {
+                  "value" : "String[]",
+                  "clientID" : "String"
+               }
+            ]
+         },
+         "columnSet" : {
+            "column" : [
+               {
+                  "logicalName" : "String",
+                  "datatype" : "String",
+                  "name" : "String",
+                  "table" : "String",
+                  "width" : "int"
+               }
+            ],
+            "table" : "String"
+         }
+      },
+      "itemsToRemove" : "String[]"
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-SimProc-2014-12-SimProcessConfigurationManagement/pasteTool",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "toolsTobePasted" : "IModelObject[]",
+      "targetBOMLine" : "IModelObject"
+   }
+}

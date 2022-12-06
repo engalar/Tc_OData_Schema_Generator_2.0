@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "userData" : "IModelObject",
+            "secondaryObject" : "IModelObject",
+            "relationType" : "String",
+            "clientId" : "String",
+            "primaryObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2006-03-DataManagement/createRelations",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "relation" : "IModelObject"
+         }
+      ]
+   }
+}

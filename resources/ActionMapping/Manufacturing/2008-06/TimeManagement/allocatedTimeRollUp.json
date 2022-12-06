@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "object" : {
+         "calculatedBy" : "String",
+         "roots" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Manufacturing-2008-06-TimeManagement/allocatedTimeRollUp",
+   "OperationResponse" : {
+      "results" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "double"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

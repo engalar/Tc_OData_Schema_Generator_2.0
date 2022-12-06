@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "secondariesInfo" : [
+         {
+            "primaryBOMLine" : "IModelObject",
+            "secondaries" : "IModelObject[]",
+            "associationType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2008-06-StructureManagement/getSecondariesOfInStructureAssociation",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "contextBOMLine" : "IModelObject",
+            "primaryBOMLine" : "IModelObject",
+            "associationType" : "String"
+         }
+      ]
+   }
+}

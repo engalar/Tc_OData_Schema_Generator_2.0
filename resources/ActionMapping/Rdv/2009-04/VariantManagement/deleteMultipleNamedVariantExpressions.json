@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "archRev" : "IModelObject",
+         "code" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Internal-Rdv-2009-04-VariantManagement/deleteMultipleNamedVariantExpressions",
+   "OperationResponse" : "IServiceData"
+}

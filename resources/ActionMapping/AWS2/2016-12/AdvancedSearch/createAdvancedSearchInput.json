@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2016-12-AdvancedSearch/createAdvancedSearchInput",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "advancedSearchInput" : "IModelObject"
+   },
+   "OperationInput" : {}
+}

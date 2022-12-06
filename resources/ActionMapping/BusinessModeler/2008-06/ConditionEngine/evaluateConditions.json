@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "BusinessModeler-2008-06-ConditionEngine/evaluateConditions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "exitCode" : "int",
+            "result" : "bool"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "conditionName" : "String",
+            "conditionSignature" : "IModelObject[]"
+         }
+      ]
+   }
+}

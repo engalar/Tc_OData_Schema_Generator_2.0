@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "nodeName" : "String"
+   },
+   "OperationResponse" : {
+      "loggerList" : [
+         {
+            "loggerName" : "String",
+            "priority" : "LOG_FATAL LOG_ERROR LOG_WARN LOG_INFO LOG_DEBUG LOG_TRACE LOG_DEFAULT"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugLogging/getLoggerLevels"
+}

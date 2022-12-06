@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "name" : "String",
+            "scopeContext" : "String",
+            "clientId" : "String",
+            "delimiter" : "String",
+            "desc" : "String",
+            "scope" : "ROLLUPScopeInvalid ROLLUPScopeSite ROLLUPScopeUser ROLLUPScopeGroup"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Reports-2007-06-BOMRollup/createRollupTemplates",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "rollupTemplates" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

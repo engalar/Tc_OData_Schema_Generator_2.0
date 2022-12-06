@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Manufacturing-2015-10-ImportExport/importManufacturingFeatures",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : "String",
+      "logFileName" : "String"
+   },
+   "OperationInput" : {
+      "input" : {
+         "context" : "IModelObject",
+         "content" : [
+            {
+               "container" : "IModelObject",
+               "nameRefFileTickets" : "String[]",
+               "importMode" : "String",
+               "xmlFileTicket" : "String"
+            }
+         ]
+      }
+   }
+}

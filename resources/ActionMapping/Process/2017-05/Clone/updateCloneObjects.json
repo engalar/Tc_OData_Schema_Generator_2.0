@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "action" : "DELETE_CLONE UNLINK_CLONE SKIP_CLONE",
+      "inputSourceObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Clone/updateCloneObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "assignmentMappingFailures" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "assignedToRelationTypesMap" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     "IModelObject[]"
+                  ]
+               ],
+               "reason" : "int"
+            }
+         ]
+      ]
+   }
+}

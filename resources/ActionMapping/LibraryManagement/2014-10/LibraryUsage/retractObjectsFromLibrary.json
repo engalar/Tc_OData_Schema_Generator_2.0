@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryUsage/retractObjectsFromLibrary",
+   "OperationResponse" : {
+      "objectsRetracted" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "objectsInput" : [
+         {
+            "deleteClsObject" : "bool",
+            "objectsToRetract" : "IModelObject[]",
+            "libraryNode" : "IModelObject",
+            "doBulkRetract" : "bool"
+         }
+      ]
+   }
+}

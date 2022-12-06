@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : {
+      "owningSiteId" : "int[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-ObjectDirectory/locatePublishedObjects",
+   "OperationInput" : {
+      "clientInfo" : {
+         "clientOdsMinorVersion" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "clientSiteId" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "roleName" : "String",
+         "clientMaintPackVersion" : "int",
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String",
+         "clientMinorReleaseVersion" : "int",
+         "osUserName" : "String"
+      },
+      "objTagAsString" : "String[]"
+   }
+}

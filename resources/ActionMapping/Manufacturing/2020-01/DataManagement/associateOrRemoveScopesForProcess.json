@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "associateOrRemoveInput" : [
+         {
+            "removeScopeLines" : "IModelObject[]",
+            "processLine" : "IModelObject",
+            "addScopeLines" : "IModelObject[]",
+            "additionalInfo" : {
+               "strToDoubleMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strToDateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strToIntMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToStrMap" : {
+                  "SampleKeyString" : "String[]"
+               }
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2020-01-DataManagement/associateOrRemoveScopesForProcess",
+   "OperationResponse" : "IServiceData"
+}

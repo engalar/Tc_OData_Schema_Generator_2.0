@@ -1,0 +1,42 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "bomWindow" : "IModelObject",
+            "bomLine" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2007-01-StructureManagement/createBOMWindows",
+   "OperationInput" : {
+      "info" : [
+         {
+            "clientId" : "String",
+            "itemRev" : "IModelObject",
+            "item" : "IModelObject",
+            "objectForConfigure" : "IModelObject",
+            "revRuleConfigInfo" : {
+               "clientId" : "String",
+               "revRule" : "IModelObject",
+               "props" : {
+                  "endItem" : "IModelObject",
+                  "today" : "bool",
+                  "overrideFolders" : [
+                     {
+                        "ruleEntry" : "IModelObject",
+                        "folder" : "IModelObject"
+                     }
+                  ],
+                  "endItemRevision" : "IModelObject",
+                  "date" : "Date",
+                  "unitNo" : "int"
+               }
+            },
+            "activeAssemblyArrangement" : "IModelObject",
+            "bomView" : "IModelObject"
+         }
+      ]
+   }
+}

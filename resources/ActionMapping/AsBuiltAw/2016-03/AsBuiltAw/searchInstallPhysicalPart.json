@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "searchResultIndex" : "int",
+            "physPartRev" : "IModelObject",
+            "searchFlag" : "bool",
+            "searchInfo" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "prefInstallableNeutralParts" : "IModelObject[]",
+            "manufacturerIds" : {
+               "SampleKeyString" : "String"
+            },
+            "isParent" : "bool",
+            "dispositions" : "String[]",
+            "lotNumbers" : {
+               "SampleKeyString" : "String[]"
+            },
+            "usageName" : "String",
+            "altInstallablePhysParts" : "IModelObject[]",
+            "parentPhysicalPart" : "IModelObject",
+            "locations" : "String[]",
+            "subInstallablePhysParts" : "IModelObject[]",
+            "deviatedInstallablePhysParts" : "IModelObject[]",
+            "isMissingPart" : "bool",
+            "endOfSearchFound" : "bool",
+            "deviatedInstallableNeutralPart" : "IModelObject[]",
+            "subInstallableNeutralParts" : "IModelObject[]",
+            "searchResultIndex" : "int",
+            "altInstallableNeutralParts" : "IModelObject[]",
+            "prefInstallablePhysParts" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AsBuiltAw-2016-03-AsBuiltAw/searchInstallPhysicalPart"
+}

@@ -1,0 +1,38 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "objects" : "IModelObject[]",
+      "objectUids" : "String[]"
+   },
+   "ServiceOperation" : "ProjectManagement-2009-10-ScheduleManagement/updateTasks",
+   "OperationInput" : {
+      "scheduleUid" : "String[]",
+      "updates" : [
+         {
+            "object" : "IModelObject",
+            "operationType" : "AssignmentAssign AssignmentUnassign AssignmentUpdate AssignmentDelegate AssignmentReplace AssignmentRevert ResourceGetAssignments DependencyCreate DependencyUpdate DependencyDelete ScheduleCreate ScheduleDelete ScheduleRecalculate ScheduleModify ScheduleTaskCreate ScheduleTaskDelete ScheduleTaskUpdate ScheduleGetCriticalPath ScheduleShift ScheduleScale ScheduleTaskMove Undefined",
+            "serviceType" : "GET POST VALIDATE PERSIST ANALYSE",
+            "stringValContainer" : [
+               {
+                  "key" : "String",
+                  "type" : "int",
+                  "value" : "String"
+               }
+            ],
+            "scheduleUid" : "String",
+            "typedAttributesContainer" : [
+               {
+                  "attributes" : [
+                     {
+                        "key" : "String",
+                        "type" : "int",
+                        "value" : "String"
+                     }
+                  ],
+                  "type" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

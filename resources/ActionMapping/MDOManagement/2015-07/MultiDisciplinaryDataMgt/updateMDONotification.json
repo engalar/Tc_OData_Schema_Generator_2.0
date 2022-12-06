@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "MDOManagement-2015-07-MultiDisciplinaryDataMgt/updateMDONotification",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "notificationObject" : "IModelObject",
+            "clientId" : "String",
+            "instanceThread" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "notificationUpdateData" : {
+               "reactedResponses" : [
+                  {
+                     "notificationQualifier" : "String",
+                     "reactedObject" : "IModelObject",
+                     "objectName" : "String"
+                  }
+               ],
+               "notificationObject" : "IModelObject",
+               "ignoreNotification" : "bool",
+               "notificationQualifier" : "String"
+            },
+            "clientId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "effectivityInfoInput" : {
+               "dateRange" : "Date[]",
+               "endItem" : "IModelObject",
+               "isProtected" : "bool",
+               "openEndedStatus" : "int",
+               "effectivityId" : "String",
+               "unitRangeText" : "String",
+               "endItemRev" : "IModelObject"
+            },
+            "isShared" : "bool",
+            "bomLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2014-12-Effectivity/createOccurrenceEffectivities"
+}

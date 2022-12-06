@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "Core-2009-04-Session/stopOperation",
+   "OperationInput" : {
+      "opId" : "String"
+   }
+}

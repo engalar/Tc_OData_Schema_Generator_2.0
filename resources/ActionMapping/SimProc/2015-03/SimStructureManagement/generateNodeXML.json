@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "domain" : "String",
+      "objects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-SimProc-2015-03-SimStructureManagement/generateNodeXML",
+   "OperationResponse" : {
+      "nodeXML" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

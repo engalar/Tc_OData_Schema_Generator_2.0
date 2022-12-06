@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "objectProps" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "boolProps" : {
+               "SampleKeyString" : "bool[]"
+            },
+            "searchDateOperator" : "String",
+            "stringProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "doubleProps" : {
+               "SampleKeyString" : "double[]"
+            },
+            "searchScope" : "IModelObject",
+            "dateProps" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "clientId" : "String",
+            "resultStatus" : "String",
+            "testCase" : "IModelObject",
+            "intProps" : {
+               "SampleKeyString" : "int[]"
+            },
+            "executionScope" : "IModelObject",
+            "searchDate" : "Date",
+            "referredObjects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-TestManagement-2015-03-InstanceManagement/getTestInstances",
+   "OperationResponse" : {
+      "resultMap" : {
+         "SampleKeyString" : [
+            {
+               "testInstance" : "IModelObject",
+               "activities" : "IModelObject[]",
+               "assignedTo" : "IModelObject",
+               "executionScope" : "IModelObject"
+            }
+         ]
+      },
+      "srvcData" : "IServiceData"
+   }
+}

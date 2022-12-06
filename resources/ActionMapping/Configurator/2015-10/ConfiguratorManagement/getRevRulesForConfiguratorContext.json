@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "applicableRevisionRules" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Configurator-2015-10-ConfiguratorManagement/getRevRulesForConfiguratorContext",
+   "OperationInput" : {}
+}

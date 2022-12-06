@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2012-09-DataManagement/applyConfigObjects",
+   "OperationInput" : {
+      "input" : [
+         {
+            "context" : "IModelObject",
+            "configObj" : "IModelObject"
+         }
+      ]
+   }
+}

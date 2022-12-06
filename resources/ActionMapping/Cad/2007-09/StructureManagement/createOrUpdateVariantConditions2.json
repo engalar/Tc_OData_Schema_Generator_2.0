@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "operation" : "Create Update",
+            "clientId" : "String",
+            "bomLine" : "IModelObject",
+            "variantCondInfo" : [
+               {
+                  "joinOperator" : "AND OR OPEN_BRACKET CLOSE_BRACKET",
+                  "optionName" : "String",
+                  "value" : "String",
+                  "itemId" : "String",
+                  "compOperator" : "EQ NEQ LT GT GTEQ LTEQ"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2007-09-StructureManagement/createOrUpdateVariantConditions2",
+   "OperationResponse" : "IServiceData"
+}

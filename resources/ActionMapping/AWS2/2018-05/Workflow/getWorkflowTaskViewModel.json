@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "taskJSONStrings" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-Workflow/getWorkflowTaskViewModel",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "selection" : "IModelObject",
+            "typeToPropertiesMap" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   }
+}

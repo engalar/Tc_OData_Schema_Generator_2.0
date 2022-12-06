@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "getCmplCategoryDetailsInput" : [
+         {
+            "sourceObject" : "IModelObject",
+            "regulations" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SubsCmplAW-2018-12-SubstanceCompliance/getComplianceCategoryDetails",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "srcObjVsRegsVsCmplCategoryDetails" : [
+         {
+            "sourceObject" : "IModelObject",
+            "regulationVsCmplCategoryDetails" : [
+               {
+                  "cmplCategoryResponseDetails" : [
+                     {
+                        "complianceCategory" : "IModelObject",
+                        "responseDetails" : [
+                           {
+                              "responseObject" : "IModelObject",
+                              "isSelected" : "bool"
+                           }
+                        ]
+                     }
+                  ],
+                  "regulation" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

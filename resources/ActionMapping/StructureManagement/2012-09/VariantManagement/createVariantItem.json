@@ -1,0 +1,148 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createVariantItemOutput" : [
+         {
+            "genericBOMLine" : "IModelObject",
+            "newVariantItemRevision" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2012-09-VariantManagement/createVariantItem",
+   "OperationInput" : {
+      "createVIInputs" : [
+         {
+            "linkVIToGenericItem" : "bool",
+            "genericBOMLine" : "IModelObject",
+            "createOrSaveAsDescriptor" : {
+               "bCreateOrSaveAsFlag" : "bool",
+               "properties" : [
+                  {
+                     "clientId" : "String",
+                     "extendedAttributes" : [
+                        {
+                           "attributes" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "objectType" : "String"
+                        }
+                     ],
+                     "uom" : "String",
+                     "itemId" : "String",
+                     "type" : "String",
+                     "name" : "String",
+                     "description" : "String",
+                     "revId" : "String"
+                  }
+               ],
+               "saveAsIn" : {
+                  "deepCopyDatas" : [
+                     {
+                        "propertyType" : "Relation Reference",
+                        "isTargetPrimary" : "bool",
+                        "saveAsInputTypeName" : "String",
+                        "copyAction" : "String",
+                        "isRequired" : "bool",
+                        "saveAsInput" : {
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           },
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           },
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "tagProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "boName" : "String",
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "tagArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           }
+                        },
+                        "copyRelations" : "bool",
+                        "attachedObject" : "IModelObject",
+                        "propertyName" : "String",
+                        "childDeepCopyData" : "Teamcenter::Soa::StructureManagement::_2012_09::VariantManagement::DeepCopyData[]"
+                     }
+                  ],
+                  "targetObject" : "IModelObject",
+                  "saveAsInput" : {
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "boName" : "String",
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     }
+                  }
+               }
+            }
+         }
+      ]
+   }
+}

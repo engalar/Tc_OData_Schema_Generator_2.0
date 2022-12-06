@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "operation" : "int",
+            "selectedElement" : "IModelObject",
+            "clientId" : "String",
+            "inputContext" : {
+               "requestPref" : {
+                  "SampleKeyString" : "String"
+               },
+               "configuration" : {
+                  "now" : "bool",
+                  "configurationObject" : "IModelObject",
+                  "endItem" : "IModelObject",
+                  "svrOwningProduct" : "IModelObject",
+                  "revisionRule" : "IModelObject",
+                  "unitNo" : "int",
+                  "variantRule" : "IModelObject",
+                  "effectivityDate" : "Date"
+               },
+               "productContext" : "IModelObject",
+               "structureContextObject" : "IModelObject",
+               "pageSize" : "int"
+            },
+            "productContext" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "newElementInfos" : [
+         {
+            "childElement" : "IModelObject",
+            "parentElement" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2017-06-SpecNavigation/moveSelectedOccurrences"
+}

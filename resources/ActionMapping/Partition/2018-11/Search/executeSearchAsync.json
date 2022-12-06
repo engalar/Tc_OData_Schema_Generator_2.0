@@ -1,0 +1,40 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Partition-2018-11-Search/executeSearchAsync",
+   "OperationInput" : {
+      "exportOption" : {
+         "columnAttributes" : "String[]",
+         "applicationFormat" : "String"
+      },
+      "recipe" : {
+         "scope" : {
+            "searchType" : "String[]",
+            "recipeContainer" : "IModelObject",
+            "model" : "IModelObject"
+         },
+         "searchExpression" : {
+            "searchOperator" : "And Or Not",
+            "searchExpression" : {
+               "searchExpressions" : "IModelObject[]",
+               "doTrushapeRefinement" : "bool"
+            },
+            "searchExpressionSets" : "Ptn0::Soa::Partition::_2012_09::Search::SearchExpressionSet[]"
+         },
+         "configDetails" : [
+            {
+               "configContext" : "IModelObject",
+               "configurationFor" : "Universal Partition"
+            }
+         ]
+      },
+      "searchOptions" : {
+         "sortOrder" : "Ascending Descending",
+         "defaultLoadCount" : "int",
+         "sortAttributes" : "String[]"
+      },
+      "scope" : {
+         "isOnlyImmediateGroupsReqd" : "bool",
+         "scheme" : "IModelObject"
+      }
+   }
+}

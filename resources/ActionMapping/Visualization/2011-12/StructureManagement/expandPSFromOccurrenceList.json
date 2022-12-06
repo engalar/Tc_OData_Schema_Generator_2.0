@@ -1,0 +1,97 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "relatedObjects" : [
+         {
+            "namedRefList" : [
+               {
+                  "namedReferenceType" : "String",
+                  "fileTicket" : "String",
+                  "namedReferenceName" : "String",
+                  "referenceObject" : "IModelObject"
+               }
+            ],
+            "relatedObject" : "IModelObject"
+         }
+      ],
+      "childrenOfParent" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "indexOfrelatedObjectsInfo" : "int[]",
+                  "bomLine" : "IModelObject",
+                  "objectOfBOMLine" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "output" : [
+         {
+            "clientId" : "String",
+            "occurrenceList" : [
+               {
+                  "parent" : {
+                     "objectOfBOMLine" : "IModelObject",
+                     "indexOfrelatedObjectsInfo" : "int[]",
+                     "bomLine" : "IModelObject"
+                  },
+                  "clientId" : "String",
+                  "occurrenceList" : [
+                     {
+                        "occurrenceChain" : [
+                           {
+                              "indexOfrelatedObjectsInfo" : "int[]",
+                              "bomLine" : "IModelObject",
+                              "objectOfBOMLine" : "IModelObject"
+                           }
+                        ],
+                        "clientId" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Visualization-2011-12-StructureManagement/expandPSFromOccurrenceList",
+   "OperationInput" : {
+      "info" : [
+         {
+            "occurrenceChainsByParent" : [
+               {
+                  "occurrenceList" : [
+                     {
+                        "occurrenceChainStr" : "String[]",
+                        "ngidClientId" : "String",
+                        "attributeNames" : "String[]"
+                     }
+                  ],
+                  "parentBomLine" : "IModelObject",
+                  "listClientId" : "String"
+               }
+            ],
+            "occurListClientId" : "String"
+         }
+      ],
+      "pref" : {
+         "info" : [
+            {
+               "namedRefHandler" : "UseNamedRefsList NoNamedRefs AllNamedRefs PreferredJT",
+               "relationName" : "String",
+               "relatedObjAndNamedRefs" : [
+                  {
+                     "namedReferenceNames" : "String[]",
+                     "relationTypeName" : "String"
+                  }
+               ]
+            }
+         ],
+         "prefKeyValue" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   }
+}

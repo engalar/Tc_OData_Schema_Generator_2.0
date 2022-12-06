@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "absOccDataQualInfos" : [
+         {
+            "qualifyingBVR" : "IModelObject",
+            "upperQualifier" : "IModelObject"
+         }
+      ],
+      "absOccDataPref" : {
+         "qualifierFilter" : "None IncludeBvrOnlyQualifyingOverrides IncludeBvrAndUpperQualifyingOverrides",
+         "relationFilterInfos" : [
+            {
+               "relationName" : "String",
+               "relationTypeNames" : "String[]"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "overrides" : [
+         {
+            "occThreadPaths" : [
+               {
+                  "occThreadPath" : "IModelObject[]",
+                  "apn" : "IModelObject"
+               }
+            ],
+            "dataOverrideInfo" : {
+               "overrideData" : "IModelObject",
+               "expandedOverrides" : [
+                  {
+                     "objects" : "IModelObject[]",
+                     "relationName" : "String"
+                  }
+               ]
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2008-06-StructureManagement/getAbsoluteStructureData"
+}

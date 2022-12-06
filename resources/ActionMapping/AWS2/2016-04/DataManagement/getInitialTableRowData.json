@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2016-04-DataManagement/getInitialTableRowData",
+   "OperationResponse" : {
+      "tableRows" : [
+         {
+            "tableRowData" : [
+               {
+                  "name" : "String",
+                  "dbValues" : "String[]",
+                  "uiValues" : "String[]"
+               }
+            ],
+            "tableRowTypeName" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "owningObject" : "IModelObject",
+      "tablePropertyName" : "String"
+   }
+}

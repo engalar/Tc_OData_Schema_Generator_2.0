@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "bomLine" : "IModelObject",
+            "quantity" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-Restructure/splitOccurrence"
+}

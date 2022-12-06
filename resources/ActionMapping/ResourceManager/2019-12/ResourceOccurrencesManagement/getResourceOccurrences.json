@@ -1,0 +1,115 @@
+{
+   "ServiceOperation" : "Internal-ResourceManager-2019-12-ResourceOccurrencesManagement/getResourceOccurrences",
+   "OperationResponse" : {
+      "graph" : {
+         "rootId" : "String",
+         "edges" : [
+            {
+               "endNodeId" : "String",
+               "startNodeId" : "String"
+            }
+         ],
+         "nodes" : [
+            {
+               "resourceProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "resourceOccurrenceId" : "String",
+               "underlyingObjectType" : "String",
+               "displayName" : "String",
+               "resourceOccurrence" : "IModelObject",
+               "stableId" : "String",
+               "numberOfChildren" : "int"
+            }
+         ]
+      },
+      "parentResourceOccurrence" : {
+         "resourceOccurrence" : "IModelObject",
+         "displayName" : "String",
+         "underlyingObjectType" : "String",
+         "resourceOccurrenceId" : "String",
+         "resourceProps" : {
+            "SampleKeyString" : "String"
+         },
+         "numberOfChildren" : "int",
+         "stableId" : "String"
+      },
+      "userWorkingContextInfo" : {
+         "autoSavedSessiontime" : "Date",
+         "sublocationAttributes" : {
+            "SampleKeyString" : "String[]"
+         }
+      },
+      "focusProductContext" : "IModelObject",
+      "cursor" : {
+         "startIndex" : "int",
+         "endIndex" : "int",
+         "pageSize" : "int",
+         "startReached" : "bool",
+         "cursorData" : "String[]",
+         "startOccUid" : "String",
+         "endReached" : "bool",
+         "endOccUid" : "String"
+      },
+      "focusResourceChildOccurrence" : {
+         "resourceProps" : {
+            "SampleKeyString" : "String"
+         },
+         "resourceOccurrenceId" : "String",
+         "displayName" : "String",
+         "underlyingObjectType" : "String",
+         "resourceOccurrence" : "IModelObject",
+         "stableId" : "String",
+         "numberOfChildren" : "int"
+      },
+      "requestPref" : {
+         "SampleKeyString" : "String[]"
+      },
+      "rootProductContext" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "parentProductContext" : "IModelObject",
+      "elementToPCIMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "inputData" : {
+         "config" : {
+            "productContext" : "IModelObject",
+            "effectivityGroups" : "IModelObject[]",
+            "occurrenceScheme" : "IModelObject",
+            "endItem" : "IModelObject",
+            "svrOwningProduct" : "IModelObject",
+            "revisionRule" : "IModelObject",
+            "sourceContext" : "IModelObject",
+            "unitNo" : "int",
+            "effectivityDate" : "Date",
+            "variantRules" : "IModelObject[]"
+         },
+         "parentElement" : "String",
+         "resourceFocusOccurrenceInput" : {
+            "cloneStableIdChain" : "String",
+            "element" : "IModelObject"
+         },
+         "cursor" : {
+            "startIndex" : "int",
+            "endIndex" : "int",
+            "pageSize" : "int",
+            "startReached" : "bool",
+            "cursorData" : "String[]",
+            "endReached" : "bool",
+            "startOccUid" : "String",
+            "endOccUid" : "String"
+         },
+         "product" : "IModelObject",
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   }
+}

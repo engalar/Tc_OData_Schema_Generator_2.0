@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "targetSiteId" : "int",
+      "objects" : "String[]",
+      "appId" : "String"
+   },
+   "OperationResponse" : {
+      "successInfo" : [
+         {
+            "parentUID" : "String",
+            "objectUID" : "String",
+            "targetSiteId" : "int",
+            "userId" : "String"
+         }
+      ],
+      "failureInfo" : [
+         {
+            "errorInfo" : [
+               {
+                  "elementName" : "String",
+                  "elementValue" : "String"
+               }
+            ],
+            "objectUID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2020-01-Briefcase/addMarkOTForCurrentUser"
+}

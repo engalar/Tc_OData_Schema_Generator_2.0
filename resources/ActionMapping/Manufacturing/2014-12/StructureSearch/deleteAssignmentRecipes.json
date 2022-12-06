@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Manufacturing-2014-12-StructureSearch/deleteAssignmentRecipes",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "appKey" : "String",
+      "recipes" : "IModelObject[]",
+      "recipeAnchors" : "IModelObject[]",
+      "contextForRemovingResolvedObjs" : "IModelObject"
+   }
+}

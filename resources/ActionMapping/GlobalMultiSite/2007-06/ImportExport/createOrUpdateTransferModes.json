@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "filter" : "IModelObject",
+            "actionList" : "IModelObject[]",
+            "schemaFormat" : "String",
+            "name" : "String",
+            "isMultiSite" : "bool",
+            "description" : "String",
+            "isIncremental" : "bool",
+            "direction" : "String",
+            "closurerule" : "IModelObject",
+            "configObjs" : "IModelObject[]",
+            "propertyset" : "IModelObject",
+            "contextString" : "String",
+            "xsltFiles" : "IModelObject[]",
+            "tmToUpdate" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/createOrUpdateTransferModes",
+   "OperationResponse" : {
+      "transferModeObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

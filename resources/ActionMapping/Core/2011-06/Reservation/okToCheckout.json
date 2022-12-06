@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Core-2011-06-Reservation/okToCheckout",
+   "OperationResponse" : {
+      "verdict" : "bool[]",
+      "serviceData" : "IServiceData"
+   }
+}

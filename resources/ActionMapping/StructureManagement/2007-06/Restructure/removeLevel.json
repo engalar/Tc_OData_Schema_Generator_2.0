@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "bomLines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-Restructure/removeLevel",
+   "OperationResponse" : "IServiceData"
+}

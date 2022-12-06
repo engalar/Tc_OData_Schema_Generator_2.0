@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "meObjectInfos" : [
+         {
+            "subType" : "String",
+            "type" : "String",
+            "menxObject" : "IModelObject",
+            "name" : "String",
+            "description" : "String",
+            "attributes" : [
+               {
+                  "values" : "String[]",
+                  "name" : "String"
+               }
+            ]
+         }
+      ],
+      "container" : "IModelObject"
+   },
+   "ServiceOperation" : "Manufacturing-2008-06-DataManagement/createOrUpdateMENXObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "successfullyProcessedMENXObj" : {
+         "SampleKeyInt" : "IModelObject"
+      }
+   }
+}

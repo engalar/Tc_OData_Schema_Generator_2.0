@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "dashboardQueryInput" : {
+         "startIndex" : "int",
+         "sortCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "pageSize" : "int",
+         "generateDashboardReport" : {
+            "createDataset" : "bool",
+            "inputContext" : "String",
+            "isGenerateDashboardReport" : "bool",
+            "datasetName" : "String",
+            "lastUpdatedTime" : "String"
+         },
+         "dashboardConfig" : "IModelObject",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-CaeAw-2019-06-SimulationManagementAw/getDashboardDataByQueryAsync"
+}

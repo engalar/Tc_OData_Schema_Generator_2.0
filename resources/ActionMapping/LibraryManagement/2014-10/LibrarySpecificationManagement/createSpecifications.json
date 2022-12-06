@@ -1,0 +1,120 @@
+{
+   "OperationInput" : {
+      "createSpecInputs" : [
+         {
+            "library" : "IModelObject",
+            "specInput" : {
+               "specId" : "String",
+               "actionSetInfos" : [
+                  {
+                     "actionDefInfos" : [
+                        {
+                           "specRulesInfo" : [
+                              {
+                                 "specRuleName" : "String",
+                                 "specRuleDescription" : "String",
+                                 "ruleSetId" : "String",
+                                 "isSpecRuleActive" : "bool",
+                                 "srcFilterCriteria" : {
+                                    "query" : "String",
+                                    "attributeId" : "String"
+                                 },
+                                 "trgtFilterCriteria" : {
+                                    "attributeId" : "String",
+                                    "query" : "String"
+                                 },
+                                 "ruleType" : "String",
+                                 "libraryNode" : "IModelObject",
+                                 "specRuleId" : "String"
+                              }
+                           ],
+                           "actionDefDesc" : "String",
+                           "quantity" : "int",
+                           "actionDefId" : "String",
+                           "actionDefName" : "String",
+                           "actionDefType" : "String"
+                        }
+                     ],
+                     "actionSetType" : "String",
+                     "actionSetId" : "String",
+                     "srcConnectionType" : "String",
+                     "trgtConnectionType" : "String",
+                     "actionSetName" : "String",
+                     "appDatas" : "IModelObject[]",
+                     "actionSetDesc" : "String"
+                  }
+               ],
+               "specRuleInfos" : [
+                  {
+                     "specRuleName" : "String",
+                     "specRuleDescription" : "String",
+                     "isSpecRuleActive" : "bool",
+                     "ruleSetId" : "String",
+                     "trgtFilterCriteria" : {
+                        "query" : "String",
+                        "attributeId" : "String"
+                     },
+                     "srcFilterCriteria" : {
+                        "attributeId" : "String",
+                        "query" : "String"
+                     },
+                     "ruleType" : "String",
+                     "specRuleId" : "String",
+                     "libraryNode" : "IModelObject"
+                  }
+               ],
+               "additionalProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "specName" : "String",
+               "specDiscipline" : "String",
+               "childRuleOverrideFlag" : "bool",
+               "appDataInfos" : [
+                  {
+                     "appDataDesc" : "String",
+                     "isGlobal" : "bool",
+                     "appDataEntries" : [
+                        {
+                           "dataEntry" : "String",
+                           "dataValue" : "String"
+                        }
+                     ],
+                     "appDataReason" : "String",
+                     "appDataName" : "String",
+                     "appDataId" : "String"
+                  }
+               ],
+               "specAdmins" : "IModelObject[]",
+               "specDescription" : "String",
+               "specBOTypeName" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "specsOutput" : [
+         {
+            "specOutputInfo" : {
+               "appDataObjects" : "IModelObject[]",
+               "actionSetOutputs" : [
+                  {
+                     "specification" : "IModelObject",
+                     "actionSet" : "IModelObject",
+                     "actionDefinitionOutputs" : [
+                        {
+                           "specRules" : "IModelObject[]",
+                           "actionDefinition" : "IModelObject"
+                        }
+                     ]
+                  }
+               ],
+               "specification" : "IModelObject",
+               "specRules" : "IModelObject[]"
+            },
+            "library" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/createSpecifications"
+}

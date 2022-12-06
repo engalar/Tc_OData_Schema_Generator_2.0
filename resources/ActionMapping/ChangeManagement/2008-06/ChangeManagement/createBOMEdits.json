@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/createBOMEdits",
+   "OperationResponse" : {
+      "output" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "bomEditRequest" : [
+         {
+            "changeRev" : "IModelObject",
+            "secondWindow" : "IModelObject",
+            "firstWindow" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,54 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "psIdInfos" : [
+         {
+            "productAndConfig" : {
+               "variantRuleInfos" : [
+                  {
+                     "variantRule" : "IModelObject",
+                     "variantRuleOwningObject" : "IModelObject"
+                  }
+               ],
+               "effectivityInfos" : [
+                  {
+                     "endItem" : "IModelObject",
+                     "effectivityDate" : "Date",
+                     "effectivityUnitNo" : "int"
+                  }
+               ],
+               "revisionRule" : "IModelObject",
+               "product" : "IModelObject"
+            },
+            "productStrutureIdentifier" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceVis-2015-03-MassiveModelVisualization/getStructureIdFromRecipe",
+   "OperationInput" : {
+      "productStructureIdInput" : [
+         {
+            "clientId" : "String",
+            "recipeObject" : "IModelObject",
+            "productAndConfig" : {
+               "product" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "effectivityInfos" : [
+                  {
+                     "effectivityDate" : "Date",
+                     "endItem" : "IModelObject",
+                     "effectivityUnitNo" : "int"
+                  }
+               ],
+               "variantRuleInfos" : [
+                  {
+                     "variantRuleOwningObject" : "IModelObject",
+                     "variantRule" : "IModelObject"
+                  }
+               ]
+            }
+         }
+      ]
+   }
+}

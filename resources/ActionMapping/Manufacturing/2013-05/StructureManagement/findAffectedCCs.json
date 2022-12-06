@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "affectedObjects" : [
+               {
+                  "queryObject" : "IModelObject",
+                  "affectedCC" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2013-05-StructureManagement/findAffectedCCs",
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   }
+}

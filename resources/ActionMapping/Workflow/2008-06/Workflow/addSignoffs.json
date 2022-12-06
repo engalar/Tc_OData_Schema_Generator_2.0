@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Workflow-2008-06-Workflow/addSignoffs",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "signoffs" : [
+         {
+            "task" : "IModelObject",
+            "signoffInfo" : [
+               {
+                  "originType" : "SOA_EPM_ORIGIN_UNDEFINED SOA_EPM_SIGNOFF_ORIGIN_PROFILE SOA_EPM_SIGNOFF_ORIGIN_ADDRESSLIST",
+                  "origin" : "IModelObject",
+                  "signoffMember" : "IModelObject",
+                  "signoffAction" : "SOA_EPM_ACTION_UNDEFINED SOA_EPM_Review SOA_EPM_Acknowledge SOA_EPM_Notify"
+               }
+            ]
+         }
+      ]
+   }
+}

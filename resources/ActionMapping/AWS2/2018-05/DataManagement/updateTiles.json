@@ -1,0 +1,76 @@
+{
+   "OperationResponse" : {
+      "tileGroups" : [
+         {
+            "groupName" : "String",
+            "tiles" : [
+               {
+                  "relUID" : "String",
+                  "displayName" : "String",
+                  "validSizes" : "int[]",
+                  "content" : [
+                     {
+                        "contentValue" : "String",
+                        "contentName" : "String"
+                     }
+                  ],
+                  "action" : {
+                     "url" : "String",
+                     "actionParams" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "actionType" : "int",
+                     "commandId" : "String"
+                  },
+                  "orderNumber" : "int",
+                  "isProtected" : "bool",
+                  "tileSize" : "int",
+                  "icons" : {
+                     "primaryIcon" : "String",
+                     "typeHierarchy" : "String[]",
+                     "secondaryIcon" : "String"
+                  },
+                  "themeIndex" : "int",
+                  "styleOverride" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-DataManagement/updateTiles",
+   "OperationInput" : {
+      "groupNames" : "String[]",
+      "tiles" : [
+         {
+            "styleOverride" : "String",
+            "orderNumber" : "int",
+            "action" : {
+               "actionParams" : {
+                  "SampleKeyString" : "String"
+               },
+               "url" : "String",
+               "commandId" : "String",
+               "actionType" : "int"
+            },
+            "isProtected" : "bool",
+            "icons" : {
+               "secondaryIcon" : "String",
+               "primaryIcon" : "String",
+               "typeHierarchy" : "String[]"
+            },
+            "tileSize" : "int",
+            "themeIndex" : "int",
+            "displayName" : "String",
+            "validSizes" : "int[]",
+            "content" : [
+               {
+                  "contentValue" : "String",
+                  "contentName" : "String"
+               }
+            ],
+            "relUID" : "String"
+         }
+      ]
+   }
+}

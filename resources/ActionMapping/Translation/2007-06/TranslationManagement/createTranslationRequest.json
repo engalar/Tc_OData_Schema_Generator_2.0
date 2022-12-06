@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "requestsCreated" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Translation-2007-06-TranslationManagement/createTranslationRequest",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "trigger" : "String",
+            "primaryObjects" : "IModelObject[]",
+            "translatorArgs" : "String[]",
+            "providerName" : "String",
+            "translatorName" : "String",
+            "secondaryObjects" : "IModelObject[]",
+            "priority" : "int"
+         }
+      ]
+   }
+}

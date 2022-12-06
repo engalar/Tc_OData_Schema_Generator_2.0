@@ -1,0 +1,43 @@
+{
+   "OperationResponse" : {
+      "dsInfo" : {
+         "datasetObject" : "IModelObject",
+         "injectedByPreference" : {
+            "SampleKeyString" : [
+               {
+                  "xml" : "String",
+                  "dataset" : "IModelObject",
+                  "datasetName" : "String"
+               }
+            ]
+         },
+         "stylesheetContext" : {
+            "datasetName" : "String",
+            "preferenceLocation" : "String",
+            "location" : "String",
+            "stylesheetType" : "String",
+            "client" : "String",
+            "type" : "String",
+            "sublocation" : "String"
+         },
+         "xrt" : "String",
+         "injectedByDatasetName" : {
+            "SampleKeyString" : {
+               "datasetName" : "String",
+               "dataset" : "IModelObject",
+               "xml" : "String"
+            }
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2016-03-DataManagement/getUnprocessedXRT",
+   "OperationInput" : {
+      "client" : "String",
+      "sublocation" : "String",
+      "type" : "String",
+      "stylesheetType" : "String",
+      "location" : "String",
+      "preferenceLocation" : "String"
+   }
+}

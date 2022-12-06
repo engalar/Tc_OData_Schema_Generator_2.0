@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "wbsDeleteSuccessRecords" : "String[]",
+      "wbsExportMode" : "String",
+      "wbsCreateSuccessRecords" : "String[]",
+      "scheduleDeltaRecords" : "String[]",
+      "impDeleteSuccessRecords" : "String[]",
+      "exportStatusInputs" : [
+         {
+            "uid" : "String",
+            "propertyValues" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ],
+      "wbsUpdateSuccessRecords" : "String[]",
+      "wbsRootItemID" : "String"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-IppeCore-2020-12-IPPEExternalScheduleIntegration/updateWBSPostExport"
+}

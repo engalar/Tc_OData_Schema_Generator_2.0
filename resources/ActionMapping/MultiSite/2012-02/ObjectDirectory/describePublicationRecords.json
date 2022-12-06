@@ -1,0 +1,53 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2012-02-ObjectDirectory/describePublicationRecords",
+   "OperationResponse" : {
+      "records" : [
+         {
+            "creationDate" : "Date",
+            "owningSiteId" : "int",
+            "revisionId" : "String",
+            "objectTag" : "String",
+            "releaseStatus" : "String[]",
+            "customAttributes" : {
+               "SampleKeyString" : "String"
+            },
+            "objectName" : "String",
+            "owningUserId" : "String",
+            "objectClass" : "String",
+            "owningGroupName" : "String",
+            "objectDesc" : "String",
+            "pubDate" : "Date",
+            "objectId" : "String",
+            "objectType" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "userDataOutput" : "String",
+      "serverCorrelID" : "String"
+   },
+   "OperationInput" : {
+      "clientLocale" : "String",
+      "clientInfo" : {
+         "osUserName" : "String",
+         "userId" : "String",
+         "clientOdsMajorVersion" : "int",
+         "userDataInput" : "String",
+         "roleName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "userName" : "String",
+         "clientSiteId" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "clientCorrelID" : "String",
+         "clientMinorReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientReleaseVersion" : "int",
+         "clientMaintPackVersion" : "int",
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "clientOdsMinorVersion" : "int"
+      },
+      "publishedObjTagsAsString" : "String[]"
+   }
+}

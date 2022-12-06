@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "groupAndAllocation" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getFamilyGroups",
+   "OperationInput" : {
+      "context" : "IModelObject"
+   }
+}

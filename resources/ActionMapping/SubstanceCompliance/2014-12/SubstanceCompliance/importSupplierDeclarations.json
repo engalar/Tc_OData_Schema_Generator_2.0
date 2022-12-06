@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "outputData" : [
+         {
+            "sdImportErrors" : "String[]",
+            "inputFileFMSTicket" : "String",
+            "logFileFMSTicket" : "String",
+            "sdImportWarnings" : "String[]",
+            "verdict" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "SubstanceCompliance-2014-12-SubstanceCompliance/importSupplierDeclarations",
+   "OperationInput" : {
+      "sdInput" : [
+         {
+            "optionSet" : "String",
+            "inputFileFMSTickets" : "String[]",
+            "xslPathFMSTicket" : "String",
+            "declarationType" : "String",
+            "tranferMode" : "String"
+         }
+      ]
+   }
+}

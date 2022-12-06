@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "object" : "IModelObject",
+            "clientId" : "String",
+            "keyValueArgs" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "data" : [
+         {
+            "defaultValueMap" : {
+               "SampleKeyString" : "String"
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ContMgmtS1000D40-2014-06-ContMgmtS1000D40/getSNSDefaultValues"
+}

@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "targetSites" : "int[]",
+      "expObjList" : "String[]",
+      "tcGSMessageId" : "String",
+      "inputData" : {
+         "optionSetUid" : "String",
+         "transferModeName" : "String",
+         "reason" : "String",
+         "sessionOptions" : [
+            {
+               "value" : "String",
+               "name" : "String"
+            }
+         ],
+         "transferModeUid" : "String",
+         "optionSetName" : "String",
+         "xsltFMSTicket" : "String",
+         "optionOverrides" : [
+            {
+               "name" : "String",
+               "value" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-ImportExport/dryRunExport",
+   "OperationResponse" : {
+      "fmsTicketForReport" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

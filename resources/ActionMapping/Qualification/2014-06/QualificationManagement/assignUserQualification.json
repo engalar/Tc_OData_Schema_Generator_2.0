@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "assignUserQualificationInfo" : [
+         {
+            "expiryDate" : "Date",
+            "user" : "IModelObject",
+            "qualification" : "IModelObject",
+            "effectiveDate" : "Date",
+            "levelName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Qualification-2014-06-QualificationManagement/assignUserQualification"
+}

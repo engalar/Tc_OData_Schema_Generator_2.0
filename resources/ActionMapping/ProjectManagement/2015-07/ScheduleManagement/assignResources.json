@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "createAssignments" : [
+         {
+            "isPlaceHolder" : "bool",
+            "assignedPercent" : "double",
+            "resource" : "IModelObject",
+            "task" : "IModelObject",
+            "discipline" : "IModelObject",
+            "placeholderAssignment" : "IModelObject"
+         }
+      ],
+      "schedule" : "IModelObject"
+   },
+   "ServiceOperation" : "ProjectManagement-2015-07-ScheduleManagement/assignResources",
+   "OperationResponse" : {
+      "createdObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "updatedTasks" : "IModelObject[]"
+   }
+}

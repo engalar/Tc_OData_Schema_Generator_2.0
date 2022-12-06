@@ -1,0 +1,34 @@
+{
+   "ServiceOperation" : "Internal-Core-2008-06-DispatcherManagement/updateDispatcherRequests",
+   "OperationResponse" : {
+      "outputObjects" : [
+         {
+            "requestUpdated" : "IModelObject",
+            "wasRequestUpdated" : "bool"
+         }
+      ],
+      "svcData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "keyValueArgs" : [
+               {
+                  "value" : "String",
+                  "key" : "String"
+               }
+            ],
+            "type" : "String",
+            "dataFiles" : [
+               {
+                  "file" : "IModelObject",
+                  "key" : "String"
+               }
+            ],
+            "nextState" : "String",
+            "requestToUpdate" : "IModelObject",
+            "currentState" : "String"
+         }
+      ]
+   }
+}

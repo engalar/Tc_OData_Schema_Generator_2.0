@@ -1,0 +1,75 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "targetObject" : "IModelObject",
+            "validationDataObject" : "IModelObject",
+            "attrList" : [
+               {
+                  "name" : "String",
+                  "operation" : "String",
+                  "value" : "String"
+               }
+            ],
+            "reports" : [
+               {
+                  "reportDatasetInfo" : {
+                     "fileInfos" : [
+                        {
+                           "fileName" : "String",
+                           "textFlag" : "int",
+                           "clientId" : "String",
+                           "namedReferencedName" : "String"
+                        }
+                     ],
+                     "clientId" : "String",
+                     "name" : "String",
+                     "type" : "String"
+                  },
+                  "useExistingObject" : "bool",
+                  "reportFileObject" : "IModelObject"
+               }
+            ],
+            "result" : "bool",
+            "existingValidationResult" : "IModelObject",
+            "comment" : "String",
+            "date" : "Date",
+            "status" : "int",
+            "targetItemRev" : "IModelObject",
+            "replaceExistingReport" : "bool",
+            "isAdhoc" : "bool",
+            "user" : "IModelObject",
+            "clientId" : "String",
+            "resultId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Validation-2007-06-Validation/createOrUpdateValidationResults",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "datasetOutputs" : [
+               {
+                  "dataset" : "IModelObject",
+                  "clientId" : "String",
+                  "datasetFileTicketInfos" : [
+                     {
+                        "ticket" : "String",
+                        "datasetFileInfo" : {
+                           "textFlag" : "int",
+                           "fileName" : "String",
+                           "namedReferencedName" : "String",
+                           "clientId" : "String"
+                        }
+                     }
+                  ]
+               }
+            ],
+            "resultObject" : "IModelObject",
+            "reportDatasets" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

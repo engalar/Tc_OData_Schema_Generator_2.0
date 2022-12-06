@@ -1,0 +1,82 @@
+{
+   "OperationInput" : {
+      "ecnList" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "ecnImpactAnalysisInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "unitInfoMap" : {
+                  "SampleKeyInt" : {
+                     "implementingMCNInfo" : [
+                        [
+                           "SampleKeyIModelObject"
+                        ],
+                        [
+                           {
+                              "impactedActivitiesInfo" : [
+                                 [
+                                    "SampleKeyIModelObject"
+                                 ],
+                                 [
+                                    {
+                                       "designFeatures" : "IModelObject[]",
+                                       "designElements" : "IModelObject[]"
+                                    }
+                                 ]
+                              ],
+                              "nonImpactedActivitiesInfo" : [
+                                 [
+                                    "SampleKeyIModelObject"
+                                 ],
+                                 [
+                                    {
+                                       "ecns" : "IModelObject[]"
+                                    }
+                                 ]
+                              ]
+                           }
+                        ]
+                     ],
+                     "nonImplementingMCNInfo" : [
+                        [
+                           "SampleKeyIModelObject"
+                        ],
+                        [
+                           {
+                              "impactedActivitiesInfo" : [
+                                 [
+                                    "SampleKeyIModelObject"
+                                 ],
+                                 [
+                                    {
+                                       "designFeatures" : "IModelObject[]",
+                                       "designElements" : "IModelObject[]"
+                                    }
+                                 ]
+                              ],
+                              "nonImpactedActivitiesInfo" : [
+                                 [
+                                    "SampleKeyIModelObject"
+                                 ],
+                                 [
+                                    {
+                                       "ecns" : "IModelObject[]"
+                                    }
+                                 ]
+                              ]
+                           }
+                        ]
+                     ]
+                  }
+               }
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ManufacturingCM-2017-05-ChangeManagement/getEcnImpactAnalysisInfo"
+}

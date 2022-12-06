@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "impactedObjects" : "IModelObject[]",
+            "target" : "IModelObject",
+            "change" : "IModelObject",
+            "addToProblem" : "bool",
+            "addToSolution" : "bool",
+            "replacement" : "IModelObject",
+            "isSelected" : "bool[]",
+            "operation" : "int"
+         }
+      ],
+      "updateRequestId" : "String"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "updateRequestId" : "String",
+      "output" : [
+         {
+            "status" : "bool",
+            "impactedObject" : "IModelObject",
+            "statusComment" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/updateImpactedObjects"
+}

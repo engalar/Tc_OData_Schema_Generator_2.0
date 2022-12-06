@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "warnings" : "String[]",
+            "matrix" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2013-05-Core/matchObjectsAgainstVariantRules",
+   "OperationInput" : {
+      "args" : [
+         {
+            "objects" : "IModelObject[]",
+            "variantRules" : "IModelObject[]"
+         }
+      ]
+   }
+}

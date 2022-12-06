@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "licenseFilterInput" : [
+         {
+            "licStatus" : "String",
+            "licType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AuthorizedDataAccess-2007-06-LicenseManagement/getLicenseIdsAndTypes",
+   "OperationResponse" : {
+      "licIdType" : [
+         {
+            "licenseType" : "String",
+            "licenseId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

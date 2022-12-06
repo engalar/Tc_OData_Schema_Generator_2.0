@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-CadBomAlignment-2013-12-ObjectManagement/deleteSearchCriteria",
+   "OperationResponse" : {
+      "searchCriteriaOutputMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "criteriaInput" : [
+         {
+            "bomLine" : "IModelObject",
+            "criteriaType" : "int",
+            "isCreate" : "bool",
+            "searchCriteriaMap" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   }
+}

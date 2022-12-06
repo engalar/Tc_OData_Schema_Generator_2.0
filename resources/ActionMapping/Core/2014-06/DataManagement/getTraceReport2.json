@@ -1,0 +1,61 @@
+{
+   "ServiceOperation" : "Core-2014-06-DataManagement/getTraceReport2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "traceReports" : [
+         {
+            "defRootNode" : {
+               "childNodes" : "Teamcenter::Soa::Core::_2014_06::DataManagement::TraceReportTreeNode2[]",
+               "contextLineObj" : "IModelObject",
+               "isDirectLink" : "bool",
+               "isTraceLinkObj" : "bool",
+               "bomView" : "IModelObject",
+               "tarContextName" : "String",
+               "object" : "IModelObject",
+               "displayObj" : "IModelObject",
+               "srcContextName" : "String"
+            },
+            "compRootNode" : {
+               "childNodes" : "Teamcenter::Soa::Core::_2014_06::DataManagement::TraceReportTreeNode2[]",
+               "contextLineObj" : "IModelObject",
+               "isTraceLinkObj" : "bool",
+               "bomView" : "IModelObject",
+               "isDirectLink" : "bool",
+               "object" : "IModelObject",
+               "tarContextName" : "String",
+               "displayObj" : "IModelObject",
+               "srcContextName" : "String"
+            },
+            "persistentObjects" : "IModelObject[]",
+            "selectedObject" : "IModelObject"
+         }
+      ],
+      "transientFileReadTickets" : "String[]"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "isIndirectTraceReportNeeded" : "bool",
+            "reportType" : "int",
+            "selectedObjs" : "IModelObject[]",
+            "sortPropName" : "String",
+            "filteredObjectTypes" : "String[]",
+            "reportDepth" : "int",
+            "scopeLines" : "IModelObject[]",
+            "propertyFilterInput" : [
+               {
+                  "operatorType" : "int",
+                  "propertyName" : "String",
+                  "logicalOperatorType" : "int",
+                  "propertyValue" : "String"
+               }
+            ],
+            "exportTo" : "String",
+            "exportColumnNames" : "String[]",
+            "filteredTraceLinkTypes" : "String[]",
+            "exportTemplate" : "String",
+            "sortDirection" : "int"
+         }
+      ]
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "filter" : "String[]",
+      "bomlines" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "lines" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2009-06-StructureManagement/getBOMLineAttachments"
+}

@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "newDependencies" : [
+         {
+            "lagTime" : "int",
+            "depType" : "int",
+            "predTask" : "IModelObject",
+            "succTask" : "IModelObject"
+         }
+      ],
+      "schedule" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "updatedTasks" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "createdDependencies" : "IModelObject[]",
+      "createdProxyTasks" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/createDependencies"
+}

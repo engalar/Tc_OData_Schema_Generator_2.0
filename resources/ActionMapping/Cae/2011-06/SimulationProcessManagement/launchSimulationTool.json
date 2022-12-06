@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Cae-2011-06-SimulationProcessManagement/launchSimulationTool",
+   "OperationResponse" : "bool",
+   "OperationInput" : {
+      "toolName" : "String",
+      "runtimeArguments" : "String[]",
+      "launchType" : "String",
+      "workingDirectory" : "String",
+      "inputObjects" : [
+         {
+            "inputItemRevisions" : "IModelObject[]"
+         }
+      ],
+      "itemCreationOption" : "String",
+      "datasetCreationOption" : "String",
+      "plmxmlExportFileName" : "String"
+   }
+}

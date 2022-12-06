@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-AWPdmCore-2020-05-PlantDataManagement/getViewerData",
+   "OperationResponse" : {
+      "modelId" : "String",
+      "projectId" : "String",
+      "changeSetId" : "String",
+      "visibility" : "String",
+      "serviceData" : "IServiceData",
+      "externalIds" : "String[]"
+   },
+   "OperationInput" : {
+      "productContext" : "IModelObject"
+   }
+}

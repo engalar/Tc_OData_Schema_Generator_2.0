@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : {
+      "validSimulationTools" : [
+         {
+            "tool" : "IModelObject",
+            "supportedLaunchTypes" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SimProc-2018-11-SimulationToolLaunch/getValidToolsForStructureMap",
+   "OperationInput" : {}
+}

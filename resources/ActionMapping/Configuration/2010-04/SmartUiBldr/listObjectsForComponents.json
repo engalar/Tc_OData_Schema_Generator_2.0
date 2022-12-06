@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "compInfo" : [
+         {
+            "component" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "typePref" : {
+         "className" : "String",
+         "typeName" : "String",
+         "property" : "String"
+      },
+      "currSelection" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "ServiceOperation" : "Configuration-2010-04-SmartUiBldr/listObjectsForComponents",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "componentsList" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

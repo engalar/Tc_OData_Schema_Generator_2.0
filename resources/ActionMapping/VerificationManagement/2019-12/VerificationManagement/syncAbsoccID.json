@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-VerificationManagement-2019-12-VerificationManagement/syncAbsoccID",
+   "OperationInput" : {
+      "sourceLine" : "IModelObject",
+      "targetLine" : "IModelObject",
+      "syncChildrenAbsOccId" : "bool"
+   }
+}

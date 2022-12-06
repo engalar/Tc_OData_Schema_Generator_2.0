@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Core-2006-03-Session/getSessionGroupMember",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "groupMember" : "IModelObject"
+   }
+}

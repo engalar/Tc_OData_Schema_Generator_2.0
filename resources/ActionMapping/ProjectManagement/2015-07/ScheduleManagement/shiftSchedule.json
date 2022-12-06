@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "newDate" : "Date",
+      "schedule" : "IModelObject",
+      "runInBackground" : "bool",
+      "isNewFinishDate" : "bool"
+   },
+   "ServiceOperation" : "ProjectManagement-2015-07-ScheduleManagement/shiftSchedule",
+   "OperationResponse" : "IServiceData"
+}

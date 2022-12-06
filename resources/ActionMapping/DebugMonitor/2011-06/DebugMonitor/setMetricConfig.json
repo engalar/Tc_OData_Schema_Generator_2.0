@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugMonitor/setMetricConfig",
+   "OperationResponse" : "bool",
+   "OperationInput" : {
+      "configs" : {
+         "SampleKeyString" : {
+            "thresholdValue" : "String",
+            "numMaxEntriesToKeep" : "int",
+            "thresholdPeriod" : "int",
+            "mode" : "Off Collect Alert"
+         }
+      }
+   }
+}

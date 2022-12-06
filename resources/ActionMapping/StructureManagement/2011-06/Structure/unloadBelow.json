@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "StructureManagement-2011-06-Structure/unloadBelow",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "bomlines" : "IModelObject[]",
+      "unloadType" : "unrecoverable recoverable"
+   }
+}

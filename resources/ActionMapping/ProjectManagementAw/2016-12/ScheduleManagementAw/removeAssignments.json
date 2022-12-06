@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "runInBackground" : "bool",
+      "membersToRemoveAssignments" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagementAw-2016-12-ScheduleManagementAw/removeAssignments"
+}

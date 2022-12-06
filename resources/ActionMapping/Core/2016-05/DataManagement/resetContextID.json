@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Core-2016-05-DataManagement/resetContextID",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "contextNames" : "String[]"
+   }
+}

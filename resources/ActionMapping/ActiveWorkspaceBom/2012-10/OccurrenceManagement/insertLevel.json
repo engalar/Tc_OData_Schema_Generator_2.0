@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "elements" : "IModelObject[]",
+            "clientId" : "String",
+            "object" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "newParent" : "IModelObject",
+            "newElements" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2012-10-OccurrenceManagement/insertLevel"
+}

@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "productContext" : "IModelObject",
+            "isAsBuilt" : "bool",
+            "neutralPart" : "IModelObject",
+            "physicalStructureAsyncInfo" : {
+               "lotNumber" : "String",
+               "partNumber" : "String",
+               "structureContext" : "String",
+               "quantity" : "double",
+               "manufacturerId" : "String",
+               "numberOfLevels" : "int",
+               "installationDate" : "Date",
+               "useSerialNumberGenerators" : "bool",
+               "locationName" : "String",
+               "dispositionType" : "String",
+               "manufacturingDate" : "Date",
+               "serialNumber" : "String",
+               "effectiveFromDate" : "Date",
+               "effectiveToDate" : "Date"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-MROCoreAw-2018-12-MROCoreAw/generatePhysicalStructureAsync",
+   "OperationResponse" : {}
+}

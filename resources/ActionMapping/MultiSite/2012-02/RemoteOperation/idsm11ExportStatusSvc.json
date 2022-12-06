@@ -1,0 +1,40 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11ExportStatusSvc",
+   "OperationResponse" : {
+      "out" : {
+         "exportComplete" : "bool",
+         "workspaceObjects" : "int",
+         "compressPerformedFlg" : "int",
+         "failures" : [
+            {
+               "failureCode" : "int",
+               "failingObject" : "String"
+            }
+         ],
+         "exportIfail" : "int",
+         "exportFiles" : "String[]"
+      },
+      "userDataIp" : "String",
+      "serverCorrelationId" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "checkClientAfterNWsos" : "int",
+         "abortExport" : "bool",
+         "exportStagingDir" : "String",
+         "clientInfo" : {
+            "osUserName" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "userDataIp" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "clientCorrelationId" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int"
+         }
+      }
+   }
+}

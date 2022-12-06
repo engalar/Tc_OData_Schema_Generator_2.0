@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "queryInputs" : [
+         {
+            "entries" : "String[]",
+            "maxNumToReturn" : "int",
+            "values" : "String[]",
+            "clientId" : "String",
+            "query" : "IModelObject"
+         }
+      ],
+      "loadOption" : "GROUP_ONLY GROUP_AND_CONTENT",
+      "configContext" : "IModelObject"
+   },
+   "ServiceOperation" : "ModelCore-2015-07-GeometricConnectivity/getConnectivityContents",
+   "OperationResponse" : {
+      "clientIdToContentMap" : {
+         "SampleKeyString" : [
+            {
+               "groupContents" : "IModelObject[]",
+               "geomGroup" : "IModelObject"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   }
+}

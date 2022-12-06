@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Internal-CaeAw-2020-05-SimulationManagementAw/processIntermediateImportUsingDSM",
+   "OperationResponse" : {
+      "fmsTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "statusObject" : "IModelObject",
+      "userSessionInfo" : {
+         "tcSSOAppId" : "String",
+         "securityToken" : "String",
+         "tcSSOEnabled" : "bool",
+         "hostPath" : "String",
+         "tcSSOURL" : "String"
+      },
+      "isDSMEnabled" : "bool"
+   }
+}

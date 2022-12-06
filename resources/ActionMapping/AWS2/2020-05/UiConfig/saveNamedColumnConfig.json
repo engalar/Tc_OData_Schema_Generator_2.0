@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "uid" : "String",
+      "namedColumnConfigCriteria" : {
+         "SampleKeyString" : "String"
+      },
+      "columns" : [
+         {
+            "propertyName" : "String",
+            "dataType" : "String",
+            "sortPriority" : "int",
+            "hiddenFlag" : "bool",
+            "isFrozen" : "bool",
+            "columnOrder" : "int",
+            "sortDirection" : "String",
+            "typeName" : "String",
+            "isFilteringEnabled" : "bool",
+            "filterDefinitionKey" : "String",
+            "displayName" : "String",
+            "pixelWidth" : "int",
+            "filterValue" : {
+               "values" : "String[]",
+               "operation" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2020-05-UiConfig/saveNamedColumnConfig"
+}

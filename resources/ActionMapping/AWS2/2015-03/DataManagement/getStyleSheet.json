@@ -1,0 +1,51 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2015-03-DataManagement/getStyleSheet",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "visiblePages" : "int",
+            "classificationData" : [
+               {
+                  "classificationObject" : "IModelObject",
+                  "classificationTrace" : "String[]"
+               }
+            ],
+            "jtFileMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "processedPage" : "String",
+            "datasetInfo" : {
+               "datasetLastSaveDate" : "Date",
+               "datasetContent" : "String"
+            },
+            "localeMap" : {
+               "SampleKeyString" : "String"
+            },
+            "objectSetMap" : {
+               "SampleKeyString" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientContext" : {
+               "SampleKeyString" : "String"
+            },
+            "styleSheetLastModDate" : "Date",
+            "businessObject" : "IModelObject",
+            "businessObjectType" : "String",
+            "styleSheetType" : "String",
+            "targetPage" : "String"
+         }
+      ],
+      "processEntireXRT" : "bool"
+   }
+}

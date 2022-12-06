@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "usageInput" : [
+         {
+            "parentAsMaintainedBOMLine" : "IModelObject",
+            "childPhysicalPart" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "openUsageOutput" : {
+         "usageBOMLines" : "IModelObject[]",
+         "usagePropertyValue" : "String[]",
+         "usagePropertyName" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AsMaintained-2009-06-AsMaintained/getAllAsmOpenUsage"
+}

@@ -1,0 +1,66 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "partition" : "IModelObject",
+            "clientId" : "String",
+            "connectionObjects" : [
+               {
+                  "end2Object" : "IModelObject",
+                  "end1Object" : "IModelObject",
+                  "modelObject" : "IModelObject",
+                  "end1ClientId" : "String",
+                  "clientId" : "String",
+                  "boType" : "String",
+                  "end2ClientId" : "String",
+                  "connectionObject" : "IModelObject",
+                  "lastModifiedDateGuard" : "Date",
+                  "attributeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "modelElementObjects" : [
+               {
+                  "modelElement" : "IModelObject",
+                  "revRule" : "IModelObject",
+                  "modelObject" : "IModelObject",
+                  "updateSubordinates" : "bool",
+                  "clientId" : "String",
+                  "parentModelElement" : "IModelObject",
+                  "boType" : "String",
+                  "variantRule" : "IModelObject",
+                  "bomView" : "String",
+                  "lastModifiedDateGuard" : "Date",
+                  "sourceObject" : "IModelObject",
+                  "attributeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "parentModelElementClientId" : "String"
+               }
+            ],
+            "portObjects" : [
+               {
+                  "portObject" : "IModelObject",
+                  "clientId" : "String",
+                  "boType" : "String",
+                  "modelElement" : "IModelObject",
+                  "attributeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "modelElementClientId" : "String",
+                  "lastModifiedDateGuard" : "Date",
+                  "sourceObject" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MDConnectivity-2017-11-MDConnectivity/createOrUpdateModelElements2"
+}

@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "propertiesInput" : [
+         {
+            "property" : "String",
+            "type" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveModeler-2019-12-DataModelManagement/getPropertiesDetails",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "viewModelObjects" : [
+         {
+            "viewModelPropMap" : {
+               "SampleKeyString" : {
+                  "isModifiable" : "bool",
+                  "propDisplayName" : "String",
+                  "propDBValue" : "String",
+                  "propDataType" : "String",
+                  "propUIValue" : "String",
+                  "propInternalName" : "String"
+               }
+            },
+            "propertyName" : "String",
+            "type" : "String"
+         }
+      ]
+   }
+}

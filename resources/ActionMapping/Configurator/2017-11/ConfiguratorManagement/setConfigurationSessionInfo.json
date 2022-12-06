@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "perspective" : "IModelObject",
+            "targetObjects" : "IModelObject[]",
+            "configProfile" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "boolMap" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "doubleMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "stringMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "objectMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               }
+            }
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Configurator-2017-11-ConfiguratorManagement/setConfigurationSessionInfo"
+}

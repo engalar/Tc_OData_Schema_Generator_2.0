@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2012-10-StructureSearch/getParentsWhereUsed",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "totalPageCount" : "int",
+      "itemRevisionToParentItemRevisions" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "itemRevisions" : "IModelObject[]",
+      "revisionRule" : "IModelObject",
+      "pageNumber" : "int"
+   }
+}

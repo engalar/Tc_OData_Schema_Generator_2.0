@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "aspectExpandInfo" : [
+         {
+            "expansionSemantic" : "int",
+            "startingNodes" : "IModelObject[]",
+            "expandOptionsFlags" : {
+               "SampleKeyString" : "bool"
+            },
+            "levelsToExpand" : "int",
+            "expandOptions" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expandContent" : [
+         {
+            "expansionSemantic" : "int",
+            "startingNode" : "IModelObject",
+            "resultingAspects" : "IModelObject[]",
+            "aspectsFromIncludedSchemes" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Asp0Aspect-2015-07-AspectManagement/expandAspects"
+}

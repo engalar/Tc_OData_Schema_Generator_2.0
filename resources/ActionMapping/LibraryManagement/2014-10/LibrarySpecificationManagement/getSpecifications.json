@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "specOutputs" : [
+         {
+            "library" : "IModelObject",
+            "specifications" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/getSpecifications",
+   "OperationInput" : {
+      "configContext" : "IModelObject",
+      "getSpecsInputs" : [
+         {
+            "library" : "IModelObject",
+            "specExprs" : [
+               {
+                  "propertyName" : "String",
+                  "expression" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "PPSMInterfaceAw-2020-05-PPSMInterface/propagateUsersAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "propagateUsersInput" : [
+         {
+            "propagateOptions" : {
+               "keyValue" : "String",
+               "name" : "String"
+            },
+            "targetObjects" : "IModelObject[]",
+            "parentObject" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "snapshot3DStructureFilesInput" : [
+         {
+            "snapshot3DDataset" : "IModelObject",
+            "clientId" : "String",
+            "visibleLinesList" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Visualization-2010-09-DataManagement/updateSnapshot3DStructureFiles",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "snapshot3DStrFilesOutputMap" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   }
+}

@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "businessObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "auditableEventTypes" : "IModelObject[]",
+      "subscribableEventTypes" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "clientId" : "String"
+   },
+   "ServiceOperation" : "Internal-Notification-2015-03-SubscriptionManagement/getEventTypes2"
+}

@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int"
+         },
+         "replicatedObjects" : "String[]",
+         "eventTypeName" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm4RemoteNotificationSvc",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "out" : {
+         "failureCodes" : "int[]"
+      }
+   }
+}

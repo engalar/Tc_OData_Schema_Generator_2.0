@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "productName" : "String",
+      "configuratorURL" : "String",
+      "productNamespace" : "String",
+      "inputObjects" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "revisionRule" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-ModelCore-2017-05-ModelConfiguration/getCalculatedEffectivity",
+   "OperationResponse" : {
+      "result" : [
+         {
+            "effectivityExpression" : {
+               "subExpressions" : "Mdl0::Soa::Internal::ModelCore::_2017_05::ModelConfiguration::ConfigExpression[]",
+               "formula" : {
+                  "productNameSpace" : "String",
+                  "productName" : "String",
+                  "formula" : "String"
+               },
+               "effectivityTable" : [
+                  {
+                     "unitIn" : "int",
+                     "dateOut" : "Date",
+                     "rest" : {
+                        "productName" : "String",
+                        "formula" : "String",
+                        "productNameSpace" : "String"
+                     },
+                     "unitOut" : "int",
+                     "dateIn" : "Date"
+                  }
+               ],
+               "opCode" : "int",
+               "optionValue" : {
+                  "description" : "String",
+                  "name" : "String",
+                  "family" : "IModelObject"
+               }
+            },
+            "configuredOutState" : "String",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

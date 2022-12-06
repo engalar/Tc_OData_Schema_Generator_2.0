@@ -1,0 +1,33 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm4XferExportFileSvc",
+   "OperationResponse" : {
+      "out" : {
+         "fileSize" : "String",
+         "portNumber" : "int",
+         "serverId" : "int",
+         "extraInt" : "int",
+         "extraString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "extraInt" : "int",
+         "startingPosition" : "int",
+         "clientInfo" : {
+            "osUserName" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int"
+         },
+         "exportStagingDir" : "String",
+         "command" : "int",
+         "extraString" : "String",
+         "exportFile" : "String"
+      }
+   }
+}

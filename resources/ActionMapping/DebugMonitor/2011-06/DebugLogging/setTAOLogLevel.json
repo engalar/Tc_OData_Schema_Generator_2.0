@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "logLevel" : "int"
+   },
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugLogging/setTAOLogLevel",
+   "OperationResponse" : "bool"
+}

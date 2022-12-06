@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "theWSOs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-IcsAw-2019-06-Classification/getClassificationCmdVisibilityInfo",
+   "OperationResponse" : {
+      "wso2ClassifyMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "bool"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

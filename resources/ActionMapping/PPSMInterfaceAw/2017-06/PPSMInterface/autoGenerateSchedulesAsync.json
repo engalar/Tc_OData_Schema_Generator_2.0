@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "autoGenScheduleInfo" : {
+         "scheduleMethod" : "String",
+         "eventObject" : "IModelObject",
+         "scheduleDate" : "Date",
+         "sourceObjectType" : "String",
+         "packages" : "IModelObject[]",
+         "selection" : "String",
+         "cardinality" : "String"
+      }
+   },
+   "ServiceOperation" : "PPSMInterfaceAw-2017-06-PPSMInterface/autoGenerateSchedulesAsync",
+   "OperationResponse" : {}
+}

@@ -1,0 +1,225 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "compoundInputData" : {
+               "SampleKeyString" : [
+                  {
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "modifiableAssignedValues" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "boType" : "String",
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "bo" : "IModelObject",
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "compoundInputData" : "Mdl0::Soa::ModelCore::_2011_06::IdManagement::InputDataMap",
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "clientID" : "String",
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     }
+                  }
+               ]
+            },
+            "floatProps" : {
+               "SampleKeyString" : "float"
+            },
+            "bo" : "IModelObject",
+            "floatArrayProps" : {
+               "SampleKeyString" : "float[]"
+            },
+            "boolArrayProps" : {
+               "SampleKeyString" : "bool[]"
+            },
+            "stringArrayProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "dateArrayProps" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "dateProps" : {
+               "SampleKeyString" : "Date"
+            },
+            "doubleProps" : {
+               "SampleKeyString" : "double"
+            },
+            "clientID" : "String",
+            "boolProps" : {
+               "SampleKeyString" : "bool"
+            },
+            "doubleArrayProps" : {
+               "SampleKeyString" : "double[]"
+            },
+            "intArrayProps" : {
+               "SampleKeyString" : "int[]"
+            },
+            "tagArrayProps" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "intProps" : {
+               "SampleKeyString" : "int"
+            },
+            "modifiableAssignedValues" : {
+               "SampleKeyString" : "bool"
+            },
+            "tagProps" : {
+               "SampleKeyString" : "IModelObject"
+            },
+            "boType" : "String",
+            "stringProps" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ModelCore-2011-06-IdManagement/autoAssignValues",
+   "OperationInput" : {
+      "input" : [
+         {
+            "operation" : "CreateOperation SaveAsOperation ReviseOperation",
+            "data" : {
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "compoundInputData" : {
+                  "SampleKeyString" : [
+                     {
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "modifiableAssignedValues" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boType" : "String",
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "bo" : "IModelObject",
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "compoundInputData" : "Mdl0::Soa::ModelCore::_2011_06::IdManagement::InputDataMap",
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "clientID" : "String",
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        }
+                     }
+                  ]
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "bo" : "IModelObject",
+               "clientID" : "String",
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "modifiableAssignedValues" : {
+                  "SampleKeyString" : "bool"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "boType" : "String",
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         }
+      ]
+   }
+}

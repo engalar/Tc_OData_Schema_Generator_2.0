@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "objectList" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "objectMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   },
+   "ServiceOperation" : "Rdv-2013-05-ContextManagement/getRelatedObjectsInContext"
+}

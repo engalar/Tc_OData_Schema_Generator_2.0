@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {
+      "louBomLine" : "IModelObject[]",
+      "archBomWindow" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Rdv-2009-04-ContextManagement/getAllGOPartSolutions",
+   "OperationInput" : {
+      "goBomLine" : "IModelObject"
+   }
+}

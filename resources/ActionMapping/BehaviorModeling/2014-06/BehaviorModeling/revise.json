@@ -1,0 +1,508 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "modelData" : [
+         {
+            "modelsInfo" : [
+               {
+                  "traceabilityDefnData" : [
+                     {
+                        "clientId" : "String",
+                        "traceabilityAction" : "String",
+                        "isMdlCompPri" : "bool",
+                        "tcObjUID" : "String",
+                        "traceLinkData" : {
+                           "objUID" : "String",
+                           "attributes" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "type" : "String"
+                        }
+                     }
+                  ],
+                  "tcType" : "String",
+                  "timestamp" : "String",
+                  "action" : "String",
+                  "revAttributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "viewableData" : [
+                     {
+                        "datasetIdentitier" : "String",
+                        "datasetUid" : "String",
+                        "reservation" : "bool",
+                        "action" : "String",
+                        "datasetFileInfos" : [
+                           {
+                              "writeTicket" : "String",
+                              "fileName" : "String",
+                              "namedReferenceName" : "String",
+                              "allowReplace" : "bool",
+                              "clientId" : "String",
+                              "isText" : "bool",
+                              "readTicket" : "String",
+                              "filePath" : "String"
+                           }
+                        ],
+                        "type" : "String"
+                     }
+                  ],
+                  "connections" : [
+                     {
+                        "connPoints" : [
+                           {
+                              "portId" : "String",
+                              "modelInstanceName" : "String",
+                              "portName" : "String",
+                              "action" : "String"
+                           }
+                        ],
+                        "attributes" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "instanceName" : "String",
+                        "itemUid" : "String",
+                        "revAttributes" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "type" : "String",
+                        "action" : "String",
+                        "instanceUid" : "String",
+                        "applicationInfo" : "String"
+                     }
+                  ],
+                  "folderUid" : "String",
+                  "primaryData" : [
+                     {
+                        "reservation" : "bool",
+                        "datasetUid" : "String",
+                        "datasetIdentitier" : "String",
+                        "datasetFileInfos" : [
+                           {
+                              "allowReplace" : "bool",
+                              "isText" : "bool",
+                              "readTicket" : "String",
+                              "clientId" : "String",
+                              "namedReferenceName" : "String",
+                              "writeTicket" : "String",
+                              "fileName" : "String",
+                              "filePath" : "String"
+                           }
+                        ],
+                        "type" : "String",
+                        "action" : "String"
+                     }
+                  ],
+                  "configurationData" : [
+                     {
+                        "relationType" : "String",
+                        "action" : "String",
+                        "tooltype" : "String",
+                        "desc" : "String",
+                        "datasetInfo" : {
+                           "reservation" : "bool",
+                           "datasetIdentitier" : "String",
+                           "datasetUid" : "String",
+                           "datasetFileInfos" : [
+                              {
+                                 "clientId" : "String",
+                                 "readTicket" : "String",
+                                 "isText" : "bool",
+                                 "allowReplace" : "bool",
+                                 "fileName" : "String",
+                                 "writeTicket" : "String",
+                                 "namedReferenceName" : "String",
+                                 "filePath" : "String"
+                              }
+                           ],
+                           "type" : "String",
+                           "action" : "String"
+                        }
+                     }
+                  ],
+                  "statusInfo" : [
+                     {
+                        "type" : "String",
+                        "code" : "int",
+                        "message" : "String"
+                     }
+                  ],
+                  "carryForwardAdditionalData" : "bool",
+                  "uid" : "String",
+                  "checkoutComment" : "String",
+                  "additionalData" : [
+                     {
+                        "desc" : "String",
+                        "datasetInfo" : {
+                           "reservation" : "bool",
+                           "datasetUid" : "String",
+                           "datasetIdentitier" : "String",
+                           "datasetFileInfos" : [
+                              {
+                                 "filePath" : "String",
+                                 "fileName" : "String",
+                                 "writeTicket" : "String",
+                                 "namedReferenceName" : "String",
+                                 "clientId" : "String",
+                                 "readTicket" : "String",
+                                 "isText" : "bool",
+                                 "allowReplace" : "bool"
+                              }
+                           ],
+                           "type" : "String",
+                           "action" : "String"
+                        },
+                        "action" : "String",
+                        "relationType" : "String",
+                        "tooltype" : "String"
+                     }
+                  ],
+                  "bvrTimeStamp" : "String",
+                  "attributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "ports" : {
+                     "portId" : "String",
+                     "attributes" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "portUid" : "String",
+                     "instanceUid" : "String",
+                     "instanceType" : "String",
+                     "traceabilityDefnData" : [
+                        {
+                           "traceLinkData" : {
+                              "type" : "String",
+                              "attributes" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "objUID" : "String"
+                           },
+                           "isMdlCompPri" : "bool",
+                           "traceabilityAction" : "String",
+                           "clientId" : "String",
+                           "tcObjUID" : "String"
+                        }
+                     ],
+                     "portType" : "String",
+                     "action" : "String",
+                     "portName" : "String"
+                  },
+                  "userSelections" : "String[]",
+                  "modelElements" : [
+                     {
+                        "instanceName" : "String",
+                        "parentName" : "String",
+                        "attributes" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "modelName" : "String",
+                        "traceabilityDefnData" : [
+                           {
+                              "traceLinkData" : {
+                                 "type" : "String",
+                                 "objUID" : "String",
+                                 "attributes" : {
+                                    "SampleKeyString" : "String[]"
+                                 }
+                              },
+                              "tcObjUID" : "String",
+                              "clientId" : "String",
+                              "traceabilityAction" : "String",
+                              "isMdlCompPri" : "bool"
+                           }
+                        ],
+                        "instanceType" : "String",
+                        "instanceUid" : "String",
+                        "tcType" : "String",
+                        "modelElementIdentifier" : "String",
+                        "action" : "String",
+                        "uid" : "String"
+                     }
+                  ],
+                  "modelName" : "String",
+                  "associatedData" : [
+                     {
+                        "desc" : "String",
+                        "datasetInfo" : {
+                           "datasetFileInfos" : [
+                              {
+                                 "filePath" : "String",
+                                 "writeTicket" : "String",
+                                 "fileName" : "String",
+                                 "namedReferenceName" : "String",
+                                 "allowReplace" : "bool",
+                                 "readTicket" : "String",
+                                 "isText" : "bool",
+                                 "clientId" : "String"
+                              }
+                           ],
+                           "type" : "String",
+                           "action" : "String",
+                           "datasetUid" : "String",
+                           "datasetIdentitier" : "String",
+                           "reservation" : "bool"
+                        },
+                        "action" : "String",
+                        "relationType" : "String",
+                        "tooltype" : "String"
+                     }
+                  ],
+                  "topModel" : "bool"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-BehaviorModeling-2014-06-BehaviorModeling/revise",
+   "OperationInput" : {
+      "vecBhmModelInfo" : [
+         {
+            "viewableData" : [
+               {
+                  "reservation" : "bool",
+                  "datasetUid" : "String",
+                  "datasetIdentitier" : "String",
+                  "action" : "String",
+                  "datasetFileInfos" : [
+                     {
+                        "filePath" : "String",
+                        "fileName" : "String",
+                        "writeTicket" : "String",
+                        "namedReferenceName" : "String",
+                        "readTicket" : "String",
+                        "isText" : "bool",
+                        "clientId" : "String",
+                        "allowReplace" : "bool"
+                     }
+                  ],
+                  "type" : "String"
+               }
+            ],
+            "connections" : [
+               {
+                  "connPoints" : [
+                     {
+                        "modelInstanceName" : "String",
+                        "portId" : "String",
+                        "action" : "String",
+                        "portName" : "String"
+                     }
+                  ],
+                  "attributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "instanceName" : "String",
+                  "itemUid" : "String",
+                  "action" : "String",
+                  "revAttributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "type" : "String",
+                  "instanceUid" : "String",
+                  "applicationInfo" : "String"
+               }
+            ],
+            "folderUid" : "String",
+            "configurationData" : [
+               {
+                  "datasetInfo" : {
+                     "action" : "String",
+                     "type" : "String",
+                     "datasetFileInfos" : [
+                        {
+                           "allowReplace" : "bool",
+                           "clientId" : "String",
+                           "readTicket" : "String",
+                           "isText" : "bool",
+                           "writeTicket" : "String",
+                           "fileName" : "String",
+                           "namedReferenceName" : "String",
+                           "filePath" : "String"
+                        }
+                     ],
+                     "datasetIdentitier" : "String",
+                     "datasetUid" : "String",
+                     "reservation" : "bool"
+                  },
+                  "desc" : "String",
+                  "tooltype" : "String",
+                  "relationType" : "String",
+                  "action" : "String"
+               }
+            ],
+            "primaryData" : [
+               {
+                  "reservation" : "bool",
+                  "datasetIdentitier" : "String",
+                  "datasetUid" : "String",
+                  "datasetFileInfos" : [
+                     {
+                        "filePath" : "String",
+                        "allowReplace" : "bool",
+                        "isText" : "bool",
+                        "readTicket" : "String",
+                        "clientId" : "String",
+                        "namedReferenceName" : "String",
+                        "writeTicket" : "String",
+                        "fileName" : "String"
+                     }
+                  ],
+                  "type" : "String",
+                  "action" : "String"
+               }
+            ],
+            "statusInfo" : [
+               {
+                  "type" : "String",
+                  "message" : "String",
+                  "code" : "int"
+               }
+            ],
+            "traceabilityDefnData" : [
+               {
+                  "tcObjUID" : "String",
+                  "isMdlCompPri" : "bool",
+                  "traceabilityAction" : "String",
+                  "clientId" : "String",
+                  "traceLinkData" : {
+                     "type" : "String",
+                     "attributes" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "objUID" : "String"
+                  }
+               }
+            ],
+            "tcType" : "String",
+            "timestamp" : "String",
+            "action" : "String",
+            "revAttributes" : {
+               "SampleKeyString" : "String[]"
+            },
+            "attributes" : {
+               "SampleKeyString" : "String[]"
+            },
+            "ports" : {
+               "portUid" : "String",
+               "attributes" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "portId" : "String",
+               "action" : "String",
+               "portName" : "String",
+               "portType" : "String",
+               "traceabilityDefnData" : [
+                  {
+                     "tcObjUID" : "String",
+                     "traceabilityAction" : "String",
+                     "isMdlCompPri" : "bool",
+                     "clientId" : "String",
+                     "traceLinkData" : {
+                        "objUID" : "String",
+                        "attributes" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "type" : "String"
+                     }
+                  }
+               ],
+               "instanceType" : "String",
+               "instanceUid" : "String"
+            },
+            "userSelections" : "String[]",
+            "modelElements" : [
+               {
+                  "instanceName" : "String",
+                  "attributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "parentName" : "String",
+                  "modelName" : "String",
+                  "instanceType" : "String",
+                  "instanceUid" : "String",
+                  "modelElementIdentifier" : "String",
+                  "tcType" : "String",
+                  "traceabilityDefnData" : [
+                     {
+                        "tcObjUID" : "String",
+                        "traceabilityAction" : "String",
+                        "isMdlCompPri" : "bool",
+                        "clientId" : "String",
+                        "traceLinkData" : {
+                           "attributes" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "objUID" : "String",
+                           "type" : "String"
+                        }
+                     }
+                  ],
+                  "uid" : "String",
+                  "action" : "String"
+               }
+            ],
+            "modelName" : "String",
+            "associatedData" : [
+               {
+                  "tooltype" : "String",
+                  "relationType" : "String",
+                  "action" : "String",
+                  "datasetInfo" : {
+                     "datasetFileInfos" : [
+                        {
+                           "readTicket" : "String",
+                           "clientId" : "String",
+                           "isText" : "bool",
+                           "allowReplace" : "bool",
+                           "fileName" : "String",
+                           "writeTicket" : "String",
+                           "namedReferenceName" : "String",
+                           "filePath" : "String"
+                        }
+                     ],
+                     "type" : "String",
+                     "action" : "String",
+                     "datasetUid" : "String",
+                     "datasetIdentitier" : "String",
+                     "reservation" : "bool"
+                  },
+                  "desc" : "String"
+               }
+            ],
+            "topModel" : "bool",
+            "carryForwardAdditionalData" : "bool",
+            "uid" : "String",
+            "bvrTimeStamp" : "String",
+            "additionalData" : [
+               {
+                  "datasetInfo" : {
+                     "datasetFileInfos" : [
+                        {
+                           "filePath" : "String",
+                           "namedReferenceName" : "String",
+                           "writeTicket" : "String",
+                           "fileName" : "String",
+                           "allowReplace" : "bool",
+                           "clientId" : "String",
+                           "readTicket" : "String",
+                           "isText" : "bool"
+                        }
+                     ],
+                     "type" : "String",
+                     "action" : "String",
+                     "datasetIdentitier" : "String",
+                     "datasetUid" : "String",
+                     "reservation" : "bool"
+                  },
+                  "desc" : "String",
+                  "tooltype" : "String",
+                  "action" : "String",
+                  "relationType" : "String"
+               }
+            ],
+            "checkoutComment" : "String"
+         }
+      ]
+   }
+}

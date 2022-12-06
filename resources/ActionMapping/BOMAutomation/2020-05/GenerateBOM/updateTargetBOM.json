@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-BOMAutomation-2020-05-GenerateBOM/updateTargetBOM",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "element" : "IModelObject",
+            "updateAction" : "String"
+         }
+      ],
+      "sourceOccurrence" : "IModelObject",
+      "runInBackground" : "bool"
+   }
+}

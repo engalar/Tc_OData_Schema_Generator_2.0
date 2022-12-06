@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "modifyProjectsInfos" : [
+         {
+            "sourceProject" : "IModelObject",
+            "clientId" : "String",
+            "projectInfo" : {
+               "projectName" : "String",
+               "projectId" : "String",
+               "propertyMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "clientId" : "String",
+               "useProgramContext" : "bool",
+               "visible" : "bool",
+               "teamMembers" : [
+                  {
+                     "teamMemberType" : "int",
+                     "teamMember" : "IModelObject"
+                  }
+               ],
+               "projectDescription" : "String",
+               "active" : "bool"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2017-05-ProjectLevelSecurity/modifyProjects2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "projectOpsOutputs" : [
+         {
+            "project" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

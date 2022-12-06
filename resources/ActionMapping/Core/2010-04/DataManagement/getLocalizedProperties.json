@@ -1,0 +1,35 @@
+{
+   "OperationResponse" : {
+      "partialErrors" : "IServiceData",
+      "output" : [
+         {
+            "object" : "IModelObject",
+            "propertyValues" : [
+               {
+                  "seqNum" : "int",
+                  "statusDesc" : "String[]",
+                  "status" : "String[]",
+                  "master" : "bool",
+                  "name" : "String",
+                  "locale" : "String",
+                  "values" : "String[]"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2010-04-DataManagement/getLocalizedProperties",
+   "OperationInput" : {
+      "info" : [
+         {
+            "object" : "IModelObject",
+            "propsToget" : [
+               {
+                  "locales" : "String[]",
+                  "name" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

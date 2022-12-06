@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/updateChangeItems",
+   "OperationInput" : {
+      "updateProps" : [
+         {
+            "newPropertyValues" : [
+               {
+                  "attributeName" : "String",
+                  "values" : "String[]"
+               }
+            ],
+            "chgRev" : "IModelObject",
+            "newRelationshipData" : [
+               {
+                  "relTypeName" : "String",
+                  "tags" : "IModelObject[]",
+                  "operation" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

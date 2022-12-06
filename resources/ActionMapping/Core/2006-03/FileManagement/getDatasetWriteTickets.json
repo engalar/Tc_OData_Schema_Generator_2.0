@@ -1,0 +1,41 @@
+{
+   "ServiceOperation" : "Core-2006-03-FileManagement/getDatasetWriteTickets",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "commitInfo" : [
+         {
+            "datasetFileTicketInfos" : [
+               {
+                  "datasetFileInfo" : {
+                     "fileName" : "String",
+                     "namedReferencedName" : "String",
+                     "allowReplace" : "bool",
+                     "isText" : "bool",
+                     "clientId" : "String"
+                  },
+                  "ticket" : "String"
+               }
+            ],
+            "dataset" : "IModelObject",
+            "createNewVersion" : "bool"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "createNewVersion" : "bool",
+            "datasetFileInfos" : [
+               {
+                  "allowReplace" : "bool",
+                  "namedReferencedName" : "String",
+                  "clientId" : "String",
+                  "isText" : "bool",
+                  "fileName" : "String"
+               }
+            ],
+            "dataset" : "IModelObject"
+         }
+      ]
+   }
+}

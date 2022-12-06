@@ -1,0 +1,52 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "endIndex" : "int",
+      "searchFilterMap" : {
+         "SampleKeyString" : [
+            {
+               "endNumericValue" : "double",
+               "startNumericValue" : "double",
+               "startDateValue" : "Date",
+               "stringDisplayValue" : "String",
+               "endDateValue" : "Date",
+               "stringValue" : "String",
+               "searchFilterType" : "String",
+               "count" : "int",
+               "colorValue" : "String",
+               "selected" : "bool",
+               "startEndRange" : "String"
+            }
+         ]
+      },
+      "hasMoreFacetValues" : "bool"
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-Finder/performFacetSearch",
+   "OperationInput" : {
+      "facetSearchInput" : {
+         "maxToReturn" : "int",
+         "providerName" : "String",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "startEndRange" : "String",
+                  "selected" : "bool",
+                  "colorValue" : "String",
+                  "count" : "int",
+                  "endDateValue" : "Date",
+                  "stringValue" : "String",
+                  "searchFilterType" : "String",
+                  "endNumericValue" : "double",
+                  "startNumericValue" : "double",
+                  "startDateValue" : "Date",
+                  "stringDisplayValue" : "String"
+               }
+            ]
+         },
+         "startIndex" : "int"
+      }
+   }
+}

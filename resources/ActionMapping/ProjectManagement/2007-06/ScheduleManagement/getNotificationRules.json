@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "ProjectManagement-2007-06-ScheduleManagement/getNotificationRules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "notificationRules" : [
+         {
+            "subscriber" : "IModelObject",
+            "status" : "bool",
+            "update" : "bool",
+            "notificationSubject" : "String",
+            "recipient" : "IModelObject[]",
+            "additionalEmails" : "String",
+            "notificationCondition" : "String",
+            "notificationMessage" : "String",
+            "target" : "IModelObject",
+            "ruleType" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "notificationRuleContainer" : [
+         {
+            "subscriber" : "IModelObject",
+            "target" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,51 @@
+{
+   "ServiceOperation" : "Internal-ChangeManagement-2015-03-ChangeManagement/updateChangeNoticeRelations",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "info" : [
+         {
+            "dateMap" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "dblMap" : {
+               "SampleKeyString" : "double[]"
+            },
+            "objMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "strMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "intMap" : {
+               "SampleKeyString" : "int[]"
+            }
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "action" : "String",
+            "additionalInfo" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "isRecursive" : "bool",
+            "selectedLines" : "IModelObject[]"
+         }
+      ]
+   }
+}

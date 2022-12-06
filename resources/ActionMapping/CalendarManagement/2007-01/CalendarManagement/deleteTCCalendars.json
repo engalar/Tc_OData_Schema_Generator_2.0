@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "CalendarManagement-2007-01-CalendarManagement/deleteTCCalendars",
+   "OperationInput" : {
+      "tccalendarsToDelete" : "IModelObject[]"
+   }
+}

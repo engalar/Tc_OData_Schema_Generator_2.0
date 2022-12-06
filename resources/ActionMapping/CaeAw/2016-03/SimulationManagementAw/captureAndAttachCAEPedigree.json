@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "CaeAw-2016-03-SimulationManagementAw/captureAndAttachCAEPedigree",
+   "OperationInput" : {
+      "caeItemRevision" : "IModelObject",
+      "productContextInfo" : "IModelObject"
+   }
+}

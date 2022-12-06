@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "checkIDXInput" : {
+         "domainIdentifier" : "String",
+         "designUID" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "checkIDXOutput" : {
+         "isIDXBaselineAvailableToProcess" : "bool",
+         "isIDXResponseAvailableToProcess" : "bool",
+         "isIDXIncrementAvailableToProcess" : "bool"
+      }
+   },
+   "ServiceOperation" : "EDMDCollab-2020-01-EDMDCollaboration/checkIDXToProcess"
+}

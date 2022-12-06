@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Internal-BomCore-2016-10-AlignmentManagement/getAlignedDesignElements",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "partUsageToAlignedDesignElements" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "configurationContext" : "IModelObject",
+      "partUsages" : "IModelObject[]"
+   }
+}

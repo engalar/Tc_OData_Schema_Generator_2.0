@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "input" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Notification-2015-03-SubscriptionManagement/getSubscriptionInput",
+   "OperationResponse" : {
+      "eventTypes" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "attributeCriteria" : [
+         {
+            "attributeComparison" : {
+               "mathOperator" : "EqualTo NotEqualTo GreaterThan LessThan GreaterThanEqualTo LessThanEqualTo",
+               "attributeName" : "String",
+               "attributeValue" : "String"
+            },
+            "logicOperator" : "LogicalAnd LogicalOr"
+         }
+      ],
+      "handlers" : "IModelObject[]"
+   }
+}

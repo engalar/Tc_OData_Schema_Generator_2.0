@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ProductionManagement-2018-06-MeasurementDataLoad/populateDBLocatorTable",
+   "OperationInput" : {
+      "plantId" : "String",
+      "dbKey" : "String"
+   }
+}

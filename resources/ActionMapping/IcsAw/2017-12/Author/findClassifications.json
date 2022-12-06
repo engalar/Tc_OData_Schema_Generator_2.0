@@ -1,0 +1,243 @@
+{
+   "OperationInput" : {
+      "searchCriterias" : [
+         {
+            "searchAttribute" : "int",
+            "searchString" : "String",
+            "sortOption" : "int"
+         }
+      ],
+      "classificationDataOptions" : "int",
+      "workspaceObjects" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "clsParentsMap" : {
+         "SampleKeyString" : {
+            "parents" : [
+               {
+                  "instanceCount" : "int",
+                  "viewCount" : "int",
+                  "childCount" : "int",
+                  "options" : "int",
+                  "documents" : [
+                     {
+                        "originalFileName" : "String",
+                        "documentType" : "String",
+                        "ticket" : "String"
+                     }
+                  ],
+                  "properties" : [
+                     {
+                        "propertyId" : "int",
+                        "propertyName" : "String",
+                        "values" : [
+                           {
+                              "displayValue" : "String",
+                              "internalValue" : "String"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      },
+      "clsDefMap" : {
+         "SampleKeyString" : {
+            "childCount" : "int",
+            "properties" : [
+               {
+                  "propertyId" : "int",
+                  "propertyName" : "String",
+                  "values" : [
+                     {
+                        "displayValue" : "String",
+                        "internalValue" : "String"
+                     }
+                  ]
+               }
+            ],
+            "options" : "int",
+            "documents" : [
+               {
+                  "documentType" : "String",
+                  "originalFileName" : "String",
+                  "ticket" : "String"
+               }
+            ],
+            "instanceCount" : "int",
+            "viewCount" : "int"
+         }
+      },
+      "clsObjectDefMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "clsObjects" : [
+                  {
+                     "clsObject" : "IModelObject",
+                     "workspaceObject" : "IModelObject",
+                     "properties" : [
+                        {
+                           "propertyId" : "int",
+                           "values" : [
+                              {
+                                 "displayValue" : "String",
+                                 "internalValue" : "String"
+                              }
+                           ],
+                           "propertyName" : "String"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "clsAttrdefMap" : {
+         "SampleKeyString" : {
+            "configKeyLOVMap" : {
+               "SampleKeyInt" : {
+                  "sharedSites" : "IModelObject[]",
+                  "keyLOVOptions" : "int",
+                  "keyLOVEntries" : [
+                     {
+                        "keyLOVkey" : "String",
+                        "isDeprecated" : "bool",
+                        "keyLOVValue" : "String"
+                     }
+                  ],
+                  "keyLOVProperties" : [
+                     {
+                        "propertyId" : "int",
+                        "values" : [
+                           {
+                              "internalValue" : "String",
+                              "displayValue" : "String"
+                           }
+                        ],
+                        "propertyName" : "String"
+                     }
+                  ],
+                  "owningSite" : "IModelObject"
+               }
+            },
+            "classAttributes" : [
+               {
+                  "nonMetricFormat" : {
+                     "minimumValue" : "String",
+                     "formatDefinition" : {
+                        "formatModifier2" : "int",
+                        "formatType" : "int",
+                        "formatLength" : "int",
+                        "formatModifier1" : "int"
+                     },
+                     "defaultValue" : "String",
+                     "unitName" : "String",
+                     "maximumValue" : "String"
+                  },
+                  "arraySize" : "int",
+                  "metricFormat" : {
+                     "unitName" : "String",
+                     "maximumValue" : "String",
+                     "formatDefinition" : {
+                        "formatModifier1" : "int",
+                        "formatLength" : "int",
+                        "formatModifier2" : "int",
+                        "formatType" : "int"
+                     },
+                     "defaultValue" : "String",
+                     "minimumValue" : "String"
+                  },
+                  "attributeProperties" : [
+                     {
+                        "propertyId" : "int",
+                        "propertyName" : "String",
+                        "values" : [
+                           {
+                              "internalValue" : "String",
+                              "displayValue" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "attributeId" : "int",
+                  "extendedProperties" : [
+                     {
+                        "propValues" : [
+                           {
+                              "displayValue" : "String",
+                              "internalValue" : "String"
+                           }
+                        ],
+                        "propName" : "String"
+                     }
+                  ],
+                  "options" : "int"
+               }
+            ]
+         }
+      },
+      "clsChildrenMap" : {
+         "SampleKeyString" : {
+            "children" : [
+               {
+                  "viewCount" : "int",
+                  "instanceCount" : "int",
+                  "options" : "int",
+                  "properties" : [
+                     {
+                        "propertyName" : "String",
+                        "values" : [
+                           {
+                              "internalValue" : "String",
+                              "displayValue" : "String"
+                           }
+                        ],
+                        "propertyId" : "int"
+                     }
+                  ],
+                  "documents" : [
+                     {
+                        "documentType" : "String",
+                        "originalFileName" : "String",
+                        "ticket" : "String"
+                     }
+                  ],
+                  "childCount" : "int"
+               }
+            ]
+         }
+      },
+      "keyLOVDefMap" : {
+         "SampleKeyString" : {
+            "keyLOVEntries" : [
+               {
+                  "isDeprecated" : "bool",
+                  "keyLOVValue" : "String",
+                  "keyLOVkey" : "String"
+               }
+            ],
+            "owningSite" : "IModelObject",
+            "keyLOVProperties" : [
+               {
+                  "propertyId" : "int",
+                  "propertyName" : "String",
+                  "values" : [
+                     {
+                        "displayValue" : "String",
+                        "internalValue" : "String"
+                     }
+                  ]
+               }
+            ],
+            "keyLOVOptions" : "int",
+            "sharedSites" : "IModelObject[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-IcsAw-2017-12-Author/findClassifications"
+}

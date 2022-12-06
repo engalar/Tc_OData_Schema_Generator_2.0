@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "createAssignments" : [
+         {
+            "discipline" : "IModelObject",
+            "task" : "IModelObject",
+            "resource" : "IModelObject",
+            "assignedPercent" : "double"
+         }
+      ],
+      "schedule" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "updatedTasks" : "IModelObject[]",
+      "createdObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProjectManagement-2012-09-ScheduleManagement/assignResources"
+}

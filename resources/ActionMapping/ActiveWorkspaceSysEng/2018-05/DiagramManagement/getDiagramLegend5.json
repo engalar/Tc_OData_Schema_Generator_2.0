@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {
+      "legendTypesJSON" : "String",
+      "serviceData" : "IServiceData",
+      "legendTypeNames" : "String[]"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceSysEng-2018-05-DiagramManagement/getDiagramLegend5",
+   "OperationInput" : {
+      "viewName" : "String"
+   }
+}

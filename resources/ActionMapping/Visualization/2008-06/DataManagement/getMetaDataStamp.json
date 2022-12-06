@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "tickets" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/getMetaDataStamp",
+   "OperationInput" : {
+      "ids" : "IModelObject[]",
+      "servermode" : "int",
+      "application" : "String"
+   }
+}

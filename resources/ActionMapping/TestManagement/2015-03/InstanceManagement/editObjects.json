@@ -1,0 +1,53 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "testSteps" : [
+               {
+                  "contents" : [
+                     {
+                        "bomlines" : "IModelObject[]",
+                        "allowedTypes" : "String",
+                        "textSegOrPlaceMarkValue" : "String",
+                        "elementType" : "String",
+                        "multipleObjects" : "bool"
+                     }
+                  ]
+               }
+            ],
+            "boolProps" : {
+               "SampleKeyString" : "bool[]"
+            },
+            "referenceBOMWindow" : "IModelObject",
+            "objectProps" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "executionScopeLine" : "IModelObject",
+            "objectToEdit" : "IModelObject",
+            "secondaryRelations" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "assignedToLine" : "IModelObject",
+            "primaryRelations" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "stringProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "doubleProps" : {
+               "SampleKeyString" : "double[]"
+            },
+            "clientId" : "String",
+            "dateProps" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "intProps" : {
+               "SampleKeyString" : "int[]"
+            },
+            "testCase" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-TestManagement-2015-03-InstanceManagement/editObjects",
+   "OperationResponse" : "IServiceData"
+}

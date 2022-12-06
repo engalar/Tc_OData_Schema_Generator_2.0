@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "runInBackground" : "bool",
+      "createMasterInputs" : [
+         {
+            "name" : "String",
+            "timeZone" : "String",
+            "description" : "String",
+            "schedulesToInsert" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagementAw-2017-06-ScheduleManagementAw/createMasterSchedule"
+}

@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "dryRun" : "bool",
+      "fileTicket" : "String"
+   },
+   "ServiceOperation" : "ClassificationCommon-2020-12-Classification/importClassificationDefinitions",
+   "OperationResponse" : "String"
+}

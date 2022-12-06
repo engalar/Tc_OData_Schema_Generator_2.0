@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "Administration-2006-03-IRM/removeAccessor",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "accessorId" : "String",
+      "accessorType" : "String"
+   }
+}

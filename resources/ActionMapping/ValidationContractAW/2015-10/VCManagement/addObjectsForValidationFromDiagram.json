@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ValidationContractAW-2015-10-VCManagement/addObjectsForValidationFromDiagram"
+}

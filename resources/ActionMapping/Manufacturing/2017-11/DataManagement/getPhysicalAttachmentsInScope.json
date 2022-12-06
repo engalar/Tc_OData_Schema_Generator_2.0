@@ -1,0 +1,67 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "scope" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2017-11-DataManagement/getPhysicalAttachmentsInScope",
+   "OperationResponse" : {
+      "attachmentsInfo" : [
+         {
+            "target" : "IModelObject",
+            "context" : "IModelObject",
+            "scope" : "IModelObject",
+            "source" : "IModelObject",
+            "relationName" : "String",
+            "relationInfo" : {
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               }
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Query-2013-05-SavedQuery/createSavedQueries",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "queryName" : "String",
+            "queryClauses" : "String",
+            "queryClass" : "String",
+            "queryDesc" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

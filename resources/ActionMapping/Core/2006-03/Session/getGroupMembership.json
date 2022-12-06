@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "groupMembers" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Core-2006-03-Session/getGroupMembership"
+}

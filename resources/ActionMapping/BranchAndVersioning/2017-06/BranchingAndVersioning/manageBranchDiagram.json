@@ -1,0 +1,40 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "edges" : [
+               {
+                  "edgeObject" : "IModelObject",
+                  "edgeType" : "String",
+                  "edgeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "endNode" : "IModelObject",
+                  "startNode" : "IModelObject"
+               }
+            ],
+            "clientID" : "String",
+            "branchNodes" : [
+               {
+                  "tupleNode" : "IModelObject",
+                  "branchNode" : "IModelObject",
+                  "nodeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "BranchAndVersioning-2017-06-BranchingAndVersioning/manageBranchDiagram",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "contextObject" : "IModelObject",
+            "userAction" : "String",
+            "clientID" : "String"
+         }
+      ]
+   }
+}

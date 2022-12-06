@@ -1,0 +1,38 @@
+{
+   "OperationResponse" : {
+      "projectOptions" : {
+         "SampleKeyString" : [
+            {
+               "isDefaultValue" : "bool",
+               "displayValue" : "String",
+               "internalValue" : "String"
+            }
+         ]
+      },
+      "projectOutput" : {
+         "selectedObjects" : "IModelObject[]",
+         "assignedProjectsList" : "IModelObject[]"
+      },
+      "endIndex" : "int",
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int",
+      "totalFound" : "int",
+      "availableProjectList" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Core-2017-05-ProjectLevelSecurity/getProjectsForAssignOrRemove",
+   "OperationInput" : {
+      "projectsInput" : [
+         {
+            "selectedObjects" : "IModelObject[]",
+            "isAceContext" : "bool",
+            "assignedObjects" : "IModelObject[]",
+            "user" : "IModelObject",
+            "paginationInfo" : {
+               "startIndexForAvailableProjects" : "int",
+               "maxToReturnForAvailableProjects" : "int"
+            },
+            "filterText" : "String"
+         }
+      ]
+   }
+}

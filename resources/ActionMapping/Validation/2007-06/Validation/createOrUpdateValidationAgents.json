@@ -1,0 +1,32 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "validationAgent" : "IModelObject",
+            "childValidationData" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Validation-2007-06-Validation/createOrUpdateValidationAgents",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "name" : "String",
+            "existingValidationAgent" : "IModelObject",
+            "description" : "String",
+            "checkUserPriviledge" : "bool",
+            "closureRule" : {
+               "closureRuleName" : "String",
+               "type" : "String[]",
+               "useExistingObject" : "bool",
+               "closureRuleObject" : "IModelObject"
+            },
+            "utilityCommand" : "String",
+            "utilityArgs" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,98 @@
+{
+   "OperationInput" : {
+      "useStructureConfiguration" : "bool",
+      "lines" : [
+         {
+            "eqvSrcLines" : "IModelObject[]",
+            "eqvTargetLines" : "IModelObject[]"
+         }
+      ],
+      "ignoreOverlapErrors" : "bool",
+      "returnOnFirstMismatch" : "bool"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "compareGroups" : [
+         {
+            "matchingEffectivities" : [
+               {
+                  "details" : [
+                     {
+                        "units" : "int[]",
+                        "targetLines" : "IModelObject[]",
+                        "dates" : "Date[]",
+                        "srcLines" : "IModelObject[]"
+                     }
+                  ],
+                  "endItem" : "IModelObject"
+               }
+            ],
+            "missingTargetDetails" : [
+               {
+                  "endItem" : "IModelObject",
+                  "details" : [
+                     {
+                        "units" : "int[]",
+                        "targetLines" : "IModelObject[]",
+                        "dates" : "Date[]",
+                        "srcLines" : "IModelObject[]"
+                     }
+                  ]
+               }
+            ],
+            "targetLineEffectivities" : [
+               {
+                  "line" : "IModelObject",
+                  "effDetails" : [
+                     {
+                        "dates" : "Date[]",
+                        "endItem" : "IModelObject",
+                        "units" : "int[]"
+                     }
+                  ]
+               }
+            ],
+            "srcLineEffectivities" : [
+               {
+                  "line" : "IModelObject",
+                  "effDetails" : [
+                     {
+                        "dates" : "Date[]",
+                        "endItem" : "IModelObject",
+                        "units" : "int[]"
+                     }
+                  ]
+               }
+            ],
+            "overlappingEffectivities" : [
+               {
+                  "details" : [
+                     {
+                        "dates" : "Date[]",
+                        "srcLines" : "IModelObject[]",
+                        "units" : "int[]",
+                        "targetLines" : "IModelObject[]"
+                     }
+                  ],
+                  "endItem" : "IModelObject"
+               }
+            ],
+            "missingSrcDetails" : [
+               {
+                  "details" : [
+                     {
+                        "targetLines" : "IModelObject[]",
+                        "units" : "int[]",
+                        "srcLines" : "IModelObject[]",
+                        "dates" : "Date[]"
+                     }
+                  ],
+                  "endItem" : "IModelObject"
+               }
+            ],
+            "isMisMatch" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2012-02-StructureVerification/compareNetEffectivity"
+}

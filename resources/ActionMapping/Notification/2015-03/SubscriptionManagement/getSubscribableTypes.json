@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-Notification-2015-03-SubscriptionManagement/getSubscribableTypes",
+   "OperationResponse" : {
+      "typeInfoList" : [
+         {
+            "typeName" : "String",
+            "parents" : "String[]",
+            "type" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "childTypeOption" : "String"
+   }
+}

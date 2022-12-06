@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "genPPInputs" : [
+         {
+            "libraryElement" : "IModelObject",
+            "specification" : "IModelObject",
+            "library" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/searchGenericPostPlacementParts",
+   "OperationResponse" : {
+      "genPPPartsOutputs" : [
+         {
+            "sourcelibraryElement" : "IModelObject",
+            "matchingLibraryElements" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

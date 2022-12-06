@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2008-06-StructureManagement/removeInStructureAssociations",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "contextBOMLine" : "IModelObject",
+            "associationType" : "String",
+            "secondaries" : "IModelObject[]",
+            "primaryBOMLine" : "IModelObject"
+         }
+      ]
+   }
+}

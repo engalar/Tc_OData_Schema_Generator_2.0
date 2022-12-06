@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "objectsToDelete" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ModelCore-2011-06-DataManagement/deleteModelContent",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "undeletedObjects" : "IModelObject[]"
+   }
+}

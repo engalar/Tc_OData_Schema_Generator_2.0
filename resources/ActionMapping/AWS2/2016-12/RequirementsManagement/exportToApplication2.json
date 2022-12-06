@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData",
+      "contents" : "String[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2016-12-RequirementsManagement/exportToApplication2",
+   "OperationInput" : {
+      "input" : [
+         {
+            "objectsToExport" : "IModelObject[]",
+            "templateName" : "String",
+            "targetObjectsToExport" : "IModelObject[]",
+            "attributesToExport" : "String[]",
+            "applicationFormat" : "String",
+            "exportOptions" : [
+               {
+                  "optionvalue" : "String",
+                  "option" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

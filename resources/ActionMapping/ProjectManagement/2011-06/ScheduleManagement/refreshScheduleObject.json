@@ -1,0 +1,71 @@
+{
+   "OperationInput" : {
+      "refreshScheduleContainer" : {
+         "componentUid" : "String",
+         "clientCache" : {
+            "namedStringLists" : [
+               {
+                  "aggregate" : "double",
+                  "list" : "String[]",
+                  "name" : "String"
+               }
+            ]
+         },
+         "lastModifiedDate" : "Date",
+         "refreshOptions" : {
+            "integerOptions" : [
+               {
+                  "value" : "int",
+                  "name" : "String"
+               }
+            ],
+            "logicalOptions" : [
+               {
+                  "name" : "String",
+                  "value" : "bool"
+               }
+            ],
+            "stringOptions" : [
+               {
+                  "name" : "String",
+                  "value" : "String"
+               }
+            ]
+         },
+         "masterScheduleUid" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "scheduleData" : [
+         {
+            "resourceAssignments" : "IModelObject[]",
+            "scheduleTasks" : "IModelObject[]",
+            "submasterdata" : [
+               {
+                  "masterdata" : [
+                     {
+                        "uid" : "String",
+                        "finish" : "Date",
+                        "start" : "Date"
+                     }
+                  ],
+                  "subschedule" : "IModelObject"
+               }
+            ],
+            "namedStringLists" : [
+               {
+                  "name" : "String",
+                  "list" : "String[]",
+                  "aggregate" : "double"
+               }
+            ],
+            "calendars" : "IModelObject[]",
+            "calendarEvents" : "IModelObject[]",
+            "taskDependencies" : "IModelObject[]",
+            "schedule" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2011-06-ScheduleManagement/refreshScheduleObject"
+}

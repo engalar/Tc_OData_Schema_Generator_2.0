@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "snapshot3DUpdateInputList" : [
+         {
+            "namedRefFileInfoList" : [
+               {
+                  "clientFileId" : "String",
+                  "fileState" : "String",
+                  "refName" : "String",
+                  "fileName" : "String",
+                  "newObject" : "IModelObject",
+                  "existingObject" : "IModelObject",
+                  "fileTicket" : "String"
+               }
+            ],
+            "visibleLinesList" : "IModelObject[]",
+            "clientId" : "String",
+            "createStructureFile" : "bool",
+            "attachToBOMLine" : "IModelObject",
+            "updateVisibleLinesList" : "bool",
+            "snapshot3DDataset" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "snapshot3DUpdateOutputMap" : {
+         "SampleKeyString" : {
+            "snapshot3DDataset" : "IModelObject",
+            "namedRefFileInfoList" : [
+               {
+                  "clientFileId" : "String",
+                  "uploadedFilename" : "String",
+                  "uploadedFile" : "IModelObject",
+                  "uploadedFileRefNames" : "String"
+               }
+            ]
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Visualization-2010-09-DataManagement/updateSnapshot3D"
+}

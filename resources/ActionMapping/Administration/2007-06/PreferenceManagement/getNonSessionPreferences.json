@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "preferenceScope" : "String",
+      "object" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "preferencesArray" : [
+         {
+            "prefsInfo" : [
+               {
+                  "preferenceDefinition" : {
+                     "preferenceType" : "String",
+                     "preferenceDescription" : "String",
+                     "preferenceName" : "String",
+                     "isDisabled" : "bool",
+                     "preferenceScope" : "String",
+                     "preferenceCategory" : "String",
+                     "isArray" : "bool"
+                  },
+                  "contextInformation" : [
+                     {
+                        "value" : "String[]",
+                        "contextName" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Administration-2007-06-PreferenceManagement/getNonSessionPreferences"
+}

@@ -1,0 +1,149 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "selectedContext" : "IModelObject",
+         "configPerspective" : "IModelObject",
+         "scopes" : "String[]",
+         "selections" : [
+            {
+               "selections" : {
+                  "SampleKeyString" : [
+                     {
+                        "nodeID" : "String",
+                        "selectionState" : "int"
+                     }
+                  ]
+               },
+               "affectedObject" : "String",
+               "columnId" : "int"
+            }
+         ],
+         "payloadStrings" : {
+            "SampleKeyString" : "String[]"
+         },
+         "requestInfo" : {
+            "SampleKeyString" : "String[]"
+         },
+         "activeVariantRules" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "responseInfo" : {
+         "SampleKeyString" : "String[]"
+      },
+      "selectionsSummary" : {
+         "summaryOfSelections" : [
+            {
+               "valueDisplayName" : "String",
+               "selectionState" : "int",
+               "familyDisplayName" : "String"
+            }
+         ],
+         "displayName" : "String",
+         "internalName" : "String",
+         "requiredFamilies" : [
+            {
+               "familyDisplayName" : "String",
+               "selectionState" : "int",
+               "valueDisplayName" : "String"
+            }
+         ]
+      },
+      "payloadStrings" : {
+         "SampleKeyString" : "String[]"
+      },
+      "allScopes" : [
+         {
+            "families" : [
+               {
+                  "labelInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "familyObj" : {
+                     "sourceUid" : "String",
+                     "wsObject" : "IModelObject",
+                     "displayName" : "String",
+                     "props" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "sourceType" : "String"
+                  },
+                  "selectionInfo" : {
+                     "selectionState" : "int",
+                     "nodeID" : "String"
+                  },
+                  "allowedSelectionStates" : "int[]",
+                  "features" : [
+                     {
+                        "featureObject" : {
+                           "sourceUid" : "String",
+                           "wsObject" : "IModelObject",
+                           "props" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "displayName" : "String",
+                           "sourceType" : "String"
+                        },
+                        "labelInfo" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "allowedSelectionStates" : "int[]",
+                        "selectionInfo" : {
+                           "nodeID" : "String",
+                           "selectionState" : "int"
+                        }
+                     }
+                  ]
+               }
+            ],
+            "nodeID" : "String",
+            "scopeObj" : {
+               "sourceUid" : "String",
+               "sourceType" : "String",
+               "wsObject" : "IModelObject",
+               "props" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "displayName" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "labels" : {
+         "SampleKeyString" : [
+            {
+               "nodeMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "sourceType" : "String",
+                        "wsObject" : "IModelObject",
+                        "displayName" : "String",
+                        "props" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "sourceUid" : "String"
+                     }
+                  ]
+               }
+            }
+         ]
+      },
+      "configPerspective" : "IModelObject",
+      "scopes" : "String[]",
+      "selections" : [
+         {
+            "affectedObject" : "String",
+            "columnId" : "int",
+            "selections" : {
+               "SampleKeyString" : [
+                  {
+                     "nodeID" : "String",
+                     "selectionState" : "int"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2018-05-ConfiguratorManagement/variantConfigurationView"
+}

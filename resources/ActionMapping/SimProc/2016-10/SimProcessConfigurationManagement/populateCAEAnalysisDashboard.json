@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "inputAnalysisIRList" : "IModelObject[]",
+      "dashboardConfiguration" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "progressHeadings" : [
+         {
+            "foundCount" : "int",
+            "heading" : "String",
+            "dsType" : "String",
+            "totalCount" : "int"
+         }
+      ],
+      "dashboardPopulateInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "columnValueType" : "String",
+                  "columnValue" : "String",
+                  "imageValue" : "String",
+                  "columnType" : "String",
+                  "columnName" : "String",
+                  "pedigreeObject" : "IModelObject",
+                  "datasetComp" : "IModelObject"
+               }
+            ]
+         ]
+      ]
+   },
+   "ServiceOperation" : "Internal-SimProc-2016-10-SimProcessConfigurationManagement/populateCAEAnalysisDashboard"
+}

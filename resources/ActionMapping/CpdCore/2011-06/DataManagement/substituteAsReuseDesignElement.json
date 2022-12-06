@@ -1,0 +1,78 @@
+{
+   "OperationInput" : {
+      "substituteInfos" : [
+         {
+            "transform" : "double[]",
+            "geometryOverrideShapeCreateInput" : {
+               "createInfo" : {
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "compoundInfo" : {
+                     "SampleKeyString" : [
+                        {
+                           "boType" : "String",
+                           "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap",
+                           "attrInfo" : {
+                              "SampleKeyString" : "String[]"
+                           }
+                        }
+                     ]
+                  },
+                  "boType" : "String"
+               },
+               "folder" : "IModelObject"
+            },
+            "sos" : "IModelObject",
+            "updateSubordinates" : "bool",
+            "modelObject" : "IModelObject",
+            "revRule" : "IModelObject",
+            "guardLastModifiedDate" : "bool",
+            "levelsOfSubordinatesToReturn" : "int",
+            "element" : "IModelObject",
+            "variantRule" : "IModelObject",
+            "bomView" : "String",
+            "clientId" : "String",
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "boType" : "String",
+            "auxiliaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "boType" : "String",
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap",
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              }
+                           }
+                        ]
+                     },
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "boType" : "String",
+                     "object" : "IModelObject"
+                  }
+               ]
+            },
+            "guardObjLastModifiedDate" : "bool",
+            "directModelDataset" : "IModelObject",
+            "lastModifiedDateGuard" : "Date",
+            "sourceObject" : "IModelObject",
+            "objLastModifiedDateGuard" : "Date",
+            "boundingBox" : "double[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "CpdCore-2011-06-DataManagement/substituteAsReuseDesignElement",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-GlobalAlternate/setPreferredGlobalAlternate",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "gAltItem" : "IModelObject",
+            "item" : "IModelObject"
+         }
+      ]
+   }
+}

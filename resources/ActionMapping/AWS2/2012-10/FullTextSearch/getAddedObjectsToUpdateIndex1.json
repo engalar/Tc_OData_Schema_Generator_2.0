@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {
+      "queriedDateTime" : "Date",
+      "serviceData" : "IServiceData",
+      "uidsAddedObjects" : "String[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/getAddedObjectsToUpdateIndex1",
+   "OperationInput" : {
+      "applicationID" : "String"
+   }
+}

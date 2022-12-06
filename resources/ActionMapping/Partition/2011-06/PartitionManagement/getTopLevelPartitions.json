@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "topLevelPartitions" : "IModelObject[]",
+            "paritionScheme" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Partition-2011-06-PartitionManagement/getTopLevelPartitions",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "partitionScheme" : "IModelObject",
+            "configurationContext" : "IModelObject",
+            "modelCntxt" : "IModelObject"
+         }
+      ]
+   }
+}

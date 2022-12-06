@@ -1,0 +1,53 @@
+{
+   "ServiceOperation" : "ModelCore-2014-10-GeometricConstraints/createCollection",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createdConstraintCollections" : [
+         {
+            "collection" : "IModelObject",
+            "clientId" : "String",
+            "constraintDataSet" : "IModelObject",
+            "memberList" : [
+               {
+                  "isForeground" : "bool",
+                  "csid" : "String",
+                  "member" : "IModelObject"
+               }
+            ],
+            "nameReferenceTicketMap" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationInput" : {
+      "containerCollectionInfo" : [
+         {
+            "memberList" : [
+               {
+                  "member" : "IModelObject",
+                  "isForeground" : "bool",
+                  "csid" : "String"
+               }
+            ],
+            "modelObject" : "IModelObject",
+            "constraintAttrInfoMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "boType" : "String",
+            "systemManaged" : "bool",
+            "areConstraintsFullySolved" : "bool",
+            "constraintData" : {
+               "nameReferenceFileMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "dataSetType" : "String"
+            },
+            "attrInfoMap" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   }
+}

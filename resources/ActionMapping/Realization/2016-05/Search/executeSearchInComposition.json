@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "recipe" : {
+         "scope" : {
+            "recipeContainer" : "IModelObject",
+            "composition" : "IModelObject",
+            "objectTypes" : "String[]"
+         },
+         "searchExpression" : {
+            "searchOperator" : "And Or Not",
+            "searchExpression" : {
+               "searchExpressions" : "IModelObject[]",
+               "doTrushapeRefinement" : "bool"
+            },
+            "searchExpressionSets" : "Rlz0::Soa::Internal::Realization::_2016_05::Search::SearchExpressionSet[]"
+         }
+      },
+      "options" : {
+         "sortAttributes" : "String[]",
+         "defaultLoadCount" : "int",
+         "sortOrder" : "Ascending Descending"
+      }
+   },
+   "OperationResponse" : {
+      "finished" : "bool",
+      "searchResults" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Realization-2016-05-Search/executeSearchInComposition"
+}

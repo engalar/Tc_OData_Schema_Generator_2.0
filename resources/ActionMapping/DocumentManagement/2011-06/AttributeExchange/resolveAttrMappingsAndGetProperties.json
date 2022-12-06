@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "datsetObject" : "IModelObject",
+            "locale" : "String",
+            "attrExchange" : [
+               {
+                  "mapping" : {
+                     "attributeName" : "String",
+                     "referencedName" : "String",
+                     "relationObject" : [
+                        {
+                           "relationName" : "String",
+                           "relationType" : "String",
+                           "mappedObject" : "Teamcenter::Soa::DocumentManagement::_2011_06::AttributeExchange::MappingObject[]"
+                        }
+                     ],
+                     "objectType" : "String",
+                     "nextLevelMappedObject" : "Teamcenter::Soa::DocumentManagement::_2011_06::AttributeExchange::MappingObject[]",
+                     "path" : "String"
+                  },
+                  "foreignObjectPropertyName" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "resolveAndGetResults" : [
+         {
+            "resolveAndGetDataList" : [
+               {
+                  "foreignObjectPropertyName" : "String",
+                  "tcAttrVal" : {
+                     "typeOfVal" : "String",
+                     "tcVal" : "String"
+                  },
+                  "isFailed" : "bool",
+                  "errorStack" : "String[]"
+               }
+            ],
+            "dataset" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "DocumentManagement-2011-06-AttributeExchange/resolveAttrMappingsAndGetProperties"
+}

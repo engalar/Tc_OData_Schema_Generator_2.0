@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "additionalPropsOnMA" : {
+               "SampleKeyString" : "String"
+            },
+            "faultCode" : "IModelObject",
+            "impactedPart" : "IModelObject",
+            "asset" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "maOutInfo" : [
+         {
+            "allMAs" : [
+               {
+                  "isCreated" : "bool",
+                  "createdMA" : "IModelObject"
+               }
+            ],
+            "impactedPart" : "IModelObject",
+            "faultCode" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ServiceForecasting-2020-04-ServiceForecasting/createMaintenanceActionByFaultCode"
+}

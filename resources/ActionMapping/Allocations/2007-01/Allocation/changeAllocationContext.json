@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : {
+      "allocationLines" : "IModelObject[]",
+      "allocationWindow" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Allocations-2007-01-Allocation/changeAllocationContext",
+   "OperationInput" : {
+      "allocationRule" : "IModelObject",
+      "icContext" : "IModelObject",
+      "allocWindowInput" : "IModelObject",
+      "allocationContext" : "IModelObject"
+   }
+}

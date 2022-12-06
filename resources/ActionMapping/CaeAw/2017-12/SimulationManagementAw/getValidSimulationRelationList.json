@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "contextObject" : "IModelObject",
+      "selectedObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/getValidSimulationRelationList",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "relationList" : "String[]",
+      "isValidForAddition" : "bool"
+   }
+}

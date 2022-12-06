@@ -1,0 +1,51 @@
+{
+   "OperationInput" : {
+      "snapshot3DInputList" : [
+         {
+            "snapshot3DDataset" : "IModelObject",
+            "getStaticFilesInfo" : "bool",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Visualization-2010-09-DataManagement/getSnapshot3DInfo",
+   "OperationResponse" : {
+      "snapshot3DInfoMap" : {
+         "SampleKeyString" : {
+            "snapshot3DVisibleLines" : {
+               "uidType" : "TYPE_APN TYPE_CS",
+               "relDatasetInfoMap" : {
+                  "SampleKeyString" : {
+                     "originalFileName" : "String",
+                     "imanFileUID" : "String",
+                     "datasetUID" : "String"
+                  }
+               },
+               "visibleLinesMap" : {
+                  "SampleKeyString" : {
+                     "uidString" : "String",
+                     "parentRef" : "String",
+                     "relDatasetRef" : "String"
+                  }
+               }
+            },
+            "relObjList" : [
+               {
+                  "relObj" : "IModelObject",
+                  "relType" : "TYPE_NamedRef TYPE_GRM",
+                  "relation" : "IModelObject"
+               }
+            ],
+            "namedRefFileInfoList" : [
+               {
+                  "uploadedFileRefNames" : "String",
+                  "uploadedFilename" : "String",
+                  "clientFileId" : "String",
+                  "uploadedFile" : "IModelObject"
+               }
+            ]
+         }
+      },
+      "serviceData" : "IServiceData"
+   }
+}

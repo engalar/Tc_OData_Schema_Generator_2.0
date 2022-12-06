@@ -1,0 +1,92 @@
+{
+   "OperationResponse" : {
+      "classificationObjects" : [
+         {
+            "properties" : [
+               {
+                  "propertyName" : "String",
+                  "values" : [
+                     {
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     }
+                  ],
+                  "propertyId" : "String"
+               }
+            ],
+            "blockDataMap" : {
+               "SampleKeyString" : {
+                  "blocks" : [
+                     {
+                        "owningBlocks" : "String[]",
+                        "cardinalityIndex" : "int",
+                        "classId" : "String",
+                        "blockDataMap" : "Ics1::Soa::Internal::IcsAw::_2018_12::Classification::BlockDataMap",
+                        "properties" : [
+                           {
+                              "propertyName" : "String",
+                              "values" : [
+                                 {
+                                    "internalValue" : "String",
+                                    "displayValue" : "String"
+                                 }
+                              ],
+                              "propertyId" : "String"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            },
+            "clsObject" : "IModelObject",
+            "workspaceObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-IcsAw-2018-12-Classification/saveClassificationObjects2",
+   "OperationInput" : {
+      "classificationObjects" : [
+         {
+            "properties" : [
+               {
+                  "propertyId" : "String",
+                  "propertyName" : "String",
+                  "values" : [
+                     {
+                        "displayValue" : "String",
+                        "internalValue" : "String"
+                     }
+                  ]
+               }
+            ],
+            "clsObject" : "IModelObject",
+            "workspaceObject" : "IModelObject",
+            "blockDataMap" : {
+               "SampleKeyString" : {
+                  "blocks" : [
+                     {
+                        "properties" : [
+                           {
+                              "propertyName" : "String",
+                              "values" : [
+                                 {
+                                    "internalValue" : "String",
+                                    "displayValue" : "String"
+                                 }
+                              ],
+                              "propertyId" : "String"
+                           }
+                        ],
+                        "classId" : "String",
+                        "blockDataMap" : "Ics1::Soa::Internal::IcsAw::_2018_12::Classification::BlockDataMap",
+                        "cardinalityIndex" : "int",
+                        "owningBlocks" : "String[]"
+                     }
+                  ]
+               }
+            }
+         }
+      ]
+   }
+}

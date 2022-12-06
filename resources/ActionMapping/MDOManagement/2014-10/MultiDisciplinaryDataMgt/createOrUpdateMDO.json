@@ -1,0 +1,123 @@
+{
+   "OperationResponse" : {
+      "mdoOutput" : [
+         {
+            "clientId" : "String",
+            "associatedDesignArtifact" : "IModelObject[]",
+            "mdoObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MDOManagement-2014-10-MultiDisciplinaryDataMgt/createOrUpdateMDO",
+   "OperationInput" : {
+      "mdoInputs" : [
+         {
+            "clientId" : "String",
+            "artifactInput" : {
+               "addDesignArtifact" : "IModelObject[]",
+               "removeDesignArtifact" : "IModelObject[]"
+            },
+            "mdoCreInput" : {
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "boName" : "String",
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "compoundCreateInput" : "Mdo0::Soa::MDOManagement::_2014_10::MultiDisciplinaryDataMgt::CreateInputMap",
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        }
+                     }
+                  ]
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "boName" : "String",
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               }
+            },
+            "attributeValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "mdoObject" : "IModelObject"
+         }
+      ]
+   }
+}

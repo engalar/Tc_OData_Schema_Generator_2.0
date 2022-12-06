@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "vendorSku" : {
+         "productSkuUid" : "String",
+         "effectivityDate" : "Date",
+         "vendorUid" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "configuredBomWindow" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "productRev" : "String"
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/getProductSkuStructure"
+}

@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Core-2007-06-DataManagement/getDatasetTypeInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "infos" : [
+         {
+            "tag" : "IModelObject",
+            "refInfos" : [
+               {
+                  "fileFormat" : "String",
+                  "referenceName" : "String",
+                  "isObject" : "bool",
+                  "fileExtension" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "datasetTypeNames" : "String[]"
+   }
+}

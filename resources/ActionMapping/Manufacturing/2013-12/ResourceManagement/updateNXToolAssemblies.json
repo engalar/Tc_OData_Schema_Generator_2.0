@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "identifyCutAndNoCut" : "bool",
+      "icoIDs" : "String[]",
+      "generateSpinning" : "bool",
+      "setToolJunctions" : "bool",
+      "writePartAttributes" : "bool"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2013-12-ResourceManagement/updateNXToolAssemblies"
+}

@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/updateSupercedures",
+   "OperationInput" : {
+      "supercedureTobeUpdated" : [
+         {
+            "bomAddOrCancleFlag" : "String",
+            "tags" : "IModelObject[]",
+            "supTag" : "IModelObject",
+            "operation" : "String"
+         }
+      ]
+   }
+}

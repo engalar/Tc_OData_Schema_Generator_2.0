@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "comment" : "String",
+            "fromAssignee" : "IModelObject",
+            "clientId" : "String",
+            "toAssignee" : "IModelObject",
+            "allParticipantTypes" : "bool",
+            "participantTypes" : "String[]",
+            "wsoList" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Participant-2018-11-Participant/reassignParticipants",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "wsoList" : "IModelObject[]",
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

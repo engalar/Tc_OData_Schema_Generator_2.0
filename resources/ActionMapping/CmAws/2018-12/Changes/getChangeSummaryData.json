@@ -1,0 +1,60 @@
+{
+   "OperationInput" : {
+      "changeSummaryInput" : {
+         "isOddRowSelected" : "bool",
+         "startIndex" : "int",
+         "pageSize" : "int",
+         "selectedRow" : "IModelObject",
+         "changeNoticeRevision" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-CmAws-2018-12-Changes/getChangeSummaryData",
+   "OperationResponse" : {
+      "endIndex" : "int",
+      "dataObjects" : [
+         {
+            "supportingPrimaryObject" : "IModelObject",
+            "isOddRow" : "bool",
+            "siblingDataObjects" : "Cm1::Soa::Internal::CmAws::_2018_12::Changes::ChangeSummaryTableDataObject[]",
+            "primaryObject" : "IModelObject",
+            "id" : "String",
+            "supportingSecondaryObject" : "IModelObject",
+            "isCompareRow" : "bool",
+            "secondaryObject" : "IModelObject",
+            "objectProperties" : [
+               {
+                  "oldUIValue" : "String[]",
+                  "propDisplayName" : "String",
+                  "currentDBValue" : "String[]",
+                  "currentUIValue" : "String[]",
+                  "oldDBValue" : "String[]",
+                  "propInternalName" : "String"
+               }
+            ],
+            "hasChildren" : "bool"
+         }
+      ],
+      "currentColumnConfig" : [
+         {
+            "hiddenFlag" : "bool",
+            "sourceTypeName" : "String",
+            "columndisplayName" : "String",
+            "isCompareColumn" : "bool",
+            "pixelWidth" : "int",
+            "columnInternalName" : "String"
+         }
+      ],
+      "defaultColumnConfig" : [
+         {
+            "columnInternalName" : "String",
+            "pixelWidth" : "int",
+            "isCompareColumn" : "bool",
+            "hiddenFlag" : "bool",
+            "columndisplayName" : "String",
+            "sourceTypeName" : "String"
+         }
+      ],
+      "totalFound" : "int",
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "readTicket" : "String"
+   },
+   "ServiceOperation" : "EDMDCollab-2020-04-EDMDCollaboration/getAssemblyContext3DModels",
+   "OperationInput" : {
+      "designUID" : "String"
+   }
+}

@@ -1,0 +1,70 @@
+{
+   "OperationResponse" : {
+      "logTickets" : "String[]",
+      "summaries" : [
+         {
+            "notAlignedUnderReused" : "int",
+            "notAlignedWithError" : "int",
+            "aligned" : "int"
+         }
+      ],
+      "additionalInfo" : {
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToDoubleVectorMap" : {
+            "SampleKeyString" : "double[]"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-10-StructureManagement/alignLinesInBOM",
+   "OperationInput" : {
+      "alignInputs" : [
+         {
+            "additionalInfo" : {
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               }
+            },
+            "equivalentLines" : [
+               {
+                  "targetLine" : "IModelObject",
+                  "sourceLine" : "IModelObject"
+               }
+            ],
+            "alignAllAssemblies" : "bool",
+            "alignProperties" : "bool",
+            "scopeElements" : [
+               {
+                  "targetScopes" : "IModelObject[]",
+                  "sourceScope" : "IModelObject",
+                  "reusedNodes" : "IModelObject[]"
+               }
+            ],
+            "alignmentMode" : "String"
+         }
+      ]
+   }
+}

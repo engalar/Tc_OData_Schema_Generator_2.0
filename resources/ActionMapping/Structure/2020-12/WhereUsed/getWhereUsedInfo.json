@@ -1,0 +1,76 @@
+{
+   "OperationInput" : {
+      "whereUsedInput" : {
+         "columnConfigInput" : {
+            "clientScopeURI" : "String",
+            "operationType" : "String",
+            "columnsToExclude" : "String[]",
+            "clientName" : "String",
+            "hostingClientName" : "String"
+         },
+         "additionalInfo" : {
+            "SampleKeyString" : "String[]"
+         },
+         "inputObject" : "IModelObject",
+         "revisionRule" : "IModelObject",
+         "cursorInfo" : {
+            "SampleKeyString" : {
+               "startObjectUid" : "String",
+               "endUIDLevel" : "int",
+               "endReached" : "bool",
+               "endObjectUid" : "String",
+               "resultsReturned" : "int",
+               "startUIDLevel" : "int"
+            }
+         },
+         "pageSize" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-Structure-2020-12-WhereUsed/getWhereUsedInfo",
+   "OperationResponse" : {
+      "additionalInfo" : {
+         "SampleKeyString" : "String[]"
+      },
+      "serviceData" : "IServiceData",
+      "childToParentMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "resultObject" : "IModelObject",
+                  "hasParent" : "bool"
+               }
+            ]
+         ]
+      ],
+      "columnConfigOutput" : {
+         "columns" : [
+            {
+               "pixelWidth" : "int",
+               "displayName" : "String",
+               "hiddenFlag" : "bool",
+               "columnOrder" : "int",
+               "sortDirection" : "String",
+               "sortPriority" : "int",
+               "assosiatedTypeName" : "String",
+               "propertyName" : "String"
+            }
+         ],
+         "typesForArrange" : "String[]",
+         "columnConfigId" : "String",
+         "operationType" : "String"
+      },
+      "cursorInfo" : {
+         "SampleKeyString" : {
+            "startUIDLevel" : "int",
+            "resultsReturned" : "int",
+            "endObjectUid" : "String",
+            "endReached" : "bool",
+            "endUIDLevel" : "int",
+            "startObjectUid" : "String"
+         }
+      }
+   }
+}

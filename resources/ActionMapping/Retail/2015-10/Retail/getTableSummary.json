@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "sourceObj" : "IModelObject",
+         "sortInfo" : [
+            {
+               "isAscending" : "bool",
+               "sortingOrder" : "int",
+               "fieldName" : "String"
+            }
+         ],
+         "providerName" : "String",
+         "viewUidOrName" : "String",
+         "groupInfo" : "String[]",
+         "startIndex" : "int",
+         "pageSize" : "int",
+         "cursorNodeUID" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/getTableSummary",
+   "OperationResponse" : {
+      "endIndex" : "int",
+      "tableSummaries" : [
+         {
+            "thumbnailImageTicket" : "String",
+            "isLeafNode" : "bool",
+            "typeName" : "String",
+            "displayName" : "String",
+            "levelIndex" : "int",
+            "nodeId" : "String",
+            "totalChildCount" : "int"
+         }
+      ],
+      "totalFound" : "int",
+      "serviceData" : "IServiceData"
+   }
+}

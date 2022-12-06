@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "objectsToExport" : "IModelObject[]",
+            "templateName" : "String",
+            "targetObjectsToExport" : "IModelObject[]",
+            "exportOptions" : [
+               {
+                  "optionvalue" : "String",
+                  "option" : "String"
+               }
+            ],
+            "recipeSourceObjects" : "String[]",
+            "objectTemplateInputs" : [
+               {
+                  "boType" : "String",
+                  "objectTemplateName" : "String"
+               }
+            ],
+            "recipeTargetObjects" : "String[]",
+            "attributesToExport" : "String[]",
+            "applicationFormat" : "String",
+            "includeAttachments" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "contents" : "String[]",
+      "serviceData" : "IServiceData",
+      "transientFileReadTickets" : "String[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-06-RequirementsManagement/exportToApplication3"
+}

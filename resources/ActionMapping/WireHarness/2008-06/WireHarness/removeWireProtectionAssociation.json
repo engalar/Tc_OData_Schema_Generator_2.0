@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "WireHarness-2008-06-WireHarness/removeWireProtectionAssociation",
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   }
+}

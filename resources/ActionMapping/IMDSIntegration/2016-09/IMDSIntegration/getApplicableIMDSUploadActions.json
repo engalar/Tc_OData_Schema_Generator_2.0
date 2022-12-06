@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "applicableUploadActions" : [
+               {
+                  "displayName" : "String",
+                  "internalValue" : "int"
+               }
+            ],
+            "inputObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "IMDSIntegration-2016-09-IMDSIntegration/getApplicableIMDSUploadActions",
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/fetchActivities",
+   "OperationInput" : {
+      "request" : {
+         "objectUid" : "String"
+      }
+   }
+}

@@ -1,0 +1,244 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "promissoryDesignElementInfo" : [
+            {
+               "attrInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "clientId" : "String",
+               "boType" : "String",
+               "auxiliaryObjects" : {
+                  "SampleKeyString" : [
+                     {
+                        "object" : "IModelObject",
+                        "subObjects" : {
+                           "SampleKeyString" : [
+                              {
+                                 "compoundInfo" : "Cpd0::Soa::CpdCore::_2014_10::DataManagement::CompoundCreateInfoMap2",
+                                 "attrInfo" : {
+                                    "SampleKeyString" : "String[]"
+                                 },
+                                 "boType" : "String"
+                              }
+                           ]
+                        },
+                        "attrInfo" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boType" : "String"
+                     }
+                  ]
+               },
+               "modelObject" : "IModelObject",
+               "guardObjLastModifiedDate" : "bool",
+               "element" : "IModelObject",
+               "boundingBox" : "double[]",
+               "objLastModifiedDateGuard" : "Date"
+            }
+         ],
+         "subordinateDesignElementInfo" : [
+            {
+               "shapeOverrideInput" : {
+                  "boundingBox" : "double[]",
+                  "thumbnailDataset" : "IModelObject",
+                  "trueShapeDataset" : "IModelObject",
+                  "directModelDataset" : "IModelObject",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "geometryOverrideDataset" : "IModelObject"
+               },
+               "guardObjLastModifiedDate" : "bool",
+               "auxiliaryObjects" : {
+                  "SampleKeyString" : [
+                     {
+                        "attrInfo" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "subObjects" : {
+                           "SampleKeyString" : [
+                              {
+                                 "compoundInfo" : "Cpd0::Soa::CpdCore::_2014_10::DataManagement::CompoundCreateInfoMap2",
+                                 "attrInfo" : {
+                                    "SampleKeyString" : "String[]"
+                                 },
+                                 "boType" : "String"
+                              }
+                           ]
+                        },
+                        "boType" : "String",
+                        "object" : "IModelObject"
+                     }
+                  ]
+               },
+               "transform" : "double[]",
+               "clientId" : "String",
+               "attrInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "objLastModifiedDateGuard" : "Date",
+               "boundingBox" : "double[]",
+               "removeOverride" : "int",
+               "element" : "IModelObject",
+               "directModelDataset" : "IModelObject"
+            }
+         ],
+         "shapeDesignElementInfo" : [
+            {
+               "guardObjLastModifiedDate" : "bool",
+               "compoundCreateInput" : {
+                  "createInfo" : {
+                     "boType" : "String",
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "compoundInfo" : {
+                        "SampleKeyString" : [
+                           {
+                              "boType" : "String",
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap"
+                           }
+                        ]
+                     }
+                  },
+                  "folder" : "IModelObject"
+               },
+               "modelObject" : "IModelObject",
+               "auxiliaryObjects" : {
+                  "SampleKeyString" : [
+                     {
+                        "attrInfo" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "subObjects" : {
+                           "SampleKeyString" : [
+                              {
+                                 "boType" : "String",
+                                 "attrInfo" : {
+                                    "SampleKeyString" : "String[]"
+                                 },
+                                 "compoundInfo" : "Cpd0::Soa::CpdCore::_2014_10::DataManagement::CompoundCreateInfoMap2"
+                              }
+                           ]
+                        },
+                        "boType" : "String",
+                        "object" : "IModelObject"
+                     }
+                  ]
+               },
+               "boType" : "String",
+               "transform" : "double[]",
+               "attrInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "clientId" : "String",
+               "boundingBox" : "double[]",
+               "objLastModifiedDateGuard" : "Date",
+               "trueshapeDataset" : "IModelObject",
+               "element" : "IModelObject",
+               "directModelDataset" : "IModelObject"
+            }
+         ],
+         "reuseDesignElementInfo" : [
+            {
+               "boundingBox" : "double[]",
+               "objLastModifiedDateGuard" : "Date",
+               "removeOverride" : "int",
+               "lastModifiedDateGuard" : "Date",
+               "sourceObject" : "IModelObject",
+               "directModelDataset" : "IModelObject",
+               "shapeOverrideInput" : {
+                  "directModelDataset" : "IModelObject",
+                  "geometryOverrideDataset" : "IModelObject",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "thumbnailDataset" : "IModelObject",
+                  "boundingBox" : "double[]",
+                  "trueShapeDataset" : "IModelObject"
+               },
+               "guardObjLastModifiedDate" : "bool",
+               "auxiliaryObjects" : {
+                  "SampleKeyString" : [
+                     {
+                        "object" : "IModelObject",
+                        "attrInfo" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "subObjects" : {
+                           "SampleKeyString" : [
+                              {
+                                 "compoundInfo" : "Cpd0::Soa::CpdCore::_2014_10::DataManagement::CompoundCreateInfoMap2",
+                                 "attrInfo" : {
+                                    "SampleKeyString" : "String[]"
+                                 },
+                                 "boType" : "String"
+                              }
+                           ]
+                        },
+                        "boType" : "String"
+                     }
+                  ]
+               },
+               "attrInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "clientId" : "String",
+               "boType" : "String",
+               "variantRule" : "IModelObject",
+               "bomView" : "String",
+               "element" : "IModelObject",
+               "guardLastModifiedDate" : "bool",
+               "levelsOfSubordinatesToReturn" : "int",
+               "revRule" : "IModelObject",
+               "sos" : "IModelObject",
+               "updateSubordinates" : "bool",
+               "modelObject" : "IModelObject",
+               "transform" : "double[]"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "shapeDesigns" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "shapeDesign" : "IModelObject",
+               "shapeDesignRevsion" : "IModelObject"
+            }
+         ]
+      ],
+      "unmappedEffectivityEncountered" : "IModelObject[]",
+      "subordinateElements" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "shapeOverrideDesigns" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "shapeDesignRevsion" : "IModelObject",
+               "shapeDesign" : "IModelObject"
+            }
+         ]
+      ]
+   },
+   "ServiceOperation" : "CpdCore-2014-10-DataManagement/createOrUpdateDesignElements"
+}

@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "xlsxDs" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "customXlsbDs" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2011-06-MeasurementDataQuery/queryCustomXlsbDs"
+}

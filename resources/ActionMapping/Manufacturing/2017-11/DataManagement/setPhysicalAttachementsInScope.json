@@ -1,0 +1,59 @@
+{
+   "ServiceOperation" : "Manufacturing-2017-11-DataManagement/setPhysicalAttachementsInScope",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "relationInfo" : {
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               }
+            },
+            "relationName" : "String",
+            "scope" : "IModelObject",
+            "source" : "IModelObject",
+            "target" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

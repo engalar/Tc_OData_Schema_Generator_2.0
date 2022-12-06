@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "resultObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Bom-2010-09-StructureManagement/getTraversedObjectsByRule",
+   "OperationInput" : {
+      "input" : {
+         "depth" : "int",
+         "closureRule" : "String",
+         "otherStructure" : "IModelObject",
+         "scopeObjects" : "IModelObject[]"
+      }
+   }
+}

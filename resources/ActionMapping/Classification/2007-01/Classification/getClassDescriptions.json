@@ -1,0 +1,37 @@
+{
+   "ServiceOperation" : "Classification-2007-01-Classification/getClassDescriptions",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "descriptions" : {
+         "SampleKeyString" : {
+            "viewCount" : "int",
+            "name" : "String",
+            "options" : {
+               "isAbstract" : "bool",
+               "isValid" : "bool",
+               "isAssembly" : "bool",
+               "isGroup" : "bool"
+            },
+            "documents" : [
+               {
+                  "originalFileName" : "String",
+                  "documentType" : "String",
+                  "ticket" : "String"
+               }
+            ],
+            "parent" : "String",
+            "userData2" : "String",
+            "description" : "String",
+            "id" : "String",
+            "userData1" : "String",
+            "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+            "shortName" : "String",
+            "instanceCount" : "int",
+            "childCount" : "int"
+         }
+      }
+   },
+   "OperationInput" : {
+      "classIds" : "String[]"
+   }
+}

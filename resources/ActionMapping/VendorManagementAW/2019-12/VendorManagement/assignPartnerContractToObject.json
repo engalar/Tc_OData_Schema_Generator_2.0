@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-VendorManagementAW-2019-12-VendorManagement/assignPartnerContractToObject",
+   "OperationInput" : {
+      "input" : {
+         "preferredStatus" : "String",
+         "partnerContract" : "IModelObject",
+         "selectedObject" : "IModelObject"
+      }
+   }
+}

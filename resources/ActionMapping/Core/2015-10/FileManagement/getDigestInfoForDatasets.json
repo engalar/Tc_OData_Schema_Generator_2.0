@@ -1,0 +1,32 @@
+{
+   "OperationResponse" : {
+      "datasetDigestInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "map" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     [
+                        {
+                           "digestAlgorithm" : "String",
+                           "digest" : "String",
+                           "certainty" : "int"
+                        }
+                     ]
+                  ]
+               ]
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2015-10-FileManagement/getDigestInfoForDatasets",
+   "OperationInput" : {
+      "datasets" : "IModelObject[]"
+   }
+}

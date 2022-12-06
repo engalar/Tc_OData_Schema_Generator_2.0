@@ -1,0 +1,58 @@
+{
+   "OperationInput" : {
+      "insertLevelInput" : {
+         "objectToBeInserted" : "IModelObject",
+         "elements" : "IModelObject[]",
+         "sortCriteria" : {
+            "sortingOrder" : "String",
+            "propertyName" : "String"
+         },
+         "productContext" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "newParent" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "childOccurrencesInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "occurrenceId" : "String",
+                  "numberOfChildren" : "int",
+                  "stableId" : "String",
+                  "displayName" : "String",
+                  "underlyingObjectType" : "String",
+                  "occurrence" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "newElementInfos" : [
+         {
+            "newElements" : [
+               {
+                  "occurrence" : "IModelObject",
+                  "displayName" : "String",
+                  "underlyingObjectType" : "String",
+                  "stableId" : "String",
+                  "occurrenceId" : "String",
+                  "numberOfChildren" : "int"
+               }
+            ],
+            "newElementToPositionMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "int"
+               ]
+            ],
+            "parentElement" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2020-12-OccurrenceManagement/insertLevel2"
+}

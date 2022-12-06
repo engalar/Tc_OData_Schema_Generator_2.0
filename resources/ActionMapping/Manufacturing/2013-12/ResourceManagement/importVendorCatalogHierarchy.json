@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "vendorCatalogRootDir" : "String",
+      "importOptions" : "int"
+   },
+   "OperationResponse" : {
+      "logFileTicket" : {
+         "ticket" : "String",
+         "fileName" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2013-12-ResourceManagement/importVendorCatalogHierarchy"
+}

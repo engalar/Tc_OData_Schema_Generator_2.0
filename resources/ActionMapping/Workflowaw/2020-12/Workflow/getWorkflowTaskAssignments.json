@@ -1,0 +1,62 @@
+{
+   "OperationInput" : {
+      "inData" : [
+         {
+            "taskOrTemplate" : "IModelObject",
+            "operationMode" : "int",
+            "startIndex" : "int",
+            "maxToLoad" : "int",
+            "clientId" : "String",
+            "pal" : "IModelObject",
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "dpData" : {
+               "SampleKeyString" : {
+                  "additionalData" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "primaryObject" : "IModelObject",
+                  "allowMultipleAssignee" : "bool",
+                  "assigneeList" : "IModelObject[]",
+                  "displayName" : "String",
+                  "internalName" : "String"
+               }
+            },
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "outData" : [
+               {
+                  "assigmentData" : {
+                     "SampleKeyString" : [
+                        {
+                           "member" : "IModelObject",
+                           "origin" : "IModelObject",
+                           "additionalData" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "signoffProfile" : "IModelObject",
+                           "isRequired" : "bool"
+                        }
+                     ]
+                  },
+                  "additionalData" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "task" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Workflowaw-2020-12-Workflow/getWorkflowTaskAssignments"
+}

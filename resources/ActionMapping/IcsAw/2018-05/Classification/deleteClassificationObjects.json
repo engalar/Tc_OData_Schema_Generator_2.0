@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-IcsAw-2018-05-Classification/deleteClassificationObjects",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "classificationObjects" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "inputModels" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Asp0Aspect-2015-07-AspectManagement/getAspectSchemesInModel",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "model" : "IModelObject",
+            "aspectSchemes" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

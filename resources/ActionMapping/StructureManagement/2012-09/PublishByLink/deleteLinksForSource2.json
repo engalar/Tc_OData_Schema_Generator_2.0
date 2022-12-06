@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2012-09-PublishByLink/deleteLinksForSource2",
+   "OperationInput" : {
+      "dataToUnpublish" : "String",
+      "sourceBOMLines" : "IModelObject[]"
+   }
+}

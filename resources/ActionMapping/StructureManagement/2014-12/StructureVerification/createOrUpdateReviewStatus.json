@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "changedObject" : "IModelObject",
+            "impactedScopeStatus" : [
+               {
+                  "impactedScopeLine" : "IModelObject",
+                  "status" : "String"
+               }
+            ],
+            "changedLine" : "IModelObject",
+            "changeType" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "statusDetails" : [
+         {
+            "inputIndex" : "int",
+            "statusDetails" : [
+               {
+                  "impactedScopeObject" : "IModelObject",
+                  "reviewStatus" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2014-12-StructureVerification/createOrUpdateReviewStatus"
+}

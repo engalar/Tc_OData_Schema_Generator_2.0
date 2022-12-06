@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "context" : "IModelObject",
+            "revisionRule" : "IModelObject",
+            "sourceSubset" : "IModelObject",
+            "intentOptions" : [
+               {
+                  "intentValue" : "String",
+                  "intentFamily" : "String",
+                  "intentNamespace" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Process-2017-11-ProductSubset/createOrUpdateProductSubsets"
+}

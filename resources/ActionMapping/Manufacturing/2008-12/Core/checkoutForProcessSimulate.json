@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "rootLines" : "IModelObject[]",
+      "params" : {
+         "changeId" : "String",
+         "reason" : "String",
+         "coAssembly" : "bool",
+         "coTools" : "bool",
+         "coPlant" : "bool",
+         "coProcess" : "bool",
+         "isRecursive" : "bool"
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2008-12-Core/checkoutForProcessSimulate",
+   "OperationResponse" : "IServiceData"
+}

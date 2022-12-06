@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Core-2012-02-Session/setObjectPropertyPolicy",
+   "OperationResponse" : {
+      "policyId" : "String",
+      "policy" : "IModelObject"
+   },
+   "OperationInput" : {
+      "policyName" : "String",
+      "useRefCounting" : "bool"
+   }
+}

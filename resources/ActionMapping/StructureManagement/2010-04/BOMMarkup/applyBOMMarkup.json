@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2010-04-BOMMarkup/applyBOMMarkup",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "recursive" : "bool",
+            "evaluate" : "bool",
+            "bomLine" : "IModelObject"
+         }
+      ]
+   }
+}

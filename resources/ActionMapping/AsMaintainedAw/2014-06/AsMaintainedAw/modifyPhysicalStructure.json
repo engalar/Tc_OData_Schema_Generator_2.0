@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "newPartIndicator" : "bool",
+            "uninstallIndicator" : "bool",
+            "installPhysicalPart" : "IModelObject",
+            "newPhysicalPartInfo" : {
+               "partNumber" : "String",
+               "lotNumber" : "String",
+               "manufactureDate" : "Date",
+               "manufacturerId" : "String",
+               "serialNumber" : "String",
+               "installationTime" : "Date"
+            },
+            "installInfo" : {
+               "installationDate" : "Date",
+               "usageNameValue" : "String"
+            },
+            "replaceUninstallPhysicalPartInfo" : {
+               "manufacturerId" : "String",
+               "replacePhysicalPart" : "IModelObject",
+               "usageName" : "String",
+               "uninstallDate" : "Date",
+               "parentPhysicalPart" : "IModelObject",
+               "partNumber" : "String",
+               "lotNumber" : "String",
+               "serialNumber" : "String",
+               "uninstallDisposition" : "String",
+               "uninstallLocation" : "String"
+            },
+            "selectedLine" : "IModelObject",
+            "replaceIndicator" : "bool",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AsMaintainedAw-2014-06-AsMaintainedAw/modifyPhysicalStructure",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "installedLine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Core-2007-06-DataManagement/getAvailableTypes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "inputClassToTypes" : {
+         "SampleKeyString" : [
+            {
+               "type" : "String",
+               "hierarchies" : "String[]"
+            }
+         ]
+      }
+   },
+   "OperationInput" : {
+      "classes" : [
+         {
+            "exclusionTypes" : "String[]",
+            "baseClass" : "String"
+         }
+      ]
+   }
+}

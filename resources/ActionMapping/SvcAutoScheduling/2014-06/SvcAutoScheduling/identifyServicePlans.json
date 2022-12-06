@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "relatedServicePlan" : [
+         {
+            "usageName" : "String",
+            "asset" : "IModelObject",
+            "topPartitionLine" : "IModelObject",
+            "servicePlan" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "SvcAutoScheduling-2014-06-SvcAutoScheduling/identifyServicePlans",
+   "OperationInput" : {
+      "selectedAsmLine" : "IModelObject"
+   }
+}

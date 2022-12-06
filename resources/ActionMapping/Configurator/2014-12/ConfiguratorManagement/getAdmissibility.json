@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "admissibilityOutputList" : [
+         {
+            "admissibilityDataList" : [
+               {
+                  "contextObject" : "IModelObject",
+                  "admissibilityList" : "IModelObject[]"
+               }
+            ],
+            "index" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Configurator-2014-12-ConfiguratorManagement/getAdmissibility",
+   "OperationInput" : {
+      "admissibilityInputs" : [
+         {
+            "contextObjects" : "IModelObject[]",
+            "configPerspective" : "IModelObject"
+         }
+      ],
+      "operationConfigPerspective" : "IModelObject"
+   }
+}

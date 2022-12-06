@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "input" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "name" : "String",
+               "revId" : "String",
+               "description" : "String",
+               "extendedAttributes" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         ]
+      ]
+   },
+   "OperationResponse" : {
+      "oldItemRevToNewItemRev" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2006-03-DataManagement/revise"
+}

@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "classList" : "String[]",
+      "targetSite" : "int"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-Synchronizer/getCandidatesToSynchronizeForListOfClasses",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "candidateObjectsList" : "String[]"
+   }
+}

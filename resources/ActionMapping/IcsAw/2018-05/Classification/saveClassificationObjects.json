@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "classificationObjects" : [
+         {
+            "workspaceObject" : "IModelObject",
+            "properties" : [
+               {
+                  "attributeId" : "String",
+                  "values" : "String[]"
+               }
+            ],
+            "classificationObj" : "IModelObject"
+         }
+      ],
+      "deltaUpdateFlag" : "int"
+   },
+   "OperationResponse" : {
+      "classificationObjects" : [
+         {
+            "workspaceObject" : "IModelObject",
+            "clsObject" : "IModelObject",
+            "properties" : [
+               {
+                  "propertyId" : "String",
+                  "values" : [
+                     {
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     }
+                  ],
+                  "propertyName" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-IcsAw-2018-05-Classification/saveClassificationObjects"
+}

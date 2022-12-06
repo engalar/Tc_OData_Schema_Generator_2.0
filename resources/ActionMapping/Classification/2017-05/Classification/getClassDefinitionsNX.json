@@ -1,0 +1,131 @@
+{
+   "OperationResponse" : {
+      "classDefinitionMap" : {
+         "SampleKeyString" : {
+            "userData2" : "String",
+            "documents" : [
+               {
+                  "documentType" : "String",
+                  "originalFileName" : "String",
+                  "ticket" : "String"
+               }
+            ],
+            "parent" : "String",
+            "options" : {
+               "isGroup" : "bool",
+               "isAbstract" : "bool",
+               "isValid" : "bool",
+               "isAssembly" : "bool"
+            },
+            "description" : "String",
+            "viewCount" : "int",
+            "name" : "String",
+            "childCount" : "int",
+            "userData1" : "String",
+            "id" : "String",
+            "instanceCount" : "int",
+            "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+            "shortName" : "String"
+         }
+      },
+      "keylovDefintion" : {
+         "SampleKeyString" : {
+            "owningSite" : "IModelObject",
+            "options" : "int",
+            "name" : "String",
+            "keyLovtag" : "IModelObject",
+            "sharedSites" : "IModelObject[]",
+            "id" : "String",
+            "keyLovEntries" : [
+               {
+                  "lovKey" : "String",
+                  "deprecatedSatus" : "bool",
+                  "lovValue" : "String"
+               }
+            ]
+         }
+      },
+      "serviceData" : "IServiceData",
+      "classAttributesMap" : {
+         "SampleKeyString" : {
+            "classAttributes" : [
+               {
+                  "extendedProperties" : [
+                     {
+                        "propertyName" : "String",
+                        "values" : [
+                           {
+                              "value" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "description" : "String",
+                  "dependencyAttribute" : "String",
+                  "options" : "int",
+                  "dependencyConfiguration" : "String",
+                  "name" : "String",
+                  "attributeConfiguration" : {
+                     "preConfig" : "String",
+                     "config" : "String",
+                     "postConfig" : "String"
+                  },
+                  "arraySize" : "int",
+                  "shortName" : "String",
+                  "annotation" : "String",
+                  "nonMetricFormat" : {
+                     "minimumValue" : "String",
+                     "unitID" : "String",
+                     "nxUnitID" : "String",
+                     "unitDisplayName" : "String",
+                     "maximumValue" : "String",
+                     "format" : {
+                        "formatLength" : "int",
+                        "formatModifier1" : "int",
+                        "formatModifier2" : "int",
+                        "formatType" : "int"
+                     },
+                     "defaultValue" : "String"
+                  },
+                  "metricFormat" : {
+                     "defaultValue" : "String",
+                     "format" : {
+                        "formatLength" : "int",
+                        "formatModifier1" : "int",
+                        "formatType" : "int",
+                        "formatModifier2" : "int"
+                     },
+                     "maximumValue" : "String",
+                     "unitDisplayName" : "String",
+                     "nxUnitID" : "String",
+                     "unitID" : "String",
+                     "minimumValue" : "String"
+                  },
+                  "id" : "int"
+               }
+            ],
+            "configuredKeyLOVs" : {
+               "SampleKeyInt" : {
+                  "keyLovtag" : "IModelObject",
+                  "name" : "String",
+                  "sharedSites" : "IModelObject[]",
+                  "id" : "String",
+                  "keyLovEntries" : [
+                     {
+                        "lovValue" : "String",
+                        "deprecatedSatus" : "bool",
+                        "lovKey" : "String"
+                     }
+                  ],
+                  "owningSite" : "IModelObject",
+                  "options" : "int"
+               }
+            }
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Classification-2017-05-Classification/getClassDefinitionsNX",
+   "OperationInput" : {
+      "classIDs" : "String[]"
+   }
+}

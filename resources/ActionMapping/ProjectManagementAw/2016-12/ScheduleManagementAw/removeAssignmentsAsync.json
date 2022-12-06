@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "ProjectManagementAw-2016-12-ScheduleManagementAw/removeAssignmentsAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "membersToRemoveAssignments" : "IModelObject[]"
+   }
+}

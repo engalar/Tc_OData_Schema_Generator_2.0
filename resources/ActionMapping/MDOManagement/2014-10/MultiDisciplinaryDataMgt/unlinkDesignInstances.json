@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "MDOManagement-2014-10-MultiDisciplinaryDataMgt/unlinkDesignInstances",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "instanceLinkingObject" : "IModelObject",
+            "clientId" : "String",
+            "isSuccess" : "bool"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "designInstancesData" : [
+               {
+                  "designInstance" : "IModelObject",
+                  "isPreciseLink" : "bool"
+               }
+            ],
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

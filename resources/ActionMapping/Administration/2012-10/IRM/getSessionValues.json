@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : {
+      "sessionValues" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Administration-2012-10-IRM/getSessionValues",
+   "OperationInput" : {}
+}

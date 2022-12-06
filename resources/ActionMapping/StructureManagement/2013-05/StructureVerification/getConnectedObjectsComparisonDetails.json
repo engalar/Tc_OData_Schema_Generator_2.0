@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "equivalentObjects" : [
+         {
+            "eqvSrcLines" : "IModelObject[]",
+            "eqvTargetLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "connectedObjectsDetails" : [
+         {
+            "connectedObjectsDetails" : [
+               {
+                  "connectedObjects" : [
+                     {
+                        "businessObjects" : "IModelObject[]"
+                     }
+                  ],
+                  "equivalentObject" : "IModelObject"
+               }
+            ],
+            "index" : "int",
+            "matchResults" : "int[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2013-05-StructureVerification/getConnectedObjectsComparisonDetails"
+}

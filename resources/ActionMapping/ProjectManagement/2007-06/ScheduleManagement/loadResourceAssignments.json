@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "loadResourceAssignmentContainer" : {
+         "startDate" : "Date",
+         "endDate" : "Date",
+         "schedulesToAlwaysInclude" : "IModelObject[]",
+         "resource" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2007-06-ScheduleManagement/loadResourceAssignments",
+   "OperationResponse" : {
+      "resourceData" : [
+         {
+            "tasks" : "IModelObject[]",
+            "calendarEvents" : "IModelObject[]",
+            "resource" : "IModelObject",
+            "resourceAssignment" : "IModelObject[]",
+            "schedules" : "IModelObject[]",
+            "calendars" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

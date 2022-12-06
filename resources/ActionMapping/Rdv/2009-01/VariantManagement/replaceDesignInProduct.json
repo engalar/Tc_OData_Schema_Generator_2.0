@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "archApn" : "IModelObject",
+      "lous" : "IModelObject[]",
+      "metaExpr" : [
+         {
+            "tokenType" : "tokenNull tokenAnd tokenOr tokenNot tokenBra tokenKet tokenNVE",
+            "nveRef" : {
+               "nveName" : "String",
+               "nveType" : "nveAuthorized nveSplitting nveMandatorySplit",
+               "nve" : "IModelObject"
+            }
+         }
+      ],
+      "bomlinesToReplace" : "IModelObject[]",
+      "prodRevs" : "IModelObject[]",
+      "component" : "IModelObject",
+      "validate" : "bool"
+   },
+   "ServiceOperation" : "Internal-Rdv-2009-01-VariantManagement/replaceDesignInProduct",
+   "OperationResponse" : "IServiceData"
+}

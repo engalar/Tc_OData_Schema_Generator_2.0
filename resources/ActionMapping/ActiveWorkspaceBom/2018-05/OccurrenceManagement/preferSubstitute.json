@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2018-05-OccurrenceManagement/preferSubstitute",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "preferredSubstitute" : "IModelObject",
+      "occurrence" : "IModelObject"
+   }
+}

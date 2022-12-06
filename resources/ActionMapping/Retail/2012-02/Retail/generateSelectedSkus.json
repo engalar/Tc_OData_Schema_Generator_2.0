@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "bomLineUid" : "String",
+            "tagDimensions" : [
+               {
+                  "dimensionValues" : "String[]",
+                  "dimensionName" : "String"
+               }
+            ],
+            "valueDimensions" : [
+               {
+                  "dimensionValues" : "String[]",
+                  "dimensionName" : "String"
+               }
+            ],
+            "vendorDimensions" : {
+               "dimensionValues" : "String[]",
+               "dimensionName" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2012-02-Retail/generateSelectedSkus",
+   "OperationResponse" : {
+      "vendorSkus" : "String[]",
+      "serviceData" : "IServiceData",
+      "retailMaterialSkus" : "String[]"
+   }
+}

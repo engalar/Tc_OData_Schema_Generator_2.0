@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "endTime" : "String",
+            "interval" : "int",
+            "keyValueArgs" : [
+               {
+                  "value" : "String",
+                  "key" : "String"
+               }
+            ],
+            "providerName" : "String",
+            "primaryObjects" : "IModelObject[]",
+            "dataFiles" : [
+               {
+                  "key" : "String",
+                  "file" : "IModelObject"
+               }
+            ],
+            "priority" : "int",
+            "startTime" : "String",
+            "type" : "String",
+            "secondaryObjects" : "IModelObject[]",
+            "serviceName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "requestsCreated" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Core-2008-06-DispatcherManagement/createDispatcherRequest"
+}

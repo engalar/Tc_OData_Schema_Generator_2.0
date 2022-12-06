@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugLogging/setJournalEntries",
+   "OperationResponse" : "bool",
+   "OperationInput" : {
+      "journal" : "bool"
+   }
+}

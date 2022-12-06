@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "tasksToPerform" : "IModelObject[]",
+      "tasksToTrack" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-Finder/findUsersTasks"
+}

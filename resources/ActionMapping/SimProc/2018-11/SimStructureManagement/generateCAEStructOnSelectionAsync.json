@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "structureMapInputs" : {
+         "targetOwningGroup" : "String",
+         "snapshotFolder" : "IModelObject",
+         "selectedBOMLineInfo" : [
+            {
+               "cloneStableId" : "String",
+               "blLevel" : "String"
+            }
+         ],
+         "revRule" : "IModelObject",
+         "domain" : "String",
+         "structureMapIR" : "IModelObject",
+         "targetOwningUser" : "String",
+         "rootIR" : "IModelObject",
+         "variantRules" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Internal-SimProc-2018-11-SimStructureManagement/generateCAEStructOnSelectionAsync",
+   "OperationResponse" : {}
+}

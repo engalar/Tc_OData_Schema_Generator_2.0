@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "component" : "IModelObject",
+      "configurationContext" : "IModelObject",
+      "showRelatedAnalysisRootOnly" : "bool",
+      "filterRelationType" : "String[]",
+      "filterItemType" : "int",
+      "columnNames" : "String[]",
+      "showRelatedAnalysisAll" : "bool"
+   },
+   "ServiceOperation" : "Internal-SimProc-2016-03-SimStructureManagement/getCompositeLineNodesExpandBelow2",
+   "OperationResponse" : {
+      "compositeLineNodes" : {
+         "itemRevision" : "IModelObject",
+         "propValueInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "attachmentRelation" : "IModelObject",
+         "childLines" : "CAE0::Soa::Internal::SimProc::_2016_03::SimStructureManagement::ParentToChildCompositeStructure2[]",
+         "isRelation" : "bool"
+      },
+      "compositeServiceData" : "IServiceData"
+   }
+}

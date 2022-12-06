@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11RepublishObjectSvc",
+   "OperationResponse" : {
+      "userDataIp" : "String",
+      "serverCorrelationId" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "clientCorrelationId" : "String",
+            "roleName" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "osUserName" : "String",
+            "userDataIp" : "String",
+            "userId" : "String",
+            "clientNode" : "String"
+         },
+         "odsSiteId" : "int",
+         "tagsAsString" : "String"
+      }
+   }
+}

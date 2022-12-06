@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagement-2007-01-ScheduleManagement/deleteSchedulingObjects",
+   "OperationInput" : {
+      "scheduleObjDeleteContainer" : [
+         {
+            "object" : "IModelObject"
+         }
+      ]
+   }
+}

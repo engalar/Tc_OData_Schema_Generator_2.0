@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Internal-Visualization-2010-09-DataManagement/gatherSnapshot3DList",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "snapshot3DOutputMap" : {
+         "SampleKeyString" : {
+            "snapshotList" : [
+               {
+                  "snapshot3DDataset" : "IModelObject",
+                  "namedRefFileInfoList" : [
+                     {
+                        "clientFileId" : "String",
+                        "uploadedFile" : "IModelObject",
+                        "uploadedFilename" : "String",
+                        "uploadedFileRefNames" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      }
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "bomLine" : "IModelObject",
+            "clientId" : "String",
+            "refType" : "Ref_Snapshot3d Ref_VisTopLevel"
+         }
+      ]
+   }
+}

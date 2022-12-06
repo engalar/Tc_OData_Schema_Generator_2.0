@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "branchObj" : {
+               "boName" : "String",
+               "propMap" : {
+                  "SampleKeyString" : "String[]"
+               }
+            },
+            "branchContents" : [
+               {
+                  "versionObject" : "IModelObject",
+                  "propMap" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "clientID" : "String",
+            "parentBranch" : "IModelObject",
+            "parentClientID" : "String",
+            "branchComment" : {
+               "propMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "BranchFoundation-2017-05-BranchFoundation/createBranches",
+   "OperationResponse" : {
+      "outputMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

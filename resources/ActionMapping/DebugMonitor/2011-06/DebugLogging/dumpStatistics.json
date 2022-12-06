@@ -1,0 +1,5 @@
+{
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugLogging/dumpStatistics",
+   "OperationResponse" : "bool",
+   "OperationInput" : {}
+}

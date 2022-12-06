@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "ProjectManagementAw-2020-05-ScheduleManagementAw/shiftSchedulesAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "shiftByDays" : "int",
+      "shiftByDate" : "Date",
+      "scheduleUIDs" : "String[]"
+   }
+}

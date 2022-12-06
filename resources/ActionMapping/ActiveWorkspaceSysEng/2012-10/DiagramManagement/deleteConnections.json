@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "requestPref" : {
+            "SampleKeyString" : "String"
+         },
+         "clientId" : "String",
+         "connectionsToBeDeleted" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "parentObjects" : "IModelObject[]",
+      "clientId" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ActiveWorkspaceSysEng-2012-10-DiagramManagement/deleteConnections"
+}

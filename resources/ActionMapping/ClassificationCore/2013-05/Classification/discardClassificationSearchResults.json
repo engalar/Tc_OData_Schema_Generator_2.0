@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "resultSet" : "String"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ClassificationCore-2013-05-Classification/discardClassificationSearchResults"
+}

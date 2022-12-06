@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Core-2007-12-DataManagement/listAlternateIdDisplayRules",
+   "OperationResponse" : {
+      "currentRuleInDB" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "userDisplayRuleMaps" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "users" : "IModelObject[]",
+         "currentUser" : "bool"
+      }
+   }
+}

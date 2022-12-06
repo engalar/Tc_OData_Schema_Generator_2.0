@@ -1,0 +1,242 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "modelNameToModelInfoMap" : {
+         "SampleKeyString" : {
+            "topModel" : "bool",
+            "modelName" : "String",
+            "userSelections" : [
+               {
+                  "userSelection" : "CHECK_IN CHECK_OUT DWNDL_ADD_DATA RELOAD_TC_MDL NO_RELOAD_TC_MDL SAVE_VIEWABLE SAVE_ADD_DATA LOAD_NEW_REV CARRY_FWD_ADD_DATA NO_ACTION"
+               }
+            ],
+            "modelElements" : [
+               {
+                  "modelName" : "String",
+                  "action" : "String",
+                  "uid" : "String",
+                  "instanceName" : "String",
+                  "instanceUid" : "String",
+                  "instanceType" : "String"
+               }
+            ],
+            "ports" : [
+               {
+                  "portId" : "String",
+                  "attributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "portUid" : "String",
+                  "instanceUid" : "String",
+                  "instanceType" : "String",
+                  "portType" : "String",
+                  "action" : "String",
+                  "portName" : "String"
+               }
+            ],
+            "attributes" : {
+               "SampleKeyString" : "String[]"
+            },
+            "additionalData" : [
+               {
+                  "action" : "String",
+                  "tooltype" : "String",
+                  "datasetInfo" : {
+                     "action" : "String",
+                     "datasetFileInfos" : [
+                        {
+                           "namedReferenceName" : "String",
+                           "fileName" : "String"
+                        }
+                     ],
+                     "type" : "String",
+                     "reservation" : "bool",
+                     "datasetUid" : "String"
+                  }
+               }
+            ],
+            "bvrTimeStamp" : "String",
+            "checkoutComment" : "String",
+            "uid" : "String",
+            "primaryData" : [
+               {
+                  "datasetFileInfos" : [
+                     {
+                        "fileName" : "String",
+                        "namedReferenceName" : "String"
+                     }
+                  ],
+                  "action" : "String",
+                  "type" : "String",
+                  "reservation" : "bool",
+                  "datasetUid" : "String"
+               }
+            ],
+            "folderUid" : "String",
+            "connections" : [
+               {
+                  "connPoints" : [
+                     {
+                        "portId" : "String",
+                        "modelInstanceName" : "String",
+                        "action" : "String",
+                        "portName" : "String"
+                     }
+                  ],
+                  "attributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "revAttributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "action" : "String",
+                  "type" : "String",
+                  "itemUid" : "String",
+                  "applicationInfo" : "String",
+                  "instanceUid" : "String"
+               }
+            ],
+            "viewableData" : [
+               {
+                  "datasetFileInfos" : [
+                     {
+                        "fileName" : "String",
+                        "namedReferenceName" : "String"
+                     }
+                  ],
+                  "type" : "String",
+                  "action" : "String",
+                  "datasetUid" : "String",
+                  "reservation" : "bool"
+               }
+            ],
+            "revAttributes" : {
+               "SampleKeyString" : "String[]"
+            },
+            "action" : "String",
+            "tcType" : "String",
+            "timestamp" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-BehaviorModeling-2011-06-BehaviorModeling/saveModelData",
+   "OperationInput" : {
+      "vecBhmModelInfo" : [
+         {
+            "uid" : "String",
+            "bvrTimeStamp" : "String",
+            "additionalData" : [
+               {
+                  "action" : "String",
+                  "tooltype" : "String",
+                  "datasetInfo" : {
+                     "datasetFileInfos" : [
+                        {
+                           "namedReferenceName" : "String",
+                           "fileName" : "String"
+                        }
+                     ],
+                     "type" : "String",
+                     "action" : "String",
+                     "reservation" : "bool",
+                     "datasetUid" : "String"
+                  }
+               }
+            ],
+            "checkoutComment" : "String",
+            "attributes" : {
+               "SampleKeyString" : "String[]"
+            },
+            "ports" : [
+               {
+                  "portUid" : "String",
+                  "attributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "portId" : "String",
+                  "portName" : "String",
+                  "action" : "String",
+                  "portType" : "String",
+                  "instanceType" : "String",
+                  "instanceUid" : "String"
+               }
+            ],
+            "modelElements" : [
+               {
+                  "uid" : "String",
+                  "modelName" : "String",
+                  "action" : "String",
+                  "instanceUid" : "String",
+                  "instanceType" : "String",
+                  "instanceName" : "String"
+               }
+            ],
+            "userSelections" : [
+               {
+                  "userSelection" : "CHECK_IN CHECK_OUT DWNDL_ADD_DATA RELOAD_TC_MDL NO_RELOAD_TC_MDL SAVE_VIEWABLE SAVE_ADD_DATA LOAD_NEW_REV CARRY_FWD_ADD_DATA NO_ACTION"
+               }
+            ],
+            "modelName" : "String",
+            "topModel" : "bool",
+            "tcType" : "String",
+            "timestamp" : "String",
+            "revAttributes" : {
+               "SampleKeyString" : "String[]"
+            },
+            "action" : "String",
+            "viewableData" : [
+               {
+                  "action" : "String",
+                  "datasetFileInfos" : [
+                     {
+                        "namedReferenceName" : "String",
+                        "fileName" : "String"
+                     }
+                  ],
+                  "type" : "String",
+                  "reservation" : "bool",
+                  "datasetUid" : "String"
+               }
+            ],
+            "connections" : [
+               {
+                  "instanceUid" : "String",
+                  "applicationInfo" : "String",
+                  "itemUid" : "String",
+                  "type" : "String",
+                  "action" : "String",
+                  "revAttributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "attributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "connPoints" : [
+                     {
+                        "portId" : "String",
+                        "modelInstanceName" : "String",
+                        "portName" : "String",
+                        "action" : "String"
+                     }
+                  ]
+               }
+            ],
+            "folderUid" : "String",
+            "primaryData" : [
+               {
+                  "reservation" : "bool",
+                  "datasetUid" : "String",
+                  "action" : "String",
+                  "datasetFileInfos" : [
+                     {
+                        "fileName" : "String",
+                        "namedReferenceName" : "String"
+                     }
+                  ],
+                  "type" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

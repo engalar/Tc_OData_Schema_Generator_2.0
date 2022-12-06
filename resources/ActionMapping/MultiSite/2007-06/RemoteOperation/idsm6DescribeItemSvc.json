@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm6DescribeItemSvc",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "out" : {
+         "attributes" : "String[]",
+         "attributeNames" : "String[]"
+      }
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "itemId" : "String",
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int"
+         }
+      }
+   }
+}

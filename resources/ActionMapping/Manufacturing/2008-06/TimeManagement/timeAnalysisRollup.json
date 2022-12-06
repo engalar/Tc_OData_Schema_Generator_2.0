@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "roots" : "IModelObject[]",
+         "runTimePropertiesToRecalc" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "categoryResults" : {
+               "SampleKeyString" : "double"
+            },
+            "mapRunTimeResult" : {
+               "SampleKeyString" : "double"
+            },
+            "object" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2008-06-TimeManagement/timeAnalysisRollup"
+}

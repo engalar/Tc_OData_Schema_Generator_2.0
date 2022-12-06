@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "OfficeOnline-2017-11-OfficeOnline/getLaunchInfo",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "accessToken" : "String",
+            "oosUrlString" : "String",
+            "clientId" : "String",
+            "accessTtl" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "extraInfo" : {
+               "SampleKeyString" : "String"
+            },
+            "obj" : "IModelObject",
+            "clientId" : "String",
+            "action" : "String"
+         }
+      ]
+   }
+}

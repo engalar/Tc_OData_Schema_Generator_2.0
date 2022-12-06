@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "vendorClassId" : "String",
+            "brand" : "IModelObject",
+            "contacts" : "IModelObject[]",
+            "vendor" : "IModelObject",
+            "locations" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2014-12-Retail/removeVendorCapabilities"
+}

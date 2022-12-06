@@ -1,0 +1,53 @@
+{
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "request" : "IModelObject"
+   },
+   "ServiceOperation" : "Ai-2007-12-Ai/generateScopedSyncRequest",
+   "OperationInput" : {
+      "objectsToProcess" : [
+         {
+            "apprefs" : [
+               {
+                  "label" : "String",
+                  "version" : "String",
+                  "application" : "String"
+               }
+            ],
+            "config" : {
+               "revRuleName" : "String",
+               "relatedContexts" : [
+                  {
+                     "application" : "String",
+                     "version" : "String",
+                     "label" : "String"
+                  }
+               ],
+               "configuringObject" : {
+                  "label" : "String",
+                  "version" : "String",
+                  "application" : "String"
+               },
+               "useDefaultRevisionRule" : "bool",
+               "variantRule" : {
+                  "label" : "String",
+                  "version" : "String",
+                  "application" : "String"
+               }
+            }
+         }
+      ],
+      "aiObject" : "IModelObject",
+      "requestDetail" : {
+         "status" : {
+            "description" : "String",
+            "status" : "RequestStatus_Normal RequestStatus_Warning RequestStatus_Severe RequestStatus_Abort RequestStatus_Any"
+         },
+         "scope" : "RequestScope_Whole RequestScope_Partial RequestScope_Any",
+         "stateDesc" : "String",
+         "update" : "UpdateType_Full UpdateType_Delta UpdateType_Any",
+         "description" : "String",
+         "name" : "String"
+      }
+   }
+}

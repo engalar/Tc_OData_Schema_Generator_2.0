@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-CaeAw-2018-12-SimulationManagementAw/generateCAEStructureAsync",
+   "OperationInput" : {
+      "inclusionRuleInputs" : {
+         "inclusionRuleFileItemRevDesc" : "String",
+         "selectedInclusionRuleItemRev" : "IModelObject",
+         "inclusionRuleFileItemRevName" : "String",
+         "inclusionRuleFileTicket" : "String"
+      },
+      "structureMapIR" : "IModelObject",
+      "domain" : "String",
+      "revRule" : "IModelObject",
+      "variantRule" : "IModelObject[]",
+      "selectedBOMLineInfo" : [
+         {
+            "cloneStableId" : "String",
+            "blLevel" : "String"
+         }
+      ],
+      "rootIR" : "IModelObject"
+   }
+}

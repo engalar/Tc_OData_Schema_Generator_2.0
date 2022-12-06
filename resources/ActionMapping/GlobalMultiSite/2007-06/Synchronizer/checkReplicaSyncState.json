@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "replicaSyncStatusList" : [
+         {
+            "syncStatus" : "String",
+            "candidateObject" : "String"
+         }
+      ],
+      "logFmsTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-Synchronizer/checkReplicaSyncState",
+   "OperationInput" : {
+      "revisionRule" : "String",
+      "inputReplicaGSIdentityList" : "String[]",
+      "syncType" : "String",
+      "replicaSite" : "int"
+   }
+}

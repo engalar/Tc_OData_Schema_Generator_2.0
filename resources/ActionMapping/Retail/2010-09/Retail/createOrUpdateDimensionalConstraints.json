@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "dimensionName" : "String",
+            "dimensionPath" : "String",
+            "dimensionConstraintInfo" : [
+               {
+                  "dimensionConstraintOperator" : "OR AND",
+                  "dimensionValue" : "String",
+                  "dimensionComparisonOperator" : "EQ NEQ LT GT GTEQ LTEQ",
+                  "dimensionName" : "String"
+               }
+            ],
+            "constrainedBomLineUID" : "String",
+            "constraintType" : "SET FIX",
+            "contextBomLineUID" : "String",
+            "dimensionValue" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/createOrUpdateDimensionalConstraints",
+   "OperationResponse" : {
+      "servicedata" : "IServiceData",
+      "noDimensionBomUID" : "String[]"
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "releaseStandIn" : "bool",
+            "transferCheckouts" : "bool",
+            "taskOrSignoffTag" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Workflow-2014-06-Workflow/setActiveSurrogate",
+   "OperationResponse" : "IServiceData"
+}

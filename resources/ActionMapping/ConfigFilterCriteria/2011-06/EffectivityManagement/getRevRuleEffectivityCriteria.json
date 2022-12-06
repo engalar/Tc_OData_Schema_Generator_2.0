@@ -1,0 +1,155 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "effectivityCriteria" : [
+         {
+            "validationRecords" : [
+               {
+                  "validationDate" : "Date",
+                  "validationResult" : {
+                     "productName" : "String",
+                     "formula" : "String",
+                     "productNameSpace" : "String"
+                  },
+                  "violations" : [
+                     {
+                        "violatedCondition" : {
+                           "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+                           "value" : {
+                              "description" : "String",
+                              "name" : "String",
+                              "family" : "IModelObject"
+                           },
+                           "opCode" : "int",
+                           "effectivityTable" : [
+                              {
+                                 "unitOut" : "int",
+                                 "unitIn" : "int",
+                                 "rest" : {
+                                    "productNameSpace" : "String",
+                                    "formula" : "String",
+                                    "productName" : "String"
+                                 },
+                                 "dateOut" : "Date",
+                                 "dateIn" : "Date"
+                              }
+                           ],
+                           "formula" : {
+                              "formula" : "String",
+                              "productName" : "String",
+                              "productNameSpace" : "String"
+                           }
+                        },
+                        "message" : "String"
+                     }
+                  ],
+                  "appliedDefaults" : [
+                     {
+                        "restrictiveCondition" : {
+                           "value" : {
+                              "family" : "IModelObject",
+                              "name" : "String",
+                              "description" : "String"
+                           },
+                           "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+                           "opCode" : "int",
+                           "formula" : {
+                              "formula" : "String",
+                              "productName" : "String",
+                              "productNameSpace" : "String"
+                           },
+                           "effectivityTable" : [
+                              {
+                                 "unitIn" : "int",
+                                 "rest" : {
+                                    "productNameSpace" : "String",
+                                    "productName" : "String",
+                                    "formula" : "String"
+                                 },
+                                 "dateOut" : "Date",
+                                 "unitOut" : "int",
+                                 "dateIn" : "Date"
+                              }
+                           ]
+                        },
+                        "appliedTo" : {
+                           "opCode" : "int",
+                           "formula" : {
+                              "productName" : "String",
+                              "formula" : "String",
+                              "productNameSpace" : "String"
+                           },
+                           "effectivityTable" : [
+                              {
+                                 "unitOut" : "int",
+                                 "unitIn" : "int",
+                                 "dateOut" : "Date",
+                                 "rest" : {
+                                    "productNameSpace" : "String",
+                                    "productName" : "String",
+                                    "formula" : "String"
+                                 },
+                                 "dateIn" : "Date"
+                              }
+                           ],
+                           "value" : {
+                              "family" : "IModelObject",
+                              "name" : "String",
+                              "description" : "String"
+                           },
+                           "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]"
+                        },
+                        "partiallyApplicable" : "bool",
+                        "appliedDefault" : {
+                           "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+                           "value" : {
+                              "family" : "IModelObject",
+                              "name" : "String",
+                              "description" : "String"
+                           },
+                           "opCode" : "int",
+                           "effectivityTable" : [
+                              {
+                                 "dateIn" : "Date",
+                                 "rest" : {
+                                    "productName" : "String",
+                                    "formula" : "String",
+                                    "productNameSpace" : "String"
+                                 },
+                                 "dateOut" : "Date",
+                                 "unitIn" : "int",
+                                 "unitOut" : "int"
+                              }
+                           ],
+                           "formula" : {
+                              "productNameSpace" : "String",
+                              "productName" : "String",
+                              "formula" : "String"
+                           }
+                        }
+                     }
+                  ],
+                  "undeterminedFamilies" : "IModelObject[]"
+               }
+            ],
+            "revisionRule" : "IModelObject",
+            "primaryEffectivity" : {
+               "formula" : "String",
+               "productName" : "String",
+               "productNameSpace" : "String"
+            },
+            "solveType" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "ConfigFilterCriteria-2011-06-EffectivityManagement/getRevRuleEffectivityCriteria",
+   "OperationInput" : {
+      "productNameSpace" : "String",
+      "applyDefaults" : "int",
+      "configuratorURL" : "String",
+      "productName" : "String",
+      "revisionRules" : "IModelObject[]",
+      "applyConstraints" : "int",
+      "substituteDependentVariables" : "int"
+   }
+}

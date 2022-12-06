@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "targetObject" : "IModelObject",
+            "signatureobject" : "IModelObject[]",
+            "comment" : "String"
+         }
+      ],
+      "electronicSignature" : "String"
+   },
+   "ServiceOperation" : "Core-2014-06-DigitalSignature/voidSignatures",
+   "OperationResponse" : "IServiceData"
+}

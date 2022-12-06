@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "properties" : [
+         {
+            "description" : "String",
+            "revId" : "String",
+            "name" : "String",
+            "type" : "String",
+            "itemId" : "String",
+            "uom" : "String",
+            "extendedAttributes" : [
+               {
+                  "objectType" : "String",
+                  "attributes" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "container" : "IModelObject",
+      "relationType" : "String"
+   },
+   "ServiceOperation" : "Core-2006-03-DataManagement/createItems",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "itemRev" : "IModelObject",
+            "item" : "IModelObject"
+         }
+      ]
+   }
+}

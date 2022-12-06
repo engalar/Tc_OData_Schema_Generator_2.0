@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "clientId" : "String",
+            "connection" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/findConnectionsOnPort",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "port" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "handlerName" : "String",
+            "handlerToUpdate" : "String",
+            "action" : "int",
+            "changeExecutionOrder" : "int",
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "handlerType" : "String",
+            "taskTemplate" : "String",
+            "clientID" : "String",
+            "ruleQuorum" : "int",
+            "businessRule" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "createdorUpdatedObjects" : [
+         {
+            "ruleObject" : "IModelObject",
+            "handlerObject" : "IModelObject",
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Workflow-2019-06-Workflow/createOrUpdateHandler"
+}

@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "timesheetEntries" : "IModelObject[]",
+      "runInBackground" : "bool"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagement-2018-11-ScheduleManagement/submitTimesheetEntries"
+}

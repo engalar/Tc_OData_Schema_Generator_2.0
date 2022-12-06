@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "bomWindow" : "IModelObject",
+            "item" : "IModelObject",
+            "mroRevRule" : "IModelObject",
+            "clientId" : "String",
+            "itemRev" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "topLine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "AsMaintained-2010-04-AsMaintained/setMroWindowTopLine"
+}

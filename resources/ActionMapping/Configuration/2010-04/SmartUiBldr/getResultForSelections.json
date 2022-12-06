@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : {
+      "output" : {
+         "clientId" : "String",
+         "containerWiseProperties" : [
+            {
+               "properties" : {
+                  "SampleKeyString" : "String"
+               },
+               "container" : "String"
+            }
+         ],
+         "resultStrings" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Configuration-2010-04-SmartUiBldr/getResultForSelections",
+   "OperationInput" : {
+      "currentSelections" : {
+         "SampleKeyString" : "String"
+      },
+      "alsoGetMappedProperties" : "bool",
+      "rootComponent" : {
+         "clientId" : "String",
+         "component" : "IModelObject"
+      }
+   }
+}

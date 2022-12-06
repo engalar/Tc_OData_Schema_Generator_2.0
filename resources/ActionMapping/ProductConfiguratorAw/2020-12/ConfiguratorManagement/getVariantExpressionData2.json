@@ -1,0 +1,90 @@
+{
+   "OperationInput" : {
+      "variantExpressionDataInput" : {
+         "filters" : {
+            "optionFilter" : "String",
+            "intentFilters" : "String[]"
+         },
+         "configContextProvider" : "IModelObject",
+         "selectedObjects" : "IModelObject[]",
+         "configPerspective" : "IModelObject",
+         "configContext" : "IModelObject",
+         "requestInfo" : {
+            "SampleKeyString" : "String[]"
+         },
+         "currentExpandedFamilies" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "filters" : {
+         "optionFilter" : "String",
+         "intentFilters" : "String[]"
+      },
+      "variabilityTreeData" : {
+         "variabiltyNodes" : [
+            {
+               "childrenUids" : "String[]",
+               "props" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "isExpanded" : "bool",
+               "nodeUid" : "String"
+            }
+         ]
+      },
+      "configPerspective" : "IModelObject",
+      "responseInfo" : {
+         "SampleKeyString" : "String[]"
+      },
+      "selectedExpressions" : {
+         "SampleKeyString" : [
+            {
+               "exprID" : "String",
+               "exprType" : "int",
+               "configExprSets" : [
+                  {
+                     "configExprSections" : [
+                        {
+                           "exprType" : "int",
+                           "subExpressions" : [
+                              {
+                                 "configExpressionGroupMap" : {
+                                    "SampleKeyString" : [
+                                       {
+                                          "familyNamespace" : "String",
+                                          "selectionState" : "int",
+                                          "familyId" : "String",
+                                          "props" : {
+                                             "SampleKeyString" : "String[]"
+                                          },
+                                          "valueText" : "String",
+                                          "family" : "String",
+                                          "nodeUid" : "String"
+                                       }
+                                    ]
+                                 }
+                              }
+                           ],
+                           "formula" : "String"
+                        }
+                     ]
+                  }
+               ],
+               "formula" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData",
+      "viewModelObjectMap" : {
+         "SampleKeyString" : {
+            "sourceUid" : "String",
+            "sourceType" : "String",
+            "props" : {
+               "SampleKeyString" : "String[]"
+            },
+            "displayName" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2020-12-ConfiguratorManagement/getVariantExpressionData2"
+}

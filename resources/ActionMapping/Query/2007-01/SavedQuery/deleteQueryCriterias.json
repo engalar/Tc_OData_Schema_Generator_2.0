@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Query-2007-01-SavedQuery/deleteQueryCriterias",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "queryCriteriaNames" : "String[]"
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "logFileTickets" : "String[]",
+      "transferMode" : "String",
+      "toolName" : "String",
+      "objectsToExport" : "IModelObject[]",
+      "plmxmlFileName" : "String",
+      "sessionOptions" : [
+         {
+            "optionName" : "String",
+            "optionValue" : "String"
+         }
+      ],
+      "checkOutOnExport" : "bool"
+   },
+   "OperationResponse" : {
+      "xmlAndLogFileTickets" : [
+         {
+            "ticket" : "String",
+            "fileName" : "String"
+         }
+      ],
+      "namedRefFileTickets" : [
+         {
+            "ticket" : "String",
+            "fileName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SimProc-2020-04-SimulationToolLaunch/exportAndCheckoutPLMXMLWithDSM"
+}

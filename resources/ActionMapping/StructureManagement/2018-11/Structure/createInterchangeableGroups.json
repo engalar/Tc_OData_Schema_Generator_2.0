@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2018-11-Structure/createInterchangeableGroups",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "props" : {
+               "SampleKeyString" : "String"
+            },
+            "interChangeableObjs" : "IModelObject[]",
+            "sourceObjs" : "IModelObject[]",
+            "objectType" : "String"
+         }
+      ]
+   }
+}

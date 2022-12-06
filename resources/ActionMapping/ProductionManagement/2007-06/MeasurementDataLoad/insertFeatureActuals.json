@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "ProductionManagement-2007-06-MeasurementDataLoad/insertFeatureActuals",
+   "OperationInput" : {
+      "featureActuals" : [
+         {
+            "ftrattCode" : "String",
+            "actualValue" : "double",
+            "ftrUid" : "String",
+            "ftrName" : "String"
+         }
+      ],
+      "plantId" : "String",
+      "eventSysId" : "String"
+   }
+}

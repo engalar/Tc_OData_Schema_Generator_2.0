@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "relation" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2008-06-DataManagement/createCachedRelations",
+   "OperationInput" : {
+      "input" : [
+         {
+            "userData" : "IModelObject",
+            "secondaryObject" : "IModelObject",
+            "relationType" : "String",
+            "primaryObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

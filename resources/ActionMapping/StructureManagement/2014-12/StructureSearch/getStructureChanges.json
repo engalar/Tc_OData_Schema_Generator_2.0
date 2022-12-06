@@ -1,0 +1,329 @@
+{
+   "OperationResponse" : {
+      "responseElements" : [
+         {
+            "addedLines" : [
+               {
+                  "line" : "IModelObject",
+                  "iceChanges" : [
+                     {
+                        "attributeDisplayName" : "String",
+                        "dateRange" : "String",
+                        "absoccRootLine" : "String",
+                        "howConfigured" : "String",
+                        "attributeValue" : "String",
+                        "predecessorName" : "String",
+                        "icRev" : "IModelObject",
+                        "unitRange" : "String",
+                        "ice" : "IModelObject",
+                        "attributeName" : "String",
+                        "typeOfIce" : "int",
+                        "auxiliaryData" : {
+                           "strMap" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "dblMap" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "objMap" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "dateMap" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "intMap" : {
+                              "SampleKeyString" : "int[]"
+                           }
+                        },
+                        "affectedObject" : "IModelObject",
+                        "predecessorSequence" : "String"
+                     }
+                  ],
+                  "configuredCompetingIces" : [
+                     {
+                        "attributeName" : "String",
+                        "typeOfIce" : "int",
+                        "auxiliaryData" : {
+                           "intMap" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "dateMap" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "strMap" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "dblMap" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "objMap" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           }
+                        },
+                        "predecessorSequence" : "String",
+                        "affectedObject" : "IModelObject",
+                        "dateRange" : "String",
+                        "attributeDisplayName" : "String",
+                        "attributeValue" : "String",
+                        "absoccRootLine" : "String",
+                        "howConfigured" : "String",
+                        "predecessorName" : "String",
+                        "icRev" : "IModelObject",
+                        "unitRange" : "String",
+                        "ice" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "invisibleLinesByOccEff" : [
+               {
+                  "line" : "IModelObject",
+                  "occChanges" : {
+                     "effectivity" : "String",
+                     "changeType" : "int",
+                     "occurrence" : "IModelObject",
+                     "auxiliaryData" : {
+                        "dateMap" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "objMap" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "dblMap" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "strMap" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "intMap" : {
+                           "SampleKeyString" : "int[]"
+                        }
+                     }
+                  }
+               }
+            ],
+            "visibleLinesByOccEff" : [
+               {
+                  "occChanges" : {
+                     "occurrence" : "IModelObject",
+                     "effectivity" : "String",
+                     "changeType" : "int",
+                     "auxiliaryData" : {
+                        "strMap" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "dblMap" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "objMap" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "dateMap" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "intMap" : {
+                           "SampleKeyString" : "int[]"
+                        }
+                     }
+                  },
+                  "line" : "IModelObject"
+               }
+            ],
+            "invisibleLinesByRevEff" : [
+               {
+                  "line" : "IModelObject",
+                  "revChanges" : {
+                     "auxiliaryData" : {
+                        "intMap" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "dateMap" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "strMap" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "dblMap" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "objMap" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        }
+                     },
+                     "revision" : "IModelObject",
+                     "unitRange" : "String",
+                     "dateRange" : "String",
+                     "howConfigured" : "String",
+                     "changeType" : "int"
+                  }
+               }
+            ],
+            "removedLines" : [
+               {
+                  "line" : "IModelObject",
+                  "configuredCompetingIces" : [
+                     {
+                        "attributeName" : "String",
+                        "typeOfIce" : "int",
+                        "auxiliaryData" : {
+                           "intMap" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "objMap" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "dblMap" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "strMap" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "dateMap" : {
+                              "SampleKeyString" : "Date[]"
+                           }
+                        },
+                        "predecessorSequence" : "String",
+                        "affectedObject" : "IModelObject",
+                        "dateRange" : "String",
+                        "attributeDisplayName" : "String",
+                        "absoccRootLine" : "String",
+                        "attributeValue" : "String",
+                        "howConfigured" : "String",
+                        "icRev" : "IModelObject",
+                        "predecessorName" : "String",
+                        "unitRange" : "String",
+                        "ice" : "IModelObject"
+                     }
+                  ],
+                  "iceChanges" : [
+                     {
+                        "typeOfIce" : "int",
+                        "attributeName" : "String",
+                        "auxiliaryData" : {
+                           "strMap" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "dblMap" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "objMap" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "dateMap" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "intMap" : {
+                              "SampleKeyString" : "int[]"
+                           }
+                        },
+                        "predecessorSequence" : "String",
+                        "affectedObject" : "IModelObject",
+                        "dateRange" : "String",
+                        "attributeDisplayName" : "String",
+                        "absoccRootLine" : "String",
+                        "howConfigured" : "String",
+                        "attributeValue" : "String",
+                        "unitRange" : "String",
+                        "ice" : "IModelObject",
+                        "icRev" : "IModelObject",
+                        "predecessorName" : "String"
+                     }
+                  ]
+               }
+            ],
+            "visibleLinesByRevEff" : [
+               {
+                  "revChanges" : {
+                     "howConfigured" : "String",
+                     "changeType" : "int",
+                     "dateRange" : "String",
+                     "unitRange" : "String",
+                     "auxiliaryData" : {
+                        "intMap" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "dateMap" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "strMap" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "objMap" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "dblMap" : {
+                           "SampleKeyString" : "double[]"
+                        }
+                     },
+                     "revision" : "IModelObject"
+                  },
+                  "line" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2014-12-StructureSearch/getStructureChanges",
+   "OperationInput" : {
+      "changeTrackerInput" : [
+         {
+            "occEffInfo" : {
+               "isUnitData" : "bool",
+               "unitData" : {
+                  "endItem" : "IModelObject",
+                  "startUnit" : "int",
+                  "endUnit" : "int"
+               },
+               "dateEffectivityData" : {
+                  "endDate" : "Date",
+                  "startDate" : "Date"
+               }
+            },
+            "selectedLines" : "IModelObject[]",
+            "dataTypes" : "IncrementalChange RevisionEffectivity OccurrenceEffectivity Time[]",
+            "revEffInfo" : {
+               "owningGroup" : "String",
+               "isUnitData" : "bool",
+               "owningUser" : "String",
+               "dateEffectivityData" : {
+                  "endDate" : "Date",
+                  "startDate" : "Date"
+               },
+               "unitData" : {
+                  "endItem" : "IModelObject",
+                  "endUnit" : "int",
+                  "startUnit" : "int"
+               },
+               "statuses" : {
+                  "sinceDate" : "Date",
+                  "listOfStatus" : "String[]"
+               }
+            },
+            "icInfo" : {
+               "isUnitData" : "bool",
+               "unitData" : {
+                  "startUnit" : "int",
+                  "endUnit" : "int",
+                  "endItem" : "IModelObject"
+               },
+               "dateEffectivityData" : {
+                  "endDate" : "Date",
+                  "startDate" : "Date"
+               },
+               "icFilterCriteria" : {
+                  "owningGroup" : "String",
+                  "excludedICRevs" : "IModelObject[]",
+                  "includedICRevs" : "IModelObject[]",
+                  "intents" : "String[]",
+                  "statuses" : {
+                     "listOfStatus" : "String[]",
+                     "sinceDate" : "Date"
+                  },
+                  "owningUser" : "String"
+               }
+            }
+         }
+      ]
+   }
+}

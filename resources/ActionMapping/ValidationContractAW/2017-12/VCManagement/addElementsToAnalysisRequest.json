@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "traverseClosureRule" : "bool",
+            "traceLinkType" : "String",
+            "addElementsToContextMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "diagramAction" : "String",
+            "traverseDiagram" : "bool",
+            "start" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ValidationContractAW-2017-12-VCManagement/addElementsToAnalysisRequest"
+}

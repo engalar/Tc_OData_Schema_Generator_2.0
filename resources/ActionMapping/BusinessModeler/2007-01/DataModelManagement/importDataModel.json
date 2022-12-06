@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "updateOption" : "String",
+      "custTemplateFileTicket" : "String",
+      "custDependencyFileTicket" : "String",
+      "runMode" : "String"
+   },
+   "OperationResponse" : {
+      "logFileTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-BusinessModeler-2007-01-DataModelManagement/importDataModel"
+}

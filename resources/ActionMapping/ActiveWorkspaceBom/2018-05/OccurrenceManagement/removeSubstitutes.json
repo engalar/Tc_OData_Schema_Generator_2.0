@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "substitutesToBeRemoved" : "IModelObject[]",
+         "element" : "IModelObject",
+         "productContextInfo" : "IModelObject"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2018-05-OccurrenceManagement/removeSubstitutes"
+}

@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "constructionDetailsInput" : [
+         {
+            "constructionDetails" : "IModelObject[]",
+            "productOrTemplate" : "IModelObject",
+            "action" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/modifyConstructionDetails"
+}

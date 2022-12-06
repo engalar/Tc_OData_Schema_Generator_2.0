@@ -1,0 +1,114 @@
+{
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/createCostingObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "objects" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "data" : {
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "boName" : "String",
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "compoundCreateInput" : "Teamcenter::Soa::Internal::Retail::_2012_06::Retail::CreateInputMap",
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        }
+                     }
+                  ]
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "boName" : "String",
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               }
+            },
+            "clientId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Internal-Translation-2007-06-TranslationManagement/queryTranslationRequests",
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "outputObjects" : [
+         {
+            "queriedRequests" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "providers" : "String[]",
+            "taskIDs" : "String[]",
+            "states" : "String[]",
+            "primaryObjects" : "IModelObject[]",
+            "modifiedDate" : "String",
+            "services" : "String[]",
+            "priorities" : "int[]"
+         }
+      ]
+   }
+}

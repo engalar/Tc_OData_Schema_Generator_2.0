@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "roleType" : "String",
+            "clientId" : "String",
+            "revId" : "String",
+            "description" : "String",
+            "vendorStatus" : "String",
+            "name" : "String",
+            "type" : "String",
+            "certifiStatus" : "String",
+            "itemId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Vendormanagement-2007-06-VendorManagement/deleteVendorRoles",
+   "OperationResponse" : "IServiceData"
+}

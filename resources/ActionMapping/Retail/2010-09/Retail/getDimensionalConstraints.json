@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "responses" : {
+         "SampleKeyString" : [
+            {
+               "dimensionValue" : "String",
+               "dimensionName" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/getDimensionalConstraints",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "bomLineUID" : "String",
+            "dimensionNames" : "String[]"
+         }
+      ]
+   }
+}

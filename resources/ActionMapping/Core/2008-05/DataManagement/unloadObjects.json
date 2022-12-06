@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2008-05-DataManagement/unloadObjects",
+   "OperationInput" : {
+      "objsToUnload" : "IModelObject[]"
+   }
+}

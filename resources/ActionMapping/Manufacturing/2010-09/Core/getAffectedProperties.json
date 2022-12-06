@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "arguments" : [
+         {
+            "changedNodes" : "IModelObject[]",
+            "rootNode" : "IModelObject",
+            "changedProperties" : "String[]"
+         }
+      ],
+      "requestedProperties" : "String[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2010-09-Core/getAffectedProperties"
+}

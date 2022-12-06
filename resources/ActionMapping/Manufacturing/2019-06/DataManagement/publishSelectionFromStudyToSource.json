@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Manufacturing-2019-06-DataManagement/publishSelectionFromStudyToSource",
+   "OperationResponse" : {
+      "logFileTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "selectedLines" : "IModelObject[]",
+            "mode" : "String"
+         }
+      ]
+   }
+}

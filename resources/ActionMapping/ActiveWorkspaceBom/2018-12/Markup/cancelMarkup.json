@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "markups" : "IModelObject[]",
+      "element" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2018-12-Markup/cancelMarkup",
+   "OperationResponse" : "IServiceData"
+}

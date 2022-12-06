@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "parentBvr" : "IModelObject",
+            "returnUid" : "bool",
+            "asmWindow" : "IModelObject",
+            "connectionParts" : "IModelObject[]",
+            "weldTypes" : "String[]",
+            "clientId" : "String",
+            "relation" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "WeldManagement-2012-02-WeldManagement/findWelds",
+   "OperationResponse" : {
+      "results" : [
+         {
+            "welds" : [
+               {
+                  "occUid" : "String",
+                  "bvrUid" : "String",
+                  "compRev" : "IModelObject",
+                  "compOcc" : "IModelObject",
+                  "compBvr" : "IModelObject",
+                  "revUid" : "String"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

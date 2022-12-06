@@ -1,0 +1,93 @@
+{
+   "ServiceOperation" : "Core-2011-06-DataManagement/getTraceReport",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "traceReports" : [
+         {
+            "indirectDefiningTree" : [
+               {
+                  "parent" : {
+                     "object" : "IModelObject",
+                     "bomView" : "IModelObject",
+                     "displayObj" : "IModelObject",
+                     "contextName" : "String"
+                  },
+                  "children" : [
+                     {
+                        "bomView" : "IModelObject",
+                        "object" : "IModelObject",
+                        "contextName" : "String",
+                        "displayObj" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "definingTree" : [
+               {
+                  "parent" : {
+                     "object" : "IModelObject",
+                     "bomView" : "IModelObject",
+                     "contextName" : "String",
+                     "displayObj" : "IModelObject"
+                  },
+                  "children" : [
+                     {
+                        "displayObj" : "IModelObject",
+                        "contextName" : "String",
+                        "bomView" : "IModelObject",
+                        "object" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "selectedObject" : "IModelObject",
+            "persistentObjects" : "IModelObject[]",
+            "indirectComplyingTree" : [
+               {
+                  "parent" : {
+                     "displayObj" : "IModelObject",
+                     "contextName" : "String",
+                     "object" : "IModelObject",
+                     "bomView" : "IModelObject"
+                  },
+                  "children" : [
+                     {
+                        "displayObj" : "IModelObject",
+                        "contextName" : "String",
+                        "object" : "IModelObject",
+                        "bomView" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "complyingTree" : [
+               {
+                  "parent" : {
+                     "object" : "IModelObject",
+                     "bomView" : "IModelObject",
+                     "displayObj" : "IModelObject",
+                     "contextName" : "String"
+                  },
+                  "children" : [
+                     {
+                        "displayObj" : "IModelObject",
+                        "contextName" : "String",
+                        "object" : "IModelObject",
+                        "bomView" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "reportDepth" : "int",
+         "selectedObjs" : "IModelObject[]",
+         "reportType" : "int",
+         "isIndirectTraceReportNeeded" : "bool",
+         "relationTypeName" : "String"
+      }
+   }
+}

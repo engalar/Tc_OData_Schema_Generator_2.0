@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-VendorManagementAW-2019-12-VendorManagement/getPartnerContractsOfSelectedObject",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "viewModelRows" : [
+         {
+            "viewModelProperties" : [
+               {
+                  "propInternalName" : "String",
+                  "propDisplayName" : "String",
+                  "isEditable" : "bool",
+                  "propUIValue" : "String",
+                  "propDBValue" : "String",
+                  "propDataType" : "String",
+                  "hasLOV" : "bool",
+                  "propParentBO" : "IModelObject"
+               }
+            ],
+            "modelObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputObject" : "IModelObject"
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "contextState" : {
+         "openedObject" : "IModelObject",
+         "sublocationAttributes" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2017-06-OccurrenceManagement/saveUserWorkingContextState"
+}

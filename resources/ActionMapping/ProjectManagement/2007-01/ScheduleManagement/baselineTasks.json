@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "scheduleBaseline" : "IModelObject",
+      "scheduleTasks" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ProjectManagement-2007-01-ScheduleManagement/baselineTasks",
+   "OperationResponse" : "IServiceData"
+}

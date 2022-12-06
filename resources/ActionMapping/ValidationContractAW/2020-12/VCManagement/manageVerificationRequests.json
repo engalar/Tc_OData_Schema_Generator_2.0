@@ -1,0 +1,76 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "verificationRequest" : "IModelObject",
+            "addedElements" : "IModelObject[]",
+            "addedIntefaceDefinitionMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "removedIntefaceDefinitionMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "removedElements" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ValidationContractAW-2020-12-VCManagement/manageVerificationRequests",
+   "OperationInput" : {
+      "input" : [
+         {
+            "data" : [
+               {
+                  "elementInputs" : [
+                     {
+                        "addUnderlyingObject" : "bool",
+                        "addParameterAsInOut" : "String",
+                        "parameterInfo" : [
+                           {
+                              "direction" : "String",
+                              "parameter" : "IModelObject"
+                           }
+                        ],
+                        "objectToAddParent" : "IModelObject",
+                        "objectToAddContext" : "IModelObject",
+                        "portToInterfaceDefsMap" : [
+                           [
+                              "SampleKeyIModelObject"
+                           ],
+                           [
+                              "IModelObject[]"
+                           ]
+                        ],
+                        "elementAction" : "String",
+                        "objectToAdd" : "IModelObject"
+                     }
+                  ],
+                  "manageAction" : "String",
+                  "recipeData" : {
+                     "seedObjects" : "IModelObject[]",
+                     "recipe" : "String",
+                     "context" : "IModelObject"
+                  }
+               }
+            ],
+            "clientId" : "String",
+            "verificationRequest" : "IModelObject"
+         }
+      ],
+      "pref" : {
+         "diagramAction" : "String",
+         "useClosureRule" : "bool"
+      }
+   }
+}

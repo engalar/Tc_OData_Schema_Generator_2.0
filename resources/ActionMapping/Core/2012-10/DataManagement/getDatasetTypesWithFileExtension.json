@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "datasetTypesInfo" : [
+               {
+                  "tag" : "IModelObject",
+                  "refInfos" : [
+                     {
+                        "fileFormat" : "String",
+                        "fileExtension" : "String",
+                        "referenceName" : "String",
+                        "isObject" : "bool"
+                     }
+                  ]
+               }
+            ],
+            "fileExtension" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2012-10-DataManagement/getDatasetTypesWithFileExtension",
+   "OperationInput" : {
+      "fileExtensions" : "String[]"
+   }
+}

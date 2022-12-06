@@ -1,0 +1,730 @@
+{
+   "ServiceOperation" : "Cad-2012-09-DataManagement/createOrUpdateParts",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "itemRev" : "IModelObject",
+            "extraItemRevObjs" : [
+               {
+                  "object" : "IModelObject",
+                  "clientId" : "String"
+               }
+            ],
+            "clientId" : "String",
+            "item" : "IModelObject",
+            "extraItemObjs" : [
+               {
+                  "clientId" : "String",
+                  "object" : "IModelObject"
+               }
+            ],
+            "datasetOutput" : [
+               {
+                  "namedRefObjs" : [
+                     {
+                        "clientId" : "String",
+                        "object" : "IModelObject"
+                     }
+                  ],
+                  "commitInfo" : [
+                     {
+                        "datasetFileTicketInfos" : [
+                           {
+                              "datasetFileInfo" : {
+                                 "isText" : "bool",
+                                 "boundingBoxesAvailable" : "bool",
+                                 "clientId" : "String",
+                                 "allowReplace" : "bool",
+                                 "namedReferencedName" : "String",
+                                 "fileName" : "String",
+                                 "boundingBoxes" : [
+                                    {
+                                       "zmin" : "double",
+                                       "xmax" : "double",
+                                       "ymax" : "double",
+                                       "ymin" : "double",
+                                       "xmin" : "double",
+                                       "zmax" : "double"
+                                    }
+                                 ]
+                              },
+                              "ticket" : "String"
+                           }
+                        ],
+                        "createNewVersion" : "bool",
+                        "dataset" : "IModelObject"
+                     }
+                  ],
+                  "extraObjs" : [
+                     {
+                        "object" : "IModelObject",
+                        "clientId" : "String"
+                     }
+                  ],
+                  "clientId" : "String",
+                  "dataset" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "pref" : {
+         "overwriteForLastModDate" : "bool"
+      },
+      "partInput" : [
+         {
+            "itemInput" : {
+               "folder" : "IModelObject",
+               "itemExtraObject" : [
+                  {
+                     "clientId" : "String",
+                     "createOrUpdateInput" : {
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "compoundCreateOrUpdateInput" : {
+                           "SampleKeyString" : [
+                              {
+                                 "dateArrayProps" : {
+                                    "SampleKeyString" : "Date[]"
+                                 },
+                                 "dateProps" : {
+                                    "SampleKeyString" : "Date"
+                                 },
+                                 "compoundCreateOrUpdateInput" : "Teamcenter::Soa::Cad::_2012_09::DataManagement::CreateOrUpdateInputMap",
+                                 "doubleProps" : {
+                                    "SampleKeyString" : "double"
+                                 },
+                                 "boolProps" : {
+                                    "SampleKeyString" : "bool"
+                                 },
+                                 "intArrayProps" : {
+                                    "SampleKeyString" : "int[]"
+                                 },
+                                 "doubleArrayProps" : {
+                                    "SampleKeyString" : "double[]"
+                                 },
+                                 "floatProps" : {
+                                    "SampleKeyString" : "float"
+                                 },
+                                 "boName" : "String",
+                                 "floatArrayProps" : {
+                                    "SampleKeyString" : "float[]"
+                                 },
+                                 "boReference" : "IModelObject",
+                                 "stringArrayProps" : {
+                                    "SampleKeyString" : "String[]"
+                                 },
+                                 "boolArrayProps" : {
+                                    "SampleKeyString" : "bool[]"
+                                 },
+                                 "stringProps" : {
+                                    "SampleKeyString" : "String"
+                                 },
+                                 "tagArrayProps" : {
+                                    "SampleKeyString" : "IModelObject[]"
+                                 },
+                                 "intProps" : {
+                                    "SampleKeyString" : "int"
+                                 },
+                                 "tagProps" : {
+                                    "SampleKeyString" : "IModelObject"
+                                 }
+                              }
+                           ]
+                        },
+                        "boReference" : "IModelObject",
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "boName" : "String",
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        }
+                     },
+                     "relationTypeName" : "String"
+                  }
+               ],
+               "createOrUpdateInput" : {
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "tagProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "tagArrayProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "intArrayProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "doubleArrayProps" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "compoundCreateOrUpdateInput" : {
+                     "SampleKeyString" : [
+                        {
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "tagProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "tagArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "compoundCreateOrUpdateInput" : "Teamcenter::Soa::Cad::_2012_09::DataManagement::CreateOrUpdateInputMap",
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           },
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "boName" : "String",
+                           "boReference" : "IModelObject",
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           }
+                        }
+                     ]
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "dateArrayProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "boolArrayProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "stringArrayProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "boReference" : "IModelObject",
+                  "boName" : "String",
+                  "floatArrayProps" : {
+                     "SampleKeyString" : "float[]"
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  }
+               },
+               "itemRevisionExtraObject" : [
+                  {
+                     "createOrUpdateInput" : {
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "compoundCreateOrUpdateInput" : {
+                           "SampleKeyString" : [
+                              {
+                                 "dateProps" : {
+                                    "SampleKeyString" : "Date"
+                                 },
+                                 "dateArrayProps" : {
+                                    "SampleKeyString" : "Date[]"
+                                 },
+                                 "compoundCreateOrUpdateInput" : "Teamcenter::Soa::Cad::_2012_09::DataManagement::CreateOrUpdateInputMap",
+                                 "doubleProps" : {
+                                    "SampleKeyString" : "double"
+                                 },
+                                 "boolProps" : {
+                                    "SampleKeyString" : "bool"
+                                 },
+                                 "doubleArrayProps" : {
+                                    "SampleKeyString" : "double[]"
+                                 },
+                                 "intArrayProps" : {
+                                    "SampleKeyString" : "int[]"
+                                 },
+                                 "floatProps" : {
+                                    "SampleKeyString" : "float"
+                                 },
+                                 "boReference" : "IModelObject",
+                                 "floatArrayProps" : {
+                                    "SampleKeyString" : "float[]"
+                                 },
+                                 "boName" : "String",
+                                 "boolArrayProps" : {
+                                    "SampleKeyString" : "bool[]"
+                                 },
+                                 "stringArrayProps" : {
+                                    "SampleKeyString" : "String[]"
+                                 },
+                                 "stringProps" : {
+                                    "SampleKeyString" : "String"
+                                 },
+                                 "tagArrayProps" : {
+                                    "SampleKeyString" : "IModelObject[]"
+                                 },
+                                 "intProps" : {
+                                    "SampleKeyString" : "int"
+                                 },
+                                 "tagProps" : {
+                                    "SampleKeyString" : "IModelObject"
+                                 }
+                              }
+                           ]
+                        },
+                        "boName" : "String",
+                        "boReference" : "IModelObject",
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        }
+                     },
+                     "clientId" : "String",
+                     "relationTypeName" : "String"
+                  }
+               ]
+            },
+            "clientId" : "String",
+            "datasetInput" : [
+               {
+                  "namedReferenceObjectInfos" : [
+                     {
+                        "namedReferenceName" : "String",
+                        "namedReferenceType" : "String",
+                        "createOrUpdateInput" : {
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           },
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "boReference" : "IModelObject",
+                           "boName" : "String",
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "compoundCreateOrUpdateInput" : {
+                              "SampleKeyString" : [
+                                 {
+                                    "tagArrayProps" : {
+                                       "SampleKeyString" : "IModelObject[]"
+                                    },
+                                    "intProps" : {
+                                       "SampleKeyString" : "int"
+                                    },
+                                    "tagProps" : {
+                                       "SampleKeyString" : "IModelObject"
+                                    },
+                                    "stringProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "floatProps" : {
+                                       "SampleKeyString" : "float"
+                                    },
+                                    "floatArrayProps" : {
+                                       "SampleKeyString" : "float[]"
+                                    },
+                                    "boName" : "String",
+                                    "boReference" : "IModelObject",
+                                    "boolArrayProps" : {
+                                       "SampleKeyString" : "bool[]"
+                                    },
+                                    "stringArrayProps" : {
+                                       "SampleKeyString" : "String[]"
+                                    },
+                                    "dateArrayProps" : {
+                                       "SampleKeyString" : "Date[]"
+                                    },
+                                    "dateProps" : {
+                                       "SampleKeyString" : "Date"
+                                    },
+                                    "compoundCreateOrUpdateInput" : "Teamcenter::Soa::Cad::_2012_09::DataManagement::CreateOrUpdateInputMap",
+                                    "doubleProps" : {
+                                       "SampleKeyString" : "double"
+                                    },
+                                    "boolProps" : {
+                                       "SampleKeyString" : "bool"
+                                    },
+                                    "intArrayProps" : {
+                                       "SampleKeyString" : "int[]"
+                                    },
+                                    "doubleArrayProps" : {
+                                       "SampleKeyString" : "double[]"
+                                    }
+                                 }
+                              ]
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "tagProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "tagArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           }
+                        },
+                        "clientId" : "String"
+                     }
+                  ],
+                  "namedReferencePreference" : "String",
+                  "lastModifiedOfDataset" : "Date",
+                  "itemRevRelationName" : "String",
+                  "extraObject" : [
+                     {
+                        "createOrUpdateInput" : {
+                           "tagArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "tagProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "boReference" : "IModelObject",
+                           "boName" : "String",
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "compoundCreateOrUpdateInput" : {
+                              "SampleKeyString" : [
+                                 {
+                                    "boolArrayProps" : {
+                                       "SampleKeyString" : "bool[]"
+                                    },
+                                    "stringArrayProps" : {
+                                       "SampleKeyString" : "String[]"
+                                    },
+                                    "boName" : "String",
+                                    "floatArrayProps" : {
+                                       "SampleKeyString" : "float[]"
+                                    },
+                                    "boReference" : "IModelObject",
+                                    "floatProps" : {
+                                       "SampleKeyString" : "float"
+                                    },
+                                    "boolProps" : {
+                                       "SampleKeyString" : "bool"
+                                    },
+                                    "intArrayProps" : {
+                                       "SampleKeyString" : "int[]"
+                                    },
+                                    "doubleArrayProps" : {
+                                       "SampleKeyString" : "double[]"
+                                    },
+                                    "compoundCreateOrUpdateInput" : "Teamcenter::Soa::Cad::_2012_09::DataManagement::CreateOrUpdateInputMap",
+                                    "doubleProps" : {
+                                       "SampleKeyString" : "double"
+                                    },
+                                    "dateArrayProps" : {
+                                       "SampleKeyString" : "Date[]"
+                                    },
+                                    "dateProps" : {
+                                       "SampleKeyString" : "Date"
+                                    },
+                                    "intProps" : {
+                                       "SampleKeyString" : "int"
+                                    },
+                                    "tagProps" : {
+                                       "SampleKeyString" : "IModelObject"
+                                    },
+                                    "tagArrayProps" : {
+                                       "SampleKeyString" : "IModelObject[]"
+                                    },
+                                    "stringProps" : {
+                                       "SampleKeyString" : "String"
+                                    }
+                                 }
+                              ]
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           }
+                        },
+                        "clientId" : "String",
+                        "relationTypeName" : "String"
+                     }
+                  ],
+                  "basisName" : "String",
+                  "createNewVersion" : "bool",
+                  "datasetFileInfos" : [
+                     {
+                        "namedReferencedName" : "String",
+                        "allowReplace" : "bool",
+                        "isText" : "bool",
+                        "clientId" : "String",
+                        "fileName" : "String",
+                        "boundingBoxesAvailable" : "bool",
+                        "destinationVolume" : "IModelObject",
+                        "boundingBoxes" : [
+                           {
+                              "zmin" : "double",
+                              "ymin" : "double",
+                              "ymax" : "double",
+                              "xmax" : "double",
+                              "zmax" : "double",
+                              "xmin" : "double"
+                           }
+                        ]
+                     }
+                  ],
+                  "createOrUpdateInput" : {
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "compoundCreateOrUpdateInput" : {
+                        "SampleKeyString" : [
+                           {
+                              "stringProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "intProps" : {
+                                 "SampleKeyString" : "int"
+                              },
+                              "tagProps" : {
+                                 "SampleKeyString" : "IModelObject"
+                              },
+                              "tagArrayProps" : {
+                                 "SampleKeyString" : "IModelObject[]"
+                              },
+                              "boolProps" : {
+                                 "SampleKeyString" : "bool"
+                              },
+                              "intArrayProps" : {
+                                 "SampleKeyString" : "int[]"
+                              },
+                              "doubleArrayProps" : {
+                                 "SampleKeyString" : "double[]"
+                              },
+                              "compoundCreateOrUpdateInput" : "Teamcenter::Soa::Cad::_2012_09::DataManagement::CreateOrUpdateInputMap",
+                              "doubleProps" : {
+                                 "SampleKeyString" : "double"
+                              },
+                              "dateArrayProps" : {
+                                 "SampleKeyString" : "Date[]"
+                              },
+                              "dateProps" : {
+                                 "SampleKeyString" : "Date"
+                              },
+                              "stringArrayProps" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "boolArrayProps" : {
+                                 "SampleKeyString" : "bool[]"
+                              },
+                              "floatArrayProps" : {
+                                 "SampleKeyString" : "float[]"
+                              },
+                              "boReference" : "IModelObject",
+                              "boName" : "String",
+                              "floatProps" : {
+                                 "SampleKeyString" : "float"
+                              }
+                           }
+                        ]
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "boReference" : "IModelObject",
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "boName" : "String",
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     }
+                  },
+                  "mappingAttributes" : [
+                     {
+                        "name" : "String",
+                        "values" : "String[]"
+                     }
+                  ],
+                  "clientId" : "String",
+                  "mapAttributesWithoutDataset" : "bool"
+               }
+            ]
+         }
+      ]
+   }
+}

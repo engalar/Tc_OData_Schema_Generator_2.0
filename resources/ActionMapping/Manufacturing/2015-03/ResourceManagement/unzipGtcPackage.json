@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "transientFmsZipFileTicket" : "String"
+   },
+   "OperationResponse" : {
+      "gtcPackageServerDirectory" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-ResourceManagement/unzipGtcPackage"
+}

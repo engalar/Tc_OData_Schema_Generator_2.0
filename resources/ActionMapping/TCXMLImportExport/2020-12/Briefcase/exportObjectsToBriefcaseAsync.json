@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "overrideOptions" : [
+            {
+               "optionValue" : "String",
+               "optionName" : "String"
+            }
+         ],
+         "rootObjects" : "IModelObject[]",
+         "targetSite" : "IModelObject",
+         "transferOptionSet" : "IModelObject",
+         "sessionOptions" : [
+            {
+               "optionValue" : "String",
+               "optionName" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-TCXMLImportExport-2020-12-Briefcase/exportObjectsToBriefcaseAsync",
+   "OperationResponse" : {}
+}

@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "Administration-2012-09-UserManagement/getUserGroupMembers",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "clientId" : "String",
+            "memebrs" : [
+               {
+                  "group" : "IModelObject",
+                  "roleUsers" : [
+                     {
+                        "isActive" : "bool",
+                        "isDefaultRole" : "bool",
+                        "role" : "IModelObject",
+                        "isGroupAdmin" : "bool",
+                        "user" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "includeInactive" : "bool",
+            "user" : "IModelObject",
+            "clientId" : "String",
+            "includeUser" : "bool"
+         }
+      ]
+   }
+}

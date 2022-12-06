@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "attributes" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2006-03-DataManagement/setDisplayProperties"
+}

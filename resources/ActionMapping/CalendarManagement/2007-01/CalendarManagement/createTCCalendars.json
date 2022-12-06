@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "newTCCalendars" : [
+         {
+            "newEvents" : [
+               {
+                  "eventMin" : "int",
+                  "eventDate" : "Date"
+               }
+            ],
+            "tccalendarAttributes" : {
+               "source" : "IModelObject",
+               "minsMon" : "int",
+               "minsSun" : "int",
+               "minsSat" : "int",
+               "schedule" : "IModelObject",
+               "minsThu" : "int",
+               "description" : "String",
+               "minsFri" : "int",
+               "minsTue" : "int",
+               "minsWed" : "int",
+               "type" : "int",
+               "name" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "CalendarManagement-2007-01-CalendarManagement/createTCCalendars",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "tccalendars" : [
+         {
+            "events" : "IModelObject[]",
+            "tccalendar" : "IModelObject"
+         }
+      ]
+   }
+}

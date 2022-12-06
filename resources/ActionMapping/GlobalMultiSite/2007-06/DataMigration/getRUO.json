@@ -1,0 +1,5 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-DataMigration/getRUO",
+   "OperationResponse" : "bool",
+   "OperationInput" : {}
+}

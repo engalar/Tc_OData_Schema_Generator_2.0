@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "searchOrders" : {
+         "relationSearchOrder" : "String[]",
+         "datasetTypeSearchOrder" : "String[]"
+      },
+      "businessObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Core-2009-10-Thumbnail/getThumbnailFileTickets",
+   "OperationResponse" : {
+      "thumbnailFileTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   }
+}

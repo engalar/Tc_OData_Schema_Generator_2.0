@@ -1,0 +1,54 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "traversalRuleList" : [
+               {
+                  "targets" : "String[]",
+                  "traversalRuleKeys" : [
+                     {
+                        "context" : "String",
+                        "types" : "String[]"
+                     }
+                  ]
+               }
+            ],
+            "rootNode" : "IModelObject",
+            "clientId" : "String",
+            "propVisitorList" : [
+               {
+                  "traversalVisitorsKeys" : [
+                     {
+                        "context" : "String",
+                        "types" : "String[]"
+                     }
+                  ],
+                  "propToCollectList" : "String[]"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-MFGPropertyCollector/collectProperties",
+   "OperationResponse" : {
+      "outputList" : [
+         {
+            "output" : [
+               {
+                  "contextType" : "String",
+                  "nodeValueList" : [
+                     {
+                        "props" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "node" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

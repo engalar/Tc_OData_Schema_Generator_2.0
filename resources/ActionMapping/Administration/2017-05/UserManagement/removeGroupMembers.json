@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "userRoleGrpStructs" : [
+         {
+            "grp" : "IModelObject",
+            "role" : "IModelObject",
+            "users" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Administration-2017-05-UserManagement/removeGroupMembers",
+   "OperationInput" : {
+      "userRoleGroupStructs" : [
+         {
+            "role" : "IModelObject",
+            "grp" : "IModelObject",
+            "users" : "IModelObject[]"
+         }
+      ]
+   }
+}

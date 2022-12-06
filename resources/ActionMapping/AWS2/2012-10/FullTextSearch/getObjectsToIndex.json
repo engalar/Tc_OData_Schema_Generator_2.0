@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/getObjectsToIndex",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "objectsToIndexResults" : [
+         {
+            "dateTimeRange" : {
+               "endDate" : "Date",
+               "startDate" : "Date"
+            },
+            "objectUIDsForRange" : "String[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "objectsToIndexInput" : {
+         "dateTimeRanges" : [
+            {
+               "endDate" : "Date",
+               "startDate" : "Date"
+            }
+         ]
+      }
+   }
+}

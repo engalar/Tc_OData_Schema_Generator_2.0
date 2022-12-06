@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-Core-2010-04-DataManagement/getSubscribableTypesAndSubTypes",
+   "OperationResponse" : {
+      "typesNames" : [
+         {
+            "typeName" : "String",
+            "displayName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "childTypeOption" : "String"
+   }
+}

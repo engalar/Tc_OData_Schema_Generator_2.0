@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "includeFSHeader" : "bool",
+         "businessObject" : "IModelObject",
+         "cursor" : {
+            "startReached" : "bool",
+            "columnKey" : "String",
+            "endReached" : "bool",
+            "endIndex" : "int",
+            "startIndex" : "int",
+            "pageSize" : "int",
+            "selectedObject" : "IModelObject"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "formSheetHeader" : "String",
+      "serviceData" : "IServiceData",
+      "formSheetViewModel" : "String"
+   },
+   "ServiceOperation" : "Internal-FmeaManager-2020-05-FMEADataManagement/getFormSheetData2"
+}

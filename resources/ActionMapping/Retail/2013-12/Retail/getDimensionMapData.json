@@ -1,0 +1,60 @@
+{
+   "OperationResponse" : {
+      "mappedDimensions" : "String[]",
+      "dimensionMappingMap" : {
+         "SampleKeyString" : [
+            {
+               "childDimensionName" : "String",
+               "parentDimensionName" : "String",
+               "dimensionMappings" : [
+                  {
+                     "parentDimensionValue" : {
+                        "dimensionType" : "String",
+                        "dimensionName" : "String",
+                        "isActive" : "bool",
+                        "displayValue" : "String",
+                        "internalValue" : "String"
+                     },
+                     "parentBomLine" : "String",
+                     "childDimensionValue" : {
+                        "isActive" : "bool",
+                        "dimensionName" : "String",
+                        "dimensionType" : "String",
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     },
+                     "childBomLine" : "String"
+                  }
+               ]
+            }
+         ]
+      },
+      "dimensionValuesMap" : {
+         "SampleKeyString" : [
+            {
+               "dimensionName" : "String",
+               "defaultDimensionValue" : "String",
+               "dimensionType" : "String",
+               "dimensionValues" : [
+                  {
+                     "dimensionName" : "String",
+                     "isActive" : "bool",
+                     "dimensionType" : "String",
+                     "internalValue" : "String",
+                     "displayValue" : "String"
+                  }
+               ]
+            }
+         ]
+      },
+      "serviceData" : "IServiceData",
+      "topBomLine" : "String"
+   },
+   "ServiceOperation" : "Internal-Retail-2013-12-Retail/getDimensionMapData",
+   "OperationInput" : {
+      "inputInfo" : {
+         "revisionUid" : "String",
+         "bomLineUid" : "String"
+      }
+   }
+}

@@ -1,0 +1,116 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "objects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2012-02-DataManagement/bulkCreateObjects",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "data" : {
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "compoundCreateInput" : "Teamcenter::Soa::Core::_2008_06::DataManagement::CreateInputMap",
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "boName" : "String",
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        }
+                     }
+                  ]
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "boName" : "String"
+            },
+            "folder" : "IModelObject",
+            "quantity" : "int"
+         }
+      ]
+   }
+}

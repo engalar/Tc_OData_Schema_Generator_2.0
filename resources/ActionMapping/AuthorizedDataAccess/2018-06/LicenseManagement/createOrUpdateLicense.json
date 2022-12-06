@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "licenseInfo" : [
+         {
+            "expiryDate" : "Date",
+            "users" : "String[]",
+            "licenseType" : "String",
+            "licenseReason" : "String",
+            "lockDate" : "Date",
+            "licenseCategory" : "String",
+            "licenseId" : "String",
+            "qualifyingCfr" : "String",
+            "groups" : "String[]",
+            "userCitizenships" : "String[]",
+            "newLicenseId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AuthorizedDataAccess-2018-06-LicenseManagement/createOrUpdateLicense",
+   "OperationResponse" : "IServiceData"
+}

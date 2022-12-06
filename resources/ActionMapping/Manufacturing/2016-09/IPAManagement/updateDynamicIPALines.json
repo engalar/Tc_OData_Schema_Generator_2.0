@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "inputLines" : [
+         {
+            "isRecursive" : "bool",
+            "inputLine" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "bopLineToIPALinesMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "logFileTicket" : {
+         "fileTicket" : "String",
+         "fileName" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-IPAManagement/updateDynamicIPALines"
+}

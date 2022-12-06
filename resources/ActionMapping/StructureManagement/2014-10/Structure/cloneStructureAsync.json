@@ -1,0 +1,53 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "topItemRevs" : "IModelObject[]",
+            "defaultFolder" : "IModelObject",
+            "dataMap" : [
+               {
+                  "origItemRevComp" : "IModelObject",
+                  "cloneOperationType" : "int",
+                  "newItemRevinfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "deepCopyDataOverride" : [
+                     {
+                        "operationInputTypeName" : "String",
+                        "isRequired" : "bool",
+                        "copyRelations" : "bool",
+                        "propertyType" : "String",
+                        "isTargetPrimary" : "bool",
+                        "copyAction" : "String",
+                        "propertyName" : "String",
+                        "childDeepCopyData" : "Teamcenter::Soa::StructureManagement::_2014_10::Structure::DeepCopyData[]",
+                        "operationInputs" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "attachedObject" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "cadOptions" : "String[]",
+            "topLines" : "IModelObject[]",
+            "projects" : {
+               "assign" : "bool",
+               "projects" : "IModelObject[]",
+               "validate" : "bool"
+            },
+            "cloneFlags" : "int",
+            "revRule" : "IModelObject",
+            "defaultName" : {
+               "to" : "String",
+               "suffix" : "String",
+               "autogen" : "bool",
+               "prefix" : "String",
+               "from" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "StructureManagement-2014-10-Structure/cloneStructureAsync"
+}

@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "impactedScopes" : "IModelObject[]",
+            "changedObjects" : "IModelObject[]",
+            "changedLine" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "statusDetails" : [
+         {
+            "statusDetails" : [
+               {
+                  "evaluatedStatus" : "String[]",
+                  "resultantScope" : "IModelObject",
+                  "resultantStatus" : "String",
+                  "evaluatedScopes" : "IModelObject[]",
+                  "setByUser" : "bool"
+               }
+            ],
+            "inputIndex" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2014-12-StructureVerification/findReviewStatus"
+}

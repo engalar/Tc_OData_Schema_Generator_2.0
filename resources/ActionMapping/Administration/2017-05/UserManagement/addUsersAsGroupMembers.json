@@ -1,0 +1,46 @@
+{
+   "OperationInput" : {
+      "userRoleGroupStructs" : [
+         {
+            "usersToCreateAndAdd" : [
+               {
+                  "user" : {
+                     "userPropertyMap" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "userId" : "String",
+                     "person" : "String",
+                     "password" : "String",
+                     "newOwningGroup" : "String",
+                     "newOwner" : "String",
+                     "defaultGroup" : "String",
+                     "userAddlPropertyMap" : {
+                        "SampleKeyString" : "String[]"
+                     }
+                  },
+                  "userAttributes" : {
+                     "isDefaultRole" : "bool",
+                     "isGroupAdmin" : "bool",
+                     "status" : "bool"
+                  }
+               }
+            ],
+            "role" : "IModelObject",
+            "usersToAdd" : [
+               {
+                  "user" : "IModelObject",
+                  "userAttributes" : {
+                     "status" : "bool",
+                     "isGroupAdmin" : "bool",
+                     "isDefaultRole" : "bool"
+                  }
+               }
+            ],
+            "grp" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Administration-2017-05-UserManagement/addUsersAsGroupMembers",
+   "OperationResponse" : "IServiceData"
+}

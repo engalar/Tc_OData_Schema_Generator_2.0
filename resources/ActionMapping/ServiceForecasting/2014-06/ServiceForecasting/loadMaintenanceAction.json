@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "relationName" : "String[]",
+      "physicalPart" : "IModelObject"
+   },
+   "ServiceOperation" : "ServiceForecasting-2014-06-ServiceForecasting/loadMaintenanceAction",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "vectorOfMaintActions" : {
+         "maintActsVector" : "IModelObject[]"
+      }
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2018-11-Briefcase/checkBriefcaseLicense",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "licenseExists" : "bool"
+   },
+   "OperationInput" : {}
+}

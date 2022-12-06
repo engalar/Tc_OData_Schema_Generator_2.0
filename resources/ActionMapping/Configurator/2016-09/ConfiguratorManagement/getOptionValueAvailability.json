@@ -1,0 +1,110 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "familiesToTest" : "IModelObject[]",
+         "valuesToTest" : [
+            {
+               "value" : "IModelObject",
+               "selectionClass" : "String",
+               "rangeExpressions" : [
+                  {
+                     "feature" : "IModelObject",
+                     "operatorCode" : "int",
+                     "valueText" : "String"
+                  }
+               ],
+               "operatorCode" : "int",
+               "family" : "IModelObject",
+               "valueText" : "String",
+               "familyNamespace" : "String",
+               "familyID" : "String"
+            }
+         ],
+         "perspective" : "IModelObject",
+         "applyConstraints" : "int",
+         "criteriaExpression" : [
+            {
+               "targetObject" : "IModelObject",
+               "clientId" : "String",
+               "expressions" : [
+                  {
+                     "formula" : "String",
+                     "expressionType" : "int",
+                     "configExprSets" : [
+                        {
+                           "configExpressions" : [
+                              {
+                                 "expressionType" : "int",
+                                 "subExpressions" : [
+                                    {
+                                       "expressionGroups" : [
+                                          {
+                                             "groupName" : "String",
+                                             "context" : "IModelObject",
+                                             "terms" : [
+                                                {
+                                                   "selectionClass" : "String",
+                                                   "value" : "IModelObject",
+                                                   "operatorCode" : "int",
+                                                   "family" : "IModelObject",
+                                                   "rangeExpressions" : [
+                                                      {
+                                                         "operatorCode" : "int",
+                                                         "feature" : "IModelObject",
+                                                         "valueText" : "String"
+                                                      }
+                                                   ],
+                                                   "valueText" : "String",
+                                                   "familyID" : "String",
+                                                   "familyNamespace" : "String"
+                                                }
+                                             ]
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "clientID" : "String",
+                                 "formula" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "exprID" : "String"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "availabilityStruct" : [
+         {
+            "availabilityExpressions" : [
+               {
+                  "availability" : [
+                     {
+                        "value" : "IModelObject",
+                        "selectionClass" : "String",
+                        "familyNamespace" : "String",
+                        "familyID" : "String",
+                        "valueText" : "String",
+                        "rangeExpressions" : [
+                           {
+                              "valueText" : "String",
+                              "operatorCode" : "int",
+                              "feature" : "IModelObject"
+                           }
+                        ],
+                        "operatorCode" : "int",
+                        "family" : "IModelObject"
+                     }
+                  ],
+                  "availibilityStatus" : "String[]"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Configurator-2016-09-ConfiguratorManagement/getOptionValueAvailability"
+}

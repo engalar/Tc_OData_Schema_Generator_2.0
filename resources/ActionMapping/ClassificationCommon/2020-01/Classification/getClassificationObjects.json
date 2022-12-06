@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "jsonRequest" : "String"
+   },
+   "ServiceOperation" : "Internal-ClassificationCommon-2020-01-Classification/getClassificationObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "jsonResponse" : "String"
+   }
+}

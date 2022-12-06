@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2014-12-Model/getUILocations",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "uiLocationsInfo" : [
+         {
+            "contextLine" : "IModelObject",
+            "externalNodesInfo" : [
+               {
+                  "connectedNodes" : "IModelObject[]",
+                  "externalNode" : "IModelObject",
+                  "uiLocation" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "contextLines" : "IModelObject[]"
+   }
+}

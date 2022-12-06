@@ -1,0 +1,98 @@
+{
+   "OperationInput" : {
+      "instantiationInfo" : {
+         "updateInfo" : [
+            {
+               "auxiliaryObjects" : {
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "subObjects" : {
+                     "SampleKeyString" : [
+                        {
+                           "attrInfo" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap",
+                           "boType" : "String"
+                        }
+                     ]
+                  },
+                  "boType" : "String",
+                  "object" : "IModelObject"
+               },
+               "sourceModel" : {
+                  "configContext" : "IModelObject",
+                  "subsetDefinition" : "IModelObject",
+                  "includeSourceElements" : "IModelObject[]",
+                  "sourceModel" : "IModelObject"
+               },
+               "attrInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "modelReuse" : "IModelObject",
+               "miscInfo" : {
+                  "boundingBox" : "double[]",
+                  "trueshapeDataset" : "IModelObject",
+                  "directModelDataset" : "IModelObject",
+                  "transforms" : "double[]"
+               }
+            }
+         ],
+         "clientId" : "String",
+         "objInfo" : [
+            {
+               "attrInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boType" : "String",
+               "auxObjectInfo" : {
+                  "boType" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "subObjects" : {
+                     "SampleKeyString" : [
+                        {
+                           "boType" : "String",
+                           "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap",
+                           "attrInfo" : {
+                              "SampleKeyString" : "String[]"
+                           }
+                        }
+                     ]
+                  },
+                  "object" : "IModelObject"
+               },
+               "miscInfo" : {
+                  "trueshapeDataset" : "IModelObject",
+                  "boundingBox" : "double[]",
+                  "transforms" : "double[]",
+                  "directModelDataset" : "IModelObject"
+               },
+               "sourceModelData" : {
+                  "configContext" : "IModelObject",
+                  "includeSourceElements" : "IModelObject[]",
+                  "subsetDefinition" : "IModelObject",
+                  "sourceModel" : "IModelObject"
+               },
+               "targetModel" : "IModelObject"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "CpdCore-2014-10-DataManagement/createOrUpdateModelToModelInstantiation",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "instantiatedObjects" : [
+         {
+            "clientIDMap" : {
+               "SampleKeyString" : "IModelObject"
+            },
+            "modelReuse" : "IModelObject",
+            "includeSourceElementList" : "IModelObject[]",
+            "updatedObjectsList" : "IModelObject[]"
+         }
+      ]
+   }
+}

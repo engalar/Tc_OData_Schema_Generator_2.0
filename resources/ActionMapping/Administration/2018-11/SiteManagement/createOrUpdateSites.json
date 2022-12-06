@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "Internal-Administration-2018-11-SiteManagement/createOrUpdateSites",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "pomIMC" : "IModelObject",
+            "siteInfo" : {
+               "siteID" : "int",
+               "additionalPropMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "siteName" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "siteInfos" : [
+         {
+            "siteID" : "int",
+            "additionalPropMap" : {
+               "SampleKeyString" : "String"
+            },
+            "siteName" : "String"
+         }
+      ]
+   }
+}

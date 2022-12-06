@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "mvProxyInfos" : [
+         {
+            "thumbnailFile" : "IModelObject",
+            "deleteProxy" : "bool",
+            "attrList" : [
+               {
+                  "values" : "String[]",
+                  "name" : "String"
+               }
+            ],
+            "hiresImageFile" : "IModelObject",
+            "owningModel" : "IModelObject",
+            "objLastModifiedDateGuard" : "Date",
+            "boType" : "String",
+            "clientId" : "String",
+            "guardObjLastModifiedDate" : "bool",
+            "modelView" : "IModelObject"
+         }
+      ],
+      "updatedOwningModels" : [
+         {
+            "owningDataset" : "IModelObject",
+            "owningModel" : "IModelObject",
+            "cadLastModifiedDate" : "Date"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Cad-2016-03-DataManagement/createOrUpdateModelViewProxies"
+}

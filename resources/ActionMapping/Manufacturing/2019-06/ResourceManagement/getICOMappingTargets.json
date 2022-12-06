@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "icoUIDs" : "String[]",
+      "viewType" : "int"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "mappingInfoVector" : [
+         {
+            "targetGTCBase" : "String",
+            "sourceClassID" : "String",
+            "targetClasses" : [
+               {
+                  "targetName" : "String",
+                  "targetID" : "String"
+               }
+            ],
+            "targetWorkpiece" : "String",
+            "targetMachine" : "String",
+            "sourceClassName" : "String",
+            "sourceIcoID" : "String",
+            "sourceIcoUID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2019-06-ResourceManagement/getICOMappingTargets"
+}

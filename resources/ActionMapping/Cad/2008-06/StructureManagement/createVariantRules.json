@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "vruleDescription" : "String",
+            "rev" : "IModelObject",
+            "relation" : "String",
+            "vruleName" : "String",
+            "clientID" : "String",
+            "parent" : "IModelObject",
+            "options" : [
+               {
+                  "optionName" : "String",
+                  "optionValue" : "String",
+                  "assocRev" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "vrule" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2008-06-StructureManagement/createVariantRules"
+}

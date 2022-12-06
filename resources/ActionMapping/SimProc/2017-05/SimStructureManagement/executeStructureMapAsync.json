@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-SimProc-2017-05-SimStructureManagement/executeStructureMapAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "revRule" : "IModelObject",
+      "variantRule" : "IModelObject",
+      "snapshotFolder" : "IModelObject",
+      "rootIR" : "IModelObject",
+      "domain" : "String",
+      "structureMapIR" : "IModelObject"
+   }
+}

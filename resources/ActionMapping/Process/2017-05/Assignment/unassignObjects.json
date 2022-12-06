@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "assignedTo" : "IModelObject",
+            "assignedObjects" : [
+               {
+                  "assignedObject" : "IModelObject",
+                  "assignmentType" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "unassignObjects" : [
+               {
+                  "assignedObject" : "IModelObject",
+                  "assignmentType" : "IModelObject"
+               }
+            ],
+            "statusData" : {
+               "assignedToObjects" : "IModelObject[]",
+               "status" : "String[]"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Process-2017-05-Assignment/unassignObjects"
+}

@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "applicationID" : "String"
+   },
+   "OperationResponse" : {
+      "modifiedObjectsUIDs" : "String[]",
+      "queriedDateTime" : "Date",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2015-03-FullTextSearch/getModifiedObjectsToSync"
+}

@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-Multisite-2011-06-ImportExportAsync/remoteExport",
+   "OperationInput" : {
+      "reInfos" : [
+         {
+            "targetSites" : "String[]",
+            "checkoutId" : "String",
+            "object" : "IModelObject",
+            "exportOptions" : [
+               {
+                  "optionValue" : "String[]",
+                  "optionName" : "String"
+               }
+            ],
+            "remoteCheckout" : "bool",
+            "reason" : "String"
+         }
+      ]
+   }
+}

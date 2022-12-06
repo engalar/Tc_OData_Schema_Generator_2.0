@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "bomViews" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Allocations-2007-01-Allocation/findAllocationContexts"
+}

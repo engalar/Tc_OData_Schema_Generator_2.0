@@ -1,0 +1,47 @@
+{
+   "OperationResponse" : {
+      "createdAssignments" : "IModelObject[]",
+      "createdMembers" : "IModelObject[]",
+      "modifiedTasks" : "IModelObject[]",
+      "createdDependencies" : "IModelObject[]",
+      "createdDeliverables" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "createdTasks" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ProjectManagement-2011-02-ScheduleManagement/specialPasteScheduleTasks",
+   "OperationInput" : {
+      "copyContainer" : {
+         "fromSchedule" : [
+            {
+               "tasks" : "IModelObject[]",
+               "schmgtOptions" : {
+                  "integerOptions" : [
+                     {
+                        "value" : "int",
+                        "name" : "String"
+                     }
+                  ],
+                  "logicalOptions" : [
+                     {
+                        "name" : "String",
+                        "value" : "bool"
+                     }
+                  ],
+                  "stringOptions" : [
+                     {
+                        "name" : "String",
+                        "value" : "String"
+                     }
+                  ]
+               },
+               "schedule" : "IModelObject"
+            }
+         ],
+         "toSchedule" : {
+            "pasteType" : "PasteBeforeTask PasteUnderTask PasteAfterTask",
+            "task" : "IModelObject",
+            "targetSchedule" : "IModelObject"
+         }
+      }
+   }
+}

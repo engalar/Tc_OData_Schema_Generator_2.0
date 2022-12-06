@@ -1,0 +1,30 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceVis-2015-03-MassiveModelVisualization/groupOccurrencesByProperties",
+   "OperationResponse" : {
+      "groupedOccList" : [
+         {
+            "internalPropertyName" : "String",
+            "groupedPfuidsMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "unmatchedPfuidList" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "groupOccsByPropertyInputList" : [
+         {
+            "propertyValues" : [
+               {
+                  "endValue" : "String",
+                  "propertyGroupID" : "String",
+                  "startValue" : "String"
+               }
+            ],
+            "pfuidList" : "String[]",
+            "internalPropertyName" : "String"
+         }
+      ]
+   }
+}

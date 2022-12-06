@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : {
+         "fileName" : "String",
+         "ticket" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2014-12-ResourceManagement/importStepP21Files2",
+   "OperationInput" : {
+      "classId" : "String",
+      "importOptions" : "int",
+      "catalogRootDirectory" : "String"
+   }
+}

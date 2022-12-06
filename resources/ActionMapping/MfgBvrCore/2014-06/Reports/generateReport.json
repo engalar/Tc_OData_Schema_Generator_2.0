@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-MfgBvrCore-2014-06-Reports/generateReport",
+   "OperationResponse" : {
+      "reportFiles" : [
+         {
+            "clientID" : "String",
+            "reportFileTicket" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientID" : "String",
+            "object" : "IModelObject",
+            "reportType" : "String"
+         }
+      ]
+   }
+}

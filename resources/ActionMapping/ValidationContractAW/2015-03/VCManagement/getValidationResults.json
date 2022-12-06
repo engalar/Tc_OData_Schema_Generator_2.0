@@ -1,0 +1,41 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "contractRevision" : "IModelObject",
+            "tracelinkType" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "resultObjInfo" : [
+               {
+                  "resultObj" : "IModelObject",
+                  "vcLink" : "IModelObject"
+               }
+            ],
+            "contractDefnInfo" : {
+               "groupName" : "String",
+               "contractDefnSections" : [
+                  {
+                     "propertyNames" : "String[]",
+                     "objectInfos" : [
+                        {
+                           "quantity" : "String",
+                           "type" : "String"
+                        }
+                     ],
+                     "displayName" : "String",
+                     "propertyDisplayNames" : "String[]"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "ValidationContractAW-2015-03-VCManagement/getValidationResults"
+}

@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/getImpactedItemRevsForReIndex",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "impactedObjectsUIDs" : "String[]"
+   },
+   "OperationInput" : {}
+}

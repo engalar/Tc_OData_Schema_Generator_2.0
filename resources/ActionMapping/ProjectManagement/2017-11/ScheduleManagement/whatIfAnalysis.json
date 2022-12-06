@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "whatIfOption" : "Start SaveAndContinue SaveAndExit CancelAndExit",
+      "schedule" : "IModelObject"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagement-2017-11-ScheduleManagement/whatIfAnalysis"
+}

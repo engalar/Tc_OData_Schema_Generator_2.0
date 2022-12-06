@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "Internal-IppeCore-2020-12-WBSManagement/excludeOBSElementsFromProgOBSCtxt",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "selectedLines" : "IModelObject[]",
+      "action" : "String",
+      "productConfigInfo" : "IModelObject"
+   }
+}

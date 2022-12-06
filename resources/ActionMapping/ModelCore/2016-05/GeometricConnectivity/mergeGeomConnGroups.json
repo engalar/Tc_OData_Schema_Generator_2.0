@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "mergeGroupInfos" : [
+         {
+            "deleteInputGroups" : "bool",
+            "clientId" : "String",
+            "geomGroups" : "IModelObject[]",
+            "groupInfo" : {
+               "connectionId" : "String",
+               "attrInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boType" : "String",
+               "endObject2" : "IModelObject",
+               "geomGroup" : "IModelObject",
+               "logicalId" : "String",
+               "endObject1" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "newGroups" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "ModelCore-2016-05-GeometricConnectivity/mergeGeomConnGroups"
+}

@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "selectedObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-SimProc-2018-06-SimStructureManagement/removeDuplicateCadJt",
+   "OperationResponse" : {
+      "noOfObjectsProcessed" : "int",
+      "serviceData" : "IServiceData",
+      "noOfDatasetsDeleted" : "int",
+      "noOfObjectsSkipped" : "int",
+      "noOfDatasetsCut" : "int"
+   }
+}

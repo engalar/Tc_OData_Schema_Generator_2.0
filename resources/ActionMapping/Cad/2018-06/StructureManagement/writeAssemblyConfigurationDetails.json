@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Cad-2018-06-StructureManagement/writeAssemblyConfigurationDetails",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "readFileTicketForStructureData" : "String"
+   },
+   "OperationInput" : {
+      "bomWindow" : "IModelObject",
+      "optionSetName" : "String"
+   }
+}

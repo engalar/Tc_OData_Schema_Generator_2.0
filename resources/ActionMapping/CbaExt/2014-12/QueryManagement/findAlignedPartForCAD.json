@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "designs" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "designToAlignedPartsInfos" : [
+         {
+            "parts" : {
+               "columnSet" : {
+                  "column" : [
+                     {
+                        "table" : "String",
+                        "name" : "String",
+                        "datatype" : "String",
+                        "logicalName" : "String",
+                        "width" : "int"
+                     }
+                  ],
+                  "table" : "String"
+               },
+               "rowSet" : {
+                  "row" : [
+                     {
+                        "value" : "String[]",
+                        "clientID" : "String"
+                     }
+                  ]
+               }
+            },
+            "localDesign" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CbaExt-2014-12-QueryManagement/findAlignedPartForCAD"
+}

@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "ticket" : {
+         "ticket" : "String",
+         "originalFileName" : "String"
+      },
+      "pUpdate" : "UpdateType_Full UpdateType_Delta UpdateType_Any",
+      "id" : "IModelObject"
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/commitStructureFile",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "fileId" : "String"
+   }
+}

@@ -1,0 +1,43 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "workflowGraphInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "elementData" : [
+               {
+                  "elementInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "element" : "IModelObject"
+               }
+            ],
+            "edgeData" : [
+               {
+                  "edgeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "end1Element" : "IModelObject",
+                  "end2Element" : "IModelObject",
+                  "edge" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2014-11-Workflow/getWorkflowGraph",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "workflowGraphInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "selection" : "IModelObject"
+         }
+      ]
+   }
+}

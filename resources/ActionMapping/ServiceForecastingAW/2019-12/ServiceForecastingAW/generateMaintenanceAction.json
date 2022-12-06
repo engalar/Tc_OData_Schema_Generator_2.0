@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "maintenanceAction" : "IModelObject[]",
+            "forecastingItem" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ServiceForecastingAW-2019-12-ServiceForecastingAW/generateMaintenanceAction"
+}

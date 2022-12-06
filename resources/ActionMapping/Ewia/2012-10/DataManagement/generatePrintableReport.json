@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Ewia-2012-10-DataManagement/generatePrintableReport",
+   "OperationResponse" : {
+      "reportFilesInfo" : [
+         {
+            "ticket" : "String",
+            "busObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "contextObject" : "String",
+            "reportScope" : "String"
+         }
+      ]
+   }
+}

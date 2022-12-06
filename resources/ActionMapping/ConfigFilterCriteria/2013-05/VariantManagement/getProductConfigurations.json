@@ -1,0 +1,148 @@
+{
+   "OperationInput" : {
+      "productNameSpace" : "String",
+      "productName" : "String",
+      "configuratorURL" : "String"
+   },
+   "OperationResponse" : {
+      "variantCriteria" : [
+         {
+            "primaryVariantScope" : {
+               "formula" : {
+                  "productNameSpace" : "String",
+                  "formula" : "String",
+                  "productName" : "String"
+               },
+               "opCode" : "int",
+               "tnf" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+               "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+               "value" : {
+                  "family" : "IModelObject",
+                  "additionalInfo" : {
+                     "variant" : "IModelObject",
+                     "optionValue" : "IModelObject"
+                  },
+                  "valueCode" : "String",
+                  "description" : "String"
+               }
+            },
+            "validationRecords" : [
+               {
+                  "validationResult" : {
+                     "value" : {
+                        "family" : "IModelObject",
+                        "additionalInfo" : {
+                           "optionValue" : "IModelObject",
+                           "variant" : "IModelObject"
+                        },
+                        "valueCode" : "String",
+                        "description" : "String"
+                     },
+                     "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+                     "opCode" : "int",
+                     "tnf" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+                     "formula" : {
+                        "productNameSpace" : "String",
+                        "formula" : "String",
+                        "productName" : "String"
+                     }
+                  },
+                  "appliedDefaults" : [
+                     {
+                        "appliedTo" : {
+                           "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+                           "value" : {
+                              "description" : "String",
+                              "valueCode" : "String",
+                              "additionalInfo" : {
+                                 "optionValue" : "IModelObject",
+                                 "variant" : "IModelObject"
+                              },
+                              "family" : "IModelObject"
+                           },
+                           "formula" : {
+                              "productNameSpace" : "String",
+                              "productName" : "String",
+                              "formula" : "String"
+                           },
+                           "opCode" : "int",
+                           "tnf" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]"
+                        },
+                        "partiallyApplicable" : "bool",
+                        "appliedDefault" : {
+                           "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+                           "value" : {
+                              "additionalInfo" : {
+                                 "variant" : "IModelObject",
+                                 "optionValue" : "IModelObject"
+                              },
+                              "family" : "IModelObject",
+                              "description" : "String",
+                              "valueCode" : "String"
+                           },
+                           "opCode" : "int",
+                           "tnf" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+                           "formula" : {
+                              "productNameSpace" : "String",
+                              "productName" : "String",
+                              "formula" : "String"
+                           }
+                        },
+                        "restrictiveCondition" : {
+                           "value" : {
+                              "family" : "IModelObject",
+                              "additionalInfo" : {
+                                 "optionValue" : "IModelObject",
+                                 "variant" : "IModelObject"
+                              },
+                              "valueCode" : "String",
+                              "description" : "String"
+                           },
+                           "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+                           "tnf" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+                           "opCode" : "int",
+                           "formula" : {
+                              "productNameSpace" : "String",
+                              "productName" : "String",
+                              "formula" : "String"
+                           }
+                        }
+                     }
+                  ],
+                  "violations" : [
+                     {
+                        "violatedCondition" : {
+                           "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+                           "value" : {
+                              "additionalInfo" : {
+                                 "optionValue" : "IModelObject",
+                                 "variant" : "IModelObject"
+                              },
+                              "family" : "IModelObject",
+                              "description" : "String",
+                              "valueCode" : "String"
+                           },
+                           "tnf" : "Fnd0::Soa::ConfigFilterCriteria::_2013_05::VariantManagement::ConfigExpression[]",
+                           "opCode" : "int",
+                           "formula" : {
+                              "productName" : "String",
+                              "formula" : "String",
+                              "productNameSpace" : "String"
+                           }
+                        },
+                        "message" : "String",
+                        "severity" : "ConstraintSeverityInformation ConstraintSeverityWarning ConstraintSeverityError"
+                     }
+                  ],
+                  "validationDate" : "Date",
+                  "undeterminedFamilies" : "IModelObject[]"
+               }
+            ],
+            "variantCriteriaObject" : "IModelObject",
+            "solveType" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ConfigFilterCriteria-2013-05-VariantManagement/getProductConfigurations"
+}

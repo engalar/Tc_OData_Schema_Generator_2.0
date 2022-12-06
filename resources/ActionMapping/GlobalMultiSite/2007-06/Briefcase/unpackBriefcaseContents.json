@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-Briefcase/unpackBriefcaseContents",
+   "OperationResponse" : {
+      "tcplmxmlFmsTickets" : "String[]",
+      "sourceSiteId" : "int",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "uidOfBriefcaseTcFile" : "String"
+   }
+}

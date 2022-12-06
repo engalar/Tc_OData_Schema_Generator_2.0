@@ -1,0 +1,98 @@
+{
+   "OperationInput" : {
+      "ignoreOverlapErrors" : "bool",
+      "returnOnFirstMismatch" : "bool",
+      "lines" : [
+         {
+            "eqvSrcLines" : "IModelObject[]",
+            "eqvTargetLines" : "IModelObject[]"
+         }
+      ],
+      "useStructureConfiguration" : "bool"
+   },
+   "ServiceOperation" : "StructureManagement-2010-09-StructureVerification/compareNetEffectivity",
+   "OperationResponse" : {
+      "compareGroups" : [
+         {
+            "missingTargetDetails" : [
+               {
+                  "details" : [
+                     {
+                        "units" : "int[]",
+                        "targetLines" : "IModelObject[]",
+                        "dates" : "Date[]",
+                        "srcLines" : "IModelObject[]"
+                     }
+                  ],
+                  "endItem" : "IModelObject"
+               }
+            ],
+            "targetLineEffectivities" : [
+               {
+                  "line" : "IModelObject",
+                  "effDetails" : [
+                     {
+                        "endItem" : "IModelObject",
+                        "units" : "int[]",
+                        "dates" : "Date[]"
+                     }
+                  ]
+               }
+            ],
+            "matchingEffectivities" : [
+               {
+                  "endItem" : "IModelObject",
+                  "details" : [
+                     {
+                        "units" : "int[]",
+                        "targetLines" : "IModelObject[]",
+                        "dates" : "Date[]",
+                        "srcLines" : "IModelObject[]"
+                     }
+                  ]
+               }
+            ],
+            "srcLineEffectivities" : [
+               {
+                  "line" : "IModelObject",
+                  "effDetails" : [
+                     {
+                        "endItem" : "IModelObject",
+                        "units" : "int[]",
+                        "dates" : "Date[]"
+                     }
+                  ]
+               }
+            ],
+            "missingSrcDetails" : [
+               {
+                  "endItem" : "IModelObject",
+                  "details" : [
+                     {
+                        "units" : "int[]",
+                        "targetLines" : "IModelObject[]",
+                        "dates" : "Date[]",
+                        "srcLines" : "IModelObject[]"
+                     }
+                  ]
+               }
+            ],
+            "overlappingEffectivities" : [
+               {
+                  "details" : [
+                     {
+                        "units" : "int[]",
+                        "targetLines" : "IModelObject[]",
+                        "dates" : "Date[]",
+                        "srcLines" : "IModelObject[]"
+                     }
+                  ],
+                  "endItem" : "IModelObject"
+               }
+            ],
+            "isMisMatch" : "bool"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

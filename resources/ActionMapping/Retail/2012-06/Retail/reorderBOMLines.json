@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "bomDetails" : [
+         {
+            "movedBomLineUID" : "String",
+            "newPosition" : "int",
+            "parentBomLineUID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/reorderBOMLines",
+   "OperationResponse" : "IServiceData"
+}

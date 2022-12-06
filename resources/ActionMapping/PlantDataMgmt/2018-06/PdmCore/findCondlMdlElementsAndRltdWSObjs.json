@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-PlantDataMgmt-2018-06-PdmCore/findCondlMdlElementsAndRltdWSObjs",
+   "OperationResponse" : {
+      "workspaceObjs" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "configurationContext" : "IModelObject",
+      "model" : "IModelObject"
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Internal-DebugMonitor-2014-06-JournalBasedTesting/initializeJBT",
+   "OperationResponse" : {
+      "siteDBInfo" : "String",
+      "additionalInfo" : {
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strToDblVectorMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         }
+      },
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2014-12-Effectivity/createReleaseStatusEffectivity",
+   "OperationInput" : {
+      "input" : [
+         {
+            "releaseStatus" : "IModelObject",
+            "effectivityInfoInput" : {
+               "effectivityId" : "String",
+               "unitRangeText" : "String",
+               "endItemRev" : "IModelObject",
+               "isProtected" : "bool",
+               "openEndedStatus" : "int",
+               "dateRange" : "Date[]",
+               "endItem" : "IModelObject"
+            }
+         }
+      ]
+   }
+}

@@ -1,0 +1,71 @@
+{
+   "OperationInput" : {
+      "lovData" : {
+         "filterData" : {
+            "order" : "int",
+            "maxResults" : "int",
+            "numberToReturn" : "int",
+            "sortPropertyName" : "String",
+            "filterString" : "String"
+         },
+         "currentIndex" : "int",
+         "unProcessedObjects" : "String[]",
+         "style" : "String",
+         "additionalValuesSkipped" : "bool",
+         "lovs" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "behaviorData" : {
+         "lovUsage" : "int",
+         "rangeUpperLimit" : "String",
+         "dependendProps" : "String[]",
+         "columnNames" : {
+            "displayNames" : {
+               "SampleKeyString" : "String"
+            },
+            "lovDescrProp" : "String",
+            "filterProperties" : "String[]",
+            "lovValueProp" : "String",
+            "columnManagementFlags" : {
+               "SampleKeyString" : "int"
+            }
+         },
+         "style" : "String",
+         "rangeLowerLimit" : "String",
+         "descriptionsAttached" : "bool[]"
+      },
+      "lovData" : {
+         "currentIndex" : "int",
+         "unProcessedObjects" : "String[]",
+         "additionalValuesSkipped" : "bool",
+         "style" : "String",
+         "filterData" : {
+            "filterString" : "String",
+            "sortPropertyName" : "String",
+            "maxResults" : "int",
+            "numberToReturn" : "int",
+            "order" : "int"
+         },
+         "lovs" : "IModelObject[]"
+      },
+      "moreValuesExist" : "bool",
+      "lovValues" : [
+         {
+            "propInternalValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "uid" : "String",
+            "propInternalValueTypes" : {
+               "SampleKeyString" : "int"
+            },
+            "propDisplayValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "childRows" : "Teamcenter::Soa::Core::_2013_05::LOV::LOVValueRow[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2013-05-LOV/getNextLOVValues"
+}

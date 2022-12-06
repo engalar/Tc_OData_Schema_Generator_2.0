@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Reports-2015-10-CrfReports/getOfficeStylesheets",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "officetemplates" : "String[]"
+   },
+   "OperationInput" : {
+      "reportDefinition" : "IModelObject"
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "ChangeManagement-2015-10-ChangeManagement/deleteChangeLineage",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "objects" : "IModelObject[]",
+            "clientId" : "String",
+            "changeNoticeRev" : "IModelObject"
+         }
+      ]
+   }
+}

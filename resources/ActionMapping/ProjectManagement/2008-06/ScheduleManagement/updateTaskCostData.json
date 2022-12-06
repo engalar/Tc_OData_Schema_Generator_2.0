@@ -1,0 +1,53 @@
+{
+   "OperationInput" : {
+      "updates" : [
+         {
+            "billCode" : "String",
+            "billingType" : "String",
+            "billRate" : "String",
+            "deletedCosts" : "IModelObject[]",
+            "updatedCosts" : [
+               {
+                  "actual" : "String",
+                  "billCode" : "String",
+                  "billingType" : "String",
+                  "accrualType" : "int",
+                  "currency" : "String",
+                  "estimate" : "String",
+                  "fixedCost" : "IModelObject",
+                  "useActual" : "bool",
+                  "subCode" : "String",
+                  "name" : "String"
+               }
+            ],
+            "rate" : "IModelObject",
+            "newCosts" : [
+               {
+                  "useActual" : "bool",
+                  "subCode" : "String",
+                  "name" : "String",
+                  "billingType" : "String",
+                  "billCode" : "String",
+                  "actual" : "String",
+                  "currency" : "String",
+                  "accrualType" : "int",
+                  "fixedCost" : "IModelObject",
+                  "estimate" : "String"
+               }
+            ],
+            "subCode" : "String",
+            "task" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2008-06-ScheduleManagement/updateTaskCostData",
+   "OperationResponse" : {
+      "responses" : [
+         {
+            "newCosts" : "IModelObject[]",
+            "updatedTask" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

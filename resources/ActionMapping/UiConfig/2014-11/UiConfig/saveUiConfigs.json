@@ -1,0 +1,49 @@
+{
+   "ServiceOperation" : "UiConfig-2014-11-UiConfig/saveUiConfigs",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "saveUiConfigsIn" : {
+         "commandConfigurations" : [
+            {
+               "scopes" : [
+                  {
+                     "saveScopeParam" : "String",
+                     "scopeName" : "String"
+                  }
+               ],
+               "saveCommandCollectionInfo" : [
+                  {
+                     "collectionId" : "String",
+                     "configInfo" : [
+                        {
+                           "hidden" : "bool",
+                           "id" : "String",
+                           "isCollection" : "bool"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "columnConfigurations" : [
+            {
+               "clientScopeURI" : "String",
+               "scope" : {
+                  "saveScopeParam" : "String",
+                  "scopeName" : "String"
+               },
+               "columnConfigId" : "String",
+               "columns" : [
+                  {
+                     "pixelWidth" : "int",
+                     "propertyName" : "String",
+                     "typeName" : "String",
+                     "sortByFlag" : "bool"
+                  }
+               ],
+               "sortDirection" : "String"
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "sourceObject" : "IModelObject",
+      "targetObject" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "compareOptions" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2018-12-Compare/getCompareOptions"
+}

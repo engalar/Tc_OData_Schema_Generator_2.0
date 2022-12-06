@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "processes" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "unset" : "IModelObject[]",
+      "flat" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "nested" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-IPAManagement/getFilteredIPAType"
+}

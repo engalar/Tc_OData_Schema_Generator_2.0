@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-ContMgmtBase-2020-01-ContentManagement/importTranslation",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "fileTickets" : "String[]"
+   }
+}

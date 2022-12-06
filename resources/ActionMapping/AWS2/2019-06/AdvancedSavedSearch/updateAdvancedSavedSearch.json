@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "boolValueInputKeyValuePairs" : {
+               "SampleKeyString" : "bool"
+            },
+            "stringValueInputKeyValuePairs" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "savedSearchList" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2019-06-AdvancedSavedSearch/updateAdvancedSavedSearch"
+}

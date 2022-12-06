@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "createOrSavePSBOMViewRevisionInputs" : [
+         {
+            "clientId" : "String",
+            "srcBvrTag" : "IModelObject",
+            "itemObject" : "IModelObject",
+            "isPrecise" : "bool",
+            "itemRevObj" : "IModelObject",
+            "viewTypeTag" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2011-06-Structure/createOrSavePSBOMViewRevision",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "psBVROutputs" : [
+         {
+            "clientId" : "String",
+            "bvrTag" : "IModelObject"
+         }
+      ]
+   }
+}

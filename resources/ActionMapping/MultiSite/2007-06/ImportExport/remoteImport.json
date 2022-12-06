@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "infos" : [
+         {
+            "object" : "IModelObject",
+            "importOptions" : [
+               {
+                  "value" : "String[]",
+                  "name" : "String"
+               }
+            ],
+            "reason" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Multisite-2007-06-ImportExport/remoteImport",
+   "OperationResponse" : "IServiceData"
+}

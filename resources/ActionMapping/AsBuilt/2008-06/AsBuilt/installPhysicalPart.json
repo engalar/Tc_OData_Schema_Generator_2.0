@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "installPhysicalPrtInput" : [
+         {
+            "selectedBOMLineImpl" : "IModelObject",
+            "usageType" : "String",
+            "childPhysicalPartRevisionImpl" : "IModelObject",
+            "parentAsBuiltBOMLineImpl" : "IModelObject",
+            "clientId" : "String",
+            "installInfo" : {
+               "installationDate" : "Date",
+               "attributes" : {
+                  "SampleKeyString" : "String"
+               },
+               "usageName" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "AsBuilt-2008-06-AsBuilt/installPhysicalPart",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "installedLine" : "IModelObject",
+            "relation" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

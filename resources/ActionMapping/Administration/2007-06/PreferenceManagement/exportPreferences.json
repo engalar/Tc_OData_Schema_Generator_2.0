@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-Administration-2007-06-PreferenceManagement/exportPreferences",
+   "OperationResponse" : {
+      "fileTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "exportPrefs" : {
+         "categoryNames" : "String[]",
+         "preferenceScope" : "String"
+      }
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "isRunInBackground" : "bool",
+            "selectedObject" : "IModelObject",
+            "reqIfFileTicket" : "String",
+            "options" : "String[]",
+            "attributeMap" : [
+               {
+                  "reqIfType" : "String",
+                  "typeInfo" : "String",
+                  "reqIfAttrVsTcAttr" : {
+                     "SampleKeyString" : {
+                        "hasLov" : "bool",
+                        "propName" : "String",
+                        "reqIfLovValuesVsTcLovValues" : {
+                           "SampleKeyString" : "String"
+                        }
+                     }
+                  },
+                  "tcType" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2019-12-ImportExport/importFromReqIfAsync"
+}

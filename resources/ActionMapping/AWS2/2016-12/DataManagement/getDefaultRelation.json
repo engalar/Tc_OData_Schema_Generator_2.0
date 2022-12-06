@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "secondaryType" : "String",
+            "primaryType" : "String",
+            "defaultRelation" : {
+               "name" : "String",
+               "defaultRelation" : "IModelObject",
+               "displayName" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2016-12-DataManagement/getDefaultRelation",
+   "OperationInput" : {
+      "input" : [
+         {
+            "secondaryType" : "String",
+            "primaryType" : "String"
+         }
+      ]
+   }
+}

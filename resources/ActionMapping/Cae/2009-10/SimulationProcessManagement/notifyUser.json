@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "users" : "String",
+      "groups" : "String",
+      "message" : "String"
+   },
+   "ServiceOperation" : "Internal-Cae-2009-10-SimulationProcessManagement/notifyUser",
+   "OperationResponse" : "bool"
+}

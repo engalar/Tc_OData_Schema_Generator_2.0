@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Internal-CaeAw-2020-05-SimulationManagementAw/getSimulationDashboardDataAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "dashboardInput" : {
+         "paginationDetails" : {
+            "SampleKeyString" : "int"
+         },
+         "dashboardConfig" : "IModelObject",
+         "inputMethod" : "String",
+         "dashboardExecutionID" : "String",
+         "generateDashboardReport" : {
+            "lastUpdatedTime" : "String",
+            "createDataset" : "bool",
+            "isGenerateDashboardReport" : "bool",
+            "datasetName" : "String"
+         },
+         "queryCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "sortCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "selectedObjects" : "IModelObject[]",
+         "bomInputs" : {
+            "variantRules" : "IModelObject[]",
+            "revisionRule" : "IModelObject",
+            "rootIR" : "IModelObject"
+         }
+      }
+   }
+}

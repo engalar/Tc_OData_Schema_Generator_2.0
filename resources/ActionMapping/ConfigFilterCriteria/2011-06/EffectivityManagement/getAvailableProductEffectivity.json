@@ -1,0 +1,73 @@
+{
+   "OperationInput" : {
+      "configuratorURL" : "String",
+      "familiesToTest" : "IModelObject[]",
+      "productName" : "String",
+      "revisionRule" : "IModelObject",
+      "applyConstraints" : "int",
+      "productNameSpace" : "String",
+      "exprsToTest" : [
+         {
+            "value" : {
+               "description" : "String",
+               "name" : "String",
+               "family" : "IModelObject"
+            },
+            "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+            "formula" : {
+               "productNameSpace" : "String",
+               "formula" : "String",
+               "productName" : "String"
+            },
+            "effectivityTable" : [
+               {
+                  "unitOut" : "int",
+                  "rest" : {
+                     "productNameSpace" : "String",
+                     "formula" : "String",
+                     "productName" : "String"
+                  },
+                  "dateOut" : "Date",
+                  "unitIn" : "int",
+                  "dateIn" : "Date"
+               }
+            ],
+            "opCode" : "int"
+         }
+      ],
+      "substituteDependentVariables" : "int"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "configExpressions" : [
+         {
+            "effectivityTable" : [
+               {
+                  "dateIn" : "Date",
+                  "unitOut" : "int",
+                  "unitIn" : "int",
+                  "dateOut" : "Date",
+                  "rest" : {
+                     "productName" : "String",
+                     "formula" : "String",
+                     "productNameSpace" : "String"
+                  }
+               }
+            ],
+            "formula" : {
+               "productName" : "String",
+               "formula" : "String",
+               "productNameSpace" : "String"
+            },
+            "opCode" : "int",
+            "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+            "value" : {
+               "family" : "IModelObject",
+               "name" : "String",
+               "description" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "ConfigFilterCriteria-2011-06-EffectivityManagement/getAvailableProductEffectivity"
+}

@@ -1,0 +1,40 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "queryResults" : [
+         {
+            "isRegistered" : "bool",
+            "siteId" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-MultiSite-2011-06-ObjectDirectory/queryItemIdRecords",
+   "OperationInput" : {
+      "clientInfo" : {
+         "clientMinorReleaseVersion" : "int",
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String",
+         "osUserName" : "String",
+         "clientOdsMinorVersion" : "int",
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "clientMaintPackVersion" : "int",
+         "roleName" : "String",
+         "clientSiteId" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int"
+      },
+      "mfkInfo" : [
+         {
+            "keyValue" : "String",
+            "itemId" : "String",
+            "domain" : "String"
+         }
+      ]
+   }
+}

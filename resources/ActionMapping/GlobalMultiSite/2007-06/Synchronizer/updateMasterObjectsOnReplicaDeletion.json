@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-Synchronizer/updateMasterObjectsOnReplicaDeletion",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFmsTicket" : "String"
+   },
+   "OperationInput" : {
+      "replicaSite" : "int",
+      "convertToStub" : "bool",
+      "inputReplicaGSIdentityList" : "String[]"
+   }
+}

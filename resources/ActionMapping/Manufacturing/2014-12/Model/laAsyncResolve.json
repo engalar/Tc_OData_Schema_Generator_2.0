@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-Manufacturing-2014-12-Model/laAsyncResolve",
+   "OperationInput" : {
+      "laResolveData" : {
+         "products" : "IModelObject[]",
+         "resolveRecursively" : "bool",
+         "scopeLines" : "IModelObject[]"
+      }
+   }
+}

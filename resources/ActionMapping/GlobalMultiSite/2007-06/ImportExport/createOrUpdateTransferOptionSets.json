@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "options" : [
+               {
+                  "readOnlyFlag" : "bool",
+                  "description" : "String",
+                  "displayName" : "String",
+                  "groupName" : "String",
+                  "realName" : "String",
+                  "defaultValue" : "String"
+               }
+            ],
+            "description" : "String",
+            "siteId" : "IModelObject",
+            "publiclyVisible" : "bool",
+            "name" : "String",
+            "optionSetObjectToModify" : "IModelObject",
+            "transfermode" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "transferOptionSets" : "IModelObject[]"
+   },
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/createOrUpdateTransferOptionSets"
+}

@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "applyExemptionDetailInputs2" : [
+         {
+            "sourceObject" : "IModelObject",
+            "regVsSubsExmptRelDetails" : [
+               {
+                  "complianceResultStatus" : "int",
+                  "regulation" : "IModelObject",
+                  "appliedExmptRelDetails" : [
+                     {
+                        "exemptionRelation" : "IModelObject",
+                        "exemptionExpiryDate" : "Date[]"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SubsCmplAW-2018-12-SubstanceCompliance/applyExemptions2"
+}

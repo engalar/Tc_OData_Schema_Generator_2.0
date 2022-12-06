@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "records" : [
+         {
+            "registrationSite" : "int",
+            "context" : "String",
+            "domain" : "String",
+            "itemId" : "String",
+            "keyValue" : "String"
+         }
+      ],
+      "clientInfo" : {
+         "groupName" : "String",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "targetServerSiteId" : "int",
+         "clientOdsMinorVersion" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "clientSiteId" : "int",
+         "clientMaintPackVersion" : "int",
+         "roleName" : "String",
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String",
+         "userId" : "String",
+         "clientOdsMajorVersion" : "int",
+         "clientMinorReleaseVersion" : "int",
+         "osUserName" : "String"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-MultiSite-2011-06-ObjectDirectory/createItemIdRecords"
+}

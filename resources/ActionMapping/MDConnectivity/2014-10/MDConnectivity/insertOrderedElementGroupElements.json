@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "lastModifiedDateGuard" : "Date",
+            "startIndex" : "int",
+            "orderedElementGroup" : "IModelObject",
+            "elements" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/insertOrderedElementGroupElements"
+}

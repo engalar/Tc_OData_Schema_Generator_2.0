@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "labels" : "String[]",
+            "ai" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "failedLabels" : "String[]",
+            "reasons" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Ai-2014-12-Ai/createApplicationInterfaceRecords"
+}

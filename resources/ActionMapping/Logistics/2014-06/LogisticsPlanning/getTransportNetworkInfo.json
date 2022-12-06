@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Logistics-2014-06-LogisticsPlanning/getTransportNetworkInfo",
+   "OperationResponse" : {
+      "supplyChainDetails" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "supplier" : "IModelObject",
+               "supplierAddress" : "String[]",
+               "partFamily" : "IModelObject"
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "plantInfo" : {
+         "plant" : "IModelObject",
+         "plantAddress" : "String[]"
+      }
+   },
+   "OperationInput" : {
+      "inputList" : "IModelObject[]"
+   }
+}

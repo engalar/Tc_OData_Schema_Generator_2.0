@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-DataMigration/setRUO",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "key" : "String",
+      "value" : "bool"
+   }
+}

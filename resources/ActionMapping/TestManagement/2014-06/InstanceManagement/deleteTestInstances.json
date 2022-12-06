@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "TestManagement-2014-06-InstanceManagement/deleteTestInstances",
+   "OperationResponse" : "IServiceData"
+}

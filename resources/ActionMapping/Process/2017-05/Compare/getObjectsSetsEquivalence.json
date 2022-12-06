@@ -1,0 +1,44 @@
+{
+   "OperationResponse" : {
+      "objectsSetsEquivalenceOutput" : [
+         {
+            "matchingPairs" : [
+               {
+                  "target" : "IModelObject",
+                  "source" : "IModelObject"
+               }
+            ],
+            "missingInSourceSetEquivalenceObjects" : "IModelObject[]",
+            "target" : "IModelObject",
+            "falsePositivePairs" : [
+               {
+                  "source" : "IModelObject",
+                  "target" : "IModelObject"
+               }
+            ],
+            "missingInTargetSetEquivalenceObjects" : "IModelObject[]",
+            "mismatchingPairs" : [
+               {
+                  "source" : "IModelObject",
+                  "target" : "IModelObject"
+               }
+            ],
+            "equivalenceSetName" : "String",
+            "source" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Compare/getObjectsSetsEquivalence",
+   "OperationInput" : {
+      "propertiesToCompare" : "String[]",
+      "getObjectsSetsEquivalenceInfo" : [
+         {
+            "source" : "IModelObject",
+            "propertiesToCompare" : "String[]",
+            "target" : "IModelObject",
+            "equivalenceSetName" : "String"
+         }
+      ]
+   }
+}

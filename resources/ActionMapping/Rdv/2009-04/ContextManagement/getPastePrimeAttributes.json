@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "componentBomLine" : "IModelObject[]",
+         "flag" : "int",
+         "parentBomLine" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Rdv-2009-04-ContextManagement/getPastePrimeAttributes",
+   "OperationResponse" : "IServiceData"
+}

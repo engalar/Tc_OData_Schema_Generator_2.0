@@ -1,0 +1,236 @@
+{
+   "ServiceOperation" : "Internal-Validation-2012-02-Validation/createOrUpdateValidationResults2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "resultObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "updateInputVec" : [
+            {
+               "clientId" : "String",
+               "targetBo" : "IModelObject",
+               "removeReportDatasetNamedRefs" : "bool",
+               "objectPropNameValues" : [
+                  {
+                     "object" : "IModelObject",
+                     "vecNameVal" : [
+                        {
+                           "name" : "String",
+                           "values" : "String[]"
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "createInputVec" : [
+            {
+               "reportDataset" : {
+                  "type" : "String",
+                  "name" : "String",
+                  "clientId" : "String"
+               },
+               "clientId" : "String",
+               "targetBo" : "IModelObject",
+               "data" : {
+                  "tagArrayProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "tagProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "compoundCreateInput" : {
+                     "SampleKeyString" : [
+                        {
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           },
+                           "boName" : "String",
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "compoundCreateInput" : "Teamcenter::Soa::Internal::Validation::_2012_02::Validation::CreateInputMap",
+                           "tagArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "tagProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           }
+                        }
+                     ]
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  },
+                  "boName" : "String",
+                  "floatArrayProps" : {
+                     "SampleKeyString" : "float[]"
+                  },
+                  "boolArrayProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "stringArrayProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "dateArrayProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "intArrayProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "doubleArrayProps" : {
+                     "SampleKeyString" : "double[]"
+                  }
+               },
+               "paramsCreateInput" : {
+                  "compoundCreateInput" : {
+                     "SampleKeyString" : [
+                        {
+                           "tagArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "tagProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "compoundCreateInput" : "Teamcenter::Soa::Internal::Validation::_2012_02::Validation::CreateInputMap",
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           },
+                           "boName" : "String",
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           }
+                        }
+                     ]
+                  },
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "tagProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "tagArrayProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "doubleArrayProps" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "intArrayProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "dateArrayProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "boolArrayProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "stringArrayProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "boName" : "String",
+                  "floatArrayProps" : {
+                     "SampleKeyString" : "float[]"
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  }
+               },
+               "checkerClassName" : "String"
+            }
+         ]
+      }
+   }
+}

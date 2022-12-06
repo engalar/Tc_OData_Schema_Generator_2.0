@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "inputNodes" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2013-05-StructureSearch/findStudies",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "listOfStudies" : "IModelObject[]"
+         }
+      ]
+   }
+}

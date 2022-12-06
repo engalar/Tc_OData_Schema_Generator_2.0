@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2015-03-FullTextSearch/deleteIndexedIslands",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "indexIslandUIDs" : "String[]",
+      "applicationID" : "String"
+   }
+}

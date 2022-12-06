@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "recalcType" : "int",
+      "schedule" : "IModelObject",
+      "runAsync" : "bool"
+   },
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/recalculateScheduleNonInteractive",
+   "OperationResponse" : "IServiceData"
+}

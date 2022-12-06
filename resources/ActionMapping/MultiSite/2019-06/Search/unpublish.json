@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Multisite-2019-06-Search/unpublish",
+   "OperationResponse" : {
+      "failureInfo" : [
+         {
+            "failureCodes" : "int[]",
+            "failedSite" : "String",
+            "failureObject" : "IModelObject",
+            "failureStrings" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "options" : {
+         "SampleKeyString" : "String[]"
+      },
+      "targetSites" : "String[]"
+   }
+}

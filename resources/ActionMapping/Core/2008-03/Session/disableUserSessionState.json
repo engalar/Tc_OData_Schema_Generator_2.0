@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "names" : "String[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Core-2008-03-Session/disableUserSessionState"
+}

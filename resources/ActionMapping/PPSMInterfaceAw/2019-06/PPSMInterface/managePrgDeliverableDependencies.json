@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "managePrgDeliverableDepsInput" : {
+         "manageOptions" : {
+            "SampleKeyString" : "String"
+         },
+         "successors" : "IModelObject[]",
+         "concurrent" : "IModelObject[]",
+         "eventObject" : "IModelObject",
+         "detachDeliverables" : "IModelObject[]",
+         "predecessors" : "IModelObject[]",
+         "contextObject" : "IModelObject"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "PPSMInterfaceAw-2019-06-PPSMInterface/managePrgDeliverableDependencies"
+}

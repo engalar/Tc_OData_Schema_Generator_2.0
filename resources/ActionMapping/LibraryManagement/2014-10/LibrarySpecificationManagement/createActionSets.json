@@ -1,0 +1,62 @@
+{
+   "OperationInput" : {
+      "actionSetInputs" : [
+         {
+            "actionSetInfo" : {
+               "actionSetName" : "String",
+               "actionSetDesc" : "String",
+               "appDatas" : "IModelObject[]",
+               "srcConnectionType" : "String",
+               "actionSetType" : "String",
+               "actionSetId" : "String",
+               "actionDefInfos" : [
+                  {
+                     "actionDefId" : "String",
+                     "quantity" : "int",
+                     "actionDefDesc" : "String",
+                     "specRulesInfo" : [
+                        {
+                           "trgtFilterCriteria" : {
+                              "attributeId" : "String",
+                              "query" : "String"
+                           },
+                           "srcFilterCriteria" : {
+                              "attributeId" : "String",
+                              "query" : "String"
+                           },
+                           "specRuleId" : "String",
+                           "libraryNode" : "IModelObject",
+                           "ruleType" : "String",
+                           "specRuleDescription" : "String",
+                           "specRuleName" : "String",
+                           "isSpecRuleActive" : "bool",
+                           "ruleSetId" : "String"
+                        }
+                     ],
+                     "actionDefType" : "String",
+                     "actionDefName" : "String"
+                  }
+               ],
+               "trgtConnectionType" : "String"
+            },
+            "specification" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "actionSetsOutputs" : [
+         {
+            "specification" : "IModelObject",
+            "actionSet" : "IModelObject",
+            "actionDefinitionOutputs" : [
+               {
+                  "specRules" : "IModelObject[]",
+                  "actionDefinition" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/createActionSets"
+}

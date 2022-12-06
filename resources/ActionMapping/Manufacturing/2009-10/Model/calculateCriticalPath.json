@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "results" : [
+         {
+            "object" : "IModelObject",
+            "components" : "IModelObject[]",
+            "duration" : "double"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-Model/calculateCriticalPath",
+   "OperationInput" : {
+      "roots" : "IModelObject[]"
+   }
+}

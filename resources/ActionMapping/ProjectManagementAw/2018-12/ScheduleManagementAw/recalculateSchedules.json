@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "runInBackground" : "bool",
+      "recalculateInputs" : [
+         {
+            "recalcType" : "int",
+            "schedule" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagementAw-2018-12-ScheduleManagementAw/recalculateSchedules",
+   "OperationResponse" : "IServiceData"
+}

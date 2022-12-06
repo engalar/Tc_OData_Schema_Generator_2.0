@@ -1,0 +1,61 @@
+{
+   "OperationResponse" : {
+      "selectedExpression" : [
+         {
+            "displayValue" : "String",
+            "affectedObject" : "String",
+            "userSelections" : {
+               "SampleKeyString" : [
+                  {
+                     "optionValue" : "String",
+                     "selectionState" : "int"
+                  }
+               ]
+            },
+            "familySelections" : {
+               "SampleKeyString" : "int"
+            }
+         }
+      ],
+      "filters" : {
+         "optionFilter" : "String",
+         "intentFilters" : "String[]"
+      },
+      "configPerspective" : "IModelObject",
+      "optionFamilies" : [
+         {
+            "family" : "String",
+            "optionValues" : [
+               {
+                  "selectionState" : "int",
+                  "optValue" : "IModelObject",
+                  "allowedSelectionStates" : "int[]",
+                  "optValueStr" : "String",
+                  "valueDisplayName" : "String"
+               }
+            ],
+            "isThumbnailDisplay" : "bool",
+            "familyOptions" : {
+               "SampleKeyString" : "bool"
+            },
+            "familyType" : "String",
+            "familyDisplayName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2018-05-ConfiguratorManagement/getVariantExpressionData",
+   "OperationInput" : {
+      "variantExpressionDataInput" : {
+         "configPerspective" : "IModelObject",
+         "selectedObjects" : "IModelObject[]",
+         "configContextProvider" : "IModelObject",
+         "filters" : {
+            "optionFilter" : "String",
+            "intentFilters" : "String[]"
+         },
+         "currentExpandedFamilies" : "String[]",
+         "configContext" : "IModelObject"
+      }
+   }
+}

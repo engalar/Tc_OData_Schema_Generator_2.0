@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "selectedExpressions" : [
+         {
+            "userSelections" : {
+               "SampleKeyString" : [
+                  {
+                     "optionValue" : "String",
+                     "selectionState" : "int"
+                  }
+               ]
+            },
+            "familySelections" : {
+               "SampleKeyString" : "int"
+            },
+            "displayValue" : "String",
+            "affectedObject" : "String"
+         }
+      ],
+      "configPerspective" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2018-05-ConfiguratorManagement/setVariantExpressionData",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "getComplianceResultsDetailsInput" : [
+         {
+            "businessObject" : "IModelObject",
+            "regulations" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SubsCmplAW-2016-03-SubstanceCompliance/getComplianceResultDetails",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "getComplianceResultsDetails" : [
+         {
+            "businessobject" : "IModelObject",
+            "complianceResultDetails" : [
+               {
+                  "substanceExemptionDetails" : [
+                     {
+                        "appliedExemptions" : [
+                           {
+                              "supplierExemption" : "IModelObject",
+                              "exemptionExpiryDate" : "Date"
+                           }
+                        ],
+                        "substanceOrSubstanceCategory" : "IModelObject",
+                        "applicableExemptions" : [
+                           {
+                              "supplierExemption" : "IModelObject",
+                              "exemptionExpiryDate" : "Date"
+                           }
+                        ],
+                        "isMandatory" : "bool"
+                     }
+                  ],
+                  "complianceResult" : "IModelObject",
+                  "regulation" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

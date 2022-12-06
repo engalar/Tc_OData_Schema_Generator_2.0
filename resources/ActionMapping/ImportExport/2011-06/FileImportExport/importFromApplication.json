@@ -1,0 +1,38 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "transientFileTickets" : "String[]",
+            "resultObjects" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ImportExport-2011-06-FileImportExport/importFromApplication",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "importOptions" : [
+               {
+                  "option" : "String",
+                  "value" : "String"
+               }
+            ],
+            "selectedBomLine" : "IModelObject",
+            "createSpecElementType" : "String",
+            "isLive" : "bool",
+            "specificationType" : "String",
+            "applicationFormat" : "String",
+            "clientId" : "String",
+            "fileMetaDatalist" : [
+               {
+                  "key" : "String",
+                  "data" : "String"
+               }
+            ],
+            "transientFileWriteTicket" : "String"
+         }
+      ]
+   }
+}

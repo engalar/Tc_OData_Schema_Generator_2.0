@@ -1,0 +1,67 @@
+{
+   "OperationInput" : {
+      "options" : "int",
+      "filterForWriteAccess" : "bool",
+      "sortAttributes" : "int[]",
+      "searchCriterias" : [
+         {
+            "attributeId" : "int",
+            "query" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "classDescriptions" : [
+         {
+            "classDescriptions" : [
+               {
+                  "classChildCount" : "int",
+                  "classImagesLoaded" : "bool",
+                  "classImageDocuments" : [
+                     {
+                        "ticket" : "String",
+                        "originalFileName" : "String",
+                        "documentType" : "String"
+                     }
+                  ],
+                  "parentDefs" : [
+                     {
+                        "isAbstract" : "bool",
+                        "classUnitBase" : "int",
+                        "classID" : "String",
+                        "classIconLoaded" : "bool",
+                        "className" : "String",
+                        "classBO" : "IModelObject",
+                        "classIconDocument" : {
+                           "ticket" : "String",
+                           "originalFileName" : "String",
+                           "documentType" : "String"
+                        }
+                     }
+                  ],
+                  "classShortName" : "String",
+                  "classDescription" : "String",
+                  "classUserData2" : "String",
+                  "classDef" : {
+                     "classID" : "String",
+                     "classUnitBase" : "int",
+                     "isAbstract" : "bool",
+                     "classIconDocument" : {
+                        "documentType" : "String",
+                        "originalFileName" : "String",
+                        "ticket" : "String"
+                     },
+                     "className" : "String",
+                     "classBO" : "IModelObject",
+                     "classIconLoaded" : "bool"
+                  },
+                  "classUserData1" : "String",
+                  "classInstanceCount" : "int"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Classification-2016-03-Classification/searchClassesExtended"
+}

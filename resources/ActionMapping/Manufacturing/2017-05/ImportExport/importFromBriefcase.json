@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "optionNamesAndValues" : {
+         "SampleKeyString" : "String"
+      },
+      "optionSetTag" : "IModelObject",
+      "fmsTicket" : "String",
+      "sessionOptionAndValues" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "logFileFMSTicket" : "String",
+      "errorFileFMSTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2017-05-ImportExport/importFromBriefcase"
+}

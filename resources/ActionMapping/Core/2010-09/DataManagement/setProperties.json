@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "Core-2010-09-DataManagement/setProperties",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "objPropMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String[]"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "info" : [
+         {
+            "timestamp" : "Date",
+            "object" : "IModelObject",
+            "vecNameVal" : [
+               {
+                  "name" : "String",
+                  "values" : "String[]"
+               }
+            ]
+         }
+      ],
+      "options" : "String[]"
+   }
+}

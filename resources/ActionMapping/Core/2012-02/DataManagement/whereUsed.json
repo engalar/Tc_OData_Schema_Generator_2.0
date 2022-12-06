@@ -1,0 +1,73 @@
+{
+   "ServiceOperation" : "Core-2012-02-DataManagement/whereUsed",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "info" : [
+               {
+                  "level" : "int",
+                  "parentObject" : "IModelObject"
+               }
+            ],
+            "clientId" : "String",
+            "inputObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputParams" : {
+               "floatMap" : {
+                  "SampleKeyString" : "float"
+               },
+               "doubleMap" : {
+                  "SampleKeyString" : "double"
+               },
+               "boolMap" : {
+                  "SampleKeyString" : "bool"
+               },
+               "stringMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "tagMap" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int"
+               }
+            },
+            "inputObject" : "IModelObject",
+            "useLocalParams" : "bool",
+            "clientId" : "String"
+         }
+      ],
+      "configParams" : {
+         "intMap" : {
+            "SampleKeyString" : "int"
+         },
+         "stringMap" : {
+            "SampleKeyString" : "String"
+         },
+         "tagMap" : {
+            "SampleKeyString" : "IModelObject"
+         },
+         "dateMap" : {
+            "SampleKeyString" : "Date"
+         },
+         "floatMap" : {
+            "SampleKeyString" : "float"
+         },
+         "doubleMap" : {
+            "SampleKeyString" : "double"
+         },
+         "boolMap" : {
+            "SampleKeyString" : "bool"
+         }
+      }
+   }
+}

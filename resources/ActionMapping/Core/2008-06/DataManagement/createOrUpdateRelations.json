@@ -1,0 +1,36 @@
+{
+   "ServiceOperation" : "Core-2008-06-DataManagement/createOrUpdateRelations",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "relations" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "infos" : [
+         {
+            "secondaryData" : [
+               {
+                  "userData" : "IModelObject",
+                  "properties" : [
+                     {
+                        "name" : "String",
+                        "values" : "String[]"
+                     }
+                  ],
+                  "secondary" : "IModelObject",
+                  "clientId" : "String"
+               }
+            ],
+            "relations" : "IModelObject[]",
+            "relationType" : "String",
+            "clientId" : "String",
+            "primaryObject" : "IModelObject"
+         }
+      ],
+      "sync" : "bool"
+   }
+}

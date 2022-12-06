@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Realization-2014-10-RealizationManagement/getSourceModelConfigInfo",
+   "OperationResponse" : {
+      "sourceModelsInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "effectivityExprs" : "bool",
+               "baselineInfo" : "IModelObject",
+               "revRule" : "IModelObject",
+               "sourceModelObject" : "IModelObject",
+               "varRule" : "IModelObject",
+               "sourceModelElements" : "IModelObject[]",
+               "searchExpr" : "IModelObject",
+               "syncVariantExprs" : "bool",
+               "closureRule" : "IModelObject"
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "targetModelObjects" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "keyLOVs" : {
+         "SampleKeyString" : {
+            "id" : "String",
+            "keyLovEntries" : [
+               {
+                  "lovKey" : "String",
+                  "deprecatedSatus" : "bool",
+                  "lovValue" : "String"
+               }
+            ],
+            "sharedSites" : "IModelObject[]",
+            "name" : "String",
+            "keyLovtag" : "IModelObject",
+            "options" : "int",
+            "owningSite" : "IModelObject"
+         }
+      },
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Classification-2009-10-Classification/getKeyLOVs2",
+   "OperationInput" : {
+      "keyLOVIds" : "String[]"
+   }
+}

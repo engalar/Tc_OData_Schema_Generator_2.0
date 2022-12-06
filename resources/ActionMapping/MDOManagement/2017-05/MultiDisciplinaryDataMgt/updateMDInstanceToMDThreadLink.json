@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "MDOManagement-2017-05-MultiDisciplinaryDataMgt/updateMDInstanceToMDThreadLink",
+   "OperationResponse" : {
+      "linkOutput" : [
+         {
+            "linkedMDOObjects" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "removeMDOObjects" : "IModelObject[]",
+            "addMDOObjects" : "IModelObject[]",
+            "mdiObject" : "IModelObject"
+         }
+      ]
+   }
+}

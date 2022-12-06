@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "selectedCheckers" : "IModelObject[]",
+            "datasetTypes" : "String[]",
+            "ruleItemRevision" : "IModelObject",
+            "clientId" : "String",
+            "selectedWSOs" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "evaluatedResultsList" : [
+         {
+            "clientId" : "String",
+            "compoundResult" : "bool",
+            "evaluatedResults" : [
+               {
+                  "status" : "upToDate outOfDatePartChanged outOfDateRequirementChanged verifyParameterFailed missingReportLog notRun notRequired",
+                  "result" : "IModelObject",
+                  "checker" : "IModelObject",
+                  "checkPassed" : "bool",
+                  "partDataset" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Validation-2008-06-Validation/evaluateValidationResultsWithRules"
+}

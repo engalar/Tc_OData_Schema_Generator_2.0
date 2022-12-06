@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "exchangeLine" : "IModelObject",
+         "operationType" : "String",
+         "companyContact" : "IModelObject",
+         "itemRevisions" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SupplierCollaboration-2017-11-SupplierCollaboration/performOwnershipTransferOperations"
+}

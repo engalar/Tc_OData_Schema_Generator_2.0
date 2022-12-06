@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-CmAws-2017-12-Changes/getChangeSummaryTable",
+   "OperationResponse" : {
+      "changeSummary" : "String",
+      "serviceData" : "IServiceData",
+      "typeNames" : "String[]"
+   },
+   "OperationInput" : {
+      "changeNoticeRevision" : "IModelObject"
+   }
+}

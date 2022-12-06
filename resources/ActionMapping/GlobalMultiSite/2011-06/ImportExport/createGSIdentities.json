@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "gsIdVect" : [
+         {
+            "factorId" : "String",
+            "subLabel" : "String",
+            "atomic" : "bool",
+            "objectUid" : "String",
+            "splitToken" : "String",
+            "system" : "String",
+            "className" : "String",
+            "context" : "String",
+            "label" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "GlobalMultiSite-2011-06-ImportExport/createGSIdentities",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "gsIdentities" : "IModelObject[]"
+   }
+}

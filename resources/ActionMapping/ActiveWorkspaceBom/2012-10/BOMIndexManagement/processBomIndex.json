@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "processingOptions" : {
+            "SampleKeyString" : "String"
+         },
+         "biadObjs" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2012-10-BOMIndexManagement/processBomIndex",
+   "OperationResponse" : {
+      "outputList" : [
+         {
+            "tcxmlFileTicket" : "String",
+            "exportLogFileTicket" : "String",
+            "biadObj" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

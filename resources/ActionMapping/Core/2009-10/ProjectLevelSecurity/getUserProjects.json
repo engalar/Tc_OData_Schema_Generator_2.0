@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Core-2009-10-ProjectLevelSecurity/getUserProjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "userProjectInfos" : [
+         {
+            "projectsInfo" : [
+               {
+                  "project" : "IModelObject",
+                  "isUserPrivileged" : "bool"
+               }
+            ],
+            "activeProjectsOnly" : "bool",
+            "privilegedProjectsOnly" : "bool",
+            "programsOnly" : "bool",
+            "clientId" : "String",
+            "user" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "userProjectsInfoInputs" : [
+         {
+            "privilegedProjectsOnly" : "bool",
+            "programsOnly" : "bool",
+            "activeProjectsOnly" : "bool",
+            "user" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

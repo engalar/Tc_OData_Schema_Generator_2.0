@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "synchronizeBopAndBoeInputInfo" : [
+         {
+            "removeObsoleteTwin" : "bool",
+            "targetLine" : "IModelObject",
+            "clientID" : "String",
+            "sourceLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-DataManagement/synchronizePlantBOPAndBOE",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "synchronizePlantBOPAndBOEOutput" : [
+         {
+            "relations" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

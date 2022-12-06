@@ -1,0 +1,105 @@
+{
+   "OperationInput" : {
+      "createOrUpdateInputs" : [
+         {
+            "doubleProps" : {
+               "SampleKeyString" : "double"
+            },
+            "dateArrayProps" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "dateProps" : {
+               "SampleKeyString" : "Date"
+            },
+            "boolProps" : {
+               "SampleKeyString" : "bool"
+            },
+            "intArrayProps" : {
+               "SampleKeyString" : "int[]"
+            },
+            "doubleArrayProps" : {
+               "SampleKeyString" : "double[]"
+            },
+            "floatProps" : {
+               "SampleKeyString" : "float"
+            },
+            "stringArrayProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "boolArrayProps" : {
+               "SampleKeyString" : "bool[]"
+            },
+            "floatArrayProps" : {
+               "SampleKeyString" : "float[]"
+            },
+            "boName" : "String",
+            "stringProps" : {
+               "SampleKeyString" : "String"
+            },
+            "businessObjectProps" : {
+               "SampleKeyString" : "IModelObject"
+            },
+            "clientId" : "String",
+            "businessObjectArrayProps" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "compoundCreateInput" : {
+               "SampleKeyString" : [
+                  {
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "clientId" : "String",
+                     "businessObjectProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "compoundCreateInput" : "Val1::Soa::cfgvalidation::_2018_12::ConfigurableValidation::CreateInputMap",
+                     "businessObjectArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "boName" : "String",
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     }
+                  }
+               ]
+            },
+            "intProps" : {
+               "SampleKeyString" : "int"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "cfgvalidation-2018-12-ConfigurableValidation/createOrUpdateValidationResults"
+}

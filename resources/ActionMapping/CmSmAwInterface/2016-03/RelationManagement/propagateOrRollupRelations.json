@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "planItems" : "IModelObject[]",
+      "isRollup" : "bool",
+      "changeRev" : "IModelObject"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-CmSmAwInterface-2016-03-RelationManagement/propagateOrRollupRelations"
+}

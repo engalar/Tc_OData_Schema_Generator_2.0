@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "batchFileFmsTicket" : "String",
+      "enableStandardOutput" : "bool",
+      "enableStandardError" : "bool",
+      "arguments" : "String[]"
+   },
+   "ServiceOperation" : "Administration-2014-10-UserManagement/makeUser",
+   "OperationResponse" : {
+      "standardErrorFmsTicket" : "String",
+      "serviceData" : "IServiceData",
+      "standardOutputFmsTicket" : "String",
+      "commandStatus" : "int"
+   }
+}

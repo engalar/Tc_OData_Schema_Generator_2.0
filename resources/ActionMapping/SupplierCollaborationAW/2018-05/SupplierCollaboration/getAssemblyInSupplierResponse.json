@@ -1,0 +1,46 @@
+{
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/getAssemblyInSupplierResponse",
+   "OperationResponse" : {
+      "endIndex" : "int",
+      "viewModelRows" : [
+         {
+            "assemblyStructure" : {
+               "isLeafNode" : "bool",
+               "typeName" : "String",
+               "thumbnailImageTicket" : "String",
+               "totalChildCount" : "int",
+               "nodeId" : "String",
+               "displayName" : "String",
+               "levelIndex" : "int"
+            },
+            "viewModelObject" : {
+               "modelObject" : "IModelObject",
+               "viewModelProperties" : [
+                  {
+                     "isEditable" : "bool",
+                     "propDisplayName" : "String",
+                     "propInternalName" : "String",
+                     "propParentBO" : "IModelObject",
+                     "hasLOV" : "bool",
+                     "propDataType" : "String",
+                     "propDBValue" : "String",
+                     "propUIValue" : "String"
+                  }
+               ]
+            }
+         }
+      ],
+      "totalFound" : "int",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : {
+         "itemRevision" : "IModelObject",
+         "supplierResponse" : "IModelObject",
+         "structureInfoUID" : "String",
+         "structType" : "String",
+         "derivedExchangeLine" : "IModelObject",
+         "level" : "int"
+      }
+   }
+}

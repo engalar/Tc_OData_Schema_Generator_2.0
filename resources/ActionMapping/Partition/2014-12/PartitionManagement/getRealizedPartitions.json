@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "operationInput" : [
+         {
+            "partitionIdentifiersList" : [
+               {
+                  "modelID" : "String",
+                  "partitionID" : "String",
+                  "partitionSchemeType" : "String",
+                  "modelType" : "String"
+               }
+            ],
+            "configurationContext" : "IModelObject",
+            "allowedAppModelTypesList" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Partition-2014-12-PartitionManagement/getRealizedPartitions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "listPartitionMapStructs" : [
+         {
+            "templatePartitionToRealizedPartitionsMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ]
+   }
+}

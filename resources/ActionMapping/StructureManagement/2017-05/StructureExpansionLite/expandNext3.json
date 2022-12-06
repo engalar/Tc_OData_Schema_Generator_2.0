@@ -1,0 +1,73 @@
+{
+   "OperationInput" : {
+      "controls" : {
+         "processLeafNodesFirst" : "bool",
+         "relationCriteria" : [
+            {
+               "datasetTypeAndNamedRefs" : [
+                  {
+                     "datasetTypeName" : "String",
+                     "namedReferenceNames" : "String[]"
+                  }
+               ],
+               "relationName" : "String",
+               "namedRefHandler" : "String"
+            }
+         ],
+         "configurationSolveType" : "int",
+         "absoccFilterList" : {
+            "absoccDataTypeInclusionList" : [
+               {
+                  "additionalInfo" : "String",
+                  "absoccDataType" : "int"
+               }
+            ]
+         },
+         "expansionPref" : {
+            "SampleKeyString" : "int"
+         }
+      },
+      "linesToExpand" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "parentChildInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "unSupportedInfo" : "int",
+                  "indexToAttachedObjInfos" : "int[]",
+                  "line" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "parentUndeliveredChildrenUids" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String[]"
+         ]
+      ],
+      "datasetInfo" : [
+         {
+            "dataset" : "IModelObject",
+            "relationName" : "String",
+            "namedRefInfo" : [
+               {
+                  "fileTicket" : "String",
+                  "originalFileName" : "String",
+                  "name" : "String",
+                  "type" : "String",
+                  "namedReference" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2017-05-StructureExpansionLite/expandNext3"
+}

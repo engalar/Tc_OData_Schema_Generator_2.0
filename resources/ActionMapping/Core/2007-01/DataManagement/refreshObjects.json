@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Core-2007-01-DataManagement/refreshObjects",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   }
+}

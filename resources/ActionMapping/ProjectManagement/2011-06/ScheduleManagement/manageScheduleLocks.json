@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "requests" : [
+         {
+            "schedule" : "IModelObject",
+            "requestLock" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "responses" : [
+         {
+            "requestSuccess" : "bool",
+            "schedule" : "IModelObject",
+            "lockState" : "bool"
+         }
+      ],
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "ProjectManagement-2011-06-ScheduleManagement/manageScheduleLocks"
+}

@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "allowedTypeInfos" : [
+         {
+            "objectTypeName" : "String",
+            "searchTypeName" : "String",
+            "elementTypeName" : "String",
+            "isSearchable" : "bool"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2012-10-OccurrenceManagement/getInfoForAddToBookmark",
+   "OperationInput" : {}
+}

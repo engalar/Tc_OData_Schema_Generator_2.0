@@ -1,0 +1,39 @@
+{
+   "OperationResponse" : {
+      "findStudiesOutput" : [
+         {
+            "results" : [
+               {
+                  "study" : "IModelObject",
+                  "studySC" : "IModelObject"
+               }
+            ],
+            "finished" : "bool",
+            "totalFound" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "TcmAccess-2016-12-StudyManagement/findStudiesInCC1",
+   "OperationInput" : {
+      "input" : [
+         {
+            "searchType" : "String",
+            "ccObject" : "IModelObject",
+            "searchParameters" : {
+               "isAscending" : "bool",
+               "startFromIndex" : "int",
+               "propertyNames" : "String[]",
+               "searchFilterMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "startFrom" : "IModelObject",
+               "searchTerm" : "String",
+               "sortAttribute" : "String",
+               "pageSize" : "int"
+            },
+            "scopes" : "IModelObject[]"
+         }
+      ]
+   }
+}

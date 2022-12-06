@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Manufacturing-2008-12-IPAManagement/saveSearchResult",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "rejectedList" : "IModelObject[]",
+      "filteredIPA" : "IModelObject",
+      "filteredIPARoot" : "IModelObject"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "searchResultList" : "IModelObject[]",
+            "process" : "IModelObject",
+            "name" : "String"
+         }
+      ]
+   }
+}

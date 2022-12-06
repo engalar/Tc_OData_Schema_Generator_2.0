@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "allowedChangeTypes" : [
+               {
+                  "typeDisplayName" : "String",
+                  "typeName" : "String"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ChangeManagement-2012-10-ChangeManagement/getCreatableChangeTypes",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "object" : "String",
+            "baseTypeName" : "String",
+            "exclusionTypeNames" : "String[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

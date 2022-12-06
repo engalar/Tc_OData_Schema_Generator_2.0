@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "revRuleConfigInfo" : {
+               "props" : {
+                  "date" : "Date",
+                  "unitNo" : "int",
+                  "endItemRevision" : "IModelObject",
+                  "overrideFolders" : [
+                     {
+                        "ruleEntry" : "IModelObject",
+                        "folder" : "IModelObject"
+                     }
+                  ],
+                  "endItem" : "IModelObject",
+                  "today" : "bool"
+               },
+               "revRule" : "IModelObject",
+               "clientId" : "String"
+            },
+            "objectForConfigure" : "IModelObject",
+            "bomWindow" : "IModelObject",
+            "clientID" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientID" : "String",
+            "bomWindow" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2008-06-StructureManagement/reconfigureBOMWindows"
+}

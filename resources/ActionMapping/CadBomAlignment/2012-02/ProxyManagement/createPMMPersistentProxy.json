@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "queryCriteria" : {
+               "SampleKeyString" : "String"
+            },
+            "pmmObjectId" : "String",
+            "pmmObjectType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2012-02-ProxyManagement/createPMMPersistentProxy",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "proxyVector" : "IModelObject[]"
+   }
+}

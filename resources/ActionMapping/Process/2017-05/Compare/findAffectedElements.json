@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "Internal-Process-2017-05-Compare/findAffectedElements",
+   "OperationResponse" : {
+      "affectedElements" : [
+         {
+            "clientID" : "String",
+            "outputElements" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "assignmentOwnerType" : "IModelObject",
+            "context" : "IModelObject",
+            "clientID" : "String",
+            "findForUpdatedElements" : "bool",
+            "inputElements" : "IModelObject[]"
+         }
+      ]
+   }
+}

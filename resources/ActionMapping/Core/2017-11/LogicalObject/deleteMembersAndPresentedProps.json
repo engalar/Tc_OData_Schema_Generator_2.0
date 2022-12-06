@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "deleteMembersAndPresentedProps" : [
+         {
+            "memberIdsOrPresentedProps" : "String[]",
+            "logicalObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Core-2017-11-LogicalObject/deleteMembersAndPresentedProps"
+}

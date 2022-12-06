@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "metaExprs" : [
+         {
+            "tokens" : [
+               {
+                  "tokenType" : "tokenNull tokenAnd tokenOr tokenNot tokenBra tokenKet tokenNVE",
+                  "nveRef" : {
+                     "nveType" : "nveAuthorized nveSplitting nveMandatorySplit",
+                     "nve" : "IModelObject",
+                     "nveName" : "String"
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "metaExprs" : [
+         {
+            "tokens" : [
+               {
+                  "tokenType" : "tokenNull tokenAnd tokenOr tokenNot tokenBra tokenKet tokenNVE",
+                  "nveRef" : {
+                     "nveName" : "String",
+                     "nveType" : "nveAuthorized nveSplitting nveMandatorySplit",
+                     "nve" : "IModelObject"
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Rdv-2009-05-VariantManagement/realignNVEMetaExpressionTokens"
+}

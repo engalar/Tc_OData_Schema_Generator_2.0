@@ -1,0 +1,46 @@
+{
+   "OperationInput" : {
+      "recipes" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "criteriaElements" : [
+         {
+            "logicalOperator" : "String",
+            "featureType" : "String",
+            "relatedObjs" : [
+               {
+                  "matchType" : "String",
+                  "withHierarchy" : "bool",
+                  "conditionType" : "String",
+                  "connectedObjs" : "IModelObject[]"
+               }
+            ],
+            "searchCriteria" : [
+               {
+                  "name" : "String",
+                  "value" : "String"
+               }
+            ]
+         }
+      ],
+      "additionalInfo" : {
+         "objMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "dblMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "strMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "dateMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "intMap" : {
+            "SampleKeyString" : "int[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-StructureSearch/getSearchCriteriaFromRecipe"
+}

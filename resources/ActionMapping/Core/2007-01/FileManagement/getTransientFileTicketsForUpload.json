@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "transientFileTicketInfos" : [
+         {
+            "ticket" : "String",
+            "transientFileInfo" : {
+               "fileName" : "String",
+               "isBinary" : "bool",
+               "deleteFlag" : "bool"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2007-01-FileManagement/getTransientFileTicketsForUpload",
+   "OperationInput" : {
+      "transientFileInfos" : [
+         {
+            "isBinary" : "bool",
+            "fileName" : "String",
+            "deleteFlag" : "bool"
+         }
+      ]
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "logFileName" : "String",
+      "logFileTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2013-05-ImportExport/importManufacturingFeatures",
+   "OperationInput" : {
+      "input" : {
+         "content" : [
+            {
+               "fileName" : "String",
+               "importMode" : "String",
+               "container" : "IModelObject"
+            }
+         ],
+         "context" : "IModelObject"
+      }
+   }
+}

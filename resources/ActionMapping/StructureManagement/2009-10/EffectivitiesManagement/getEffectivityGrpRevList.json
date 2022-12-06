@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "bomWindow" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "effGrpRevList" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2009-10-EffectivitiesManagement/getEffectivityGrpRevList"
+}

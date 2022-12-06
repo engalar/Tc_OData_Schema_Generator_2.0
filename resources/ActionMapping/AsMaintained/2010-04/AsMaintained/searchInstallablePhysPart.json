@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "physBOMLine" : "IModelObject",
+            "searchInfo" : {
+               "searchMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "usageBOMLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "AsMaintained-2010-04-AsMaintained/searchInstallablePhysPart",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "altInstallablePhysParts" : "IModelObject[]",
+            "prefInstallablePhysParts" : "IModelObject[]",
+            "deviatedInstallablePhysParts" : "IModelObject[]",
+            "clientId" : "String",
+            "subInstallablePhysParts" : "IModelObject[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "MDOManagement-2018-06-MultiDisciplinaryDataMgt/splitDesignInstancesOfMDInstance",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "newMDIObject" : "IModelObject",
+            "updatedMDIObjects" : "IModelObject[]",
+            "clientId" : "String",
+            "isSuccess" : "bool"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "context" : "IModelObject",
+            "setValidationRequired" : "bool",
+            "designInstances" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

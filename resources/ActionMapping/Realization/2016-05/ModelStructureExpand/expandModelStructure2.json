@@ -1,0 +1,59 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "configurationContext" : "IModelObject",
+            "levelsToExpand" : "int",
+            "objectToExpand" : "IModelObject",
+            "includeCopyStableIDMaps" : "bool",
+            "effectivityFormulaOverlayMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "includeSourceObjectForSubsets" : "bool",
+            "preLoadVisualizationDatasets" : "bool",
+            "expandOptions" : {
+               "SampleKeyString" : "String"
+            },
+            "expandSubsetAsSaved" : "bool",
+            "variantFormulaOverlayMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "contextObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "elementContent" : "IModelObject[]",
+            "copyStableIDData" : [
+               {
+                  "copyStableIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ],
+                  "subset" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Realization-2016-05-ModelStructureExpand/expandModelStructure2"
+}

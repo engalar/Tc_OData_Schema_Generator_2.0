@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "SimProc-2017-05-SimStructureManagement/executeStructureMap",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "activityLog" : "String"
+   },
+   "OperationInput" : {
+      "structureMapInputs" : {
+         "inputOptions" : {
+            "SampleKeyString" : "String"
+         },
+         "revRule" : "IModelObject",
+         "variantRule" : "IModelObject",
+         "snapshotFolder" : "IModelObject",
+         "rootIR" : "IModelObject",
+         "domain" : "String",
+         "structureMapIR" : "IModelObject"
+      }
+   }
+}

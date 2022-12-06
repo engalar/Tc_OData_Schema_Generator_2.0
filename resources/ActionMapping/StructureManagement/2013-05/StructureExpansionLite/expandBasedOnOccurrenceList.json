@@ -1,0 +1,66 @@
+{
+   "OperationInput" : {
+      "linePaths" : [
+         {
+            "startingLine" : "IModelObject",
+            "paths" : [
+               {
+                  "elements" : "String[]",
+                  "pathId" : "String",
+                  "basedOn" : "String[]"
+               }
+            ]
+         }
+      ],
+      "controls" : {
+         "relationCriteria" : [
+            {
+               "relationName" : "String",
+               "datasetTypeAndNamedRefs" : [
+                  {
+                     "namedReferenceNames" : "String[]",
+                     "datasetTypeName" : "String"
+                  }
+               ],
+               "namedRefHandler" : "String"
+            }
+         ],
+         "expansionPrefValues" : {
+            "SampleKeyString" : "int"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "parentChildInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "configNotReliable" : "bool",
+                  "indexToAttachedObjInfos" : "int[]",
+                  "line" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "datasetInfo" : [
+         {
+            "dataset" : "IModelObject",
+            "relationName" : "String",
+            "namedRefInfo" : [
+               {
+                  "fileTicket" : "String",
+                  "name" : "String",
+                  "type" : "String",
+                  "object" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "undeliveredLines" : "String[]"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2013-05-StructureExpansionLite/expandBasedOnOccurrenceList"
+}

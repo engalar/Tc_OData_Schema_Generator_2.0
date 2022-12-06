@@ -1,0 +1,55 @@
+{
+   "OperationInput" : {
+      "containerInfo" : [
+         {
+            "memberList" : [
+               {
+                  "member" : "IModelObject",
+                  "isForeground" : "bool",
+                  "csid" : "String"
+               }
+            ],
+            "constraintAttrInfoMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "owner" : "IModelObject",
+            "areConstraintsFullySolved" : "bool",
+            "systemManaged" : "bool",
+            "attrInfoMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "constraintData" : {
+               "dataSetType" : "String",
+               "nameReferenceFileMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "updateIteration" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "updatedContainers" : [
+         {
+            "outputIteration" : "int",
+            "nameReferenceTicketMap" : {
+               "SampleKeyString" : "String"
+            },
+            "members" : [
+               {
+                  "csid" : "String",
+                  "isForeground" : "bool",
+                  "member" : "IModelObject"
+               }
+            ],
+            "inputIteration" : "int",
+            "constraintDataSet" : "IModelObject",
+            "latestIteration" : "int",
+            "isLatestIterationWorking" : "bool",
+            "owner" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ModelCore-2014-10-GeometricConstraints/updateContainer"
+}

@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "filter" : [
+         {
+            "templateType" : "String",
+            "nameValueMap" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "configuredSpecTemplates" : [
+         {
+            "templateType" : "String",
+            "businessObjectType" : "String",
+            "templateName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "configuredObjectTemplates" : [
+         {
+            "businessObjectType" : "String",
+            "templateType" : "String",
+            "templateName" : "String"
+         }
+      ],
+      "outputTmplNames" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "ServiceOperation" : "ImportExport-2011-06-FileImportExport/getExportTemplates"
+}

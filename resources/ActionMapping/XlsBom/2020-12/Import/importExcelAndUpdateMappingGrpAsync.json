@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "importExcelData" : {
+         "importOptions" : "String[]",
+         "selectedObject" : "IModelObject",
+         "actionInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "typePropInfos" : {
+            "SampleKeyString" : [
+               {
+                  "realPropName" : "String",
+                  "realPropDisplayName" : "String",
+                  "isRequired" : "bool",
+                  "propHeader" : "String"
+               }
+            ]
+         },
+         "mappingGroupData" : {
+            "groupName" : {
+               "dispName" : "String",
+               "realName" : "String",
+               "isModifiable" : "bool"
+            },
+            "actionName" : "String",
+            "mappingInfo" : [
+               {
+                  "realPropName" : "String",
+                  "isRequired" : "bool",
+                  "realPropDisplayName" : "String",
+                  "propHeader" : "String"
+               }
+            ]
+         },
+         "transientFileWriteTicket" : "String",
+         "propInfos" : [
+            {
+               "propHeader" : "String",
+               "isRequired" : "bool",
+               "realPropDisplayName" : "String",
+               "realPropName" : "String"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-XlsBom-2020-12-Import/importExcelAndUpdateMappingGrpAsync"
+}

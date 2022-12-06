@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-Synchronizer/getCandidatesToSynchronizeForListOfObjects",
+   "OperationResponse" : {
+      "candidateObjectsList" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "targetSite" : "int",
+      "objectsListToProcess" : [
+         {
+            "objectsList" : "String[]",
+            "className" : "String"
+         }
+      ]
+   }
+}

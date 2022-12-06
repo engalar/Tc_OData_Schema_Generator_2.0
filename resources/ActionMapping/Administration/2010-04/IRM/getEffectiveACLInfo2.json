@@ -1,0 +1,42 @@
+{
+   "ServiceOperation" : "Administration-2010-04-IRM/getEffectiveACLInfo2",
+   "OperationResponse" : {
+      "aclInfosList" : [
+         {
+            "aclInfos" : [
+               {
+                  "revokedPrivsInfo" : [
+                     {
+                        "internalName" : "String",
+                        "displayName" : "String"
+                     }
+                  ],
+                  "aclNameInfo" : {
+                     "internalName" : "String",
+                     "displayName" : "String"
+                  },
+                  "grantedPrivsInfo" : [
+                     {
+                        "displayName" : "String",
+                        "internalName" : "String"
+                     }
+                  ],
+                  "accessorIdInfo" : {
+                     "internalName" : "String",
+                     "displayName" : "String"
+                  },
+                  "accessorTypeNameInfo" : {
+                     "internalName" : "String",
+                     "displayName" : "String"
+                  }
+               }
+            ],
+            "workSpaceObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   }
+}

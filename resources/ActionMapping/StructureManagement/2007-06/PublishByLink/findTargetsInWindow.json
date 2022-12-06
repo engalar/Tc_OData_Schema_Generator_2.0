@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "line" : "IModelObject",
+            "window" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "inputIndex" : "int",
+            "targetLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2007-06-PublishByLink/findTargetsInWindow"
+}

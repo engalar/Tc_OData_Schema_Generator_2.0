@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "processingMode" : "int",
+      "applyTemplateInput" : [
+         {
+            "processTemplate" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "applyTemplateOutput" : [
+         {
+            "updatedProcesses" : "IModelObject[]",
+            "clientId" : "String",
+            "failedProcesses" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Workflow-2010-09-Workflow/applyTemplateToProcesses"
+}

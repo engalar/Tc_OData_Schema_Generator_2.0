@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "inputInfo" : [
+         {
+            "targetObject" : "IModelObject",
+            "sourceObject" : "IModelObject",
+            "namedReferenceTypeName" : "String",
+            "pmiFormTypeName" : "String",
+            "datasetTypeName" : "String",
+            "relationTypeObject" : "IModelObject",
+            "accountabilityIdsToImport" : "int[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "importPMIsOutput" : [
+         {
+            "updatedPMIs" : "IModelObject[]",
+            "targetObject" : "IModelObject",
+            "markedAsDeletedPMIs" : "IModelObject[]",
+            "createdPMIs" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "PMIManagement-2015-10-PMIManagement/importPMIs2"
+}

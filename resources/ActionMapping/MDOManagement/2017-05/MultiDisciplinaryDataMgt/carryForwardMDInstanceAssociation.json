@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "linkedInstances" : [
+               {
+                  "context" : "IModelObject",
+                  "instances" : "IModelObject[]"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MDOManagement-2017-05-MultiDisciplinaryDataMgt/carryForwardMDInstanceAssociation",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "targetDesignInstance" : "IModelObject",
+            "originalDesignInstance" : "IModelObject",
+            "clientId" : "String",
+            "setValidationRequired" : "bool"
+         }
+      ]
+   }
+}

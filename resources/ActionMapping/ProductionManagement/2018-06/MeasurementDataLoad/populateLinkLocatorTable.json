@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "password" : "String",
+      "userName" : "String",
+      "serverName" : "String",
+      "dbKey" : "String",
+      "targetDbType" : "String",
+      "dbName" : "String"
+   },
+   "ServiceOperation" : "Internal-ProductionManagement-2018-06-MeasurementDataLoad/populateLinkLocatorTable",
+   "OperationResponse" : "IServiceData"
+}

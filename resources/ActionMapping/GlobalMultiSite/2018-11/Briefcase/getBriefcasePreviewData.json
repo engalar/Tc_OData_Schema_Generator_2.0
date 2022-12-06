@@ -1,0 +1,39 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "oldBriefcasePreviewData" : [
+         {
+            "elementName" : "String",
+            "elementValues" : "String[]"
+         }
+      ],
+      "deltaBriefcasePreviewFMSTicket" : "String",
+      "newBriefcasePreviewDataFMSTIcket" : "String",
+      "newBriefcasePreviewData" : [
+         {
+            "elementValues" : "String[]",
+            "elementName" : "String"
+         }
+      ],
+      "deltaBriefcasePreviewData" : [
+         {
+            "elementName" : "String",
+            "elementValues" : "String[]"
+         }
+      ],
+      "oldBriefcasePreviewDataFMSTicket" : "String"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2018-11-Briefcase/getBriefcasePreviewData",
+   "OperationInput" : {
+      "newBriefcaseFMSTicket" : "String",
+      "oldBriefcaseFMSTicket" : "String",
+      "oldBriefcaseUID" : "String",
+      "newBriefcaseUID" : "String",
+      "optionNamesAndValues" : [
+         {
+            "elementName" : "String",
+            "elementValues" : "String[]"
+         }
+      ]
+   }
+}

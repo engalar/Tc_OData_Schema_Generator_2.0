@@ -1,0 +1,47 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "isRunInBackground" : "bool",
+            "isPermanentconvertToHtml" : "bool",
+            "isLive" : "bool",
+            "selectedObject" : "IModelObject",
+            "keywordImportRules" : [
+               {
+                  "targetChildType" : "String",
+                  "conditionProcessingType" : "String",
+                  "keywordImportConditions" : [
+                     {
+                        "keyword" : "String",
+                        "opType" : "String"
+                     }
+                  ]
+               }
+            ],
+            "createSpecElementType" : "String",
+            "pasteTopSpecRevisionUnderSelection" : "bool",
+            "importOptions" : [
+               {
+                  "val" : "String",
+                  "option" : "String"
+               }
+            ],
+            "transientFileWriteTicket" : "String",
+            "importAsSpec" : "bool",
+            "specDesc" : "String",
+            "applicationFormat" : "String",
+            "specificationType" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "transientFileTickets" : "String[]",
+            "resultObjects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2018-05-ImportExport/importFromWord"
+}

@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "StructureManagement-2012-02-StructureVerification/getDescendentComparisonDetails",
+   "OperationResponse" : {
+      "details" : [
+         {
+            "details" : [
+               {
+                  "children" : "IModelObject[]",
+                  "matchType" : "int"
+               }
+            ],
+            "index" : "int",
+            "equivalentLines" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "eqvTargetLines" : "IModelObject[]",
+            "eqvSrcLines" : "IModelObject[]"
+         }
+      ],
+      "ignoreStructureSpecific" : "bool"
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "contractObject" : "IModelObject",
+      "contractDateInfo" : {
+         "endDate" : "Date",
+         "startDate" : "Date"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ContractDataManagement-2020-12-Icd0IPPEContractDataManagement/createOrUpdateContractSchedule"
+}

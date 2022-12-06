@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "connectionElement" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "elements" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/queryConnectionModelElements"
+}

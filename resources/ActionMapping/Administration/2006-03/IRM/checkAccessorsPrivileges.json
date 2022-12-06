@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "privilegeReports" : [
+         {
+            "privilegeInfos" : [
+               {
+                  "privilegeName" : "String",
+                  "verdict" : "bool"
+               }
+            ],
+            "object" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Administration-2006-03-IRM/checkAccessorsPrivileges",
+   "OperationInput" : {
+      "privilegeNames" : "String[]",
+      "groupMember" : "IModelObject",
+      "objects" : "IModelObject[]"
+   }
+}

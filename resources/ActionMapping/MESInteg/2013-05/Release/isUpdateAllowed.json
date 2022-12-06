@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "executionPlans" : "IModelObject[]"
+   },
+   "ServiceOperation" : "MESInteg-2013-05-Release/isUpdateAllowed",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "previousReleaseInformationList" : [
+         {
+            "appInterface" : "IModelObject",
+            "isAllowed" : "bool"
+         }
+      ]
+   }
+}

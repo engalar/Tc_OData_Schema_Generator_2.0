@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "pref" : {
+         "cadOccIdAttrName" : "String"
+      },
+      "inputs" : [
+         {
+            "childInfo" : "String[]",
+            "parent" : "IModelObject"
+         }
+      ],
+      "bomViewTypeName" : "String"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2007-01-StructureManagement/deleteRelativeStructure"
+}

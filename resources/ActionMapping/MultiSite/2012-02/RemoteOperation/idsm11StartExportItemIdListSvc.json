@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11StartExportItemIdListSvc",
+   "OperationResponse" : {
+      "userDataIp" : "String",
+      "out" : {
+         "compressPerformedFlg" : "int",
+         "exportStagingDir" : "String",
+         "exportFiles" : "String[]"
+      },
+      "serverCorrelationId" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "queryStrings" : "String[]",
+         "compressType" : "String",
+         "clientInfo" : {
+            "clientNode" : "String",
+            "userId" : "String",
+            "userDataIp" : "String",
+            "osUserName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "clientCorrelationId" : "String"
+         },
+         "compressFlg" : "int"
+      }
+   }
+}

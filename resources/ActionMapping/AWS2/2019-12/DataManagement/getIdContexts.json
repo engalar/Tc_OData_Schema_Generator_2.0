@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "inputObjs" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "idContextOuts" : [
+         {
+            "idContexts" : "IModelObject[]",
+            "inputObj" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2019-12-DataManagement/getIdContexts"
+}

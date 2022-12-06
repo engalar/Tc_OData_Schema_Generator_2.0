@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Core-2006-03-Reservation/checkin",
+   "OperationResponse" : "IServiceData"
+}

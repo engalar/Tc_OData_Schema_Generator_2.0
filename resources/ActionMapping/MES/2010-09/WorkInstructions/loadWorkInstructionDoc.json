@@ -1,0 +1,238 @@
+{
+   "OperationInput" : {
+      "loadedInfo" : [
+         {
+            "targetObject" : "IModelObject",
+            "targetContext" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "MES-2010-09-WorkInstructions/loadWorkInstructionDoc",
+   "OperationResponse" : {
+      "loadedObjects" : [
+         {
+            "workInstructionFile" : "String",
+            "symbols" : "IModelObject[]",
+            "targetObjectTransientId" : "String",
+            "targetObject" : "IModelObject",
+            "targetContext" : "IModelObject",
+            "loadedPFs" : [
+               {
+                  "objectType" : "String",
+                  "persistentId" : "String",
+                  "owningObjectTransientId" : "String",
+                  "transientId" : "String",
+                  "objectData" : {
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "type" : "String",
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "compoundCreateInput" : {
+                        "SampleKeyString" : [
+                           {
+                              "tagArrayProps" : {
+                                 "SampleKeyString" : "IModelObject[]"
+                              },
+                              "intProps" : {
+                                 "SampleKeyString" : "int"
+                              },
+                              "tagProps" : {
+                                 "SampleKeyString" : "IModelObject"
+                              },
+                              "compoundCreateInput" : "Mes0::Soa::MES::_2010_09::WorkInstructions::CreateInputMap",
+                              "stringProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "floatArrayProps" : {
+                                 "SampleKeyString" : "float[]"
+                              },
+                              "stringArrayProps" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "boolArrayProps" : {
+                                 "SampleKeyString" : "bool[]"
+                              },
+                              "floatProps" : {
+                                 "SampleKeyString" : "float"
+                              },
+                              "type" : "String",
+                              "boolProps" : {
+                                 "SampleKeyString" : "bool"
+                              },
+                              "intArrayProps" : {
+                                 "SampleKeyString" : "int[]"
+                              },
+                              "doubleArrayProps" : {
+                                 "SampleKeyString" : "double[]"
+                              },
+                              "dateArrayProps" : {
+                                 "SampleKeyString" : "Date[]"
+                              },
+                              "dateProps" : {
+                                 "SampleKeyString" : "Date"
+                              },
+                              "doubleProps" : {
+                                 "SampleKeyString" : "double"
+                              }
+                           }
+                        ]
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     }
+                  }
+               }
+            ],
+            "topObjectDisplayName" : "String",
+            "loadedSTXs" : [
+               {
+                  "transientId" : "String",
+                  "stxObjectData" : "IModelObject",
+                  "workInstructionFile" : "String",
+                  "symbols" : "IModelObject[]"
+               }
+            ],
+            "loadedDCDs" : [
+               {
+                  "owningObjectTransientId" : "String",
+                  "objectType" : "String",
+                  "persistentId" : "String",
+                  "transientId" : "String",
+                  "objectData" : {
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "compoundCreateInput" : {
+                        "SampleKeyString" : [
+                           {
+                              "stringProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "compoundCreateInput" : "Mes0::Soa::MES::_2010_09::WorkInstructions::CreateInputMap",
+                              "intProps" : {
+                                 "SampleKeyString" : "int"
+                              },
+                              "tagProps" : {
+                                 "SampleKeyString" : "IModelObject"
+                              },
+                              "tagArrayProps" : {
+                                 "SampleKeyString" : "IModelObject[]"
+                              },
+                              "doubleProps" : {
+                                 "SampleKeyString" : "double"
+                              },
+                              "dateProps" : {
+                                 "SampleKeyString" : "Date"
+                              },
+                              "dateArrayProps" : {
+                                 "SampleKeyString" : "Date[]"
+                              },
+                              "boolProps" : {
+                                 "SampleKeyString" : "bool"
+                              },
+                              "intArrayProps" : {
+                                 "SampleKeyString" : "int[]"
+                              },
+                              "doubleArrayProps" : {
+                                 "SampleKeyString" : "double[]"
+                              },
+                              "type" : "String",
+                              "floatProps" : {
+                                 "SampleKeyString" : "float"
+                              },
+                              "stringArrayProps" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "boolArrayProps" : {
+                                 "SampleKeyString" : "bool[]"
+                              },
+                              "floatArrayProps" : {
+                                 "SampleKeyString" : "float[]"
+                              }
+                           }
+                        ]
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "type" : "String",
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     }
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

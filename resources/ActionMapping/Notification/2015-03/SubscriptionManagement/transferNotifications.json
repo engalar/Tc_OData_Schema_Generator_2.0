@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "notifier" : "IModelObject",
+         "subscriptions" : "IModelObject[]",
+         "notificationDateRange" : {
+            "toDate" : "Date",
+            "fromDate" : "Date"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Notification-2015-03-SubscriptionManagement/transferNotifications",
+   "OperationResponse" : {
+      "subscriptions" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

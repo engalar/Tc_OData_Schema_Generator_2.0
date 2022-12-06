@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : {
+      "mySavedSearches" : "IModelObject[]",
+      "sharedSavedSearches" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/findFullTextSavedSearches",
+   "OperationInput" : {}
+}

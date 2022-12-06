@@ -1,0 +1,174 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2019-06-Finder/performSearchViewModel4",
+   "OperationResponse" : {
+      "endIndex" : "int",
+      "searchFilterMap6" : {
+         "SampleKeyString" : [
+            {
+               "colorValue" : "String",
+               "count" : "int",
+               "selected" : "bool",
+               "startEndRange" : "String",
+               "startDateValue" : "Date",
+               "stringDisplayValue" : "String",
+               "startNumericValue" : "double",
+               "endNumericValue" : "double",
+               "searchFilterType" : "String",
+               "stringValue" : "String",
+               "endDateValue" : "Date"
+            }
+         ]
+      },
+      "columnConfig" : {
+         "operationType" : "String",
+         "columns" : [
+            {
+               "dataType" : "String",
+               "sortPriority" : "int",
+               "propertyName" : "String",
+               "filterValue" : {
+                  "operation" : "String",
+                  "values" : "String[]"
+               },
+               "pixelWidth" : "int",
+               "displayName" : "String",
+               "isFilteringEnabled" : "bool",
+               "filterDefinitionKey" : "String",
+               "typeName" : "String",
+               "columnOrder" : "int",
+               "sortDirection" : "String",
+               "isFrozen" : "bool",
+               "hiddenFlag" : "bool"
+            }
+         ],
+         "columnConfigId" : "String"
+      },
+      "searchResultsJSON" : "String",
+      "searchFilterCategoriesUnpopulated" : [
+         {
+            "internalName" : "String",
+            "displayName" : "String",
+            "defaultFilterValueDisplayCount" : "int"
+         }
+      ],
+      "cursor" : {
+         "startIndex" : "int",
+         "endIndex" : "int",
+         "startReached" : "bool",
+         "endReached" : "bool"
+      },
+      "additionalSearchInfoMap" : {
+         "SampleKeyString" : "String[]"
+      },
+      "defaultFilterFieldDisplayCount" : "int",
+      "searchFilterCategories" : [
+         {
+            "internalName" : "String",
+            "defaultFilterValueDisplayCount" : "int",
+            "displayName" : "String"
+         }
+      ],
+      "objectsGroupedByProperty" : {
+         "groupedObjectsMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               "String[]"
+            ]
+         ],
+         "internalPropertyName" : "String",
+         "unmatchedObjectList" : "IModelObject[]"
+      },
+      "totalFound" : "int",
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int"
+   },
+   "OperationInput" : {
+      "columnConfigInput" : {
+         "clientScopeURI" : "String",
+         "operationType" : "String",
+         "columnsToExclude" : "String[]",
+         "hostingClientName" : "String",
+         "clientName" : "String"
+      },
+      "saveColumnConfigData" : {
+         "scopeName" : "String",
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "sortPriority" : "int",
+               "dataType" : "String",
+               "propertyName" : "String",
+               "filterValue" : {
+                  "values" : "String[]",
+                  "operation" : "String"
+               },
+               "pixelWidth" : "int",
+               "isFilteringEnabled" : "bool",
+               "filterDefinitionKey" : "String",
+               "displayName" : "String",
+               "typeName" : "String",
+               "sortDirection" : "String",
+               "columnOrder" : "int",
+               "hiddenFlag" : "bool",
+               "isFrozen" : "bool"
+            }
+         ],
+         "scope" : "String",
+         "clientScopeURI" : "String"
+      },
+      "inflateProperties" : "bool",
+      "searchInput" : {
+         "searchSortCriteria" : [
+            {
+               "sortDirection" : "ASC DESC",
+               "fieldName" : "String"
+            }
+         ],
+         "startIndex" : "int",
+         "searchFilterMap6" : {
+            "SampleKeyString" : [
+               {
+                  "searchFilterType" : "String",
+                  "stringValue" : "String",
+                  "endDateValue" : "Date",
+                  "startDateValue" : "Date",
+                  "stringDisplayValue" : "String",
+                  "startNumericValue" : "double",
+                  "endNumericValue" : "double",
+                  "startEndRange" : "String",
+                  "selected" : "bool",
+                  "count" : "int",
+                  "colorValue" : "String"
+               }
+            ]
+         },
+         "pagingType" : "String",
+         "focusObjUid" : "String",
+         "internalPropertyName" : "String",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "maxToLoad" : "int",
+         "columnFilters" : [
+            {
+               "operation" : "String",
+               "columnName" : "String",
+               "values" : "String[]"
+            }
+         ],
+         "cursor" : {
+            "startIndex" : "int",
+            "endIndex" : "int",
+            "startReached" : "bool",
+            "endReached" : "bool"
+         },
+         "attributesToInflate" : "String[]",
+         "searchFilterFieldSortType" : "String",
+         "providerName" : "String",
+         "maxToReturn" : "int"
+      },
+      "noServiceData" : "bool"
+   }
+}

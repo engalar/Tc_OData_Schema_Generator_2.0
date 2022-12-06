@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "templateFile" : "String",
+            "templateDirectory" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "templateFile" : "String",
+            "templateFileTicket" : "String",
+            "templateDirectory" : "String",
+            "timestamp" : "Date"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-BusinessModeler-2010-04-DataModelManagement/getTemplateFiles"
+}

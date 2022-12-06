@@ -1,0 +1,63 @@
+{
+   "ServiceOperation" : "Manufacturing-2012-02-DataManagement/connectObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "newObjects" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "targetObjects" : "IModelObject[]",
+            "sourceInfo" : {
+               "relationName" : "String",
+               "relationType" : "String",
+               "sourceObjects" : "IModelObject[]",
+               "additionalInfo" : {
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "intArrayProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "doubleArrayProps" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "dateArrayProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "stringArrayProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "tagProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "boolArrayProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "tagArrayProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "floatArrayProps" : {
+                     "SampleKeyString" : "float[]"
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  }
+               }
+            }
+         }
+      ]
+   }
+}

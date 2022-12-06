@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "findInput" : {
+         "searchID" : "String",
+         "options" : {
+            "SampleKeyString" : "bool"
+         },
+         "configurationContext" : "IModelObject",
+         "startingScopes" : "IModelObject[]",
+         "withDisclosureIntents" : "String[]",
+         "disclosure" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "modelViewsByStructureNodes" : [
+         {
+            "resultingViews" : "IModelObject[]",
+            "clonestableId" : "String[]",
+            "csIdContextOccurrence" : "IModelObject",
+            "structureNode" : "IModelObject"
+         }
+      ],
+      "finished" : "bool",
+      "serviceData" : "IServiceData",
+      "structureNodesSearched" : "int"
+   },
+   "ServiceOperation" : "Cad-2016-09-StructureManagement/startFindModelViews"
+}

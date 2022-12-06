@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "processingDataVars" : {
+               "SampleKeyString" : "String"
+            },
+            "composableBO" : "IModelObject",
+            "revisionRule" : "IModelObject",
+            "keyValueArgs" : {
+               "SampleKeyString" : "String"
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ContMgmtBase-2011-06-ContentManagement/composeContent",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "composedData" : [
+         {
+            "composedMetaDataReadTicket" : "String",
+            "clientId" : "String",
+            "composedTransientFileReadTicket" : "String"
+         }
+      ]
+   }
+}

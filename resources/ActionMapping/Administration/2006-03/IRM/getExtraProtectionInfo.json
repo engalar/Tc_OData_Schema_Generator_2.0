@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "protectionReports" : [
+         {
+            "object" : "IModelObject",
+            "protections" : [
+               {
+                  "accessorId" : "String",
+                  "accessorType" : "String",
+                  "acl" : "String",
+                  "verdict" : "bool",
+                  "ruleEvaluation" : "String[]",
+                  "rules" : "String[]",
+                  "privilege" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Administration-2006-03-IRM/getExtraProtectionInfo",
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "user" : "IModelObject"
+   }
+}

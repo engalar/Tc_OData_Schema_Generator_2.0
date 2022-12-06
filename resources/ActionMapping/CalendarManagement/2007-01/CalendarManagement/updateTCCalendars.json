@@ -1,0 +1,47 @@
+{
+   "ServiceOperation" : "CalendarManagement-2007-01-CalendarManagement/updateTCCalendars",
+   "OperationResponse" : {
+      "tccalendars" : [
+         {
+            "events" : "IModelObject[]",
+            "tccalendar" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "tccalendarUpdates" : [
+         {
+            "tccalendar" : "IModelObject",
+            "eventsToDelete" : "IModelObject[]",
+            "newEvents" : [
+               {
+                  "eventDate" : "Date",
+                  "eventMin" : "int"
+               }
+            ],
+            "updatedAttributes" : {
+               "minsSat" : "int",
+               "schedule" : "IModelObject",
+               "minsSun" : "int",
+               "source" : "IModelObject",
+               "minsMon" : "int",
+               "description" : "String",
+               "minsFri" : "int",
+               "minsThu" : "int",
+               "minsWed" : "int",
+               "name" : "String",
+               "type" : "int",
+               "minsTue" : "int"
+            },
+            "eventAttributes" : [
+               {
+                  "eventMin" : "int",
+                  "eventDate" : "Date"
+               }
+            ],
+            "eventsToUpdate" : "IModelObject[]"
+         }
+      ]
+   }
+}

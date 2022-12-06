@@ -1,0 +1,114 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "generateIdsOutput" : [
+         {
+            "generatedIDs" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2014-10-DataManagement/generateIdsUsingIDGenerationRules",
+   "OperationInput" : {
+      "generateIdsInputs" : [
+         {
+            "quantity" : "int",
+            "propertyName" : "String",
+            "createInput" : {
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "boName" : "String",
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "compoundCreateInput" : "Teamcenter::Soa::Core::_2008_06::DataManagement::CreateInputMap"
+                     }
+                  ]
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "boName" : "String",
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               }
+            }
+         }
+      ]
+   }
+}

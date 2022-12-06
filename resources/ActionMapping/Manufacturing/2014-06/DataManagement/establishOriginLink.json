@@ -1,0 +1,34 @@
+{
+   "ServiceOperation" : "Manufacturing-2014-06-DataManagement/establishOriginLink",
+   "OperationResponse" : {
+      "logFileTicket" : {
+         "ticket" : "String",
+         "fileName" : "String"
+      },
+      "candidates" : [
+         {
+            "sourceObject" : "IModelObject",
+            "targetObjects" : [
+               {
+                  "linkState" : "bool",
+                  "targetObject" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : {
+         "criteria" : "String[]",
+         "considerHierarchy" : "bool",
+         "action" : "String",
+         "inputObjects" : [
+            {
+               "targetObjects" : "IModelObject[]",
+               "sourceObject" : "IModelObject"
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "OperationResponse" : {
+      "projectOpsOutputs" : [
+         {
+            "clientId" : "String",
+            "project" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2012-09-ProjectLevelSecurity/modifyProjects",
+   "OperationInput" : {
+      "modifyProjectsInfos" : [
+         {
+            "sourceProject" : "IModelObject",
+            "clientId" : "String",
+            "projectInfo" : {
+               "clientId" : "String",
+               "projectId" : "String",
+               "projectName" : "String",
+               "projectDescription" : "String",
+               "active" : "bool",
+               "teamMembers" : [
+                  {
+                     "teamMemberType" : "int",
+                     "teamMember" : "IModelObject"
+                  }
+               ],
+               "useProgramContext" : "bool",
+               "visible" : "bool"
+            }
+         }
+      ]
+   }
+}

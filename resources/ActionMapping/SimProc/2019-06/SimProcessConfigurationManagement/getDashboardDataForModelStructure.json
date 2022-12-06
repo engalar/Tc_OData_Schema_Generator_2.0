@@ -1,0 +1,55 @@
+{
+   "OperationInput" : {
+      "dashboardConfiguration" : "IModelObject",
+      "rootBomLine" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-SimProc-2019-06-SimProcessConfigurationManagement/getDashboardDataForModelStructure",
+   "OperationResponse" : {
+      "fileSummaryInfo" : [
+         {
+            "columnNameHeading" : "String",
+            "ambiguousCount" : "int",
+            "totalCount" : "int",
+            "foundCount" : "int",
+            "notFoundCount" : "int",
+            "notApplicableCount" : "int",
+            "datasetType" : "String"
+         }
+      ],
+      "objectsToMonitor" : "int",
+      "serviceData" : "IServiceData",
+      "dashboardTableInfoDetails" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "columnName" : "String",
+                  "statusValue" : "String",
+                  "attributeComponent" : "IModelObject",
+                  "isModifiable" : "bool",
+                  "fileDetails" : [
+                     {
+                        "datasetComponent" : "IModelObject",
+                        "datasetName" : "String",
+                        "fileOwningUser" : "String",
+                        "itemRevComp" : "IModelObject",
+                        "lastModifiedDate" : "String",
+                        "fileName" : "String",
+                        "fileComponent" : "IModelObject",
+                        "itemRevName" : "String"
+                     }
+                  ],
+                  "pedigreeObject" : "IModelObject",
+                  "columnCellValue" : "String",
+                  "columnType" : "String",
+                  "attributeName" : "String",
+                  "columnCellValueType" : "String"
+               }
+            ]
+         ]
+      ],
+      "objectsFiltered" : "int"
+   }
+}

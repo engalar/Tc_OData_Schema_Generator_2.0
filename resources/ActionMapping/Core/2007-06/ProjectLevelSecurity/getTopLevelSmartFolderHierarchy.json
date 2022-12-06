@@ -1,0 +1,33 @@
+{
+   "OperationResponse" : {
+      "userProjects" : [
+         {
+            "filters" : [
+               {
+                  "sourceTypeName" : "String",
+                  "value" : "String",
+                  "name" : "String"
+               }
+            ],
+            "project" : "IModelObject"
+         }
+      ],
+      "topHierarchy" : [
+         {
+            "filters" : [
+               {
+                  "name" : "String",
+                  "value" : "String",
+                  "sourceTypeName" : "String"
+               }
+            ],
+            "parentName" : "String",
+            "isLeaf" : "bool",
+            "name" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Core-2007-06-ProjectLevelSecurity/getTopLevelSmartFolderHierarchy",
+   "OperationInput" : {}
+}

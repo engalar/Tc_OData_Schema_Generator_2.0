@@ -1,0 +1,30 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "vendorRev" : "IModelObject",
+            "vendor" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Vendormanagement-2007-06-VendorManagement/createOrUpdateVendors",
+   "OperationInput" : {
+      "relationType" : "String",
+      "container" : "IModelObject",
+      "properties" : [
+         {
+            "vendorStatus" : "String",
+            "revId" : "String",
+            "description" : "String",
+            "name" : "String",
+            "certifiStatus" : "String",
+            "type" : "String",
+            "itemId" : "String",
+            "roleType" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "ClassificationCore-2013-05-Classification/getClassificationSearchResults",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "objects" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "searchResultsInput" : {
+         "numObjects" : "int",
+         "resultSet" : "String",
+         "start" : "int"
+      }
+   }
+}

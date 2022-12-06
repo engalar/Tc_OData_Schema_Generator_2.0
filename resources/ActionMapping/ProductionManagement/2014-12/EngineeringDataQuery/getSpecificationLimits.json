@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "specLimitInput" : [
+         {
+            "routineRev" : "String",
+            "fromDate" : "String",
+            "lastNumOfJobs" : "int",
+            "specSheetName" : "String",
+            "toDate" : "String",
+            "routineId" : "String",
+            "plantId" : "String",
+            "ftrAttribCodeInfo" : [
+               {
+                  "featureId" : "String",
+                  "featureAttribCode" : "String[]",
+                  "featureName" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "specLimits" : [
+         {
+            "specLimitOutPut" : [
+               {
+                  "upperSpecLimit" : "double",
+                  "featureName" : "String",
+                  "featureAttribCode" : "String",
+                  "target" : "double",
+                  "featureId" : "String",
+                  "attributeInfo" : [
+                     {
+                        "buildLabel" : "String",
+                        "eventDateTime" : "String",
+                        "actualValue" : "double"
+                     }
+                  ],
+                  "lowerSpecLimit" : "double"
+               }
+            ],
+            "routineId" : "String",
+            "plantId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2014-12-EngineeringDataQuery/getSpecificationLimits"
+}

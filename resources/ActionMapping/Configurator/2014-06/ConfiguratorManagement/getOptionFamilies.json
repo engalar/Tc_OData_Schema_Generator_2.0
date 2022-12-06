@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "groupAndFamilies" : [
+         {
+            "familyAndAssociation" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "familyGroup" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getOptionFamilies",
+   "OperationInput" : {
+      "context" : "IModelObject",
+      "unavailableFamilies" : "bool",
+      "otherFamilies" : "bool",
+      "groups" : "IModelObject[]"
+   }
+}

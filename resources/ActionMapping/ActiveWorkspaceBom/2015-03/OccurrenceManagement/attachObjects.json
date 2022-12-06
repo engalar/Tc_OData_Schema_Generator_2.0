@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "primaryContext" : "IModelObject",
+            "clientId" : "String",
+            "primary" : "IModelObject",
+            "relationType" : "String",
+            "secondary" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "relationObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2015-03-OccurrenceManagement/attachObjects"
+}

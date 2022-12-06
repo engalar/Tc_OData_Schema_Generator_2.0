@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "parameters" : [
+         {
+            "library" : "String",
+            "functionName" : "String",
+            "type" : "String",
+            "name" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2017-05-Validation/getAllRegisteredCallbacks",
+   "OperationInput" : {
+      "callbackType" : "String"
+   }
+}

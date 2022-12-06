@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Core-2014-10-ProjectLevelSecurity/propagateData",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "propagateDataElements" : [
+         {
+            "sourceObject" : "IModelObject",
+            "operationType" : "int",
+            "propagationRulesInfo" : [
+               {
+                  "applicablePropagationRules" : "IModelObject[]",
+                  "associatedObject" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

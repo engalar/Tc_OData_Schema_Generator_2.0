@@ -1,0 +1,65 @@
+{
+   "OperationResponse" : {
+      "relativeFolderName" : "String",
+      "fileTickets" : "String[]",
+      "data" : "IServiceData",
+      "fileNames" : "String[]",
+      "ticket" : "String"
+   },
+   "ServiceOperation" : "Ai-2009-06-Ai/generateScopedMultipleStructure3",
+   "OperationInput" : {
+      "exportTransferMode" : "String",
+      "aiObject" : "IModelObject",
+      "serverMode" : "int",
+      "objectsToProcess" : [
+         {
+            "apprefs" : [
+               {
+                  "label" : "String",
+                  "application" : "String",
+                  "version" : "String"
+               }
+            ],
+            "config" : {
+               "revRuleName" : "String",
+               "existingWindow" : "IModelObject",
+               "configuringObject" : {
+                  "label" : "String",
+                  "application" : "String",
+                  "version" : "String"
+               },
+               "useDefaultRevisionRule" : "bool",
+               "variantRule" : {
+                  "version" : "String",
+                  "application" : "String",
+                  "label" : "String"
+               }
+            },
+            "refContexts" : [
+               {
+                  "topLineObject" : {
+                     "application" : "String",
+                     "version" : "String",
+                     "label" : "String"
+                  },
+                  "config" : {
+                     "configuringObject" : {
+                        "label" : "String",
+                        "application" : "String",
+                        "version" : "String"
+                     },
+                     "revRuleName" : "String",
+                     "existingWindow" : "IModelObject",
+                     "variantRule" : {
+                        "label" : "String",
+                        "version" : "String",
+                        "application" : "String"
+                     },
+                     "useDefaultRevisionRule" : "bool"
+                  }
+               }
+            ]
+         }
+      ]
+   }
+}

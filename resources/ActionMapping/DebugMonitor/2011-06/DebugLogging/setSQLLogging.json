@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "sqlLogInfo" : {
+         "profile" : "bool",
+         "timing" : "bool",
+         "toJournal" : "bool",
+         "showBindVariables" : "bool",
+         "debugState" : "bool"
+      }
+   },
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugLogging/setSQLLogging"
+}

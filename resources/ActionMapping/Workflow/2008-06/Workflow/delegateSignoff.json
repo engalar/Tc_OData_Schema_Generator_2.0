@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "delegatee" : "IModelObject",
+      "signoff" : "IModelObject"
+   },
+   "ServiceOperation" : "Workflow-2008-06-Workflow/delegateSignoff",
+   "OperationResponse" : "IServiceData"
+}

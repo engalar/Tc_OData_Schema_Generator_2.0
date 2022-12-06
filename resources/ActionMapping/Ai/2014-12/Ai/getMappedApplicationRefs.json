@@ -1,0 +1,46 @@
+{
+   "ServiceOperation" : "Ai-2014-12-Ai/getMappedApplicationRefs",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "appRefs" : [
+         {
+            "appRefs" : [
+               {
+                  "label" : "String",
+                  "application" : "String",
+                  "version" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "appRefs" : [
+         {
+            "configuration" : {
+               "variantRule" : {
+                  "application" : "String",
+                  "version" : "String",
+                  "label" : "String"
+               },
+               "useDefaultRevisionRule" : "bool",
+               "configuringObject" : {
+                  "label" : "String",
+                  "version" : "String",
+                  "application" : "String"
+               },
+               "revRuleName" : "String",
+               "existingWindow" : "IModelObject"
+            },
+            "appNames" : "String[]",
+            "appRefs" : [
+               {
+                  "label" : "String",
+                  "version" : "String",
+                  "application" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

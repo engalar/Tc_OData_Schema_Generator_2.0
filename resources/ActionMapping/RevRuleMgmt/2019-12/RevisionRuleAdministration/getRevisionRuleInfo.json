@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "revRule" : "String"
+   },
+   "OperationResponse" : {
+      "description" : "String",
+      "nestedEffectivity" : "bool",
+      "entriesInfo" : [
+         {
+            "revRuleEntryKeyToValue" : {
+               "SampleKeyString" : "String"
+            },
+            "groupEntryInfo" : {
+               "groupByTypes" : "String[]",
+               "listOfSubEntries" : [
+                  {
+                     "mapOfSubEntryKeyToValue" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "subEntryType" : "int",
+                     "displayText" : "String"
+                  }
+               ]
+            },
+            "entryType" : "int",
+            "displayText" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-RevRuleMgmt-2019-12-RevisionRuleAdministration/getRevisionRuleInfo"
+}

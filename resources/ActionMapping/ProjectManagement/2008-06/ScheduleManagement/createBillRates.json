@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "ProjectManagement-2008-06-ScheduleManagement/createBillRates",
+   "OperationResponse" : {
+      "rates" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "rates" : [
+         {
+            "name" : "String",
+            "type" : "int",
+            "currency" : "String",
+            "rate" : "String"
+         }
+      ]
+   }
+}

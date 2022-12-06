@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "WProxy-2014-10-ProxyLink/createProxyLink",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "primaryObject" : "IModelObject",
+            "objectUID" : "String",
+            "relationName" : "String",
+            "proxyLinkType" : "String",
+            "attributes" : {
+               "SampleKeyString" : "String"
+            },
+            "owningSite" : "String"
+         }
+      ]
+   }
+}

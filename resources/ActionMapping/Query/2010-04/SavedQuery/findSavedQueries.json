@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "inputCriteria" : [
+         {
+            "queryDescs" : "String[]",
+            "queryNames" : "String[]",
+            "queryType" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "savedQueries" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Query-2010-04-SavedQuery/findSavedQueries"
+}

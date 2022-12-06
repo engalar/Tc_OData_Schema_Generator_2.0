@@ -1,0 +1,58 @@
+{
+   "OperationInput" : {
+      "startingScope" : "IModelObject[]",
+      "controls" : {
+         "includePresentedParents" : "bool",
+         "includeCopyStableIDMaps" : "bool",
+         "includeSourceObjectForSubsets" : "bool",
+         "configurationContext" : "IModelObject",
+         "suggestedPageSize" : "int",
+         "levelsToExpand" : "int",
+         "preLoadVisualizationDatasets" : "bool",
+         "expandSubsetAsSaved" : "bool"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "finished" : "bool",
+      "content" : [
+         {
+            "presentedParentContent" : "IModelObject[]",
+            "startingObject" : "IModelObject",
+            "contentObjInfoInContextMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "elementContent" : "IModelObject[]",
+            "sourceTargetMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "bomLineContent" : "IModelObject[]",
+            "copyStableIDData" : [
+               {
+                  "copyStableIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ],
+                  "subset" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "expandCursor" : "IModelObject"
+   },
+   "ServiceOperation" : "CpdCore-2014-10-StructureExpand/startExpandStructure2"
+}

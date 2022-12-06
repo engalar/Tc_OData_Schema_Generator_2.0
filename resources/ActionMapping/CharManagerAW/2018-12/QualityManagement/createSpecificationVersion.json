@@ -1,0 +1,58 @@
+{
+   "OperationInput" : {
+      "specificationInputs" : [
+         {
+            "sourceSpecification" : "IModelObject",
+            "clientId" : "String",
+            "data" : {
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               }
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "specificationsOutput" : [
+         {
+            "newSpecification" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CharManagerAW-2018-12-QualityManagement/createSpecificationVersion"
+}

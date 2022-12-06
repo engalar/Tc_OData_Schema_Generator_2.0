@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "createBOMMarkupsList" : [
+         {
+            "bomLine" : "IModelObject",
+            "markup" : "IModelObject",
+            "markupChange" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2010-04-BOMMarkup/savePendingEditsAsMarkup",
+   "OperationInput" : {
+      "window" : "IModelObject"
+   }
+}

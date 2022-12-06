@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "focus" : "String",
+      "domain" : "String",
+      "objects" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "nodeXML" : "String"
+   },
+   "ServiceOperation" : "Internal-SimProc-2018-06-SimStructureManagement/generateNodeXMLWithFocus"
+}

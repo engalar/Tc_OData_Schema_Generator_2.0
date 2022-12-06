@@ -1,0 +1,33 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "arrayOfResults" : [
+         {
+            "objectsRelMap" : "int[]",
+            "objectUIDS" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Query-2018-11-SavedQuery/executeBOQueriesWithContext",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "configurationContextMap" : {
+               "SampleKeyString" : "String"
+            },
+            "boTypeName" : "String",
+            "clientId" : "String",
+            "requestId" : "String",
+            "clauses" : [
+               {
+                  "propValue" : "String",
+                  "logicOperator" : "String",
+                  "mathOperator" : "String",
+                  "propName" : "String"
+               }
+            ],
+            "maxNumToReturn" : "int"
+         }
+      ]
+   }
+}

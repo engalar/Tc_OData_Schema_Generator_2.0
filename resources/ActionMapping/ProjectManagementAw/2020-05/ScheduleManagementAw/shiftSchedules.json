@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "scheduleUIDs" : "String[]",
+      "shiftByDate" : "Date",
+      "shiftByDays" : "int",
+      "runInBackground" : "bool"
+   },
+   "ServiceOperation" : "ProjectManagementAw-2020-05-ScheduleManagementAw/shiftSchedules",
+   "OperationResponse" : "IServiceData"
+}

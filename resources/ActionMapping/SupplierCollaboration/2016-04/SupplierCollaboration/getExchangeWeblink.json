@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "exchangeStatusReason" : "String",
+            "clientId" : "String",
+            "exchangeStatus" : "String",
+            "exchangeURL" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "SupplierCollaboration-2016-04-SupplierCollaboration/getExchangeWeblink",
+   "OperationInput" : {
+      "exchangeInputs" : [
+         {
+            "clientId" : "String",
+            "exchangeObj" : "IModelObject"
+         }
+      ]
+   }
+}

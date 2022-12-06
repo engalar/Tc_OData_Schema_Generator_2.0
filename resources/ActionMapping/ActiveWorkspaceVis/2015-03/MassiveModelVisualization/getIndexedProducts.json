@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Internal-ActiveWorkspaceVis-2015-03-MassiveModelVisualization/getIndexedProducts",
+   "OperationResponse" : {
+      "indexedProductAndConfigInfos" : [
+         {
+            "productConfigInfo" : {
+               "product" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "variantRuleInfos" : [
+                  {
+                     "variantRuleOwningObject" : "IModelObject",
+                     "variantRule" : "IModelObject"
+                  }
+               ],
+               "effectivityInfos" : [
+                  {
+                     "effectivityUnitNo" : "int",
+                     "effectivityDate" : "Date",
+                     "endItem" : "IModelObject"
+                  }
+               ]
+            },
+            "productStructureIdentifier" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "libraryValues" : "String[]"
+   },
+   "ServiceOperation" : "Classification-2011-06-Classification/getLibraryHierarchy",
+   "OperationResponse" : {
+      "clsInfo" : [
+         {
+            "classBO" : "IModelObject",
+            "classDefn" : {
+               "id" : "String",
+               "userData1" : "String",
+               "shortName" : "String",
+               "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+               "instanceCount" : "int",
+               "childCount" : "int",
+               "viewCount" : "int",
+               "name" : "String",
+               "documents" : [
+                  {
+                     "originalFileName" : "String",
+                     "documentType" : "String",
+                     "ticket" : "String"
+                  }
+               ],
+               "options" : {
+                  "isValid" : "bool",
+                  "isAssembly" : "bool",
+                  "isAbstract" : "bool",
+                  "isGroup" : "bool"
+               },
+               "parent" : "String",
+               "userData2" : "String",
+               "description" : "String"
+            }
+         }
+      ],
+      "svcData" : "IServiceData"
+   }
+}

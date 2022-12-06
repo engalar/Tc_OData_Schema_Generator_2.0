@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "relationtype" : "String",
+            "logicalOpr" : "String",
+            "propertyName" : "String",
+            "values" : "String[]",
+            "propertyType" : "String",
+            "mathOpr" : "String",
+            "formType" : "String",
+            "parentType" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Rdv-2012-09-ContextManagement/createFormAttrSearchCriteria",
+   "OperationResponse" : {
+      "formAttrSchCriteria" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

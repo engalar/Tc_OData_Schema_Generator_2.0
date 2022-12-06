@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2017-06-OccurrenceManagement/createAndAddElementEffectivity",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : {
+         "element" : "IModelObject",
+         "effectivityInfo" : {
+            "dateRange" : "Date[]",
+            "isShared" : "bool",
+            "endItemRev" : "IModelObject",
+            "unitRangeText" : "String",
+            "openEndedStatus" : "int",
+            "isProtected" : "bool",
+            "name" : "String"
+         }
+      }
+   }
+}

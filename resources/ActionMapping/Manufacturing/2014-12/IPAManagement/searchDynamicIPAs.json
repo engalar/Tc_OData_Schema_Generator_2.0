@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "dipaLines" : "IModelObject[]",
+            "bopLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2014-12-IPAManagement/searchDynamicIPAs",
+   "OperationInput" : {
+      "returnOnFirstResult" : "bool",
+      "searchScopes" : "IModelObject[]"
+   }
+}

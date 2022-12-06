@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "samplePOMRows" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/updateProductFormulasFromSample",
+   "OperationResponse" : "IServiceData"
+}

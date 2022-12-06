@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "content" : "String"
+   },
+   "ServiceOperation" : "Internal-DocMgmtAw-2019-12-DocMgmt/processTextDataset",
+   "OperationInput" : {
+      "content" : "String",
+      "baseObject" : "IModelObject",
+      "action" : "String"
+   }
+}

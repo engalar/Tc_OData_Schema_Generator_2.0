@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "attributes" : {
+         "SampleKeyString" : "String"
+      },
+      "personObject" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Administration-2009-10-PersonManagement/setStringProperties"
+}

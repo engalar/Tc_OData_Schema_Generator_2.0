@@ -1,0 +1,136 @@
+{
+   "ServiceOperation" : "Cad-2020-01-AppSessionManagement/openSavedSession",
+   "OperationResponse" : {
+      "sessionOutputs" : [
+         {
+            "sessionProductStructures" : [
+               {
+                  "bomWindow" : "IModelObject",
+                  "staticStructureFileTicket" : "String",
+                  "recipeObject" : "IModelObject",
+                  "stableId" : "String",
+                  "relationProperties" : {
+                     "SampleKeyString" : {
+                        "dateValues" : "Date[]",
+                        "doubleValues" : "double[]",
+                        "boolValues" : "bool[]",
+                        "stringValues" : "String[]",
+                        "intValues" : "int[]",
+                        "tagValues" : "IModelObject[]",
+                        "floatValues" : "float[]"
+                     }
+                  },
+                  "relatedObjectInfos" : [
+                     {
+                        "relatedObject" : "IModelObject",
+                        "relationProperties" : {
+                           "SampleKeyString" : {
+                              "tagValues" : "IModelObject[]",
+                              "floatValues" : "float[]",
+                              "intValues" : "int[]",
+                              "stringValues" : "String[]",
+                              "boolValues" : "bool[]",
+                              "doubleValues" : "double[]",
+                              "dateValues" : "Date[]"
+                           }
+                        },
+                        "stableId" : "String",
+                        "recipeObject" : "IModelObject",
+                        "bomWindow" : "IModelObject",
+                        "namedRefList" : [
+                           {
+                              "namedReferenceType" : "String",
+                              "fileTicket" : "String",
+                              "referenceObject" : "IModelObject",
+                              "namedReferenceName" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "productSessionDataObjects" : [
+                     {
+                        "stableId" : "String",
+                        "productSessionDataObject" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "productSessionDataObjects" : [
+               {
+                  "stableId" : "String",
+                  "productSessionDataObject" : "IModelObject"
+               }
+            ],
+            "relatedObjectInfos" : [
+               {
+                  "recipeObject" : "IModelObject",
+                  "bomWindow" : "IModelObject",
+                  "namedRefList" : [
+                     {
+                        "namedReferenceType" : "String",
+                        "fileTicket" : "String",
+                        "namedReferenceName" : "String",
+                        "referenceObject" : "IModelObject"
+                     }
+                  ],
+                  "stableId" : "String",
+                  "relationProperties" : {
+                     "SampleKeyString" : {
+                        "stringValues" : "String[]",
+                        "doubleValues" : "double[]",
+                        "boolValues" : "bool[]",
+                        "dateValues" : "Date[]",
+                        "floatValues" : "float[]",
+                        "tagValues" : "IModelObject[]",
+                        "intValues" : "int[]"
+                     }
+                  },
+                  "relatedObject" : "IModelObject"
+               }
+            ],
+            "sessionObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "filter" : {
+         "productStructureFilter" : {
+            "outputFilters" : {
+               "SampleKeyString" : "String"
+            },
+            "relativeToSessionStableIds" : "String[]",
+            "additionalPropsOnBOMWindow" : {
+               "SampleKeyString" : {
+                  "intValues" : "int[]",
+                  "tagValues" : "IModelObject[]",
+                  "floatValues" : "float[]",
+                  "dateValues" : "Date[]",
+                  "doubleValues" : "double[]",
+                  "boolValues" : "bool[]",
+                  "stringValues" : "String[]"
+               }
+            },
+            "productStructure" : "String"
+         },
+         "productSessionDataFilter" : {
+            "stableIds" : "String[]",
+            "productSessionDataTypeNames" : "String[]"
+         },
+         "relAndTypesFilter" : [
+            {
+               "relatedObjAndNamedRefs" : [
+                  {
+                     "objectTypeName" : "String",
+                     "namedReferenceNames" : "String[]"
+                  }
+               ],
+               "namedRefHandler" : "String",
+               "relationName" : "String",
+               "stableId" : "String"
+            }
+         ]
+      },
+      "sessionsToOpen" : "IModelObject[]"
+   }
+}

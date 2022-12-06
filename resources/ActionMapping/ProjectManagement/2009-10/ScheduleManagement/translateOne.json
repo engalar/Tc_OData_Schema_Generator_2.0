@@ -1,0 +1,59 @@
+{
+   "OperationResponse" : {
+      "translatorResponseContainerSub" : [
+         {
+            "scheduleUid" : "String",
+            "genericAttributesContainer" : [
+               {
+                  "typedAttributesContainer" : [
+                     {
+                        "attributes" : [
+                           {
+                              "key" : "String",
+                              "value" : "String",
+                              "type" : "int"
+                           }
+                        ],
+                        "type" : "String"
+                     }
+                  ],
+                  "keyValContainer" : [
+                     {
+                        "type" : "int",
+                        "value" : "String",
+                        "key" : "int"
+                     }
+                  ],
+                  "object" : "IModelObject",
+                  "stringValContainer" : [
+                     {
+                        "key" : "String",
+                        "type" : "int",
+                        "value" : "String"
+                     }
+                  ]
+               }
+            ],
+            "translatorExceptions" : [
+               {
+                  "operation" : "int",
+                  "errorString" : "String",
+                  "objectUid" : "String",
+                  "parameterValues" : [
+                     {
+                        "key" : "int",
+                        "value" : "String"
+                     }
+                  ],
+                  "errorSeverity" : "int",
+                  "errorNumber" : "int"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2009-10-ScheduleManagement/translateOne",
+   "OperationInput" : {
+      "scheduleUid" : "String"
+   }
+}

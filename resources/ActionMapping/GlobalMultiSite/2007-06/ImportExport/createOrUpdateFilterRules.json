@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "filterRuleObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/createOrUpdateFilterRules",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "name" : "String",
+            "schemaFormat" : "String",
+            "scope" : "String",
+            "clauses" : "String[]",
+            "filterRuleToUpdate" : "IModelObject",
+            "description" : "String"
+         }
+      ]
+   }
+}

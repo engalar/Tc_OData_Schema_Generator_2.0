@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "licAdminInput" : [
+         {
+            "featureKey" : "String",
+            "licensingAction" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2019-06-Session/licenseAdmin",
+   "OperationResponse" : "IServiceData"
+}

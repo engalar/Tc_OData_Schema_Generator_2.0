@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "structureMapIR" : "IModelObject",
+      "revRule" : "IModelObject",
+      "variantRule" : "IModelObject",
+      "rootIR" : "IModelObject",
+      "snapshotFolder" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Cae-2012-02-StructureManagement/executeStructureMap",
+   "OperationResponse" : {
+      "activityLog" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

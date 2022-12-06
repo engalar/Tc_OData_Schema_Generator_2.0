@@ -1,0 +1,45 @@
+{
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/getAssemblyStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "viewModelRows" : [
+         {
+            "assemblyStructure" : {
+               "displayName" : "String",
+               "levelIndex" : "int",
+               "nodeId" : "String",
+               "totalChildCount" : "int",
+               "thumbnailImageTicket" : "String",
+               "isLeafNode" : "bool",
+               "typeName" : "String"
+            },
+            "viewModelObject" : {
+               "modelObject" : "IModelObject",
+               "viewModelProperties" : [
+                  {
+                     "propInternalName" : "String",
+                     "propDisplayName" : "String",
+                     "isEditable" : "bool",
+                     "propUIValue" : "String",
+                     "propDBValue" : "String",
+                     "propDataType" : "String",
+                     "hasLOV" : "bool",
+                     "propParentBO" : "IModelObject"
+                  }
+               ]
+            }
+         }
+      ],
+      "totalFound" : "int",
+      "endIndex" : "int"
+   },
+   "OperationInput" : {
+      "input" : {
+         "companyContactUID" : "String",
+         "exchangeLineUID" : "String",
+         "level" : "int",
+         "structureInfoUID" : "String",
+         "parentUID" : "String"
+      }
+   }
+}

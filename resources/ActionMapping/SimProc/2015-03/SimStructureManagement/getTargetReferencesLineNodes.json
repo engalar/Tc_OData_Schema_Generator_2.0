@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "targetReferencesServiceData" : "IServiceData",
+      "targetReferencesLineNodes" : {
+         "hasMultipleRelations" : "bool",
+         "underlyingComponent" : "IModelObject",
+         "targetReferenceLine" : "IModelObject",
+         "isRelation" : "bool",
+         "childLines" : "CAE0::Soa::Internal::SimProc::_2015_03::SimStructureManagement::ParentToChildTargetReferenceStructure[]"
+      }
+   },
+   "ServiceOperation" : "Internal-SimProc-2015-03-SimStructureManagement/getTargetReferencesLineNodes",
+   "OperationInput" : {
+      "productConfigurationContext" : "IModelObject",
+      "modelConfigurationContext" : "IModelObject",
+      "targetReferenceLine" : "IModelObject",
+      "productCurrentLine" : "IModelObject"
+   }
+}

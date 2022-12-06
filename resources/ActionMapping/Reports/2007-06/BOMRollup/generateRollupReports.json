@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "dataset" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Reports-2007-06-BOMRollup/generateRollupReports",
+   "OperationInput" : {
+      "input" : [
+         {
+            "bomline" : "IModelObject",
+            "rollupTemplate" : "IModelObject",
+            "folder" : "IModelObject",
+            "description" : "String",
+            "clientId" : "String",
+            "name" : "String"
+         }
+      ]
+   }
+}

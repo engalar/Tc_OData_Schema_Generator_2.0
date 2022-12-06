@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "variantRuleInput" : [
+         {
+            "clientId" : "String",
+            "svrs" : "IModelObject[]",
+            "svrActionMode" : "int",
+            "window" : "IModelObject",
+            "variantRule" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2019-06-VariantManagement/getBOMVariantRules2",
+   "OperationResponse" : {
+      "variantRuleData" : [
+         {
+            "rules" : [
+               {
+                  "bomVariantOptionValueEntry" : [
+                     {
+                        "owningItem" : "IModelObject",
+                        "variantOptionValue" : [
+                           {
+                              "howSetInt" : "int",
+                              "howSet" : "String",
+                              "isConfiguredOptionValue" : "bool",
+                              "value" : "String",
+                              "whereSet" : "String",
+                              "index" : "int"
+                           }
+                        ],
+                        "optionName" : "String",
+                        "option" : "IModelObject",
+                        "optionDesc" : "String"
+                     }
+                  ],
+                  "variantRule" : "IModelObject",
+                  "svr" : "IModelObject",
+                  "isConstraintsEvaluated" : "bool",
+                  "isSVRModified" : "bool"
+               }
+            ],
+            "clientId" : "String",
+            "window" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

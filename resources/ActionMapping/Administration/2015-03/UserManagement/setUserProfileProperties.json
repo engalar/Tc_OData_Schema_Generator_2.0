@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "userProfileMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ]
+   },
+   "ServiceOperation" : "Administration-2015-03-UserManagement/setUserProfileProperties",
+   "OperationInput" : {
+      "userProfileInputs" : [
+         {
+            "propertyMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "user" : "IModelObject"
+         }
+      ]
+   }
+}

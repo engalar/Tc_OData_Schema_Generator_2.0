@@ -1,0 +1,33 @@
+{
+   "ServiceOperation" : "Internal-SubsCmplAW-2018-12-SubstanceCompliance/getComplianceResultDetails2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "complianceResultsDetails" : [
+         {
+            "complianceResultDetails" : [
+               {
+                  "regulation" : "IModelObject",
+                  "substanceExmptRelDetails" : [
+                     {
+                        "appliedExemptionRelations" : "IModelObject[]",
+                        "applicableExemptionRelations" : "IModelObject[]",
+                        "substanceOrSubsCategory" : "IModelObject",
+                        "isExemptionMandatory" : "bool"
+                     }
+                  ],
+                  "complianceResult" : "IModelObject"
+               }
+            ],
+            "sourceObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "getComplianceResultsDetailsInput" : [
+         {
+            "businessObject" : "IModelObject",
+            "regulations" : "IModelObject[]"
+         }
+      ]
+   }
+}

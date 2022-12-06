@@ -1,0 +1,72 @@
+{
+   "OperationResponse" : {
+      "clientID" : "String",
+      "reconcileConfigInfo" : {
+         "revRuleConfigEntriesAsStrings" : "String[]",
+         "revisionRule" : "IModelObject",
+         "configWindow" : "IModelObject",
+         "variantRules" : "IModelObject[]",
+         "configOptions" : [
+            {
+               "boolValues" : "bool[]",
+               "doubleValues" : "double[]",
+               "strValues" : "String[]",
+               "dateValues" : "Date[]",
+               "refValues" : "IModelObject[]",
+               "intValues" : "int[]",
+               "optionName" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData",
+      "percentComplete" : "double",
+      "finished" : "bool",
+      "origConfigInfo" : {
+         "configWindow" : "IModelObject",
+         "variantRules" : "IModelObject[]",
+         "revRuleConfigEntriesAsStrings" : "String[]",
+         "revisionRule" : "IModelObject",
+         "configOptions" : [
+            {
+               "optionName" : "String",
+               "refValues" : "IModelObject[]",
+               "intValues" : "int[]",
+               "dateValues" : "Date[]",
+               "strValues" : "String[]",
+               "doubleValues" : "double[]",
+               "boolValues" : "bool[]"
+            }
+         ]
+      },
+      "configurationMisMatch" : "bool",
+      "estimatedMVPsLeft" : "int",
+      "palMVPReconcileInfos" : [
+         {
+            "reconcileInfos" : [
+               {
+                  "reconcileAction" : "String",
+                  "reconcileReason" : "String",
+                  "reconcileActionEnum" : "String",
+                  "candidateMVP" : "IModelObject",
+                  "candidateStructNodeInfos" : [
+                     {
+                        "cloneStableIdChain" : "String[]",
+                        "structNode" : "IModelObject",
+                        "csIdContextOccurrence" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "paletteMVP" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2016-09-StructureManagement/continueReconcilePalette",
+   "OperationInput" : {
+      "reconcilePaletteInput" : {
+         "clientID" : "String",
+         "mvProxiesOrMvGroups" : "IModelObject[]",
+         "stopReconcile" : "bool"
+      }
+   }
+}

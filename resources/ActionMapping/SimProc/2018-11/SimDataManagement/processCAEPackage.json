@@ -1,0 +1,72 @@
+{
+   "OperationInput" : {
+      "bvrConfigList" : [
+         {
+            "selected" : "bool",
+            "childDescriptorList" : "String[]",
+            "parentDescriptor" : "String",
+            "bvrType" : "String"
+         }
+      ],
+      "detailsLogConfig" : {
+         "detailsLogDSName" : "String",
+         "persistDetailsLog" : "bool"
+      },
+      "datasetConfigList" : [
+         {
+            "descriptor" : "String",
+            "dsRelation" : "String",
+            "dsSource" : "String",
+            "dsType" : "String",
+            "dsName" : "String",
+            "selected" : "bool",
+            "dsUID" : "String"
+         }
+      ],
+      "configObject" : "IModelObject",
+      "destinationFolder" : {
+         "useSubFolder" : "bool",
+         "subFolderName" : "String",
+         "uid" : "String",
+         "pasteInputObject" : "bool"
+      },
+      "workflowConfig" : {
+         "processTemplateName" : "String",
+         "processAssignmentName" : "String"
+      },
+      "inputConfigList" : [
+         {
+            "inputBOMLine" : "IModelObject",
+            "uid" : "String",
+            "inputDescriptor" : "String",
+            "isBOMLine" : "bool"
+         }
+      ],
+      "outputConfigList" : [
+         {
+            "outputDescriptor" : "String",
+            "createData" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "compoundCreateObjectInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "boTypeName" : "String",
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "compoundCreateObjectInput" : "CAE0::Soa::Internal::SimProc::_2018_11::SimDataManagement::Cae0CreateObjectInputMap"
+                     }
+                  ]
+               },
+               "boTypeName" : "String"
+            },
+            "outputType" : "String",
+            "selected" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SimProc-2018-11-SimDataManagement/processCAEPackage"
+}

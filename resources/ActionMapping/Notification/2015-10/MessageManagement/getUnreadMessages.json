@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "messages" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Notification-2015-10-MessageManagement/getUnreadMessages"
+}

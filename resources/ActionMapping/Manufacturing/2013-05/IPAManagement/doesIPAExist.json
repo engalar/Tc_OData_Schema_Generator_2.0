@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "processWindow" : "IModelObject"
+   },
+   "ServiceOperation" : "Manufacturing-2013-05-IPAManagement/doesIPAExist",
+   "OperationResponse" : {
+      "isIPAExist" : "bool",
+      "serviceData" : "IServiceData",
+      "configFileTicket" : {
+         "fileName" : "String",
+         "fileTicket" : "String"
+      }
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "type" : "String",
+            "name" : "String",
+            "certifiStatus" : "String",
+            "itemId" : "String",
+            "vendorStatus" : "String",
+            "revId" : "String",
+            "description" : "String",
+            "clientId" : "String",
+            "roleType" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Vendormanagement-2007-06-VendorManagement/deleteVendors"
+}

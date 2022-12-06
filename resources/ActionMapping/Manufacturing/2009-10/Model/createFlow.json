@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Manufacturing-2009-10-Model/createFlow",
+   "OperationResponse" : {
+      "flowsResult" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "successor" : "IModelObject",
+            "delay" : "double",
+            "predecessor" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "currentStepUid" : "String",
+            "workPackageUid" : "String",
+            "configParamsMap" : {
+               "SampleKeyString" : "String"
+            },
+            "loadHeaderProperties" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Ewia-2015-03-DataManagement/loadWorkPackageDataConfigured",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "workPackageDataInfo" : [
+         {
+            "headerProperties" : [
+               {
+                  "propertyValue" : "String",
+                  "propertyName" : "String"
+               }
+            ],
+            "workPackage" : "IModelObject",
+            "nextStepUid" : "String",
+            "previousStepUid" : "String",
+            "currentStep" : "IModelObject"
+         }
+      ]
+   }
+}

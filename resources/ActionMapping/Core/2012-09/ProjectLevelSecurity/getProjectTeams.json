@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "projectObjs" : [
+         {
+            "tcProject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "projectTeams" : [
+         {
+            "project" : "IModelObject",
+            "privMembers" : "IModelObject[]",
+            "regularMembers" : "IModelObject[]",
+            "projectTeamAdmins" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2012-09-ProjectLevelSecurity/getProjectTeams"
+}

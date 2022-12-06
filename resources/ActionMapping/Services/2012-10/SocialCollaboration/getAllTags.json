@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {
+      "tagNames" : "String[]",
+      "success" : "bool",
+      "msg" : "String"
+   },
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/getAllTags",
+   "OperationInput" : {
+      "startsWith" : "String"
+   }
+}

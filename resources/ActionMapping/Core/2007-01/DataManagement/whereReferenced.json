@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "inputObject" : "IModelObject",
+            "info" : [
+               {
+                  "referencer" : "IModelObject",
+                  "level" : "int",
+                  "relation" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2007-01-DataManagement/whereReferenced",
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "numLevels" : "int"
+   }
+}

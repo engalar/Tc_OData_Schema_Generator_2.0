@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "expandToSelection" : "bool",
+      "savedBookmarks" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "bomWindowsAndSelections" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "selections" : [
+                     {
+                        "selectionPath" : "IModelObject[]"
+                     }
+                  ],
+                  "bomWindow" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ActiveWorkspaceBom-2015-10-OccurrenceManagementCad/createBOMWindowsFromBookmarks"
+}

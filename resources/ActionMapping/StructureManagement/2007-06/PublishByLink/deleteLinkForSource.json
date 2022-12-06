@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "StructureManagement-2007-06-PublishByLink/deleteLinkForSource",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "sources" : "IModelObject[]"
+   }
+}

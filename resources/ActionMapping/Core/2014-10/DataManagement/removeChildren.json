@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "clientId" : "String",
+            "parentObj" : "IModelObject",
+            "propertyName" : "String",
+            "childrenObj" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2014-10-DataManagement/removeChildren",
+   "OperationResponse" : "IServiceData"
+}

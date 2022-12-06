@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "specification" : "IModelObject",
+      "libraries" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/attachSpecificationToLibraries"
+}

@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "tickets" : [
+         {
+            "ticket" : "String",
+            "locale" : "String"
+         }
+      ],
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ImportExport-2010-04-L10NImportExport/importTranslations",
+   "OperationInput" : {
+      "fileInfo" : [
+         {
+            "localizationStatus" : "String",
+            "transientFileTicket" : "String"
+         }
+      ]
+   }
+}

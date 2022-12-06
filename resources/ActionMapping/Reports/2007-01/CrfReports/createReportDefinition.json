@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "reportdefinition" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Reports-2007-01-CrfReports/createReportDefinition",
+   "OperationInput" : {
+      "reportProperties" : {
+         "rdType" : "int",
+         "rdState" : "int",
+         "rdClass" : "String",
+         "rdValues" : "String[]",
+         "rdStylesheets" : "IModelObject[]",
+         "rdQuerySource" : "String",
+         "rdPropertySource" : "String",
+         "rdSource" : "String",
+         "rdFolderName" : "String",
+         "rdEntries" : "String[]",
+         "rdDescription" : "String",
+         "rdName" : "String",
+         "rdId" : "String"
+      }
+   }
+}

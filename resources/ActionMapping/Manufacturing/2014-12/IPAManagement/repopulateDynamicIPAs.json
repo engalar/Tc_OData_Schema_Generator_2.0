@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "topLine" : "IModelObject",
+         "ids" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "dynamicIPAsData" : [
+         {
+            "bopLine" : "IModelObject",
+            "dynamicIPAsInfo" : [
+               {
+                  "dynamicIPA" : "IModelObject",
+                  "consumedParts" : [
+                     {
+                        "referencedPart" : "IModelObject",
+                        "consumedPart" : "IModelObject",
+                        "occInformation" : {
+                           "SampleKeyString" : "String"
+                        }
+                     }
+                  ],
+                  "occInformation" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2014-12-IPAManagement/repopulateDynamicIPAs"
+}

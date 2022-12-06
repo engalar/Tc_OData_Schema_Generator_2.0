@@ -1,0 +1,36 @@
+{
+   "ServiceOperation" : "Internal-CpMgmt-2019-06-CpMgmt/getViewModelRows",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "viewModelRows" : [
+         {
+            "modelObject" : "IModelObject",
+            "viewModelProperties" : [
+               {
+                  "isEditable" : "bool",
+                  "propDisplayName" : "String",
+                  "propInternalName" : "String",
+                  "propParentBO" : "IModelObject",
+                  "lovValueProvider" : "String",
+                  "hasLOV" : "bool",
+                  "isModifiable" : "bool",
+                  "propDBValue" : "String",
+                  "propDataType" : "String",
+                  "propUIValue" : "String"
+               }
+            ]
+         }
+      ],
+      "totalFound" : "int",
+      "endIndex" : "int"
+   },
+   "OperationInput" : {
+      "input" : {
+         "providerName" : "String",
+         "sourceObjects" : "IModelObject[]",
+         "startIndex" : "int",
+         "columnConfigId" : "String",
+         "pageSize" : "int"
+      }
+   }
+}

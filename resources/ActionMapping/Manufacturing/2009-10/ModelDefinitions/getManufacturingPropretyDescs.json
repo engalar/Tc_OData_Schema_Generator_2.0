@@ -1,0 +1,39 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "inputTypeNameToPropDescOutput" : {
+         "SampleKeyString" : [
+            {
+               "propName" : "String",
+               "propertyDesc" : {
+                  "isDisplayable" : "bool",
+                  "lov" : "IModelObject",
+                  "attachedSpecifier" : "int",
+                  "maxNumElems" : "int",
+                  "propType" : "int",
+                  "namingPatterns" : "String[]",
+                  "propName" : "String",
+                  "isArray" : "bool",
+                  "defaultValue" : "String",
+                  "isEnabled" : "bool",
+                  "interdependentProps" : "String[]",
+                  "maxLength" : "int",
+                  "isRequired" : "bool",
+                  "isModifiable" : "bool",
+                  "displayName" : "String",
+                  "propValueType" : "int"
+               }
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-ModelDefinitions/getManufacturingPropretyDescs",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "propNames" : "String[]",
+            "typeName" : "String"
+         }
+      ]
+   }
+}

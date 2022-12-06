@@ -1,0 +1,61 @@
+{
+   "OperationResponse" : {
+      "partsInProximityOut" : [
+         {
+            "featureToPartsInProximity" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "additionalInfoOut" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "proximityDistance" : "double"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2019-06-StructureSearch/searchPartsInProximityOfMFGFeatures",
+   "OperationInput" : {
+      "criteriaInput" : [
+         {
+            "mfgFeatureLines" : "IModelObject[]",
+            "proximityDistance" : "double",
+            "additionalInfoIn" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            }
+         }
+      ]
+   }
+}

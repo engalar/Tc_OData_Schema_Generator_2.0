@@ -1,0 +1,41 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "objectUids" : "String[]",
+         "columnConfigInput" : {
+            "columnsToExclude" : "String[]",
+            "operationType" : "String",
+            "clientScopeURI" : "String",
+            "clientName" : "String",
+            "hostingClientName" : "String"
+         },
+         "requestPreference" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-12-DataManagement/getTableViewModelProperties",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : {
+         "viewModelPropertiesJsonString" : "String",
+         "columnConfig" : {
+            "typesForArrange" : "String[]",
+            "columnConfigId" : "String",
+            "columns" : [
+               {
+                  "sortPriority" : "int",
+                  "propertyName" : "String",
+                  "associatedTypeName" : "String",
+                  "pixelWidth" : "int",
+                  "displayName" : "String",
+                  "hiddenFlag" : "bool",
+                  "columnOrder" : "int",
+                  "sortDirection" : "String"
+               }
+            ],
+            "operationType" : "String"
+         }
+      }
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "inputObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-SimProc-2016-10-SimStructureManagement/getFileDetails",
+   "OperationResponse" : {
+      "itemRevisions" : "IModelObject[]",
+      "fileToDatasetMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ],
+      "fileToItemRevisionMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "files" : "IModelObject[]"
+   }
+}

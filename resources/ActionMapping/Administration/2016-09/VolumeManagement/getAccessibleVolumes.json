@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-Administration-2016-09-VolumeManagement/getAccessibleVolumes",
+   "OperationResponse" : {
+      "defaultLocalVolume" : "IModelObject",
+      "accessibleVolumes" : "IModelObject[]",
+      "defaultVolume" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "user" : "IModelObject",
+      "group" : "IModelObject"
+   }
+}

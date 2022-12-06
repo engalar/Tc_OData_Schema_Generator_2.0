@@ -1,0 +1,53 @@
+{
+   "OperationInput" : {
+      "newSchedules" : [
+         {
+            "published" : "bool",
+            "name" : "String",
+            "typedAttributesContainer" : [
+               {
+                  "attributes" : [
+                     {
+                        "type" : "int",
+                        "value" : "String",
+                        "key" : "String"
+                     }
+                  ],
+                  "type" : "String"
+               }
+            ],
+            "priority" : "int",
+            "billSubCode" : "String",
+            "billRate" : "IModelObject",
+            "stringValueContainer" : [
+               {
+                  "type" : "int",
+                  "value" : "String",
+                  "key" : "String"
+               }
+            ],
+            "isTemplate" : "bool",
+            "startDate" : "Date",
+            "notificationsEnabled" : "bool",
+            "isPublic" : "bool",
+            "customerName" : "String",
+            "finishDate" : "Date",
+            "description" : "String",
+            "percentLinked" : "bool",
+            "customerNumber" : "String",
+            "type" : "String",
+            "taskFixedType" : "int",
+            "status" : "int",
+            "billCode" : "String",
+            "revID" : "String",
+            "id" : "String",
+            "billType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2008-06-ScheduleManagement/createSchedule",
+   "OperationResponse" : {
+      "schedules" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

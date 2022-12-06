@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "tagsAsString" : "String",
+         "clientInfo" : {
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "out" : {
+         "found" : "bool",
+         "idsmSiteId" : "int",
+         "owningSiteId" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm1LocateObjectSvc"
+}

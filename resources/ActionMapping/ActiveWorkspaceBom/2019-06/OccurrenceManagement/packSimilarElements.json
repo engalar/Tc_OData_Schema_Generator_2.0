@@ -1,0 +1,132 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "elements" : "IModelObject[]",
+         "inputCtxt" : {
+            "pageSize" : "int",
+            "filterIn" : {
+               "searchFilterFieldSortType" : "String",
+               "fetchUpdatedFilters" : "bool",
+               "searchSortCriteria" : [
+                  {
+                     "fieldName" : "String",
+                     "sortDirection" : "String"
+                  }
+               ],
+               "searchFilterMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "startEndRange" : "String",
+                        "selected" : "bool",
+                        "count" : "int",
+                        "endDateValue" : "Date",
+                        "hasChildren" : "bool",
+                        "searchFilterType" : "String",
+                        "stringValue" : "String",
+                        "startNumericValue" : "double",
+                        "endNumericValue" : "double",
+                        "stringDisplayValue" : "String",
+                        "startDateValue" : "Date"
+                     }
+                  ]
+               },
+               "recipe" : [
+                  {
+                     "criteriaValues" : "String[]",
+                     "criteriaOperatorType" : "String",
+                     "criteriaDisplayValue" : "String",
+                     "criteriaType" : "String",
+                     "subCriteria" : "Awb0::Soa::Internal::ActiveWorkspaceBom::_2015_07::OccurrenceManagement::Criteria[]"
+                  }
+               ],
+               "searchFilterCategories" : [
+                  {
+                     "isMultiSelect" : "bool",
+                     "isHierarchical" : "bool",
+                     "quickSearchable" : "bool",
+                     "displayName" : "String",
+                     "internalName" : "String",
+                     "categoryType" : "String",
+                     "editable" : "bool",
+                     "defaultFilterValueDisplayCount" : "int"
+                  }
+               ]
+            },
+            "productContext" : "IModelObject",
+            "changeContext" : "IModelObject",
+            "configuration" : {
+               "effectivityDate" : "Date",
+               "effectivityRanges" : [
+                  {
+                     "dateIn" : "Date",
+                     "unitOut" : "int",
+                     "dateOut" : "Date",
+                     "unitIn" : "int"
+                  }
+               ],
+               "variantRule" : "IModelObject",
+               "unitNo" : "int",
+               "revisionRule" : "IModelObject",
+               "svrOwningProduct" : "IModelObject",
+               "endItem" : "IModelObject",
+               "now" : "bool"
+            },
+            "requestPref" : {
+               "SampleKeyString" : "String[]"
+            },
+            "occurrenceScheme" : "IModelObject"
+         },
+         "packMode" : "int",
+         "sortCriteria" : {
+            "propertyName" : "String",
+            "sortingOrder" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-06-OccurrenceManagement/packSimilarElements",
+   "OperationResponse" : {
+      "parentChildrenInfos" : [
+         {
+            "childrenInfo" : [
+               {
+                  "displayName" : "String",
+                  "underlyingObjectType" : "String",
+                  "occurrence" : "IModelObject",
+                  "occurrenceId" : "String",
+                  "numberOfChildren" : "int",
+                  "stableId" : "String"
+               }
+            ],
+            "parentInfo" : {
+               "occurrence" : "IModelObject",
+               "displayName" : "String",
+               "underlyingObjectType" : "String",
+               "stableId" : "String",
+               "occurrenceId" : "String",
+               "numberOfChildren" : "int"
+            },
+            "cursor" : {
+               "endOccUid" : "String",
+               "endReached" : "bool",
+               "startOccUid" : "String",
+               "cursorData" : "String[]",
+               "startReached" : "bool",
+               "pageSize" : "int",
+               "endIndex" : "int",
+               "startIndex" : "int"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "elementsToBeSelected" : [
+         {
+            "occurrence" : "IModelObject",
+            "displayName" : "String",
+            "underlyingObjectType" : "String",
+            "stableId" : "String",
+            "numberOfChildren" : "int",
+            "occurrenceId" : "String"
+         }
+      ]
+   }
+}

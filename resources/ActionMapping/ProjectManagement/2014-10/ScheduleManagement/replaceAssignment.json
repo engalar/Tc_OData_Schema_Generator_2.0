@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createdObjects" : "IModelObject[]",
+      "updatedTasks" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ProjectManagement-2014-10-ScheduleManagement/replaceAssignment",
+   "OperationInput" : {
+      "schedule" : "IModelObject",
+      "newAssignments" : [
+         {
+            "discipline" : "IModelObject",
+            "task" : "IModelObject",
+            "assignedPercent" : "double",
+            "resource" : "IModelObject"
+         }
+      ],
+      "assignmentDeletes" : "IModelObject[]"
+   }
+}

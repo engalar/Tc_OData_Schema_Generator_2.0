@@ -1,0 +1,30 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "statusData" : [
+         {
+            "assignedToObjects" : "IModelObject[]",
+            "status" : "String[]"
+         }
+      ],
+      "data" : [
+         {
+            "oldAssignmentType" : "IModelObject",
+            "reassignedObject" : "IModelObject",
+            "newAssignmentType" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Process-2017-05-Assignment/reassignObjects",
+   "OperationInput" : {
+      "input" : [
+         {
+            "unassignFrom" : "IModelObject",
+            "currentAssignmentType" : "IModelObject",
+            "assignTo" : "IModelObject",
+            "newAssignmentType" : "IModelObject",
+            "assignedObject" : "IModelObject"
+         }
+      ]
+   }
+}

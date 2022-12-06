@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-SupplierCollaboration-2017-11-SupplierCollaboration/cancelModificationRights2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "itemRevisions" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "input" : {
+         "operationType" : "String",
+         "exchangeLine" : "IModelObject",
+         "itemRevisions" : "IModelObject[]",
+         "companyContact" : "IModelObject"
+      },
+      "includeChildren" : "bool"
+   }
+}

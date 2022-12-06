@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "values" : "String[]",
+      "jobID" : "String",
+      "attributes" : "String[]"
+   },
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "SimProc-2013-05-SimProcessStatusManagement/updateSimProcessStatus"
+}

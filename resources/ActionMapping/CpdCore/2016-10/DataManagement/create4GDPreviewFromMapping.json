@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "mappingDataset" : "IModelObject",
+         "revisionRule" : "IModelObject",
+         "previewInputMap" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "fileTicket" : {
+         "ticket" : "String",
+         "filename" : "String"
+      },
+      "previewDatasets" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "CpdCore-2016-10-DataManagement/create4GDPreviewFromMapping"
+}

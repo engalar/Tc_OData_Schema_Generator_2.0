@@ -1,0 +1,69 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2017-11-StructureManagement/pasteByRule",
+   "OperationResponse" : {
+      "additionalInfo" : {
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToDoubleVectorMap" : {
+            "SampleKeyString" : "double[]"
+         }
+      },
+      "serviceData" : "IServiceData",
+      "createdLines" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "inputInfo" : {
+         "additionalInfo" : {
+            "strToDoubleVectorMap" : {
+               "SampleKeyString" : "double[]"
+            },
+            "strToStrVectorMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "strToObjVectorMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "strToIntVectorMap" : {
+               "SampleKeyString" : "int[]"
+            },
+            "strToDateVectorMap" : {
+               "SampleKeyString" : "Date[]"
+            }
+         },
+         "sourceTargetLineInfo" : [
+            {
+               "targetLine" : "IModelObject",
+               "sourceLine" : "IModelObject",
+               "additionalInfo" : {
+                  "strToDateVectorMap" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "strToObjVectorMap" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "strToIntVectorMap" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "strToStrVectorMap" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "strToDoubleVectorMap" : {
+                     "SampleKeyString" : "double[]"
+                  }
+               }
+            }
+         ],
+         "targetLine" : "IModelObject"
+      }
+   }
+}

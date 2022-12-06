@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-12-SupplierCollaboration/updateRespondents",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "vendorContacts" : "IModelObject[]",
+            "lineItemObject" : "IModelObject",
+            "clientID" : "String",
+            "operation" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "context" : "IModelObject",
+            "designInstancesFor4G" : [
+               {
+                  "isPreciseLink" : "bool",
+                  "designInstanceFor4G" : "IModelObject"
+               }
+            ],
+            "unlinkAllAssociatedDesignInstances" : "bool",
+            "clientId" : "String",
+            "bvrDesignInstances" : [
+               {
+                  "instanceOccThreadPath" : "String",
+                  "assemblyDetails" : {
+                     "configData" : "IModelObject",
+                     "toplineObject" : "IModelObject"
+                  },
+                  "configuredObject" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2020-12-MultiDisciplinaryDataMgt/unlink4GAndBVRDesignInstances",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "instanceLinkingObject" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

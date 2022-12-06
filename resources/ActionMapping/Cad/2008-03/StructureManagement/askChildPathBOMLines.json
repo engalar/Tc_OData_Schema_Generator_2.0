@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Cad-2008-03-StructureManagement/askChildPathBOMLines",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "parentBomLine" : "IModelObject",
+            "useAsStable" : "bool",
+            "childPaths" : [
+               {
+                  "childPath" : "String[]",
+                  "clientId" : "String"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   }
+}

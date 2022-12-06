@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "releaseStatus" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Notification-2015-03-SubscriptionManagement/getAssignEventData",
+   "OperationInput" : {}
+}

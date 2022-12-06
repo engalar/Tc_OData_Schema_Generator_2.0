@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "reportDefinitionUID" : "String",
+            "parentFolderUID" : "String",
+            "searchFolderAccessors" : [
+               {
+                  "groupUID" : "String",
+                  "roleUID" : "String",
+                  "userUID" : "String"
+               }
+            ],
+            "searchFolderAttributes" : {
+               "SampleKeyString" : "String[]"
+            },
+            "searchFolderUID" : "String",
+            "searchCriteria" : [
+               {
+                  "criteriaName" : "String",
+                  "criteriaValues" : "String[]"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Search-2020-12-SearchFolder/createOrEditSearchFolders",
+   "OperationResponse" : {
+      "searchFolders" : [
+         {
+            "reportDefinition" : "IModelObject",
+            "searchFolder" : "IModelObject",
+            "searchFolderAttributes" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

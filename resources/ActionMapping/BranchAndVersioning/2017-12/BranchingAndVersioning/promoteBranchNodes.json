@@ -1,0 +1,50 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "newNodeList" : [
+         {
+            "edges" : [
+               {
+                  "startNode" : "IModelObject",
+                  "endNode" : "IModelObject",
+                  "edgeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "edgeType" : "String",
+                  "edgeObject" : "IModelObject"
+               }
+            ],
+            "newObjects" : "IModelObject[]",
+            "branchNodes" : [
+               {
+                  "tupleNode" : "IModelObject",
+                  "nodeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "branchNode" : "IModelObject"
+               }
+            ],
+            "clientID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-BranchAndVersioning-2017-12-BranchingAndVersioning/promoteBranchNodes",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientID" : "String",
+            "config" : {
+               "SampleKeyString" : "String"
+            },
+            "promoteComment" : {
+               "propMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String"
+            },
+            "targetBranch" : "IModelObject",
+            "promoteNodeObjects" : "IModelObject[]"
+         }
+      ]
+   }
+}

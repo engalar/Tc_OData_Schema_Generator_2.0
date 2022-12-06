@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "names" : "String[]"
+   },
+   "ServiceOperation" : "Workflow-2008-06-Workflow/getAssignmentLists",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "ownedLists" : "IModelObject[]",
+      "otherLists" : "IModelObject[]",
+      "assignedLists" : "IModelObject[]",
+      "groupLists" : "IModelObject[]"
+   }
+}

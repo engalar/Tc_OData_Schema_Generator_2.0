@@ -1,0 +1,71 @@
+{
+   "ServiceOperation" : "Internal-MultiBomManager-2020-05-MultiBOMChangeMgmt/getAssignmentAndMismatchStatus",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "eBOMElementsStatus" : {
+         "SampleKeyString" : {
+            "equivalentElements" : "String[]",
+            "status" : "int"
+         }
+      },
+      "changeRecordsStatus" : [
+         {
+            "changeRecord" : {
+               "occurrence" : "String",
+               "parentRev" : "String",
+               "childRev" : "String",
+               "changeType" : "int"
+            },
+            "status" : {
+               "equivalentElements" : "String[]",
+               "status" : "int"
+            }
+         }
+      ],
+      "mBOMElementsStatus" : {
+         "SampleKeyString" : {
+            "status" : "int",
+            "equivalentElements" : "String[]"
+         }
+      }
+   },
+   "OperationInput" : {
+      "input" : {
+         "mBOMInfo" : {
+            "configInfo" : "IModelObject",
+            "objectsToProcess" : "String[]",
+            "scopeObject" : "IModelObject"
+         },
+         "changeNoticeInfo" : {
+            "changeRecords" : [
+               {
+                  "changeType" : "int",
+                  "childRev" : "String",
+                  "occurrence" : "String",
+                  "parentRev" : "String"
+               }
+            ],
+            "changeNoticeRev" : "IModelObject"
+         },
+         "eBOMInfo" : {
+            "objectsToProcess" : "String[]",
+            "configInfo" : "IModelObject",
+            "scopeObject" : "IModelObject"
+         },
+         "acCriteria" : {
+            "strBoolMap" : {
+               "SampleKeyString" : "bool"
+            },
+            "strStrVecMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "strIntVecMap" : {
+               "SampleKeyString" : "int[]"
+            },
+            "strObjVecMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "attributes" : "String[]",
+      "objects" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "output" : {
+         "propDescriptors" : [
+            {
+               "isArray" : "bool",
+               "displayName" : "String",
+               "propertyType" : "int",
+               "valueType" : "int",
+               "lovCategory" : "int",
+               "srcObjectTypeName" : "String",
+               "propConstants" : {
+                  "SampleKeyString" : "String"
+               },
+               "lov" : "IModelObject",
+               "maxArraySize" : "int",
+               "maxLength" : "int",
+               "propertyName" : "String"
+            }
+         ],
+         "objects" : [
+            {
+               "viewModelProperties" : [
+                  {
+                     "uiValues" : "String[]",
+                     "dbValues" : "String[]",
+                     "isModifiable" : "bool",
+                     "intermediateObjectUids" : "String[]",
+                     "propertyName" : "String",
+                     "srcObjLsd" : "Date"
+                  }
+               ],
+               "modelObject" : "IModelObject"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-06-DataManagement/getViewModelProperties"
+}

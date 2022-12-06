@@ -1,0 +1,88 @@
+{
+   "OperationResponse" : {
+      "formSheetRows" : [
+         {
+            "formSheetCellsVal" : [
+               {
+                  "count" : "int",
+                  "cellVal" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "totalRowsFound" : "int",
+      "cursor" : {
+         "startReached" : "bool",
+         "endReached" : "bool",
+         "startIndex" : "int",
+         "endIndex" : "int",
+         "selectedObject" : {
+            "colIndex" : "int",
+            "cellObject" : "IModelObject"
+         },
+         "pageSize" : "int"
+      },
+      "fmeaRootNode" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "filter" : {
+         "formSheetFilterCriteria" : [
+            {
+               "criteriaOperatorType" : "String",
+               "searchFilterCategory" : {
+                  "stringValue" : "String",
+                  "searchFilterType" : "String",
+                  "endDateValue" : "Date",
+                  "count" : "int",
+                  "startDateValue" : "Date",
+                  "endNumericValue" : "double",
+                  "startNumericValue" : "double"
+               },
+               "propertyName" : "String",
+               "objectType" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-FmeaManager-2019-12-FMEADataManagement/getFormSheetData",
+   "OperationInput" : {
+      "inputData" : {
+         "cursor" : {
+            "startReached" : "bool",
+            "endReached" : "bool",
+            "endIndex" : "int",
+            "startIndex" : "int",
+            "pageSize" : "int",
+            "selectedObject" : {
+               "colIndex" : "int",
+               "cellObject" : "IModelObject"
+            }
+         },
+         "sortCriteria" : {
+            "propertyName" : "String",
+            "sortDirection" : "String",
+            "objectType" : "String"
+         },
+         "fmeaObject" : "IModelObject",
+         "clientId" : "String",
+         "filter" : {
+            "formSheetFilterCriteria" : [
+               {
+                  "objectType" : "String",
+                  "propertyName" : "String",
+                  "searchFilterCategory" : {
+                     "searchFilterType" : "String",
+                     "stringValue" : "String",
+                     "endDateValue" : "Date",
+                     "startDateValue" : "Date",
+                     "count" : "int",
+                     "startNumericValue" : "double",
+                     "endNumericValue" : "double"
+                  },
+                  "criteriaOperatorType" : "String"
+               }
+            ],
+            "fetchUpdatedFilters" : "bool"
+         }
+      }
+   }
+}

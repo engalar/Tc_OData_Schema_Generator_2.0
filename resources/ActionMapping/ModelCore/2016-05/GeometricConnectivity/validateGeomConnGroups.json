@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "configContext" : "IModelObject",
+      "validateGroupInfos" : [
+         {
+            "end" : "IModelObject",
+            "start" : "IModelObject",
+            "geomGroup" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ModelCore-2016-05-GeometricConnectivity/validateGeomConnGroups",
+   "OperationResponse" : {
+      "validationMap" : {
+         "SampleKeyString" : {
+            "incompleteElements" : "IModelObject[]",
+            "validationStatus" : "INVALID COMPLETE VALID",
+            "invalidElements" : "IModelObject[]"
+         }
+      },
+      "serviceData" : "IServiceData"
+   }
+}

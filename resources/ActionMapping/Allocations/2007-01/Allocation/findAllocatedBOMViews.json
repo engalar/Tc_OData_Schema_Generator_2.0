@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "bomView" : "IModelObject"
+   },
+   "ServiceOperation" : "Allocations-2007-01-Allocation/findAllocatedBOMViews",
+   "OperationResponse" : {
+      "allocatedBOMViewInfo" : [
+         {
+            "allocationMap" : "IModelObject",
+            "allocatedBOMViewObjects" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

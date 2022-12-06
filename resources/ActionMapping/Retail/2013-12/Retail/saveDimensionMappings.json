@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "saveDimensionMappingInfos" : [
+         {
+            "dimensionMappings" : [
+               {
+                  "childDimensionValue" : {
+                     "internalValue" : "String",
+                     "displayValue" : "String",
+                     "isActive" : "bool",
+                     "dimensionName" : "String",
+                     "dimensionType" : "String"
+                  },
+                  "childBomLine" : "String",
+                  "parentDimensionValue" : {
+                     "isActive" : "bool",
+                     "dimensionName" : "String",
+                     "dimensionType" : "String",
+                     "internalValue" : "String",
+                     "displayValue" : "String"
+                  },
+                  "parentBomLine" : "String"
+               }
+            ],
+            "topBOMLineUID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2013-12-Retail/saveDimensionMappings",
+   "OperationResponse" : {
+      "servideData" : "IServiceData"
+   }
+}

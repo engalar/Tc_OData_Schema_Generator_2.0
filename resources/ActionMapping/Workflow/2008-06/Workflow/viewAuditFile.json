@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "isSignoffReport" : "bool",
+      "auditedObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Workflow-2008-06-Workflow/viewAuditFile",
+   "OperationResponse" : {
+      "auditFiles" : "String[]",
+      "serviceData" : "IServiceData"
+   }
+}

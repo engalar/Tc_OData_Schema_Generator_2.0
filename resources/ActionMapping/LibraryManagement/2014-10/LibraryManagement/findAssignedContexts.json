@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryManagement/findAssignedContexts",
+   "OperationResponse" : {
+      "assignedContexts" : [
+         {
+            "contexts" : [
+               {
+                  "context" : "IModelObject",
+                  "isOwningContext" : "bool"
+               }
+            ],
+            "library" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "libraries" : "IModelObject[]"
+   }
+}

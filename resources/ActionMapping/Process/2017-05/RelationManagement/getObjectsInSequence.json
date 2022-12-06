@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "sourceObject" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "output" : {
+         "objects" : "IModelObject[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-RelationManagement/getObjectsInSequence"
+}

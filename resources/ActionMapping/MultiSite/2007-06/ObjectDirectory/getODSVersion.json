@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "clientInfo" : {
+         "osUserName" : "String",
+         "clientMinorReleaseVersion" : "int",
+         "clientNode" : "String",
+         "userId" : "String",
+         "clientOdsMajorVersion" : "int",
+         "clientReleaseVersion" : "int",
+         "clientMaintPackVersion" : "int",
+         "roleName" : "String",
+         "clientSiteId" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "clientOdsMinorVersion" : "int",
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serverOdsMajorVersion" : "int",
+      "serviceData" : "IServiceData",
+      "serverMaintPackVersion" : "int",
+      "serverServiceReleaseVersion" : "int",
+      "clientRejected" : "bool",
+      "serverOdsMinorVersion" : "int",
+      "serverReleaseVersion" : "int",
+      "serverMinorReleaseVersion" : "int"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-ObjectDirectory/getODSVersion"
+}

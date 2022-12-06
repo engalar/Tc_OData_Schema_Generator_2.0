@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "transferModeName" : "String",
+      "serverMode" : "int",
+      "config" : {
+         "rulename" : "String",
+         "id" : "IModelObject",
+         "useDefaultRevisionRule" : "bool"
+      },
+      "idsToProcess" : [
+         {
+            "label" : "String",
+            "version" : "String",
+            "application" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "ticket" : "String",
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/generateStructure"
+}

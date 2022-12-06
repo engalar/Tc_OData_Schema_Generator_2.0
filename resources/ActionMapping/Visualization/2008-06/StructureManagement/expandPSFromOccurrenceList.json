@@ -1,0 +1,97 @@
+{
+   "ServiceOperation" : "Internal-Visualization-2008-06-StructureManagement/expandPSFromOccurrenceList",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "occurrenceList" : [
+               {
+                  "occurrenceList" : [
+                     {
+                        "clientId" : "String",
+                        "occurrenceChain" : [
+                           {
+                              "bomLine" : "IModelObject",
+                              "objectOfBOMLine" : "IModelObject",
+                              "relatedObjects" : [
+                                 {
+                                    "namedRefList" : [
+                                       {
+                                          "namedReferenceName" : "String",
+                                          "referenceObject" : "IModelObject",
+                                          "fileTicket" : "String",
+                                          "namedReferenceType" : "String"
+                                       }
+                                    ],
+                                    "relatedObject" : "IModelObject"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "clientId" : "String",
+                  "parent" : {
+                     "bomLine" : "IModelObject",
+                     "parentRelatedObjects" : [
+                        {
+                           "namedRefList" : [
+                              {
+                                 "referenceObject" : "IModelObject",
+                                 "namedReferenceName" : "String",
+                                 "fileTicket" : "String",
+                                 "namedReferenceType" : "String"
+                              }
+                           ],
+                           "relatedObject" : "IModelObject"
+                        }
+                     ],
+                     "objectOfBOMLine" : "IModelObject"
+                  }
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "info" : [
+         {
+            "occurrences" : [
+               {
+                  "occurrenceChainsByParent" : [
+                     {
+                        "clientId" : "String",
+                        "occurrenceList" : [
+                           {
+                              "occurrenceChainStr" : "String[]",
+                              "clientId" : "String"
+                           }
+                        ],
+                        "parentBomLine" : "IModelObject"
+                     }
+                  ],
+                  "attributeNames" : "String[]",
+                  "clientId" : "String"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "pref" : {
+         "wantDatasets" : "bool",
+         "info" : [
+            {
+               "relationName" : "String",
+               "namedRefHandler" : "UseNamedRefsList NoNamedRefs AllNamedRefs PreferredJT",
+               "relatedObjAndNamedRefs" : [
+                  {
+                     "namedReferenceNames" : "String[]",
+                     "relationTypeName" : "String"
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

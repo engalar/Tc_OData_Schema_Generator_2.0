@@ -1,0 +1,492 @@
+{
+   "OperationResponse" : {
+      "clsBlockDescriptors" : {
+         "SampleKeyString" : {
+            "properties" : [
+               {
+                  "values" : [
+                     {
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     }
+                  ],
+                  "propertyName" : "String",
+                  "propertyId" : "String"
+               }
+            ],
+            "documents" : [
+               {
+                  "documentType" : "String",
+                  "originalFileName" : "String",
+                  "ticket" : "String"
+               }
+            ],
+            "options" : "int",
+            "childCount" : "int",
+            "attributes" : [
+               {
+                  "attributeId" : "String",
+                  "attributeProperties" : [
+                     {
+                        "propertyId" : "String",
+                        "propertyName" : "String",
+                        "values" : [
+                           {
+                              "internalValue" : "String",
+                              "displayValue" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "options" : "int",
+                  "attributeKeyLOVDef" : {
+                     "keyLOVOptions" : "int",
+                     "keyLOVEntries" : [
+                        {
+                           "keyLOVValue" : "String",
+                           "isDeprecated" : "bool",
+                           "keyLOVkey" : "String"
+                        }
+                     ],
+                     "owningSite" : "IModelObject",
+                     "keyLOVProperties" : [
+                        {
+                           "propertyName" : "String",
+                           "values" : [
+                              {
+                                 "displayValue" : "String",
+                                 "internalValue" : "String"
+                              }
+                           ],
+                           "propertyId" : "String"
+                        }
+                     ],
+                     "shatedSites" : "IModelObject[]"
+                  },
+                  "arraySize" : "int",
+                  "nonMetricFormat" : {
+                     "formatDefinition" : {
+                        "formatLength" : "int",
+                        "formatModifier1" : "int",
+                        "formatModifier2" : "int",
+                        "formatType" : "int"
+                     },
+                     "defaultValue" : "String",
+                     "maximumValue" : "String",
+                     "unitName" : "String",
+                     "minimumValue" : "String"
+                  },
+                  "metricFormat" : {
+                     "formatDefinition" : {
+                        "formatModifier1" : "int",
+                        "formatLength" : "int",
+                        "formatType" : "int",
+                        "formatModifier2" : "int"
+                     },
+                     "defaultValue" : "String",
+                     "unitName" : "String",
+                     "maximumValue" : "String",
+                     "minimumValue" : "String"
+                  }
+               }
+            ],
+            "viewCount" : "int",
+            "instanceCount" : "int"
+         }
+      },
+      "clsClassDescriptors" : {
+         "SampleKeyString" : {
+            "instanceCount" : "int",
+            "viewCount" : "int",
+            "attributes" : [
+               {
+                  "options" : "int",
+                  "attributeId" : "String",
+                  "attributeProperties" : [
+                     {
+                        "values" : [
+                           {
+                              "displayValue" : "String",
+                              "internalValue" : "String"
+                           }
+                        ],
+                        "propertyName" : "String",
+                        "propertyId" : "String"
+                     }
+                  ],
+                  "metricFormat" : {
+                     "minimumValue" : "String",
+                     "formatDefinition" : {
+                        "formatModifier1" : "int",
+                        "formatLength" : "int",
+                        "formatModifier2" : "int",
+                        "formatType" : "int"
+                     },
+                     "defaultValue" : "String",
+                     "maximumValue" : "String",
+                     "unitName" : "String"
+                  },
+                  "arraySize" : "int",
+                  "attributeKeyLOVDef" : {
+                     "keyLOVOptions" : "int",
+                     "owningSite" : "IModelObject",
+                     "keyLOVProperties" : [
+                        {
+                           "propertyId" : "String",
+                           "propertyName" : "String",
+                           "values" : [
+                              {
+                                 "displayValue" : "String",
+                                 "internalValue" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "shatedSites" : "IModelObject[]",
+                     "keyLOVEntries" : [
+                        {
+                           "keyLOVValue" : "String",
+                           "isDeprecated" : "bool",
+                           "keyLOVkey" : "String"
+                        }
+                     ]
+                  },
+                  "nonMetricFormat" : {
+                     "minimumValue" : "String",
+                     "maximumValue" : "String",
+                     "unitName" : "String",
+                     "defaultValue" : "String",
+                     "formatDefinition" : {
+                        "formatModifier1" : "int",
+                        "formatLength" : "int",
+                        "formatType" : "int",
+                        "formatModifier2" : "int"
+                     }
+                  }
+               }
+            ],
+            "childCount" : "int",
+            "documents" : [
+               {
+                  "ticket" : "String",
+                  "originalFileName" : "String",
+                  "documentType" : "String"
+               }
+            ],
+            "properties" : [
+               {
+                  "propertyId" : "String",
+                  "propertyName" : "String",
+                  "values" : [
+                     {
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     }
+                  ]
+               }
+            ],
+            "options" : "int"
+         }
+      },
+      "classChildren" : {
+         "SampleKeyString" : {
+            "children" : [
+               {
+                  "instanceCount" : "int",
+                  "viewCount" : "int",
+                  "attributes" : [
+                     {
+                        "options" : "int",
+                        "attributeProperties" : [
+                           {
+                              "propertyId" : "String",
+                              "propertyName" : "String",
+                              "values" : [
+                                 {
+                                    "displayValue" : "String",
+                                    "internalValue" : "String"
+                                 }
+                              ]
+                           }
+                        ],
+                        "attributeId" : "String",
+                        "metricFormat" : {
+                           "minimumValue" : "String",
+                           "formatDefinition" : {
+                              "formatLength" : "int",
+                              "formatModifier1" : "int",
+                              "formatModifier2" : "int",
+                              "formatType" : "int"
+                           },
+                           "defaultValue" : "String",
+                           "maximumValue" : "String",
+                           "unitName" : "String"
+                        },
+                        "nonMetricFormat" : {
+                           "minimumValue" : "String",
+                           "maximumValue" : "String",
+                           "unitName" : "String",
+                           "defaultValue" : "String",
+                           "formatDefinition" : {
+                              "formatLength" : "int",
+                              "formatModifier1" : "int",
+                              "formatModifier2" : "int",
+                              "formatType" : "int"
+                           }
+                        },
+                        "arraySize" : "int",
+                        "attributeKeyLOVDef" : {
+                           "owningSite" : "IModelObject",
+                           "shatedSites" : "IModelObject[]",
+                           "keyLOVProperties" : [
+                              {
+                                 "values" : [
+                                    {
+                                       "displayValue" : "String",
+                                       "internalValue" : "String"
+                                    }
+                                 ],
+                                 "propertyName" : "String",
+                                 "propertyId" : "String"
+                              }
+                           ],
+                           "keyLOVEntries" : [
+                              {
+                                 "keyLOVValue" : "String",
+                                 "isDeprecated" : "bool",
+                                 "keyLOVkey" : "String"
+                              }
+                           ],
+                           "keyLOVOptions" : "int"
+                        }
+                     }
+                  ],
+                  "childCount" : "int",
+                  "properties" : [
+                     {
+                        "values" : [
+                           {
+                              "internalValue" : "String",
+                              "displayValue" : "String"
+                           }
+                        ],
+                        "propertyName" : "String",
+                        "propertyId" : "String"
+                     }
+                  ],
+                  "documents" : [
+                     {
+                        "documentType" : "String",
+                        "originalFileName" : "String",
+                        "ticket" : "String"
+                     }
+                  ],
+                  "options" : "int"
+               }
+            ]
+         }
+      },
+      "clsObjectDefs" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "clsObjects" : [
+                  {
+                     "properties" : [
+                        {
+                           "propertyId" : "String",
+                           "propertyName" : "String",
+                           "values" : [
+                              {
+                                 "internalValue" : "String",
+                                 "displayValue" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "blockDataMap" : {
+                        "SampleKeyString" : {
+                           "blocks" : [
+                              {
+                                 "classId" : "String",
+                                 "blockDataMap" : {
+                                    "SampleKeyString" : {
+                                       "blocks" : "Ics1::Soa::Internal::IcsAw::_2018_12::Classification::BlockInfo[]"
+                                    }
+                                 },
+                                 "cardinalityIndex" : "int",
+                                 "owningBlocks" : "String[]",
+                                 "properties" : [
+                                    {
+                                       "propertyId" : "String",
+                                       "values" : [
+                                          {
+                                             "internalValue" : "String",
+                                             "displayValue" : "String"
+                                          }
+                                       ],
+                                       "propertyName" : "String"
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     },
+                     "workspaceObject" : "IModelObject",
+                     "clsObject" : "IModelObject"
+                  }
+               ]
+            }
+         ]
+      ],
+      "unitMap" : {
+         "SampleKeyString" : [
+            {
+               "systemOfMeasurement" : "String",
+               "unitID" : "String",
+               "measure" : "String",
+               "displayName" : "String"
+            }
+         ]
+      },
+      "keyLOVDescriptors" : {
+         "SampleKeyString" : {
+            "owningSite" : "IModelObject",
+            "shatedSites" : "IModelObject[]",
+            "keyLOVProperties" : [
+               {
+                  "propertyId" : "String",
+                  "values" : [
+                     {
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     }
+                  ],
+                  "propertyName" : "String"
+               }
+            ],
+            "keyLOVEntries" : [
+               {
+                  "keyLOVkey" : "String",
+                  "keyLOVValue" : "String",
+                  "isDeprecated" : "bool"
+               }
+            ],
+            "keyLOVOptions" : "int"
+         }
+      },
+      "serviceData" : "IServiceData",
+      "classParents" : {
+         "SampleKeyString" : {
+            "parents" : [
+               {
+                  "childCount" : "int",
+                  "attributes" : [
+                     {
+                        "nonMetricFormat" : {
+                           "minimumValue" : "String",
+                           "formatDefinition" : {
+                              "formatType" : "int",
+                              "formatModifier2" : "int",
+                              "formatModifier1" : "int",
+                              "formatLength" : "int"
+                           },
+                           "defaultValue" : "String",
+                           "unitName" : "String",
+                           "maximumValue" : "String"
+                        },
+                        "attributeKeyLOVDef" : {
+                           "keyLOVProperties" : [
+                              {
+                                 "propertyId" : "String",
+                                 "values" : [
+                                    {
+                                       "internalValue" : "String",
+                                       "displayValue" : "String"
+                                    }
+                                 ],
+                                 "propertyName" : "String"
+                              }
+                           ],
+                           "owningSite" : "IModelObject",
+                           "shatedSites" : "IModelObject[]",
+                           "keyLOVEntries" : [
+                              {
+                                 "keyLOVValue" : "String",
+                                 "isDeprecated" : "bool",
+                                 "keyLOVkey" : "String"
+                              }
+                           ],
+                           "keyLOVOptions" : "int"
+                        },
+                        "arraySize" : "int",
+                        "metricFormat" : {
+                           "minimumValue" : "String",
+                           "unitName" : "String",
+                           "maximumValue" : "String",
+                           "formatDefinition" : {
+                              "formatType" : "int",
+                              "formatModifier2" : "int",
+                              "formatModifier1" : "int",
+                              "formatLength" : "int"
+                           },
+                           "defaultValue" : "String"
+                        },
+                        "attributeProperties" : [
+                           {
+                              "propertyId" : "String",
+                              "values" : [
+                                 {
+                                    "internalValue" : "String",
+                                    "displayValue" : "String"
+                                 }
+                              ],
+                              "propertyName" : "String"
+                           }
+                        ],
+                        "attributeId" : "String",
+                        "options" : "int"
+                     }
+                  ],
+                  "options" : "int",
+                  "documents" : [
+                     {
+                        "ticket" : "String",
+                        "originalFileName" : "String",
+                        "documentType" : "String"
+                     }
+                  ],
+                  "properties" : [
+                     {
+                        "propertyName" : "String",
+                        "values" : [
+                           {
+                              "internalValue" : "String",
+                              "displayValue" : "String"
+                           }
+                        ],
+                        "propertyId" : "String"
+                     }
+                  ],
+                  "instanceCount" : "int",
+                  "viewCount" : "int"
+               }
+            ]
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-IcsAw-2019-12-Classification/findClassificationInfo3",
+   "OperationInput" : {
+      "searchCriterias" : [
+         {
+            "searchAttribute" : "String",
+            "searchString" : "String",
+            "sortOption" : "int"
+         }
+      ],
+      "workspaceObjects" : "IModelObject[]",
+      "classificationDataOptions" : "int"
+   }
+}

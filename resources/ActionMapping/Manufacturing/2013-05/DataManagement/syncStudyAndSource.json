@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "direction" : "bool",
+            "study" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : "String"
+   },
+   "ServiceOperation" : "Manufacturing-2013-05-DataManagement/syncStudyAndSource"
+}

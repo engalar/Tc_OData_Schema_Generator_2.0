@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "compareLA" : "int",
+      "partRelationTypes" : "String[]",
+      "equivalentObjects" : [
+         {
+            "eqvTargetLines" : "IModelObject[]",
+            "eqvSrcLines" : "IModelObject[]"
+         }
+      ],
+      "compareManual" : "bool",
+      "toolRelationTypes" : "String[]"
+   },
+   "ServiceOperation" : "StructureManagement-2012-02-StructureVerification/getAssignmentComparisonDetails",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "details" : [
+         {
+            "details" : [
+               {
+                  "manualAssignments" : [
+                     {
+                        "matchType" : "int",
+                        "assignments" : "IModelObject[]"
+                     }
+                  ],
+                  "logicalAssignments" : [
+                     {
+                        "logicalAssignments" : "IModelObject[]",
+                        "resolvedAssignments" : [
+                           {
+                              "assignments" : "IModelObject[]",
+                              "matchType" : "int"
+                           }
+                        ],
+                        "criteria" : "String[]",
+                        "matchType" : "int"
+                     }
+                  ],
+                  "assignmentType" : "String"
+               }
+            ],
+            "index" : "int",
+            "equivalentLines" : "IModelObject[]"
+         }
+      ]
+   }
+}

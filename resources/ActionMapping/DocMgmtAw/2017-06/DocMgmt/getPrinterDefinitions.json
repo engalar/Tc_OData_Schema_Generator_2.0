@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "printConfigurations" : "IModelObject[]"
+   },
+   "ServiceOperation" : "DocMgmtAw-2017-06-DocMgmt/getPrinterDefinitions",
+   "OperationInput" : {}
+}

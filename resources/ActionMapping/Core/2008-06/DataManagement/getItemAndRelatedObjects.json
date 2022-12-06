@@ -1,0 +1,93 @@
+{
+   "ServiceOperation" : "Core-2008-06-DataManagement/getItemAndRelatedObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "item" : "IModelObject",
+            "clientId" : "String",
+            "itemRevOutput" : [
+               {
+                  "datasetOutput" : [
+                     {
+                        "relationTypeName" : "String",
+                        "namedReferenceOutput" : [
+                           {
+                              "ticket" : "String",
+                              "namedReference" : "IModelObject",
+                              "namedReferenceName" : "String"
+                           }
+                        ],
+                        "dataset" : "IModelObject",
+                        "clientId" : "String"
+                     }
+                  ],
+                  "itemRevision" : "IModelObject",
+                  "bvrs" : [
+                     {
+                        "viewTypeName" : "String",
+                        "bvr" : "IModelObject"
+                     }
+                  ],
+                  "clientId" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "infos" : [
+         {
+            "itemInfo" : {
+               "useIdFirst" : "bool",
+               "clientId" : "String",
+               "uid" : "String",
+               "ids" : [
+                  {
+                     "name" : "String",
+                     "value" : "String"
+                  }
+               ]
+            },
+            "bvrTypeNames" : "String[]",
+            "clientId" : "String",
+            "revInfo" : {
+               "processing" : "None All Min Ids Rule Nrev",
+               "clientId" : "String",
+               "useIdFirst" : "bool",
+               "uid" : "String",
+               "id" : "String",
+               "nRevs" : "int",
+               "revisionRule" : "String"
+            },
+            "datasetInfo" : {
+               "uid" : "String",
+               "clientId" : "String",
+               "filter" : {
+                  "nrFilters" : [
+                     {
+                        "uidReferenced" : "String",
+                        "namedReference" : "String"
+                     }
+                  ],
+                  "relationFilters" : [
+                     {
+                        "datasetTypeName" : "String",
+                        "relationTypeName" : "String"
+                     }
+                  ],
+                  "name" : "String",
+                  "processing" : "None All Min Ids Rule Nrev",
+                  "useNameFirst" : "bool"
+               },
+               "namedRefs" : [
+                  {
+                     "ticket" : "bool",
+                     "namedReference" : "String"
+                  }
+               ]
+            }
+         }
+      ]
+   }
+}

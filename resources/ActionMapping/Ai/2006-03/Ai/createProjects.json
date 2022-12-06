@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Ai-2006-03-Ai/createProjects",
+   "OperationInput" : {
+      "projectDatas" : [
+         {
+            "name" : "String",
+            "type" : "String",
+            "targetApplicationId" : "String",
+            "description" : "String"
+         }
+      ]
+   }
+}

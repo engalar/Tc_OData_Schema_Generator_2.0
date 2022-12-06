@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "assignment" : "IModelObject",
+      "task" : "IModelObject"
+   },
+   "ServiceOperation" : "ProjectManagement-2012-09-ScheduleManagement/claimAssignment",
+   "OperationResponse" : {
+      "createdObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "updatedTasks" : "IModelObject[]"
+   }
+}

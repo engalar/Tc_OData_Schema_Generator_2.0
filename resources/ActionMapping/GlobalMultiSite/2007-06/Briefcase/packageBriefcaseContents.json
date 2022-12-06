@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "packageBriefcaseContentsInfo" : {
+         "sourceSiteId" : "int",
+         "targetSiteIds" : "int[]",
+         "datasetName" : "String",
+         "tcplmxmlFmsTickets" : "String[]",
+         "requestingUserName" : "String",
+         "exportLogFmsTickets" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "briefcaseDataSetUrl" : "String",
+      "serviceData" : "IServiceData",
+      "briefcaseDataSet" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-Briefcase/packageBriefcaseContents"
+}

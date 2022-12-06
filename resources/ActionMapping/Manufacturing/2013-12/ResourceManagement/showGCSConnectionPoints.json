@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "showGCSConnectionPointsOption" : "int",
+      "bomWindow" : "IModelObject"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Manufacturing-2013-12-ResourceManagement/showGCSConnectionPoints"
+}

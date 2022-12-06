@@ -1,0 +1,62 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "fileTickets" : "String[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2019-12-Finder/exportObjectsToFile",
+   "OperationInput" : {
+      "exportOptions" : {
+         "SampleKeyString" : "String"
+      },
+      "objectsToExport" : "String[]",
+      "searchInput" : {
+         "providerName" : "String",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "selected" : "bool",
+                  "startEndRange" : "String",
+                  "count" : "int",
+                  "colorValue" : "String",
+                  "stringValue" : "String",
+                  "searchFilterType" : "String",
+                  "endDateValue" : "Date",
+                  "startDateValue" : "Date",
+                  "stringDisplayValue" : "String",
+                  "endNumericValue" : "double",
+                  "startNumericValue" : "double"
+               }
+            ]
+         },
+         "columnFilters" : [
+            {
+               "values" : "String[]",
+               "columnName" : "String",
+               "operation" : "String"
+            }
+         ],
+         "searchSortCriteria" : [
+            {
+               "sortDirection" : "ASC DESC",
+               "fieldName" : "String"
+            }
+         ]
+      },
+      "attributesToExport" : [
+         {
+            "internalName" : "String",
+            "displayName" : "String"
+         }
+      ],
+      "columnConfigInput" : {
+         "columnsToExclude" : "String[]",
+         "clientScopeURI" : "String",
+         "operationType" : "String",
+         "clientName" : "String",
+         "hostingClientName" : "String"
+      }
+   }
+}

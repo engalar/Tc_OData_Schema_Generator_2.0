@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "obsElements" : "String[]"
+   },
+   "ServiceOperation" : "Internal-IppeCore-2020-12-OBSManagement/getOBSElementsForResourcePkgUpdate",
+   "OperationInput" : {
+      "selectedElements" : "IModelObject[]"
+   }
+}

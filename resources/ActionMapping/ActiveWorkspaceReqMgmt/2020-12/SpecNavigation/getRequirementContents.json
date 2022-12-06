@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "ActiveWorkspaceReqMgmt-2020-12-SpecNavigation/getRequirementContents",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "jsonFileTicket" : "String[]"
+   },
+   "OperationInput" : {
+      "input" : {
+         "objects" : "IModelObject[]",
+         "options" : "String[]"
+      }
+   }
+}

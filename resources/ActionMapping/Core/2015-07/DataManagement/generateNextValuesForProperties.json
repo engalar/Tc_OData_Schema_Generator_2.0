@@ -1,0 +1,76 @@
+{
+   "ServiceOperation" : "Core-2015-07-DataManagement/generateNextValuesForProperties",
+   "OperationResponse" : {
+      "generatedValues" : [
+         {
+            "generatedValuesOfSecondaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "generatedValuesOfSecondaryObjects" : "Teamcenter::Soa::Core::_2013_05::DataManagement::GeneratedValuesOfSecondaryObjectsMap",
+                     "clientId" : "String",
+                     "generatedValues" : {
+                        "SampleKeyString" : {
+                           "isModifiable" : "bool",
+                           "errorCode" : "int",
+                           "nextValue" : "String"
+                        }
+                     }
+                  }
+               ]
+            },
+            "clientId" : "String",
+            "generatedValues" : {
+               "SampleKeyString" : {
+                  "errorCode" : "int",
+                  "isModifiable" : "bool",
+                  "nextValue" : "String"
+               }
+            }
+         }
+      ],
+      "data" : "IServiceData"
+   },
+   "OperationInput" : {
+      "propertyNamingRuleInfo" : [
+         {
+            "propertyValuesMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "operationType" : "int",
+            "propertyNameContextListMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "additionalInputMap" : {
+               "SampleKeyString" : "String"
+            },
+            "businessObjectTypeName" : "String",
+            "propertyNameAttachedPattern" : {
+               "SampleKeyString" : "String"
+            },
+            "compoundObjectInput" : {
+               "SampleKeyString" : [
+                  {
+                     "compoundObjectInput" : "Teamcenter::Soa::Core::_2015_07::DataManagement::CompoundPropertyAttachedPatternMap",
+                     "businessObjectTypeName" : "String",
+                     "propertyNameAttachedPattern" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "additionalInputMap" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "clientId" : "String",
+                     "propertyValuesMap" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "operationType" : "int",
+                     "propertyNameContextListMap" : {
+                        "SampleKeyString" : "String[]"
+                     }
+                  }
+               ]
+            }
+         }
+      ]
+   }
+}

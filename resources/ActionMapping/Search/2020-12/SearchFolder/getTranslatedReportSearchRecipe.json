@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "reportDefinitionCriteria" : [
+         {
+            "reportID" : "String",
+            "reportUID" : "String",
+            "reportSource" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "commonSearchParameters" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData",
+      "reportSearchRecipeObjects" : [
+         {
+            "translatedFilterQueries" : "String[]",
+            "reportChartObjects" : [
+               {
+                  "chartPropertyName" : "String",
+                  "chartTypeName" : "String",
+                  "isPropertyLocalized" : "bool",
+                  "chartPropertyType" : "String"
+               }
+            ],
+            "reportSearchRecipeExtraInfo" : {
+               "SampleKeyString" : "String"
+            },
+            "reportObject" : "IModelObject",
+            "translatedBaseCriteria" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Search-2020-12-SearchFolder/getTranslatedReportSearchRecipe"
+}

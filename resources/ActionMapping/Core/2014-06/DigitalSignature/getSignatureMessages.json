@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "targetObject" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Core-2014-06-DigitalSignature/getSignatureMessages",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "message" : "String",
+            "targetObject" : "IModelObject"
+         }
+      ]
+   }
+}

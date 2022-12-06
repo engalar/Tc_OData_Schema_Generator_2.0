@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : {
+      "logFileFullPath" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2010-09-ImportExport/importManufaturingFeatures",
+   "OperationInput" : {
+      "input" : {
+         "fileName" : "String",
+         "root" : "IModelObject"
+      }
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-VendorManagementAW-2019-12-VendorManagement/removePartnerContractFromObject",
+   "OperationInput" : {
+      "removePartnerContractInput" : {
+         "objectForContractRemoval" : "IModelObject",
+         "partnerContract" : "IModelObject"
+      }
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "osUserName" : "String"
+         },
+         "infoFile" : "String",
+         "startingBlock" : "int",
+         "infoType" : "int",
+         "infoStagingDir" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm1XferInfoFileSvc",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "out" : {
+         "transferComplete" : "bool",
+         "fileDataSize" : "int",
+         "fileData" : "int[]",
+         "moreFiles" : "bool"
+      }
+   }
+}

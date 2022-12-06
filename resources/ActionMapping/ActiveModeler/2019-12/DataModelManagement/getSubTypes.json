@@ -1,0 +1,81 @@
+{
+   "OperationInput" : {
+      "fetchImmediateSubTypesOnly" : "bool",
+      "startIndex" : "int",
+      "sortCriteria" : {
+         "fieldName" : "String",
+         "sortDirection" : "int"
+      },
+      "maxToReturn" : "int",
+      "searchString" : "String",
+      "columnFilters" : [
+         {
+            "columnName" : "String",
+            "values" : "String[]",
+            "operation" : "String"
+         }
+      ],
+      "inputOptions" : {
+         "SampleKeyString" : "String[]"
+      },
+      "typeInfo" : [
+         {
+            "level" : "int",
+            "canAddSubTypes" : "bool",
+            "type" : "String",
+            "typeHierarchy" : "String[]",
+            "rootTypeName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveModeler-2019-12-DataModelManagement/getSubTypes",
+   "OperationResponse" : {
+      "endIndex" : "int",
+      "viewModelObjects" : [
+         {
+            "typeInfoViewModelObject" : [
+               {
+                  "typeInfo" : {
+                     "level" : "int",
+                     "canAddSubTypes" : "bool",
+                     "type" : "String",
+                     "typeHierarchy" : "String[]",
+                     "rootTypeName" : "String"
+                  },
+                  "viewModelPropertiesMap" : {
+                     "SampleKeyString" : {
+                        "propDBValue" : "String",
+                        "propDataType" : "String",
+                        "propUIValue" : "String",
+                        "propInternalName" : "String",
+                        "propDisplayName" : "String",
+                        "isModifiable" : "bool"
+                     }
+                  },
+                  "hasChildren" : "bool"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "columnConfig" : {
+         "operationType" : "String",
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "propertyName" : "String",
+               "sortPriority" : "int",
+               "typeName" : "String",
+               "columnOrder" : "int",
+               "sortDirection" : "String",
+               "hiddenFlag" : "bool",
+               "enableSorting" : "bool",
+               "pixelWidth" : "int",
+               "displayName" : "String",
+               "isFilteringEnabled" : "bool"
+            }
+         ]
+      },
+      "totalFound" : "int"
+   }
+}

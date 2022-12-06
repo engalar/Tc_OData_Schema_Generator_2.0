@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "analysisRequest" : "IModelObject",
+            "action" : "syncAttr publishAttr",
+            "attrs" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ValidationContractAW-2018-12-VCManagement/syncPublishMeasurableAttributes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "analysisRequest" : "IModelObject",
+            "clientId" : "String",
+            "processedAttrs" : "IModelObject[]",
+            "ignoredAttrs" : "IModelObject[]"
+         }
+      ]
+   }
+}

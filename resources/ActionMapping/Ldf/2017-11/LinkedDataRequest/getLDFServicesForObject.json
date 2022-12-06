@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "Internal-Ldf-2017-11-LinkedDataRequest/getLDFServicesForObject",
+   "OperationResponse" : {
+      "responseInfoVec" : [
+         {
+            "url" : "String",
+            "isUIService" : "bool",
+            "svcUid" : "String",
+            "hintHeight" : "String",
+            "hintWidth" : "String",
+            "name" : "String",
+            "serviceType" : "String",
+            "isDefault" : "bool"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "uidContextObject" : "String",
+      "uidServiceProvider" : "String",
+      "factoryOrUIService" : "int"
+   }
+}

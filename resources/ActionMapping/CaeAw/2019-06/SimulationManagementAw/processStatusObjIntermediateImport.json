@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "statusObject" : "IModelObject",
+      "userSessionInfo" : {
+         "securityToken" : "String",
+         "tcSSOAppId" : "String",
+         "hostPath" : "String",
+         "tcSSOURL" : "String",
+         "tcSSOEnabled" : "bool"
+      }
+   },
+   "ServiceOperation" : "Internal-CaeAw-2019-06-SimulationManagementAw/processStatusObjIntermediateImport",
+   "OperationResponse" : {
+      "fmsTicket" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

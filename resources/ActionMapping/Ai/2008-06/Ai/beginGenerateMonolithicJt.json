@@ -1,0 +1,47 @@
+{
+   "OperationInput" : {
+      "itemId" : "String",
+      "serverMode" : "int",
+      "options" : {
+         "remoteProcessing" : "bool",
+         "waitSecondsAtServer" : "int",
+         "continueOnError" : "int",
+         "processIntermediateNodes" : "int"
+      },
+      "startingNode" : {
+         "application" : "String",
+         "version" : "String",
+         "label" : "String"
+      },
+      "revId" : "String",
+      "config" : {
+         "useDefaultRevisionRule" : "bool",
+         "variantRule" : {
+            "application" : "String",
+            "version" : "String",
+            "label" : "String"
+         },
+         "relatedContexts" : [
+            {
+               "application" : "String",
+               "version" : "String",
+               "label" : "String"
+            }
+         ],
+         "revRuleName" : "String",
+         "configuringObject" : {
+            "application" : "String",
+            "version" : "String",
+            "label" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "request" : "IModelObject",
+      "data" : "IServiceData",
+      "currentState" : "String",
+      "ticket" : "String",
+      "logFileticket" : "String"
+   },
+   "ServiceOperation" : "Internal-Ai-2008-06-Ai/beginGenerateMonolithicJt"
+}

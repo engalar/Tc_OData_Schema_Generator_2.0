@@ -1,0 +1,54 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "conflictingPreferencesFromFile" : [
+         {
+            "definition" : {
+               "isDisabled" : "bool",
+               "description" : "String",
+               "name" : "String",
+               "type" : "int",
+               "isOOTBPreference" : "bool",
+               "isArray" : "bool",
+               "protectionScope" : "String",
+               "isEnvEnabled" : "bool",
+               "category" : "String"
+            },
+            "values" : {
+               "values" : "String[]",
+               "valueOrigination" : "String"
+            }
+         }
+      ],
+      "dbImpactedPreferences" : [
+         {
+            "values" : {
+               "values" : "String[]",
+               "valueOrigination" : "String"
+            },
+            "definition" : {
+               "type" : "int",
+               "name" : "String",
+               "description" : "String",
+               "isDisabled" : "bool",
+               "isEnvEnabled" : "bool",
+               "protectionScope" : "String",
+               "category" : "String",
+               "isArray" : "bool",
+               "isOOTBPreference" : "bool"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/importPreferencesAtLocationDryRun",
+   "OperationInput" : {
+      "importPreferences" : {
+         "fileTicket" : "String",
+         "location" : {
+            "location" : "String",
+            "object" : "IModelObject"
+         },
+         "categoryNames" : "String[]"
+      }
+   }
+}

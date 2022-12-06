@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "searchSettingInput" : {
+         "inputSettings" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-AWS2-2020-05-FullTextSearch/getSearchSettings",
+   "OperationResponse" : {
+      "outputValues" : {
+         "SampleKeyString" : "String[]"
+      }
+   }
+}

@@ -1,0 +1,101 @@
+{
+   "ServiceOperation" : "ModelCore-2011-06-DataManagement/getReviseDesc",
+   "OperationResponse" : {
+      "deepCopyInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "copyAction" : "String",
+                  "isTargetPrimary" : "bool",
+                  "propertyType" : "Relation Reference",
+                  "copyRelations" : "bool",
+                  "saveAsInput" : {
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "boName" : "String",
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     }
+                  },
+                  "isRequired" : "bool",
+                  "attachedObject" : "IModelObject",
+                  "childDeepCopyData" : "Mdl0::Soa::ModelCore::_2011_06::DataManagement::DeepCopyData[]",
+                  "propertyName" : "String"
+               }
+            ]
+         ]
+      ],
+      "saveAsDescMap" : {
+         "SampleKeyString" : {
+            "propDescs" : [
+               {
+                  "copyFromOriginal" : "bool",
+                  "parent" : {
+                     "attachedSpecifier" : "int",
+                     "isDisplayable" : "bool",
+                     "lov" : "IModelObject",
+                     "propName" : "String",
+                     "namingPatterns" : "String[]",
+                     "defaultValue" : "String",
+                     "isArray" : "bool",
+                     "propType" : "int",
+                     "maxNumElems" : "int",
+                     "maxLength" : "int",
+                     "interdependentProps" : "String[]",
+                     "isEnabled" : "bool",
+                     "displayName" : "String",
+                     "isModifiable" : "bool",
+                     "propValueType" : "int",
+                     "isRequired" : "bool"
+                  }
+               }
+            ],
+            "businessObjectName" : "String"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "targetObjects" : "IModelObject[]"
+   }
+}

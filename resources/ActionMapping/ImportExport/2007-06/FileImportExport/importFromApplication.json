@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "resultObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ImportExport-2007-06-FileImportExport/importFromApplication",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "applicationFormat" : "String",
+            "createSpecElementType" : "String",
+            "transientFileWriteTicket" : "String"
+         }
+      ]
+   }
+}

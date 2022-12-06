@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Internal-Core-2008-06-FileManagement/getRegularFileTicketsForUpload",
+   "OperationResponse" : {
+      "writeTickets" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "regularFileInfos" : [
+               {
+                  "isText" : "bool",
+                  "fileName" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

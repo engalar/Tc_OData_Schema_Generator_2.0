@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-Core-2017-11-DataManagement/getTCSessionAnalyticsInfo",
+   "OperationResponse" : {
+      "userSession" : "IModelObject",
+      "extraInfoOut" : {
+         "SampleKeyString" : "String"
+      },
+      "analyticsData" : {
+         "analyticsExtraInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "isDataCollectionEnabled" : "bool",
+         "useInternalServer" : "bool",
+         "burstTimeInterval" : "int"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "extraInfoIn" : "String[]"
+   }
+}

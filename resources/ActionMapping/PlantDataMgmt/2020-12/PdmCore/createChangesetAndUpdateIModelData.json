@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-PlantDataMgmt-2020-12-PdmCore/createChangesetAndUpdateIModelData",
+   "OperationResponse" : {
+      "changesetWriteTickets" : [
+         {
+            "fileTicket" : "String",
+            "fileName" : "String"
+         }
+      ],
+      "fmsURL" : "String",
+      "briefcaseWriteTickets" : [
+         {
+            "fileName" : "String",
+            "fileTicket" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "pdm0IModel" : "IModelObject",
+      "changesetFileName" : "String",
+      "pdm0Id" : "String",
+      "changesetName" : "String",
+      "pdm0ParentChangeSetId" : "String"
+   }
+}

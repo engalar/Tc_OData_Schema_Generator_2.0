@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Cad-2011-06-DataManagement/getAllAttrMappings2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "attrMappingInfos" : [
+         {
+            "propDesc" : {
+               "isRequired" : "bool",
+               "propType" : "int",
+               "propValueType" : "int",
+               "isArray" : "bool",
+               "defaultValue" : "String",
+               "propName" : "String",
+               "isModifiable" : "bool",
+               "displayName" : "String",
+               "isEnabled" : "bool",
+               "interdependentProps" : "String[]",
+               "isDisplayable" : "bool",
+               "lov" : "IModelObject",
+               "maxLength" : "int",
+               "lovAttachmentsCategory" : "int",
+               "attachedSpecifier" : "int"
+            },
+            "cadAttrMappingDefinition" : "IModelObject"
+         }
+      ]
+   }
+}

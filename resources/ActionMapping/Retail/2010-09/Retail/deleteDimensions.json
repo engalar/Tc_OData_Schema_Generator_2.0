@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "dimensionNames" : "String[]",
+            "bomLineUID" : "String",
+            "deleteAll" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/deleteDimensions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "dimensionsNeedsRefresh" : [
+         {
+            "bomLineUID" : "String",
+            "dimensionNames" : "String[]"
+         }
+      ]
+   }
+}

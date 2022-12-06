@@ -1,0 +1,45 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "resultObjects" : "IModelObject[]",
+            "transientFileTickets" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ImportExport-2017-11-FileImportExport/importDocumentOffline",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "selectedObject" : "IModelObject",
+            "specificationType" : "String",
+            "keywordImportOptions" : {
+               "importOptions" : [
+                  {
+                     "option" : "String",
+                     "value" : "String"
+                  }
+               ],
+               "keywordImportRules" : [
+                  {
+                     "targetChildType" : "String",
+                     "conditionProcessingType" : "String",
+                     "keywordImportConditions" : [
+                        {
+                           "keyword" : "String",
+                           "opType" : "String"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "transientFileWriteTicket" : "String",
+            "specDesc" : "String",
+            "clientId" : "String",
+            "childSpecElementType" : "String"
+         }
+      ]
+   }
+}

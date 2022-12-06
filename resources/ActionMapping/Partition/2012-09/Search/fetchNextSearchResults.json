@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "Partition-2012-09-Search/fetchNextSearchResults",
+   "OperationResponse" : {
+      "estimatedElementsLeft" : "int",
+      "modelElements" : "IModelObject[]",
+      "partitionGrps" : [
+         {
+            "isRootPartition" : "bool",
+            "childPartitionGroups" : "Ptn0::Soa::Partition::_2012_09::Search::PartitionGroup[]",
+            "members" : "IModelObject[]",
+            "partition" : "IModelObject"
+         }
+      ],
+      "searchCursor" : "IModelObject",
+      "isFinished" : "bool",
+      "elementsDone" : "int",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "searchCursor" : {
+         "cursor" : "IModelObject",
+         "loadCount" : "int"
+      },
+      "partitionScope" : {
+         "isOnlyImmediateGroupsReqd" : "bool",
+         "scheme" : "IModelObject"
+      }
+   }
+}

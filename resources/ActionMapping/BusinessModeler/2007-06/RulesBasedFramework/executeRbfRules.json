@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "id" : "String",
+      "inputs" : [
+         {
+            "name" : "String",
+            "value" : {
+               "tagValue" : "IModelObject",
+               "dateValue" : "Date",
+               "booleanValue" : "bool",
+               "stringValue" : "String",
+               "floatValue" : "float",
+               "doubleValue" : "double",
+               "integerValue" : "int",
+               "dataType" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "BusinessModeler-2007-06-RulesBasedFramework/executeRbfRules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "name" : "String",
+            "value" : {
+               "tagValue" : "IModelObject",
+               "dateValue" : "Date",
+               "booleanValue" : "bool",
+               "integerValue" : "int",
+               "doubleValue" : "double",
+               "floatValue" : "float",
+               "stringValue" : "String",
+               "dataType" : "String"
+            }
+         }
+      ]
+   }
+}

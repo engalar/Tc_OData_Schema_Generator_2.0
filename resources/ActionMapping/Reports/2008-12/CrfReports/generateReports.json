@@ -1,0 +1,36 @@
+{
+   "OperationResponse" : {
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData",
+      "transientFileTicketInfos" : [
+         {
+            "ticket" : "String",
+            "transientFileInfo" : {
+               "isText" : "bool",
+               "fileName" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Reports-2008-12-CrfReports/generateReports",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "reportName" : "String",
+            "datasetCtxObj" : "IModelObject",
+            "criteriaValues" : "String[]",
+            "relationName" : "String",
+            "criteriaNames" : "String[]",
+            "stylesheetTag" : "IModelObject",
+            "contextObjects" : "IModelObject[]",
+            "clientId" : "String",
+            "stylesheetName" : "String",
+            "datasetName" : "String",
+            "datasetCtxUID" : "String",
+            "datasetType" : "String",
+            "contextObjectUIDs" : "String[]",
+            "rdTag" : "IModelObject"
+         }
+      ]
+   }
+}

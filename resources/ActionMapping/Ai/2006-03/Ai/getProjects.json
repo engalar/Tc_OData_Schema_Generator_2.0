@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "filter" : {
+         "groupName" : "String",
+         "description" : "String",
+         "name" : "String",
+         "type" : "String",
+         "releasedBefore" : "Date",
+         "projectType" : "ProjectType_New ProjectType_Existing ProjectType_Any",
+         "userId" : "String",
+         "createdBefore" : "Date",
+         "modifiedAfter" : "Date",
+         "createdAfter" : "Date",
+         "releasedAfter" : "Date",
+         "targetAppProjectId" : "String",
+         "siteId" : "String",
+         "applicationId" : "String",
+         "modifiedBefore" : "Date"
+      }
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/getProjects",
+   "OperationResponse" : "IServiceData"
+}

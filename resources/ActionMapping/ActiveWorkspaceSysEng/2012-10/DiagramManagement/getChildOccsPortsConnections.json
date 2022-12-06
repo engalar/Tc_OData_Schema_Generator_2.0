@@ -1,0 +1,69 @@
+{
+   "ServiceOperation" : "ActiveWorkspaceSysEng-2012-10-DiagramManagement/getChildOccsPortsConnections",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "connections" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "interfaces" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "tracelinks" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "occurrences" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputCtxt" : {
+               "structureContextObject" : "IModelObject",
+               "productContext" : "IModelObject",
+               "pageSize" : "int",
+               "configuration" : {
+                  "configurationObject" : "IModelObject",
+                  "revisionRule" : "IModelObject",
+                  "endItem" : "IModelObject",
+                  "now" : "bool",
+                  "variantRule" : "IModelObject",
+                  "effectivityDate" : "Date",
+                  "unitNo" : "int"
+               }
+            },
+            "requestPreference" : {
+               "SampleKeyString" : "String"
+            },
+            "parentOccurrences" : "IModelObject[]",
+            "typesOfTraceLinks" : "String[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

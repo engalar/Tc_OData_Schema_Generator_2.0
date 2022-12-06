@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm4SetSyncOptionsSvc",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "out" : {
+         "failureCodes" : "int[]"
+      }
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "optionsToken" : "int",
+         "objectsOfInterest" : "String[]",
+         "clientInfo" : {
+            "roleName" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "osUserName" : "String",
+            "clientNode" : "String",
+            "userId" : "String"
+         },
+         "objectsNotifyOption" : "bool[]"
+      }
+   }
+}

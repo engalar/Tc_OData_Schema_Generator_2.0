@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "inputInfo" : [
+         {
+            "objTypeName" : "String",
+            "propNames" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2010-04-DataManagement/isPropertyLocalizable",
+   "OperationResponse" : {
+      "results" : [
+         {
+            "objTypeName" : "String",
+            "results" : [
+               {
+                  "propName" : "String",
+                  "islocalizable" : "bool"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

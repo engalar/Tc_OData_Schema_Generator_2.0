@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "clientInfo" : {
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientMaintPackVersion" : "int",
+         "roleName" : "String",
+         "clientSiteId" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "groupName" : "String",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "targetServerSiteId" : "int"
+      },
+      "objTagsAsString" : "String[]"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-TcEntObjectDirectory/unpublishObjects",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,43 @@
+{
+   "OperationResponse" : {
+      "errors" : [
+         {
+            "object" : "IModelObject",
+            "validationErrors" : [
+               {
+                  "object" : "IModelObject",
+                  "msgId" : "int",
+                  "msg" : "String",
+                  "validationNoticeType" : "String"
+               }
+            ],
+            "validationTest" : {
+               "library" : "String",
+               "failAllOnError" : "bool",
+               "name" : "String",
+               "type" : "String",
+               "func" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2012-09-Validation/executeValidations",
+   "OperationInput" : {
+      "failAllOnError" : "bool",
+      "input" : [
+         {
+            "root" : "IModelObject",
+            "validationChecks" : [
+               {
+                  "library" : "String",
+                  "failAllOnError" : "bool",
+                  "name" : "String",
+                  "type" : "String",
+                  "func" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

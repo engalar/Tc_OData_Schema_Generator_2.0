@@ -1,0 +1,60 @@
+{
+   "ServiceOperation" : "ProductionManagement-2007-12-EngineeringDataQuery/getEngineeringDataFromRoutine2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "routineData" : [
+         {
+            "routine" : "IModelObject",
+            "featureData" : [
+               {
+                  "loadingSplitId" : "String",
+                  "attributeData" : [
+                     {
+                        "abbreviation" : "String",
+                        "need" : "String",
+                        "codeDirection" : "int",
+                        "nominal" : "float",
+                        "specSetCodes" : [
+                           {
+                              "usl" : "float",
+                              "lsl" : "float",
+                              "specSetCodeName" : "String",
+                              "target" : "float"
+                           }
+                        ],
+                        "measurementApproach" : "String",
+                        "significance" : "int",
+                        "attributeCode" : "String"
+                     }
+                  ],
+                  "activeStatus" : "bool",
+                  "need" : "String",
+                  "featureLabel" : "String",
+                  "altLabel" : "String",
+                  "nominalValues" : {
+                     "i" : "float",
+                     "z" : "float",
+                     "j2" : "float",
+                     "y" : "float",
+                     "x" : "float",
+                     "i2" : "float",
+                     "j" : "float",
+                     "k2" : "float",
+                     "k" : "float"
+                  },
+                  "description" : "String",
+                  "featureId" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "routineIdVer" : [
+         {
+            "routineRev" : "String",
+            "routineId" : "String"
+         }
+      ]
+   }
+}

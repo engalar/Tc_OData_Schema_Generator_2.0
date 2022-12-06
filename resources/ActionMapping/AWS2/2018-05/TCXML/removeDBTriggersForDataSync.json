@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "triggerType" : "int"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2018-05-TCXML/removeDBTriggersForDataSync"
+}

@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "checkConfiguration" : "bool",
+      "inputObjects" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "DocumentManagement-2018-06-AttributeExchange/updateDocumentProperties"
+}

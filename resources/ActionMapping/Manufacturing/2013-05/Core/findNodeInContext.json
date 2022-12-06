@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Manufacturing-2013-05-Core/findNodeInContext",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "resultInfo" : [
+         {
+            "clientID" : "String",
+            "resultNodes" : [
+               {
+                  "originalNode" : "IModelObject",
+                  "foundNodes" : "IModelObject[]"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "nodes" : "IModelObject[]",
+            "byIdOnly" : "bool",
+            "clientID" : "String",
+            "allContexts" : "bool",
+            "inContextLine" : "IModelObject",
+            "relationDirection" : "int",
+            "relationTypes" : "String[]",
+            "context" : "IModelObject",
+            "relationDepth" : "int"
+         }
+      ]
+   }
+}

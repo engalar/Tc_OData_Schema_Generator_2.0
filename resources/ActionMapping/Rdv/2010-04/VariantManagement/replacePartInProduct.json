@@ -1,0 +1,41 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "validate" : "bool",
+            "carrySubstitutes" : "bool",
+            "splitAndClone" : "bool",
+            "values" : [
+               {
+                  "noteText" : "String",
+                  "noteType" : "String"
+               }
+            ],
+            "quantity" : "int",
+            "metaExpr" : [
+               {
+                  "tokenType" : "tokenNull tokenAnd tokenOr tokenNot tokenBra tokenKet tokenNVE",
+                  "nveRef" : {
+                     "nveName" : "String",
+                     "nve" : "IModelObject",
+                     "nveType" : "nveAuthorized nveSplitting nveMandatorySplit"
+                  }
+               }
+            ],
+            "component" : "IModelObject",
+            "abeAPN" : "IModelObject",
+            "bomLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Rdv-2010-04-VariantManagement/replacePartInProduct",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "component" : "IModelObject",
+            "bomLine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

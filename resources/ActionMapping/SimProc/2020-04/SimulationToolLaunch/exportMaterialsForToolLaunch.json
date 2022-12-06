@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "materialExportFileName" : "String",
+      "materialExportFilterName" : "String",
+      "materialsObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-SimProc-2020-04-SimulationToolLaunch/exportMaterialsForToolLaunch",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "materialExportLogfile" : "IModelObject",
+      "materialExportFile" : "IModelObject"
+   }
+}

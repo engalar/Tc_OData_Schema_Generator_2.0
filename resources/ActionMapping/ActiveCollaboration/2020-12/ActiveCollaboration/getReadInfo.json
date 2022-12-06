@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "objectUserMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "userObjectMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   },
+   "ServiceOperation" : "ActiveCollaboration-2020-12-ActiveCollaboration/getReadInfo",
+   "OperationInput" : {
+      "users" : "IModelObject[]",
+      "objects" : "IModelObject[]"
+   }
+}

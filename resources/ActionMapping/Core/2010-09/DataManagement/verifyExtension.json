@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "extensionInfo" : [
+         {
+            "extensionType" : "int",
+            "typeName" : "String",
+            "operationName" : "String",
+            "extensionName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : "bool[]"
+   },
+   "ServiceOperation" : "Core-2010-09-DataManagement/verifyExtension"
+}

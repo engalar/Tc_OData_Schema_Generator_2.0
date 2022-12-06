@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "reportdefinitions" : [
+         {
+            "clientId" : "String",
+            "reportdefinition" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Reports-2015-03-CrfReports/getPrintTemplates",
+   "OperationInput" : {
+      "contextObjects" : "IModelObject[]"
+   }
+}

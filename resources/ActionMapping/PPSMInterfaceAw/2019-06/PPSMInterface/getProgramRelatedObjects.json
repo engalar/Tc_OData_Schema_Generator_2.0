@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "relatedObjects" : [
+         {
+            "contextObject" : "IModelObject",
+            "foundObjects" : "String[]",
+            "loadedObjects" : "IModelObject[]",
+            "nFoundObjects" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "PPSMInterfaceAw-2019-06-PPSMInterface/getProgramRelatedObjects",
+   "OperationInput" : {
+      "getRelatedObjectsInput" : [
+         {
+            "loadOptions" : {
+               "SampleKeyString" : "String"
+            },
+            "maxToLoad" : "int",
+            "relationType" : "String",
+            "startIndex" : "int",
+            "contextObjectUID" : "String"
+         }
+      ]
+   }
+}

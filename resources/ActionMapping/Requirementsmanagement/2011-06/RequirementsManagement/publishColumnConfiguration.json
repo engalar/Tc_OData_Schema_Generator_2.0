@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "columnConfiguration" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Requirementsmanagement-2011-06-RequirementsManagement/publishColumnConfiguration",
+   "OperationResponse" : "IServiceData"
+}

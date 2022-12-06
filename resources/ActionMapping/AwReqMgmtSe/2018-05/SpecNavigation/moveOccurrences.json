@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "objectsData" : [
+               {
+                  "newParaNumber" : "String",
+                  "operation" : "int",
+                  "objectToBeRearranged" : "IModelObject"
+               }
+            ],
+            "inputContext" : {
+               "requestPref" : {
+                  "SampleKeyString" : "String"
+               },
+               "configuration" : {
+                  "configurationObject" : "IModelObject",
+                  "now" : "bool",
+                  "unitNo" : "int",
+                  "effectivityDate" : "Date",
+                  "variantRule" : "IModelObject",
+                  "endItem" : "IModelObject",
+                  "revisionRule" : "IModelObject",
+                  "svrOwningProduct" : "IModelObject"
+               },
+               "productContext" : "IModelObject",
+               "structureContextObject" : "IModelObject",
+               "pageSize" : "int"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2018-05-SpecNavigation/moveOccurrences",
+   "OperationResponse" : {
+      "newElementInfos" : [
+         {
+            "childElement" : "IModelObject",
+            "parentElement" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

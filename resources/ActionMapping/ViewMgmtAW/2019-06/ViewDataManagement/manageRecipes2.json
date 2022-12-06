@@ -1,0 +1,76 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "recipeCreInput" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "boName" : "String",
+                        "compoundCreateInput" : "Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CreateInputMap",
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        }
+                     }
+                  ]
+               },
+               "boName" : "String"
+            },
+            "criteriaInput" : {
+               "isConfigChanged" : "bool",
+               "configSet" : {
+                  "effectivityUnit" : "int",
+                  "effectivityEndItem" : "IModelObject",
+                  "effectivityDate" : "Date",
+                  "variantRules" : "IModelObject[]",
+                  "effectivityGroups" : "IModelObject[]",
+                  "revisionRule" : "String"
+               },
+               "productContext" : "IModelObject",
+               "selectContentInputs" : "IModelObject[]",
+               "criteriaSet" : {
+                  "lwoQueryExpression" : "String",
+                  "closureRuleNames" : "String[]"
+               }
+            },
+            "clientId" : "String",
+            "attributeValues" : {
+               "SampleKeyString" : "String"
+            },
+            "manageAction" : "Create Update Read ApplyConfig",
+            "recipeObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "recipeOutput" : [
+         {
+            "recipeOutput" : {
+               "selectContentInputs" : "IModelObject[]",
+               "configSet" : {
+                  "effectivityDate" : "Date",
+                  "variantRules" : "IModelObject[]",
+                  "effectivityGroups" : "IModelObject[]",
+                  "revisionRule" : "String",
+                  "effectivityUnit" : "int",
+                  "effectivityEndItem" : "IModelObject"
+               },
+               "productContext" : "IModelObject",
+               "isConfigChanged" : "bool",
+               "criteriaSet" : {
+                  "lwoQueryExpression" : "String",
+                  "closureRuleNames" : "String[]"
+               }
+            },
+            "clientId" : "String",
+            "productContext" : "IModelObject",
+            "recipeObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ViewMgmtAW-2019-06-ViewDataManagement/manageRecipes2"
+}

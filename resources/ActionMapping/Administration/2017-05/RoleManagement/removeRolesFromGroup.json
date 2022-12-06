@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Administration-2017-05-RoleManagement/removeRolesFromGroup",
+   "OperationInput" : {
+      "roleGroupStructs" : [
+         {
+            "roles" : "IModelObject[]",
+            "grp" : "IModelObject"
+         }
+      ]
+   }
+}

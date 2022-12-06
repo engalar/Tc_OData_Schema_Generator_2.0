@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Administration-2007-06-PreferenceManagement/importPreferences",
+   "OperationInput" : {
+      "importPrefs" : {
+         "fileTicket" : "String",
+         "importAction" : "String",
+         "categoryNames" : "String[]",
+         "preferenceScope" : "String"
+      }
+   }
+}

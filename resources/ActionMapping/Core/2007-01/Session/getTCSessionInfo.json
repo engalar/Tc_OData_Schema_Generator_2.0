@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "Core-2007-01-Session/getTCSessionInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "tcVolume" : "IModelObject",
+      "user" : "IModelObject",
+      "textInfos" : [
+         {
+            "realName" : "String",
+            "displayName" : "String"
+         }
+      ],
+      "admJournaling" : "bool",
+      "workContext" : "IModelObject",
+      "isSubscriptionMgrEnabled" : "bool",
+      "project" : "IModelObject",
+      "privileged" : "bool",
+      "isPartBOMUsageEnabled" : "bool",
+      "secJournaling" : "bool",
+      "moduleNumber" : "int",
+      "appJournaling" : "bool",
+      "role" : "IModelObject",
+      "site" : "IModelObject",
+      "bypass" : "bool",
+      "group" : "IModelObject",
+      "transientVolRootDir" : "String",
+      "serverVersion" : "String",
+      "journaling" : "bool",
+      "extraInfo" : {
+         "SampleKeyString" : "String"
+      },
+      "isInV7Mode" : "bool"
+   },
+   "OperationInput" : {}
+}

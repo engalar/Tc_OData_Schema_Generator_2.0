@@ -1,0 +1,56 @@
+{
+   "ServiceOperation" : "Internal-ProductionManagement-2020-01-EngineeringDataLoad/updateEngineeringExcel",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "featureRows" : [
+         {
+            "basicFeatureData" : {
+               "featureType" : "String",
+               "featureID" : "String",
+               "parentID" : "String",
+               "featureDescription" : "String",
+               "loadingSplitID" : "String",
+               "featureLabel" : "String",
+               "active" : "String",
+               "need" : "String",
+               "alternateLabel" : "String"
+            },
+            "basicNominalData" : {
+               "y" : "String",
+               "x" : "String",
+               "k2" : "String",
+               "k" : "String",
+               "j" : "String",
+               "i2" : "String",
+               "x2" : "String",
+               "i" : "String",
+               "z" : "String",
+               "z2" : "String",
+               "y2" : "String",
+               "j2" : "String"
+            },
+            "ftrAttributeData" : [
+               {
+                  "formula" : "String",
+                  "measurementApproach" : "String",
+                  "need" : "String",
+                  "nominal" : "String",
+                  "attributeCode" : "String",
+                  "specLimitsData" : [
+                     {
+                        "upper" : "String",
+                        "target" : "String",
+                        "lower" : "String",
+                        "codeName" : "String"
+                     }
+                  ],
+                  "significance" : "String",
+                  "mmc" : "String"
+               }
+            ]
+         }
+      ],
+      "routineID" : "String",
+      "routineRev" : "String"
+   }
+}

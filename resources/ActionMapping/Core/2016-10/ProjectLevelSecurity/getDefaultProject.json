@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "tcGroup" : "IModelObject",
+      "tcUser" : "IModelObject",
+      "tcRole" : "IModelObject"
+   },
+   "ServiceOperation" : "Core-2016-10-ProjectLevelSecurity/getDefaultProject",
+   "OperationResponse" : {
+      "applicableProjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

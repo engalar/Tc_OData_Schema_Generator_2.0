@@ -1,0 +1,51 @@
+{
+   "OperationInput" : {
+      "companyContact" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2015-07-SupplierCollaboration/getQueryDetailsForSupplier",
+   "OperationResponse" : {
+      "associatedProjects" : [
+         {
+            "name" : "String",
+            "id" : "String"
+         }
+      ],
+      "scoVect" : [
+         {
+            "referencedObjects" : [
+               {
+                  "fileName" : "String",
+                  "objectUID" : "String"
+               }
+            ],
+            "scoConfigRules" : {
+               "SampleKeyString" : "String"
+            },
+            "sco" : "IModelObject"
+         }
+      ],
+      "desExNamingRulePatterns" : "String[]",
+      "savedQueryOutputVect" : [
+         {
+            "queryClauseVect" : [
+               {
+                  "lovData" : {
+                     "lovType" : "int",
+                     "lov" : "IModelObject",
+                     "lovMap" : {
+                        "SampleKeyString" : "String"
+                     }
+                  },
+                  "entryL10NKey" : "String",
+                  "attributeType" : "int",
+                  "entryDefaultValue" : "String",
+                  "attributeName" : "String",
+                  "entryNameDisplay" : "String"
+               }
+            ],
+            "savedQuery" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

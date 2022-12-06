@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/subscribeToObject",
+   "OperationResponse" : {
+      "message" : "String",
+      "success" : "bool"
+   },
+   "OperationInput" : {
+      "targetObjectUid" : "String"
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "preferredPattern" : "String[]",
+      "condition" : "String[]",
+      "patterns" : [
+         {
+            "patternStrings" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2008-06-DataManagement/getNRPatternsWithCounters",
+   "OperationInput" : {
+      "vAttachInfo" : [
+         {
+            "propName" : "String",
+            "typeName" : "String"
+         }
+      ]
+   }
+}

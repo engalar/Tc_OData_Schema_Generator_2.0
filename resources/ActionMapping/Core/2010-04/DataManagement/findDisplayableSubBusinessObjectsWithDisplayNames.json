@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Core-2010-04-DataManagement/findDisplayableSubBusinessObjectsWithDisplayNames",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "displayableBOTypeNames" : [
+               {
+                  "boParents" : "String[]",
+                  "boDisplayName" : "String",
+                  "boName" : "String"
+               }
+            ],
+            "boTypeName" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "exclusionBOTypeNames" : "String[]",
+            "boTypeName" : "String"
+         }
+      ]
+   }
+}

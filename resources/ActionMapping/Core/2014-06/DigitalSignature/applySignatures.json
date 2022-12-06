@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2014-06-DigitalSignature/applySignatures",
+   "OperationInput" : {
+      "input" : [
+         {
+            "encryptedString" : "String",
+            "object" : "IModelObject"
+         }
+      ]
+   }
+}

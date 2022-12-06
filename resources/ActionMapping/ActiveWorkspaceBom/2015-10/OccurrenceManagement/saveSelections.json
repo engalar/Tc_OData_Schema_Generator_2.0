@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2015-10-OccurrenceManagement/saveSelections",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "selections" : [
+         {
+            "contextProduct" : "IModelObject",
+            "listOfSelectedOccurrences" : "IModelObject[]"
+         }
+      ]
+   }
+}

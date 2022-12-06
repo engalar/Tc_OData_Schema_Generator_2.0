@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "siteId" : "int",
+      "comment" : "String",
+      "changeId" : "String",
+      "objects" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "GlobalMultiSite-2007-06-SiteReservation/siteCheckOut"
+}

@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "rulesInput" : "String",
+            "inputFileTicket" : "String",
+            "options" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2020-05-ImportExport/getPreviewInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "previewJsonFileTicket" : "String[]"
+   }
+}

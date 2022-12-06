@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "ImportExport-2011-06-FileImportExport/updateReqMarkup",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "isLiveMarkup" : "bool",
+            "transientFileWriteTickets" : "String[]",
+            "reqObj" : "IModelObject",
+            "markupDataset" : "IModelObject"
+         }
+      ]
+   }
+}

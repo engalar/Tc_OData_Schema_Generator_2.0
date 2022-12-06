@@ -1,0 +1,56 @@
+{
+   "OperationResponse" : {
+      "configPerspective" : "IModelObject",
+      "responseInfo" : {
+         "SampleKeyString" : "String"
+      },
+      "parent" : "IModelObject",
+      "childrenNode" : [
+         {
+            "parentNode" : {
+               "wsObject" : "IModelObject",
+               "nodeProperties" : [
+                  {
+                     "propertyName" : "String",
+                     "nodePropertyInfo" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "values" : "String[]",
+                     "displayValues" : "String[]",
+                     "srcobjLsd" : "Date"
+                  }
+               ]
+            },
+            "node" : {
+               "nodeProperties" : [
+                  {
+                     "nodePropertyInfo" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "propertyName" : "String",
+                     "values" : "String[]",
+                     "displayValues" : "String[]",
+                     "srcobjLsd" : "Date"
+                  }
+               ],
+               "wsObject" : "IModelObject"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2020-05-ConfiguratorManagement/getConfiguratorDataHierarchy",
+   "OperationInput" : {
+      "input" : {
+         "parent" : "IModelObject",
+         "configPerspective" : "IModelObject",
+         "sortCriteria" : {
+            "fieldName" : "String",
+            "sortDirection" : "String"
+         },
+         "requestInfo" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   }
+}

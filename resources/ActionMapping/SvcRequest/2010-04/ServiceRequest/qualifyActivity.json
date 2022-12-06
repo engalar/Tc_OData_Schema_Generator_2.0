@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "requalify" : "bool",
+            "productPhysicalPart" : "IModelObject",
+            "serviceRequest" : "IModelObject",
+            "serviceOfferings" : "IModelObject[]",
+            "requestedActivity" : "IModelObject",
+            "stringProps" : {
+               "SampleKeyString" : "String"
+            },
+            "clientId" : "String",
+            "dateProps" : {
+               "SampleKeyString" : "Date"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "SvcRequest-2010-04-ServiceRequest/qualifyActivity",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "output" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

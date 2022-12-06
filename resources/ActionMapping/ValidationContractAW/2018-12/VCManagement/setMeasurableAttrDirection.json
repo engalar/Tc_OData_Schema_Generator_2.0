@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Internal-ValidationContractAW-2018-12-VCManagement/setMeasurableAttrDirection",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "analysisRequest" : "IModelObject",
+            "data" : [
+               {
+                  "attrs" : "IModelObject[]",
+                  "parentElement" : "IModelObject",
+                  "direction" : "input output unuse automatic"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   }
+}

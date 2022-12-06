@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "clientCorrelationId" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "userDataIp" : "String",
+            "osUserName" : "String"
+         },
+         "tagsAsString" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11LocateObjectSvc",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "userDataIp" : "String",
+      "out" : {
+         "found" : "bool",
+         "idsmSiteId" : "int",
+         "owningSiteId" : "int"
+      },
+      "serverCorrelationId" : "String"
+   }
+}

@@ -1,0 +1,52 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "info" : {
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "date" : "Date",
+            "unit" : "String",
+            "endItem" : "IModelObject",
+            "changeObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ChangeManagement-2015-03-ChangeManagement/createOrUpdatePreviousEffectivity",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "info" : [
+         {
+            "dateMap" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "dblMap" : {
+               "SampleKeyString" : "double[]"
+            },
+            "objMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "strMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "intMap" : {
+               "SampleKeyString" : "int[]"
+            }
+         }
+      ]
+   }
+}

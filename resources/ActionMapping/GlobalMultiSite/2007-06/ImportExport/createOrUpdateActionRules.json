@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/createOrUpdateActionRules",
+   "OperationResponse" : {
+      "actionRuleObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "description" : "String",
+            "actionRuleToUpdate" : "IModelObject",
+            "scope" : "String",
+            "actionLocation" : "String",
+            "actionName" : "String",
+            "name" : "String",
+            "schemaFormat" : "String"
+         }
+      ]
+   }
+}

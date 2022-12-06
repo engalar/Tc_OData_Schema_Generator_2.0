@@ -1,0 +1,35 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "userDataIp" : "String",
+      "out" : {
+         "statusCodes" : "int[]",
+         "failureCodes" : "int[]"
+      },
+      "serverCorrelationId" : "String"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11CheckSyncStatusSvc",
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "clientCorrelationId" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "osUserName" : "String",
+            "userDataIp" : "String",
+            "clientNode" : "String",
+            "userId" : "String"
+         },
+         "commandToken" : "int",
+         "objectsToCheck" : "String[]",
+         "lmdDates" : [
+            {
+               "dateVal" : "Date"
+            }
+         ]
+      }
+   }
+}

@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         },
+         "maxToLoad" : "int",
+         "fetchOnlyPreferredConfiguration" : "bool",
+         "searchCriteria" : "String",
+         "productContext" : "IModelObject",
+         "typeToFetch" : "String",
+         "startIndex" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-12-OccurrenceConfiguration/getConfigurationRules2",
+   "OperationResponse" : {
+      "marker" : "int",
+      "variantRules" : "IModelObject[]",
+      "preferredEffectivityInfo" : {
+         "effectivityEndItems" : "IModelObject[]",
+         "effectivityDates" : "Date[]",
+         "effectivityUnits" : "int[]"
+      },
+      "revisionRules" : [
+         {
+            "revisionRule" : "IModelObject",
+            "serializedRevRule" : "String"
+         }
+      ],
+      "globalRevisionRule" : "IModelObject",
+      "endIndex" : "int",
+      "serviceData" : "IServiceData",
+      "addOpenObjAsPreferredEndItem" : "bool",
+      "preferredVarRuleOwningObjects" : "IModelObject[]",
+      "totalFound" : "int"
+   }
+}

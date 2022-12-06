@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "objectStructArray" : [
+         {
+            "objects" : "IModelObject[]",
+            "properties" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2011-06-LOV/getLOVAttachments",
+   "OperationResponse" : {
+      "lovAttachments" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "lov" : "IModelObject",
+                  "propName" : "String"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

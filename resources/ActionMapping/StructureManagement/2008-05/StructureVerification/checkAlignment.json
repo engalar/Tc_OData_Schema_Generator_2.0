@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "target" : "IModelObject",
+            "source" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "results" : [
+         {
+            "scope" : {
+               "target" : "IModelObject",
+               "source" : "IModelObject"
+            },
+            "mismatches" : [
+               {
+                  "mismatchedAlignment" : {
+                     "source" : "IModelObject",
+                     "target" : "IModelObject"
+                  },
+                  "mismatchedproperties" : "int[]"
+               }
+            ]
+         }
+      ],
+      "propertyList" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2008-05-StructureVerification/checkAlignment"
+}

@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "srvcData" : "IServiceData",
+      "bomLinesOutput" : [
+         {
+            "bomLines" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-TestManagement-2014-12-InstanceManagement/getBOMLinesFromCloneStableIdChain",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "cloneStableIdChain" : "String",
+            "bomWindow" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

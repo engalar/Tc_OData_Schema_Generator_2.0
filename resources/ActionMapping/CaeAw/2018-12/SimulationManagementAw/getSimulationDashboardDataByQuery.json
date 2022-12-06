@@ -1,0 +1,60 @@
+{
+   "ServiceOperation" : "Internal-CaeAw-2018-12-SimulationManagementAw/getSimulationDashboardDataByQuery",
+   "OperationResponse" : {
+      "endIndex" : "int",
+      "simulationDashboardViewModelRows" : [
+         {
+            "simulationDashboardViewModelProps" : [
+               {
+                  "attributeName" : "String",
+                  "attributeComp" : "IModelObject",
+                  "columnValueInternalType" : "String",
+                  "columnType" : "String",
+                  "datasetComp" : "IModelObject",
+                  "pedigreeObject" : "IModelObject",
+                  "isModifiable" : "bool",
+                  "columnInternalValues" : "IModelObject[]",
+                  "statusValue" : "String",
+                  "uiColumnValueType" : "String",
+                  "columnValue" : "String",
+                  "columnName" : "String"
+               }
+            ],
+            "objectToMonitor" : "IModelObject"
+         }
+      ],
+      "objectsProcessed" : "int",
+      "fileStatus" : [
+         {
+            "dsType" : "String",
+            "heading" : "String",
+            "totalCount" : "int",
+            "foundCount" : "int"
+         }
+      ],
+      "simulationDashboardColumnsInfo" : [
+         {
+            "name" : "String",
+            "enableFiltering" : "bool",
+            "enablePinning" : "bool",
+            "typeName" : "String",
+            "displayName" : "String",
+            "enableSorting" : "bool",
+            "pinnedLeft" : "bool"
+         }
+      ],
+      "totalFound" : "int",
+      "objectsFiltered" : "int",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "dashboardQueryInput" : {
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "dashboardConfig" : "IModelObject",
+         "startIndex" : "int",
+         "pageSize" : "int"
+      }
+   }
+}

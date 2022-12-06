@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "selectedAsmBomLine" : "IModelObject"
+   },
+   "ServiceOperation" : "SvcAutoScheduling-2014-06-SvcAutoScheduling/identifyDiscrepancies",
+   "OperationResponse" : {
+      "discrepancies" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

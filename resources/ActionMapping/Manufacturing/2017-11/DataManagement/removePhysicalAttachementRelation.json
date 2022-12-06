@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2017-11-DataManagement/removePhysicalAttachementRelation",
+   "OperationInput" : {
+      "input" : [
+         {
+            "source" : "IModelObject",
+            "scope" : "IModelObject",
+            "context" : "IModelObject",
+            "target" : "IModelObject"
+         }
+      ]
+   }
+}

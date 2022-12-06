@@ -1,0 +1,41 @@
+{
+   "ServiceOperation" : "Internal-Query-2014-10-SavedQuery/describeSavedQueryDefinitions3",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "definitions" : [
+         {
+            "sortAttributes" : [
+               {
+                  "orderBy" : "String",
+                  "entryName" : "String",
+                  "attributeName" : "String",
+                  "entryNameDisplay" : "String"
+               }
+            ],
+            "query" : "IModelObject",
+            "clauses" : [
+               {
+                  "keyLovId" : "int",
+                  "defaultDisplayValue" : "String",
+                  "mathOperator" : "String",
+                  "entryL10NKey" : "String",
+                  "defaultInternalValue" : "String",
+                  "entryNameDisplay" : "String",
+                  "attributeName" : "String",
+                  "attributeType" : "int",
+                  "logicalOperator" : "String",
+                  "hasLOV" : "bool"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "requestedQueries" : [
+         {
+            "substituteKeyword" : "bool",
+            "query" : "IModelObject"
+         }
+      ]
+   }
+}

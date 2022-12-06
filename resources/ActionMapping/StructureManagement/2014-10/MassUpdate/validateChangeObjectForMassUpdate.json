@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "changeItemRev" : "IModelObject",
+            "isValid" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/validateChangeObjectForMassUpdate",
+   "OperationInput" : {
+      "massUpdateType" : "String",
+      "input" : "IModelObject[]"
+   }
+}

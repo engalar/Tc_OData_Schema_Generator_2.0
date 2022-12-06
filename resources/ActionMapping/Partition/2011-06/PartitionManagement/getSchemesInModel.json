@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Partition-2011-06-PartitionManagement/getSchemesInModel",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "partitionSchemes" : "IModelObject[]",
+            "model" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   }
+}

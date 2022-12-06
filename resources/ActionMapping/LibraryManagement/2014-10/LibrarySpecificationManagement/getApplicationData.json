@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "appDataOutputs" : [
+         {
+            "appDataObjects" : "IModelObject[]",
+            "specification" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/getApplicationData",
+   "OperationInput" : {
+      "appDataInputs" : [
+         {
+            "appDataExprs" : [
+               {
+                  "expression" : "String",
+                  "propertyName" : "String"
+               }
+            ],
+            "specification" : "IModelObject"
+         }
+      ]
+   }
+}

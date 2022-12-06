@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "triggerType" : "int"
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-TCXML/installDBTriggersForDataSync",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,55 @@
+{
+   "OperationResponse" : {
+      "modelElements" : "IModelObject[]",
+      "estimatedElementsLeft" : "int",
+      "elementsDone" : "int",
+      "serviceData" : "IServiceData",
+      "partitionGrps" : [
+         {
+            "isRootPartition" : "bool",
+            "childPartitionGroups" : "Ptn0::Soa::Partition::_2012_09::Search::PartitionGroup[]",
+            "members" : "IModelObject[]",
+            "partition" : "IModelObject"
+         }
+      ],
+      "searchCursor" : "IModelObject",
+      "isFinished" : "bool"
+   },
+   "ServiceOperation" : "Partition-2018-11-Search/executeSearch",
+   "OperationInput" : {
+      "searchOptions" : {
+         "sortOrder" : "Ascending Descending",
+         "defaultLoadCount" : "int",
+         "sortAttributes" : "String[]"
+      },
+      "recipe" : {
+         "searchExpression" : {
+            "searchOperator" : "And Or Not",
+            "searchExpressionSets" : "Ptn0::Soa::Partition::_2012_09::Search::SearchExpressionSet[]",
+            "searchExpression" : {
+               "doTrushapeRefinement" : "bool",
+               "searchExpressions" : "IModelObject[]"
+            }
+         },
+         "scope" : {
+            "model" : "IModelObject",
+            "recipeContainer" : "IModelObject",
+            "searchType" : "String[]"
+         },
+         "configDetails" : [
+            {
+               "configContext" : "IModelObject",
+               "configurationFor" : "Universal Partition"
+            }
+         ]
+      },
+      "scope" : {
+         "scheme" : "IModelObject",
+         "isOnlyImmediateGroupsReqd" : "bool"
+      },
+      "exportOption" : {
+         "columnAttributes" : "String[]",
+         "applicationFormat" : "String"
+      }
+   }
+}

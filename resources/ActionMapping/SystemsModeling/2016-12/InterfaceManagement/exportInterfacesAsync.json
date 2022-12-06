@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "inputsAsync" : [
+         {
+            "exportOptions" : {
+               "SampleKeyString" : "String[]"
+            },
+            "awbElementRecipes" : "String[]",
+            "productContextReceipe" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SystemsModeling-2016-12-InterfaceManagement/exportInterfacesAsync",
+   "OperationResponse" : {}
+}

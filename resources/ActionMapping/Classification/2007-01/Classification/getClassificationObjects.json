@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "clsObjTags" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "clsObjs" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "properties" : [
+                  {
+                     "attributeId" : "int",
+                     "values" : [
+                        {
+                           "dbValue" : "String",
+                           "displayValue" : "String"
+                        }
+                     ]
+                  }
+               ],
+               "instanceId" : "String",
+               "wsoId" : "IModelObject",
+               "classId" : "String",
+               "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+               "clsObjTag" : "IModelObject"
+            }
+         ]
+      ]
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/getClassificationObjects"
+}

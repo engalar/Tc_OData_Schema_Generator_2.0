@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {
+      "resultSourceTarget" : [
+         {
+            "source" : "IModelObject",
+            "targets" : "IModelObject[]",
+            "checkResult" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2008-12-StructureVerification/accountabilityCheck",
+   "OperationInput" : {
+      "input" : {
+         "option" : "int",
+         "tarCtxtLineTag" : "IModelObject",
+         "sourceTags" : "IModelObject[]",
+         "matchType" : "int",
+         "srcCtxtLineTag" : "IModelObject",
+         "targetTags" : "IModelObject[]"
+      }
+   }
+}

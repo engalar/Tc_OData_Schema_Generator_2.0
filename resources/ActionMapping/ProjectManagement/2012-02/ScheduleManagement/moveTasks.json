@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "moveRequests" : [
+         {
+            "prevSibling" : "IModelObject",
+            "newParent" : "IModelObject",
+            "task" : "IModelObject"
+         }
+      ],
+      "schedule" : "IModelObject"
+   },
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/moveTasks",
+   "OperationResponse" : "IServiceData"
+}

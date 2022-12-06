@@ -1,0 +1,54 @@
+{
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/updateSessionModel",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "sessionModelInfo" : {
+         "SampleKeyString" : {
+            "relations" : [
+               {
+                  "relation" : "IModelObject",
+                  "propertiesInfo" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ],
+            "references" : [
+               {
+                  "uploadedFileRefNames" : "String",
+                  "uploadedFilename" : "String",
+                  "uploadedFile" : "IModelObject",
+                  "clientFileId" : "String"
+               }
+            ],
+            "sessionModelDataset" : "IModelObject"
+         }
+      }
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "sessionModelDataset" : "IModelObject",
+            "sessionModelBaseObjs" : [
+               {
+                  "propertiesInfo" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "baseObj" : "IModelObject"
+               }
+            ],
+            "uploadData" : [
+               {
+                  "fileTicket" : "String",
+                  "newObject" : "IModelObject",
+                  "existingObject" : "IModelObject",
+                  "fileState" : "String",
+                  "fileName" : "String",
+                  "refName" : "String",
+                  "clientFileId" : "String"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   }
+}

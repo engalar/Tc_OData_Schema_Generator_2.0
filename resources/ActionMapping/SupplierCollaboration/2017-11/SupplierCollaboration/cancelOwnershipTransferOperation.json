@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SupplierCollaboration-2017-11-SupplierCollaboration/cancelOwnershipTransferOperation",
+   "OperationInput" : {
+      "includeChildren" : "bool",
+      "input" : {
+         "exchangeLine" : "IModelObject",
+         "operationType" : "String",
+         "itemRevisions" : "IModelObject[]",
+         "companyContact" : "IModelObject"
+      }
+   }
+}

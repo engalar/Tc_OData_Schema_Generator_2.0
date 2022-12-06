@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "keys" : [
+         {
+            "constantName" : "String",
+            "typeName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "BusinessModeler-2007-06-Constants/getTypeConstantValues",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "constantValues" : [
+         {
+            "value" : "String",
+            "key" : {
+               "typeName" : "String",
+               "constantName" : "String"
+            }
+         }
+      ]
+   }
+}

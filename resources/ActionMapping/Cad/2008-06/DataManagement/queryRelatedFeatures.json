@@ -1,0 +1,79 @@
+{
+   "OperationInput" : {
+      "featureQueryInfos" : [
+         {
+            "featureQueryData" : {
+               "itemRevision" : "IModelObject",
+               "gdeOccurrence" : "IModelObject",
+               "featureTypes" : "String[]",
+               "occNote" : {
+                  "noteText" : "String",
+                  "noteType" : "String"
+               },
+               "gdeBVR" : "IModelObject"
+            },
+            "featureReturnFilter" : {
+               "returnGDELinks" : "bool",
+               "returnFeatureForms" : "bool",
+               "featureTypes" : "String[]",
+               "relatedItems" : "bool",
+               "recursive" : "bool",
+               "returnGDEs" : "bool",
+               "configRule" : "IModelObject"
+            },
+            "clientID" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "returnQueryRelatedFeature" : {
+         "SampleKeyString" : {
+            "gdeItems" : [
+               {
+                  "gdeLinks" : [
+                     {
+                        "itemRevision" : "IModelObject",
+                        "gdes" : [
+                           {
+                              "featureForm" : "IModelObject",
+                              "gdeLinks" : "Teamcenter::Soa::Internal::Cad::_2008_06::DataManagement::RefedGDELinkItem[]",
+                              "gde" : "IModelObject",
+                              "itemRevision" : "IModelObject"
+                           }
+                        ],
+                        "gdeLink" : "IModelObject",
+                        "featureForm" : "IModelObject"
+                     }
+                  ],
+                  "gde" : "IModelObject",
+                  "featureForm" : "IModelObject"
+               }
+            ],
+            "gdeLinkItems" : [
+               {
+                  "featureForm" : "IModelObject",
+                  "gdeLink" : "IModelObject",
+                  "gdes" : [
+                     {
+                        "itemRevision" : "IModelObject",
+                        "gdeLinks" : [
+                           {
+                              "itemRevision" : "IModelObject",
+                              "gdes" : "Teamcenter::Soa::Internal::Cad::_2008_06::DataManagement::RefedGDEItem[]",
+                              "gdeLink" : "IModelObject",
+                              "featureForm" : "IModelObject"
+                           }
+                        ],
+                        "gde" : "IModelObject",
+                        "featureForm" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "itemRevision" : "IModelObject"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Cad-2008-06-DataManagement/queryRelatedFeatures"
+}

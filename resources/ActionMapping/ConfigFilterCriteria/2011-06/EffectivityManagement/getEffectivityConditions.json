@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "ConfigFilterCriteria-2011-06-EffectivityManagement/getEffectivityConditions",
+   "OperationResponse" : {
+      "effectivityFormulae" : [
+         {
+            "formula" : "String",
+            "productName" : "String",
+            "productNameSpace" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "affectedObjects" : "IModelObject[]",
+      "configuratorURL" : "String"
+   }
+}

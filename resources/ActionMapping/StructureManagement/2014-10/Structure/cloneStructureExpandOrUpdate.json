@@ -1,0 +1,31 @@
+{
+   "ServiceOperation" : "StructureManagement-2014-10-Structure/cloneStructureExpandOrUpdate",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "parentObjectCloneable" : "int",
+            "relatedObjectInfo" : [
+               {
+                  "relatedObjectCADOptionName" : "String",
+                  "relatedObject" : "IModelObject",
+                  "relatedObjectGRMName" : "String",
+                  "relatedObjectCloneable" : "int"
+               }
+            ],
+            "parentObject" : "IModelObject"
+         }
+      ],
+      "additionalDependencies" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "opInput" : [
+         {
+            "bomline" : "IModelObject",
+            "itemRevs" : "IModelObject[]",
+            "cadOptions" : "String[]"
+         }
+      ],
+      "selectionOption" : "int"
+   }
+}

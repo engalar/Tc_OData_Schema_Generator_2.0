@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "createPngDatasetInput" : {
+         "width" : "String",
+         "contextObject" : "IModelObject",
+         "height" : "String",
+         "svgString" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-Capaonawc-2020-12-QualityIssueManagement/createPngDatasetFromSvgDiagram",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "dataset" : "IModelObject"
+   }
+}

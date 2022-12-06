@@ -1,0 +1,91 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "targetFilteringRule" : "String",
+         "includeScopeLines" : "bool",
+         "resultName" : "String",
+         "resultDesc" : "String",
+         "sourceObjects" : "IModelObject[]",
+         "reportCriteria" : {
+            "stylesheetName" : "String",
+            "datasetName" : "String",
+            "datasetCtxUID" : "String",
+            "datasetType" : "String",
+            "contextObjectUIDs" : "String[]",
+            "criteriaName" : "String[]",
+            "rdTag" : "IModelObject",
+            "reportName" : "String",
+            "datasetCtxObj" : "IModelObject",
+            "criteriaValues" : "String[]",
+            "reportOptionsValues" : "String[]",
+            "stylesheetTag" : "IModelObject",
+            "relationName" : "String",
+            "contextObjects" : "IModelObject[]",
+            "reportOptionsNames" : "String[]"
+         },
+         "targetContextLine" : "IModelObject",
+         "targetDepth" : "int",
+         "reportMode" : "int",
+         "partialMatchCriteria" : {
+            "SampleKeyString" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            }
+         },
+         "matchType" : "int",
+         "targetObjects" : "IModelObject[]",
+         "options" : "int",
+         "sourceContextLine" : "IModelObject",
+         "sourceFilteringRule" : "String",
+         "sourceDepth" : "int"
+      },
+      "batchDetails" : {
+         "primaryObjects" : "IModelObject[]",
+         "endAfterOccurrences" : "int",
+         "daysOfWeek" : "bool[]",
+         "endTime" : "Date",
+         "priority" : "int",
+         "mode" : "String",
+         "startTime" : "Date",
+         "site" : "int",
+         "identifier" : "String",
+         "secondaryObjects" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "StructureManagement-2016-05-StructureVerification/accountabilityCheck2",
+   "OperationResponse" : {
+      "reachableTargets" : "IModelObject[]",
+      "accountabilityCheckResults" : [
+         {
+            "reportFileInfo" : [
+               {
+                  "fileName" : "String",
+                  "ticket" : "String",
+                  "isText" : "bool"
+               }
+            ],
+            "checkResult" : "int",
+            "sourceLine" : "IModelObject",
+            "equivalentTargetLines" : "IModelObject[]",
+            "equivalentSourceLines" : "IModelObject[]",
+            "resultViewTag" : "IModelObject"
+         }
+      ],
+      "sourceConfigContext" : "IModelObject",
+      "targetConfigContext" : "IModelObject",
+      "serviceData" : "IServiceData"
+   }
+}

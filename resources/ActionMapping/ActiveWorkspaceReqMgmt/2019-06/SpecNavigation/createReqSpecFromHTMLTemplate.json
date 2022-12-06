@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "createInput" : {
+         "createInput" : {
+            "propertyNameValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "boName" : "String",
+            "compoundReqCreateInput" : {
+               "SampleKeyString" : [
+                  {
+                     "boName" : "String",
+                     "propertyNameValues" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "compoundReqCreateInput" : "Arm0::Soa::Internal::ActiveWorkspaceReqMgmt::_2019_06::SpecNavigation::ReqCreateInputMap"
+                  }
+               ]
+            }
+         },
+         "htmlSpecTemplate" : "IModelObject",
+         "targetObject" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2019-06-SpecNavigation/createReqSpecFromHTMLTemplate",
+   "OperationResponse" : "IServiceData"
+}

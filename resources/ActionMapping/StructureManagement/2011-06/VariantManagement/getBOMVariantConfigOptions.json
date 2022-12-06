@@ -1,0 +1,53 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : {
+         "bomWindow" : "IModelObject",
+         "configuredOptions" : [
+            {
+               "defaultSet" : "int",
+               "modularOption" : {
+                  "optionName" : "String",
+                  "optionScope" : "int",
+                  "mvlDefinitions" : "String[]",
+                  "optionType" : "int",
+                  "maxValues" : "double[]",
+                  "basedOnOption" : {
+                     "owningModuleKey" : "String",
+                     "basedOptionId" : "int",
+                     "basedOnType" : "int",
+                     "owningOptionName" : "String",
+                     "path" : "String"
+                  },
+                  "allowedValues" : "String[]",
+                  "optionValueType" : "int",
+                  "defaultValue" : "String",
+                  "operationTypes" : "int[]",
+                  "optionId" : "int",
+                  "minValues" : "double[]",
+                  "optionDescription" : "String"
+               },
+               "classicOption" : {
+                  "optionDescription" : "String",
+                  "variantRev" : "IModelObject",
+                  "optionValues" : "String[]",
+                  "optionName" : "String",
+                  "variant" : "IModelObject",
+                  "itemId" : "String"
+               },
+               "whereSet" : "String",
+               "howSet" : "int",
+               "variantType" : "BOM_LEGACY BOM_MODULAR",
+               "defaultValue" : "String",
+               "valueSet" : "String"
+            }
+         ],
+         "dbSOSOrSVR" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2011-06-VariantManagement/getBOMVariantConfigOptions",
+   "OperationInput" : {
+      "bomWindow" : "IModelObject",
+      "bomLine" : "IModelObject"
+   }
+}

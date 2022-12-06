@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "objTagAsString" : "String[]",
+      "clientInfo" : {
+         "clientMaintPackVersion" : "int",
+         "clientOdsMinorVersion" : "int",
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "clientMinorReleaseVersion" : "int",
+         "clientCorrelID" : "String",
+         "clientNode" : "String",
+         "clientReleaseVersion" : "int",
+         "roleName" : "String",
+         "userDataInput" : "String",
+         "clientSiteId" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "osUserName" : "String",
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-ObjectDirectory/unpublishObjects",
+   "OperationResponse" : {
+      "serverCorrelID" : "String",
+      "userDataOutput" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

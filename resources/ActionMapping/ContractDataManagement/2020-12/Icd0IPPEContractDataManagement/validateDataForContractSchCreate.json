@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "contractObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-ContractDataManagement-2020-12-Icd0IPPEContractDataManagement/validateDataForContractSchCreate",
+   "OperationResponse" : "IServiceData"
+}

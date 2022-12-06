@@ -1,0 +1,37 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "memberOrPresentedProps" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Core-2017-11-LogicalObject/addMembersAndPresentedProps",
+   "OperationInput" : {
+      "addMembersAndPresentedProps" : {
+         "memberDefinitions" : [
+            {
+               "description" : "String",
+               "displayName" : "String",
+               "traversalPath" : [
+                  {
+                     "destinationType" : "String",
+                     "propertyType" : "String",
+                     "direction" : "String",
+                     "propertyName" : "String"
+                  }
+               ],
+               "memberPropertyName" : "String",
+               "retrieveClassificationData" : "bool"
+            }
+         ],
+         "logicalObjectType" : "IModelObject",
+         "presentedPropertiesDefinitions" : [
+            {
+               "description" : "String",
+               "displayName" : "String",
+               "sourcePropertyName" : "String",
+               "presentedPropertyName" : "String",
+               "rootOrMemberName" : "String"
+            }
+         ]
+      }
+   }
+}

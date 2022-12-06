@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "hasActiveMarkup" : "bool",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ChangeManagement-2020-01-MassUpdate/hasActiveMarkupAssociated",
+   "OperationInput" : {
+      "changeObject" : "IModelObject"
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "orderedElementGroupObjects" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/getOrderedElementGroups",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "conditionalElemGroup" : "IModelObject",
+            "modelObject" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2016-03-OccurrenceManagement/addOrRemoveOccurrenceEffectivities",
+   "OperationInput" : {
+      "input" : {
+         "addOrRemove" : "bool",
+         "effectivities" : "IModelObject[]",
+         "elements" : "IModelObject[]"
+      }
+   }
+}

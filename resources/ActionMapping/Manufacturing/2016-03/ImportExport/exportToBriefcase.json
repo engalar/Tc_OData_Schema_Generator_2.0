@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "briefcaseDataSet" : "IModelObject",
+      "briefcaseFileFMSTicket" : "String",
+      "messageIds" : "String[]",
+      "serviceData" : "IServiceData",
+      "fileTickets" : "String[]"
+   },
+   "ServiceOperation" : "Manufacturing-2016-03-ImportExport/exportToBriefcase",
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "reason" : "String",
+      "optionNameAndValues" : {
+         "SampleKeyString" : "String"
+      },
+      "transferOptionSet" : "IModelObject",
+      "sites" : "IModelObject[]",
+      "sessionOptionNamesAndValues" : {
+         "SampleKeyString" : "String"
+      }
+   }
+}

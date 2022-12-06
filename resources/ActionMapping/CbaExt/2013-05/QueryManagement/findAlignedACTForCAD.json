@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "bomLines" : "IModelObject[]",
+      "actBomWindow" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "actLines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-CbaExt-2013-05-QueryManagement/findAlignedACTForCAD"
+}

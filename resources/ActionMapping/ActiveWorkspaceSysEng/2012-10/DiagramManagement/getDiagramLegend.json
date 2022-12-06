@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "viewName" : "String"
+   },
+   "OperationResponse" : {
+      "legendData" : [
+         {
+            "name" : "String",
+            "relationGroup" : [
+               {
+                  "color" : {
+                     "blueValue" : "double",
+                     "redValue" : "double",
+                     "greenValue" : "double"
+                  },
+                  "types" : [
+                     {
+                        "displayName" : "String",
+                        "typeName" : "String"
+                     }
+                  ],
+                  "name" : "String"
+               }
+            ],
+            "objectGroup" : [
+               {
+                  "color" : {
+                     "redValue" : "double",
+                     "blueValue" : "double",
+                     "greenValue" : "double"
+                  },
+                  "name" : "String",
+                  "types" : [
+                     {
+                        "typeName" : "String",
+                        "displayName" : "String"
+                     }
+                  ]
+               }
+            ],
+            "defaultLayout" : "String"
+         }
+      ],
+      "presentationStylesXML" : "String",
+      "serviceData" : "IServiceData",
+      "presentationRulesXML" : "String"
+   },
+   "ServiceOperation" : "ActiveWorkspaceSysEng-2012-10-DiagramManagement/getDiagramLegend"
+}

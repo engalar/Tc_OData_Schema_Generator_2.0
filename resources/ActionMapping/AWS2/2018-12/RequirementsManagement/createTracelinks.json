@@ -1,0 +1,41 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "tracelinkObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "AWS2-2018-12-RequirementsManagement/createTracelinks",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            },
+            "primaryObj" : "IModelObject",
+            "secondaryObj" : "IModelObject",
+            "tracelinkCreateInput" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String",
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boName" : "String",
+                        "compoundCreateInput" : "Awp0::Soa::AWS2::_2018_12::RequirementsManagement::CreateInputMap"
+                     }
+                  ]
+               }
+            }
+         }
+      ]
+   }
+}

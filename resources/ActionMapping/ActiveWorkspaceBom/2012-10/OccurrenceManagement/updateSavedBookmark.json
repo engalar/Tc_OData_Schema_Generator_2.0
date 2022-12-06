@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2012-10-OccurrenceManagement/updateSavedBookmark",
+   "OperationInput" : {
+      "savedBookmarkObjects" : "IModelObject[]"
+   }
+}

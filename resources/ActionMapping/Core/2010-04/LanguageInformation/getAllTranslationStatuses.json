@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "fullTranslationStatuses" : [
+         {
+            "statusDescription" : "String",
+            "statusName" : "String",
+            "status" : "TranslationStatusMaster TranslationStatusApproved TranslationStatusPending TranslationStatusInReview TranslationStatusInvalid"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2010-04-LanguageInformation/getAllTranslationStatuses"
+}

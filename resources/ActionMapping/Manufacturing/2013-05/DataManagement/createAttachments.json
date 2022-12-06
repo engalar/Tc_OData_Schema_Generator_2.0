@@ -1,0 +1,117 @@
+{
+   "ServiceOperation" : "Manufacturing-2013-05-DataManagement/createAttachments",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "objects" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "relationName" : "String",
+            "clientId" : "String",
+            "data" : {
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "type" : "String",
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "compoundCreateInput" : "Teamcenter::Soa::Manufacturing::_2009_10::DataManagement::CreateInputMap",
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        }
+                     }
+                  ]
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "type" : "String",
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "target" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "objectPropertyGroupInputList" : [
+         {
+            "propertyValues" : [
+               {
+                  "propertyGroupID" : "String",
+                  "endValue" : "String",
+                  "startValue" : "String"
+               }
+            ],
+            "internalPropertyName" : "String",
+            "objectList" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "groupedObjectsList" : [
+         {
+            "unmatchedObjectList" : "IModelObject[]",
+            "internalPropertyName" : "String",
+            "groupedObjectsMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String[]"
+               ]
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Query-2014-11-Finder/groupObjectsByProperties"
+}

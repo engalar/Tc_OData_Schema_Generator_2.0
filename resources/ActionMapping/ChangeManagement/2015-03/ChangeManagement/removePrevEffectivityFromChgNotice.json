@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-ChangeManagement-2015-03-ChangeManagement/removePrevEffectivityFromChgNotice",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   }
+}

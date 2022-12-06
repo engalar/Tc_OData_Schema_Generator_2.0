@@ -1,0 +1,30 @@
+{
+   "OperationResponse" : {
+      "data" : [
+         {
+            "statusData" : {
+               "assignedToObjects" : "IModelObject[]",
+               "status" : "String[]"
+            },
+            "assignedObjectData" : [
+               {
+                  "assignedObject" : "IModelObject",
+                  "assignmentType" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Process-2017-05-Assignment/assignObjects",
+   "OperationInput" : {
+      "input" : [
+         {
+            "assignedObjects" : "IModelObject[]",
+            "assignmentType" : "IModelObject",
+            "clientID" : "String",
+            "assignedTo" : "IModelObject"
+         }
+      ]
+   }
+}

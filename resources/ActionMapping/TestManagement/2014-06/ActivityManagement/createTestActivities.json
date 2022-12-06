@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "activityInfoList" : [
+               {
+                  "activityComment" : "String",
+                  "executionResultStatus" : "String",
+                  "transientFileTickets" : "String",
+                  "activityType" : "String",
+                  "activityId" : "String",
+                  "activityDate" : "Date"
+               }
+            ],
+            "testInstance" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "TestManagement-2014-06-ActivityManagement/createTestActivities",
+   "OperationResponse" : {
+      "srvcData" : "IServiceData",
+      "testInst2ActivsMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   }
+}

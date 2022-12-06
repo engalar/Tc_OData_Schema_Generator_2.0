@@ -1,0 +1,88 @@
+{
+   "OperationInput" : {
+      "copyInput" : {
+         "templateInfo" : {
+            "cloningRule" : "String",
+            "referenceWindow" : "IModelObject[]",
+            "objectToClone" : "IModelObject",
+            "additionalInfo" : {
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            }
+         },
+         "newObjectInfo" : {
+            "newName" : "String",
+            "newrevId" : "String",
+            "newId" : "String",
+            "pasteTarget" : "IModelObject",
+            "additionalInfo" : {
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "newDescription" : "String"
+         },
+         "configurationInfo" : {
+            "additionalInfo" : {
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "copyFutureEffectivities" : "bool",
+            "revisionRule" : "IModelObject",
+            "copySuppressedLines" : "bool",
+            "variantRules" : "IModelObject[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Manufacturing-2018-11-StructureManagement/copyRecursively",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : "String",
+      "dataMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ]
+   }
+}

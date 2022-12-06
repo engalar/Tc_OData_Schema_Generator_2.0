@@ -1,0 +1,112 @@
+{
+   "ServiceOperation" : "Internal-ObjectDataServices-2020-12-ObjectDataServices/findObjects2",
+   "OperationResponse" : {
+      "objects" : [
+         {
+            "offsetInfo" : {
+               "lastProcessedIndex" : "int",
+               "lastProcessedObjId" : "String"
+            },
+            "objects" : [
+               {
+                  "filteredObj" : "IModelObject",
+                  "expandedObject" : {
+                     "SampleKeyString" : {
+                        "offsetInfo" : {
+                           "lastProcessedIndex" : "int",
+                           "lastProcessedObjId" : "String"
+                        },
+                        "count" : "int",
+                        "objects" : "Ods0::Soa::Internal::ObjectDataServices::_2020_12::ObjectDataServices::FilteredObject2[]"
+                     }
+                  }
+               }
+            ],
+            "count" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "unaryOperator" : "String",
+            "operand" : {
+               "attributeSortCriteria" : [
+                  {
+                     "attribute" : "String",
+                     "sortDirection" : "ASC DESC"
+                  }
+               ],
+               "offsetInfo" : {
+                  "lastProcessedIndex" : "int",
+                  "lastProcessedObjId" : "String"
+               },
+               "expressions" : [
+                  {
+                     "expressionOperator" : "String",
+                     "operands" : "Ods0::Soa::Internal::ObjectDataServices::_2020_12::ObjectDataServices::OperandAndOperator[]"
+                  }
+               ],
+               "operandType" : "String",
+               "startIndex" : "int",
+               "operandValue" : "String",
+               "maxToReturn" : "int",
+               "expandCriteria" : {
+                  "SampleKeyString" : {
+                     "expressions" : [
+                        {
+                           "operands" : "Ods0::Soa::Internal::ObjectDataServices::_2020_12::ObjectDataServices::OperandAndOperator[]",
+                           "expressionOperator" : "String"
+                        }
+                     ],
+                     "offsetInfo" : {
+                        "lastProcessedIndex" : "int",
+                        "lastProcessedObjId" : "String"
+                     },
+                     "attributeSortCriteria" : [
+                        {
+                           "attribute" : "String",
+                           "sortDirection" : "ASC DESC"
+                        }
+                     ],
+                     "startIndex" : "int",
+                     "operandType" : "String",
+                     "operandValue" : "String",
+                     "maxToReturn" : "int",
+                     "expandCriteria" : "Ods0::Soa::Internal::ObjectDataServices::_2020_12::ObjectDataServices::ExpandCriteria2",
+                     "referencedObjectAttributeSortCriteria" : [
+                        {
+                           "className" : "String",
+                           "referencedObjectsSortCriteria" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::NestedSortCriteria[]",
+                           "simpleSortCriteria" : [
+                              {
+                                 "attribute" : "String",
+                                 "sortDirection" : "ASC DESC"
+                              }
+                           ],
+                           "attributeName" : "String"
+                        }
+                     ],
+                     "attributes" : "String[]"
+                  }
+               },
+               "referencedObjectAttributeSortCriteria" : [
+                  {
+                     "className" : "String",
+                     "referencedObjectsSortCriteria" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::NestedSortCriteria[]",
+                     "attributeName" : "String",
+                     "simpleSortCriteria" : [
+                        {
+                           "sortDirection" : "ASC DESC",
+                           "attribute" : "String"
+                        }
+                     ]
+                  }
+               ],
+               "attributes" : "String[]"
+            }
+         }
+      ]
+   }
+}

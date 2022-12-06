@@ -1,0 +1,66 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "configForOtherSideBVRData" : [
+               {
+                  "toplineObject" : "IModelObject",
+                  "configData" : "IModelObject"
+               }
+            ],
+            "clientId" : "String",
+            "context" : "IModelObject",
+            "inputBVRDesignInstance" : {
+               "assemblyDetails" : {
+                  "configData" : "IModelObject",
+                  "toplineObject" : "IModelObject"
+               },
+               "instanceOccThreadPath" : "String",
+               "configuredObject" : "IModelObject"
+            },
+            "configForOtherSide4GData" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2020-12-MultiDisciplinaryDataMgt/getLinkedInstancesForBVR",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "linkedInstances" : [
+               {
+                  "mdoObjectsLinkedToMDI" : "IModelObject[]",
+                  "context" : "IModelObject",
+                  "instancesInfo" : [
+                     {
+                        "irrelevantDomains" : "String[]",
+                        "isValidated" : "bool",
+                        "bvrInstanceData" : {
+                           "configuredObject" : "IModelObject",
+                           "instanceOccThreadPath" : "String",
+                           "assemblyDetails" : {
+                              "configData" : "IModelObject",
+                              "toplineObject" : "IModelObject"
+                           }
+                        },
+                        "needsValidation" : "bool",
+                        "relevantDomains" : "String[]",
+                        "designInstanceFor4G" : "IModelObject"
+                     }
+                  ],
+                  "mdiObject" : "IModelObject"
+               }
+            ],
+            "hasLinkedInstance" : "bool",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

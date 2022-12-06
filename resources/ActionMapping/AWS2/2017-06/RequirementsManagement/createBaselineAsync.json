@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-AWS2-2017-06-RequirementsManagement/createBaselineAsync",
+   "OperationInput" : {
+      "input" : [
+         {
+            "recipeObject" : "String",
+            "baselineInputDataSync" : {
+               "baselineReleaseProcedureName" : "String",
+               "isPreciseBaseline" : "bool",
+               "isDryRun" : "bool",
+               "baselineJobName" : "String",
+               "baselineRevisionId" : "String",
+               "baselineJobDescription" : "String",
+               "baselineDescription" : "String",
+               "objectToBaseline" : "IModelObject",
+               "baselineLabelName" : "String"
+            }
+         }
+      ]
+   }
+}

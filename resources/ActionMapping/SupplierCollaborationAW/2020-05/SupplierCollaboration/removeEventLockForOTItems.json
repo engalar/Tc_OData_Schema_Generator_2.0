@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2020-05-SupplierCollaboration/removeEventLockForOTItems",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : "IModelObject"
+   }
+}

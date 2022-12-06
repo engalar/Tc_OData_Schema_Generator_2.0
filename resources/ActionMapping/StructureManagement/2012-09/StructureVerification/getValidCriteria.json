@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2012-09-StructureVerification/getValidCriteria",
+   "OperationResponse" : {
+      "criteriamap" : [
+         {
+            "SampleKeyString" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputscope" : [
+         {
+            "targetscope" : "IModelObject[]",
+            "sourcescope" : "IModelObject[]"
+         }
+      ]
+   }
+}

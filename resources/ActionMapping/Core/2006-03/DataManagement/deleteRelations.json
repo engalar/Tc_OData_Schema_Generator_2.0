@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "secondaryObject" : "IModelObject",
+            "userData" : "IModelObject",
+            "clientId" : "String",
+            "primaryObject" : "IModelObject",
+            "relationType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2006-03-DataManagement/deleteRelations",
+   "OperationResponse" : "IServiceData"
+}

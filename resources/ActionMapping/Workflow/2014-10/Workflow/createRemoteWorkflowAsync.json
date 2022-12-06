@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "createRemoteWkfInput" : {
+         "processTemplate" : "String",
+         "sourceObject" : "IModelObject",
+         "processName" : "String",
+         "assignedUserList" : "String[]",
+         "site" : "IModelObject",
+         "attachmentRelationTypes" : "String[]",
+         "processDescription" : "String",
+         "dueDate" : "Date",
+         "workflowOwner" : "IModelObject",
+         "attachments" : "IModelObject[]",
+         "responsibleParty" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Workflow-2014-10-Workflow/createRemoteWorkflowAsync",
+   "OperationResponse" : {}
+}

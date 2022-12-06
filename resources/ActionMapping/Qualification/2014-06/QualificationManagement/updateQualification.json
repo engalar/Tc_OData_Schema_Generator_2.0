@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "updateQualificationInfo" : [
+         {
+            "qualificationInfo" : {
+               "qualificationLevels" : "String[]",
+               "description" : "String",
+               "qualificationName" : "String",
+               "isExpiryDateRequired" : "bool"
+            },
+            "qualification" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Qualification-2014-06-QualificationManagement/updateQualification",
+   "OperationResponse" : "IServiceData"
+}

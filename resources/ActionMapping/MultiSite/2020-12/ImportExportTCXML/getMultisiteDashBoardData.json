@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "Internal-Multisite-2020-12-ImportExportTCXML/getMultisiteDashBoardData",
+   "OperationResponse" : {
+      "dashboardData" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "sessionOptions" : {
+         "SampleKeyString" : "String[]"
+      },
+      "reportRecipe" : [
+         {
+            "filters" : {
+               "SampleKeyString" : "String[]"
+            },
+            "reportType" : "String",
+            "recipeId" : "String"
+         }
+      ]
+   }
+}

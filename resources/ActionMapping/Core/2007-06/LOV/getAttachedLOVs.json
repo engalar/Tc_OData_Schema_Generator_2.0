@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Core-2007-06-LOV/getAttachedLOVs",
+   "OperationResponse" : {
+      "inputTypeNameToLOVOutput" : {
+         "SampleKeyString" : [
+            {
+               "lov" : "IModelObject",
+               "propName" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "typeName" : "String",
+            "propNames" : "String[]"
+         }
+      ]
+   }
+}

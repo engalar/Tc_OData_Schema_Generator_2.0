@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2017-11-ResourceManagement/addMultiToolCutter",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "strNewICOUID" : "String",
+      "strNewCutterID" : "String"
+   },
+   "OperationInput" : {
+      "strItemRevUID" : "String"
+   }
+}

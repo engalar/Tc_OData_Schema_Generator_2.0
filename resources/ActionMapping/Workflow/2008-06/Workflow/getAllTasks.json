@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Workflow-2008-06-Workflow/getAllTasks",
+   "OperationResponse" : {
+      "allTasks" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "process" : "IModelObject",
+      "state" : "int"
+   }
+}

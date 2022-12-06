@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2012-10-BOMIndexManagement/createBOMIndexAdminData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "bomIndexAdminDataObjs" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "productContexts" : [
+         {
+            "cfgRuleInfos" : [
+               {
+                  "svrOwningItemRevs" : "IModelObject[]",
+                  "revisionRuleInfo" : {
+                     "effectivityEndItem" : "IModelObject",
+                     "effectivityUnit" : "int",
+                     "revisionRule" : "IModelObject",
+                     "effectivityDate" : "Date"
+                  },
+                  "variantRules" : "IModelObject[]"
+               }
+            ],
+            "product" : "IModelObject"
+         }
+      ]
+   }
+}

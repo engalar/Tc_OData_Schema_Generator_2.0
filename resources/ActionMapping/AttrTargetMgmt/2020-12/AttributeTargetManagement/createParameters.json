@@ -1,0 +1,50 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "paramProperties" : [
+               {
+                  "goalFiles" : [
+                     {
+                        "clientId" : "String",
+                        "dataset" : "IModelObject",
+                        "type" : "String",
+                        "fileName" : "String",
+                        "namedReference" : "String",
+                        "description" : "String"
+                     }
+                  ],
+                  "paramDirection" : "String",
+                  "clientId" : "String",
+                  "paramInput" : "IModelObject"
+               }
+            ],
+            "parent" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "AttrTargetMgmt-2020-12-AttributeTargetManagement/createParameters",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "createdParams" : [
+               {
+                  "paramDirection" : "String",
+                  "goalFiles" : [
+                     {
+                        "fileName" : "String",
+                        "dataset" : "IModelObject",
+                        "fileTicket" : "String"
+                     }
+                  ],
+                  "parameter" : "IModelObject"
+               }
+            ],
+            "parent" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

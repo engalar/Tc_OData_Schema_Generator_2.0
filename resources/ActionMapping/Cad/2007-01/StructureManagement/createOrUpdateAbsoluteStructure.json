@@ -1,0 +1,110 @@
+{
+   "ServiceOperation" : "Cad-2007-01-StructureManagement/createOrUpdateAbsoluteStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "absOccOutput" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "asmArrOutput" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "OperationInput" : {
+      "pref" : {
+         "cadOccIdAttrName" : "String"
+      },
+      "info" : [
+         {
+            "arrAbsOccInfo" : [
+               {
+                  "externalUid" : "String",
+                  "arrangement" : "IModelObject",
+                  "name" : "String",
+                  "clientId" : "String",
+                  "description" : "String",
+                  "isDefault" : "bool",
+                  "absOccInfo" : [
+                     {
+                        "absOcc" : "IModelObject",
+                        "clientId" : "String",
+                        "absOccData" : {
+                           "overridesToRemove" : "String[]",
+                           "attachmentsToUnattach" : [
+                              {
+                                 "dataset" : "IModelObject",
+                                 "relationTypeName" : "String"
+                              }
+                           ],
+                           "overridesToSet" : [
+                              {
+                                 "name" : "String",
+                                 "value" : "String"
+                              }
+                           ],
+                           "clientIdOfUsedArrangement" : "String",
+                           "usedArr" : "IModelObject",
+                           "asRequired" : "bool",
+                           "occTransform" : "double[]",
+                           "attachments" : [
+                              {
+                                 "dataset" : "IModelObject",
+                                 "relationTypeName" : "String"
+                              }
+                           ],
+                           "occNotes" : [
+                              {
+                                 "noteText" : "String",
+                                 "noteType" : "String"
+                              }
+                           ]
+                        },
+                        "cadOccIdPath" : "String[]"
+                     }
+                  ]
+               }
+            ],
+            "bvrAbsOccInfo" : [
+               {
+                  "absOcc" : "IModelObject",
+                  "absOccData" : {
+                     "asRequired" : "bool",
+                     "usedArr" : "IModelObject",
+                     "occTransform" : "double[]",
+                     "clientIdOfUsedArrangement" : "String",
+                     "occNotes" : [
+                        {
+                           "noteType" : "String",
+                           "noteText" : "String"
+                        }
+                     ],
+                     "attachments" : [
+                        {
+                           "relationTypeName" : "String",
+                           "dataset" : "IModelObject"
+                        }
+                     ],
+                     "overridesToRemove" : "String[]",
+                     "overridesToSet" : [
+                        {
+                           "name" : "String",
+                           "value" : "String"
+                        }
+                     ],
+                     "attachmentsToUnattach" : [
+                        {
+                           "relationTypeName" : "String",
+                           "dataset" : "IModelObject"
+                        }
+                     ]
+                  },
+                  "clientId" : "String",
+                  "cadOccIdPath" : "String[]"
+               }
+            ],
+            "contextItemRev" : "IModelObject"
+         }
+      ],
+      "complete" : "bool",
+      "bomViewTypeName" : "String"
+   }
+}

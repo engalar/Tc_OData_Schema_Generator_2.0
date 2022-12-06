@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "childNodes" : "IModelObject[]",
+            "parentNode" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/expandOneLevel",
+   "OperationInput" : {
+      "input" : [
+         {
+            "revRule" : "String",
+            "parentNode" : "IModelObject",
+            "type" : "IModelObject",
+            "operation" : "int"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Internal-Multisite-2018-06-Search/fetchOdsRecords",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : {
+         "odsSessionOutput" : {
+            "SampleKeyString" : "String[]"
+         },
+         "fmsTickets" : "String[]",
+         "failedObjects" : "String[]",
+         "systemLogFiles" : "String[]"
+      }
+   },
+   "OperationInput" : {
+      "searchMode" : "int",
+      "odsSessionInfo" : {
+         "SampleKeyString" : "String[]"
+      },
+      "odsSiteName" : "String",
+      "endDate" : "String",
+      "startDate" : "String",
+      "pubrList" : "String[]"
+   }
+}

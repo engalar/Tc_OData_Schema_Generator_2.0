@@ -1,0 +1,225 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "inputCtxt" : {
+            "changeContext" : "IModelObject",
+            "productContext" : "IModelObject",
+            "pageSize" : "int",
+            "filterIn" : {
+               "recipe" : [
+                  {
+                     "criteriaOperatorType" : "String",
+                     "criteriaValues" : "String[]",
+                     "criteriaType" : "String",
+                     "criteriaDisplayValue" : "String",
+                     "subCriteria" : "Awb0::Soa::Internal::ActiveWorkspaceBom::_2015_07::OccurrenceManagement::Criteria[]"
+                  }
+               ],
+               "searchFilterCategories" : [
+                  {
+                     "defaultFilterValueDisplayCount" : "int",
+                     "categoryType" : "String",
+                     "editable" : "bool",
+                     "displayName" : "String",
+                     "quickSearchable" : "bool",
+                     "internalName" : "String",
+                     "isHierarchical" : "bool",
+                     "isMultiSelect" : "bool"
+                  }
+               ],
+               "fetchUpdatedFilters" : "bool",
+               "searchSortCriteria" : [
+                  {
+                     "sortDirection" : "String",
+                     "fieldName" : "String"
+                  }
+               ],
+               "searchFilterMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "startDateValue" : "Date",
+                        "stringDisplayValue" : "String",
+                        "startNumericValue" : "double",
+                        "endNumericValue" : "double",
+                        "searchFilterType" : "String",
+                        "stringValue" : "String",
+                        "endDateValue" : "Date",
+                        "hasChildren" : "bool",
+                        "count" : "int",
+                        "selected" : "bool",
+                        "startEndRange" : "String"
+                     }
+                  ]
+               },
+               "searchFilterFieldSortType" : "String"
+            },
+            "requestPref" : {
+               "SampleKeyString" : "String[]"
+            },
+            "occurrenceScheme" : "IModelObject",
+            "configuration" : {
+               "revisionRule" : "IModelObject",
+               "svrOwningProduct" : "IModelObject",
+               "endItem" : "IModelObject",
+               "effectivityRanges" : [
+                  {
+                     "unitOut" : "int",
+                     "dateOut" : "Date",
+                     "unitIn" : "int",
+                     "dateIn" : "Date"
+                  }
+               ],
+               "variantRule" : "IModelObject",
+               "effectivityDate" : "Date",
+               "unitNo" : "int",
+               "now" : "bool"
+            }
+         },
+         "objectsToBeAdded" : "IModelObject[]",
+         "siblingElement" : "IModelObject",
+         "sortCriteria" : {
+            "sortingOrder" : "String",
+            "propertyName" : "String"
+         },
+         "parentElement" : "IModelObject",
+         "addObjectIntent" : "String",
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         },
+         "numberOfElements" : "int",
+         "fetchPagedOccurrences" : "bool"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-06-OccurrenceManagement/addObject2",
+   "OperationResponse" : {
+      "newElementInfos" : [
+         {
+            "newElementToPositionMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "int"
+               ]
+            ],
+            "newElements" : [
+               {
+                  "stableId" : "String",
+                  "numberOfChildren" : "int",
+                  "occurrenceId" : "String",
+                  "occurrence" : "IModelObject",
+                  "underlyingObjectType" : "String",
+                  "displayName" : "String"
+               }
+            ],
+            "parentElement" : "IModelObject"
+         }
+      ],
+      "reloadContent" : "bool",
+      "serviceData" : "IServiceData",
+      "selectedNewElementInfo" : {
+         "newElements" : "IModelObject[]",
+         "pagedOccurrencesInfo" : {
+            "cursor" : {
+               "productContext" : "IModelObject",
+               "endOccUid" : "String",
+               "firstLevelOnly" : "bool",
+               "pageSize" : "int",
+               "endIndex" : "int",
+               "startIndex" : "int",
+               "inputCtxt" : {
+                  "changeContext" : "IModelObject",
+                  "productContext" : "IModelObject",
+                  "filterIn" : {
+                     "searchSortCriteria" : [
+                        {
+                           "fieldName" : "String",
+                           "sortDirection" : "String"
+                        }
+                     ],
+                     "searchFilterMap" : {
+                        "SampleKeyString" : [
+                           {
+                              "startNumericValue" : "double",
+                              "endNumericValue" : "double",
+                              "stringDisplayValue" : "String",
+                              "startDateValue" : "Date",
+                              "endDateValue" : "Date",
+                              "hasChildren" : "bool",
+                              "searchFilterType" : "String",
+                              "stringValue" : "String",
+                              "count" : "int",
+                              "startEndRange" : "String",
+                              "selected" : "bool"
+                           }
+                        ]
+                     },
+                     "fetchUpdatedFilters" : "bool",
+                     "searchFilterCategories" : [
+                        {
+                           "categoryType" : "String",
+                           "editable" : "bool",
+                           "defaultFilterValueDisplayCount" : "int",
+                           "isMultiSelect" : "bool",
+                           "isHierarchical" : "bool",
+                           "quickSearchable" : "bool",
+                           "displayName" : "String",
+                           "internalName" : "String"
+                        }
+                     ],
+                     "recipe" : [
+                        {
+                           "criteriaOperatorType" : "String",
+                           "criteriaValues" : "String[]",
+                           "subCriteria" : "Awb0::Soa::Internal::ActiveWorkspaceBom::_2015_07::OccurrenceManagement::Criteria[]",
+                           "criteriaDisplayValue" : "String",
+                           "criteriaType" : "String"
+                        }
+                     ],
+                     "searchFilterFieldSortType" : "String"
+                  },
+                  "pageSize" : "int",
+                  "requestPref" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "occurrenceScheme" : "IModelObject",
+                  "configuration" : {
+                     "now" : "bool",
+                     "endItem" : "IModelObject",
+                     "revisionRule" : "IModelObject",
+                     "svrOwningProduct" : "IModelObject",
+                     "unitNo" : "int",
+                     "variantRule" : "IModelObject",
+                     "effectivityRanges" : [
+                        {
+                           "unitIn" : "int",
+                           "dateOut" : "Date",
+                           "unitOut" : "int",
+                           "dateIn" : "Date"
+                        }
+                     ],
+                     "effectivityDate" : "Date"
+                  }
+               },
+               "startOccUid" : "String",
+               "cursorData" : "String[]",
+               "parentOccurrences" : "IModelObject[]"
+            },
+            "productContext" : "IModelObject",
+            "startReached" : "bool",
+            "childOccurrences" : [
+               {
+                  "occurrence" : "IModelObject",
+                  "displayName" : "String",
+                  "underlyingObjectType" : "String",
+                  "stableId" : "String",
+                  "numberOfChildren" : "int",
+                  "occurrenceId" : "String"
+               }
+            ],
+            "endReached" : "bool",
+            "focusOccurrence" : "IModelObject"
+         }
+      }
+   }
+}

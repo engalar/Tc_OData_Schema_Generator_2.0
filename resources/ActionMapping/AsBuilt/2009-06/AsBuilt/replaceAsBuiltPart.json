@@ -1,0 +1,30 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "replacerLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "AsBuilt-2009-06-AsBuilt/replaceAsBuiltPart",
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "replaceAsBuiltPartInfo" : {
+               "extendedData" : {
+                  "attributes" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "objectType" : "String"
+               },
+               "installationDate" : "Date"
+            },
+            "clientId" : "String",
+            "copiedPhysicalPartRevision" : "IModelObject",
+            "selectedLine" : "IModelObject"
+         }
+      ]
+   }
+}

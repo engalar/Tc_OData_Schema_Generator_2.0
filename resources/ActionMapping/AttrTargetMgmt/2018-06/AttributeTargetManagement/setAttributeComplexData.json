@@ -1,0 +1,88 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "fileData" : {
+               "sheetNamePropNameMapping" : {
+                  "SampleKeyString" : "String"
+               },
+               "fileTicket" : "String",
+               "sheetNameMeasurementPropNameMapping" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "isProceedWithValidationError" : "bool",
+            "propNameToTableDataMap" : {
+               "SampleKeyString" : [
+                  {
+                     "complexData" : {
+                        "rowHeaders" : [
+                           {
+                              "name" : "String",
+                              "index" : "int"
+                           }
+                        ],
+                        "tableName" : "String",
+                        "rows" : [
+                           {
+                              "cells" : [
+                                 {
+                                    "data" : "String",
+                                    "index" : "int"
+                                 }
+                              ],
+                              "index" : "int"
+                           }
+                        ],
+                        "columnHeaders" : [
+                           {
+                              "name" : "String",
+                              "index" : "int"
+                           }
+                        ]
+                     },
+                     "operation" : "String"
+                  }
+               ]
+            },
+            "propNameToMeasurementTableDataMap" : {
+               "SampleKeyString" : [
+                  {
+                     "complexData" : {
+                        "columnHeaders" : [
+                           {
+                              "index" : "int",
+                              "name" : "String"
+                           }
+                        ],
+                        "rowHeaders" : [
+                           {
+                              "index" : "int",
+                              "name" : "String"
+                           }
+                        ],
+                        "rows" : [
+                           {
+                              "cells" : [
+                                 {
+                                    "data" : "String",
+                                    "index" : "int"
+                                 }
+                              ],
+                              "index" : "int"
+                           }
+                        ],
+                        "tableName" : "String"
+                     },
+                     "operation" : "String"
+                  }
+               ]
+            },
+            "clientId" : "String",
+            "objectToModify" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "AttrTargetMgmt-2018-06-AttributeTargetManagement/setAttributeComplexData"
+}

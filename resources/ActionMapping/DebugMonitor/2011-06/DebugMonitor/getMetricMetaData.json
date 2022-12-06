@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "metricIds" : "String[]"
+   },
+   "OperationResponse" : {
+      "metaData" : [
+         {
+            "metricMode" : "Off Collect Alert",
+            "displayName" : "String",
+            "monStartTime" : "Date",
+            "metricId" : "String",
+            "metricType" : "CountableMetric CountableMetricWithTimePeriod VariableMetric AvgVariableWithTimePeriod MaxVariableWithTimePeriod DetailedMetric",
+            "unitOfMeasurement" : "String",
+            "dType" : "String",
+            "metricThreshold" : {
+               "hasPeriod" : "bool",
+               "thresholdPeriod" : "int",
+               "thresholdValue" : "String"
+            },
+            "maxEntriesToKeep" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugMonitor/getMetricMetaData"
+}

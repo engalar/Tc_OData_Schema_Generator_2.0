@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "inputObjects" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "refnEditContextOutputs" : [
+         {
+            "inputObject" : "IModelObject",
+            "editContexts" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "EditContext-2015-07-DataManagement/getReferencerEditContexts"
+}

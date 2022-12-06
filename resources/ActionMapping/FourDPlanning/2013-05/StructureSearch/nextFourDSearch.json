@@ -1,0 +1,137 @@
+{
+   "ServiceOperation" : "Internal-FourDPlanning-2013-05-StructureSearch/nextFourDSearch",
+   "OperationResponse" : {
+      "percentComplete" : "double",
+      "estimatedObjectsLeft" : "int",
+      "finished" : "bool",
+      "searchCursor" : "IModelObject",
+      "findLinesInProcStructure" : "bool",
+      "resultMap" : {
+         "SampleKeyString" : [
+            {
+               "object" : "IModelObject",
+               "occChain" : "String"
+            }
+         ]
+      },
+      "objectDone" : "int",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "findLinesInProcStructure" : "bool",
+      "input" : {
+         "fourDExpression" : {
+            "dateCriteria" : [
+               {
+                  "date" : "Date",
+                  "objectTag" : "IModelObject",
+                  "type" : "String"
+               }
+            ],
+            "searchCriteriaMap" : {
+               "SampleKeyString" : "String"
+            }
+         },
+         "processScope" : "IModelObject[]",
+         "searchExpression" : {
+            "boxZoneExpressions" : [
+               {
+                  "boxOperator" : "Inside Outside Intersects InsideOrIntersects OutsideOrIntersects",
+                  "searchBoxes" : [
+                     {
+                        "zmin" : "double",
+                        "ymin" : "double",
+                        "ymax" : "double",
+                        "xmax" : "double",
+                        "transform" : "double[]",
+                        "xmin" : "double",
+                        "zmax" : "double"
+                     }
+                  ]
+               }
+            ],
+            "inClassQueryExpressions" : [
+               {
+                  "inClassClassNames" : "String[]",
+                  "inClassAttributeValues" : "String[]",
+                  "inClassAttributeIDs" : "int[]"
+               }
+            ],
+            "sizeSearchExpression" : {
+               "diagonalLength" : "bool",
+               "largerThan" : "bool"
+            },
+            "savedQueryExpressions" : [
+               {
+                  "savedQuery" : "IModelObject",
+                  "entries" : "String[]",
+                  "values" : "String[]"
+               }
+            ],
+            "planeZoneExpressions" : [
+               {
+                  "planeZoneOperator" : "PlaneAbove PlaneBelow PlaneIntersects PlaneAboveOrIntersects PlaneBelowOrIntersects",
+                  "planeZone" : {
+                     "xvalue" : "double",
+                     "zvalue" : "double",
+                     "yvalue" : "double",
+                     "displacement" : "double"
+                  }
+               }
+            ],
+            "proximitySearchExpressions" : [
+               {
+                  "bomLines" : "IModelObject[]",
+                  "includeChildBomLines" : "bool",
+                  "distance" : "double"
+               }
+            ],
+            "returnScopedSubTreesHit" : "bool",
+            "itemAndRevisionAttributeExpressions" : [
+               {
+                  "attributeName" : "String",
+                  "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike",
+                  "className" : "String",
+                  "values" : {
+                     "tagValues" : "IModelObject[]",
+                     "intValues" : "int[]",
+                     "stringValues" : "String[]",
+                     "doubleValues" : "double[]",
+                     "boolValues" : "bool[]",
+                     "dateValues" : "Date"
+                  },
+                  "attributeType" : "BooleanType IntegerType DoubleType StringType DateType TagType"
+               }
+            ],
+            "occurrenceNoteExpressions" : [
+               {
+                  "values" : "String[]",
+                  "noteType" : "String",
+                  "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike"
+               }
+            ],
+            "doTrushapeRefinement" : "bool",
+            "formAttributeExpressions" : [
+               {
+                  "formType" : "IModelObject",
+                  "relationType" : "IModelObject",
+                  "attributeType" : "BooleanType IntegerType DoubleType StringType DateType TagType",
+                  "isItemForm" : "bool",
+                  "values" : {
+                     "dateValues" : "Date",
+                     "doubleValues" : "double[]",
+                     "boolValues" : "bool[]",
+                     "stringValues" : "String[]",
+                     "intValues" : "int[]",
+                     "tagValues" : "IModelObject[]"
+                  },
+                  "attributeName" : "String",
+                  "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike"
+               }
+            ]
+         },
+         "productScope" : "IModelObject[]"
+      },
+      "searchCursor" : "IModelObject"
+   }
+}

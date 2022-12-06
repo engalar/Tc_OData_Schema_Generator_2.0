@@ -1,0 +1,33 @@
+{
+   "OperationResponse" : {
+      "outputMap" : {
+         "SampleKeyString" : [
+            {
+               "attributeReferenceList" : "IModelObject[]",
+               "index" : "int",
+               "measurableAttribute" : "IModelObject",
+               "attributeName" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "AttrTargetMgmtAW-2015-10-AttributeTargetManagement/assignMeasurableAttributes2",
+   "OperationInput" : {
+      "pref" : {
+         "inputAttributeRelation" : "String",
+         "proceedWithImpactedStudies" : "bool",
+         "outputAttributeRelation" : "String"
+      },
+      "inputs" : [
+         {
+            "inputOutputAttrParent" : "IModelObject",
+            "contextLine" : "IModelObject",
+            "actionName" : "String",
+            "parentLine" : "IModelObject",
+            "measurableAttributes" : "IModelObject[]",
+            "clientID" : "String"
+         }
+      ]
+   }
+}

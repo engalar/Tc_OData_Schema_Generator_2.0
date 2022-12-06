@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "psForPMMInput" : [
+         {
+            "clientId" : "String",
+            "window" : "IModelObject",
+            "selectedLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-CadBomAlignment-2015-10-ObjectManagement/updatePSFromPMM"
+}

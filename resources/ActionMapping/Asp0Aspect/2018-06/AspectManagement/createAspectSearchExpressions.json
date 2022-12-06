@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Internal-Asp0Aspect-2018-06-AspectManagement/createAspectSearchExpressions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expressions" : [
+         {
+            "searchDef" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "exprInputs" : [
+         {
+            "traverseDown" : "bool",
+            "levelsToTraverse" : "int",
+            "aspects" : "IModelObject[]",
+            "engineeringObjects" : "IModelObject[]",
+            "clientId" : "String",
+            "schemes" : "IModelObject[]"
+         }
+      ]
+   }
+}

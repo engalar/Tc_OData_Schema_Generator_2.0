@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "user" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "groupMember" : "IModelObject"
+   },
+   "ServiceOperation" : "Core-2006-03-Session/login",
+   "OperationInput" : {
+      "role" : "String",
+      "username" : "String",
+      "password" : "String",
+      "sessionDiscriminator" : "String",
+      "group" : "String"
+   }
+}

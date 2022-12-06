@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "editBudgetInfo" : [
+         {
+            "excelTemplateObj" : "IModelObject",
+            "lineObj" : "IModelObject",
+            "clientId" : "String",
+            "budgetObj" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SystemsEngineering-2011-06-Budget/editBudget",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "transientFileReadTicket" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

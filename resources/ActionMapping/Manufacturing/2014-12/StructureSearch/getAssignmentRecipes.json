@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "recipeNames" : "String[]",
+      "recipeAnchors" : "IModelObject[]",
+      "appKey" : "String"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "info" : [
+         {
+            "intMap" : {
+               "SampleKeyString" : "int[]"
+            },
+            "dateMap" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "objMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "dblMap" : {
+               "SampleKeyString" : "double[]"
+            },
+            "strMap" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2014-12-StructureSearch/getAssignmentRecipes"
+}

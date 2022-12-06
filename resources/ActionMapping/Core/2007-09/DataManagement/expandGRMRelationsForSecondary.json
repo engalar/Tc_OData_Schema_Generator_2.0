@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "secondaryObjects" : "IModelObject[]",
+      "pref" : {
+         "expItemRev" : "bool",
+         "returnRelations" : "bool",
+         "info" : [
+            {
+               "otherSideObjectTypes" : "String[]",
+               "relationTypeName" : "String"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "relationshipData" : [
+               {
+                  "relationshipObjects" : [
+                     {
+                        "otherSideObject" : "IModelObject",
+                        "relation" : "IModelObject"
+                     }
+                  ],
+                  "relationName" : "String"
+               }
+            ],
+            "inputObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2007-09-DataManagement/expandGRMRelationsForSecondary"
+}

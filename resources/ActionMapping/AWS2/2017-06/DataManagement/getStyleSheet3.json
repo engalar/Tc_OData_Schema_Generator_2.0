@@ -1,0 +1,227 @@
+{
+   "OperationInput" : {
+      "processEntireXRT" : "bool",
+      "input" : [
+         {
+            "targetPage" : "String",
+            "styleSheetType" : "String",
+            "styleSheetLastModDate" : "Date",
+            "clientContext" : {
+               "SampleKeyString" : "String"
+            },
+            "businessObject" : "IModelObject",
+            "businessObjectType" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "objectToRender" : {
+               "viewModelProperties" : [
+                  {
+                     "propertyName" : "String",
+                     "srcObjLsd" : "Date",
+                     "intermediateObjectUids" : "String[]",
+                     "isModifiable" : "bool",
+                     "uiValues" : "String[]",
+                     "dbValues" : "String[]"
+                  }
+               ],
+               "modelObject" : "IModelObject"
+            },
+            "additionalObjects" : {
+               "propDescriptors" : [
+                  {
+                     "propertyName" : "String",
+                     "maxLength" : "int",
+                     "lov" : "IModelObject",
+                     "maxArraySize" : "int",
+                     "valueType" : "int",
+                     "lovCategory" : "int",
+                     "srcObjectTypeName" : "String",
+                     "propConstants" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "isArray" : "bool",
+                     "displayName" : "String",
+                     "propertyType" : "int"
+                  }
+               ],
+               "additionalObjects" : [
+                  {
+                     "modelObject" : "IModelObject",
+                     "viewModelProperties" : [
+                        {
+                           "isModifiable" : "bool",
+                           "dbValues" : "String[]",
+                           "uiValues" : "String[]",
+                           "srcObjLsd" : "Date",
+                           "propertyName" : "String",
+                           "intermediateObjectUids" : "String[]"
+                        }
+                     ]
+                  }
+               ]
+            },
+            "imageTypeTicketMap" : {
+               "SampleKeyString" : "String"
+            },
+            "localeMap" : {
+               "SampleKeyString" : "String"
+            },
+            "propDescriptors" : [
+               {
+                  "propertyType" : "int",
+                  "displayName" : "String",
+                  "isArray" : "bool",
+                  "propConstants" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "srcObjectTypeName" : "String",
+                  "valueType" : "int",
+                  "lovCategory" : "int",
+                  "lov" : "IModelObject",
+                  "maxArraySize" : "int",
+                  "maxLength" : "int",
+                  "propertyName" : "String"
+               }
+            ],
+            "jtFileMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "visiblePages" : "bool[]",
+            "classificationData" : [
+               {
+                  "classificationObject" : "IModelObject",
+                  "classificationTrace" : "String[]"
+               }
+            ],
+            "processedPage" : "String",
+            "patternMap" : {
+               "SampleKeyString" : {
+                  "preferredPattern" : "String",
+                  "condition" : "String",
+                  "patterns" : "String[]"
+               }
+            },
+            "datasetInfo" : {
+               "datasetLastSaveDate" : "Date",
+               "datasetContent" : "String"
+            },
+            "tablePropObjectMap" : {
+               "SampleKeyString" : {
+                  "tableRows" : [
+                     {
+                        "viewModelProperties" : [
+                           {
+                              "intermediateObjectUids" : "String[]",
+                              "srcObjLsd" : "Date",
+                              "propertyName" : "String",
+                              "dbValues" : "String[]",
+                              "uiValues" : "String[]",
+                              "isModifiable" : "bool"
+                           }
+                        ],
+                        "modelObject" : "IModelObject"
+                     }
+                  ],
+                  "propDescriptors" : [
+                     {
+                        "propConstants" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "srcObjectTypeName" : "String",
+                        "lovCategory" : "int",
+                        "valueType" : "int",
+                        "displayName" : "String",
+                        "propertyType" : "int",
+                        "isArray" : "bool",
+                        "propertyName" : "String",
+                        "lov" : "IModelObject",
+                        "maxArraySize" : "int",
+                        "maxLength" : "int"
+                     }
+                  ]
+               }
+            },
+            "objectSetInfo" : [
+               {
+                  "rows" : [
+                     {
+                        "relationTypeDisplayName" : "String",
+                        "viewModelObject" : {
+                           "viewModelProperties" : [
+                              {
+                                 "srcObjLsd" : "Date",
+                                 "propertyName" : "String",
+                                 "intermediateObjectUids" : "String[]",
+                                 "isModifiable" : "bool",
+                                 "uiValues" : "String[]",
+                                 "dbValues" : "String[]"
+                              }
+                           ],
+                           "modelObject" : "IModelObject"
+                        },
+                        "relationTypeName" : "String",
+                        "relTypeObject" : "IModelObject",
+                        "refPropertyName" : "String",
+                        "relationObject" : {
+                           "viewModelProperties" : [
+                              {
+                                 "uiValues" : "String[]",
+                                 "dbValues" : "String[]",
+                                 "isModifiable" : "bool",
+                                 "intermediateObjectUids" : "String[]",
+                                 "srcObjLsd" : "Date",
+                                 "propertyName" : "String"
+                              }
+                           ],
+                           "modelObject" : "IModelObject"
+                        }
+                     }
+                  ],
+                  "columns" : [
+                     {
+                        "propDescriptor" : {
+                           "propConstants" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "srcObjectTypeName" : "String",
+                           "lovCategory" : "int",
+                           "valueType" : "int",
+                           "displayName" : "String",
+                           "propertyType" : "int",
+                           "isArray" : "bool",
+                           "propertyName" : "String",
+                           "lov" : "IModelObject",
+                           "maxArraySize" : "int",
+                           "maxLength" : "int"
+                        },
+                        "userSortable" : "bool",
+                        "isRelationProperty" : "bool"
+                     }
+                  ],
+                  "xmlSource" : "String"
+               }
+            ],
+            "context" : {
+               "datasetName" : "String",
+               "preferenceLocation" : "String",
+               "stylesheetType" : "String",
+               "location" : "String",
+               "client" : "String",
+               "type" : "String",
+               "sublocation" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-06-DataManagement/getStyleSheet3"
+}

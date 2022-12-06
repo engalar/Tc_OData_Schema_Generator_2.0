@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "structureRecipe" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Visualization-2011-02-StructureManagement/createVisSC",
+   "OperationInput" : {
+      "info" : [
+         {
+            "staticStructureFile" : "IModelObject",
+            "occurrencesList" : "String[]",
+            "configContext" : "IModelObject",
+            "clientId" : "String",
+            "topLine" : "IModelObject"
+         }
+      ]
+   }
+}

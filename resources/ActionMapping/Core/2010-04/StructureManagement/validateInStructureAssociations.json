@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "associationType" : "String",
+      "numLevels" : "int",
+      "bomlines" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "failedAssociations" : [
+         {
+            "associationType" : "String",
+            "secondary" : "IModelObject",
+            "relation" : "IModelObject",
+            "primary" : "IModelObject",
+            "reason" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2010-04-StructureManagement/validateInStructureAssociations"
+}

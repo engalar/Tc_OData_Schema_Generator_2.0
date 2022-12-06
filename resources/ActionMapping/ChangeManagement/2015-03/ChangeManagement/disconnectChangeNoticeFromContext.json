@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ChangeManagement-2015-03-ChangeManagement/disconnectChangeNoticeFromContext",
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   }
+}

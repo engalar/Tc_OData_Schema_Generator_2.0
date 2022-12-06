@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "taskTemplates" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "taskTemplate" : "IModelObject",
+            "taskResults" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-Workflow/getTaskResults"
+}

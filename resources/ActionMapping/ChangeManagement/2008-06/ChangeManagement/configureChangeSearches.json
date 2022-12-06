@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/configureChangeSearches",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "queryCriteria" : "String[]",
+            "queryValues" : "String[]",
+            "operation" : "String",
+            "savedSearchName" : "String",
+            "visible" : "bool",
+            "queryName" : "String",
+            "isFolderSiteLevel" : "bool",
+            "name" : "String"
+         }
+      ]
+   }
+}

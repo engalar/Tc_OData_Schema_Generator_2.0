@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "inputLineItemCollection" : "IModelObject"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-12-SupplierCollaboration/sendToSourcingManager"
+}

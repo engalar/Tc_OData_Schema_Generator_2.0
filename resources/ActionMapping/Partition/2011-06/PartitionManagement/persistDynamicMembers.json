@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Partition-2011-06-PartitionManagement/persistDynamicMembers",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "partition" : "IModelObject",
+            "configurationContext" : "IModelObject"
+         }
+      ]
+   }
+}

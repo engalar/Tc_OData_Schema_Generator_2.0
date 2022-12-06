@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-StructureManagement/alignAssemblies",
+   "OperationInput" : {
+      "input" : [
+         {
+            "targetNode" : "IModelObject",
+            "alignMode" : "String",
+            "sourceNode" : "IModelObject",
+            "reuseAssemblyNode" : "IModelObject"
+         }
+      ]
+   }
+}

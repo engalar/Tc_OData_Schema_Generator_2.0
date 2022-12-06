@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "bvrDesignInstances" : [
+               {
+                  "assemblyDetails" : {
+                     "configData" : "IModelObject",
+                     "toplineObject" : "IModelObject"
+                  },
+                  "instanceOccThreadPath" : "String",
+                  "configuredObject" : "IModelObject"
+               }
+            ],
+            "designInstancesFor4G" : [
+               {
+                  "isPreciseLink" : "bool",
+                  "designInstanceFor4G" : "IModelObject"
+               }
+            ],
+            "mdoObject" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "isSuccess" : "bool",
+            "clientId" : "String",
+            "instanceLinkingObjectData" : [
+               {
+                  "mdiObject" : "IModelObject",
+                  "mdoObject" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2020-12-MultiDisciplinaryDataMgt/link4GAndBVRDesignInstances"
+}

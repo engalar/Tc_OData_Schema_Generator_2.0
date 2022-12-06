@@ -1,0 +1,118 @@
+{
+   "ServiceOperation" : "Internal-CaeAw-2018-12-SimulationManagementAw/processSimToolMultiLaunchHostPath",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "showLaunchFileInfo" : "bool",
+      "toolConfig" : {
+         "optionalInputConfigList" : [
+            {
+               "inputRevisionType" : "String",
+               "inputDesc" : "String",
+               "inputValueObject" : "IModelObject",
+               "inputVisible" : "bool",
+               "exportDirectoryName" : "String",
+               "optionalInputObject" : "IModelObject"
+            }
+         ],
+         "launchMethods" : "String[]",
+         "fileUploadConflictOptionExists" : "bool",
+         "displayProgressMonitor" : "bool",
+         "optionalInputExists" : "bool",
+         "fileUploadConflictOption" : {
+            "optionName" : "String",
+            "isPromptUser" : "bool"
+         },
+         "rootLaunchDirectory" : "String",
+         "inputParamList" : [
+            {
+               "hasLov" : "bool",
+               "propertyLabelDisplay" : "String",
+               "inputType" : "String",
+               "propertyDisplayName" : "String",
+               "isEditable" : "bool",
+               "dbValue" : "String",
+               "propertyDescription" : "String",
+               "isEnabled" : "bool",
+               "type" : "String",
+               "lovValues" : "String[]"
+            }
+         ]
+      },
+      "fmsTicket" : "String",
+      "launchFileInfo" : {
+         "SampleKeyString" : [
+            {
+               "fileDS" : "IModelObject",
+               "fileIRObjStr" : "String",
+               "file" : "IModelObject",
+               "fileSize" : "String",
+               "selectedIRObjStr" : "String",
+               "fileDSName" : "String",
+               "fileIR" : "IModelObject",
+               "fileName" : "String",
+               "isSelected" : "bool"
+            }
+         ]
+      },
+      "showLaunchSimToolDialog" : "bool"
+   },
+   "OperationInput" : {
+      "simTool" : "IModelObject",
+      "isLaunchDialogInfoPresent" : "bool",
+      "selectedObjects" : "IModelObject[]",
+      "launchDialogInfo" : {
+         "fileUploadConflictOption" : {
+            "isPromptUser" : "bool",
+            "optionName" : "String"
+         },
+         "simToolOptionalInputList" : [
+            {
+               "inputValueObject" : "IModelObject",
+               "inputRevisionType" : "String",
+               "inputDesc" : "String",
+               "inputVisible" : "bool",
+               "optionalInputObject" : "IModelObject",
+               "exportDirectoryName" : "String"
+            }
+         ],
+         "rootLaunchDirectory" : "String",
+         "launchType" : "String",
+         "launchWithoutConfigInput" : "bool",
+         "simToolInputParamList" : [
+            {
+               "inputType" : "String",
+               "propertyDisplayName" : "String",
+               "hasLov" : "bool",
+               "propertyLabelDisplay" : "String",
+               "lovValues" : "String[]",
+               "isEnabled" : "bool",
+               "type" : "String",
+               "isEditable" : "bool",
+               "dbValue" : "String",
+               "propertyDescription" : "String"
+            }
+         ],
+         "openLaunchDirectory" : "bool",
+         "displayProgressMonitor" : "bool",
+         "fileUploadConflictOptionExists" : "bool"
+      },
+      "isTestTTLC" : "bool",
+      "selectedFileInfo" : {
+         "SampleKeyString" : [
+            {
+               "fileIR" : "IModelObject",
+               "fileDSName" : "String",
+               "isSelected" : "bool",
+               "fileName" : "String",
+               "fileSize" : "String",
+               "selectedIRObjStr" : "String",
+               "file" : "IModelObject",
+               "fileIRObjStr" : "String",
+               "fileDS" : "IModelObject"
+            }
+         ]
+      },
+      "isLaunchFileInfoPresent" : "bool",
+      "hostPath" : "String"
+   }
+}

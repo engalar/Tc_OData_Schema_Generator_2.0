@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "selectedUsageLine" : "IModelObject",
+            "clientId" : "String",
+            "selectedLine" : "IModelObject",
+            "copiedPhysPart" : "IModelObject",
+            "installInfo" : {
+               "extendedData" : {
+                  "attributes" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "objectType" : "String"
+               },
+               "usagePropertyValue" : "String",
+               "installationDate" : "Date"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "AsMaintained-2009-06-AsMaintained/installAsmPhysicalPart",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "installedLine" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

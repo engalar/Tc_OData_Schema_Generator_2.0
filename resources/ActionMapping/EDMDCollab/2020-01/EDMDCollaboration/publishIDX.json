@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "EDMDCollab-2020-01-EDMDCollaboration/publishIDX",
+   "OperationResponse" : {
+      "writeTicket" : "String",
+      "publishedIDX" : "IModelObject",
+      "clientId" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "publishInput" : {
+         "attributes" : {
+            "SampleKeyString" : "String[]"
+         },
+         "fileInfo" : {
+            "folderPath" : "String",
+            "fileExtension" : "String",
+            "fileName" : "String"
+         },
+         "domainIdentifier" : "String",
+         "idxObjectType" : "String",
+         "designUID" : "String"
+      }
+   }
+}

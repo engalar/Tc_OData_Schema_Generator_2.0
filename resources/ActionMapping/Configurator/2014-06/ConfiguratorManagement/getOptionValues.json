@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "unavailableValues" : "bool",
+      "families" : "IModelObject[]",
+      "groups" : "IModelObject[]",
+      "context" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getOptionValues",
+   "OperationResponse" : {
+      "valueAndAssocations" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

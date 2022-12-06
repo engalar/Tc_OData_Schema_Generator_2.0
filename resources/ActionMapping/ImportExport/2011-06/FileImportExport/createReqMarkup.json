@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "ImportExport-2011-06-FileImportExport/createReqMarkup",
+   "OperationResponse" : {
+      "markupInfo" : {
+         "SampleKeyString" : {
+            "relation" : "IModelObject",
+            "markupDatset" : "IModelObject"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "markupDataset" : {
+               "datasetName" : "String",
+               "datasetType" : "String",
+               "tool" : "String",
+               "datasetDesc" : "String"
+            },
+            "transientFileWriteTickets" : "String[]",
+            "reqObj" : "IModelObject",
+            "isLiveMarkup" : "bool"
+         }
+      ]
+   }
+}

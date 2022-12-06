@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "bomLine" : "IModelObject",
+            "bomWindow" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AsBuilt-2008-06-AsBuilt/createMROBOMWindows",
+   "OperationInput" : {
+      "info" : [
+         {
+            "bomView" : "IModelObject",
+            "revRule" : "IModelObject",
+            "objectForConfigure" : "IModelObject",
+            "item" : "IModelObject",
+            "clientId" : "String",
+            "itemRev" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "licStatus" : [
+         {
+            "numUsedLicenses" : "int",
+            "numPurchasedLicenseBundles" : "int",
+            "numPurchasedLicenses" : "int",
+            "numUsedLicenseBundles" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Administration-2014-10-UserManagement/activateUsers2",
+   "OperationInput" : {
+      "activateUsers" : [
+         {
+            "licenseServer" : "String",
+            "licenseBundle" : "String",
+            "licenseLevel" : "int",
+            "targetUser" : "IModelObject"
+         }
+      ]
+   }
+}

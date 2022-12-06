@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/relateDepartmentAndUpdateBrandInfo",
+   "OperationInput" : {
+      "departmentsInput" : [
+         {
+            "departmentInfos" : "IModelObject[]",
+            "primary" : "IModelObject"
+         }
+      ]
+   }
+}

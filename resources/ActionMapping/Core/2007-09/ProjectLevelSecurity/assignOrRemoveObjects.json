@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Core-2007-09-ProjectLevelSecurity/assignOrRemoveObjects",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "assignedOrRemovedobjects" : [
+         {
+            "projects" : "IModelObject[]",
+            "objectToRemove" : "IModelObject[]",
+            "objectToAssign" : "IModelObject[]"
+         }
+      ]
+   }
+}

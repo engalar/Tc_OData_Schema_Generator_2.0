@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "ContractManagement-2014-10-ContractManagement/getImpactedDataReqItemRevisions",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "contractManagementDataReqItems" : [
+               {
+                  "dataReqItemRev" : "IModelObject",
+                  "eventRows" : "IModelObject[]"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "cdm0Input" : [
+         {
+            "clientId" : "String",
+            "contractObject" : "IModelObject"
+         }
+      ]
+   }
+}

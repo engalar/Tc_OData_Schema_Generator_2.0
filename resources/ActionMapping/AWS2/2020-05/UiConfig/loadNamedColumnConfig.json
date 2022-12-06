@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "uid" : "String"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "namedColumnConfigsJSON" : "String"
+   },
+   "ServiceOperation" : "Internal-AWS2-2020-05-UiConfig/loadNamedColumnConfig"
+}

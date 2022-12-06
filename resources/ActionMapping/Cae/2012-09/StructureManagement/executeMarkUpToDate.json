@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "inputItemRevList" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Cae-2012-09-StructureManagement/executeMarkUpToDate"
+}

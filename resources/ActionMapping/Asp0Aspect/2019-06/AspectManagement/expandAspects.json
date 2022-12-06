@@ -1,0 +1,44 @@
+{
+   "ServiceOperation" : "Asp0Aspect-2019-06-AspectManagement/expandAspects",
+   "OperationResponse" : {
+      "childParentMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "expandContent" : [
+         {
+            "startingNode" : "IModelObject",
+            "expansionSemantic" : "int",
+            "aspectsFromIncludedSchemes" : "IModelObject[]",
+            "resultingAspects" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "aspectExpandInfos" : [
+         {
+            "levelsToExpand" : "int",
+            "expandOptionsFlags" : {
+               "SampleKeyString" : "bool"
+            },
+            "expandOptions" : {
+               "SampleKeyString" : "String"
+            },
+            "startingNodes" : "IModelObject[]",
+            "attributeSortOptions" : [
+               {
+                  "sortOrder" : "AscendingOrder DescendingOrder",
+                  "sortAttribute" : "String"
+               }
+            ],
+            "expansionSemantic" : "int"
+         }
+      ],
+      "configContext" : "IModelObject"
+   }
+}

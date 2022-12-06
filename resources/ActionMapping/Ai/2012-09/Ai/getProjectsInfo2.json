@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "projects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Ai-2012-09-Ai/getProjectsInfo2",
+   "OperationResponse" : {
+      "infos" : [
+         {
+            "ai" : "IModelObject",
+            "targetAppProjectId" : "String",
+            "name" : "String",
+            "targetSiteIds" : "String[]",
+            "description" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

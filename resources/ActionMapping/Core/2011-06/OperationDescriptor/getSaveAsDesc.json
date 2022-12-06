@@ -1,0 +1,85 @@
+{
+   "OperationResponse" : {
+      "deepCopyInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "propertyName" : "String",
+                  "childDeepCopyData" : "Teamcenter::Soa::Core::_2011_06::OperationDescriptor::DeepCopyData[]",
+                  "attachedObject" : "IModelObject",
+                  "isRequired" : "bool",
+                  "saveAsInput" : {
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "boName" : "String",
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     }
+                  },
+                  "copyRelations" : "bool",
+                  "propertyType" : "Relation Reference",
+                  "isTargetPrimary" : "bool",
+                  "copyAction" : "String",
+                  "saveAsInputTypeName" : "String"
+               }
+            ]
+         ]
+      ],
+      "saveAsDescMap" : {
+         "SampleKeyString" : {
+            "businessObjectName" : "String",
+            "propDescs" : [
+               {
+                  "copyFromOriginal" : "bool",
+                  "parent" : "IModelObject"
+               }
+            ]
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2011-06-OperationDescriptor/getSaveAsDesc",
+   "OperationInput" : {
+      "targetObjects" : "IModelObject[]"
+   }
+}

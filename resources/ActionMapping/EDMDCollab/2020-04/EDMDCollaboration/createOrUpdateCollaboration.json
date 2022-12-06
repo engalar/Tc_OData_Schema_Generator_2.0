@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "EDMDCollab-2020-04-EDMDCollaboration/createOrUpdateCollaboration",
+   "OperationResponse" : {
+      "collaborationObject" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "createOrUpdateInput" : {
+         "collaborationToCreateOrUpdate" : {
+            "objectProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "collabObjectUID" : "String"
+         },
+         "detachObjectsFromCollaboration" : "String[]",
+         "attachObjectsToCollaboration" : [
+            {
+               "relationName" : "String",
+               "objectUID" : "String"
+            }
+         ]
+      }
+   }
+}

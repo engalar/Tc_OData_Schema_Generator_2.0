@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "inputTypeNameToPropDescOutput" : {
+         "SampleKeyString" : [
+            {
+               "propertyDesc" : "IModelObject",
+               "propName" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2007-06-PropDescriptor/getAttachedPropDescs",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "propNames" : "String[]",
+            "typeName" : "String"
+         }
+      ]
+   }
+}

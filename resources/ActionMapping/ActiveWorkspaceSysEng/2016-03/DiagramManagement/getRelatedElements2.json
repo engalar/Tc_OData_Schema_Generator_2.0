@@ -1,0 +1,48 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "relatedElements" : [
+               {
+                  "relationData" : [
+                     {
+                        "relatedElement" : "IModelObject",
+                        "additionalObjects" : "IModelObject[]",
+                        "relation" : "IModelObject"
+                     }
+                  ],
+                  "inputElement" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceSysEng-2016-03-DiagramManagement/getRelatedElements2",
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputCtxt" : {
+               "configuration" : {
+                  "variantRule" : "IModelObject",
+                  "effectivityDate" : "Date",
+                  "unitNo" : "int",
+                  "revisionRule" : "IModelObject",
+                  "now" : "bool",
+                  "endItem" : "IModelObject",
+                  "configurationObject" : "IModelObject"
+               },
+               "productContext" : "IModelObject",
+               "structureContextObject" : "IModelObject",
+               "pageSize" : "int"
+            },
+            "elements" : "IModelObject[]",
+            "clientId" : "String",
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   }
+}

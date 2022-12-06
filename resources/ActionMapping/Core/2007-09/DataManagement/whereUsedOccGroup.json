@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "inputObject" : "IModelObject",
+            "info" : [
+               {
+                  "parentOccGroup" : "IModelObject",
+                  "level" : "int"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2007-09-DataManagement/whereUsedOccGroup",
+   "OperationInput" : {
+      "rule" : "IModelObject",
+      "numLevels" : "int",
+      "whereUsedPrecise" : "bool",
+      "objects" : "IModelObject[]"
+   }
+}

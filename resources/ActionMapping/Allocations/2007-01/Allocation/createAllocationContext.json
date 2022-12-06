@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Allocations-2007-01-Allocation/createAllocationContext",
+   "OperationResponse" : {
+      "allocationWindow" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "allocationLines" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "input" : {
+         "revision" : "String",
+         "id" : "String",
+         "type" : "String",
+         "name" : "String",
+         "openedBOMWindows" : "IModelObject[]"
+      }
+   }
+}

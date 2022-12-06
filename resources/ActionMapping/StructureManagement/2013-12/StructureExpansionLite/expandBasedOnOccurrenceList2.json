@@ -1,0 +1,74 @@
+{
+   "OperationInput" : {
+      "linePaths" : [
+         {
+            "startingLine" : "IModelObject",
+            "paths" : [
+               {
+                  "pathId" : "String",
+                  "elements" : "String[]",
+                  "basedOn" : "String[]"
+               }
+            ]
+         }
+      ],
+      "controls" : {
+         "relationCriteria" : [
+            {
+               "relationName" : "String",
+               "datasetTypeAndNamedRefs" : [
+                  {
+                     "namedReferenceNames" : "String[]",
+                     "datasetTypeName" : "String"
+                  }
+               ],
+               "namedRefHandler" : "String"
+            }
+         ],
+         "expansionPrefValues" : {
+            "SampleKeyString" : "int"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2013-12-StructureExpansionLite/expandBasedOnOccurrenceList2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "parentChildInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "configNotReliable" : "bool",
+                  "indexToAttachedObjInfos" : "int[]",
+                  "line" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "parentUndeliveredChildrenUids" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String[]"
+         ]
+      ],
+      "datasetInfo" : [
+         {
+            "relationName" : "String",
+            "dataset" : "IModelObject",
+            "namedRefInfo" : [
+               {
+                  "object" : "IModelObject",
+                  "fileTicket" : "String",
+                  "name" : "String",
+                  "type" : "String",
+                  "originalFileName" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

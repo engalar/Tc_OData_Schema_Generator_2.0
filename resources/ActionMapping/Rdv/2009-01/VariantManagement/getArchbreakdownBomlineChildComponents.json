@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "componentsApnAndBomLines" : [
+         {
+            "bomLine" : "IModelObject",
+            "childMeapn" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Rdv-2009-01-VariantManagement/getArchbreakdownBomlineChildComponents",
+   "OperationInput" : {
+      "inputs" : {
+         "bomWindow" : "IModelObject",
+         "topLevelItem" : "IModelObject",
+         "meApn" : "IModelObject"
+      }
+   }
+}

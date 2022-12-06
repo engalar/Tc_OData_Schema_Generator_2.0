@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "item" : "IModelObject",
+            "itemType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2006-03-DataManagement/generateRevisionIds",
+   "OperationResponse" : {
+      "outputRevisionIds" : {
+         "SampleKeyInt" : {
+            "isModify" : "bool",
+            "newRevId" : "String"
+         }
+      },
+      "serviceData" : "IServiceData"
+   }
+}

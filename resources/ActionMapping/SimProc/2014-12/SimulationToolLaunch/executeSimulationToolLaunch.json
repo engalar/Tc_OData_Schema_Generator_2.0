@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "launchType" : "String",
+      "inputObjects" : [
+         {
+            "configurationContext" : "IModelObject",
+            "inputObject" : "IModelObject"
+         }
+      ],
+      "workingDirectory" : "String",
+      "exportRuntimeConfiguration" : {
+         "plmxmlExportFileName" : "String",
+         "runtimeArguments" : "String[]"
+      },
+      "simulationTool" : "IModelObject",
+      "importRuntimeConfiguration" : {
+         "itemCreationSetting" : "String",
+         "datasetCreationSetting" : "String",
+         "outputNamePatterns" : "String[]"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "SimProc-2014-12-SimulationToolLaunch/executeSimulationToolLaunch"
+}

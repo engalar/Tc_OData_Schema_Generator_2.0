@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "inputToGetFtrAtt" : [
+         {
+            "routineRev" : "String",
+            "considerActiveSignificance" : "bool",
+            "plantId" : "String",
+            "routineId" : "String",
+            "specSheetName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "featureInfo" : [
+         {
+            "featureId" : "String",
+            "featureName" : "String",
+            "specInfo" : [
+               {
+                  "lowerSpecLimit" : "double",
+                  "ftrAttrCode" : "String",
+                  "upperSpecLimit" : "double",
+                  "target" : "double"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2014-12-EngineeringDataQuery/getFeatureAttributesForSpec"
+}

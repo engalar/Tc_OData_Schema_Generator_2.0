@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "inputVector" : [
+         {
+            "isRecursive" : "bool",
+            "lineToDisconnect" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-DataManagement/disconnectFromOrigin",
+   "OperationResponse" : "IServiceData"
+}

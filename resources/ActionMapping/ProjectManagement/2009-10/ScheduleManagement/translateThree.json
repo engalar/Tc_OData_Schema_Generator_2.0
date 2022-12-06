@@ -1,0 +1,265 @@
+{
+   "OperationInput" : {
+      "scheduleUid" : "String"
+   },
+   "OperationResponse" : {
+      "requestData" : {
+         "genericContainers" : [
+            {
+               "typedAttributesContainer" : [
+                  {
+                     "attributes" : [
+                        {
+                           "key" : "String",
+                           "type" : "int",
+                           "value" : "String"
+                        }
+                     ],
+                     "type" : "String"
+                  }
+               ],
+               "stringValContainer" : [
+                  {
+                     "key" : "String",
+                     "type" : "int",
+                     "value" : "String"
+                  }
+               ],
+               "scheduleUid" : "String",
+               "object" : "IModelObject",
+               "operationType" : "AssignmentAssign AssignmentUnassign AssignmentUpdate AssignmentDelegate AssignmentReplace AssignmentRevert ResourceGetAssignments DependencyCreate DependencyUpdate DependencyDelete ScheduleCreate ScheduleDelete ScheduleRecalculate ScheduleModify ScheduleTaskCreate ScheduleTaskDelete ScheduleTaskUpdate ScheduleGetCriticalPath ScheduleShift ScheduleScale ScheduleTaskMove Undefined",
+               "serviceType" : "GET POST VALIDATE PERSIST ANALYSE"
+            }
+         ],
+         "scheduleModifyContainer" : [
+            {
+               "serviceType" : "GET POST VALIDATE PERSIST ANALYSE",
+               "deletedAssignments" : "IModelObject[]",
+               "scheduleUid" : "String",
+               "assignmentUpdates" : [
+                  {
+                     "typedAttributesContainer" : [
+                        {
+                           "type" : "String",
+                           "attributes" : [
+                              {
+                                 "key" : "String",
+                                 "value" : "String",
+                                 "type" : "int"
+                              }
+                           ]
+                        }
+                     ],
+                     "scheduleUid" : "String",
+                     "stringValContainer" : [
+                        {
+                           "key" : "String",
+                           "value" : "String",
+                           "type" : "int"
+                        }
+                     ],
+                     "serviceType" : "GET POST VALIDATE PERSIST ANALYSE",
+                     "operationType" : "AssignmentAssign AssignmentUnassign AssignmentUpdate AssignmentDelegate AssignmentReplace AssignmentRevert ResourceGetAssignments DependencyCreate DependencyUpdate DependencyDelete ScheduleCreate ScheduleDelete ScheduleRecalculate ScheduleModify ScheduleTaskCreate ScheduleTaskDelete ScheduleTaskUpdate ScheduleGetCriticalPath ScheduleShift ScheduleScale ScheduleTaskMove Undefined",
+                     "object" : "IModelObject"
+                  }
+               ],
+               "deletedTasks" : "IModelObject[]",
+               "newAssignments" : [
+                  {
+                     "typedAttributesContainer" : [
+                        {
+                           "type" : "String",
+                           "attributes" : [
+                              {
+                                 "value" : "String",
+                                 "type" : "int",
+                                 "key" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "stringValContainer" : [
+                        {
+                           "value" : "String",
+                           "type" : "int",
+                           "key" : "String"
+                        }
+                     ],
+                     "scheduleUid" : "String",
+                     "operationType" : "AssignmentAssign AssignmentUnassign AssignmentUpdate AssignmentDelegate AssignmentReplace AssignmentRevert ResourceGetAssignments DependencyCreate DependencyUpdate DependencyDelete ScheduleCreate ScheduleDelete ScheduleRecalculate ScheduleModify ScheduleTaskCreate ScheduleTaskDelete ScheduleTaskUpdate ScheduleGetCriticalPath ScheduleShift ScheduleScale ScheduleTaskMove Undefined",
+                     "object" : "IModelObject",
+                     "serviceType" : "GET POST VALIDATE PERSIST ANALYSE"
+                  }
+               ],
+               "newTasks" : [
+                  {
+                     "stringValContainer" : [
+                        {
+                           "key" : "String",
+                           "value" : "String",
+                           "type" : "int"
+                        }
+                     ],
+                     "scheduleUid" : "String",
+                     "object" : "IModelObject",
+                     "operationType" : "AssignmentAssign AssignmentUnassign AssignmentUpdate AssignmentDelegate AssignmentReplace AssignmentRevert ResourceGetAssignments DependencyCreate DependencyUpdate DependencyDelete ScheduleCreate ScheduleDelete ScheduleRecalculate ScheduleModify ScheduleTaskCreate ScheduleTaskDelete ScheduleTaskUpdate ScheduleGetCriticalPath ScheduleShift ScheduleScale ScheduleTaskMove Undefined",
+                     "serviceType" : "GET POST VALIDATE PERSIST ANALYSE",
+                     "typedAttributesContainer" : [
+                        {
+                           "attributes" : [
+                              {
+                                 "key" : "String",
+                                 "type" : "int",
+                                 "value" : "String"
+                              }
+                           ],
+                           "type" : "String"
+                        }
+                     ]
+                  }
+               ],
+               "taskUpdates" : [
+                  {
+                     "typedAttributesContainer" : [
+                        {
+                           "attributes" : [
+                              {
+                                 "value" : "String",
+                                 "type" : "int",
+                                 "key" : "String"
+                              }
+                           ],
+                           "type" : "String"
+                        }
+                     ],
+                     "operationType" : "AssignmentAssign AssignmentUnassign AssignmentUpdate AssignmentDelegate AssignmentReplace AssignmentRevert ResourceGetAssignments DependencyCreate DependencyUpdate DependencyDelete ScheduleCreate ScheduleDelete ScheduleRecalculate ScheduleModify ScheduleTaskCreate ScheduleTaskDelete ScheduleTaskUpdate ScheduleGetCriticalPath ScheduleShift ScheduleScale ScheduleTaskMove Undefined",
+                     "object" : "IModelObject",
+                     "serviceType" : "GET POST VALIDATE PERSIST ANALYSE",
+                     "stringValContainer" : [
+                        {
+                           "type" : "int",
+                           "value" : "String",
+                           "key" : "String"
+                        }
+                     ],
+                     "scheduleUid" : "String"
+                  }
+               ],
+               "deletedDependencies" : "IModelObject[]",
+               "dependenciesUpdate" : [
+                  {
+                     "typedAttributesContainer" : [
+                        {
+                           "type" : "String",
+                           "attributes" : [
+                              {
+                                 "type" : "int",
+                                 "value" : "String",
+                                 "key" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "serviceType" : "GET POST VALIDATE PERSIST ANALYSE",
+                     "object" : "IModelObject",
+                     "operationType" : "AssignmentAssign AssignmentUnassign AssignmentUpdate AssignmentDelegate AssignmentReplace AssignmentRevert ResourceGetAssignments DependencyCreate DependencyUpdate DependencyDelete ScheduleCreate ScheduleDelete ScheduleRecalculate ScheduleModify ScheduleTaskCreate ScheduleTaskDelete ScheduleTaskUpdate ScheduleGetCriticalPath ScheduleShift ScheduleScale ScheduleTaskMove Undefined",
+                     "scheduleUid" : "String",
+                     "stringValContainer" : [
+                        {
+                           "type" : "int",
+                           "value" : "String",
+                           "key" : "String"
+                        }
+                     ]
+                  }
+               ],
+               "scheduleUpdates" : {
+                  "typedAttributesContainer" : [
+                     {
+                        "type" : "String",
+                        "attributes" : [
+                           {
+                              "value" : "String",
+                              "type" : "int",
+                              "key" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "serviceType" : "GET POST VALIDATE PERSIST ANALYSE",
+                  "operationType" : "AssignmentAssign AssignmentUnassign AssignmentUpdate AssignmentDelegate AssignmentReplace AssignmentRevert ResourceGetAssignments DependencyCreate DependencyUpdate DependencyDelete ScheduleCreate ScheduleDelete ScheduleRecalculate ScheduleModify ScheduleTaskCreate ScheduleTaskDelete ScheduleTaskUpdate ScheduleGetCriticalPath ScheduleShift ScheduleScale ScheduleTaskMove Undefined",
+                  "object" : "IModelObject",
+                  "scheduleUid" : "String",
+                  "stringValContainer" : [
+                     {
+                        "key" : "String",
+                        "type" : "int",
+                        "value" : "String"
+                     }
+                  ]
+               },
+               "newDependencies" : [
+                  {
+                     "operationType" : "AssignmentAssign AssignmentUnassign AssignmentUpdate AssignmentDelegate AssignmentReplace AssignmentRevert ResourceGetAssignments DependencyCreate DependencyUpdate DependencyDelete ScheduleCreate ScheduleDelete ScheduleRecalculate ScheduleModify ScheduleTaskCreate ScheduleTaskDelete ScheduleTaskUpdate ScheduleGetCriticalPath ScheduleShift ScheduleScale ScheduleTaskMove Undefined",
+                     "object" : "IModelObject",
+                     "serviceType" : "GET POST VALIDATE PERSIST ANALYSE",
+                     "stringValContainer" : [
+                        {
+                           "type" : "int",
+                           "value" : "String",
+                           "key" : "String"
+                        }
+                     ],
+                     "scheduleUid" : "String",
+                     "typedAttributesContainer" : [
+                        {
+                           "type" : "String",
+                           "attributes" : [
+                              {
+                                 "value" : "String",
+                                 "type" : "int",
+                                 "key" : "String"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ],
+               "deleteAllTasks" : "bool"
+            }
+         ]
+      },
+      "preferences" : {
+         "preferences" : [
+            {
+               "value" : "String",
+               "type" : "int",
+               "key" : "String"
+            }
+         ]
+      },
+      "schedules" : {
+         "translationDataSchedule" : [
+            {
+               "dataObjects" : "IModelObject[]"
+            }
+         ]
+      },
+      "modelMetaData" : {
+         "modelClass" : [
+            {
+               "attribute" : [
+                  {
+                     "value" : "String",
+                     "type" : "int",
+                     "key" : "String"
+                  }
+               ],
+               "name" : "String",
+               "parentClassName" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2009-10-ScheduleManagement/translateThree"
+}

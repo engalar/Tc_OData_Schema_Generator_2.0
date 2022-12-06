@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "namingInput" : {
+            "matchSourceName" : "bool",
+            "prefix" : "String",
+            "startNum" : "int",
+            "suffix" : "String"
+         },
+         "considerNewRoot" : "bool",
+         "newObjectType" : "String",
+         "target" : "IModelObject",
+         "sourceTasks" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : "String",
+      "logFileName" : "String"
+   },
+   "ServiceOperation" : "Internal-FourDPlanning-2013-05-DataManagement/automaticProcessCreation"
+}

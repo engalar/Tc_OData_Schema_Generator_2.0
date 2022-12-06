@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-Ai-2016-03-Ai/getApplicationInterfaceTypes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "additionalInfo" : {
+         "intMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "dateMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "dblMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "objMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strMap" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "OperationInput" : {
+      "specificTypeNames" : "String[]"
+   }
+}

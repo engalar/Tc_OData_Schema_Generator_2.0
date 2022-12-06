@@ -1,0 +1,37 @@
+{
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/getColumnsInfo",
+   "OperationResponse" : {
+      "columnInfos" : [
+         {
+            "propDisplayName" : "String",
+            "isDisplayed" : "bool",
+            "groupingOrder" : "int",
+            "propInternalName" : "String",
+            "isAscending" : "bool",
+            "columnWidth" : "int",
+            "sortingOrder" : "int",
+            "typeName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : {
+         "isResetView" : "bool",
+         "columnconfigInfo" : [
+            {
+               "propInternalName" : "String",
+               "groupingOrder" : "int",
+               "isDisplayed" : "bool",
+               "propDisplayName" : "String",
+               "typeName" : "String",
+               "sortingOrder" : "int",
+               "isAscending" : "bool",
+               "columnWidth" : "int"
+            }
+         ],
+         "configUidOrName" : "String",
+         "sourceBO" : "IModelObject"
+      }
+   }
+}

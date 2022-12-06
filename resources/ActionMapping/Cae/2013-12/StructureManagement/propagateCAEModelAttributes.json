@@ -1,0 +1,5 @@
+{
+   "ServiceOperation" : "Internal-Cae-2013-12-StructureManagement/propagateCAEModelAttributes",
+   "OperationResponse" : "bool",
+   "OperationInput" : {}
+}

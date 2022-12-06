@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "IssueManagement-2013-05-IssueManagement/getIssueSceneFiles",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "issuesceneFileName" : "String",
+            "clientId" : "String",
+            "issuesceneFileTicket" : "String",
+            "files" : [
+               {
+                  "fileName" : "String",
+                  "fileType" : "String",
+                  "fileTicket" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "additionalFiles" : "String[]",
+            "pvDataset" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

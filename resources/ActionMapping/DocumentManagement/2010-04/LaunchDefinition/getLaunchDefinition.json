@@ -1,0 +1,50 @@
+{
+   "OperationInput" : {
+      "operation" : "String",
+      "serverInfo" : {
+         "protocol" : "String",
+         "ssoInfo" : {
+            "appId" : "String",
+            "loginServiceUrl" : "String"
+         },
+         "useTccs" : "bool",
+         "hostPath" : "String",
+         "tccsEnvironment" : "String",
+         "additionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "useSso" : "bool",
+         "serverMode" : "String"
+      },
+      "userAgentData" : {
+         "additionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "userApplication" : "String",
+         "userAppVersion" : "String"
+      },
+      "selectedInputs" : [
+         {
+            "controlObj" : "IModelObject",
+            "item" : "IModelObject",
+            "additionalInfo" : {
+               "SampleKeyString" : "String"
+            },
+            "id" : "IModelObject",
+            "requestMode" : "String",
+            "itemRev" : "IModelObject"
+         }
+      ],
+      "sessionInfo" : {
+         "descriminator" : "String",
+         "additionalInfo" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "xmlLaunchDef" : "String",
+      "svcData" : "IServiceData"
+   },
+   "ServiceOperation" : "DocumentManagement-2010-04-LaunchDefinition/getLaunchDefinition"
+}

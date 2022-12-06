@@ -1,0 +1,32 @@
+{
+   "OperationResponse" : {
+      "appDataOutputs" : [
+         {
+            "appDataObject" : "IModelObject",
+            "specification" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/createApplicationData",
+   "OperationInput" : {
+      "appDataInputs" : [
+         {
+            "specification" : "IModelObject",
+            "appDataInfo" : {
+               "appDataDesc" : "String",
+               "appDataReason" : "String",
+               "appDataEntries" : [
+                  {
+                     "dataValue" : "String",
+                     "dataEntry" : "String"
+                  }
+               ],
+               "appDataName" : "String",
+               "appDataId" : "String",
+               "isGlobal" : "bool"
+            }
+         }
+      ]
+   }
+}

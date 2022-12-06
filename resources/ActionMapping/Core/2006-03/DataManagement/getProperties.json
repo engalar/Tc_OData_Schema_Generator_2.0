@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Core-2006-03-DataManagement/getProperties",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "attributes" : "String[]",
+      "objects" : "IModelObject[]"
+   }
+}

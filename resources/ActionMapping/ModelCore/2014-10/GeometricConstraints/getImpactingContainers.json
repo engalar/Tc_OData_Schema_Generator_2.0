@@ -1,0 +1,46 @@
+{
+   "OperationInput" : {
+      "datasetOptions" : {
+         "namedRefName" : "String",
+         "mode" : "NO_DATA GET_DATASET_ONLY GET_FILE_FOR_NAMED_REF GET_READTICKET_FOR_NAMED_REF"
+      },
+      "navOptions" : {
+         "mode" : "PRECISE CONFIGURED",
+         "configContextObject" : "IModelObject"
+      },
+      "inputElements" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "containerInfoMap" : {
+         "SampleKeyString" : {
+            "memberList" : [
+               {
+                  "csid" : "String",
+                  "isForeground" : "bool",
+                  "member" : "IModelObject"
+               }
+            ],
+            "isLatestIterationWorking" : "bool",
+            "latestIteration" : "int",
+            "owner" : "IModelObject",
+            "nameReferenceTicketMap" : {
+               "SampleKeyString" : "String"
+            },
+            "constraintData" : "IModelObject",
+            "iteration" : "int",
+            "systemManaged" : "bool",
+            "areConstraintsFullySolved" : "bool"
+         }
+      },
+      "inputElementToContainerMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ]
+   },
+   "ServiceOperation" : "ModelCore-2014-10-GeometricConstraints/getImpactingContainers"
+}

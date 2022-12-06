@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "asUser" : "bool",
+            "channel" : "String",
+            "appId" : "String",
+            "text" : "String",
+            "socialAppType" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "SocialInt-2019-06-TeamCollaborationService/postToSocial"
+}

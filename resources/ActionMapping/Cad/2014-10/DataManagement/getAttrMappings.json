@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "filter" : [
+         {
+            "clientId" : "String",
+            "itemTypeName" : "String",
+            "datasetTypeName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2014-10-DataManagement/getAttrMappings",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "attrMappingInfos" : [
+         {
+            "propDescInfo" : {
+               "propDescName" : "String",
+               "boTypeName" : "String"
+            },
+            "cadAttrMappingDefinition" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

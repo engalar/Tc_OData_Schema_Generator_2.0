@@ -1,0 +1,64 @@
+{
+   "OperationInput" : {
+      "featureInfos" : [
+         {
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "transform" : "double[]",
+            "clientId" : "String",
+            "boType" : "String",
+            "mergeConnected" : "bool",
+            "guardObjLastModifiedDate" : "bool",
+            "auxiliaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "object" : "IModelObject",
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "boType" : "String",
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2014_10::DataManagement::CompoundCreateInfoMap2",
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              }
+                           }
+                        ]
+                     },
+                     "boType" : "String"
+                  }
+               ]
+            },
+            "modelObject" : "IModelObject",
+            "feature" : "IModelObject",
+            "directModelDataset" : "IModelObject",
+            "boundingBox" : "double[]",
+            "objLastModifiedDateGuard" : "Date",
+            "connectedInfo" : [
+               {
+                  "csId" : "String",
+                  "clientId" : "String",
+                  "designElement" : "IModelObject",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "trueshapeDataset" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "connectionIDMap" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "ServiceOperation" : "CpdCore-2014-10-DataManagement/createOrUpdateDesignFeatures"
+}

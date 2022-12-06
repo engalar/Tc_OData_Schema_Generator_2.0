@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm4GetErrorStackSvc",
+   "OperationResponse" : {
+      "out" : {
+         "nStackEntries" : "int",
+         "errorText" : "String[]",
+         "extraInt" : "int",
+         "extraString" : "String",
+         "errorCodes" : "int[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "extraString" : "String",
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int"
+         },
+         "extraInt" : "int"
+      }
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "relationTypesInput" : [
+         {
+            "targetType" : "IModelObject",
+            "sourceType" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-ModelDefinitions/getValidRelationTypes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "relationTypesResults" : [
+         {
+            "sourceType" : "IModelObject",
+            "targetType" : "IModelObject",
+            "validRelationTypes" : [
+               {
+                  "displayName" : "String",
+                  "name" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

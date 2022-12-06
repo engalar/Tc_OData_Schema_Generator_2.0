@@ -1,0 +1,48 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "additionalInfo" : {
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToDoubleVectorMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-StructureManagement/verifyDesignPartAlignment",
+   "OperationInput" : {
+      "input" : [
+         {
+            "designLine" : "IModelObject",
+            "partLine" : "IModelObject",
+            "additionalInfo" : {
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               }
+            }
+         }
+      ]
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "topLevelItem" : "IModelObject",
+         "bomWindow" : "IModelObject",
+         "meApn" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-Rdv-2009-01-VariantManagement/getArchbreakdownMeapnChildComponents",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "componentsApnAndGcid" : [
+         {
+            "childMeapn" : "IModelObject",
+            "gcid" : "String",
+            "desc" : "String"
+         }
+      ]
+   }
+}

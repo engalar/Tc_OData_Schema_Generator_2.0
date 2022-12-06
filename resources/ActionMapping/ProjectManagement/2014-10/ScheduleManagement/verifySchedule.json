@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "ProjectManagement-2014-10-ScheduleManagement/verifySchedule",
+   "OperationResponse" : {
+      "errorMsgs" : "String[]",
+      "tasks" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "schedule" : "IModelObject"
+   }
+}

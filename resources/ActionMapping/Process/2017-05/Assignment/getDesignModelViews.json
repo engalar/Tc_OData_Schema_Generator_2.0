@@ -1,0 +1,71 @@
+{
+   "OperationInput" : {
+      "input" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "designDisclosureData" : [
+         {
+            "structureContext" : "IModelObject",
+            "views" : "IModelObject[]",
+            "designDisclosure" : "IModelObject"
+         }
+      ],
+      "foregroundData" : {
+         "views" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               {
+                  "views" : "IModelObject[]",
+                  "owningObjectCSID" : "String"
+               }
+            ]
+         ],
+         "viewsOfAncestors" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               {
+                  "owningObjectCSID" : "String",
+                  "views" : "IModelObject[]"
+               }
+            ]
+         ]
+      },
+      "serviceData" : "IServiceData",
+      "backgroundData" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "views" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     {
+                        "owningObjectCSID" : "String",
+                        "views" : "IModelObject[]"
+                     }
+                  ]
+               ],
+               "viewsOfAncestors" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     {
+                        "owningObjectCSID" : "String",
+                        "views" : "IModelObject[]"
+                     }
+                  ]
+               ]
+            }
+         ]
+      ]
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Assignment/getDesignModelViews"
+}

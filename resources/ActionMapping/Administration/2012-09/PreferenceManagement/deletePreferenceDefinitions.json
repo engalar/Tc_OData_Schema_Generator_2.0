@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/deletePreferenceDefinitions",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "preferenceNames" : "String[]",
+      "deleteAllCustomDefinitions" : "bool"
+   }
+}

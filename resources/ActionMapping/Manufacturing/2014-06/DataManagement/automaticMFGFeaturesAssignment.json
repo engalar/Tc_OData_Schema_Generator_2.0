@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileName" : "String",
+      "logFileTicket" : "String",
+      "assignmentList" : [
+         {
+            "featureAssignmentList" : [
+               {
+                  "occChain" : "String",
+                  "operation" : "IModelObject",
+                  "featureObject" : "IModelObject",
+                  "assignedType" : "String"
+               }
+            ],
+            "parentObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2014-06-DataManagement/automaticMFGFeaturesAssignment",
+   "OperationInput" : {
+      "input" : {
+         "targetContexts" : "IModelObject[]",
+         "sourceContexts" : "IModelObject[]",
+         "matchType" : "String",
+         "considerCycleTime" : "bool"
+      }
+   }
+}

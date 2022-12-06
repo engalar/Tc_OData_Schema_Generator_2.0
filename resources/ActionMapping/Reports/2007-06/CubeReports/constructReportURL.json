@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "inputCriteria" : {
+         "reportDefinition" : "IModelObject",
+         "messageName" : "String",
+         "contextObjects" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "url" : "String"
+   },
+   "ServiceOperation" : "Reports-2007-06-CubeReports/constructReportURL"
+}

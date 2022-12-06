@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-SvcAutoScheduling-2014-06-SvcAutoScheduling/populateServiceScheduleAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "workOrder" : "IModelObject",
+      "requirementInfo" : [
+         {
+            "servReqRev" : "IModelObject",
+            "servicePlan" : "IModelObject",
+            "asset" : "IModelObject",
+            "structureContext" : "IModelObject",
+            "usageName" : "String"
+         }
+      ],
+      "discrepancyList" : "IModelObject[]",
+      "maList" : "IModelObject[]",
+      "isRegenerate" : "bool",
+      "topPhyPartRev" : "IModelObject",
+      "selectedPhyPartRev" : "IModelObject"
+   }
+}

@@ -1,0 +1,119 @@
+{
+   "OperationInput" : {
+      "pcaVariantRule" : "IModelObject",
+      "createSVItemInputList" : [
+         {
+            "genericBOMLine" : "IModelObject",
+            "createSVItemInfo" : {
+               "createSVItemDesc" : {
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "dateListProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  },
+                  "boolListProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "doubleListProps" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "stringListProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "boListProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "boName" : "String",
+                  "compoundCreateSVItemDescriptor" : {
+                     "SampleKeyString" : [
+                        {
+                           "compoundCreateSVItemDescriptor" : "Smc0::Soa::StructureManagement::_2018_11::SolutionVariantManagement::CreateSVItemDescriptorMap2",
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "floatListProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "intListProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "boProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           },
+                           "dateListProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "stringListProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "boName" : "String",
+                           "boListProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "doubleListProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           },
+                           "boolListProps" : {
+                              "SampleKeyString" : "bool[]"
+                           }
+                        }
+                     ]
+                  },
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "intListProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "boProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "floatListProps" : {
+                     "SampleKeyString" : "float[]"
+                  }
+               },
+               "svCategoryType" : "int"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2018-11-SolutionVariantManagement/createSolutionVariantItems3",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createSVItemOutput" : [
+         {
+            "alreadyExists" : "bool",
+            "genericBomLine" : "IModelObject",
+            "newVariantItemRevision" : "IModelObject"
+         }
+      ]
+   }
+}

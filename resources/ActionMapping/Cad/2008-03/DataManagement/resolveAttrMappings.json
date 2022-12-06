@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Cad-2008-03-DataManagement/resolveAttrMappings",
+   "OperationResponse" : {
+      "resolvedMappingsMap" : {
+         "SampleKeyString" : {
+            "cadAttrMappingDefinition" : "IModelObject",
+            "resolvedObject" : "IModelObject",
+            "resolvedPropertyName" : "String"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "info" : [
+         {
+            "itemRev" : "IModelObject",
+            "dataset" : "IModelObject",
+            "mappingDefinitionInfos" : [
+               {
+                  "cadAttrMappingDefinition" : "IModelObject",
+                  "clientId" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

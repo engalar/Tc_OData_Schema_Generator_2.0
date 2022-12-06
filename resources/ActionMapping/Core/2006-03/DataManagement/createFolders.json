@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "container" : "IModelObject",
+      "relationType" : "String",
+      "folders" : [
+         {
+            "desc" : "String",
+            "clientId" : "String",
+            "name" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "folder" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2006-03-DataManagement/createFolders"
+}

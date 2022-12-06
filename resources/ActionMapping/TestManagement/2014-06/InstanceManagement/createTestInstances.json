@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "testName" : "String",
+            "testSteps" : [
+               {
+                  "multipleObjects" : "bool",
+                  "testPlacemarks" : "String[]",
+                  "stepDesc" : "String",
+                  "allowedTypes" : "String"
+               }
+            ],
+            "executionScope" : "String",
+            "testType" : "String",
+            "executionSystem" : "String",
+            "owningObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "TestManagement-2014-06-InstanceManagement/createTestInstances",
+   "OperationResponse" : {
+      "testInstances" : "IModelObject[]",
+      "srvcData" : "IServiceData"
+   }
+}

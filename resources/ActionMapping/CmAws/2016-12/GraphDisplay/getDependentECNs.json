@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "inputEcn" : "IModelObject"
+   },
+   "ServiceOperation" : "CmAws-2016-12-GraphDisplay/getDependentECNs",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "preEcn" : "IModelObject[]",
+      "conEcn" : "IModelObject[]",
+      "sucEcn" : "IModelObject[]"
+   }
+}

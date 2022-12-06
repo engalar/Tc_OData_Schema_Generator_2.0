@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "executeRecipe" : "bool",
+            "reuseModelElement" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "CpdCore-2011-06-Realization/updateWorksetSubsetContent",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "realizedContent" : [
+         {
+            "removedContent" : "IModelObject[]",
+            "unmappedEffectivityConditionsEncountered" : "bool",
+            "addedContent" : "IModelObject[]",
+            "updatedContent" : "IModelObject[]",
+            "realization" : "IModelObject"
+         }
+      ]
+   }
+}

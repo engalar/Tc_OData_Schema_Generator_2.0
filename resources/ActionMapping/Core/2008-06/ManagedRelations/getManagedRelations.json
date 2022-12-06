@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "managedRelations" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2008-06-ManagedRelations/getManagedRelations",
+   "OperationInput" : {
+      "inputdata" : {
+         "primaryTags" : "IModelObject[]",
+         "secondaryTags" : "IModelObject[]",
+         "subtype" : "String",
+         "primaryType" : "String"
+      }
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "signatures" : [
+               {
+                  "base64String" : "String",
+                  "object" : "IModelObject"
+               }
+            ],
+            "action" : "String",
+            "actionableObject" : "IModelObject",
+            "supportingObject" : "IModelObject",
+            "propertyNameValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "supportingValue" : "String",
+            "password" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Workflow-2014-06-Workflow/performAction3",
+   "OperationResponse" : "IServiceData"
+}

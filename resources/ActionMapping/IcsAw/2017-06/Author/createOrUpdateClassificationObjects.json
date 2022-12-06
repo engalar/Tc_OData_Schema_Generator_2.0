@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "classificationObjects" : [
+         {
+            "workspaceObject" : "IModelObject",
+            "clsObject" : "IModelObject",
+            "properties" : [
+               {
+                  "attributeId" : "int",
+                  "values" : "String[]"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "clsObjects" : [
+         {
+            "workspaceObject" : "IModelObject",
+            "clsObject" : "IModelObject",
+            "properties" : [
+               {
+                  "attributeId" : "int",
+                  "values" : "String[]"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-IcsAw-2017-06-Author/createOrUpdateClassificationObjects"
+}

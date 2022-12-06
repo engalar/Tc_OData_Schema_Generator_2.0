@@ -1,0 +1,113 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "newDelegate" : "bool",
+            "clientId" : "String",
+            "primaryServiceRequest" : "IModelObject",
+            "performsServiceRequest" : "IModelObject",
+            "requestedActivities" : "IModelObject[]",
+            "itemData" : {
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               }
+            },
+            "itemRevData" : {
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               }
+            },
+            "boName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "currPerforms" : "IModelObject[]",
+            "clientId" : "String",
+            "newPerforms" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "SvcRequest-2012-02-ServiceRequest/delegateRequestedActivity2"
+}

@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Manufacturing-2013-05-DataManagement/setAttributes",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "attachedObject" : "IModelObject",
+            "object" : "IModelObject",
+            "attributeDetails" : [
+               {
+                  "attributeName" : "String",
+                  "attributeValueDetails" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

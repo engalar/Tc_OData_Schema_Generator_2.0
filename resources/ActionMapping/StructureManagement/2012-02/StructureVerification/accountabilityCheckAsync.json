@@ -1,0 +1,67 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "StructureManagement-2012-02-StructureVerification/accountabilityCheckAsync",
+   "OperationInput" : {
+      "asyncDetails" : {
+         "primaryObjects" : "IModelObject[]",
+         "endAfterOccurrences" : "int",
+         "daysOfWeek" : "bool[]",
+         "endTime" : "Date",
+         "priority" : "int",
+         "mode" : "String",
+         "startTime" : "Date",
+         "site" : "int",
+         "identifier" : "String",
+         "secondaryObjects" : "IModelObject[]"
+      },
+      "acinput" : {
+         "targetObjects" : "IModelObject[]",
+         "matchType" : "int",
+         "targetDepth" : "int",
+         "partialMatchCriteria" : {
+            "SampleKeyString" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               }
+            }
+         },
+         "reportMode" : "int",
+         "targetContextLine" : "IModelObject",
+         "reportCriteria" : {
+            "stylesheetTag" : "IModelObject",
+            "reportOptionsValues" : "String[]",
+            "relationName" : "String",
+            "contextObjects" : "IModelObject[]",
+            "reportOptionsNames" : "String[]",
+            "reportName" : "String",
+            "datasetCtxObj" : "IModelObject",
+            "criteriaValues" : "String[]",
+            "datasetType" : "String",
+            "criteriaName" : "String[]",
+            "contextObjectUIDs" : "String[]",
+            "rdTag" : "IModelObject",
+            "stylesheetName" : "String",
+            "datasetName" : "String",
+            "datasetCtxUID" : "String"
+         },
+         "sourceDepth" : "int",
+         "sourceContextLine" : "IModelObject",
+         "sourceFilteringRule" : "String",
+         "options" : "int",
+         "resultName" : "String",
+         "includeScopeLines" : "bool",
+         "targetFilteringRule" : "String",
+         "sourceObjects" : "IModelObject[]",
+         "resultDesc" : "String"
+      }
+   }
+}

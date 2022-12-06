@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-Translation-2007-06-TranslationManagement/insertDatasetVersion",
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "datasetTags" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "dataset" : "IModelObject",
+            "versionNumber" : "int"
+         }
+      ]
+   }
+}

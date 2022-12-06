@@ -1,0 +1,36 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm3ExportStatusSvc",
+   "OperationResponse" : {
+      "out" : {
+         "exportComplete" : "bool",
+         "workspaceObjects" : "int",
+         "compressPerformedFlg" : "int",
+         "failures" : [
+            {
+               "failingObject" : "String",
+               "failureCode" : "int"
+            }
+         ],
+         "exportIfail" : "int",
+         "exportFiles" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "roleName" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "osUserName" : "String"
+         },
+         "exportStagingDir" : "String",
+         "abortExport" : "bool",
+         "checkClientAfterNWsos" : "int"
+      }
+   }
+}

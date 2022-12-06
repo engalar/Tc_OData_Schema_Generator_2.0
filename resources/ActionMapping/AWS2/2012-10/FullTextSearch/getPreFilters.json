@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "properties" : [
+         {
+            "values" : [
+               {
+                  "displayName" : "String",
+                  "internalName" : "String"
+               }
+            ],
+            "internalName" : "String",
+            "displayName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/getPreFilters"
+}

@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "createOrUpdateViewInputParam" : [
+         {
+            "viewBO" : "IModelObject",
+            "viewData" : {
+               "isSharable" : "bool",
+               "viewDescription" : "String",
+               "columnOrderInfos" : [
+                  {
+                     "filters" : [
+                        {
+                           "filterOrder" : "int",
+                           "logicalOperator" : "String",
+                           "propertyValues" : "String[]",
+                           "filterOperator" : "String"
+                        }
+                     ],
+                     "priority" : "int",
+                     "groupingOrder" : "int",
+                     "sortingOrder" : "int",
+                     "sortDirection" : "String",
+                     "propertyName" : "String"
+                  }
+               ],
+               "viewName" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2014-12-Retail/createOrUpdateView",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "viewBOs" : "IModelObject[]"
+   }
+}

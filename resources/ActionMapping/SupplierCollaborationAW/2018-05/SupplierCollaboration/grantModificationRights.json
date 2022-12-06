@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/grantModificationRights",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "itemRevisions" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "input" : {
+         "itemRevisions" : "IModelObject[]",
+         "companyContact" : "IModelObject",
+         "exchangeLine" : "IModelObject"
+      }
+   }
+}

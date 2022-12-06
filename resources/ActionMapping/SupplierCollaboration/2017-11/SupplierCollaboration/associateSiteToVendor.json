@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SupplierCollaboration-2017-11-SupplierCollaboration/associateSiteToVendor",
+   "OperationInput" : {
+      "inputObject" : "IModelObject",
+      "siteProperties" : {
+         "SampleKeyString" : "String"
+      }
+   }
+}

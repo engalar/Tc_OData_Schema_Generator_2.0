@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "intentOptions" : [
+               {
+                  "intentValue" : "String",
+                  "intentNamespace" : "String",
+                  "intentFamily" : "String"
+               }
+            ],
+            "partitions" : "IModelObject[]",
+            "revisionRule" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Process-2018-11-ProductSubset/createOrUpdateProductSubsetsFromPartitions"
+}

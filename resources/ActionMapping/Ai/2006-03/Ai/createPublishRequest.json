@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Ai-2006-03-Ai/createPublishRequest",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "ticket" : {
+         "ticket" : "String",
+         "originalFileName" : "String"
+      }
+   },
+   "OperationInput" : {
+      "detail" : {
+         "scope" : "RequestScope_Whole RequestScope_Partial RequestScope_Any",
+         "status" : {
+            "status" : "RequestStatus_Normal RequestStatus_Warning RequestStatus_Severe RequestStatus_Abort RequestStatus_Any",
+            "description" : "String"
+         },
+         "description" : "String",
+         "update" : "UpdateType_Full UpdateType_Delta UpdateType_Any",
+         "stateDesc" : "String",
+         "name" : "String"
+      },
+      "id" : "IModelObject",
+      "plmxmlFileName" : "String"
+   }
+}

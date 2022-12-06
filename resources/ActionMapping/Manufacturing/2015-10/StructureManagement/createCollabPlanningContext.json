@@ -1,0 +1,36 @@
+{
+   "OperationResponse" : {
+      "cpcObject" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2015-10-StructureManagement/createCollabPlanningContext",
+   "OperationInput" : {
+      "cpcInput" : {
+         "cloningStructsInfo" : [
+            {
+               "newId" : "String",
+               "newDescription" : "String",
+               "newName" : "String",
+               "cloningParams" : {
+                  "SampleKeyString" : "String"
+               },
+               "cloningRule" : "String",
+               "scopes" : "IModelObject[]",
+               "newRevId" : "String"
+            }
+         ],
+         "effectivityInfo" : {
+            "openEndedStatus" : "int",
+            "unitRangeText" : "String",
+            "endItemRev" : "IModelObject",
+            "endItem" : "IModelObject",
+            "dateRange" : "Date[]"
+         },
+         "refStructures" : "IModelObject[]",
+         "cpcDesc" : "String",
+         "cpcName" : "String",
+         "releaseStatus" : "String",
+         "originalCCUid" : "IModelObject"
+      }
+   }
+}

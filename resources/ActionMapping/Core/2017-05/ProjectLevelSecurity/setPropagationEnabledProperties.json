@@ -1,0 +1,67 @@
+{
+   "ServiceOperation" : "Core-2017-05-ProjectLevelSecurity/setPropagationEnabledProperties",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "propagationDataInput" : [
+         {
+            "reconstructConfigurationInfo" : {
+               "itemRev" : "IModelObject",
+               "bomWinPropFlagMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "configContext" : "IModelObject",
+               "revRuleConfigInfo" : {
+                  "props" : {
+                     "unitNo" : "int",
+                     "date" : "Date",
+                     "overrideFolders" : [
+                        {
+                           "folder" : "IModelObject",
+                           "ruleEntry" : "IModelObject"
+                        }
+                     ],
+                     "endItemRevision" : "IModelObject",
+                     "endItem" : "IModelObject",
+                     "today" : "bool"
+                  },
+                  "revRule" : "IModelObject"
+               },
+               "bomView" : "IModelObject",
+               "item" : "IModelObject",
+               "objectsForConfigure" : "IModelObject[]",
+               "activeAssemblyArrangement" : "IModelObject"
+            },
+            "assignOrAttachData" : [
+               {
+                  "eadParagraph" : "String[]",
+                  "selectedObjects" : "IModelObject[]",
+                  "propertyName" : "String",
+                  "selectedProjectsOrLicenses" : "String[]"
+               }
+            ],
+            "configInfo" : {
+               "depth" : "int",
+               "revisionRule" : "IModelObject",
+               "variantRule" : "IModelObject",
+               "selectedTopLevelObject" : "IModelObject",
+               "typeOption" : "int"
+            },
+            "propertyDataToSetAndPropagate" : [
+               {
+                  "propertyName" : "String",
+                  "newPropertyValues" : "String[]",
+                  "selectedObjects" : "IModelObject[]"
+               }
+            ],
+            "removeOrDetachData" : [
+               {
+                  "selectedProjectsOrLicenses" : "String[]",
+                  "propertyName" : "String",
+                  "eadParagraph" : "String[]",
+                  "selectedObjects" : "IModelObject[]"
+               }
+            ]
+         }
+      ]
+   }
+}

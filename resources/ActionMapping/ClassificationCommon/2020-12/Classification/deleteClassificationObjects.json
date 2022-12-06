@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ClassificationCommon-2020-12-Classification/deleteClassificationObjects",
+   "OperationInput" : {
+      "objectIDs" : "String[]",
+      "context" : {
+         "hierarchy" : "String",
+         "type" : "String",
+         "id" : "String"
+      }
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/executeMarkupChanges",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "isUpdateSuccessful" : "bool",
+            "markupChangeObjs" : "IModelObject[]",
+            "changeItemRev" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "changeItemRev" : "IModelObject",
+            "markupChangeUIDs" : "String[]"
+         }
+      ]
+   }
+}

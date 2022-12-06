@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "rootBOPLines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-DataManagement/createBOEfromPlantBOP",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "boeStructureTopLines" : "IModelObject[]"
+   }
+}

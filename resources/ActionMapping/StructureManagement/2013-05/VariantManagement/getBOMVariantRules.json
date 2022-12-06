@@ -1,0 +1,49 @@
+{
+   "ServiceOperation" : "StructureManagement-2013-05-VariantManagement/getBOMVariantRules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "variantRuleData" : [
+         {
+            "rules" : [
+               {
+                  "bomVariantOptionValueEntry" : [
+                     {
+                        "optionDesc" : "String",
+                        "owningItem" : "IModelObject",
+                        "option" : "IModelObject",
+                        "optionName" : "String",
+                        "variantOptionValue" : [
+                           {
+                              "value" : "String",
+                              "index" : "int",
+                              "whereSet" : "String",
+                              "howSet" : "String",
+                              "howSetInt" : "int",
+                              "isConfiguredOptionValue" : "bool"
+                           }
+                        ]
+                     }
+                  ],
+                  "variantRule" : "IModelObject",
+                  "svr" : "IModelObject",
+                  "isConstraintsEvaluated" : "bool",
+                  "isSVRModified" : "bool"
+               }
+            ],
+            "window" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "variantRuleInput" : [
+         {
+            "variantRule" : "IModelObject",
+            "svrs" : "IModelObject[]",
+            "window" : "IModelObject",
+            "svrActionMode" : "int",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

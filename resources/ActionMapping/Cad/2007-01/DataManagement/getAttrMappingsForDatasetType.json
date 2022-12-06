@@ -1,0 +1,45 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "itemTypeName" : "String",
+            "datasetTypeName" : "String",
+            "exact" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "attrMappingInfos" : [
+               {
+                  "cadAttrMappingDefinition" : "IModelObject",
+                  "propDesc" : {
+                     "interdependentProps" : "String[]",
+                     "isEnabled" : "bool",
+                     "attachedSpecifier" : "int",
+                     "maxLength" : "int",
+                     "lov" : "IModelObject",
+                     "isDisplayable" : "bool",
+                     "propType" : "int",
+                     "isRequired" : "bool",
+                     "displayName" : "String",
+                     "propName" : "String",
+                     "isModifiable" : "bool",
+                     "defaultValue" : "String",
+                     "isArray" : "bool",
+                     "propValueType" : "int"
+                  }
+               }
+            ],
+            "criteria" : {
+               "exact" : "bool",
+               "datasetTypeName" : "String",
+               "itemTypeName" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2007-01-DataManagement/getAttrMappingsForDatasetType"
+}

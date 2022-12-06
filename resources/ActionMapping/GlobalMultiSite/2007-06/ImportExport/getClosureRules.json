@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "schemaFormat" : "String",
+         "scope" : "String"
+      }
+   },
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/getClosureRules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "closureRuleObjects" : "IModelObject[]"
+   }
+}

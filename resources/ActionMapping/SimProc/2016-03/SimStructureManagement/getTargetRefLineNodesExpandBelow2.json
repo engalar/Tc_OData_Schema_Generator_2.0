@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "modelConfigurationContext" : "IModelObject",
+      "productConfigurationContext" : "IModelObject",
+      "columnNames" : "String[]",
+      "productCurrentLine" : "IModelObject",
+      "targetReferenceLine" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-SimProc-2016-03-SimStructureManagement/getTargetRefLineNodesExpandBelow2",
+   "OperationResponse" : {
+      "targetReferencesLineNodes" : {
+         "hasMultipleRelations" : "bool",
+         "underlyingComponent" : "IModelObject",
+         "propValueInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "targetReferenceLine" : "IModelObject",
+         "childLines" : "CAE0::Soa::Internal::SimProc::_2016_03::SimStructureManagement::ParentToChildTargetReferenceStructure2[]",
+         "isRelation" : "bool"
+      },
+      "targetReferencesServiceData" : "IServiceData"
+   }
+}

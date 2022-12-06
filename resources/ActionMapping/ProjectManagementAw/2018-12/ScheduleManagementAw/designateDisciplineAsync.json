@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "schedule" : "IModelObject",
+      "discipline" : "IModelObject",
+      "revert" : "bool",
+      "user" : "IModelObject"
+   },
+   "ServiceOperation" : "ProjectManagementAw-2018-12-ScheduleManagementAw/designateDisciplineAsync",
+   "OperationResponse" : {}
+}

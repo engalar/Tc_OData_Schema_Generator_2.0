@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "ProjectManagement-2015-07-ScheduleManagement/shiftScheduleAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "schedule" : "IModelObject",
+      "newDate" : "Date",
+      "isNewFinishDate" : "bool"
+   }
+}

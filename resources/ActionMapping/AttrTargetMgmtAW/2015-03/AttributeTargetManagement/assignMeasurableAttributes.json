@@ -1,0 +1,30 @@
+{
+   "ServiceOperation" : "AttrTargetMgmtAW-2015-03-AttributeTargetManagement/assignMeasurableAttributes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputMap" : {
+         "SampleKeyString" : [
+            {
+               "measurableAttribute" : "IModelObject",
+               "index" : "int"
+            }
+         ]
+      }
+   },
+   "OperationInput" : {
+      "pref" : {
+         "outputAttributeRelation" : "String",
+         "inputAttributeRelation" : "String"
+      },
+      "inputs" : [
+         {
+            "parentLine" : "IModelObject",
+            "measurableAttributes" : "IModelObject[]",
+            "clientID" : "String",
+            "inputOutputAttrParent" : "IModelObject",
+            "contextLine" : "IModelObject",
+            "actionName" : "SetInput SetOutput UnsetInput UnsetOutput SetInputAsOutput SetOutputAsInput"
+         }
+      ]
+   }
+}

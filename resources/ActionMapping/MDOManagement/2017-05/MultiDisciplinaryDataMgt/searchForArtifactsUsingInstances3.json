@@ -1,0 +1,37 @@
+{
+   "ServiceOperation" : "MDOManagement-2017-05-MultiDisciplinaryDataMgt/searchForArtifactsUsingInstances3",
+   "OperationResponse" : {
+      "mdoSearchOutput" : [
+         {
+            "clientId" : "String",
+            "mdoOutput" : [
+               {
+                  "associatedDesignArtifact" : [
+                     {
+                        "relevantDomains" : "String[]",
+                        "irrelevantDomains" : "String[]",
+                        "isValidated" : "bool",
+                        "designArtifact" : "IModelObject",
+                        "needsValidation" : "bool"
+                     }
+                  ],
+                  "mdoObject" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "filterForDomainRelevancy" : {
+               "isFilterForRelevantDomain" : "bool",
+               "domain" : "String"
+            },
+            "clientId" : "String",
+            "designInstances" : "IModelObject[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,97 @@
+{
+   "ServiceOperation" : "Internal-ObjectDataServices-2020-04-ObjectDataServices/findObjects",
+   "OperationResponse" : {
+      "objects" : [
+         {
+            "count" : "int",
+            "objects" : [
+               {
+                  "filteredObj" : "IModelObject",
+                  "expandedObject" : {
+                     "SampleKeyString" : [
+                        {
+                           "expandedObject" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::ExpandedObject",
+                           "filteredObj" : "IModelObject"
+                        }
+                     ]
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "attributes" : "String[]",
+            "expandCriteria" : {
+               "SampleKeyString" : {
+                  "attributeSortCriteria" : [
+                     {
+                        "attribute" : "String",
+                        "sortDirection" : "ASC DESC"
+                     }
+                  ],
+                  "expressions" : [
+                     {
+                        "expressionOperator" : "String",
+                        "lhs" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::Operand",
+                        "rhs" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::Operand"
+                     }
+                  ],
+                  "operandType" : "String",
+                  "startIndex" : "int",
+                  "operandValue" : "String",
+                  "maxToReturn" : "int",
+                  "referencedObjectAttributeSortCriteria" : [
+                     {
+                        "referencedObjectsSortCriteria" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::NestedSortCriteria[]",
+                        "className" : "String",
+                        "simpleSortCriteria" : [
+                           {
+                              "attribute" : "String",
+                              "sortDirection" : "ASC DESC"
+                           }
+                        ],
+                        "attributeName" : "String"
+                     }
+                  ],
+                  "expandCriteria" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::ExpandCriteria",
+                  "attributes" : "String[]"
+               }
+            },
+            "referencedObjectAttributeSortCriteria" : [
+               {
+                  "referencedObjectsSortCriteria" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::NestedSortCriteria[]",
+                  "className" : "String",
+                  "simpleSortCriteria" : [
+                     {
+                        "attribute" : "String",
+                        "sortDirection" : "ASC DESC"
+                     }
+                  ],
+                  "attributeName" : "String"
+               }
+            ],
+            "maxToReturn" : "int",
+            "operandValue" : "String",
+            "operandType" : "String",
+            "startIndex" : "int",
+            "attributeSortCriteria" : [
+               {
+                  "attribute" : "String",
+                  "sortDirection" : "ASC DESC"
+               }
+            ],
+            "expressions" : [
+               {
+                  "rhs" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::Operand",
+                  "lhs" : "Ods0::Soa::Internal::ObjectDataServices::_2020_04::ObjectDataServices::Operand",
+                  "expressionOperator" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

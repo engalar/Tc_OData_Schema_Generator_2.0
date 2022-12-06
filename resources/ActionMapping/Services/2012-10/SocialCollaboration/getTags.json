@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "request" : {
+         "tagNames" : "String[]",
+         "objectUid" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "success" : "bool",
+      "msg" : "String",
+      "tagNames" : "String[]"
+   },
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/getTags"
+}

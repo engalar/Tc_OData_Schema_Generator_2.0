@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "retrieveFiles" : "bool",
+      "inputs" : [
+         {
+            "clientID" : "String",
+            "datasetType" : "String",
+            "referenceTypes" : "String[]",
+            "attrInfo" : [
+               {
+                  "attrName" : "String",
+                  "attrValues" : "String[]"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "datasetFilesOutput" : [
+         {
+            "datasetType" : "String",
+            "datasetReferenceFileInfo" : [
+               {
+                  "datasetFiles" : [
+                     {
+                        "referenceFileTicket" : "String",
+                        "dataset" : "IModelObject"
+                     }
+                  ],
+                  "datasetReferenceTypeName" : "String"
+               }
+            ],
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Core-2010-09-DataManagement/getDatasetFiles"
+}

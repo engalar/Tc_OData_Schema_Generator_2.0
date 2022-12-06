@@ -1,0 +1,52 @@
+{
+   "OperationInput" : {
+      "iVecSoaSavAsIn" : [
+         {
+            "deepCopyDatas" : [
+               {
+                  "operationInputs" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "attachedObject" : "IModelObject",
+                  "propertyName" : "String",
+                  "childDeepCopyData" : "Teamcenter::Soa::Core::_2013_05::DataManagement::DeepCopyData[]",
+                  "propertyType" : "String",
+                  "isTargetPrimary" : "bool",
+                  "copyAction" : "String",
+                  "isRequired" : "bool",
+                  "operationInputTypeName" : "String",
+                  "copyRelations" : "bool"
+               }
+            ],
+            "targetObject" : "IModelObject",
+            "inputPropValues" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ],
+      "iVecSoaRelteInfoIn" : [
+         {
+            "relate" : "bool",
+            "target" : "IModelObject",
+            "propertyName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2014-10-DataManagement/saveAsObjectsAndRelate",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "saveAsTrees" : [
+         {
+            "originalObject" : "IModelObject",
+            "objectCopy" : "IModelObject",
+            "childSaveAsNodes" : "Teamcenter::Soa::Core::_2011_06::DataManagement::SaveAsTree[]"
+         }
+      ],
+      "output" : [
+         {
+            "targetObject" : "IModelObject",
+            "objects" : "IModelObject[]"
+         }
+      ]
+   }
+}

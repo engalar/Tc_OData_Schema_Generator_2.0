@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-Core-2014-11-Session/getSecurityToken",
+   "OperationResponse" : "String",
+   "OperationInput" : {
+      "duration" : "int"
+   }
+}

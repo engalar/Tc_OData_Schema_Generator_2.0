@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Allocations-2007-01-Allocation/closeAllocationWindow",
+   "OperationInput" : {
+      "allocWindowInput" : "IModelObject",
+      "force" : "bool"
+   }
+}

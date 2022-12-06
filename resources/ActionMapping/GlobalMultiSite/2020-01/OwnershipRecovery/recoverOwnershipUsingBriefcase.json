@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "briefcaseUid" : "String",
+      "dryRun" : "bool"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2020-01-OwnershipRecovery/recoverOwnershipUsingBriefcase",
+   "OperationResponse" : {
+      "reportFmsTicket" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

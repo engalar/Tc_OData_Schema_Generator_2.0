@@ -1,0 +1,48 @@
+{
+   "OperationResponse" : {
+      "matchedCandidates" : [
+         {
+            "matches" : [
+               {
+                  "matchingCandidates" : "IModelObject[]",
+                  "howMatched" : "String[]",
+                  "objectToSearchFor" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2016-03-StructureVerification/findMatchingCandidates",
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "searchCandidates" : "IModelObject[]",
+            "objectsToSearchFor" : "IModelObject[]",
+            "scopesToSearchIn" : [
+               {
+                  "scopes" : "IModelObject[]",
+                  "closureRule" : "String"
+               }
+            ]
+         }
+      ],
+      "additionalInfo" : {
+         "intMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "dblMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "objMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "dateMap" : {
+            "SampleKeyString" : "Date[]"
+         }
+      }
+   }
+}

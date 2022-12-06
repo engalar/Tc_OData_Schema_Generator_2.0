@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "sourceStructInfo" : {
+            "sourceObject" : "IModelObject",
+            "productContext" : "IModelObject"
+         },
+         "targetSystemElement" : "IModelObject"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-FmeaManager-2020-05-FMEADataManagement/rebaseFMEAStructure"
+}

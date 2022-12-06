@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "item" : "IModelObject",
+            "activeAssemblyArrangement" : "IModelObject",
+            "objectsForConfigure" : "IModelObject[]",
+            "clientId" : "String",
+            "bomWindow" : "IModelObject",
+            "revRuleConfigInfo" : {
+               "props" : {
+                  "overrideFolders" : [
+                     {
+                        "ruleEntry" : "IModelObject",
+                        "folder" : "IModelObject"
+                     }
+                  ],
+                  "endItemRevision" : "IModelObject",
+                  "date" : "Date",
+                  "unitNo" : "int",
+                  "endItem" : "IModelObject",
+                  "today" : "bool"
+               },
+               "revRule" : "IModelObject",
+               "clientId" : "String"
+            },
+            "bomView" : "IModelObject",
+            "bomWinPropFlagMap" : {
+               "SampleKeyString" : "String"
+            },
+            "configContext" : "IModelObject",
+            "effGrpRevList" : "IModelObject[]",
+            "itemRev" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2019-06-StructureManagement/createOrReConfigureBOMWindows",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "bomLine" : "IModelObject",
+            "clientId" : "String",
+            "bomWindow" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,65 @@
+{
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2019-06-SpecNavigation/createOrUpdateContents",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createdObjs" : {
+         "SampleKeyString" : "String"
+      },
+      "updatedObjs" : "String[]"
+   },
+   "OperationInput" : {
+      "createUpdateInput" : {
+         "markUpInput" : [
+            {
+               "properties" : {
+                  "SampleKeyString" : "String"
+               },
+               "baseObject" : "IModelObject",
+               "version" : "String",
+               "markups" : "String"
+            }
+         ],
+         "createInput" : [
+            {
+               "elementID" : "String",
+               "position" : "int",
+               "siblingID" : "String",
+               "parentID" : "String",
+               "type" : "String",
+               "name" : "String",
+               "siblingElement" : "IModelObject",
+               "contents" : "String",
+               "parentElement" : "IModelObject"
+            }
+         ],
+         "selectedElement" : "IModelObject",
+         "inputCtxt" : {
+            "pageSize" : "int",
+            "structureContextObject" : "IModelObject",
+            "productContext" : "IModelObject",
+            "configuration" : {
+               "revisionRule" : "IModelObject",
+               "svrOwningProduct" : "IModelObject",
+               "endItem" : "IModelObject",
+               "effectivityDate" : "Date",
+               "variantRule" : "IModelObject",
+               "unitNo" : "int",
+               "now" : "bool",
+               "configurationObject" : "IModelObject"
+            },
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            }
+         },
+         "setContentInput" : [
+            {
+               "lastSavedDate" : "Date",
+               "isPessimisticLock" : "bool",
+               "objectToProcess" : "IModelObject",
+               "contentType" : "REQ_HTML REQ_PLAINTEXT REQ_RICHTEXT",
+               "bodyText" : "String"
+            }
+         ]
+      }
+   }
+}

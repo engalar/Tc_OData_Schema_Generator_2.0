@@ -1,0 +1,36 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "arrayOfResults" : [
+         {
+            "objectUIDS" : "String[]",
+            "objectsRelMap" : "int[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Query-2019-06-SavedQuery/executeBOQueriesWithSort",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "boTypeName" : "String",
+            "clientId" : "String",
+            "maxNumToReturn" : "int",
+            "requestId" : "String",
+            "clauses" : [
+               {
+                  "propName" : "String",
+                  "propValue" : "String",
+                  "mathOperator" : "String",
+                  "logicOperator" : "String"
+               }
+            ],
+            "sortOptions" : [
+               {
+                  "sortOrder" : "AscendingOrder DescendingOrder",
+                  "sortAttribute" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,71 @@
+{
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "request" : "IModelObject"
+   },
+   "ServiceOperation" : "Ai-2008-06-Ai/generateScopedSyncRequest2",
+   "OperationInput" : {
+      "objectsToProcess" : [
+         {
+            "config" : {
+               "useDefaultRevisionRule" : "bool",
+               "variantRule" : {
+                  "application" : "String",
+                  "version" : "String",
+                  "label" : "String"
+               },
+               "revRuleName" : "String",
+               "existingWindow" : "IModelObject",
+               "configuringObject" : {
+                  "label" : "String",
+                  "version" : "String",
+                  "application" : "String"
+               }
+            },
+            "refContexts" : [
+               {
+                  "config" : {
+                     "useDefaultRevisionRule" : "bool",
+                     "variantRule" : {
+                        "application" : "String",
+                        "version" : "String",
+                        "label" : "String"
+                     },
+                     "revRuleName" : "String",
+                     "existingWindow" : "IModelObject",
+                     "configuringObject" : {
+                        "version" : "String",
+                        "application" : "String",
+                        "label" : "String"
+                     }
+                  },
+                  "topLineObject" : {
+                     "version" : "String",
+                     "application" : "String",
+                     "label" : "String"
+                  }
+               }
+            ],
+            "apprefs" : [
+               {
+                  "version" : "String",
+                  "application" : "String",
+                  "label" : "String"
+               }
+            ]
+         }
+      ],
+      "requestDetail" : {
+         "scope" : "RequestScope_Whole RequestScope_Partial RequestScope_Any",
+         "status" : {
+            "status" : "RequestStatus_Normal RequestStatus_Warning RequestStatus_Severe RequestStatus_Abort RequestStatus_Any",
+            "description" : "String"
+         },
+         "description" : "String",
+         "update" : "UpdateType_Full UpdateType_Delta UpdateType_Any",
+         "stateDesc" : "String",
+         "name" : "String"
+      },
+      "aiObject" : "IModelObject"
+   }
+}

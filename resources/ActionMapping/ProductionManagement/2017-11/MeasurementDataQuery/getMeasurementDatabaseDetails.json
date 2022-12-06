@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-ProductionManagement-2017-11-MeasurementDataQuery/getMeasurementDatabaseDetails",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "measurementDatabaseSet" : [
+         {
+            "hostName" : "String",
+            "databaseKey" : "String",
+            "databaseUsername" : "String",
+            "databaseType" : "String",
+            "databaseName" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {}
+}

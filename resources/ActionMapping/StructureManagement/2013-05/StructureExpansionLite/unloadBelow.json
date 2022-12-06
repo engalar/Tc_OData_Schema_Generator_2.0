@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "lines" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-StructureManagement-2013-05-StructureExpansionLite/unloadBelow"
+}

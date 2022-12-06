@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-DataManagement/getChildren",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "parentObject" : "IModelObject",
+            "children" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

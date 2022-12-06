@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "applyTemplates" : "bool",
+            "applicationFormat" : "String",
+            "objectToProcess" : "IModelObject",
+            "templateId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "transientFileReadTickets" : "String[]"
+   },
+   "ServiceOperation" : "Requirementsmanagement-2008-06-RequirementsManagement/getRichContent"
+}

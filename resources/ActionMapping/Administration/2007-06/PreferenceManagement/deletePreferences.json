@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Administration-2007-06-PreferenceManagement/deletePreferences",
+   "OperationInput" : {
+      "deletePrefs" : [
+         {
+            "preferenceScope" : "String",
+            "object" : "IModelObject",
+            "preferenceName" : "String"
+         }
+      ]
+   }
+}

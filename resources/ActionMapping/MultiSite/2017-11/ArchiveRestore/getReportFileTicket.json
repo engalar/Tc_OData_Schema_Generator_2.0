@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "reportFileName" : "String"
+   },
+   "OperationResponse" : {
+      "ticket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Multisite-2017-11-ArchiveRestore/getReportFileTicket"
+}

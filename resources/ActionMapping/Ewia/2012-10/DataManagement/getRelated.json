@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "businessObjects" : "IModelObject[]",
+         "relations" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Ewia-2012-10-DataManagement/getRelated",
+   "OperationResponse" : {
+      "relatedObjectsInfo" : [
+         {
+            "relatedObjects" : [
+               {
+                  "relatedObject" : "IModelObject",
+                  "fileTicketsVector" : [
+                     {
+                        "ticket" : "String",
+                        "busObject" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "object" : "IModelObject",
+            "relation" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

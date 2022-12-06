@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Ai-2009-06-Ai/getPersistentObjects",
+   "OperationInput" : {
+      "inputLines" : "IModelObject[]"
+   }
+}

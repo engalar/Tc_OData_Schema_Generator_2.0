@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Process-2017-05-Assignment/getAssignments",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "context" : "IModelObject",
+            "assignments" : [
+               {
+                  "assignmentTypes" : "IModelObject[]",
+                  "assignedObject" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

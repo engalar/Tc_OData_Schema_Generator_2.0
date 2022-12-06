@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "exchangeInputs" : [
+         {
+            "exchangeObj" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "SupplierCollaboration-2016-04-SupplierCollaboration/postExchange",
+   "OperationResponse" : "IServiceData"
+}

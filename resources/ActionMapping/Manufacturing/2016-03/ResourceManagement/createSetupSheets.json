@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "icoIds" : "String[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Manufacturing-2016-03-ResourceManagement/createSetupSheets"
+}

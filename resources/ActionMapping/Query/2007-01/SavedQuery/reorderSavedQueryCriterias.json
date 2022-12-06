@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Query-2007-01-SavedQuery/reorderSavedQueryCriterias",
+   "OperationInput" : {
+      "queryCriteriaNames" : "String[]"
+   }
+}

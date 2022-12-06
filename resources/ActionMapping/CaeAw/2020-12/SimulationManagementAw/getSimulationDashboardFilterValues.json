@@ -1,0 +1,31 @@
+{
+   "ServiceOperation" : "Internal-CaeAw-2020-12-SimulationManagementAw/getSimulationDashboardFilterValues",
+   "OperationResponse" : {
+      "facetValues" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "filterInputs" : {
+         "selectedObjects" : "IModelObject[]",
+         "bomInputs" : {
+            "variantRules" : "IModelObject[]",
+            "revisionRule" : "IModelObject",
+            "rootIR" : "IModelObject"
+         },
+         "columnName" : "String",
+         "inputMethod" : "String",
+         "dashboardExecutionID" : "String",
+         "queryCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "dashboardConfig" : "IModelObject",
+         "columnFilters" : [
+            {
+               "columnName" : "String",
+               "values" : "String[]",
+               "operation" : "String"
+            }
+         ]
+      }
+   }
+}

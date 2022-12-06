@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-DocumentManagement-2013-12-Markup/loadMarkups",
+   "OperationResponse" : {
+      "message" : "String",
+      "markups" : "String",
+      "version" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "version" : "String",
+      "baseObject" : "IModelObject",
+      "message" : "String"
+   }
+}

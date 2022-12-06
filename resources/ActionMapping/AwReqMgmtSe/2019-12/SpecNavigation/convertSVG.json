@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "outputType" : "String",
+         "svgFileTicket" : "String",
+         "height" : "int",
+         "options" : "String[]",
+         "width" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2019-12-SpecNavigation/convertSVG",
+   "OperationResponse" : {
+      "generatedFileTicket" : "String",
+      "data" : "IServiceData"
+   }
+}

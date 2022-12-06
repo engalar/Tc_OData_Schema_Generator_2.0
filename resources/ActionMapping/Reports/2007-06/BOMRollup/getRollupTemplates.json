@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "rollupTemplates" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Reports-2007-06-BOMRollup/getRollupTemplates",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "mode" : "String"
+         }
+      ]
+   }
+}

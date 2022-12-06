@@ -1,0 +1,31 @@
+{
+   "ServiceOperation" : "ContMgmtBase-2011-06-ContentManagement/importGraphicOption",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outPut" : [
+         {
+            "errorMessage" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "graphicClassName" : "String",
+            "clientId" : "String",
+            "language" : "String",
+            "nameAndSize" : [
+               {
+                  "size" : "String",
+                  "transientFileWriteTicket" : "String",
+                  "name" : "String"
+               }
+            ],
+            "overwriteMode" : "String",
+            "graphicUsages" : "String",
+            "graphicAttrMapping" : "String"
+         }
+      ]
+   }
+}

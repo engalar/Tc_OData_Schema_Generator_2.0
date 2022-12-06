@@ -1,0 +1,42 @@
+{
+   "ServiceOperation" : "Internal-Core-2017-05-PresentationManagement/getStylesheetPerPage",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "htmlStylesheet" : "String",
+            "thumbnailFileTicketMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "xrtStylesheet" : "String",
+            "childrenMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "clientId" : "String",
+            "visiblePages" : "String[]",
+            "processedPage" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "boName" : "String",
+            "boReference" : "IModelObject",
+            "stylesheetType" : "String",
+            "clientId" : "String",
+            "targetPage" : "String"
+         }
+      ],
+      "pref" : {
+         "processEntireXRT" : "bool",
+         "returnThumbnailTickets" : "bool",
+         "stylesheetFormat" : "String"
+      }
+   }
+}

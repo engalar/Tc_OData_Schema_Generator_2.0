@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/getSuggestions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "suggestions" : "String[]"
+   },
+   "OperationInput" : {
+      "searchInput" : {
+         "maxCount" : "int",
+         "searchString" : "String"
+      }
+   }
+}

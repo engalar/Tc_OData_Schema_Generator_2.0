@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ContractManagement-2014-10-ContractManagement/createOrUpdateSubDelSchedules",
+   "OperationInput" : {
+      "cdm0Input" : [
+         {
+            "updateImpactedOnly" : "bool",
+            "contractObject" : "IModelObject",
+            "clientId" : "String",
+            "scheduleTemplate" : "IModelObject"
+         }
+      ]
+   }
+}

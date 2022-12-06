@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "elements" : "IModelObject[]",
+         "defaultName" : {
+            "suffix" : "String",
+            "autogen" : "bool",
+            "toString" : "String",
+            "fromString" : "String",
+            "prefix" : "String"
+         },
+         "duplicateFlags" : "int",
+         "productContextInfo" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2018-05-OccurrenceManagement/duplicateAndReplace",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "templateDesc" : "String",
+            "baseTemplate" : "String",
+            "templateName" : "String",
+            "clientID" : "String",
+            "parentTemplate" : "String",
+            "templateToUpdate" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Workflow-2019-06-Workflow/createOrUpdateTemplate",
+   "OperationResponse" : {
+      "createdorUpdatedObjects" : [
+         {
+            "clientID" : "String",
+            "templateObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

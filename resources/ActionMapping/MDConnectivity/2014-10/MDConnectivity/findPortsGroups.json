@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/findPortsGroups",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "clientId" : "String",
+            "orderedGroups" : "IModelObject[]",
+            "connection" : "IModelObject",
+            "conditionalGroups" : "IModelObject[]",
+            "element" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "port" : "IModelObject",
+            "context" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

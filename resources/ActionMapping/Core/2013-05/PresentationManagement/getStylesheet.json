@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "pref" : {
+         "stylesheetFormat" : "String",
+         "returnThumbnailTickets" : "bool"
+      },
+      "inputData" : [
+         {
+            "boReference" : "IModelObject",
+            "boName" : "String",
+            "stylesheetType" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2013-05-PresentationManagement/getStylesheet",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "xrtStylesheet" : "String",
+            "childrenMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "thumbnailFileTicketMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "htmlStylesheet" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

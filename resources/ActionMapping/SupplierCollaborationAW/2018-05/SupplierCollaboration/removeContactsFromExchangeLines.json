@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "exchangeLine" : "IModelObject",
+            "objectsToBeRemoved" : "IModelObject[]",
+            "clientID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/removeContactsFromExchangeLines",
+   "OperationResponse" : "IServiceData"
+}

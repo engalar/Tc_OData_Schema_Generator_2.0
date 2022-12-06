@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "ticket" : {
+         "originalFileName" : "String",
+         "ticket" : "String"
+      },
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/generateFullSyncRequest",
+   "OperationInput" : {
+      "baseRefs" : [
+         {
+            "application" : "String",
+            "version" : "String",
+            "label" : "String"
+         }
+      ],
+      "name" : "String",
+      "id" : "IModelObject",
+      "description" : "String"
+   }
+}

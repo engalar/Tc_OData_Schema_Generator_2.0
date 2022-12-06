@@ -1,0 +1,101 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "topItemRevs" : "IModelObject[]",
+            "topLines" : "IModelObject[]",
+            "projects" : {
+               "validate" : "bool",
+               "projects" : "IModelObject[]",
+               "assign" : "bool"
+            },
+            "cloneFlags" : "int",
+            "revRule" : "IModelObject",
+            "defaultFolder" : "IModelObject",
+            "dataMap" : [
+               {
+                  "deepCopyDataOverride" : [
+                     {
+                        "childDeepCopyData" : "Teamcenter::Soa::StructureManagement::_2014_10::Structure::DeepCopyData[]",
+                        "propertyName" : "String",
+                        "attachedObject" : "IModelObject",
+                        "operationInputs" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "copyRelations" : "bool",
+                        "operationInputTypeName" : "String",
+                        "isRequired" : "bool",
+                        "copyAction" : "String",
+                        "propertyType" : "String",
+                        "isTargetPrimary" : "bool"
+                     }
+                  ],
+                  "newItemRevinfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "cloneOperationType" : "int",
+                  "origItemRevComp" : "IModelObject"
+               }
+            ],
+            "cadOptions" : "String[]",
+            "defaultName" : {
+               "to" : "String",
+               "autogen" : "bool",
+               "suffix" : "String",
+               "from" : "String",
+               "prefix" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clonedObjectInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ],
+      "dataMap" : [
+         {
+            "cloneOperationType" : "int",
+            "newItemRevinfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "deepCopyDataOverride" : [
+               {
+                  "attachedObject" : "IModelObject",
+                  "operationInputs" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "childDeepCopyData" : "Teamcenter::Soa::StructureManagement::_2014_10::Structure::DeepCopyData[]",
+                  "propertyName" : "String",
+                  "copyAction" : "String",
+                  "isTargetPrimary" : "bool",
+                  "propertyType" : "String",
+                  "copyRelations" : "bool",
+                  "isRequired" : "bool",
+                  "operationInputTypeName" : "String"
+               }
+            ],
+            "origItemRevComp" : "IModelObject"
+         }
+      ],
+      "clonedItemRevInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "orignalItemRev" : "IModelObject",
+               "status" : "int",
+               "clonedNewItemRev" : "IModelObject",
+               "bomline" : "IModelObject"
+            }
+         ]
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-Structure/cloneStructure"
+}

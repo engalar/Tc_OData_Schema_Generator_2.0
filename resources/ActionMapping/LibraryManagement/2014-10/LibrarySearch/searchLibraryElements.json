@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "searchInput" : {
+         "configContext" : "IModelObject",
+         "searchCriteria" : {
+            "sourceMember" : "IModelObject",
+            "searchExpressions" : [
+               {
+                  "propertyName" : "String",
+                  "expression" : "String"
+               }
+            ],
+            "sourceMemberExprs" : [
+               {
+                  "expression" : "String",
+                  "propertyName" : "String"
+               }
+            ],
+            "specification" : "IModelObject"
+         },
+         "nodeToSearchIn" : "IModelObject",
+         "clientID" : "String",
+         "searchOptions" : {
+            "loadCount" : "int",
+            "sortOrder" : [
+               {
+                  "ascendingSort" : "bool",
+                  "sortProperty" : "String"
+               }
+            ],
+            "options" : "int",
+            "start" : "int"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "numTotalResults" : "int",
+      "objects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySearch/searchLibraryElements"
+}

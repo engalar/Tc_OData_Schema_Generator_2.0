@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Ewia-2012-10-DataManagement/getCortonaAnimationFileTicket",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "fileReadTicket" : "String",
+            "fileObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "fileObject" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "parent" : "IModelObject",
+            "parameters" : "IModelObject[]",
+            "paramDirection" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "clientId" : "String",
+            "updatedParams" : "IModelObject[]",
+            "ignoredParams" : "IModelObject[]",
+            "parent" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "AttrTargetMgmtAW-2020-12-AttributeTargetManagement/setParametersDirection"
+}

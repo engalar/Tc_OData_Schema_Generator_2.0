@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "idDispRuleCreIns" : [
+         {
+            "idContexts" : "IModelObject[]",
+            "useDefault" : "bool",
+            "ruleName" : "String",
+            "setCurrent" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2019-12-DataManagement/createIdDisplayRules"
+}

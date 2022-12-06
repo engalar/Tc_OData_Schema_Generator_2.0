@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Workflow-2008-06-Workflow/getResourcePool",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "resourcePoolInfo" : [
+         {
+            "groupRoleRef" : {
+               "isAllMembers" : "int",
+               "roleTag" : "IModelObject",
+               "allowSubGroup" : "int",
+               "groupTag" : "IModelObject"
+            },
+            "resourcePoolTag" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "groupRoleRef" : [
+         {
+            "roleTag" : "IModelObject",
+            "isAllMembers" : "int",
+            "allowSubGroup" : "int",
+            "groupTag" : "IModelObject"
+         }
+      ]
+   }
+}

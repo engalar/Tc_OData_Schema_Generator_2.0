@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "viewModelObjects" : [
+         {
+            "typeGroup" : "String",
+            "modelObject" : "IModelObject",
+            "viewModelPropMap" : {
+               "SampleKeyString" : {
+                  "isModifiable" : "bool",
+                  "propDisplayName" : "String",
+                  "propInternalName" : "String",
+                  "propUIValue" : "String",
+                  "propDataType" : "String",
+                  "propDBValue" : "String"
+               }
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveModeler-2019-12-DataModelManagement/getTypesDetails",
+   "OperationInput" : {
+      "typeNames" : "String[]"
+   }
+}

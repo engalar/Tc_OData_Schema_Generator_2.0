@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "inputDIPALines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-IPAManagement/saveContentOfDynamicIPALines",
+   "OperationResponse" : {
+      "logFile" : {
+         "fileName" : "String",
+         "fileTicket" : "String"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,42 @@
+{
+   "ServiceOperation" : "CmAws-2016-12-GraphDisplay/getGraphLegend",
+   "OperationResponse" : {
+      "presentationStylesXML" : "String",
+      "presentationRulesXML" : "String",
+      "serviceData" : "IServiceData",
+      "legendData" : {
+         "relationGroup" : {
+            "name" : "String",
+            "types" : {
+               "displayName" : "String",
+               "internalName" : "String"
+            },
+            "color" : {
+               "greenValue" : "int",
+               "redValue" : "int",
+               "blueValue" : "int"
+            },
+            "displayName" : "String"
+         },
+         "name" : "String",
+         "defaultLayout" : "String",
+         "objectGroup" : {
+            "color" : {
+               "greenValue" : "int",
+               "blueValue" : "int",
+               "redValue" : "int"
+            },
+            "displayName" : "String",
+            "types" : {
+               "displayName" : "String",
+               "internalName" : "String"
+            },
+            "name" : "String"
+         },
+         "displayName" : "String"
+      }
+   },
+   "OperationInput" : {
+      "viewName" : "String"
+   }
+}

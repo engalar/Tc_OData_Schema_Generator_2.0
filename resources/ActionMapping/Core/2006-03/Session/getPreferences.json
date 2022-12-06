@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "preferences" : "IModelObject"
+   },
+   "ServiceOperation" : "Core-2006-03-Session/getPreferences",
+   "OperationInput" : {
+      "prefNames" : "String[]",
+      "prefScope" : "String"
+   }
+}

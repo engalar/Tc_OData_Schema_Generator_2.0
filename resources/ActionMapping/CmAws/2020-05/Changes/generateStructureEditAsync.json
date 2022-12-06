@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "generateStructureEditInput" : {
+         "inputData" : [
+            {
+               "solutionObject" : "IModelObject",
+               "impactedObject" : "IModelObject"
+            }
+         ],
+         "changeItemRevision" : "IModelObject",
+         "isGenerateStructureEdit" : "bool"
+      }
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "CmAws-2020-05-Changes/generateStructureEditAsync"
+}

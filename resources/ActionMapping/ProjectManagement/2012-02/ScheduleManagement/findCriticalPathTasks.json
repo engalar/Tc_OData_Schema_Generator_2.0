@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/findCriticalPathTasks",
+   "OperationResponse" : {
+      "proxyTasks" : "IModelObject[]",
+      "tasks" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "schedule" : "IModelObject"
+   }
+}

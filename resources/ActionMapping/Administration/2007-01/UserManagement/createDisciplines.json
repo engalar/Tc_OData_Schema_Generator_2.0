@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "disciplines" : [
+         {
+            "group" : "IModelObject",
+            "discipline" : {
+               "defaultRate" : "double",
+               "users" : [
+                  {
+                     "user" : "IModelObject",
+                     "levelName" : "String"
+                  }
+               ],
+               "name" : "String",
+               "clientId" : "String",
+               "description" : "String",
+               "levels" : [
+                  {
+                     "levelName" : "String",
+                     "levelNumber" : "int"
+                  }
+               ]
+            },
+            "role" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Administration-2007-01-UserManagement/createDisciplines",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "discipline" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

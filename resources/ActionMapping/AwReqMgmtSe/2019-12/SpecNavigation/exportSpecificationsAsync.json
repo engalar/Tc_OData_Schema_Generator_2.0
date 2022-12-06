@@ -1,0 +1,53 @@
+{
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2019-12-SpecNavigation/exportSpecificationsAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "input" : {
+         "mode" : "String",
+         "selectedObjects" : "IModelObject[]",
+         "options" : "String[]",
+         "inputCtxt" : {
+            "productContext" : "IModelObject",
+            "structureContextObject" : "IModelObject",
+            "pageSize" : "int",
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            },
+            "configuration" : {
+               "unitNo" : "int",
+               "effectivityDate" : "Date",
+               "variantRule" : "IModelObject",
+               "endItem" : "IModelObject",
+               "svrOwningProduct" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "now" : "bool",
+               "configurationObject" : "IModelObject"
+            }
+         },
+         "isRunInBackground" : "bool",
+         "typePropsData" : [
+            {
+               "typeInfo" : "String",
+               "objectType" : "String",
+               "dispTypeName" : "String",
+               "objectTypeRev" : "String",
+               "propInfos" : [
+                  {
+                     "isArray" : "bool",
+                     "lovDispValues" : "String[]",
+                     "hasLOV" : "bool",
+                     "propName" : "String",
+                     "propType" : "String",
+                     "isRequired" : "bool",
+                     "isEditable" : "bool",
+                     "dispPropName" : "String",
+                     "minValue" : "int",
+                     "lovValues" : "String[]",
+                     "maxValue" : "int"
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

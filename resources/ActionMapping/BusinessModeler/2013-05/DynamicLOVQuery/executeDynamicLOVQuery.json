@@ -1,0 +1,33 @@
+{
+   "ServiceOperation" : "Internal-BusinessModeler-2013-05-DynamicLOVQuery/executeDynamicLOVQuery",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "unprocessedUIDs" : "String[]",
+      "lovValues" : [
+         {
+            "valueProperty" : "String",
+            "filterProperties" : "String[]",
+            "descriptionProperty" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "queryData" : {
+         "queryString" : "String",
+         "lovInputData" : {
+            "descriptionProperty" : "String",
+            "valueProperty" : "String",
+            "filterProperties" : "String[]"
+         },
+         "unprocessedUIDs" : "String[]",
+         "filterData" : {
+            "numberToLoad" : "int",
+            "maxResult" : "int",
+            "sortOrder" : "int",
+            "filterString" : "String",
+            "sortPropertyName" : "String"
+         },
+         "queryClass" : "String"
+      }
+   }
+}

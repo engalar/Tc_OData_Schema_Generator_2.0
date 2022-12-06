@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Vendormanagement-2012-09-VendorManagement/addRemoveVendorRoles",
+   "OperationInput" : {
+      "vendorRoles" : [
+         {
+            "remove" : "bool",
+            "description" : "String",
+            "roleType" : "String",
+            "clientId" : "String"
+         }
+      ],
+      "vendorRevRef" : "IModelObject"
+   }
+}

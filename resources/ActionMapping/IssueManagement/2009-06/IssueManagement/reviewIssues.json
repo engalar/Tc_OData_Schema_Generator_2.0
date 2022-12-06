@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "performSignoffDecision" : "approveSignoff rejectSignoff noDecisionOnSignoff donotPerformSignoff",
+            "assignedUser" : "IModelObject",
+            "clientId" : "String",
+            "comment" : "String",
+            "theIssue" : "IModelObject",
+            "reviewIssueDecision" : "defer reject assign approveFix close reopen approveIssue noDecision"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "resp" : [
+         {
+            "theIssue" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "IssueManagement-2009-06-IssueManagement/reviewIssues"
+}

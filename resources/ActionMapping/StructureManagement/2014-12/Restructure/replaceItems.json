@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2014-12-Restructure/replaceItems",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "replaceInputs" : [
+         {
+            "replaceOption" : "int",
+            "item" : "IModelObject",
+            "itemRevision" : "IModelObject",
+            "bomLine" : "IModelObject",
+            "viewType" : "IModelObject"
+         }
+      ]
+   }
+}

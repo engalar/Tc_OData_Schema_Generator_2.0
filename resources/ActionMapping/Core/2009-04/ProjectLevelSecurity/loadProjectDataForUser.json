@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : {
+      "applicableProjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2009-04-ProjectLevelSecurity/loadProjectDataForUser",
+   "OperationInput" : {
+      "user" : "IModelObject",
+      "group" : "IModelObject",
+      "role" : "IModelObject"
+   }
+}

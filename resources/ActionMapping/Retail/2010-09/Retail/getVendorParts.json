@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "vendorPartsInfoUID" : [
+         {
+            "vendorPartUIDs" : "String[]",
+            "businessObjectUID" : "String",
+            "vendorObjectUID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/getVendorParts",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "vendorObjectUIDs" : "String[]",
+            "businessObjectUID" : "String"
+         }
+      ]
+   }
+}

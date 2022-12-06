@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "isPessimisticLock" : "bool",
+            "lastSavedDate" : "Date",
+            "objectToProcess" : "IModelObject",
+            "contentType" : "REQ_HTML REQ_PLAINTEXT REQ_RICHTEXT",
+            "bodyText" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2016-12-RequirementsManagement/setRichContent2"
+}

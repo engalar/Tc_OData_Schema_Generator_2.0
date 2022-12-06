@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-SystemsEngineering-2011-06-Budget/removeBudget",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "removeBudgetInfo" : [
+         {
+            "budgetDefObj" : "IModelObject",
+            "clientId" : "String",
+            "lineObj" : "IModelObject"
+         }
+      ]
+   }
+}

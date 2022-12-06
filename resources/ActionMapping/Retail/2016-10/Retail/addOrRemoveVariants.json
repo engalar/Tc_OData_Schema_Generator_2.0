@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2016-10-Retail/addOrRemoveVariants",
+   "OperationInput" : {
+      "input" : {
+         "isAddVariant" : "bool",
+         "measurementRows" : "IModelObject[]",
+         "sourceTemplateOrProduct" : "IModelObject"
+      }
+   }
+}

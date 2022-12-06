@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "domain" : "String",
+            "inputObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2018-06-MultiDisciplinaryDataMgt/getDomainRelevancyOfAnObject",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "domainRelevancy" : {
+               "irrelevantDomain" : "String[]",
+               "relevantDomain" : "String[]"
+            },
+            "relevancyValue" : "String",
+            "isDesignArtifactBased" : "bool",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

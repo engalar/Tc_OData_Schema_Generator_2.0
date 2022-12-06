@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/splitOrderedElementGroupElements",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "orderedElementGroups" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "orderedElementGroup" : "IModelObject",
+            "lastModifiedDateGuard" : "Date",
+            "conditionalElementGroup" : "IModelObject",
+            "index" : "int",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

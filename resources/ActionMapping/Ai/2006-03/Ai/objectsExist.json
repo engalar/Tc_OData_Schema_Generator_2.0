@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "objIds" : [
+         {
+            "label" : "String",
+            "version" : "String",
+            "application" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/objectsExist",
+   "OperationResponse" : {
+      "bExist" : "bool[]",
+      "ids" : [
+         {
+            "application" : "String",
+            "version" : "String",
+            "label" : "String"
+         }
+      ],
+      "data" : "IServiceData"
+   }
+}

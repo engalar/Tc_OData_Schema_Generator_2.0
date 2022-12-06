@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "numSrcBOMLines" : "int",
+            "srcCtxtLine" : "IModelObject",
+            "srcBOMLines" : "IModelObject[]",
+            "tarCtxtLine" : "IModelObject",
+            "options" : "int",
+            "clientId" : "String",
+            "tarBOMLines" : "IModelObject[]",
+            "modeStr" : "String",
+            "useBomCompareEngine" : "bool",
+            "numTarBOMLines" : "int",
+            "outputMode" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AsMaintained-2009-06-AsMaintained/asmBomCompare",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "reportLines" : "String[]",
+            "numMatRetBOMLines" : "int",
+            "srcRetBOMLines" : "IModelObject[]",
+            "clientId" : "String",
+            "numSrcRetBOMLines" : "int",
+            "tarRetBOMLines" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

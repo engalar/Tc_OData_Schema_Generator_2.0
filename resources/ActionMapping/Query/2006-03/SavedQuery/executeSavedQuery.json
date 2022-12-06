@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "entries" : "String[]",
+      "query" : "IModelObject",
+      "values" : "String[]",
+      "limit" : "int"
+   },
+   "ServiceOperation" : "Query-2006-03-SavedQuery/executeSavedQuery",
+   "OperationResponse" : {
+      "nFound" : "int",
+      "objects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,148 @@
+{
+   "OperationInput" : {
+      "options" : "int",
+      "request" : [
+         {
+            "workspaceObjects" : "IModelObject[]",
+            "relationTypes" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Classification-2020-04-Classification/findClassificationInfo",
+   "OperationResponse" : {
+      "classificationObjectsInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "unit" : "UNSPECIFIED_TYPE METRIC_TYPE NON_METRIC_TYPE",
+                  "properties" : [
+                     {
+                        "values" : [
+                           {
+                              "displayValue" : "String",
+                              "dbValue" : "String"
+                           }
+                        ],
+                        "attributeId" : "int"
+                     }
+                  ],
+                  "clsObjId" : "String",
+                  "relations" : "IModelObject[]",
+                  "classId" : "String",
+                  "clsObject" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "keylovInfoMap" : {
+         "SampleKeyString" : {
+            "name" : "String",
+            "keyLovtag" : "IModelObject",
+            "sharedSites" : "IModelObject[]",
+            "id" : "String",
+            "keyLovEntries" : [
+               {
+                  "deprecatedSatus" : "bool",
+                  "lovValue" : "String",
+                  "lovKey" : "String"
+               }
+            ],
+            "owningSite" : "IModelObject",
+            "options" : "int"
+         }
+      },
+      "classInfoMap" : {
+         "SampleKeyString" : {
+            "unitSystem" : "METRIC_SYSTEM NON_METRIC_SYSTEM BOTH",
+            "isGroup" : "bool",
+            "description" : "String",
+            "userData2" : "String",
+            "isAbstract" : "bool",
+            "isAssembly" : "bool",
+            "documents" : [
+               {
+                  "ticket" : "String",
+                  "originalFileName" : "String",
+                  "documentType" : "String"
+               }
+            ],
+            "parent" : "String",
+            "name" : "String",
+            "classAttributesInfo" : [
+               {
+                  "metricFormat" : {
+                     "maximumValue" : "String",
+                     "defaultValue" : "String",
+                     "format" : {
+                        "formatType" : "int",
+                        "formatModifier2" : "int",
+                        "formatModifier1" : "int",
+                        "formatLength" : "int"
+                     },
+                     "minimumValue" : "String",
+                     "unitID" : "String",
+                     "nxUnitID" : "String",
+                     "unitDisplayName" : "String"
+                  },
+                  "id" : "int",
+                  "configuredKeyLOV" : {
+                     "owningSite" : "IModelObject",
+                     "options" : "int",
+                     "name" : "String",
+                     "keyLovtag" : "IModelObject",
+                     "keyLovEntries" : [
+                        {
+                           "lovKey" : "String",
+                           "deprecatedSatus" : "bool",
+                           "lovValue" : "String"
+                        }
+                     ],
+                     "id" : "String",
+                     "sharedSites" : "IModelObject[]"
+                  },
+                  "nonMetricFormat" : {
+                     "unitID" : "String",
+                     "nxUnitID" : "String",
+                     "minimumValue" : "String",
+                     "unitDisplayName" : "String",
+                     "maximumValue" : "String",
+                     "defaultValue" : "String",
+                     "format" : {
+                        "formatLength" : "int",
+                        "formatModifier1" : "int",
+                        "formatType" : "int",
+                        "formatModifier2" : "int"
+                     }
+                  },
+                  "annotation" : "String",
+                  "shortName" : "String",
+                  "arraySize" : "int",
+                  "attributeConfiguration" : {
+                     "preConfig" : "String",
+                     "config" : "String",
+                     "postConfig" : "String"
+                  },
+                  "name" : "String",
+                  "dependencyConfiguration" : "String",
+                  "options" : "int",
+                  "extendedProperties" : [
+                     {
+                        "propName" : "String",
+                        "propValue" : "String[]"
+                     }
+                  ],
+                  "dependencyAttribute" : "String",
+                  "description" : "String"
+               }
+            ],
+            "shortName" : "String",
+            "userData1" : "String",
+            "id" : "String"
+         }
+      }
+   }
+}

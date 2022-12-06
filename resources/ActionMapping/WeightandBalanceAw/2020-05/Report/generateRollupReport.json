@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "name" : "String",
+         "runInBackground" : "bool",
+         "element" : "IModelObject",
+         "rollupTemplate" : "IModelObject",
+         "folder" : "IModelObject",
+         "description" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-WeightandBalanceAw-2020-05-Report/generateRollupReport",
+   "OperationResponse" : {
+      "rollupDataset" : "IModelObject",
+      "serviceData" : "IServiceData"
+   }
+}

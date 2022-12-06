@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "name" : "String",
+            "isFolderSiteLevel" : "bool",
+            "queryName" : "String",
+            "visible" : "bool",
+            "savedSearchName" : "String",
+            "operation" : "String",
+            "queryValues" : "String[]",
+            "queryCriteria" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/getAllChangeHomeFolders",
+   "OperationInput" : {}
+}

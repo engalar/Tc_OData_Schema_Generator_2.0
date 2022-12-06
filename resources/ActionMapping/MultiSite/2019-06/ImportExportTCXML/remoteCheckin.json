@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "Multisite-2019-06-ImportExportTCXML/remoteCheckin",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "failureInfo" : [
+         {
+            "failureCodes" : "int[]",
+            "failureObjects" : "IModelObject[]",
+            "failureStrings" : "String[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "overrideOptions" : {
+         "SampleKeyString" : "String[]"
+      },
+      "objects" : "IModelObject[]",
+      "optionSetName" : "String",
+      "sessionOptions" : {
+         "SampleKeyString" : "String[]"
+      }
+   }
+}

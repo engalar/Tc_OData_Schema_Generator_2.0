@@ -1,0 +1,48 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "selectedObjectsImpOutput" : [
+         {
+            "status" : "bool",
+            "selectedObject" : "IModelObject",
+            "datasetCreated" : "IModelObject",
+            "logFileInfo" : {
+               "fileTicket" : "String",
+               "filename" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "ParameterManagement-2012-02-ImportExport/importParmData",
+   "OperationInput" : {
+      "inputImportDataAndOptions" : [
+         {
+            "saveFlag" : "bool",
+            "proceedOnError" : "bool",
+            "fileTickets" : [
+               {
+                  "filename" : "String",
+                  "fileTicket" : "String"
+               }
+            ],
+            "filename" : "String",
+            "overwriteFlag" : "bool",
+            "importOptionsFormData" : {
+               "formObject" : "IModelObject",
+               "attributesMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "parentObject" : "IModelObject",
+               "name" : "String",
+               "relationName" : "IModelObject",
+               "formType" : "String",
+               "description" : "String"
+            },
+            "validateOnly" : "bool",
+            "fileType" : "IModelObject",
+            "purpose" : "FlashFile CalibrationSharing DictionarySharing",
+            "selectedObject" : "IModelObject"
+         }
+      ]
+   }
+}

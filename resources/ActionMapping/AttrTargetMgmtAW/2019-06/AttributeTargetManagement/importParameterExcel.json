@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "AttrTargetMgmtAW-2019-06-AttributeTargetManagement/importParameterExcel",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "importExcelOutput" : [
+         {
+            "createdObjects" : "IModelObject[]",
+            "updatedObjects" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "importOptions" : "String[]",
+      "inputs" : [
+         {
+            "selectedObject" : "IModelObject",
+            "importFileFmsTicket" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

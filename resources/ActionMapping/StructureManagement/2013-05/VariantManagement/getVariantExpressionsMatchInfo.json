@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputBOMLinesSets" : [
+         {
+            "doCompare" : "bool",
+            "nonRollUpBOMLines" : "IModelObject[]",
+            "rollUpBOMLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2013-05-VariantManagement/getVariantExpressionsMatchInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "variantExpressionsDetails" : [
+         {
+            "isDifferent" : "bool",
+            "rollUpClauseList" : [
+               {
+                  "clauseList" : "IModelObject",
+                  "clauseListText" : "String[]"
+               }
+            ],
+            "nonRollUpClauseList" : [
+               {
+                  "clauseList" : "IModelObject",
+                  "clauseListText" : "String[]"
+               }
+            ]
+         }
+      ]
+   }
+}

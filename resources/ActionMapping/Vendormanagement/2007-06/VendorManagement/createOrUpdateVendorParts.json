@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "container" : "IModelObject",
+      "relationType" : "String",
+      "properties" : [
+         {
+            "name" : "String",
+            "type" : "String",
+            "commercialpartid" : "String",
+            "partId" : "String",
+            "description" : "String",
+            "revId" : "String",
+            "makebuy" : "int",
+            "vendorid" : "String",
+            "clientId" : "String",
+            "uom" : "IModelObject",
+            "commercialpartrevid" : "String",
+            "isDesignReq" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "vendorPartRev" : "IModelObject",
+            "clientId" : "String",
+            "vendorPart" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Vendormanagement-2007-06-VendorManagement/createOrUpdateVendorParts"
+}

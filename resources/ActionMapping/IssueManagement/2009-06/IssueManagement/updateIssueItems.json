@@ -1,0 +1,70 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "fixedImageFile" : "String",
+            "generalDatasets" : [
+               {
+                  "relationToContainer" : "String",
+                  "fileInfo" : {
+                     "fileName" : "String",
+                     "refName" : "String",
+                     "fileType" : "String",
+                     "fileTicket" : "String"
+                  },
+                  "dsInfo" : {
+                     "tool" : "String",
+                     "name" : "String",
+                     "type" : "String",
+                     "description" : "String"
+                  },
+                  "existingDS" : "IModelObject"
+               }
+            ],
+            "clientId" : "String",
+            "existingIssueRev" : "IModelObject",
+            "fixedImageFileTicket" : "String",
+            "reviewSetting" : {
+               "existingSnapshot" : "IModelObject",
+               "configContext" : "IModelObject",
+               "refAndFiles" : [
+                  {
+                     "fileTicket" : "String",
+                     "fileType" : "String",
+                     "fileName" : "String",
+                     "refName" : "String"
+                  }
+               ],
+               "relationToIssue" : "String",
+               "topNodeBVR" : "IModelObject",
+               "sceneName" : "String"
+            },
+            "relationData" : [
+               {
+                  "tags" : "IModelObject[]",
+                  "relationName" : "String",
+                  "operation" : "String"
+               }
+            ],
+            "attributes" : [
+               {
+                  "name" : "String",
+                  "values" : "String[]"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "IssueManagement-2009-06-IssueManagement/updateIssueItems",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "itemRev" : "IModelObject",
+            "clientId" : "String",
+            "generalDatasets" : "IModelObject[]",
+            "viewDataset" : "IModelObject"
+         }
+      ]
+   }
+}

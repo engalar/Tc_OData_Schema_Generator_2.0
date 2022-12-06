@@ -1,0 +1,129 @@
+{
+   "ServiceOperation" : "CpdCore-2011-06-DataManagement/createOrUpdateDesignControlElements",
+   "OperationResponse" : {
+      "csIdMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "shapeDesigns" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "shapeDesign" : "IModelObject",
+               "shapeDesignRevsion" : "IModelObject"
+            }
+         ]
+      ],
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "OperationInput" : {
+      "elementInfos" : [
+         {
+            "trueshapeDataset" : "IModelObject",
+            "element" : "IModelObject",
+            "addControlledElements" : [
+               {
+                  "secondaryObject" : "IModelObject",
+                  "csId" : "String",
+                  "clientId" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "modelObject" : "IModelObject",
+            "transform" : "double[]",
+            "boundingBox" : "double[]",
+            "objLastModifiedDateGuard" : "Date",
+            "deleteControlledElements" : [
+               {
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "clientId" : "String",
+                  "csId" : "String",
+                  "secondaryObject" : "IModelObject"
+               }
+            ],
+            "directModelDataset" : "IModelObject",
+            "replaceControlledElements" : [
+               {
+                  "csId" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "clientId" : "String",
+                  "secondaryObject" : "IModelObject"
+               }
+            ],
+            "removeControlledElements" : [
+               {
+                  "secondaryObject" : "IModelObject",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "clientId" : "String",
+                  "csId" : "String"
+               }
+            ],
+            "guardObjLastModifiedDate" : "bool",
+            "auxiliaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "object" : "IModelObject",
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "boType" : "String",
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap",
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              }
+                           }
+                        ]
+                     },
+                     "boType" : "String"
+                  }
+               ]
+            },
+            "compoundCreateInput" : {
+               "createInfo" : {
+                  "boType" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "compoundInfo" : {
+                     "SampleKeyString" : [
+                        {
+                           "boType" : "String",
+                           "attrInfo" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap"
+                        }
+                     ]
+                  }
+               },
+               "folder" : "IModelObject"
+            },
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "boType" : "String"
+         }
+      ]
+   }
+}

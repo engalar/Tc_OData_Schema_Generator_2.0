@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "statusToUpdate" : "int",
+      "maxObjectCount" : "int",
+      "exportedDate" : "Date",
+      "applicationID" : "String",
+      "classNames" : "String[]",
+      "subscriptionAppID" : "String",
+      "statuses" : "int[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-12-FullTextSearch/getIndexedObjectsAndUpdate",
+   "OperationResponse" : {
+      "indexedObjectsUIDs" : "String[]",
+      "serviceData" : "IServiceData"
+   }
+}

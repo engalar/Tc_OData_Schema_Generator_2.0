@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "operations" : [
+               {
+                  "newReleaseStatusTypeName" : "String",
+                  "operation" : "Append Delete Rename Replace",
+                  "existingreleaseStatusTypeName" : "String"
+               }
+            ],
+            "objects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Workflow-2007-06-Workflow/setReleaseStatus",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   }
+}

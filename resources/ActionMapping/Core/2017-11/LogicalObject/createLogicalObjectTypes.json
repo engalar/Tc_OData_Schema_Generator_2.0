@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "logicalObjectTypeInputs" : [
+         {
+            "memberPropertyDefinitions" : [
+               {
+                  "description" : "String",
+                  "displayName" : "String",
+                  "traversalPath" : [
+                     {
+                        "propertyName" : "String",
+                        "direction" : "String",
+                        "propertyType" : "String",
+                        "destinationType" : "String"
+                     }
+                  ],
+                  "memberPropertyName" : "String",
+                  "retrieveClassificationData" : "bool"
+               }
+            ],
+            "parentTypeName" : "String",
+            "displayName" : "String",
+            "name" : "String",
+            "retrieveClassificationData" : "bool",
+            "description" : "String",
+            "rootTypeName" : "String",
+            "presentedPropertyDefinitions" : [
+               {
+                  "rootOrMemberName" : "String",
+                  "sourcePropertyName" : "String",
+                  "presentedPropertyName" : "String",
+                  "displayName" : "String",
+                  "description" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "loTypes" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Core-2017-11-LogicalObject/createLogicalObjectTypes"
+}

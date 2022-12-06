@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "request" : {
+         "objectUid" : "String"
+      }
+   },
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/deleteActivities",
+   "OperationResponse" : "IServiceData"
+}

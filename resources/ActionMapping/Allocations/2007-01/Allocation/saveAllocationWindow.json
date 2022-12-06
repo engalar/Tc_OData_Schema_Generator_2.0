@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Allocations-2007-01-Allocation/saveAllocationWindow",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "allocWindowInput" : "IModelObject"
+   }
+}

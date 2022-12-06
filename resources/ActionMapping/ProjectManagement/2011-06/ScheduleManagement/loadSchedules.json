@@ -1,0 +1,62 @@
+{
+   "ServiceOperation" : "Internal-ProjectManagement-2011-06-ScheduleManagement/loadSchedules",
+   "OperationResponse" : {
+      "scheduleData" : [
+         {
+            "taskDependencies" : "IModelObject[]",
+            "calendarEvents" : "IModelObject[]",
+            "schedule" : "IModelObject",
+            "submasterdata" : [
+               {
+                  "subschedule" : "IModelObject",
+                  "masterdata" : [
+                     {
+                        "uid" : "String",
+                        "finish" : "Date",
+                        "start" : "Date"
+                     }
+                  ]
+               }
+            ],
+            "scheduleTasks" : "IModelObject[]",
+            "resourceAssignments" : "IModelObject[]",
+            "calendars" : "IModelObject[]",
+            "namedStringLists" : [
+               {
+                  "aggregate" : "double",
+                  "list" : "String[]",
+                  "name" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "loadScheduleContainers" : [
+         {
+            "schmgtOptions" : {
+               "stringOptions" : [
+                  {
+                     "name" : "String",
+                     "value" : "String"
+                  }
+               ],
+               "logicalOptions" : [
+                  {
+                     "value" : "bool",
+                     "name" : "String"
+                  }
+               ],
+               "integerOptions" : [
+                  {
+                     "name" : "String",
+                     "value" : "int"
+                  }
+               ]
+            },
+            "scheduleUids" : "String[]"
+         }
+      ]
+   }
+}

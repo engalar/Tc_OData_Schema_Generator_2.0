@@ -1,0 +1,69 @@
+{
+   "ServiceOperation" : "Cad-2008-06-StructureManagement/expandPSAllLevels",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "parent" : {
+               "bomLine" : "IModelObject",
+               "objectOfBOMLine" : "IModelObject",
+               "parentRelatedObjects" : [
+                  {
+                     "namedRefList" : [
+                        {
+                           "namedReferenceName" : "String",
+                           "referenceObject" : "IModelObject",
+                           "fileTicket" : "String",
+                           "namedReferenceType" : "String"
+                        }
+                     ],
+                     "relatedObject" : "IModelObject"
+                  }
+               ]
+            },
+            "children" : [
+               {
+                  "bomLine" : "IModelObject",
+                  "objectOfBOMLine" : "IModelObject",
+                  "relatedObjects" : [
+                     {
+                        "namedRefList" : [
+                           {
+                              "referenceObject" : "IModelObject",
+                              "namedReferenceName" : "String",
+                              "namedReferenceType" : "String",
+                              "fileTicket" : "String"
+                           }
+                        ],
+                        "relatedObject" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "info" : {
+         "parentBomLines" : "IModelObject[]",
+         "excludeFilter" : "None2 ExcludeOverridden2 ExcludeICHistory2 ExcludeGDEs2 ExcludeImanItemLines2"
+      },
+      "pref" : {
+         "includeOccurrenceTypes" : "String[]",
+         "expItemRev" : "bool",
+         "info" : [
+            {
+               "namedRefHandler" : "UseNamedRefsList NoNamedRefs AllNamedRefs PreferredJT",
+               "relationName" : "String",
+               "relatedObjAndNamedRefs" : [
+                  {
+                     "namedReferenceNames" : "String[]",
+                     "objectTypeName" : "String"
+                  }
+               ]
+            }
+         ],
+         "excludeOccurrenceTypes" : "String[]"
+      }
+   }
+}

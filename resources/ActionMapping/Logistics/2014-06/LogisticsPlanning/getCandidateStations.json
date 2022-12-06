@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "inputList" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Logistics-2014-06-LogisticsPlanning/getCandidateStations",
+   "OperationResponse" : {
+      "infoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "candidateStationsList" : "IModelObject[]",
+                  "parentHeirarchyList" : "IModelObject[]",
+                  "provision" : "IModelObject",
+                  "partFamily" : "IModelObject",
+                  "assignedStationsList" : [
+                     {
+                        "station" : "IModelObject",
+                        "isValid" : "bool"
+                     }
+                  ],
+                  "supplyChain" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

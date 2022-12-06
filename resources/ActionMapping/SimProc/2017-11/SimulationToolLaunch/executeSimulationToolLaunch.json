@@ -1,0 +1,34 @@
+{
+   "ServiceOperation" : "SimProc-2017-11-SimulationToolLaunch/executeSimulationToolLaunch",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "optionalInputInfo" : [
+         {
+            "exportDirectory" : "String",
+            "inputObject" : "IModelObject"
+         }
+      ],
+      "pedigreeCaptureInfo" : "IModelObject[]",
+      "workingDirectory" : "String",
+      "inputObjects" : [
+         {
+            "inputFile" : "IModelObject",
+            "inputObject" : "IModelObject",
+            "inputDataset" : "IModelObject",
+            "configurationContext" : "IModelObject"
+         }
+      ],
+      "launchType" : "String",
+      "simulationTool" : "IModelObject",
+      "importRuntimeConfiguration" : {
+         "autoProcessOptions" : "String",
+         "outputNamePatterns" : "String[]",
+         "itemCreationSetting" : "String",
+         "datasetCreationSetting" : "String"
+      },
+      "exportRunTimeConfiguration" : {
+         "plmxmlExportFileName" : "String",
+         "runtimeArguments" : "String[]"
+      }
+   }
+}

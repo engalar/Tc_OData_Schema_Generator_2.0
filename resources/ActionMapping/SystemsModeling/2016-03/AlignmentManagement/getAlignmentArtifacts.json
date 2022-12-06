@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Internal-SystemsModeling-2016-03-AlignmentManagement/getAlignmentArtifacts",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "savedBookmark" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "objects" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

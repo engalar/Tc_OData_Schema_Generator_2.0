@@ -1,0 +1,62 @@
+{
+   "ServiceOperation" : "Ai-2008-06-Ai/generateScopedMultipleStructure2",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "ticket" : "String"
+   },
+   "OperationInput" : {
+      "exportTransferMode" : "String",
+      "serverMode" : "int",
+      "aiObject" : "IModelObject",
+      "objectsToProcess" : [
+         {
+            "apprefs" : [
+               {
+                  "version" : "String",
+                  "application" : "String",
+                  "label" : "String"
+               }
+            ],
+            "refContexts" : [
+               {
+                  "config" : {
+                     "variantRule" : {
+                        "label" : "String",
+                        "version" : "String",
+                        "application" : "String"
+                     },
+                     "useDefaultRevisionRule" : "bool",
+                     "configuringObject" : {
+                        "label" : "String",
+                        "application" : "String",
+                        "version" : "String"
+                     },
+                     "revRuleName" : "String",
+                     "existingWindow" : "IModelObject"
+                  },
+                  "topLineObject" : {
+                     "label" : "String",
+                     "version" : "String",
+                     "application" : "String"
+                  }
+               }
+            ],
+            "config" : {
+               "configuringObject" : {
+                  "application" : "String",
+                  "version" : "String",
+                  "label" : "String"
+               },
+               "revRuleName" : "String",
+               "existingWindow" : "IModelObject",
+               "variantRule" : {
+                  "label" : "String",
+                  "version" : "String",
+                  "application" : "String"
+               },
+               "useDefaultRevisionRule" : "bool"
+            }
+         }
+      ]
+   }
+}

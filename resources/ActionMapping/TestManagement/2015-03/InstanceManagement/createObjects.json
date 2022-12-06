@@ -1,0 +1,59 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "intProps" : {
+               "SampleKeyString" : "int[]"
+            },
+            "stringProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "primaryRelations" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "clientId" : "String",
+            "objectName" : "String",
+            "executionScopeLine" : "IModelObject",
+            "testSteps" : [
+               {
+                  "contents" : [
+                     {
+                        "elementType" : "String",
+                        "multipleObjects" : "bool",
+                        "textSegOrPlaceMarkValue" : "String",
+                        "bomlines" : "IModelObject[]",
+                        "allowedTypes" : "String"
+                     }
+                  ]
+               }
+            ],
+            "assignedToLine" : "IModelObject",
+            "secondaryRelations" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "testCase" : "IModelObject",
+            "doubleProps" : {
+               "SampleKeyString" : "double[]"
+            },
+            "dateProps" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "typeName" : "String",
+            "objectProps" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "boolProps" : {
+               "SampleKeyString" : "bool[]"
+            },
+            "referenceBOMWindow" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "srvcData" : "IServiceData",
+      "resultMap" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-TestManagement-2015-03-InstanceManagement/createObjects"
+}

@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Process-2018-11-Clone/unlinkObjects",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "cloneObjects" : "IModelObject[]"
+   }
+}

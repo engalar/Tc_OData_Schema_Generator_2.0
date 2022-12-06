@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "modelRevTag" : "IModelObject",
+      "productBOMLine" : "IModelObject",
+      "doRevise" : "bool",
+      "bomlineAttribsOnly" : "bool",
+      "domain" : "String",
+      "modelExistingBOMLine" : "IModelObject",
+      "modelParentBOMLine" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Cae-2012-09-StructureManagement/updateModelAttsByDM",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "activityLog" : "String"
+   }
+}

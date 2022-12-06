@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "Participant-2018-11-Participant/removeParticipants",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "participants" : "IModelObject[]",
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "wso" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "wso" : "IModelObject",
+            "participants" : "IModelObject[]",
+            "clientId" : "String",
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   }
+}

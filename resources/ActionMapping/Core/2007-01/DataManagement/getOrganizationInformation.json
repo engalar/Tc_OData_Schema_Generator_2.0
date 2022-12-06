@@ -1,0 +1,47 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "rootLevelGroups" : [
+         {
+            "group" : "IModelObject",
+            "roleUsers" : [
+               {
+                  "role" : "IModelObject",
+                  "users" : "IModelObject[]"
+               }
+            ],
+            "subGroups" : "IModelObject[]",
+            "parent" : "IModelObject"
+         }
+      ],
+      "hierDataMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "roleUsers" : [
+                  {
+                     "users" : "IModelObject[]",
+                     "role" : "IModelObject"
+                  }
+               ],
+               "group" : "IModelObject",
+               "parent" : "IModelObject",
+               "subGroups" : "IModelObject[]"
+            }
+         ]
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2007-01-DataManagement/getOrganizationInformation",
+   "OperationInput" : {
+      "options" : [
+         {
+            "groupName" : "String",
+            "includeRoleInGroupInfo" : "bool",
+            "onlyFirstLevelSubGroups" : "bool",
+            "includeUsersInGroupRoleInfo" : "bool"
+         }
+      ]
+   }
+}

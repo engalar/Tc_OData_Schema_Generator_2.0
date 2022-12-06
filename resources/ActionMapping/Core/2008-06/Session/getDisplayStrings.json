@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "info" : "String[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "value" : "String",
+            "key" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2008-06-Session/getDisplayStrings"
+}

@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "StructureManagement-2012-02-StructureVerification/getPartitionComparisonDetails",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "details" : [
+         {
+            "isDifferent" : "bool",
+            "partitions" : "IModelObject[]",
+            "index" : "int",
+            "equivalentLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "eqvSrcLines" : "IModelObject[]",
+            "eqvTargetLines" : "IModelObject[]"
+         }
+      ]
+   }
+}

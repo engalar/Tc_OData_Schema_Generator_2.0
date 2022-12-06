@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clonedIdMap" : {
+               "SampleKeyString" : {
+                  "newItemId" : "String",
+                  "newItemName" : "String"
+               }
+            },
+            "topLine" : "IModelObject",
+            "options" : "NoDep Drawing PartFamilyMaster PartFamilyMember Required AllDep ExcludeFromBom[]",
+            "renameCadFile" : "bool",
+            "defaultName" : {
+               "prefix" : "String",
+               "from" : "String",
+               "autogen" : "bool",
+               "suffix" : "String",
+               "to" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clonedItemRev" : "IModelObject"
+   },
+   "ServiceOperation" : "StructureManagement-2008-06-Structure/duplicate"
+}

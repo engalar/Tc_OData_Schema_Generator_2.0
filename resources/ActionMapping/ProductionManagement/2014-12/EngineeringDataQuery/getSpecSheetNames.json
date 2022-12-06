@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "plantAndRtnInfo" : [
+         {
+            "routineRev" : "String",
+            "plantId" : "String",
+            "routineId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProductionManagement-2014-12-EngineeringDataQuery/getSpecSheetNames",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "specInfoRes" : [
+         {
+            "specSheetName" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,46 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "validateProductConfigurationOutputs" : [
+         {
+            "outputSelections" : {
+               "SampleKeyString" : [
+                  {
+                     "optionValue" : "String",
+                     "selectionState" : "int"
+                  }
+               ]
+            },
+            "criteriaStatus" : "bool",
+            "valueToViolations" : {
+               "SampleKeyString" : {
+                  "messages" : "String[]",
+                  "severities" : "int[]"
+               }
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2018-05-ConfiguratorManagement/validateProductConfigurations",
+   "OperationInput" : {
+      "configPerspective" : "IModelObject",
+      "selectedExpressions" : [
+         {
+            "displayValue" : "String",
+            "affectedObject" : "String",
+            "familySelections" : {
+               "SampleKeyString" : "int"
+            },
+            "userSelections" : {
+               "SampleKeyString" : [
+                  {
+                     "optionValue" : "String",
+                     "selectionState" : "int"
+                  }
+               ]
+            }
+         }
+      ],
+      "applyConstraints" : "int"
+   }
+}

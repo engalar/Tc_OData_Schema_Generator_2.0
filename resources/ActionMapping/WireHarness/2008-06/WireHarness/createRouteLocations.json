@@ -1,0 +1,36 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "routeLocRev" : "IModelObject",
+            "routeLoc" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "WireHarness-2008-06-WireHarness/createRouteLocations",
+   "OperationInput" : {
+      "relationType" : "String",
+      "container" : "IModelObject",
+      "properties" : [
+         {
+            "extendedAttributes" : [
+               {
+                  "attributes" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "objectType" : "String"
+               }
+            ],
+            "routeLocId" : "String",
+            "uom" : "String",
+            "clientId" : "String",
+            "revId" : "String",
+            "description" : "String",
+            "type" : "String",
+            "name" : "String"
+         }
+      ]
+   }
+}

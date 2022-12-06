@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "displayableBOTypeNames" : [
+               {
+                  "BOName" : "String",
+                  "BOParents" : "String[]"
+               }
+            ],
+            "boTypeName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2008-06-DataManagement/findDisplayableSubBusinessObjects",
+   "OperationInput" : {
+      "input" : [
+         {
+            "boTypeName" : "String",
+            "exclusionBOTypeNames" : "String[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "input" : "IModelObject"
+   },
+   "ServiceOperation" : "ValidationContractAW-2018-05-VCManagement/validateAnalysisRequestAsync",
+   "OperationResponse" : {}
+}

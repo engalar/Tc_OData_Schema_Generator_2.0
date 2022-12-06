@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "WireHarness-2008-06-WireHarness/deleteRouteObjects",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "deleteAll" : "bool",
+            "curves" : "IModelObject[]",
+            "nodes" : "IModelObject[]",
+            "routes" : "IModelObject[]",
+            "context" : "IModelObject",
+            "segments" : "IModelObject[]"
+         }
+      ]
+   }
+}

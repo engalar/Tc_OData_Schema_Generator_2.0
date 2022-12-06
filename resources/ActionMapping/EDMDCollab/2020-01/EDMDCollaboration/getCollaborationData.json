@@ -1,0 +1,57 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "getCollaborationDataOutput" : {
+         "changeItems" : "IModelObject[]",
+         "idxBaselineInfos" : [
+            {
+               "idxBaseline" : {
+                  "idxObject" : "IModelObject",
+                  "readTicket" : "String"
+               },
+               "associatedIDXIncrements" : [
+                  {
+                     "idxIncrement" : {
+                        "readTicket" : "String",
+                        "idxObject" : "IModelObject"
+                     },
+                     "associatedIDXResponse" : {
+                        "readTicket" : "String",
+                        "idxObject" : "IModelObject"
+                     },
+                     "associatedIDXBaseline" : {
+                        "idxObject" : "IModelObject",
+                        "readTicket" : "String"
+                     }
+                  }
+               ]
+            }
+         ],
+         "idxIncrementInfos" : [
+            {
+               "idxIncrement" : {
+                  "idxObject" : "IModelObject",
+                  "readTicket" : "String"
+               },
+               "associatedIDXResponse" : {
+                  "readTicket" : "String",
+                  "idxObject" : "IModelObject"
+               },
+               "associatedIDXBaseline" : {
+                  "readTicket" : "String",
+                  "idxObject" : "IModelObject"
+               }
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "EDMDCollab-2020-01-EDMDCollaboration/getCollaborationData",
+   "OperationInput" : {
+      "getCollaborationData" : {
+         "designUID" : "String",
+         "filterCriteria" : "String",
+         "domainIdentifier" : "String",
+         "idxObjectType" : "String"
+      }
+   }
+}

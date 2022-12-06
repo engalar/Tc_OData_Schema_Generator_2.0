@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugMonitor/getValidMetrics",
+   "OperationResponse" : {
+      "metricIds" : "String[]"
+   }
+}

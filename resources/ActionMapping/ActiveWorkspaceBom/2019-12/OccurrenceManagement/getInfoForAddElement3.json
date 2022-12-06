@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "getInfoForElementIn" : {
+         "parentElement" : "IModelObject",
+         "fetchAllowedOccRevTypes" : "bool"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-12-OccurrenceManagement/getInfoForAddElement3",
+   "OperationResponse" : {
+      "allowedTypeInfos" : [
+         {
+            "objectTypeName" : "String",
+            "searchTypeName" : "String",
+            "isSearchable" : "bool",
+            "elementTypeName" : "String"
+         }
+      ],
+      "preferredTypeInfo" : {
+         "isSearchable" : "bool",
+         "elementTypeName" : "String",
+         "searchTypeName" : "String",
+         "objectTypeName" : "String"
+      },
+      "serviceData" : "IServiceData",
+      "preferredExists" : "bool"
+   }
+}

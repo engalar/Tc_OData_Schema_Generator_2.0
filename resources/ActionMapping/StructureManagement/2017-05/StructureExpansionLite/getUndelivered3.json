@@ -1,0 +1,64 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2017-05-StructureExpansionLite/getUndelivered3",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "parentChildInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "unSupportedInfo" : "int",
+                  "indexToAttachedObjInfos" : "int[]",
+                  "line" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "parentUndeliveredChildrenUids" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String[]"
+         ]
+      ],
+      "datasetInfo" : [
+         {
+            "namedRefInfo" : [
+               {
+                  "type" : "String",
+                  "name" : "String",
+                  "originalFileName" : "String",
+                  "fileTicket" : "String",
+                  "namedReference" : "IModelObject"
+               }
+            ],
+            "relationName" : "String",
+            "dataset" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "undeliveredLineUids" : "String[]",
+      "controls" : {
+         "expansionPref" : {
+            "SampleKeyString" : "int"
+         },
+         "relationCriteria" : [
+            {
+               "relationName" : "String",
+               "datasetTypeAndNamedRefs" : [
+                  {
+                     "namedReferenceNames" : "String[]",
+                     "datasetTypeName" : "String"
+                  }
+               ],
+               "namedRefHandler" : "String"
+            }
+         ],
+         "processLeafNodesFirst" : "bool"
+      }
+   }
+}

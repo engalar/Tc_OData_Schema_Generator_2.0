@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "replaceElementInputMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "dimensionMappingStatusMessage" : "String"
+   },
+   "ServiceOperation" : "Internal-RetailAW-2016-03-Retail/replaceElementAndCopyDimMapping"
+}

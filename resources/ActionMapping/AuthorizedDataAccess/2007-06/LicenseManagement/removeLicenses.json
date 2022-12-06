@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "AuthorizedDataAccess-2007-06-LicenseManagement/removeLicenses",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "removeLicense" : [
+         {
+            "objects" : "IModelObject[]",
+            "selectedLicenses" : "String[]"
+         }
+      ]
+   }
+}

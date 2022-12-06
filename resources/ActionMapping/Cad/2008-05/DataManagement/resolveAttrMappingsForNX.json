@@ -1,0 +1,39 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "frozenAndModifiableInfoMap" : {
+         "SampleKeyString" : {
+            "isFrozen" : "bool",
+            "isModifiable" : "bool"
+         }
+      },
+      "resolvedMappingsMap" : {
+         "SampleKeyString" : {
+            "resolvedObject" : "IModelObject",
+            "resolvedPropertyName" : "String",
+            "cadAttrMappingDefinition" : "IModelObject"
+         }
+      },
+      "resolvedConstOrPrefAttrInfoMap" : {
+         "SampleKeyString" : {
+            "isFrozen" : "bool",
+            "value" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Cad-2008-05-DataManagement/resolveAttrMappingsForNX",
+   "OperationInput" : {
+      "info" : [
+         {
+            "itemRev" : "IModelObject",
+            "mappingDefinitionInfos" : [
+               {
+                  "clientId" : "String",
+                  "cadAttrMappingDefinition" : "IModelObject"
+               }
+            ],
+            "dataset" : "IModelObject"
+         }
+      ]
+   }
+}

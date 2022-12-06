@@ -1,0 +1,5 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Administration-2011-05-PreferenceManagement/refreshPreferences",
+   "OperationResponse" : "bool"
+}

@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "finished" : "bool",
+      "estimatedObjectsLeft" : "int",
+      "percentComplete" : "double",
+      "objects" : "IModelObject[]",
+      "searchCursor" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "objectDone" : "int"
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-StructureSearch/nextSearch",
+   "OperationInput" : {
+      "searchCursor" : "IModelObject"
+   }
+}

@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "inputObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-OccMgmt-2020-12-EffectivityManagement/getEffectivity",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "effectivityData" : [
+         {
+            "inputObject" : "IModelObject",
+            "effectivity" : "IModelObject[]",
+            "effectivityFormula" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "userName" : "String",
+         "roleName" : "String",
+         "includeSubGroups" : "bool",
+         "includeInactive" : "bool",
+         "groupName" : "String",
+         "userID" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "groupElementMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "subGroups" : "IModelObject[]",
+               "roles" : "IModelObject[]",
+               "parent" : "IModelObject",
+               "members" : [
+                  {
+                     "role" : "IModelObject",
+                     "members" : "IModelObject[]"
+                  }
+               ],
+               "group" : "IModelObject"
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Administration-2012-10-OrganizationManagement/getOrganizationGroupMembers"
+}

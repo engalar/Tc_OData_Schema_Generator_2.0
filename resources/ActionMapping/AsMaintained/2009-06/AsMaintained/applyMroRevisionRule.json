@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "AsMaintained-2009-06-AsMaintained/applyMroRevisionRule",
+   "OperationResponse" : {
+      "applyMroRevRuleOutput" : [
+         {
+            "clientId" : "String",
+            "configuredTopLine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "clientId" : "String",
+            "mroRevRule" : "IModelObject",
+            "topLine" : "IModelObject",
+            "applyMroRevisionRuleInfo" : {
+               "today" : "bool",
+               "serviceable" : "bool",
+               "any" : "bool",
+               "clientId" : "String",
+               "effectiveDate" : "Date"
+            }
+         }
+      ]
+   }
+}

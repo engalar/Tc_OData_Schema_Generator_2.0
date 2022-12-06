@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2019-06-DataManagement/modifyFavorites",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "favorites" : "IModelObject[]",
+      "action" : "String"
+   }
+}

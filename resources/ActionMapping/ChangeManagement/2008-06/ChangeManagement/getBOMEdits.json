@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/getBOMEdits",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "bomEditOutput" : [
+         {
+            "bomEdits" : "IModelObject[]",
+            "changeRev" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "bomeditRequest" : [
+         {
+            "affectedBvr" : "IModelObject",
+            "bomEditType" : "int",
+            "changeRev" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,135 @@
+{
+   "OperationInput" : {
+      "recipeContainerInfos" : [
+         {
+            "createInput" : {
+               "clientId" : "String",
+               "data" : {
+                  "boName" : "String",
+                  "floatArrayProps" : {
+                     "SampleKeyString" : "float[]"
+                  },
+                  "stringArrayProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "boolArrayProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  },
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "objectProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "doubleArrayProps" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "intArrayProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "dateArrayProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "compoundCreateInput" : {
+                     "SampleKeyString" : [
+                        {
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "compoundCreateInput" : "Mdl0::Soa::Internal::ModelCore::_2017_05::Search::CreateInputMap",
+                           "objectArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           },
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "boName" : "String",
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "objectProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           }
+                        }
+                     ]
+                  },
+                  "objectArrayProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            },
+            "recipe" : {
+               "scope" : {
+                  "searchType" : "String[]",
+                  "recipeContainer" : "IModelObject",
+                  "model" : "IModelObject"
+               },
+               "searchExpression" : {
+                  "searchOperator" : "And Or Not",
+                  "searchExpressionSets" : "Mdl0::Soa::ModelCore::_2014_10::Search::SearchExpressionSet2[]",
+                  "groupName" : "String",
+                  "searchExpression" : {
+                     "doTrushapeRefinement" : "bool",
+                     "searchExpressions" : "IModelObject[]"
+                  }
+               },
+               "configDetails" : [
+                  {
+                     "configurationFor" : "Universal Partition",
+                     "configContext" : "IModelObject"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "clientIdToBoMap" : {
+         "SampleKeyString" : "IModelObject[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ModelCore-2017-05-Search/createRecipeContainers"
+}

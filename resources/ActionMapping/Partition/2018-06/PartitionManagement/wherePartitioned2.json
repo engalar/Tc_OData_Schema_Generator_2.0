@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "configurationContext" : "IModelObject",
+            "partitionScheme" : "IModelObject",
+            "partitionable" : "IModelObject",
+            "modelContext" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "partitionable" : "IModelObject",
+            "memberInfo" : [
+               {
+                  "isPseudoMember" : "bool",
+                  "partition" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Partition-2018-06-PartitionManagement/wherePartitioned2"
+}

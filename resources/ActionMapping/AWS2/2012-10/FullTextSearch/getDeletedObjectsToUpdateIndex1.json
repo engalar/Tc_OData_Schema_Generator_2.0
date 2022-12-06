@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/getDeletedObjectsToUpdateIndex1",
+   "OperationResponse" : {
+      "uidsDeletedObjects" : "String[]",
+      "serviceData" : "IServiceData",
+      "queriedDateTime" : "Date"
+   },
+   "OperationInput" : {
+      "applicationID" : "String"
+   }
+}

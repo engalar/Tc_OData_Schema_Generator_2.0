@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Workflow-2014-06-Workflow/performActionWithSignature",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "task" : "IModelObject",
+      "supportingValue" : "String",
+      "action" : "String",
+      "password" : "String",
+      "comments" : "String",
+      "signatures" : [
+         {
+            "base64String" : "String",
+            "object" : "IModelObject"
+         }
+      ],
+      "supportingObject" : "IModelObject"
+   }
+}

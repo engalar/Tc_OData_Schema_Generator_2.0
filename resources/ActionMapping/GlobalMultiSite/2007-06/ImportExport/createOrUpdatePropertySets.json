@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/createOrUpdatePropertySets",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "propertySetObjects" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "scope" : "String",
+            "clauses" : "String[]",
+            "description" : "String",
+            "propertySetToUpdate" : "IModelObject",
+            "name" : "String"
+         }
+      ]
+   }
+}

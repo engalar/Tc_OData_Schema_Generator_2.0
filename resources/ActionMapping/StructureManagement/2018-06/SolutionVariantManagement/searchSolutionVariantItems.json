@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2018-06-SolutionVariantManagement/searchSolutionVariantItems",
+   "OperationResponse" : {
+      "searchSVItemOutputList" : [
+         {
+            "intialSVItemOutputList" : [
+               {
+                  "svItemRev" : "IModelObject",
+                  "svItemPropsMap" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ],
+            "sourceBOMLine" : "IModelObject",
+            "unloadedSVItemObjectsUIDList" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "sourceBOMLines" : "IModelObject[]",
+      "searchParameter" : {
+         "searchPreferences" : {
+            "SampleKeyString" : "int"
+         },
+         "searchConfigCriteria" : "IModelObject",
+         "svCategories" : "int"
+      }
+   }
+}

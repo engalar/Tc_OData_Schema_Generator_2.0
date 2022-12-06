@@ -1,0 +1,50 @@
+{
+   "ServiceOperation" : "RelationshipViewer-2012-10-NetworkEngine/queryNetwork2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "graph" : {
+         "serviceCursor" : "int",
+         "viewName" : "String",
+         "edges" : [
+            {
+               "rightId" : "String",
+               "leftId" : "String",
+               "startPortObject" : "IModelObject",
+               "relationType" : "String",
+               "metaObject" : "IModelObject",
+               "endPortObject" : "IModelObject",
+               "props" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         ],
+         "rootIds" : "String[]",
+         "analysisResult" : {
+            "SampleKeyString" : "String"
+         },
+         "nodes" : [
+            {
+               "name" : "String",
+               "id" : "String",
+               "props" : {
+                  "SampleKeyString" : "String"
+               },
+               "metaObject" : "IModelObject"
+            }
+         ],
+         "isPartial" : "bool"
+      }
+   },
+   "OperationInput" : {
+      "input" : {
+         "serviceCursor" : "int",
+         "queryMode" : "DegreeOnly ExpandOnly ExpandAndDegree",
+         "viewName" : "String",
+         "inquiries" : "String[]",
+         "rootIds" : "String[]",
+         "graphParamMap" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   }
+}

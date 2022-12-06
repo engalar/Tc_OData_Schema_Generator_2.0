@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "updateEventIn" : [
+         {
+            "propInputs" : [
+               {
+                  "propName" : "String",
+                  "propValues" : "String[]"
+               }
+            ],
+            "exchangeRevision" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SupplierCollaboration-2015-07-SupplierCollaboration/updateEvent"
+}

@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "mantenanceActonsToBeExtended" : "IModelObject[]",
+      "requestedDate" : "Date",
+      "note" : "String"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ServiceForecasting-2014-06-ServiceForecasting/extendMaintenanceActon"
+}

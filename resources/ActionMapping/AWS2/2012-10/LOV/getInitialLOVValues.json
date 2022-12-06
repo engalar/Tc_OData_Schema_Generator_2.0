@@ -1,0 +1,70 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2012-10-LOV/getInitialLOVValues",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "lovData" : {
+         "lovs" : "IModelObject[]",
+         "currentIndex" : "int",
+         "unProcessedObjects" : "String[]",
+         "additionalValuesSkipped" : "bool",
+         "style" : "String",
+         "filterData" : {
+            "order" : "int",
+            "sortPropertyName" : "String",
+            "filterString" : "String",
+            "maxResults" : "int",
+            "numberToReturn" : "int"
+         }
+      },
+      "moreValuesExist" : "bool",
+      "lovValues" : [
+         {
+            "propDisplayValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "childRows" : "Awp0::Soa::Internal::AWS2::_2012_10::LOV::LOVValueRow[]",
+            "propInternalValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "uid" : "String"
+         }
+      ],
+      "behaviorData" : {
+         "descriptionsAttached" : "bool[]",
+         "lovUsage" : "int",
+         "style" : "String",
+         "rangeLowerLimit" : "String",
+         "rangeUpperLimit" : "String",
+         "columnNames" : {
+            "lovDescrProp" : "String",
+            "displayNames" : {
+               "SampleKeyString" : "String"
+            },
+            "lovValueProp" : "String",
+            "filterProperties" : "String[]"
+         },
+         "dependendProps" : "String[]"
+      }
+   },
+   "OperationInput" : {
+      "initialData" : {
+         "lov" : "IModelObject",
+         "propertyName" : "String",
+         "filterData" : {
+            "maxResults" : "int",
+            "numberToReturn" : "int",
+            "sortPropertyName" : "String",
+            "filterString" : "String",
+            "order" : "int"
+         },
+         "lovInput" : {
+            "owningObject" : "IModelObject",
+            "operationName" : "String",
+            "propertyValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "boName" : "String"
+         }
+      }
+   }
+}

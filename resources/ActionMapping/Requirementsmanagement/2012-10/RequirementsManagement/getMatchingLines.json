@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Internal-Requirementsmanagement-2012-10-RequirementsManagement/getMatchingLines",
+   "OperationResponse" : {
+      "matchedOutput" : [
+         {
+            "matchedLineData" : [
+               {
+                  "matchedLine" : "IModelObject",
+                  "topLine" : "IModelObject"
+               }
+            ],
+            "revObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "scopeTopLines" : "IModelObject[]",
+            "revObject" : "IModelObject"
+         }
+      ]
+   }
+}

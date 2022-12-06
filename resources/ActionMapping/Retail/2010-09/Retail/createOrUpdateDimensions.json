@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : {
+      "dimensionsNeedsRefresh" : [
+         {
+            "dimensionNames" : "String[]",
+            "bomLineUID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/createOrUpdateDimensions",
+   "OperationInput" : {
+      "inputDimensions" : [
+         {
+            "dimensions" : [
+               {
+                  "dimensionVisibility" : "DIMENSION_VISIBILITY_PUBLIC DIMENSION_VISIBILITY_PRIVATE",
+                  "dimensionDescription" : "String",
+                  "dimensionValues" : "String[]",
+                  "dimensionDefaultValue" : "String",
+                  "dimensionName" : "String",
+                  "dimensionType" : "DIMENSION_TYPE_STRING DIMENSION_TYPE_INTEGER DIMENSION_TYPE_REAL DIMENSION_TYPE_BOOLEAN"
+               }
+            ],
+            "bomLineUID" : "String"
+         }
+      ]
+   }
+}

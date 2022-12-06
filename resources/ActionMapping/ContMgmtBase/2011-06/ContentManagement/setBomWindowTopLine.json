@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "ContMgmtBase-2011-06-ContentManagement/setBomWindowTopLine",
+   "OperationResponse" : {
+      "topLine" : "IModelObject[]",
+      "clientId" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "item" : "IModelObject",
+            "bomWindow" : "IModelObject",
+            "itemRevision" : "IModelObject"
+         }
+      ]
+   }
+}

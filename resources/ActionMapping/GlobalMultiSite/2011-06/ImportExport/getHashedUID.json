@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "hashKey" : "String",
+      "ownSiteId" : "int"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "hashedUID" : "String"
+   },
+   "ServiceOperation" : "GlobalMultiSite-2011-06-ImportExport/getHashedUID"
+}

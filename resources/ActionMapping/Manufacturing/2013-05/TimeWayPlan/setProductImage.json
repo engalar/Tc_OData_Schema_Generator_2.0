@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2013-05-TimeWayPlan/setProductImage",
+   "OperationInput" : {
+      "input" : [
+         {
+            "targetObjects" : "IModelObject[]",
+            "contextProductBOP" : "IModelObject",
+            "imageDataset" : "IModelObject"
+         }
+      ]
+   }
+}

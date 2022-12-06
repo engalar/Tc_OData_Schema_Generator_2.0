@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "description" : "String",
+            "viewType" : "String",
+            "baselineJobDescription" : "String",
+            "dryrun" : "bool",
+            "itemRev" : "IModelObject",
+            "baselineJobName" : "String",
+            "clientID" : "String",
+            "releaseProcess" : "String",
+            "precise" : "bool",
+            "revRule" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "dryrunLogTicket" : "String",
+            "clientID" : "String",
+            "dryrun" : "bool",
+            "baselineItemRev" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Bom-2008-06-StructureManagement/createBaseline"
+}

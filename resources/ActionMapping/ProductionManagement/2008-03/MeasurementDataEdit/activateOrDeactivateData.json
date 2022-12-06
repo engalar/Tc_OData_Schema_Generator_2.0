@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProductionManagement-2008-03-MeasurementDataEdit/activateOrDeactivateData",
+   "OperationInput" : {
+      "targetRows" : [
+         {
+            "plantId" : "String",
+            "eventSysId" : "String",
+            "activeInactive" : "bool"
+         }
+      ]
+   }
+}

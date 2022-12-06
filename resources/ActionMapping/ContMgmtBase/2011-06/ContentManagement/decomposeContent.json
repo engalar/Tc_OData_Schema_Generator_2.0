@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "ContMgmtBase-2011-06-ContentManagement/decomposeContent",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "descomposeOutput" : [
+         {
+            "clientId" : "String",
+            "topicRevision" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "keyValueArgs" : {
+               "SampleKeyString" : "String"
+            },
+            "transientFileWriteTicket" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

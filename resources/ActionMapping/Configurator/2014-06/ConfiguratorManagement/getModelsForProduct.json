@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "context" : "IModelObject",
+      "leafLevelOnly" : "bool"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getModelsForProduct"
+}

@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "licStatus" : [
+         {
+            "numPurchasedLicenses" : "int",
+            "numUsedLicenses" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Administration-2008-03-IRM/activateUsers",
+   "OperationInput" : {
+      "activateUser" : [
+         {
+            "targetUser" : "IModelObject",
+            "licenseLevel" : "int"
+         }
+      ]
+   }
+}

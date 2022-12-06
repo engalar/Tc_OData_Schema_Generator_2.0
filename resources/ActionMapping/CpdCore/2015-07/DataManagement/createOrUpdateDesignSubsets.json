@@ -1,0 +1,90 @@
+{
+   "ServiceOperation" : "CpdCore-2015-07-DataManagement/createOrUpdateDesignSubsets",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "dseData" : [
+         {
+            "dseCsID" : "String",
+            "removedSourceElementList" : "IModelObject[]",
+            "contentObjInfoInContextMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "subsetInstance" : "IModelObject",
+            "appendedSourceElementList" : "IModelObject[]",
+            "clientID" : "String",
+            "csIDMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "subsetElement" : "IModelObject",
+            "subordinateMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "subsetInfos" : [
+         {
+            "removeChildrenAutomatically" : "bool",
+            "subset" : "IModelObject",
+            "element" : "IModelObject",
+            "viewType" : "String",
+            "applyTargetPropertiesToElements" : "IModelObject[]",
+            "sourceModel" : "IModelObject",
+            "modelObject" : "IModelObject",
+            "transform" : "double[]",
+            "replaceSourceElements" : {
+               "SampleKeyString" : "IModelObject"
+            },
+            "objLastModifiedDateGuard" : "Date",
+            "updateRecipeForAppendsAndRemoves" : "bool",
+            "appendSourceElements" : "IModelObject[]",
+            "guardObjLastModifiedDate" : "bool",
+            "subordinateSourceElements" : "IModelObject[]",
+            "auxiliaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "boType" : "String",
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2015_07::DataManagement::CompoundCreateInfoMap3",
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "boType" : "String"
+                           }
+                        ]
+                     },
+                     "object" : "IModelObject"
+                  }
+               ]
+            },
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "removeSourceElements" : "IModelObject[]",
+            "clientId" : "String",
+            "boType" : "String"
+         }
+      ]
+   }
+}

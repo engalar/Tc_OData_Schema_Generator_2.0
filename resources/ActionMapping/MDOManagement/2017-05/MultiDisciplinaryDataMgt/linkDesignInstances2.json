@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "designInstancesData" : [
+               {
+                  "isPreciseLink" : "bool",
+                  "designInstance" : "IModelObject"
+               }
+            ],
+            "clientId" : "String",
+            "context" : "IModelObject",
+            "mdoObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2017-05-MultiDisciplinaryDataMgt/linkDesignInstances2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "instanceLinkingObjectData" : [
+               {
+                  "mdiObject" : "IModelObject",
+                  "mdoObject" : "IModelObject"
+               }
+            ],
+            "isSuccess" : "bool",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

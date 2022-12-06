@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-ResourceManagement/importStep3DModels2",
+   "OperationResponse" : {
+      "importStep3DModelResults" : [
+         {
+            "classId" : "String",
+            "icoUid" : "String",
+            "icoId" : "String",
+            "report" : "String[]",
+            "wsoUid" : "String",
+            "status" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "icoIds" : "String[]"
+   }
+}

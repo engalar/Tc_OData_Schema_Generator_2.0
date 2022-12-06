@@ -1,0 +1,57 @@
+{
+   "OperationInput" : {
+      "requests" : [
+         {
+            "schedule" : "IModelObject",
+            "startPeriod" : "String",
+            "currency" : "String",
+            "monthsInPeriod" : "int",
+            "endPeriod" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2007-12-ScheduleManagement/getDemandProfile",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "response" : [
+         {
+            "expenseDemand" : [
+               {
+                  "costs" : [
+                     {
+                        "cost" : "String",
+                        "periodNum" : "int"
+                     }
+                  ],
+                  "resourceId" : "String"
+               }
+            ],
+            "activeBaseline" : "IModelObject",
+            "laborDemand" : [
+               {
+                  "costs" : [
+                     {
+                        "periodNum" : "int",
+                        "cost" : "String"
+                     }
+                  ],
+                  "resourceId" : "String"
+               }
+            ],
+            "schedule" : "IModelObject",
+            "currency" : "String",
+            "capitalDemand" : [
+               {
+                  "resourceId" : "String",
+                  "costs" : [
+                     {
+                        "periodNum" : "int",
+                        "cost" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

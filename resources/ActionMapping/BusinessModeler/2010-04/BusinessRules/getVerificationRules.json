@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "BusinessModeler-2010-04-BusinessRules/getVerificationRules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "index" : "int",
+            "verificationRules" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "subGroup" : "String",
+            "functionality" : "String",
+            "conditionName" : "String",
+            "typeName" : "String"
+         }
+      ]
+   }
+}

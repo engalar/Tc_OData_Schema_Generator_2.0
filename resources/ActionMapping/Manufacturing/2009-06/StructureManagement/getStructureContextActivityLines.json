@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "scs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2009-06-StructureManagement/getStructureContextActivityLines",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "lines" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   }
+}

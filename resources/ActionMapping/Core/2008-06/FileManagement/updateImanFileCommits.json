@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "cleanupInfo" : "String[]"
+   },
+   "OperationResponse" : {
+      "delays" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "int"
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "writeTickets" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2008-06-FileManagement/updateImanFileCommits"
+}

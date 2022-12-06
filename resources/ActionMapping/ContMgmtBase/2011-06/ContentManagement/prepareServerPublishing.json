@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "priority" : "int",
+            "publishTool" : "IModelObject",
+            "primaryObject" : "IModelObject",
+            "keyValueArgs" : {
+               "SampleKeyString" : "String"
+            },
+            "startTime" : "Date",
+            "endTime" : "Date"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ContMgmtBase-2011-06-ContentManagement/prepareServerPublishing",
+   "OperationResponse" : {}
+}

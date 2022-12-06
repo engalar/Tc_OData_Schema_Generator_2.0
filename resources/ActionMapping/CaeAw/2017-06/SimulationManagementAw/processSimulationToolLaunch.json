@@ -1,0 +1,76 @@
+{
+   "OperationInput" : {
+      "launchFileInfo" : {
+         "fileIR" : "IModelObject",
+         "fileDSName" : "String",
+         "isSelected" : "bool",
+         "fileName" : "String",
+         "fileSize" : "String",
+         "file" : "IModelObject",
+         "fileDS" : "IModelObject",
+         "fileIRObjStr" : "String"
+      },
+      "launchDialogInfo" : {
+         "launchType" : "String",
+         "rootLaunchDirectory" : "String",
+         "launchWithoutConfigInput" : "bool",
+         "displayProgressMonitor" : "bool",
+         "openLaunchDirectory" : "bool",
+         "simToolInputParamList" : [
+            {
+               "inputType" : "String",
+               "propertyDisplayName" : "String",
+               "hasLov" : "bool",
+               "propertyLabelDisplay" : "String",
+               "lovValues" : "String[]",
+               "isEnabled" : "bool",
+               "type" : "String",
+               "isEditable" : "bool",
+               "dbValue" : "String"
+            }
+         ]
+      },
+      "isLaunchDialogInfoPresent" : "bool",
+      "simTool" : "IModelObject",
+      "isTestTTLC" : "bool",
+      "isLaunchFileInfoPresent" : "bool",
+      "objInContext" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-06-SimulationManagementAw/processSimulationToolLaunch",
+   "OperationResponse" : {
+      "fmsTicket" : "String",
+      "toolConfig" : {
+         "launchMethods" : "String[]",
+         "rootLaunchDirectory" : "String",
+         "inputParamList" : [
+            {
+               "propertyLabelDisplay" : "String",
+               "hasLov" : "bool",
+               "propertyDisplayName" : "String",
+               "inputType" : "String",
+               "dbValue" : "String",
+               "isEditable" : "bool",
+               "lovValues" : "String[]",
+               "type" : "String",
+               "isEnabled" : "bool"
+            }
+         ],
+         "displayProgressMonitor" : "bool"
+      },
+      "serviceData" : "IServiceData",
+      "launchFileInfoList" : [
+         {
+            "fileDSName" : "String",
+            "fileIR" : "IModelObject",
+            "fileName" : "String",
+            "isSelected" : "bool",
+            "fileSize" : "String",
+            "file" : "IModelObject",
+            "fileIRObjStr" : "String",
+            "fileDS" : "IModelObject"
+         }
+      ],
+      "showLaunchFileInfo" : "bool",
+      "showLaunchSimToolDialog" : "bool"
+   }
+}

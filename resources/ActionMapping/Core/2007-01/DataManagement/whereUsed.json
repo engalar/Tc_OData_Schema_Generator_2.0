@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "whereUsedPrecise" : "bool",
+      "numLevels" : "int",
+      "rule" : "IModelObject"
+   },
+   "ServiceOperation" : "Core-2007-01-DataManagement/whereUsed",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "inputObject" : "IModelObject",
+            "info" : [
+               {
+                  "level" : "int",
+                  "parentItemRev" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

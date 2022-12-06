@@ -1,0 +1,70 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "addedNodeInfo" : [
+         {
+            "relativeObjects" : [
+               {
+                  "parentNode" : "IModelObject",
+                  "newNode" : "IModelObject"
+               }
+            ],
+            "edges" : [
+               {
+                  "edgeObject" : "IModelObject",
+                  "edgeType" : "String",
+                  "edgeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "startNode" : "IModelObject",
+                  "endNode" : "IModelObject"
+               }
+            ],
+            "branchContents" : [
+               {
+                  "childrenBranches" : "Bhv1::Soa::Internal::BranchAndVersioning::_2017_12::BranchingAndVersioning::BranchContents[]",
+                  "branchObjectNodeData" : {
+                     "tupleNode" : "IModelObject",
+                     "branchObjectNode" : "IModelObject",
+                     "nodeInfoMap" : {
+                        "SampleKeyString" : "String"
+                     }
+                  },
+                  "versionObjectNodesData" : [
+                     {
+                        "nodeInfoMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "tupleNode" : "IModelObject",
+                        "versionObjectNode" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "failedToAddVersionNodes" : "IModelObject[]",
+            "clientID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-BranchAndVersioning-2018-05-BranchingAndVersioning/addBranchContents",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "comment" : {
+               "propMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String"
+            },
+            "contents" : "IModelObject[]",
+            "config" : {
+               "SampleKeyString" : "String"
+            },
+            "contextObject" : "IModelObject",
+            "targetBranch" : "IModelObject",
+            "clientID" : "String",
+            "checkoutFlag" : "bool"
+         }
+      ]
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : {
+      "out" : {
+         "appOutputStrings" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm7DistributedAppSvc",
+   "OperationInput" : {
+      "inputs" : {
+         "imanIrmNumber" : "int",
+         "imanVersion" : "int",
+         "appName" : "String",
+         "appInputStrings" : "String[]",
+         "appOpCode" : "int",
+         "clientInfo" : {
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "osUserName" : "String"
+         }
+      }
+   }
+}

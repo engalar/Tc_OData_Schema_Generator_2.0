@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "policyID" : "String",
+      "removeProperties" : "IModelObject[]",
+      "addProperties" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Core-2011-06-Session/updateObjectPropertyPolicy",
+   "OperationResponse" : "String"
+}

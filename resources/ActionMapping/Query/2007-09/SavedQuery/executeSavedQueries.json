@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "resultsType" : "int",
+            "query" : "IModelObject",
+            "values" : "String[]",
+            "limitList" : "IModelObject[]",
+            "entries" : "String[]",
+            "maxNumToReturn" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "arrayOfResults" : [
+         {
+            "objectUIDS" : "String[]",
+            "objectsRelMap" : "int[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Query-2007-09-SavedQuery/executeSavedQueries"
+}

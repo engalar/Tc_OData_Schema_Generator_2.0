@@ -1,0 +1,53 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "configurationDetails" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "designInstanceInput" : {
+               "context" : "IModelObject",
+               "clientId" : "String",
+               "designInstancesData" : [
+                  {
+                     "designInstance" : "IModelObject",
+                     "isPreciseLink" : "bool"
+                  }
+               ]
+            },
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2017-05-MultiDisciplinaryDataMgt/searchForLinkedDesignInstances2",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "linkedInstances" : [
+               {
+                  "mdoObjectsLinkedToMDI" : "IModelObject[]",
+                  "instancesInfo" : [
+                     {
+                        "relevantDomains" : "String[]",
+                        "designInstance" : "IModelObject",
+                        "isValidated" : "bool",
+                        "irrelevantDomains" : "String[]",
+                        "needsValidation" : "bool"
+                     }
+                  ],
+                  "mdiObject" : "IModelObject",
+                  "context" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

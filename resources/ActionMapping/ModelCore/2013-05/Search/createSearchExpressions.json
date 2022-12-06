@@ -1,0 +1,102 @@
+{
+   "OperationInput" : {
+      "searchExpInput" : {
+         "planeZoneExpressions" : [
+            {
+               "clientid" : "String",
+               "planeZoneExpression" : {
+                  "planeZone" : {
+                     "yvalue" : "double",
+                     "zvalue" : "double",
+                     "displacement" : "double",
+                     "xvalue" : "double"
+                  },
+                  "planeZoneOperator" : "Plane_above Plane_below Plane_intersects Plane_aboveOrIntersects Plane_belowOrIntersects"
+               }
+            }
+         ],
+         "closureQueryExpression" : [
+            {
+               "closureExpression" : {
+                  "closureRule" : "IModelObject",
+                  "searchCriteria" : "IModelObject"
+               },
+               "clientid" : "String"
+            }
+         ],
+         "savedQueryExpressions" : [
+            {
+               "savedQueryExpression" : {
+                  "entries" : "String[]",
+                  "savedQuery" : "IModelObject",
+                  "values" : "String[]"
+               },
+               "clientid" : "String"
+            }
+         ],
+         "includeElements" : [
+            {
+               "clientid" : "String",
+               "modelElements" : "IModelObject[]"
+            }
+         ],
+         "boxZoneExpressions" : [
+            {
+               "boxZoneExpression" : {
+                  "searchBoxes" : [
+                     {
+                        "zmin" : "double",
+                        "xmin" : "double",
+                        "zmax" : "double",
+                        "ymin" : "double",
+                        "ymax" : "double",
+                        "transform" : "double[]",
+                        "xmax" : "double"
+                     }
+                  ],
+                  "boxOperator" : "Inside Outside Intersects InsideOrIntersects OutsideOrIntersects"
+               },
+               "clientid" : "String"
+            }
+         ],
+         "optionSetExpressions" : [
+            {
+               "clientid" : "String",
+               "optionSetExpression" : {
+                  "searchDef" : "IModelObject",
+                  "optionSetMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "optionSet" : "IModelObject"
+               }
+            }
+         ],
+         "excludeElements" : [
+            {
+               "modelElements" : "IModelObject[]",
+               "clientid" : "String"
+            }
+         ],
+         "proximitySearchExpressions" : [
+            {
+               "proximityExpression" : {
+                  "targetElements" : "IModelObject[]",
+                  "distance" : "double",
+                  "targetElement" : "IModelObject"
+               },
+               "clientid" : "String"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expressions" : [
+         {
+            "searchDef" : "IModelObject",
+            "clientid" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ModelCore-2013-05-Search/createSearchExpressions"
+}

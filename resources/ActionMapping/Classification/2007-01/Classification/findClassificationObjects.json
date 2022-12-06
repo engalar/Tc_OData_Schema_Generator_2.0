@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "wsoIds" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/findClassificationObjects",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "icos" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   }
+}

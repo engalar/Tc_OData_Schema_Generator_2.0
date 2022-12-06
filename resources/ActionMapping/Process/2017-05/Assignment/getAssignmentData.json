@@ -1,0 +1,129 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "context" : "IModelObject",
+            "assignObjClientRequiredInfo" : [
+               {
+                  "tagArrayInfo" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "booleanArrayInfo" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "integerArrayInfo" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "doubleInfo" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "tagInfo" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "tagToTagVectorMapInfo" : {
+                     "SampleKeyString" : {
+                        "tagToTagVectorMap" : [
+                           [
+                              "SampleKeyIModelObject"
+                           ],
+                           [
+                              "IModelObject[]"
+                           ]
+                        ]
+                     }
+                  },
+                  "stringArrayInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "booleanInfo" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "stringInfo" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "integerInfo" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "doubleArrayInfo" : {
+                     "SampleKeyString" : "double[]"
+                  }
+               }
+            ],
+            "finished" : "bool",
+            "clientRequiredInfo" : {
+               "booleanArrayInfo" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagArrayInfo" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "integerArrayInfo" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleInfo" : {
+                  "SampleKeyString" : "double"
+               },
+               "tagInfo" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "tagToTagVectorMapInfo" : {
+                  "SampleKeyString" : {
+                     "tagToTagVectorMap" : [
+                        [
+                           "SampleKeyIModelObject"
+                        ],
+                        [
+                           "IModelObject[]"
+                        ]
+                     ]
+                  }
+               },
+               "stringArrayInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "booleanInfo" : {
+                  "SampleKeyString" : "bool"
+               },
+               "integerInfo" : {
+                  "SampleKeyString" : "int"
+               },
+               "stringInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "doubleArrayInfo" : {
+                  "SampleKeyString" : "double[]"
+               }
+            },
+            "totalFound" : "int",
+            "assignedObjects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Assignment/getAssignmentData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientRequiredInformation" : "String[]",
+            "filterCriteria" : [
+               {
+                  "filterName" : "String",
+                  "filterValues" : "String[]"
+               }
+            ],
+            "context" : "IModelObject",
+            "searchOptions" : {
+               "startFrom" : "IModelObject",
+               "sortOptions" : [
+                  {
+                     "ascending" : "bool",
+                     "sortAttribute" : "String"
+                  }
+               ],
+               "pageSize" : "int"
+            },
+            "scope" : "IModelObject"
+         }
+      ]
+   }
+}

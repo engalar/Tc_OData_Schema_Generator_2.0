@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "versionObjects" : "IModelObject[]",
+            "clientID" : "String",
+            "sourceBranchObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "parentBranches" : "IModelObject[]",
+            "clientID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "BranchFoundation-2017-11-BranchFoundation/getPromoteBranchCandidates"
+}

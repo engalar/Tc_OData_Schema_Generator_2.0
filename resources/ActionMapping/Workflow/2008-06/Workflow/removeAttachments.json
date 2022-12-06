@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Workflow-2008-06-Workflow/removeAttachments",
+   "OperationInput" : {
+      "task" : "IModelObject",
+      "attachments" : "IModelObject[]"
+   }
+}

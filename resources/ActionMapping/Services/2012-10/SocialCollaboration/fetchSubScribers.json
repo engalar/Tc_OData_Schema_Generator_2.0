@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/fetchSubScribers",
+   "OperationInput" : {
+      "objectUid" : "String"
+   }
+}

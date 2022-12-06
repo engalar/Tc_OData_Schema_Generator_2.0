@@ -1,0 +1,38 @@
+{
+   "ServiceOperation" : "StructureManagement-2010-09-Structure/validateStructureItemIds2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clonedIdMap" : {
+         "SampleKeyString" : {
+            "newItemId" : "String",
+            "newItemName" : "String"
+         }
+      }
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "options" : "NoDep Drawing PartFamilyMaster PartFamilyMember Required AllDep ExcludeFromBom[]",
+            "inputMap" : {
+               "SampleKeyString" : {
+                  "newItemName" : "String",
+                  "newItemId" : "String"
+               }
+            },
+            "projects" : {
+               "assign" : "bool",
+               "projects" : "IModelObject[]",
+               "validate" : "bool"
+            },
+            "topLine" : "IModelObject",
+            "defaultName" : {
+               "to" : "String",
+               "autogen" : "bool",
+               "suffix" : "String",
+               "prefix" : "String",
+               "from" : "String"
+            }
+         }
+      ]
+   }
+}

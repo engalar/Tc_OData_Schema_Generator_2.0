@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "newPhysPartRev" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MROCore-2010-04-MROCore/renamePhysicalPart",
+   "OperationInput" : {
+      "inputInfo" : [
+         {
+            "newPartNumber" : "String",
+            "physPartRev" : "IModelObject",
+            "clientId" : "String",
+            "renameDate" : "Date",
+            "physBOMLine" : "IModelObject",
+            "newSerialNumber" : "String"
+         }
+      ]
+   }
+}

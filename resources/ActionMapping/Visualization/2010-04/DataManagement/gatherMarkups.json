@@ -1,0 +1,104 @@
+{
+   "ServiceOperation" : "Internal-Visualization-2010-04-DataManagement/gatherMarkups",
+   "OperationResponse" : {
+      "businessDataList" : [
+         {
+            "gatherDatasetTypeInfos" : [
+               {
+                  "name" : "String",
+                  "toolPreferences" : "String[]",
+                  "relatedDatasets" : [
+                     {
+                        "name" : "String",
+                        "markupList" : [
+                           {
+                              "namedRefInfos" : [
+                                 {
+                                    "uploadedFileRefNames" : "String",
+                                    "clientFileId" : "String",
+                                    "uploadedFile" : "IModelObject",
+                                    "uploadedFilename" : "String"
+                                 }
+                              ],
+                              "additionalInfo" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "uid" : "String",
+                              "name" : "String"
+                           }
+                        ],
+                        "additionalInfo" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "uid" : "String",
+                        "namedRefInfos" : [
+                           {
+                              "uploadedFileRefNames" : "String",
+                              "uploadedFilename" : "String",
+                              "uploadedFile" : "IModelObject",
+                              "clientFileId" : "String"
+                           }
+                        ],
+                        "controlObj" : {
+                           "additionalInfo" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "uid" : "String",
+                           "name" : "String"
+                        }
+                     }
+                  ]
+               }
+            ],
+            "gatherItemInfo" : {
+               "itemRevName" : "String",
+               "itemRevUid" : "String",
+               "itemUid" : "String",
+               "toolPreferences" : "String[]",
+               "itemName" : "String"
+            }
+         }
+      ],
+      "svcData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "selectedInputInfos" : [
+         {
+            "item" : "IModelObject",
+            "idAdditionalInfo" : {
+               "SampleKeyString" : "String"
+            },
+            "controlObj" : "IModelObject",
+            "itemRev" : "IModelObject",
+            "id" : "IModelObject"
+         }
+      ],
+      "serverInfo" : {
+         "additionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "tccsEnvironment" : "String",
+         "ssoInfo" : {
+            "loginServiceUrl" : "String",
+            "appId" : "String"
+         },
+         "useSso" : "bool",
+         "serverMode" : "String",
+         "hostPath" : "String",
+         "protocol" : "String"
+      },
+      "sessionInfo" : {
+         "sessionDescriminator" : "String",
+         "sessionAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         }
+      },
+      "userDataAgentInfo" : {
+         "userAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "userApplication" : "String",
+         "userAppVersion" : "String"
+      }
+   }
+}

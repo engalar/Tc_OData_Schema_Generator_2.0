@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Rdv-2008-05-ContextManagement/getProductItemInfo",
+   "OperationResponse" : {
+      "output" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

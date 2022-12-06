@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-Subscription-2018-12-SubscriptionManagement/getApplicableConfiguredEvents",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inObject" : "IModelObject"
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Internal-Visualization-2008-06-StructureManagement/areRecipesMergable",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "isMergable" : "bool"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "info" : [
+         {
+            "clientId" : "String",
+            "recipeObj" : "IModelObject",
+            "topline" : "IModelObject",
+            "bomWindow" : "IModelObject"
+         }
+      ]
+   }
+}

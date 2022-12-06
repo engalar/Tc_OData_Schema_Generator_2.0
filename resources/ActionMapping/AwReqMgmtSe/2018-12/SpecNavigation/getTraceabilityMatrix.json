@@ -1,0 +1,130 @@
+{
+   "OperationResponse" : {
+      "targetContextInfo" : "IModelObject",
+      "targetParentObjectInfo" : {
+         "isParent" : "bool",
+         "displayName" : "String",
+         "persistentObject" : "IModelObject",
+         "occurrence" : "IModelObject"
+      },
+      "totalColSize" : "int",
+      "rowObjects" : [
+         {
+            "isParent" : "bool",
+            "displayName" : "String",
+            "persistentObject" : "IModelObject",
+            "occurrence" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "srcParentObjectInfo" : {
+         "isParent" : "bool",
+         "displayName" : "String",
+         "occurrence" : "IModelObject",
+         "persistentObject" : "IModelObject"
+      },
+      "targetObjectInfo" : {
+         "persistentObject" : "IModelObject",
+         "occurrence" : "IModelObject",
+         "displayName" : "String",
+         "isParent" : "bool"
+      },
+      "traceabilityMatrixObject" : "IModelObject",
+      "srcContextInfo" : "IModelObject",
+      "srcObjectInfo" : {
+         "isParent" : "bool",
+         "displayName" : "String",
+         "persistentObject" : "IModelObject",
+         "occurrence" : "IModelObject"
+      },
+      "totalRowSize" : "int",
+      "matrixCellInfo" : [
+         {
+            "colObject" : "IModelObject",
+            "numOfLinksOnChildren" : "int",
+            "complyingLinksInfo" : [
+               {
+                  "primaryObjectPropInfo" : [
+                     {
+                        "propValues" : "String[]",
+                        "name" : "String"
+                     }
+                  ],
+                  "tracelinkPropInfo" : [
+                     {
+                        "propValues" : "String[]",
+                        "name" : "String"
+                     }
+                  ],
+                  "secObjectPropInfo" : [
+                     {
+                        "name" : "String",
+                        "propValues" : "String[]"
+                     }
+                  ],
+                  "secondary" : "IModelObject",
+                  "primary" : "IModelObject",
+                  "tracelink" : "IModelObject",
+                  "tracelinkType" : "String",
+                  "isIndirectLink" : "bool"
+               }
+            ],
+            "definingLinksInfo" : [
+               {
+                  "primaryObjectPropInfo" : [
+                     {
+                        "propValues" : "String[]",
+                        "name" : "String"
+                     }
+                  ],
+                  "tracelinkPropInfo" : [
+                     {
+                        "name" : "String",
+                        "propValues" : "String[]"
+                     }
+                  ],
+                  "secObjectPropInfo" : [
+                     {
+                        "name" : "String",
+                        "propValues" : "String[]"
+                     }
+                  ],
+                  "secondary" : "IModelObject",
+                  "primary" : "IModelObject",
+                  "tracelink" : "IModelObject",
+                  "tracelinkType" : "String",
+                  "isIndirectLink" : "bool"
+               }
+            ],
+            "rowObject" : "IModelObject",
+            "tracelinkDirection" : "String"
+         }
+      ],
+      "colObjects" : [
+         {
+            "isParent" : "bool",
+            "persistentObject" : "IModelObject",
+            "occurrence" : "IModelObject",
+            "displayName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2018-12-SpecNavigation/getTraceabilityMatrix",
+   "OperationInput" : {
+      "inputData" : {
+         "targetContextInfo" : "IModelObject",
+         "actionPerformed" : "String",
+         "showChildrenTracelinks" : "bool",
+         "targetObjects" : "IModelObject[]",
+         "colPageToNavigate" : "int",
+         "traceabilityMatrixObject" : "IModelObject",
+         "options" : "String[]",
+         "srcContextInfo" : "IModelObject",
+         "isRunInBackground" : "bool",
+         "itemsPerPage" : "int",
+         "relationType" : "String",
+         "sourceObjects" : "IModelObject[]",
+         "rowPageTonavigate" : "int"
+      }
+   }
+}

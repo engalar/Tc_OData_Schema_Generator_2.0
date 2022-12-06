@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "proxyVector" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2012-02-ProxyManagement/savePMMPersistentProxy",
+   "OperationInput" : {
+      "inputData" : "IModelObject[]"
+   }
+}

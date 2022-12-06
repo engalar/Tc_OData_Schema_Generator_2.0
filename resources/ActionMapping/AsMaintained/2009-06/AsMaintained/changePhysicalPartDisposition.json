@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "physicalPart" : "IModelObject",
+            "dispStartTime" : "Date",
+            "dispositionType" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "dispRelation" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "AsMaintained-2009-06-AsMaintained/changePhysicalPartDisposition"
+}

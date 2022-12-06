@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "productContext" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-AWPdmCore-2020-12-PlantDataManagement/getDiagramData",
+   "OperationResponse" : {
+      "diagramReadTickets" : [
+         {
+            "fileTicket" : "String",
+            "fileName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "source" : "String"
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2006-03-Reservation/cancelCheckout",
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   }
+}

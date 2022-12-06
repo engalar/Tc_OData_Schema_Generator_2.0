@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "relationships" : [
+            {
+               "isPrimaryObject" : "bool",
+               "relationName" : "String"
+            }
+         ],
+         "object" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "foundObjects" : {
+         "relAndChildNodes" : [
+            {
+               "relationship" : {
+                  "isPrimaryObject" : "bool",
+                  "relationName" : "String"
+               },
+               "children" : "Teamcenter::Soa::Internal::Core::_2008_06::DataManagement::MultiRelationMultiLevelExpandOutputNode[]"
+            }
+         ],
+         "relation" : "IModelObject",
+         "currentObject" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Core-2008-06-DataManagement/multiRelationMultiLevelExpand"
+}

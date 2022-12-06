@@ -1,0 +1,31 @@
+{
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "failedCommits" : [
+         {
+            "filename" : "String",
+            "id" : {
+               "application" : "String",
+               "version" : "String",
+               "label" : "String"
+            },
+            "ticket" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/commitFiles",
+   "OperationInput" : {
+      "reqObj" : "IModelObject",
+      "data" : [
+         {
+            "filename" : "String",
+            "id" : {
+               "label" : "String",
+               "application" : "String",
+               "version" : "String"
+            },
+            "ticket" : "String"
+         }
+      ]
+   }
+}

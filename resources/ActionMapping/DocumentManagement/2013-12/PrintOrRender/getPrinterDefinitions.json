@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "DocumentManagement-2013-12-PrintOrRender/getPrinterDefinitions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "printerName" : "String",
+            "printableDatasetTypeNames" : "String[]",
+            "paperSizes" : "String[]",
+            "supportStamp" : "bool",
+            "printerConfigurationName" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {}
+}

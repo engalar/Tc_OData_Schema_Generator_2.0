@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "objectInContext" : "IModelObject",
+      "selectedObject" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "traceabilityInfoList" : "String[]"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-06-SimulationManagementAw/getTraceabilityInformation"
+}

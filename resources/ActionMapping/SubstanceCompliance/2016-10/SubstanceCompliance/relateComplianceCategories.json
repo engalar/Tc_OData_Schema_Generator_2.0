@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "SubstanceCompliance-2016-10-SubstanceCompliance/relateComplianceCategories",
+   "OperationInput" : {
+      "input" : [
+         {
+            "targetObjects" : "IModelObject[]",
+            "complianceCategoryResponses" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ],
+      "isAsynchronous" : "bool"
+   }
+}

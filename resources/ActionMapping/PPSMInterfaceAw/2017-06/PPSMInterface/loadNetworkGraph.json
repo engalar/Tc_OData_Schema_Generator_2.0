@@ -1,0 +1,38 @@
+{
+   "ServiceOperation" : "PPSMInterfaceAw-2017-06-PPSMInterface/loadNetworkGraph",
+   "OperationResponse" : {
+      "graph" : {
+         "nodes" : [
+            {
+               "properties" : {
+                  "SampleKeyString" : "String"
+               },
+               "nodeId" : "String",
+               "metaObject" : "IModelObject",
+               "name" : "String"
+            }
+         ],
+         "rootIds" : "String[]",
+         "edges" : [
+            {
+               "leftNodeId" : "String",
+               "rightNodeId" : "String",
+               "metaObject" : "IModelObject",
+               "properties" : {
+                  "SampleKeyString" : "String"
+               },
+               "relationType" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : {
+         "rootIds" : "String[]",
+         "loadParameters" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   }
+}

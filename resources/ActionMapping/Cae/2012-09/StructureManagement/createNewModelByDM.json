@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "productBOMLine" : "IModelObject",
+      "modelParentBOMLine" : "IModelObject",
+      "modelExistingBOMLine" : "IModelObject",
+      "domain" : "String"
+   },
+   "ServiceOperation" : "Internal-Cae-2012-09-StructureManagement/createNewModelByDM",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "activityLog" : "String"
+   }
+}

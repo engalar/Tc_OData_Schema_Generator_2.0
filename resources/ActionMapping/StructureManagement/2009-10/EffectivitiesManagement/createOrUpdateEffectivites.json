@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2009-10-EffectivitiesManagement/createOrUpdateEffectivites",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "effectivitiesInfo" : [
+         {
+            "decision" : "int",
+            "endItemComponent" : "IModelObject",
+            "effectivityComponent" : "IModelObject",
+            "clientId" : "String",
+            "unitRangeText" : "String"
+         }
+      ],
+      "effectivityGroupRevision" : "IModelObject"
+   }
+}

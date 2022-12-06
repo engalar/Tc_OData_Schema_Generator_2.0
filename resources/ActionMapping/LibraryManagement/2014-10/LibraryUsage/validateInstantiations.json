@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "instantiateIn" : [
+         {
+            "libraryElement" : "IModelObject",
+            "properties" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryUsage/validateInstantiations"
+}

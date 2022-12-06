@@ -1,0 +1,42 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "targetInfo" : {
+               "attributeGroups" : "IModelObject[]",
+               "assignmentInfo" : {
+                  "assignedObject" : "IModelObject",
+                  "assignmentType" : "IModelObject",
+                  "assignedToObj" : "IModelObject"
+               }
+            },
+            "sourceInfo" : {
+               "attributeGroups" : "IModelObject[]",
+               "assignmentInfo" : {
+                  "assignmentType" : "IModelObject",
+                  "assignedObject" : "IModelObject",
+                  "assignedToObj" : "IModelObject"
+               }
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Process-2017-05-AssignmentInContextInformation/moveInContextAttributeGroups",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "targetInfo" : {
+               "assignmentType" : "IModelObject",
+               "assignedObject" : "IModelObject",
+               "assignedToObj" : "IModelObject"
+            },
+            "sourceInfo" : {
+               "assignedToObj" : "IModelObject",
+               "assignedObject" : "IModelObject",
+               "assignmentType" : "IModelObject"
+            }
+         }
+      ]
+   }
+}

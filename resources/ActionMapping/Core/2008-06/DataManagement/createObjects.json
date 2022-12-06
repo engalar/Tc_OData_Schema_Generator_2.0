@@ -1,0 +1,114 @@
+{
+   "ServiceOperation" : "Core-2008-06-DataManagement/createObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "objects" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "data" : {
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "boName" : "String",
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "compoundCreateInput" : "Teamcenter::Soa::Core::_2008_06::DataManagement::CreateInputMap",
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "boName" : "String",
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        }
+                     }
+                  ]
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               }
+            },
+            "clientId" : "String"
+         }
+      ]
+   }
+}

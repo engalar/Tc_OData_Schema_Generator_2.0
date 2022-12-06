@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "functions" : "IModelObject[]",
+            "relationName" : "String",
+            "focusElementFunction" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-FmeaManager-2020-05-FMEADataManagement/addHigherLowerLevelFunctions"
+}

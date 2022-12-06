@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "output" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MROCore-2009-06-MROCore/displayUtilization",
+   "OperationInput" : {
+      "inputInfo" : [
+         {
+            "tillDate" : "Date",
+            "physicalPart" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

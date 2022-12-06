@@ -1,0 +1,38 @@
+{
+   "OperationResponse" : {
+      "mdoSearchOutput" : [
+         {
+            "mdoOutputs" : [
+               {
+                  "clientId" : "String",
+                  "associatedDesignArtifact" : "IModelObject[]",
+                  "mdoObject" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MDOManagement-2014-10-MultiDisciplinaryDataMgt/searchMDO",
+   "OperationInput" : {
+      "searchInputs" : [
+         {
+            "designArtifactInputs" : {
+               "designArtifactsObjects" : "IModelObject[]",
+               "designArtifactCriteria" : [
+                  {
+                     "attributeValues" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "typeObj" : "IModelObject"
+                  }
+               ]
+            },
+            "clientId" : "String",
+            "mdoCriteria" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   }
+}

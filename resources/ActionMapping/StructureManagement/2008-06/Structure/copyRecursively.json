@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "newName" : "String",
+      "copyFutureEffectivities" : "bool",
+      "templateBOMWindow" : "IModelObject",
+      "newRevId" : "String",
+      "windowOfSelectedLine" : "IModelObject",
+      "newDescription" : "String",
+      "objectToClone" : "IModelObject",
+      "copyActionRulesKey" : "String",
+      "newId" : "String"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2008-06-Structure/copyRecursively",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createdFutureIcRevs" : "IModelObject[]",
+      "createdIcRevs" : "IModelObject[]"
+   }
+}

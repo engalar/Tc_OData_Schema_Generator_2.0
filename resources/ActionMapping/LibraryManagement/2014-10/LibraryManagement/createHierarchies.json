@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "hierarchy" : "IModelObject",
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryManagement/createHierarchies",
+   "OperationInput" : {
+      "createInput" : [
+         {
+            "boName" : "String",
+            "library" : "IModelObject",
+            "description" : "String",
+            "name" : "String",
+            "clientID" : "String",
+            "additionalProperties" : {
+               "SampleKeyString" : "String[]"
+            },
+            "allowedMemberTypes" : "String[]",
+            "id" : "String"
+         }
+      ]
+   }
+}

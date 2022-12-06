@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "mvPaletteInfo" : [
+         {
+            "paletteIsComplete" : "bool",
+            "clientId" : "String",
+            "disclosure" : "IModelObject",
+            "boType" : "String",
+            "groupsToDelete" : "IModelObject[]",
+            "deletePalette" : "bool",
+            "groupsAndProxies" : [
+               {
+                  "clientId" : "String",
+                  "newOrderSequenceNumber" : "int[]",
+                  "boType" : "String",
+                  "modelViewGroupForUpdate" : "IModelObject",
+                  "proxiesInGroup" : "IModelObject[]",
+                  "attrListForGroup" : [
+                     {
+                        "name" : "String",
+                        "values" : "String[]"
+                     }
+                  ]
+               }
+            ],
+            "paletteToUpdate" : "IModelObject",
+            "attrListForPalette" : [
+               {
+                  "values" : "String[]",
+                  "name" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2016-03-DataManagement/createOrUpdateModelViewPalette"
+}

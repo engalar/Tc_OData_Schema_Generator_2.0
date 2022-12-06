@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "setPrefInput" : [
+         {
+            "preferenceScope" : "String",
+            "object" : "IModelObject",
+            "inputPrefs" : {
+               "prefsInfo" : [
+                  {
+                     "preferenceDefinition" : {
+                        "preferenceName" : "String",
+                        "preferenceType" : "String",
+                        "preferenceDescription" : "String",
+                        "preferenceCategory" : "String",
+                        "isArray" : "bool",
+                        "preferenceScope" : "String",
+                        "isDisabled" : "bool"
+                     },
+                     "contextInformation" : [
+                        {
+                           "value" : "String[]",
+                           "contextName" : "String"
+                        }
+                     ]
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Administration-2007-06-PreferenceManagement/setPreferences"
+}

@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugLogging/setLoggerLevels",
+   "OperationInput" : {
+      "loggerInput" : [
+         {
+            "loggerName" : "String",
+            "priority" : "LOG_FATAL LOG_ERROR LOG_WARN LOG_INFO LOG_DEBUG LOG_TRACE LOG_DEFAULT"
+         }
+      ]
+   }
+}

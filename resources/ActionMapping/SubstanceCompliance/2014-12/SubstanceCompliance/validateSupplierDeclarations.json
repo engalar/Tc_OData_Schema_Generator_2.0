@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "sdInput" : [
+         {
+            "inputFileFMSTickets" : "String[]",
+            "xslPathFMSTicket" : "String",
+            "declarationType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "SubstanceCompliance-2014-12-SubstanceCompliance/validateSupplierDeclarations",
+   "OperationResponse" : {
+      "outputData" : [
+         {
+            "verdict" : "String",
+            "validationLogFMSTickets" : "String[]",
+            "inputFileFMSTicket" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "sessionDigestLogFMSTicket" : "String"
+   }
+}

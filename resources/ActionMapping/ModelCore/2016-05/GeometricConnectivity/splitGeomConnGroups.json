@@ -1,0 +1,52 @@
+{
+   "OperationInput" : {
+      "splitGroupInfos" : [
+         {
+            "subGroupInfo2" : {
+               "startLink" : "IModelObject",
+               "groupInfo" : {
+                  "endObject2" : "IModelObject",
+                  "geomGroup" : "IModelObject",
+                  "logicalId" : "String",
+                  "endObject1" : "IModelObject",
+                  "connectionId" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "boType" : "String"
+               },
+               "endLink" : "IModelObject"
+            },
+            "geomGroup" : "IModelObject",
+            "deleteInputGeomGroup" : "bool",
+            "clientId" : "String",
+            "subGroupInfo1" : {
+               "startLink" : "IModelObject",
+               "groupInfo" : {
+                  "connectionId" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "boType" : "String",
+                  "endObject2" : "IModelObject",
+                  "geomGroup" : "IModelObject",
+                  "logicalId" : "String",
+                  "endObject1" : "IModelObject"
+               },
+               "endLink" : "IModelObject"
+            }
+         }
+      ],
+      "configContext" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "newGroups" : {
+         "SampleKeyString" : {
+            "group1" : "IModelObject",
+            "group2" : "IModelObject"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ModelCore-2016-05-GeometricConnectivity/splitGeomConnGroups"
+}

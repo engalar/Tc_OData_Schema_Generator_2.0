@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ImportExport-2017-11-FileImportExport/exportToApplication",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "exportOptions" : [
+               {
+                  "value" : "String",
+                  "option" : "String"
+               }
+            ],
+            "columnAttributes" : "String[]",
+            "applicationFormat" : "String",
+            "exportPackingInfos" : [
+               {
+                  "primaryObj" : "IModelObject",
+                  "secondaryObjs" : "IModelObject[]"
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,134 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "searchOutput" : [
+         {
+            "results" : [
+               {
+                  "breadcrumbs" : "IModelObject[]",
+                  "obj" : "IModelObject",
+                  "clientRequiredInfo" : {
+                     "integerArrayInfo" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "doubleInfo" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "tagArrayInfo" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "booleanArrayInfo" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "stringArrayInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "tagInfo" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "tagToTagVectorMapInfo" : {
+                        "SampleKeyString" : {
+                           "tagToTagVectorMap" : [
+                              [
+                                 "SampleKeyIModelObject"
+                              ],
+                              [
+                                 "IModelObject[]"
+                              ]
+                           ]
+                        }
+                     },
+                     "integerInfo" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "stringInfo" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "doubleArrayInfo" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "booleanInfo" : {
+                        "SampleKeyString" : "bool"
+                     }
+                  }
+               }
+            ],
+            "finished" : "bool",
+            "assignedAncestorsClientReqInfo" : {
+               "stringInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "integerInfo" : {
+                  "SampleKeyString" : "int"
+               },
+               "doubleArrayInfo" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "booleanInfo" : {
+                  "SampleKeyString" : "bool"
+               },
+               "stringArrayInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "tagToTagVectorMapInfo" : {
+                  "SampleKeyString" : {
+                     "tagToTagVectorMap" : [
+                        [
+                           "SampleKeyIModelObject"
+                        ],
+                        [
+                           "IModelObject[]"
+                        ]
+                     ]
+                  }
+               },
+               "tagInfo" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "integerArrayInfo" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleInfo" : {
+                  "SampleKeyString" : "double"
+               },
+               "tagArrayInfo" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "booleanArrayInfo" : {
+                  "SampleKeyString" : "bool[]"
+               }
+            },
+            "index" : "int",
+            "totalFound" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Assignment/search",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientRequiredInformation" : "String[]",
+            "propertyNames" : "String[]",
+            "context" : "IModelObject",
+            "searchOptions" : {
+               "pageSize" : "int",
+               "sortOptions" : [
+                  {
+                     "sortAttribute" : "String",
+                     "ascending" : "bool"
+                  }
+               ],
+               "startFrom" : "IModelObject"
+            },
+            "searchTerm" : "String",
+            "productElementsFilterCriteria" : [
+               {
+                  "filterName" : "String",
+                  "filterValues" : "String[]"
+               }
+            ],
+            "scope" : "IModelObject"
+         }
+      ]
+   }
+}

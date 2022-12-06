@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "snapshotFolder" : "IModelObject",
+      "rootIR" : "IModelObject",
+      "variantRule" : "IModelObject",
+      "revRule" : "IModelObject",
+      "domain" : "String"
+   },
+   "ServiceOperation" : "Internal-Cae-2012-02-StructureManagement/executeDatamap",
+   "OperationResponse" : {
+      "activityLog" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

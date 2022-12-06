@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "StructureManagement-2014-10-Structure/togglePrecision",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   }
+}

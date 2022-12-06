@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "project" : "IModelObject",
+            "groupRoleNode" : [
+               {
+                  "tcRole" : "IModelObject",
+                  "isRemovable" : "bool",
+                  "tcGroup" : "IModelObject"
+               }
+            ],
+            "groupNode" : [
+               {
+                  "isRemovable" : "bool",
+                  "tcGroup" : "IModelObject"
+               }
+            ],
+            "users" : "IModelObject[]",
+            "privilegeStatus" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2020-01-ProjectLevelSecurity/setUserPrivilege"
+}

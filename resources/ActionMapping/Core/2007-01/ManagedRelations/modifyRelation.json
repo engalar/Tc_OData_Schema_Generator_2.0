@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "newInput" : [
+         {
+            "setTargetsInput" : {
+               "removeTargets" : "IModelObject[]",
+               "addTargets" : "IModelObject[]"
+            },
+            "relationTag" : "IModelObject",
+            "setSourcesInput" : {
+               "addSources" : "IModelObject[]",
+               "removeSources" : "IModelObject[]"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2007-01-ManagedRelations/modifyRelation",
+   "OperationResponse" : {
+      "managedRelationObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

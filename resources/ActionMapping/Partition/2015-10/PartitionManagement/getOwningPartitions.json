@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "operationInput" : [
+         {
+            "configurationContext" : "IModelObject",
+            "appModelReference" : "IModelObject",
+            "inputPartitions" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Partition-2015-10-PartitionManagement/getOwningPartitions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "owningPartitions" : [
+         {
+            "targetPartitionToOwningPartitionsMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ]
+   }
+}

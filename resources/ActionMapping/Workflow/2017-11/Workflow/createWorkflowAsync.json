@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-Workflow-2017-11-Workflow/createWorkflowAsync",
+   "OperationInput" : {
+      "inputData" : {
+         "attachmentTypes" : "int[]",
+         "processAssignmentList" : "String",
+         "processDescription" : "String",
+         "processName" : "String",
+         "additonalData" : {
+            "SampleKeyString" : "String[]"
+         },
+         "attachments" : "String[]",
+         "processTemplateName" : "String"
+      }
+   }
+}

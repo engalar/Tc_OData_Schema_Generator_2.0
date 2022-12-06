@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-ResourceManager-2020-05-ResourceOccurrencesManagement/setPropagationStartPoint",
+   "OperationResponse" : {
+      "fromComponentName" : "String",
+      "actionInfo" : "String",
+      "toComponentName" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "forceUpdate" : "bool",
+      "selectedComponentUID" : "String",
+      "activeCutterID" : "String"
+   }
+}

@@ -1,0 +1,51 @@
+{
+   "OperationInput" : {
+      "filter" : {
+         "customStrings" : {
+            "SampleKeyString" : "String"
+         },
+         "requestStatus" : "String[]",
+         "stateDescription" : "String",
+         "aiQryParams" : {
+            "description" : "String",
+            "groupName" : "String",
+            "targetSiteIds" : "String[]",
+            "type" : "String",
+            "releasedBefore" : "Date",
+            "name" : "String",
+            "createdAfter" : "Date",
+            "createdBefore" : "Date",
+            "modifiedAfter" : "Date",
+            "releasedAfter" : "Date",
+            "userId" : "String",
+            "contextString" : "String",
+            "modifiedBefore" : "Date",
+            "targetAppProjectId" : "String"
+         },
+         "requestType" : "String[]",
+         "requestState" : "String[]",
+         "statusDescription" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "requests" : [
+         {
+            "rupdate" : "int",
+            "status" : {
+               "status" : "RequestStatus_Normal RequestStatus_Warning RequestStatus_Severe RequestStatus_Abort RequestStatus_Any",
+               "description" : "String"
+            },
+            "name" : "String",
+            "rscope" : "int",
+            "kvPairs" : {
+               "SampleKeyString" : "String"
+            },
+            "stateDesc" : "String",
+            "description" : "String",
+            "ro" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Ai-2012-09-Ai/findRequests"
+}

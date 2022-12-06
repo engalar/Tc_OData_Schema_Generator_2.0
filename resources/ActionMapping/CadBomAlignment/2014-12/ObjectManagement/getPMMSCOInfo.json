@@ -1,0 +1,197 @@
+{
+   "OperationInput" : {
+      "pmmscoInputs" : [
+         {
+            "clientId" : "String",
+            "pmmsco" : "IModelObject",
+            "outputRequested" : "int",
+            "openMode" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "pmmscoInfoMap" : {
+         "SampleKeyString" : {
+            "serviceName" : "String",
+            "advSearchExecInfo" : {
+               "advSearchInfo" : {
+                  "cadResults" : [
+                     {
+                        "window" : "IModelObject",
+                        "structureType" : "int",
+                        "selectedLines" : "IModelObject[]"
+                     }
+                  ],
+                  "pmmResults" : {
+                     "selectedObjects" : [
+                        {
+                           "objects" : "String[]",
+                           "objectType" : "String"
+                        }
+                     ],
+                     "unselectedObjects" : [
+                        {
+                           "objects" : "String[]",
+                           "objectType" : "String"
+                        }
+                     ]
+                  },
+                  "searchCriteria" : {
+                     "measUnit" : "String",
+                     "distance" : "double",
+                     "searchType" : "int",
+                     "vooState" : "bool",
+                     "tstState" : "bool",
+                     "attributes" : [
+                        {
+                           "tableName" : "String",
+                           "queryNameValues" : {
+                              "SampleKeyString" : "String"
+                           }
+                        }
+                     ],
+                     "lengths" : "double[]",
+                     "coords" : "double[]"
+                  }
+               },
+               "unSelectedObjects" : [
+                  {
+                     "columnSet" : {
+                        "table" : "String",
+                        "column" : [
+                           {
+                              "name" : "String",
+                              "datatype" : "String",
+                              "logicalName" : "String",
+                              "table" : "String",
+                              "width" : "int"
+                           }
+                        ]
+                     },
+                     "rowSet" : {
+                        "row" : [
+                           {
+                              "value" : "String[]",
+                              "clientID" : "String"
+                           }
+                        ]
+                     }
+                  }
+               ],
+               "selectedObjects" : [
+                  {
+                     "columnSet" : {
+                        "table" : "String",
+                        "column" : [
+                           {
+                              "name" : "String",
+                              "datatype" : "String",
+                              "logicalName" : "String",
+                              "table" : "String",
+                              "width" : "int"
+                           }
+                        ]
+                     },
+                     "rowSet" : {
+                        "row" : [
+                           {
+                              "value" : "String[]",
+                              "clientID" : "String"
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            "scoType" : "int",
+            "staticPlmxmlReadTicket" : "String",
+            "baseSearchExecInfo" : {
+               "baseSearchInfo" : {
+                  "cadResults" : [
+                     {
+                        "selectedLines" : "IModelObject[]",
+                        "window" : "IModelObject",
+                        "structureType" : "int"
+                     }
+                  ],
+                  "pmmResults" : {
+                     "unselectedObjects" : [
+                        {
+                           "objectType" : "String",
+                           "objects" : "String[]"
+                        }
+                     ],
+                     "selectedObjects" : [
+                        {
+                           "objectType" : "String",
+                           "objects" : "String[]"
+                        }
+                     ]
+                  },
+                  "queryInfos" : [
+                     {
+                        "tableName" : "String",
+                        "queryNameValues" : {
+                           "SampleKeyString" : "String"
+                        }
+                     }
+                  ]
+               },
+               "selectedObjects" : [
+                  {
+                     "columnSet" : {
+                        "column" : [
+                           {
+                              "datatype" : "String",
+                              "logicalName" : "String",
+                              "name" : "String",
+                              "table" : "String",
+                              "width" : "int"
+                           }
+                        ],
+                        "table" : "String"
+                     },
+                     "rowSet" : {
+                        "row" : [
+                           {
+                              "value" : "String[]",
+                              "clientID" : "String"
+                           }
+                        ]
+                     }
+                  }
+               ],
+               "unSelectedObjects" : [
+                  {
+                     "columnSet" : {
+                        "table" : "String",
+                        "column" : [
+                           {
+                              "name" : "String",
+                              "logicalName" : "String",
+                              "datatype" : "String",
+                              "table" : "String",
+                              "width" : "int"
+                           }
+                        ]
+                     },
+                     "rowSet" : {
+                        "row" : [
+                           {
+                              "clientID" : "String",
+                              "value" : "String[]"
+                           }
+                        ]
+                     }
+                  }
+               ]
+            },
+            "contextName" : "String",
+            "staticStructureReadTicket" : "String",
+            "dynamicPlmxmlReadTicket" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2014-12-ObjectManagement/getPMMSCOInfo"
+}

@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "operationInput" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "responseStructList" : [
+         {
+            "eventList" : "IModelObject[]",
+            "planObj" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProgramInfra-2016-04-ProgramManagement/getEvents"
+}

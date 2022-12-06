@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "deletedRowUIDs" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/removeCostRows",
+   "OperationInput" : {
+      "costRowUIDs" : "String[]"
+   }
+}

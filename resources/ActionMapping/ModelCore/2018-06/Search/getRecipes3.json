@@ -1,0 +1,37 @@
+{
+   "ServiceOperation" : "ModelCore-2018-06-Search/getRecipes3",
+   "OperationResponse" : {
+      "searchRecipes" : [
+         {
+            "recipe" : {
+               "configDetails" : [
+                  {
+                     "configurationFor" : "Universal Partition",
+                     "configContext" : "IModelObject"
+                  }
+               ],
+               "scope" : {
+                  "domainViewKeyName" : "String",
+                  "recipeContainer" : "IModelObject",
+                  "searchType" : "String[]",
+                  "model" : "IModelObject"
+               },
+               "searchExpression" : {
+                  "searchOperator" : "And Or Not",
+                  "searchExpression" : {
+                     "doTrushapeRefinement" : "bool",
+                     "searchExpressions" : "IModelObject[]"
+                  },
+                  "searchExpressionSets" : "Mdl0::Soa::ModelCore::_2014_10::Search::SearchExpressionSet2[]",
+                  "groupName" : "String"
+               }
+            },
+            "recipeContainer" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "recipeContainers" : "IModelObject[]"
+   }
+}

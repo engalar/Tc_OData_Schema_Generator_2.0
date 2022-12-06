@@ -1,0 +1,50 @@
+{
+   "OperationInput" : {
+      "controls" : {
+         "levelsToExpand" : "int",
+         "configurationContext" : "IModelObject",
+         "suggestedPageSize" : "int",
+         "includePresentedParents" : "bool",
+         "includeSourceObjectForSubsets" : "bool",
+         "includeCopyStableIDMaps" : "bool",
+         "preLoadVisualizationDatasets" : "bool",
+         "expandSubsetAsSaved" : "bool"
+      },
+      "startingScope" : "IModelObject[]"
+   },
+   "ServiceOperation" : "CpdCore-2011-06-StructureExpand/startExpandStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expandCursor" : "IModelObject",
+      "content" : [
+         {
+            "presentedParentContent" : "IModelObject[]",
+            "startingObject" : "IModelObject",
+            "sourceTargetMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "elementContent" : "IModelObject[]",
+            "bomLineContent" : "IModelObject[]",
+            "copyStableIDData" : [
+               {
+                  "copyStableIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ],
+                  "subset" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "finished" : "bool"
+   }
+}

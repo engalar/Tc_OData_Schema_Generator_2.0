@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "testType" : "String",
+            "owningUserName" : "String",
+            "testSteps" : "String",
+            "executionSystem" : "String",
+            "owningObject" : "IModelObject",
+            "testInstance" : "IModelObject",
+            "executionScope" : "String",
+            "testName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-TestManagement-2014-12-InstanceManagement/editTestInstances",
+   "OperationResponse" : {
+      "testInstances" : "IModelObject[]",
+      "srvcData" : "IServiceData"
+   }
+}

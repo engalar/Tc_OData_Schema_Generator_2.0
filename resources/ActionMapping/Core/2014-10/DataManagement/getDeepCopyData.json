@@ -1,0 +1,34 @@
+{
+   "ServiceOperation" : "Core-2014-10-DataManagement/getDeepCopyData",
+   "OperationResponse" : {
+      "deepCopyInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "operationInputs" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "propertyValuesMap" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "attachedObject" : "IModelObject",
+                  "operationInputTypeName" : "String",
+                  "childDeepCopyData" : "Teamcenter::Soa::Core::_2014_10::DataManagement::DeepCopyData[]"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "deepCopyDataInput" : [
+         {
+            "operation" : "String",
+            "businessObject" : "IModelObject"
+         }
+      ]
+   }
+}

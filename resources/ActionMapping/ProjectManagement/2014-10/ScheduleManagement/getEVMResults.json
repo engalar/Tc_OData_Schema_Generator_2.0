@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "ProjectManagement-2014-10-ScheduleManagement/getEVMResults",
+   "OperationResponse" : {
+      "evmServiceData" : "IServiceData",
+      "evmData" : {
+         "task" : "IModelObject",
+         "evmResults" : {
+            "SampleKeyString" : "double"
+         }
+      }
+   },
+   "OperationInput" : {
+      "inputEVMData" : {
+         "taskVector" : "IModelObject[]",
+         "calcBasisSelected" : "bool",
+         "selectedLabel" : "bool",
+         "calcWorkComplete" : "bool"
+      }
+   }
+}

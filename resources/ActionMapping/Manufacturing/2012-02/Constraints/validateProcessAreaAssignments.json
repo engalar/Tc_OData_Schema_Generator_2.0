@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "maxErrors" : "int",
+            "contextToValidate" : "IModelObject",
+            "constraintTypes" : "IModelObject[]",
+            "rootProcessAreas" : "IModelObject[]",
+            "contextOfConstraints" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-Constraints/validateProcessAreaAssignments",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "errors" : [
+               {
+                  "message" : "String",
+                  "objectsOfContextOfConstraint" : "IModelObject[]",
+                  "constraintType" : "IModelObject",
+                  "processAreas" : "IModelObject[]",
+                  "objectsOfContextToValidate" : "IModelObject[]",
+                  "constraints" : "IModelObject[]"
+               }
+            ]
+         }
+      ]
+   }
+}

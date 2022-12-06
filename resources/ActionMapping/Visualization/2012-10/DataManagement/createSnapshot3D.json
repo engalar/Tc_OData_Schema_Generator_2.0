@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "datasetInfo" : {
+               "datasetName" : "String",
+               "datasetType" : "String",
+               "tool" : "String",
+               "datasetDesc" : "String"
+            },
+            "namedRefFileUpdateInfoList" : [
+               {
+                  "clientFileId" : "String",
+                  "fileName" : "String",
+                  "refName" : "String",
+                  "fileState" : "String",
+                  "newObject" : "IModelObject",
+                  "existingObject" : "IModelObject",
+                  "fileTicket" : "String"
+               }
+            ],
+            "createStructureFile" : "bool",
+            "clientId" : "String",
+            "attachToInfo" : {
+               "relationName" : "String",
+               "attachToObject" : "IModelObject"
+            },
+            "visibleLinesList" : "IModelObject[]",
+            "variantName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "snapshot3DOutputMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Visualization-2012-10-DataManagement/createSnapshot3D"
+}

@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "candidateTools" : [
+         {
+            "tools" : [
+               {
+                  "trObject" : "IModelObject",
+                  "toolObjects" : "IModelObject[]"
+               }
+            ],
+            "parentObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-Model/getCandidateToolsForToolRequirement",
+   "OperationInput" : {
+      "resolveObjects" : [
+         {
+            "toolSource" : "String",
+            "parent" : "IModelObject",
+            "trObject" : "IModelObject"
+         }
+      ]
+   }
+}

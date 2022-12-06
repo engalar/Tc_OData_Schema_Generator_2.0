@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-IppeCore-2020-12-WBSManagement/cloneWBSElementStructure",
+   "OperationInput" : {
+      "sourceProductContextInfo" : "IModelObject",
+      "newWBSNumber" : "String",
+      "targetWBSRoot" : "IModelObject",
+      "excludeElements" : "IModelObject[]"
+   }
+}

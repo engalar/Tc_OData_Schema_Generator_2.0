@@ -1,0 +1,35 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "traceabilityMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  [
+                     {
+                        "bomLine" : "IModelObject",
+                        "relations" : "IModelObject[]"
+                     }
+                  ]
+               ]
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Requirementsmanagement-2012-10-RequirementsManagement/getTraceabilityMatrix",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "filterFormat" : "String",
+            "targetLine" : "IModelObject",
+            "sourceLine" : "IModelObject",
+            "filterTypes" : "String[]"
+         }
+      ]
+   }
+}

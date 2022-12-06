@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Cad-2007-12-StructureManagement/queryClassicOptions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "itemRevisionOptionData" : [
+         {
+            "itemRevision" : "IModelObject",
+            "optionData" : [
+               {
+                  "existingValues" : "String[]",
+                  "optionDesc" : "String",
+                  "optionName" : "String",
+                  "values" : "String[]"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputRevisions" : "IModelObject[]"
+   }
+}

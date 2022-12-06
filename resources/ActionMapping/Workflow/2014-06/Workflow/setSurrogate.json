@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Workflow-2014-06-Workflow/setSurrogate",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "requests" : [
+         {
+            "endDate" : "Date",
+            "fromResource" : "IModelObject",
+            "unset" : "bool",
+            "startDate" : "Date",
+            "toResource" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-06-OccurrenceManagement/cloneContent",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "defaultFolder" : "IModelObject",
+            "productContextInfo" : "IModelObject",
+            "cloneFlags" : "int",
+            "dataList" : [
+               {
+                  "element" : "IModelObject",
+                  "cloneOperationType" : "int",
+                  "clonedObjectInfo" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ],
+            "defaultName" : {
+               "toString" : "String",
+               "fromString" : "String",
+               "prefix" : "String",
+               "suffix" : "String",
+               "autogen" : "bool"
+            }
+         }
+      ]
+   }
+}

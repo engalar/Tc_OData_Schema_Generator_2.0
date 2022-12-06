@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "canceledCheckoutInfo" : [
+         {
+            "clientID" : "String",
+            "failedVersionNodes" : "IModelObject[]",
+            "branchVersionNodes" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-BranchAndVersioning-2018-12-BranchingAndVersioning/cancelCheckoutNodes2",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientID" : "String",
+            "targetBranch" : "IModelObject",
+            "config" : {
+               "SampleKeyString" : "String"
+            },
+            "cancelCONodeObjects" : "IModelObject[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "config" : {
+         "useDefaultRevisionRule" : "bool",
+         "id" : "IModelObject",
+         "rulename" : "String"
+      },
+      "transferModeName" : "String",
+      "plmxmlFileId" : "String"
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/processStructure",
+   "OperationResponse" : "IServiceData"
+}

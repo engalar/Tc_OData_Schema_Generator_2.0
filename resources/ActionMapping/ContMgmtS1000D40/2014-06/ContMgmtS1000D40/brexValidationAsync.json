@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-ContMgmtS1000D40-2014-06-ContMgmtS1000D40/brexValidationAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "brexFileReadTicket" : "String",
+            "businessObject" : "IModelObject"
+         }
+      ]
+   }
+}

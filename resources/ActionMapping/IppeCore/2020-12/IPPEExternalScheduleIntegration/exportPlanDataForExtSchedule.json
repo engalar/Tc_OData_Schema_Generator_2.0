@@ -1,0 +1,217 @@
+{
+   "OperationInput" : {
+      "wbsRootIDs" : "String[]",
+      "planID" : "String"
+   },
+   "ServiceOperation" : "Internal-IppeCore-2020-12-IPPEExternalScheduleIntegration/exportPlanDataForExtSchedule",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "planOwnerEmailID" : "String",
+      "planName" : "String",
+      "wbsData" : [
+         {
+            "pwbsRootName" : "String",
+            "contractScheduleDate" : "Date",
+            "vPredecessorAndSuccessorStrc" : [
+               {
+                  "proxyTaskStruc" : {
+                     "vAddedProxyTasks" : [
+                        {
+                           "vecPlanIDsForProxyTask" : "String[]",
+                           "earlyStartDate" : "Date",
+                           "staskID" : "String",
+                           "dSpanTime" : "double",
+                           "sExecutionState" : "String",
+                           "wbsNameForProxyTask" : "String",
+                           "dPercentageComplete" : "double",
+                           "earlyFinishDate" : "Date",
+                           "wbsNumberForProxyTask" : "String",
+                           "actualEndDate" : "Date",
+                           "actualStartDate" : "Date"
+                        }
+                     ],
+                     "vDeletedProxyTasks" : [
+                        {
+                           "vecPlanIDsForProxyTask" : "String[]",
+                           "earlyStartDate" : "Date",
+                           "staskID" : "String",
+                           "dSpanTime" : "double",
+                           "sExecutionState" : "String",
+                           "wbsNameForProxyTask" : "String",
+                           "dPercentageComplete" : "double",
+                           "earlyFinishDate" : "Date",
+                           "wbsNumberForProxyTask" : "String",
+                           "actualEndDate" : "Date",
+                           "actualStartDate" : "Date"
+                        }
+                     ]
+                  },
+                  "sPrimaryWBS" : "String",
+                  "vecStrSecondaryWBS" : "String[]"
+               }
+            ],
+            "vWBSDeltaRecords" : [
+               {
+                  "strWBSIdentifier" : "String",
+                  "strWBSName" : "String",
+                  "intWBSDeltaAction" : "int",
+                  "vecScheduleDeltaRecords" : [
+                     {
+                        "intDeltaRecordAction" : "int",
+                        "strSchedDeltaRecUID" : "String",
+                        "intDeltaRecordStatusInScheduler" : "int",
+                        "strAttributeName" : "String",
+                        "vecTaskInfoUIDs" : "String[]",
+                        "strWBSElementRevUID" : "String"
+                     }
+                  ],
+                  "intWBSDeltaStatusInScheduler" : "int",
+                  "intPresentInStructure" : "int"
+               }
+            ],
+            "wbsExportMode" : "String",
+            "vWorkElementExportStrc" : [
+               {
+                  "sActiveTaskExecutionState" : "String",
+                  "sWBSName" : "String",
+                  "sActiveTaskUID" : "String",
+                  "sWBSWorkElementRevisionUID" : "String",
+                  "iWorkEffort" : "int",
+                  "mapWBSPropToExtSchedule" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "bIsExported" : "bool",
+                  "vFunctionalWorkPackageStrc" : [
+                     {
+                        "sDepartmentNumber" : "String",
+                        "vecStrcTimeBasedCostElement" : [
+                           {
+                              "sCostElementId" : "String",
+                              "sDisciplineName" : "String",
+                              "dEstimatedCost" : "double"
+                           }
+                        ],
+                        "sFunctionalOrganization" : "String"
+                     }
+                  ],
+                  "sWBSItemId" : "String",
+                  "sWBSNumber" : "String",
+                  "vTaskInfoStrc" : [
+                     {
+                        "actualStartDate" : "Date",
+                        "actualEndDate" : "Date",
+                        "earlyFinishDate" : "Date",
+                        "wbsNumberForProxyTask" : "String",
+                        "dPercentageComplete" : "double",
+                        "sExecutionState" : "String",
+                        "dSpanTime" : "double",
+                        "wbsNameForProxyTask" : "String",
+                        "staskID" : "String",
+                        "earlyStartDate" : "Date",
+                        "vecPlanIDsForProxyTask" : "String[]"
+                     }
+                  ],
+                  "sWBSType" : "String"
+               }
+            ],
+            "vIPTLeadInfo" : "String[]",
+            "resourceConstraintSchedule" : "bool",
+            "vTimeBasedCostElements" : [
+               {
+                  "sTimeBasedCostElementUid" : "String",
+                  "sTimeBasedCostElementName" : "String"
+               }
+            ],
+            "pwbsRootItemID" : "String",
+            "soaUserEmailID" : "String",
+            "vDeleteTaskInfoStrcs" : [
+               {
+                  "sTaskID" : "String",
+                  "sWBSNumber" : "String"
+               }
+            ],
+            "impProgramStrc" : {
+               "sProgramName" : "String",
+               "sProgramDesc" : "String",
+               "sProgramId" : "String",
+               "vecPlanIds" : "String[]",
+               "vecIMPEventStrc" : [
+                  {
+                     "vecPredTasks" : "String[]",
+                     "vecTaskInfoUID" : "String[]",
+                     "sEventUID" : "String",
+                     "vecIMPAccomplishmentStrc" : [
+                        {
+                           "sAccomplishmentDesc" : "String",
+                           "vecIMPCriteriaStrc" : [
+                              {
+                                 "sCriteriaName" : "String",
+                                 "taskInfo" : {
+                                    "dPercentageComplete" : "double",
+                                    "sExecutionState" : "String",
+                                    "dSpanTime" : "double",
+                                    "wbsNameForProxyTask" : "String",
+                                    "earlyStartDate" : "Date",
+                                    "staskID" : "String",
+                                    "vecPlanIDsForProxyTask" : "String[]",
+                                    "actualStartDate" : "Date",
+                                    "actualEndDate" : "Date",
+                                    "earlyFinishDate" : "Date",
+                                    "wbsNumberForProxyTask" : "String"
+                                 },
+                                 "sCriteriaDesc" : "String",
+                                 "vecTaskInfoUID" : "String[]",
+                                 "sCriteriaUID" : "String",
+                                 "sCriteriaElementID" : "String"
+                              }
+                           ],
+                           "sAccomplishmentName" : "String",
+                           "sAccomplishmentRevisionUID" : "String",
+                           "taskInfo" : {
+                              "vecPlanIDsForProxyTask" : "String[]",
+                              "earlyStartDate" : "Date",
+                              "staskID" : "String",
+                              "wbsNameForProxyTask" : "String",
+                              "dSpanTime" : "double",
+                              "sExecutionState" : "String",
+                              "dPercentageComplete" : "double",
+                              "wbsNumberForProxyTask" : "String",
+                              "earlyFinishDate" : "Date",
+                              "actualEndDate" : "Date",
+                              "actualStartDate" : "Date"
+                           },
+                           "sAccomplishmentElementID" : "String"
+                        }
+                     ],
+                     "sEventDesc" : "String",
+                     "sEventName" : "String",
+                     "sEventPlannedDate" : "String",
+                     "sEventElementID" : "String"
+                  }
+               ],
+               "impBreakDownScheme" : "int"
+            },
+            "vIMPDeltaRecords" : [
+               {
+                  "strIMPType" : "String",
+                  "intPresentInStructure" : "int",
+                  "strIMPIdentifier" : "String",
+                  "vecScheduleDeltaRecords" : [
+                     {
+                        "intDeltaRecordStatusInScheduler" : "int",
+                        "strAttributeName" : "String",
+                        "vecTaskInfoUIDs" : "String[]",
+                        "strWBSElementRevUID" : "String",
+                        "intDeltaRecordAction" : "int",
+                        "strSchedDeltaRecUID" : "String"
+                     }
+                  ],
+                  "strIMPName" : "String",
+                  "intIMPDeltaStatusInScheduler" : "int",
+                  "intIMPDeltaAction" : "int"
+               }
+            ]
+         }
+      ]
+   }
+}

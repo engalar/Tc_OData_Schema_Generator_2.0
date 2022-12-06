@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "equivalentObjects" : [
+         {
+            "eqvTargetLines" : "IModelObject[]",
+            "eqvSrcLines" : "IModelObject[]",
+            "criteria" : {
+               "SampleKeyString" : {
+                  "intMap" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "dateMap" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "strMap" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "dblMap" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "objMap" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  }
+               }
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "details" : [
+         {
+            "index" : "int",
+            "details" : [
+               {
+                  "propertyName" : "String",
+                  "isDifferent" : "bool"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2012-02-StructureVerification/getPropertyComparisonDetails"
+}

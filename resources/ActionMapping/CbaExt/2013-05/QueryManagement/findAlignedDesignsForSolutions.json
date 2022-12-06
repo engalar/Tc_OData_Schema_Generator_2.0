@@ -1,0 +1,36 @@
+{
+   "ServiceOperation" : "Internal-CbaExt-2013-05-QueryManagement/findAlignedDesignsForSolutions",
+   "OperationResponse" : {
+      "solutionToAlignedDesignInfos" : [
+         {
+            "impreciseUniqueKey" : "String",
+            "design" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "solutions" : {
+         "columnSet" : {
+            "column" : [
+               {
+                  "datatype" : "String",
+                  "logicalName" : "String",
+                  "name" : "String",
+                  "table" : "String",
+                  "width" : "int"
+               }
+            ],
+            "table" : "String"
+         },
+         "rowSet" : {
+            "row" : [
+               {
+                  "value" : "String[]",
+                  "clientID" : "String"
+               }
+            ]
+         }
+      }
+   }
+}

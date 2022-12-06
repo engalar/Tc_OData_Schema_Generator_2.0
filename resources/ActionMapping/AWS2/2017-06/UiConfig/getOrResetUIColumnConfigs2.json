@@ -1,0 +1,68 @@
+{
+   "OperationInput" : {
+      "getOrResetUiConfigsIn" : [
+         {
+            "businessObjects" : "IModelObject[]",
+            "scope" : "String",
+            "resetColumnConfig" : "bool",
+            "scopeName" : "String",
+            "clientName" : "String",
+            "hostingClientName" : "String",
+            "columnConfigQueryInfos" : [
+               {
+                  "typeNames" : "String[]",
+                  "columnsToExclude" : "String[]",
+                  "clientScopeURI" : "String",
+                  "operationType" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-06-UiConfig/getOrResetUIColumnConfigs2",
+   "OperationResponse" : {
+      "clientName" : "String",
+      "columnConfigurations" : [
+         {
+            "columnConfigurations" : [
+               {
+                  "sortDirection" : "String",
+                  "operationType" : "String",
+                  "columnConfigId" : "String",
+                  "columns" : [
+                     {
+                        "sortPriority" : "int",
+                        "colDefSortDirection" : "String",
+                        "sortByFlag" : "bool",
+                        "columnSrcType" : "String",
+                        "pixelWidth" : "int",
+                        "propDescriptor" : {
+                           "lovCategory" : "int",
+                           "valueType" : "int",
+                           "srcObjectTypeName" : "String",
+                           "propConstants" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "isArray" : "bool",
+                           "displayName" : "String",
+                           "propertyType" : "int",
+                           "propertyName" : "String",
+                           "maxArraySize" : "int",
+                           "lov" : "IModelObject",
+                           "maxLength" : "int"
+                        },
+                        "columnOrder" : "int",
+                        "hiddenFlag" : "bool"
+                     }
+                  ]
+               }
+            ],
+            "hostingClient" : "String",
+            "scopeName" : "String",
+            "scope" : "String",
+            "clientScopeURI" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

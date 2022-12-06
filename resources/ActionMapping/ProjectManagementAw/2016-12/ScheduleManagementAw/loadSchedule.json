@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "loadScheduleInfo" : {
+         "referenceTask" : "IModelObject",
+         "schedule" : "IModelObject",
+         "parentTasks" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "parentTasks" : "IModelObject[]",
+      "scheduleTasks" : "IModelObject[]",
+      "proxyTasks" : "IModelObject[]",
+      "hasMoreTasks" : "bool",
+      "eventRanges" : [
+         {
+            "ranges" : "String[]",
+            "eventDate" : "Date"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "taskDependencies" : "IModelObject[]",
+      "dayRanges" : {
+         "SampleKeyInt" : "String[]"
+      }
+   },
+   "ServiceOperation" : "ProjectManagementAw-2016-12-ScheduleManagementAw/loadSchedule"
+}

@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "baseURL" : "String",
+            "operationType" : "String",
+            "selectedObjects" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "revToFullText" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "objectPropValues" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "propValues" : "String[]",
+                  "propName" : "String"
+               }
+            ]
+         ]
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2019-06-RequirementsManagement/getFullTextVersionInfo"
+}

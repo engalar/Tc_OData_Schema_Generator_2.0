@@ -1,0 +1,46 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11EndImportSvc",
+   "OperationResponse" : {
+      "serverCorrelationId" : "String",
+      "out" : {
+         "failures" : [
+            {
+               "failureCode" : "int",
+               "failingObject" : "String"
+            }
+         ]
+      },
+      "userDataIp" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userDataIp" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "clientCorrelationId" : "String",
+            "roleName" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "targetSiteId" : "int",
+            "groupName" : "String"
+         },
+         "compressPerformedFlg" : "int",
+         "importOptions" : [
+            {
+               "optType" : "int",
+               "optValue" : {
+                  "optVal" : "int",
+                  "stringOptVal" : "String"
+               }
+            }
+         ],
+         "abortFlag" : "bool",
+         "importObjects" : "String[]",
+         "importStagingDir" : "String",
+         "excludeObjects" : "String[]"
+      }
+   }
+}

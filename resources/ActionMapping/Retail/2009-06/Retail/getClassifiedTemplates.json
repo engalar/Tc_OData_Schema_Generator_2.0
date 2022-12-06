@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {
+      "classifiedTemplates" : [
+         {
+            "templateObjects" : "IModelObject[]",
+            "templateTypeName" : "String",
+            "classId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2009-06-Retail/getClassifiedTemplates",
+   "OperationInput" : {
+      "input" : [
+         {
+            "traverseUpToRoot" : "bool",
+            "searchClassId" : "String",
+            "rootClassId" : "String",
+            "templateTypeName" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "nodesToSearch" : "IModelObject[]",
+      "searchScope" : "IModelObject[]",
+      "productView" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Visualization-2010-09-DataManagement/getNodesPresentInProductView",
+   "OperationResponse" : {
+      "outputNodes" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

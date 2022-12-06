@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Core-2007-01-DataManagement/setProperties",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "attributes" : {
+         "SampleKeyString" : {
+            "stringVec" : "String[]"
+         }
+      },
+      "objects" : "IModelObject[]"
+   }
+}

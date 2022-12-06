@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-Core-2007-05-Session/refreshPOMCachePerRequestDeprecated",
+   "OperationResponse" : "bool",
+   "OperationInput" : {
+      "refresh" : "bool"
+   }
+}

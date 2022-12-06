@@ -1,0 +1,43 @@
+{
+   "OperationResponse" : {
+      "tileGroups" : [
+         {
+            "tiles" : [
+               {
+                  "relUID" : "String",
+                  "validSizes" : "int[]",
+                  "displayName" : "String",
+                  "content" : [
+                     {
+                        "contentName" : "String",
+                        "contentValue" : "String"
+                     }
+                  ],
+                  "action" : {
+                     "commandId" : "String",
+                     "actionType" : "int",
+                     "actionParams" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "url" : "String"
+                  },
+                  "orderNumber" : "int",
+                  "isProtected" : "bool",
+                  "icons" : {
+                     "secondaryIcon" : "String",
+                     "typeHierarchy" : "String[]",
+                     "primaryIcon" : "String"
+                  },
+                  "tileSize" : "int",
+                  "themeIndex" : "int",
+                  "styleOverride" : "String"
+               }
+            ],
+            "groupName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-DataManagement/getCurrentUserGateway2",
+   "OperationInput" : {}
+}

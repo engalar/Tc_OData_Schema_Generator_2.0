@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : {
+      "ticket" : {
+         "originalFileName" : "String",
+         "ticket" : "String"
+      },
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/getStructureReadTicket",
+   "OperationInput" : {
+      "id" : "IModelObject",
+      "type" : "UpdateType_Full UpdateType_Delta UpdateType_Any"
+   }
+}

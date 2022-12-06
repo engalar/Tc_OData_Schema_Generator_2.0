@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2020-01-OwnershipRecovery/deleteOtTransaction",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "transactionId" : "String"
+   }
+}

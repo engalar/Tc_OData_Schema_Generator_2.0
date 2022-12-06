@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "childIds" : "String[]"
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/getParents",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "parents" : {
+         "SampleKeyString" : "String[]"
+      }
+   }
+}

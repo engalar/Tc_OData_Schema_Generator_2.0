@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "aclsType" : "int"
+   },
+   "OperationResponse" : {
+      "aclNameInfos" : [
+         {
+            "aclObject" : "IModelObject",
+            "aclName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Administration-2008-06-IRM/getACLsByType"
+}

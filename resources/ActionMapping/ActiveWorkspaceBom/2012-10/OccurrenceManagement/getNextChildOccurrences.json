@@ -1,0 +1,171 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "goForward" : "bool",
+            "cursor" : {
+               "cursorData" : "String[]",
+               "parentOccurrences" : "IModelObject[]",
+               "inputCtxt" : {
+                  "filter" : {
+                     "searchInput" : {
+                        "searchFilterFieldSortType" : "Alphabetical Priority",
+                        "searchSortCriteria" : [
+                           {
+                              "sortDirection" : "ASC DESC",
+                              "fieldName" : "String"
+                           }
+                        ],
+                        "searchString" : "String",
+                        "searchFilterMap" : {
+                           "SampleKeyString" : [
+                              {
+                                 "count" : "int",
+                                 "startEndRange" : "String",
+                                 "selected" : "bool",
+                                 "endNumericValue" : "double",
+                                 "startNumericValue" : "double",
+                                 "startDateValue" : "Date",
+                                 "endDateValue" : "Date",
+                                 "stringValue" : "String",
+                                 "searchFilterType" : "StringFilter DateFilter NumericFilter"
+                              }
+                           ]
+                        }
+                     }
+                  },
+                  "structureContextObject" : "IModelObject",
+                  "pageSize" : "int",
+                  "requestPref" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "configuration" : {
+                     "now" : "bool",
+                     "configurationObject" : "IModelObject",
+                     "endItem" : "IModelObject",
+                     "revisionRule" : "IModelObject",
+                     "svrOwningProduct" : "IModelObject",
+                     "unitNo" : "int",
+                     "effectivityDate" : "Date",
+                     "variantRule" : "IModelObject"
+                  },
+                  "productContext" : "IModelObject",
+                  "updateAutoBookmark" : "bool",
+                  "attachedDataCriteria" : [
+                     {
+                        "relationName" : "String",
+                        "attachedObjectType" : "String",
+                        "namedReferences" : "String[]",
+                        "returnAttachedObject" : "bool",
+                        "returnNamedRefObject" : "bool",
+                        "returnFileTickets" : "bool"
+                     }
+                  ]
+               },
+               "contextInfo" : "IModelObject",
+               "endIndex" : "int",
+               "startIndex" : "int",
+               "pageSize" : "int",
+               "firstLevelOnly" : "bool"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "cursor" : {
+               "startIndex" : "int",
+               "contextInfo" : "IModelObject",
+               "endIndex" : "int",
+               "firstLevelOnly" : "bool",
+               "pageSize" : "int",
+               "parentOccurrences" : "IModelObject[]",
+               "cursorData" : "String[]",
+               "inputCtxt" : {
+                  "attachedDataCriteria" : [
+                     {
+                        "returnFileTickets" : "bool",
+                        "namedReferences" : "String[]",
+                        "attachedObjectType" : "String",
+                        "returnNamedRefObject" : "bool",
+                        "returnAttachedObject" : "bool",
+                        "relationName" : "String"
+                     }
+                  ],
+                  "productContext" : "IModelObject",
+                  "updateAutoBookmark" : "bool",
+                  "configuration" : {
+                     "endItem" : "IModelObject",
+                     "svrOwningProduct" : "IModelObject",
+                     "revisionRule" : "IModelObject",
+                     "unitNo" : "int",
+                     "variantRule" : "IModelObject",
+                     "effectivityDate" : "Date",
+                     "configurationObject" : "IModelObject",
+                     "now" : "bool"
+                  },
+                  "requestPref" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "pageSize" : "int",
+                  "structureContextObject" : "IModelObject",
+                  "filter" : {
+                     "searchInput" : {
+                        "searchFilterFieldSortType" : "Alphabetical Priority",
+                        "searchString" : "String",
+                        "searchSortCriteria" : [
+                           {
+                              "fieldName" : "String",
+                              "sortDirection" : "ASC DESC"
+                           }
+                        ],
+                        "searchFilterMap" : {
+                           "SampleKeyString" : [
+                              {
+                                 "searchFilterType" : "StringFilter DateFilter NumericFilter",
+                                 "stringValue" : "String",
+                                 "endDateValue" : "Date",
+                                 "startDateValue" : "Date",
+                                 "startNumericValue" : "double",
+                                 "endNumericValue" : "double",
+                                 "selected" : "bool",
+                                 "startEndRange" : "String",
+                                 "count" : "int"
+                              }
+                           ]
+                        }
+                     }
+                  }
+               }
+            },
+            "contextInfo" : "IModelObject",
+            "childOccInfos" : [
+               {
+                  "parent" : "IModelObject",
+                  "contextInfo" : "IModelObject",
+                  "focusOccurrence" : "IModelObject",
+                  "endReached" : "bool",
+                  "childOccurrences" : [
+                     {
+                        "attachedObjects" : [
+                           {
+                              "namedReferenceName" : "String",
+                              "attachedObject" : "IModelObject",
+                              "relationName" : "String",
+                              "fileTicket" : "String",
+                              "namedRefObject" : "IModelObject"
+                           }
+                        ],
+                        "occurrence" : "IModelObject"
+                     }
+                  ],
+                  "startReached" : "bool"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2012-10-OccurrenceManagement/getNextChildOccurrences"
+}

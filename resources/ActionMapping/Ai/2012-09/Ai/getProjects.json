@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Ai-2012-09-Ai/getProjects",
+   "OperationInput" : {
+      "filter" : {
+         "description" : "String",
+         "groupName" : "String",
+         "targetSiteIds" : "String[]",
+         "type" : "String",
+         "name" : "String",
+         "releasedBefore" : "Date",
+         "releasedAfter" : "Date",
+         "createdBefore" : "Date",
+         "createdAfter" : "Date",
+         "modifiedAfter" : "Date",
+         "userId" : "String",
+         "contextString" : "String",
+         "modifiedBefore" : "Date",
+         "targetAppProjectId" : "String"
+      }
+   }
+}

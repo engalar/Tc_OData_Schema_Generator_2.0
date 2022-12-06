@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "sortKeys" : "String[]",
+      "clientLocale" : "String",
+      "clientInfo" : {
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "clientSiteId" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "roleName" : "String",
+         "userDataInput" : "String",
+         "userId" : "String",
+         "clientOdsMajorVersion" : "int",
+         "osUserName" : "String",
+         "clientOdsMinorVersion" : "int",
+         "targetServerSiteId" : "int",
+         "groupName" : "String",
+         "clientMaintPackVersion" : "int",
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientMinorReleaseVersion" : "int",
+         "clientCorrelID" : "String"
+      },
+      "sortOrder" : "int[]",
+      "queryString" : "String"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-ObjectDirectory/queryPublicationRecords",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "userDataOutput" : "String",
+      "publishedObjTagAsString" : "String[]",
+      "serverCorrelID" : "String"
+   }
+}

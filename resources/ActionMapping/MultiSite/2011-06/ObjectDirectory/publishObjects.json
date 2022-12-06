@@ -1,0 +1,50 @@
+{
+   "OperationInput" : {
+      "records" : [
+         {
+            "customAttributes" : {
+               "SampleKeyString" : "String"
+            },
+            "owningUserId" : "String",
+            "objectName" : "String",
+            "revisionId" : "String",
+            "objectTag" : "String",
+            "localeCountStr" : "String",
+            "pubDate" : "Date",
+            "objectType" : "String",
+            "objectClass" : "String",
+            "releaseStatus" : "String[]",
+            "keyValue" : "String",
+            "domainName" : "String",
+            "creationDate" : "Date",
+            "owningSiteId" : "int",
+            "owningGroupName" : "String",
+            "objectDesc" : "String",
+            "l10NPropertiesInfo" : "String[]",
+            "objectId" : "String",
+            "l10NLocalizedValues" : "String[]"
+         }
+      ],
+      "clientInfo" : {
+         "clientSiteId" : "int",
+         "clientServiceReleaseVersion" : "int",
+         "userName" : "String",
+         "roleName" : "String",
+         "clientMaintPackVersion" : "int",
+         "clientOdsMinorVersion" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "targetServerSiteId" : "int",
+         "groupName" : "String",
+         "osUserName" : "String",
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String",
+         "clientMinorReleaseVersion" : "int"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-MultiSite-2011-06-ObjectDirectory/publishObjects"
+}

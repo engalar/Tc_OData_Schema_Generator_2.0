@@ -1,0 +1,75 @@
+{
+   "OperationInput" : {
+      "featureQueryInfo" : [
+         {
+            "itemRevision" : "IModelObject",
+            "featureReturnFilter" : {
+               "levelsForward" : "int",
+               "featureTypes" : "String[]",
+               "psNotesWanted" : "String[]",
+               "relationTypes" : "String[]",
+               "configRule" : "IModelObject",
+               "configurationType" : "All Configured Latest",
+               "levelsBackward" : "int"
+            },
+            "viewType" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clientIdToFeatureMap" : {
+         "SampleKeyString" : [
+            {
+               "masterDataset" : "IModelObject",
+               "gdeItems" : [
+                  {
+                     "psOccNotes" : [
+                        {
+                           "value" : "String",
+                           "name" : "String"
+                        }
+                     ],
+                     "apns" : "IModelObject[]",
+                     "gde" : "IModelObject",
+                     "numberOfGDELinks" : "int",
+                     "gdeLinks" : "IModelObject[]",
+                     "gdeOccurrence" : "IModelObject",
+                     "featureForm" : "IModelObject"
+                  }
+               ],
+               "endOfChain" : "bool",
+               "numberOfChildren" : "int",
+               "partToPartList" : [
+                  {
+                     "primaryRevision" : "IModelObject",
+                     "secondaryRevision" : "IModelObject",
+                     "partToPartRelation" : "IModelObject"
+                  }
+               ],
+               "itemRevision" : "IModelObject",
+               "gdeLinkItems" : [
+                  {
+                     "numberOfGDEs" : "int",
+                     "gdeLinkOccurrence" : "IModelObject",
+                     "apns" : "IModelObject[]",
+                     "gdeLink" : "IModelObject",
+                     "connectedTos" : "IModelObject[]",
+                     "featureForm" : "IModelObject",
+                     "psOccNotes" : [
+                        {
+                           "value" : "String",
+                           "name" : "String"
+                        }
+                     ],
+                     "gdes" : "IModelObject[]"
+                  }
+               ],
+               "numberOfParents" : "int"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-Cad-2013-05-DataManagement/queryPartRelatedFeatures"
+}

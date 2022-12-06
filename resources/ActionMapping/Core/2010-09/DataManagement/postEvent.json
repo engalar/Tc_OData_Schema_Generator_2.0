@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "ifailError" : "int",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2010-09-DataManagement/postEvent",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "primaryObject" : "IModelObject",
+            "propertyValues" : "String[]",
+            "propertyCount" : "int",
+            "errorMessage" : "String",
+            "propertyNames" : "String[]",
+            "secondaryObject" : "IModelObject",
+            "errorCode" : "int"
+         }
+      ],
+      "eventTypeName" : "String"
+   }
+}

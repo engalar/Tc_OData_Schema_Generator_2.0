@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "fileLocations" : "String[]"
+   },
+   "ServiceOperation" : "Internal-ExpressAddons-2012-02-ReviewPackage/exportReviewPackage",
+   "OperationInput" : {
+      "reviewPackageExportStructVector" : [
+         {
+            "emailID" : "String",
+            "containerType" : "String",
+            "fileName" : "String",
+            "pcfPermission" : "String",
+            "jtOnlyOption" : "bool",
+            "itemRevision" : "IModelObject",
+            "datasetType" : "String",
+            "recipientName" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,104 @@
+{
+   "OperationInput" : {
+      "tccalendarUpdates" : [
+         {
+            "eventsToUpdate" : [
+               {
+                  "eventAttributes" : {
+                     "firstRecurEnd" : "Date",
+                     "recurWeeksOfMonth" : "int",
+                     "recurMonth" : "int",
+                     "recurInterval" : "int",
+                     "eventExpiryDate" : "Date",
+                     "eventType" : "int",
+                     "numRecurrences" : "int",
+                     "recurDaysOfWeek" : "int",
+                     "firstRecurStart" : "Date",
+                     "eventRanges" : [
+                        {
+                           "endRange" : "int",
+                           "startRange" : "int"
+                        }
+                     ]
+                  },
+                  "event" : "IModelObject"
+               }
+            ],
+            "calendarAttributes" : {
+               "monRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "source" : "IModelObject",
+               "wedRanges" : [
+                  {
+                     "endRange" : "int",
+                     "startRange" : "int"
+                  }
+               ],
+               "satRanges" : [
+                  {
+                     "endRange" : "int",
+                     "startRange" : "int"
+                  }
+               ],
+               "sunRanges" : [
+                  {
+                     "endRange" : "int",
+                     "startRange" : "int"
+                  }
+               ],
+               "schedule" : "IModelObject",
+               "thuRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "name" : "String",
+               "type" : "int",
+               "tueRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "friRanges" : [
+                  {
+                     "endRange" : "int",
+                     "startRange" : "int"
+                  }
+               ],
+               "baseCalendar" : "IModelObject",
+               "timeZone" : "String",
+               "description" : "String"
+            },
+            "eventsToDelete" : "IModelObject[]",
+            "calendar" : "IModelObject",
+            "eventsToAdd" : [
+               {
+                  "numRecurrences" : "int",
+                  "eventRanges" : [
+                     {
+                        "endRange" : "int",
+                        "startRange" : "int"
+                     }
+                  ],
+                  "recurDaysOfWeek" : "int",
+                  "firstRecurStart" : "Date",
+                  "recurMonth" : "int",
+                  "recurInterval" : "int",
+                  "firstRecurEnd" : "Date",
+                  "recurWeeksOfMonth" : "int",
+                  "eventExpiryDate" : "Date",
+                  "eventType" : "int"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "CalendarManagement-2008-06-CalendarManagement/updateCalendars",
+   "OperationResponse" : "IServiceData"
+}

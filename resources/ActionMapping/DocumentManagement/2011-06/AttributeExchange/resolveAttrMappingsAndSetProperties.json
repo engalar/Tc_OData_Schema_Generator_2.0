@@ -1,0 +1,47 @@
+{
+   "OperationResponse" : {
+      "resolvedAndSetResults" : [
+         {
+            "failedObjInfos" : [
+               {
+                  "errorStack" : "String[]",
+                  "failedForeignObjectName" : "String"
+               }
+            ],
+            "dataset" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "DocumentManagement-2011-06-AttributeExchange/resolveAttrMappingsAndSetProperties",
+   "OperationInput" : {
+      "info" : [
+         {
+            "attrExchange" : [
+               {
+                  "tcPropertyValue" : "String",
+                  "attrExchange" : {
+                     "mapping" : {
+                        "referencedName" : "String",
+                        "attributeName" : "String",
+                        "relationObject" : [
+                           {
+                              "relationName" : "String",
+                              "relationType" : "String",
+                              "mappedObject" : "Teamcenter::Soa::DocumentManagement::_2011_06::AttributeExchange::MappingObject[]"
+                           }
+                        ],
+                        "objectType" : "String",
+                        "nextLevelMappedObject" : "Teamcenter::Soa::DocumentManagement::_2011_06::AttributeExchange::MappingObject[]",
+                        "path" : "String"
+                     },
+                     "foreignObjectPropertyName" : "String"
+                  }
+               }
+            ],
+            "locale" : "String",
+            "datasetObject" : "IModelObject"
+         }
+      ]
+   }
+}

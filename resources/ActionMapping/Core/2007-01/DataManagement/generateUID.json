@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "nUID" : "int"
+   },
+   "ServiceOperation" : "Core-2007-01-DataManagement/generateUID",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "uids" : "String[]"
+   }
+}

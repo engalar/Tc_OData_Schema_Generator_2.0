@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "ProductionManagement-2011-06-MeasurementDataLoad/createLinkNames",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "passWord" : "String",
+      "dbName" : "String",
+      "userName" : "String",
+      "linkName" : "String"
+   }
+}

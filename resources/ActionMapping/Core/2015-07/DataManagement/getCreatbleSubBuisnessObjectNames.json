@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "Core-2015-07-DataManagement/getCreatbleSubBuisnessObjectNames",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "boName" : "String",
+            "creatableBONames" : [
+               {
+                  "boDisplayName" : "String",
+                  "boParents" : "String[]",
+                  "boName" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "context" : "String",
+            "exclusionBONames" : "String[]",
+            "exclusionPreference" : "String",
+            "boName" : "String"
+         }
+      ]
+   }
+}

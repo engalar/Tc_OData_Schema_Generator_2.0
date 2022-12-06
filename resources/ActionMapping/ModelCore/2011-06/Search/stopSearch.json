@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "ModelCore-2011-06-Search/stopSearch",
+   "OperationResponse" : {
+      "finished" : "bool",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "searchCursor" : "IModelObject"
+   }
+}

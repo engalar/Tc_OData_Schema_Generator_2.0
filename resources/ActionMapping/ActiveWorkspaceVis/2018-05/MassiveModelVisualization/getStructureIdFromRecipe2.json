@@ -1,0 +1,66 @@
+{
+   "OperationInput" : {
+      "productStructureIdInput" : [
+         {
+            "productAndConfig" : {
+               "product" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "variantRuleInfos" : [
+                  {
+                     "variantRuleOwningObject" : "IModelObject",
+                     "variantRule" : "IModelObject"
+                  }
+               ],
+               "effectivityInfos" : [
+                  {
+                     "effectivityUnitNo" : "int",
+                     "endItem" : "IModelObject",
+                     "effectivityDate" : "Date"
+                  }
+               ]
+            },
+            "recipeObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceVis-2018-05-MassiveModelVisualization/getStructureIdFromRecipe2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "psIdInfos" : [
+         {
+            "productAndConfig" : {
+               "product" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "variantRuleInfos" : [
+                  {
+                     "variantRule" : "IModelObject",
+                     "variantRuleOwningObject" : "IModelObject"
+                  }
+               ],
+               "effectivityInfos" : [
+                  {
+                     "effectivityUnitNo" : "int",
+                     "effectivityDate" : "Date",
+                     "endItem" : "IModelObject"
+                  }
+               ]
+            },
+            "productStrutureIdentifier" : "String",
+            "clientId" : "String",
+            "clientRevRuleInfo" : {
+               "effectivityExpr" : "String",
+               "revRuleDate" : "Date",
+               "revRuleEntryNames" : "String[]",
+               "variantExpr" : "String"
+            },
+            "partitionRevRuleInfo" : {
+               "revRuleDate" : "Date",
+               "effectivityExpr" : "String",
+               "variantExpr" : "String",
+               "revRuleEntryNames" : "String[]"
+            }
+         }
+      ]
+   }
+}

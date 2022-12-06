@@ -1,0 +1,35 @@
+{
+   "OperationResponse" : {
+      "effectivityTables" : [
+         {
+            "effectivityTableRows" : [
+               {
+                  "unitOut" : "int",
+                  "unitIn" : "int",
+                  "dateOut" : "Date",
+                  "rest" : {
+                     "productName" : "String",
+                     "formula" : "String",
+                     "productNameSpace" : "String"
+                  },
+                  "dateIn" : "Date"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ConfigFilterCriteria-2011-06-EffectivityManagement/getEffectivityTables",
+   "OperationInput" : {
+      "configuratorURL" : "String",
+      "productName" : "String",
+      "productNameSpace" : "String",
+      "formulae" : [
+         {
+            "formula" : "String",
+            "productName" : "String",
+            "productNameSpace" : "String"
+         }
+      ]
+   }
+}

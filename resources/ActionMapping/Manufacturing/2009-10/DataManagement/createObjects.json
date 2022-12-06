@@ -1,0 +1,117 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "relationName" : "String",
+            "clientId" : "String",
+            "data" : {
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "type" : "String",
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "compoundCreateInput" : "Teamcenter::Soa::Manufacturing::_2009_10::DataManagement::CreateInputMap",
+                        "type" : "String",
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        }
+                     }
+                  ]
+               }
+            },
+            "context" : "IModelObject",
+            "target" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "objects" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-DataManagement/createObjects"
+}

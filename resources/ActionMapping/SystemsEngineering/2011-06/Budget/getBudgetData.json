@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "budgetObjs" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SystemsEngineering-2011-06-Budget/getBudgetData",
+   "OperationInput" : {
+      "inputInfo" : [
+         {
+            "lineObj" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

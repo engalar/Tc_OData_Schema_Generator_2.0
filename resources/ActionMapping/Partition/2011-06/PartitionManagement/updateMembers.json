@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "inputPartition" : "IModelObject",
+            "membersList" : "IModelObject[]",
+            "configurationContext" : "IModelObject",
+            "contentPersistenceMode" : "STATIC_MODE DYNAMIC_MODE AUTO_MODE ALL_MODE",
+            "opCode" : "ADD REPLACE REMOVE"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "inputPartition" : "IModelObject",
+            "memberErrorVector" : [
+               {
+                  "member" : "IModelObject",
+                  "errorVal" : {
+                     "message" : "String",
+                     "code" : "int",
+                     "level" : "Error_severity_information Error_severity_warning Error_severity_error"
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Partition-2011-06-PartitionManagement/updateMembers"
+}

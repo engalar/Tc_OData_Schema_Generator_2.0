@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2007-06-MeasurementDataLoad/updateEventColumn",
+   "OperationInput" : {
+      "eventInfo" : [
+         {
+            "columnName" : "String",
+            "plantId" : "String",
+            "eventSysId" : "String",
+            "newValue" : "String"
+         }
+      ]
+   }
+}

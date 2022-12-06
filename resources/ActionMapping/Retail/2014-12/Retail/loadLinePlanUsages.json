@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "retailLinePlans" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Retail-2014-12-Retail/loadLinePlanUsages",
+   "OperationResponse" : {
+      "linePlanUsagesOut" : [
+         {
+            "usageProductInfos" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  {
+                     "product" : "IModelObject",
+                     "vendors" : "IModelObject[]",
+                     "brandColors" : [
+                        [
+                           "SampleKeyIModelObject"
+                        ],
+                        [
+                           "IModelObject[]"
+                        ]
+                     ],
+                     "seasonlessColors" : "IModelObject[]",
+                     "brands" : "IModelObject[]"
+                  }
+               ]
+            ],
+            "linePlanUsages" : "IModelObject[]",
+            "linePlan" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

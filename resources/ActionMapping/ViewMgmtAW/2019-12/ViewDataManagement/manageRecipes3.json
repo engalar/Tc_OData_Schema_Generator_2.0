@@ -1,0 +1,92 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "recipeOutput" : [
+         {
+            "clientId" : "String",
+            "recipeOutput" : {
+               "configSet" : {
+                  "effectivityEndItem" : "IModelObject",
+                  "svrOwningItem" : "IModelObject",
+                  "effectivityUnit" : "int",
+                  "revisionRule" : "String",
+                  "effectivityGroups" : "IModelObject[]",
+                  "effectivityDate" : "Date",
+                  "variantRules" : "IModelObject[]"
+               },
+               "productContext" : "IModelObject",
+               "selectContentInputs" : "IModelObject[]",
+               "seedInfos" : [
+                  {
+                     "rootElement" : "IModelObject",
+                     "seeds" : "IModelObject[]"
+                  }
+               ],
+               "context" : "IModelObject",
+               "isConfigChanged" : "bool",
+               "criteriaSet" : {
+                  "lwoQueryExpression" : "String",
+                  "closureRuleNames" : "String[]"
+               }
+            },
+            "productContext" : "IModelObject",
+            "recipeObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ViewMgmtAW-2019-12-ViewDataManagement/manageRecipes3",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "recipeObject" : "IModelObject",
+            "manageAction" : "String",
+            "attributeValues" : {
+               "SampleKeyString" : "String"
+            },
+            "criteriaInput" : {
+               "isConfigChanged" : "bool",
+               "context" : "IModelObject",
+               "seedInfos" : [
+                  {
+                     "rootElement" : "IModelObject",
+                     "seeds" : "IModelObject[]"
+                  }
+               ],
+               "selectContentInputs" : "IModelObject[]",
+               "configSet" : {
+                  "revisionRule" : "String",
+                  "variantRules" : "IModelObject[]",
+                  "effectivityDate" : "Date",
+                  "effectivityGroups" : "IModelObject[]",
+                  "svrOwningItem" : "IModelObject",
+                  "effectivityEndItem" : "IModelObject",
+                  "effectivityUnit" : "int"
+               },
+               "productContext" : "IModelObject",
+               "criteriaSet" : {
+                  "lwoQueryExpression" : "String",
+                  "closureRuleNames" : "String[]"
+               }
+            },
+            "clientId" : "String",
+            "recipeCreInput" : {
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "compoundCreateInput" : "Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CreateInputMap",
+                        "boName" : "String"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               }
+            }
+         }
+      ]
+   }
+}

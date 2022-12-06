@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "uids" : "String[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2007-09-DataManagement/loadObjects"
+}

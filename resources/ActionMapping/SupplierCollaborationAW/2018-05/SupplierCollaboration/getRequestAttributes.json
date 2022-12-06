@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "exchangeRevObj" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/getRequestAttributes",
+   "OperationResponse" : {
+      "requestAttributes" : [
+         {
+            "propInternalName" : "String",
+            "propDisplayName" : "String",
+            "isEditable" : "bool",
+            "propUIValue" : "String",
+            "propDBValue" : "String",
+            "propDataType" : "String",
+            "hasLOV" : "bool",
+            "propParentBO" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "requestActionType" : "String"
+   }
+}

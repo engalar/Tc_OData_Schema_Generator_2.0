@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "chgOwnProgramInput" : [
+         {
+            "owningProgram" : "IModelObject",
+            "inputObjects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2018-11-ProjectLevelSecurity/changeOwningProgram",
+   "OperationResponse" : "IServiceData"
+}

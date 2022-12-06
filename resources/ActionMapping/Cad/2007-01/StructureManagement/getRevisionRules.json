@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Cad-2007-01-StructureManagement/getRevisionRules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "revRule" : "IModelObject",
+            "overrideFolders" : [
+               {
+                  "ruleEntry" : "IModelObject",
+                  "folder" : "IModelObject"
+               }
+            ],
+            "hasValueStatus" : {
+               "SampleKeyString" : "bool"
+            }
+         }
+      ]
+   }
+}

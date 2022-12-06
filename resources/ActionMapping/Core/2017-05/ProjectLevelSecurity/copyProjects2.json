@@ -1,0 +1,38 @@
+{
+   "ServiceOperation" : "Core-2017-05-ProjectLevelSecurity/copyProjects2",
+   "OperationResponse" : {
+      "projectOpsOutputs" : [
+         {
+            "project" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "copyProjectInfos" : [
+         {
+            "projectInfo" : {
+               "propertyMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "projectName" : "String",
+               "projectId" : "String",
+               "clientId" : "String",
+               "visible" : "bool",
+               "useProgramContext" : "bool",
+               "teamMembers" : [
+                  {
+                     "teamMemberType" : "int",
+                     "teamMember" : "IModelObject"
+                  }
+               ],
+               "active" : "bool",
+               "projectDescription" : "String"
+            },
+            "clientId" : "String",
+            "sourceProject" : "IModelObject"
+         }
+      ]
+   }
+}

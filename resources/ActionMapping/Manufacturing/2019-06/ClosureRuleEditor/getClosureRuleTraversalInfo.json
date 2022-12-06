@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "traversalInfo" : {
+         "SampleKeyString" : [
+            {
+               "imanRelationDescription" : "String",
+               "isPrimaryIncluded" : "bool",
+               "isSecondaryEditable" : "bool",
+               "secondaryObjectType" : "String",
+               "isSecondaryIncluded" : "bool",
+               "imanRelationType" : "String",
+               "isPrimaryEditable" : "bool"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2019-06-ClosureRuleEditor/getClosureRuleTraversalInfo",
+   "OperationInput" : {
+      "input" : {
+         "topBOMLine" : "IModelObject",
+         "closureRuleName" : "String"
+      }
+   }
+}

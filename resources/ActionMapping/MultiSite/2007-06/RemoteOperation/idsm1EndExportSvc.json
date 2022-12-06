@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "roleName" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "targetSiteId" : "int",
+            "groupName" : "String"
+         },
+         "exportStagingDir" : "String",
+         "abortFlag" : "bool"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm1EndExportSvc",
+   "OperationResponse" : "IServiceData"
+}

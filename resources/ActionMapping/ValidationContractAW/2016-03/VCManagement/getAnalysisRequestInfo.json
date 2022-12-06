@@ -1,0 +1,101 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "childrenStudyScope" : "String[]",
+            "arOrStudyRevision" : "IModelObject",
+            "clientId" : "String",
+            "includeChildrenStudies" : "bool",
+            "arOrStudyScope" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "ValidationContractAW-2016-03-VCManagement/getAnalysisRequestInfo",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "inputSectionData" : [
+               {
+                  "sectionKey" : "String",
+                  "sectionDisplayName" : "String",
+                  "inputObjects" : [
+                     {
+                        "occurrenceThreadChain" : "String",
+                        "element" : "IModelObject",
+                        "attributesInfo" : [
+                           {
+                              "inputOrOutput" : "String",
+                              "attribute" : "IModelObject"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "childrenStudies" : [
+               {
+                  "studyRevision" : "IModelObject",
+                  "inputAttributes" : [
+                     {
+                        "inputOrOutput" : "String",
+                        "attribute" : "IModelObject"
+                     }
+                  ],
+                  "outputSectionData" : [
+                     {
+                        "sectionKey" : "String",
+                        "sectionDisplayName" : "String",
+                        "outputObjects" : "IModelObject[]"
+                     }
+                  ],
+                  "inputSectionData" : [
+                     {
+                        "sectionDisplayName" : "String",
+                        "sectionKey" : "String",
+                        "inputObjects" : [
+                           {
+                              "element" : "IModelObject",
+                              "occurrenceThreadChain" : "String",
+                              "attributesInfo" : [
+                                 {
+                                    "inputOrOutput" : "String",
+                                    "attribute" : "IModelObject"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "outputAttributes" : [
+                     {
+                        "attribute" : "IModelObject",
+                        "inputOrOutput" : "String"
+                     }
+                  ]
+               }
+            ],
+            "outputAttributes" : [
+               {
+                  "inputOrOutput" : "String",
+                  "attribute" : "IModelObject"
+               }
+            ],
+            "outputSectionData" : [
+               {
+                  "sectionDisplayName" : "String",
+                  "sectionKey" : "String",
+                  "outputObjects" : "IModelObject[]"
+               }
+            ],
+            "inputAttributes" : [
+               {
+                  "inputOrOutput" : "String",
+                  "attribute" : "IModelObject"
+               }
+            ],
+            "arOrStudyRevision" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

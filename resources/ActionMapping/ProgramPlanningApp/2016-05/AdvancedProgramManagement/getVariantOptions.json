@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "planList" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "responseStructList" : [
+         {
+            "plan" : "IModelObject",
+            "productVariantVector" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProgramPlanningApp-2016-05-AdvancedProgramManagement/getVariantOptions"
+}

@@ -1,0 +1,63 @@
+{
+   "OperationResponse" : {
+      "mappingOutputs" : [
+         {
+            "propInfos" : [
+               {
+                  "isRequired" : "bool",
+                  "propHeader" : "String",
+                  "dispPropName" : "String",
+                  "realPropName" : "String"
+               }
+            ],
+            "mappingGroups" : [
+               {
+                  "dispName" : "String",
+                  "isModifiable" : "bool",
+                  "realName" : "String"
+               }
+            ],
+            "typePropInfos" : [
+               {
+                  "propInfos" : [
+                     {
+                        "propHeader" : "String",
+                        "isRequired" : "bool",
+                        "realPropName" : "String",
+                        "dispPropName" : "String"
+                     }
+                  ],
+                  "dispTypeName" : "String",
+                  "objectType" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2018-05-ImportExport/getMappingGroupInfo",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "mappingGroupData" : {
+               "groupName" : {
+                  "realName" : "String",
+                  "isModifiable" : "bool",
+                  "dispName" : "String"
+               },
+               "mappingInfo" : [
+                  {
+                     "dispPropName" : "String",
+                     "realPropName" : "String",
+                     "isRequired" : "bool",
+                     "propHeader" : "String"
+                  }
+               ],
+               "actionName" : "String"
+            },
+            "transientFileWriteTicket" : "String",
+            "importOptions" : "String[]"
+         }
+      ]
+   }
+}

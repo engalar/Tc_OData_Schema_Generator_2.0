@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "deletePreferencesAtLocationIn" : [
+         {
+            "preferenceNames" : "String[]",
+            "location" : {
+               "object" : "IModelObject",
+               "location" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/deletePreferencesAtLocations"
+}

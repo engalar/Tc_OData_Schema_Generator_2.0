@@ -1,0 +1,57 @@
+{
+   "OperationInput" : {
+      "isItemRevConflictResolved" : "bool",
+      "isAsync" : "bool",
+      "filesUploadInfo" : [
+         {
+            "conflictResolutionOption" : "String",
+            "fileLastModified" : "String",
+            "modifiedFileName" : "String",
+            "namedReferenceName" : "String",
+            "contextDataset" : "IModelObject",
+            "fileName" : "String",
+            "fileSize" : "String",
+            "contextItemRevision" : "IModelObject",
+            "fileTicket" : "String"
+         }
+      ],
+      "shouldCheckInDataset" : "bool",
+      "fileUploadRuleSet" : "IModelObject",
+      "contextObjects" : "IModelObject[]",
+      "isFileConflictsResolved" : "bool",
+      "isDSMEnabled" : "bool",
+      "workingDirectory" : "String"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2020-12-SimulationManagementAw/uploadFilesUsingCAERules",
+   "OperationResponse" : {
+      "isConflict" : "bool",
+      "serviceData" : "IServiceData",
+      "restrictedFilesForUpload" : "String[]",
+      "fileUploadConflictInfo" : [
+         {
+            "fileName" : "String",
+            "contextDataset" : "IModelObject",
+            "namedReferenceName" : "String",
+            "fileTicket" : "String",
+            "contextItemRev" : "IModelObject[]",
+            "fileDbLastModified" : "String",
+            "isFileConflict" : "bool",
+            "datasetExistingFileNames" : "String[]",
+            "fileDbSize" : "String",
+            "defaultConflictOption" : "String",
+            "fileOsLastModified" : "String",
+            "fileOsSize" : "String"
+         }
+      ],
+      "isItemRevConflict" : "bool",
+      "invalidFilesForUpload" : "String[]",
+      "validFilesForUpload" : "String[]",
+      "uploadInfo" : [
+         {
+            "absoluteFilePath" : "String",
+            "dataset" : "IModelObject",
+            "namedReferenceName" : "String"
+         }
+      ]
+   }
+}

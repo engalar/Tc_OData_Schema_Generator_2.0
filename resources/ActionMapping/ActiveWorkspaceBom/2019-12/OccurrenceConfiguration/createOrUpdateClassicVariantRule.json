@@ -1,0 +1,48 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "productContext" : "IModelObject",
+      "variantContent" : {
+         "variantRule" : "IModelObject",
+         "variantOptionValueEntry" : [
+            {
+               "owningItemUID" : "String",
+               "optionDesc" : "String",
+               "variantOptionValue" : [
+                  {
+                     "howset" : "int",
+                     "optionValue" : "String"
+                  }
+               ],
+               "optionName" : "String",
+               "optionUID" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-12-OccurrenceConfiguration/createOrUpdateClassicVariantRule",
+   "OperationInput" : {
+      "inputData" : {
+         "productContext" : "IModelObject",
+         "variantRuleName" : "String",
+         "variantContent" : {
+            "variantRule" : "IModelObject",
+            "variantOptionValueEntry" : [
+               {
+                  "owningItemUID" : "String",
+                  "optionDesc" : "String",
+                  "optionName" : "String",
+                  "variantOptionValue" : [
+                     {
+                        "optionValue" : "String",
+                        "howset" : "int"
+                     }
+                  ],
+                  "optionUID" : "String"
+               }
+            ]
+         },
+         "saveRule" : "bool"
+      }
+   }
+}

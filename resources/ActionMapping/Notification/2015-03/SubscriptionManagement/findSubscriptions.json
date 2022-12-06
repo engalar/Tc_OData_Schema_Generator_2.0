@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "notifier" : "IModelObject",
+         "target" : "IModelObject",
+         "isActive" : "int",
+         "eventType" : "IModelObject",
+         "executionDay" : "String",
+         "name" : "String",
+         "subscriber" : "IModelObject",
+         "expirationDateRange" : {
+            "toDate" : "Date",
+            "fromDate" : "Date"
+         },
+         "frequency" : "String",
+         "handlers" : [
+            {
+               "parameters" : "String[]",
+               "handler" : "IModelObject"
+            }
+         ],
+         "executionTimeRange" : {
+            "fromDate" : "Date",
+            "toDate" : "Date"
+         },
+         "condition" : "IModelObject",
+         "noExpDate" : "bool",
+         "temporaryNotifierDateRange" : {
+            "fromDate" : "Date",
+            "toDate" : "Date"
+         },
+         "notificationPriority" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "subscriptions" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Notification-2015-03-SubscriptionManagement/findSubscriptions"
+}

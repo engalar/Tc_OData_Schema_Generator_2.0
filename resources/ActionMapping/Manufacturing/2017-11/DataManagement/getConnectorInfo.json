@@ -1,0 +1,60 @@
+{
+   "OperationInput" : {
+      "itemRevs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2017-11-DataManagement/getConnectorInfo",
+   "OperationResponse" : {
+      "connectorInfo" : [
+         {
+            "itemRev" : "IModelObject",
+            "connectorProperties" : [
+               {
+                  "dateArrayProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "intArrayProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "doubleArrayProps" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  },
+                  "floatArrayProps" : {
+                     "SampleKeyString" : "float[]"
+                  },
+                  "tagArrayProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "boolArrayProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "stringArrayProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "tagProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

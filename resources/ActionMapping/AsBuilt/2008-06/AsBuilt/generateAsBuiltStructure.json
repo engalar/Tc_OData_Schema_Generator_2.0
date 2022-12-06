@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "neutralBOMLine" : "IModelObject",
+            "asBuiltStructureInfo" : {
+               "serialNumber" : "String",
+               "neutralItemId" : "String",
+               "manufacturingDate" : "Date",
+               "extendedData" : {
+                  "objectType" : "String",
+                  "attributes" : {
+                     "SampleKeyString" : "String"
+                  }
+               },
+               "lotNumber" : "String",
+               "numberOfLevels" : "int",
+               "useSerialNumberGenerators" : "bool",
+               "installationDate" : "Date",
+               "manufacturerId" : "String",
+               "structureContext" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "AsBuilt-2008-06-AsBuilt/generateAsBuiltStructure",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "physicalPartRevision" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

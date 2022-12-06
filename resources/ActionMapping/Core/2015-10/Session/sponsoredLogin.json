@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "groupMember" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "user" : "IModelObject"
+   },
+   "ServiceOperation" : "Core-2015-10-Session/sponsoredLogin",
+   "OperationInput" : {
+      "sessionDiscriminator" : "String",
+      "sponsoredRole" : "String",
+      "sponsoredGroup" : "String",
+      "locale" : "String",
+      "sponsoringUser" : "String",
+      "password" : "String",
+      "sponsoredUser" : "String"
+   }
+}

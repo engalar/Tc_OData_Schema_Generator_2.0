@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "Services-2014-11-SocialCollaboration/fetchScalarRating",
+   "OperationResponse" : {
+      "results" : [
+         {
+            "ratingObject" : "IModelObject",
+            "total5StarRatings" : "int",
+            "averageRating" : "double",
+            "ratingValue" : "int",
+            "totalNumberOfRatings" : "int",
+            "total4StarRatings" : "int",
+            "total2StarRatings" : "int",
+            "clientId" : "String",
+            "total3StarRatings" : "int",
+            "total1StarRatings" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "scalarRatingRequest" : [
+         {
+            "userUid" : "String",
+            "clientId" : "String",
+            "objectUid" : "String"
+         }
+      ]
+   }
+}

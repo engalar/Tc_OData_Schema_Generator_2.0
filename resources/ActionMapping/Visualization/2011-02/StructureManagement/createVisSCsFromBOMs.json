@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "occurrencesList" : "IModelObject[]",
+            "staticStructureFile" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Visualization-2011-02-StructureManagement/createVisSCsFromBOMs",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "structureRecipe" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

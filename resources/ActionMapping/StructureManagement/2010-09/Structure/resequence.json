@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "startNumber" : "int",
+            "ignoreFlows" : "bool",
+            "recursive" : "bool",
+            "increNumber" : "int",
+            "bomLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2010-09-Structure/resequence",
+   "OperationResponse" : "IServiceData"
+}

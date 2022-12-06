@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "dbType" : "String"
+   },
+   "OperationResponse" : {
+      "plantLinkNameSet" : "String[]",
+      "serviceData" : "IServiceData",
+      "linkNameSet" : [
+         {
+            "linkName" : "String",
+            "hostName" : "String",
+            "userName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProductionManagement-2011-06-MeasurementDataQuery/queryLinkNamesInfo"
+}

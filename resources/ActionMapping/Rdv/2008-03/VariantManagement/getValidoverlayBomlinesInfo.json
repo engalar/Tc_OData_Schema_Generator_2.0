@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "showUnconfiguredVariant" : "bool",
+            "showUnconfiguredBydate" : "bool",
+            "variantRuleTag" : "IModelObject[]",
+            "backgrndBomlines" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Rdv-2008-03-VariantManagement/getValidoverlayBomlinesInfo",
+   "OperationResponse" : {
+      "validoverlayBomlines" : [
+         {
+            "unconfiguredBomlines" : "IModelObject[]",
+            "backgrndBomlines" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

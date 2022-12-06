@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "Internal-Process-2017-05-Compare/updateRevisionAssignments",
+   "OperationResponse" : {
+      "updatedElements" : [
+         {
+            "statusContext" : {
+               "status" : "String[]",
+               "assignedToObjects" : "IModelObject[]"
+            },
+            "modifiedRevisionAssignments" : [
+               {
+                  "oldRevision" : "IModelObject",
+                  "updateRevision" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputElements" : "IModelObject[]",
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

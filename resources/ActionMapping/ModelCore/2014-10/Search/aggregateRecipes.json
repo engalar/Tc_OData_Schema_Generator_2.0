@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "recipeContainers" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ModelCore-2014-10-Search/aggregateRecipes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "searchRecipes" : [
+         {
+            "recipe" : {
+               "configDetails" : [
+                  {
+                     "configurationFor" : "Universal Partition",
+                     "configContext" : "IModelObject"
+                  }
+               ],
+               "searchExpression" : {
+                  "searchOperator" : "And Or Not",
+                  "groupName" : "String",
+                  "searchExpressionSets" : "Mdl0::Soa::ModelCore::_2014_10::Search::SearchExpressionSet2[]",
+                  "searchExpression" : {
+                     "doTrushapeRefinement" : "bool",
+                     "searchExpressions" : "IModelObject[]"
+                  }
+               },
+               "scope" : {
+                  "model" : "IModelObject",
+                  "recipeContainer" : "IModelObject",
+                  "searchType" : "String[]"
+               }
+            },
+            "recipeContainer" : "IModelObject"
+         }
+      ]
+   }
+}

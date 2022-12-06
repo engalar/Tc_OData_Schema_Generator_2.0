@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "keys" : "String[]"
+   },
+   "OperationResponse" : {
+      "constantValues" : [
+         {
+            "value" : "String",
+            "key" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "BusinessModeler-2007-06-Constants/getGlobalConstantValues"
+}

@@ -1,0 +1,33 @@
+{
+   "ServiceOperation" : "Internal-Retail-2013-12-Retail/createOrUpdateDimensions2",
+   "OperationResponse" : {
+      "dimensionErrors" : [
+         {
+            "revisionUID" : "String",
+            "dimensionErrorMessages" : [
+               {
+                  "dimensionValue" : "String",
+                  "errorMessage" : "String",
+                  "dimensionName" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputDimensions" : [
+         {
+            "dimensions" : [
+               {
+                  "dimensionValuesToAdd" : "String[]",
+                  "dimensionValuesToDelete" : "String[]",
+                  "defaultDimensionValue" : "String",
+                  "dimensionName" : "String"
+               }
+            ],
+            "revisionUID" : "String"
+         }
+      ]
+   }
+}

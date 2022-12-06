@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-Cae-2012-09-StructureManagement/executeDatamap",
+   "OperationResponse" : {
+      "activityLog" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "domain" : "String",
+      "rootBOMLine" : "IModelObject"
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "inputBomLines" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "variantConditions" : [
+         {
+            "conditionClauses" : [
+               {
+                  "optionName" : "String",
+                  "value" : "String",
+                  "itemId" : "String",
+                  "compOperator" : "EQ NEQ LT GT GTEQ LTEQ",
+                  "joinOperator" : "AND OR OPEN_BRACKET CLOSE_BRACKET"
+               }
+            ],
+            "bomLine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2007-12-StructureManagement/queryVariantConditions"
+}

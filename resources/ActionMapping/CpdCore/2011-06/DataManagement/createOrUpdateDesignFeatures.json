@@ -1,0 +1,63 @@
+{
+   "ServiceOperation" : "CpdCore-2011-06-DataManagement/createOrUpdateDesignFeatures",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "connectionIDMap" : {
+         "SampleKeyString" : "String"
+      },
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "OperationInput" : {
+      "featureInfos" : [
+         {
+            "trueshapeDataset" : "IModelObject",
+            "connectedInfo" : [
+               {
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "clientId" : "String",
+                  "designElement" : "IModelObject",
+                  "csId" : "String"
+               }
+            ],
+            "objLastModifiedDateGuard" : "Date",
+            "directModelDataset" : "IModelObject",
+            "feature" : "IModelObject",
+            "modelObject" : "IModelObject",
+            "auxiliaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "object" : "IModelObject",
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap",
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "boType" : "String"
+                           }
+                        ]
+                     },
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "boType" : "String"
+                  }
+               ]
+            },
+            "guardObjLastModifiedDate" : "bool",
+            "mergeConnected" : "bool",
+            "boType" : "String",
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "transform" : "double[]"
+         }
+      ]
+   }
+}

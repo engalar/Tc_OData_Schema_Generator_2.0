@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : {
+      "externalIdToWorkspaceObjectMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "PlantDataMgmt-2019-06-PdmCore/findPlantContentsUsingExtIds",
+   "OperationInput" : {
+      "externalIds" : "String[]",
+      "plant" : "IModelObject",
+      "configurationContext" : "IModelObject"
+   }
+}

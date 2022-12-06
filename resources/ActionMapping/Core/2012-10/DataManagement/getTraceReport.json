@@ -1,0 +1,59 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "sortDirection" : "int",
+            "exportTemplate" : "String",
+            "filteredTraceLinkTypes" : "String[]",
+            "exportColumnNames" : "String[]",
+            "exportTo" : "String",
+            "propertyFilterInput" : [
+               {
+                  "propertyName" : "String",
+                  "logicalOperatorType" : "int",
+                  "propertyValue" : "String",
+                  "operatorType" : "int"
+               }
+            ],
+            "scopeLines" : "IModelObject[]",
+            "reportDepth" : "int",
+            "filteredObjectTypes" : "String[]",
+            "sortPropName" : "String",
+            "selectedObjs" : "IModelObject[]",
+            "isIndirectTraceReportNeeded" : "bool",
+            "reportType" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "transientFileReadTickets" : "String[]",
+      "traceReports" : [
+         {
+            "defRootNode" : {
+               "tarContextName" : "String",
+               "object" : "IModelObject",
+               "isDirectLink" : "bool",
+               "isTraceLinkObj" : "bool",
+               "bomView" : "IModelObject",
+               "srcContextName" : "String",
+               "displayObj" : "IModelObject",
+               "childNodes" : "Teamcenter::Soa::Core::_2012_10::DataManagement::TraceReportTreeNode[]"
+            },
+            "compRootNode" : {
+               "childNodes" : "Teamcenter::Soa::Core::_2012_10::DataManagement::TraceReportTreeNode[]",
+               "isTraceLinkObj" : "bool",
+               "bomView" : "IModelObject",
+               "isDirectLink" : "bool",
+               "object" : "IModelObject",
+               "tarContextName" : "String",
+               "displayObj" : "IModelObject",
+               "srcContextName" : "String"
+            },
+            "persistentObjects" : "IModelObject[]",
+            "selectedObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2012-10-DataManagement/getTraceReport"
+}

@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "ecnSolutionObjects" : [
+         {
+            "solutionObjects" : "IModelObject[]",
+            "ecn" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "CmAws-2017-06-Revise/reviseToSolution",
+   "OperationInput" : {
+      "ecnImpactedObjects" : [
+         {
+            "ecn" : "IModelObject",
+            "impactedObjects" : "IModelObject[]"
+         }
+      ]
+   }
+}

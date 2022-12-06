@@ -1,0 +1,68 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "datasets" : [
+               {
+                  "commitInfo" : [
+                     {
+                        "datasetFileTicketInfos" : [
+                           {
+                              "ticket" : "String",
+                              "datasetFileInfo" : {
+                                 "namedReferenceName" : "String",
+                                 "fileName" : "String",
+                                 "isText" : "bool",
+                                 "clientId" : "String",
+                                 "allowReplace" : "bool"
+                              }
+                           }
+                        ],
+                        "createNewVersion" : "bool",
+                        "dataset" : "IModelObject"
+                     }
+                  ],
+                  "clientId" : "String",
+                  "dataset" : "IModelObject"
+               }
+            ],
+            "clientId" : "String",
+            "objects" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2016-09-DataManagement/createAttachAndSubmitObjects",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "dataToBeRelated" : {
+               "SampleKeyString" : "String[]"
+            },
+            "workflowData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "pasteProp" : "String",
+            "createData" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String",
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "compoundCreateInput" : "Teamcenter::Soa::Core::_2015_07::DataManagement::CreateInputMap2",
+                        "boName" : "String"
+                     }
+                  ]
+               }
+            },
+            "targetObject" : "IModelObject"
+         }
+      ]
+   }
+}

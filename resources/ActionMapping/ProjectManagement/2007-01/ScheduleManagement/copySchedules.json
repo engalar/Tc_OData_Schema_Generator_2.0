@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "scheduleCopyContainer" : [
+         {
+            "resetWork" : "bool",
+            "scheduleToCopy" : "IModelObject",
+            "name" : "String",
+            "copyBaselines" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2007-01-ScheduleManagement/copySchedules",
+   "OperationResponse" : "IServiceData"
+}

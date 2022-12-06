@@ -1,0 +1,75 @@
+{
+   "OperationResponse" : {
+      "results" : [
+         {
+            "externalNodeData" : [
+               {
+                  "node" : "IModelObject",
+                  "nodeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "internalNodeData" : [
+               {
+                  "nodeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "node" : "IModelObject"
+               }
+            ],
+            "navigationMode" : "String",
+            "clientId" : "String",
+            "diagramInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "edgeData" : [
+               {
+                  "edgeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "end1Element" : "IModelObject",
+                  "end2Element" : "IModelObject",
+                  "edge" : "IModelObject"
+               }
+            ],
+            "systemInView" : {
+               "node" : "IModelObject",
+               "nodeInfo" : {
+                  "SampleKeyString" : "String[]"
+               }
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SystemsModeling-2017-06-DiagramManagement/getInterfaces",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "navigationMode" : "String",
+            "diagramInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "systemInView" : "IModelObject",
+            "systemOfInterest" : "IModelObject",
+            "externalSystems" : "IModelObject[]",
+            "inputContext" : {
+               "configuration" : {
+                  "configurationObject" : "IModelObject",
+                  "now" : "bool",
+                  "endItem" : "IModelObject",
+                  "revisionRule" : "IModelObject",
+                  "unitNo" : "int",
+                  "effectivityDate" : "Date",
+                  "variantRule" : "IModelObject"
+               },
+               "productContext" : "IModelObject",
+               "structureContextObject" : "IModelObject",
+               "pageSize" : "int"
+            }
+         }
+      ]
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "exportOptions" : [
+               {
+                  "value" : "String",
+                  "option" : "String"
+               }
+            ],
+            "templateId" : "String",
+            "templateType" : "String",
+            "applicationFormat" : "String",
+            "attributesToExport" : "String[]",
+            "objectTemplateOverride" : [
+               {
+                  "templateId" : "String",
+                  "templateType" : "String",
+                  "businessObjectType" : "String"
+               }
+            ],
+            "objectsToExport" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "markupXMLReadTickets" : "String[]",
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ImportExport-2011-06-FileImportExport/exportToApplication"
+}

@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "version" : "String",
+      "baseObject" : "IModelObject",
+      "markups" : "String",
+      "properties" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "properties" : {
+         "SampleKeyString" : "String"
+      },
+      "markups" : "String",
+      "version" : "String",
+      "baseObject" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-DocMgmtAw-2019-06-DocMgmt/processMarkups"
+}

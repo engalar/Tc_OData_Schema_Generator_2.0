@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "otSearchInfo" : {
+         "siteId" : "int",
+         "startDate" : "Date",
+         "transactionType" : "String",
+         "briefcaseName" : "String",
+         "endDate" : "Date"
+      }
+   },
+   "OperationResponse" : {
+      "otTransactions" : [
+         {
+            "siteId" : "int",
+            "transactionId" : "String",
+            "userId" : "String",
+            "transactionType" : "String",
+            "transactionDate" : "Date",
+            "briefcaseName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2020-01-OwnershipRecovery/findOtTransactions"
+}

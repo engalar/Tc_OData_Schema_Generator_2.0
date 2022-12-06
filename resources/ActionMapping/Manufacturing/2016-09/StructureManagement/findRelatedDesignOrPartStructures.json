@@ -1,0 +1,47 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-StructureManagement/findRelatedDesignOrPartStructures",
+   "OperationResponse" : {
+      "additionalInfo" : {
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToDoubleVectorMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "additionalInfo" : {
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               }
+            },
+            "inputLine" : "IModelObject"
+         }
+      ]
+   }
+}

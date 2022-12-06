@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagement-2011-06-ScheduleManagement/updateTaskExecution",
+   "OperationInput" : {
+      "taskUpdateExec" : [
+         {
+            "newAS" : "Date",
+            "task" : "IModelObject",
+            "updateAF" : "bool",
+            "newStatus" : "String",
+            "newPC" : "double",
+            "newWC" : "int",
+            "newAF" : "Date",
+            "updateAS" : "bool",
+            "newWR" : "int"
+         }
+      ]
+   }
+}

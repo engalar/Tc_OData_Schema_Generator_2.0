@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "MROCore-2010-04-MROCore/createMROBOMWindows",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "bomWindow" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "revRule" : "IModelObject"
+         }
+      ]
+   }
+}

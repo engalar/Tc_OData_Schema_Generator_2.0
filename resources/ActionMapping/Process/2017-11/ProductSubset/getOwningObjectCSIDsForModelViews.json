@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "csidMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ]
+   },
+   "ServiceOperation" : "Internal-Process-2017-11-ProductSubset/getOwningObjectCSIDsForModelViews",
+   "OperationInput" : {
+      "input" : "IModelObject[]",
+      "context" : "IModelObject"
+   }
+}

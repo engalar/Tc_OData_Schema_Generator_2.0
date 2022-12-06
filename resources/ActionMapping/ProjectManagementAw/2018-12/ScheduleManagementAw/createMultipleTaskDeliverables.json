@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "responses" : [
+         {
+            "scheduleDeliverable" : "IModelObject",
+            "scheduleTaskDeliverable" : "IModelObject",
+            "scheduleTask" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProjectManagementAw-2018-12-ScheduleManagementAw/createMultipleTaskDeliverables",
+   "OperationInput" : {
+      "taskDeliverableInputs" : [
+         {
+            "schedule" : "IModelObject",
+            "scheduleTasks" : "IModelObject[]",
+            "submitType" : "int",
+            "deliverableReference" : "IModelObject",
+            "deliverableType" : "String",
+            "deliverableName" : "String"
+         }
+      ]
+   }
+}

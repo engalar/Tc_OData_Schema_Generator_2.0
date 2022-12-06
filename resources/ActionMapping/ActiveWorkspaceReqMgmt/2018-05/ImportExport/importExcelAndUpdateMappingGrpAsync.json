@@ -1,0 +1,43 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2018-05-ImportExport/importExcelAndUpdateMappingGrpAsync",
+   "OperationInput" : {
+      "importExcelData" : [
+         {
+            "typePropInfos" : [
+               {
+                  "objectType" : "String",
+                  "dispTypeName" : "String",
+                  "propInfos" : [
+                     {
+                        "dispPropName" : "String",
+                        "realPropName" : "String",
+                        "isRequired" : "bool",
+                        "propHeader" : "String"
+                     }
+                  ]
+               }
+            ],
+            "transientFileWriteTicket" : "String",
+            "mappingGroupData" : {
+               "actionName" : "String",
+               "mappingInfo" : [
+                  {
+                     "dispPropName" : "String",
+                     "realPropName" : "String",
+                     "isRequired" : "bool",
+                     "propHeader" : "String"
+                  }
+               ],
+               "groupName" : {
+                  "dispName" : "String",
+                  "isModifiable" : "bool",
+                  "realName" : "String"
+               }
+            },
+            "selectedObject" : "IModelObject",
+            "importOptions" : "String[]"
+         }
+      ]
+   }
+}

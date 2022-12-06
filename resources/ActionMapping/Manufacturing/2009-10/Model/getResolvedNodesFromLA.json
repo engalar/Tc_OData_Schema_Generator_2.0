@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Manufacturing-2009-10-Model/getResolvedNodesFromLA",
+   "OperationResponse" : {
+      "outResolvedNodes" : [
+         {
+            "laResolvedNodes" : [
+               {
+                  "resolvedNodes" : "IModelObject[]",
+                  "laObj" : "IModelObject"
+               }
+            ],
+            "parentObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "parentObject" : "IModelObject",
+            "laObjects" : "IModelObject[]"
+         }
+      ]
+   }
+}

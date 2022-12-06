@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "criteriaProperties" : [
+         {
+            "propInternalNames" : "String[]",
+            "subscribableObjectType" : "IModelObject",
+            "propDisplayNames" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Notification-2017-11-SubscriptionManagement/getSubscribableProperties",
+   "OperationInput" : {
+      "subscribableObjectTypes" : "IModelObject[]"
+   }
+}

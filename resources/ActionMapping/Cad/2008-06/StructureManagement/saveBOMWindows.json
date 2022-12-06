@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2008-06-StructureManagement/saveBOMWindows",
+   "OperationInput" : {
+      "bomWindows" : "IModelObject[]"
+   }
+}

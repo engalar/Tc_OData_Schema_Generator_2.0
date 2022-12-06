@@ -1,0 +1,66 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "transientFileTicket" : "String",
+      "xpathToValuesMap" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Ai-2010-09-Ai/generateAndEvaluateStructure",
+   "OperationInput" : {
+      "objectsToProcess" : [
+         {
+            "apprefs" : [
+               {
+                  "label" : "String",
+                  "application" : "String",
+                  "version" : "String"
+               }
+            ],
+            "config" : {
+               "useDefaultRevisionRule" : "bool",
+               "variantRule" : {
+                  "application" : "String",
+                  "version" : "String",
+                  "label" : "String"
+               },
+               "existingWindow" : "IModelObject",
+               "revRuleName" : "String",
+               "configuringObject" : {
+                  "label" : "String",
+                  "application" : "String",
+                  "version" : "String"
+               }
+            },
+            "refContexts" : [
+               {
+                  "config" : {
+                     "configuringObject" : {
+                        "label" : "String",
+                        "application" : "String",
+                        "version" : "String"
+                     },
+                     "revRuleName" : "String",
+                     "existingWindow" : "IModelObject",
+                     "variantRule" : {
+                        "label" : "String",
+                        "application" : "String",
+                        "version" : "String"
+                     },
+                     "useDefaultRevisionRule" : "bool"
+                  },
+                  "topLineObject" : {
+                     "label" : "String",
+                     "application" : "String",
+                     "version" : "String"
+                  }
+               }
+            ]
+         }
+      ],
+      "aiObject" : "IModelObject",
+      "absoluteXmlFileName" : "String",
+      "xpaths" : "String[]",
+      "exportTransferMode" : "String"
+   }
+}

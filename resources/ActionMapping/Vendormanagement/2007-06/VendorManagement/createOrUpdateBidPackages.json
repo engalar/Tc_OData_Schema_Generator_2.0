@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "bidPackageRev" : "IModelObject",
+            "bidPackage" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Vendormanagement-2007-06-VendorManagement/createOrUpdateBidPackages",
+   "OperationInput" : {
+      "properties" : [
+         {
+            "type" : "String",
+            "name" : "String",
+            "itemId" : "String",
+            "clientId" : "String",
+            "description" : "String",
+            "revId" : "String"
+         }
+      ],
+      "container" : "IModelObject",
+      "relationType" : "String"
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2015-10-FullTextSearch/deleteFullTextSavedSearch"
+}

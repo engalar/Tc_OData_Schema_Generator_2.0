@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Internal-Notification-2015-03-MessageManagement/getUserGroupAlias",
+   "OperationResponse" : {
+      "aliasLists" : "IModelObject[]",
+      "groups" : "IModelObject[]",
+      "users" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

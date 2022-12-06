@@ -1,0 +1,63 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2015-10-StructureSearch/findEquivalentLines",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "additionalInfo" : {
+         "dateMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "objMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "dblMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "intMap" : {
+            "SampleKeyString" : "int[]"
+         }
+      },
+      "equivalenceResults" : [
+         {
+            "equivalenceResults" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "searchInputs" : [
+         {
+            "isSourceAScope" : "bool",
+            "searchCriteria" : "int",
+            "sourceLines" : "IModelObject[]",
+            "additionalInfo" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "targetScopes" : "IModelObject[]",
+            "sourceClosureRule" : "String"
+         }
+      ]
+   }
+}

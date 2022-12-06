@@ -1,0 +1,56 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "unnestedScopes" : "IModelObject[]",
+         "additionalInfo" : {
+            "strToDoubleVectorMap" : {
+               "SampleKeyString" : "double[]"
+            },
+            "strToStrVectorMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "strToIntVectorMap" : {
+               "SampleKeyString" : "int[]"
+            },
+            "strToObjVectorMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "strToDateVectorMap" : {
+               "SampleKeyString" : "Date[]"
+            }
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2018-11-StructureManagement/findBrokenProductViews",
+   "OperationResponse" : {
+      "brokenProductViewsDetails" : [
+         {
+            "brokenProductViews" : [
+               {
+                  "productView" : "IModelObject",
+                  "attachedToLine" : "IModelObject",
+                  "additionalInfo" : {
+                     "strToDateVectorMap" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "strToObjVectorMap" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "strToIntVectorMap" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "strToStrVectorMap" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "strToDoubleVectorMap" : {
+                        "SampleKeyString" : "double[]"
+                     }
+                  }
+               }
+            ],
+            "scope" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

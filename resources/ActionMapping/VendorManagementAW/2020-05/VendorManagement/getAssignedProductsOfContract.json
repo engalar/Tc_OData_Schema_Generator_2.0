@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "input" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "viewModelRows" : [
+         {
+            "modelObject" : "IModelObject",
+            "viewModelProperties" : [
+               {
+                  "propUIValue" : "String",
+                  "propDBValue" : "String",
+                  "propDataType" : "String",
+                  "hasLOV" : "bool",
+                  "propParentBO" : "IModelObject",
+                  "propInternalName" : "String",
+                  "propDisplayName" : "String",
+                  "isEditable" : "bool"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-VendorManagementAW-2020-05-VendorManagement/getAssignedProductsOfContract"
+}

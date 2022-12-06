@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "statusObject" : "IModelObject",
+      "jobDetailObjects" : [
+         {
+            "objUID" : "String",
+            "viewModelProperties" : [
+               {
+                  "isModifiable" : "bool",
+                  "propertyValues" : "String[]",
+                  "propertyName" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/processProgressMonitorFiles",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "fmsTicket" : "String"
+   }
+}

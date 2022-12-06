@@ -1,0 +1,50 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-StructureManagement/completenessCheckPartStructure",
+   "OperationResponse" : {
+      "incompleteLinesReason" : "String",
+      "incompleteLines" : "IModelObject",
+      "completeLines" : "IModelObject",
+      "additionalInfo" : {
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToDoubleVectorMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputLine" : "IModelObject",
+            "additionalInfo" : {
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               }
+            }
+         }
+      ]
+   }
+}

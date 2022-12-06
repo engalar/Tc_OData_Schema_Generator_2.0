@@ -1,0 +1,30 @@
+{
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugMonitor/getOperationalHealthData",
+   "OperationResponse" : {
+      "measurementInfoMap" : {
+         "SampleKeyString" : [
+            {
+               "eventStats" : "String",
+               "measInfo" : [
+                  {
+                     "additionalInfo" : "String[]",
+                     "measvals" : {
+                        "dType" : "String",
+                        "value" : "String"
+                     },
+                     "timeStamp" : "Date"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "OperationInput" : {
+      "metricAttributes" : [
+         {
+            "metricId" : "String",
+            "timeInterval" : "int"
+         }
+      ]
+   }
+}

@@ -1,0 +1,144 @@
+{
+   "OperationInput" : {
+      "scheduleChangeContainer" : {
+         "deletedDependencies" : "IModelObject[]",
+         "scheduleUpdates" : {
+            "stringValueContainer" : [
+               {
+                  "value" : "String",
+                  "type" : "int",
+                  "key" : "String"
+               }
+            ],
+            "keyValueContainer" : [
+               {
+                  "type" : "int",
+                  "value" : "String",
+                  "key" : "int"
+               }
+            ],
+            "object" : "IModelObject"
+         },
+         "newDependencies" : [
+            {
+               "lag" : "int",
+               "stringValueContainer" : [
+                  {
+                     "key" : "String",
+                     "value" : "String",
+                     "type" : "int"
+                  }
+               ],
+               "successorTaskID" : "String",
+               "predecessorTaskID" : "String",
+               "type" : "int"
+            }
+         ],
+         "dependencyUpdates" : [
+            {
+               "keyValueContainer" : [
+                  {
+                     "value" : "String",
+                     "type" : "int",
+                     "key" : "int"
+                  }
+               ],
+               "object" : "IModelObject",
+               "stringValueContainer" : [
+                  {
+                     "type" : "int",
+                     "value" : "String",
+                     "key" : "String"
+                  }
+               ]
+            }
+         ],
+         "deletedAssignments" : "IModelObject[]",
+         "assignmentUpdates" : [
+            {
+               "keyValueContainer" : [
+                  {
+                     "type" : "int",
+                     "value" : "String",
+                     "key" : "int"
+                  }
+               ],
+               "object" : "IModelObject",
+               "stringValueContainer" : [
+                  {
+                     "key" : "String",
+                     "type" : "int",
+                     "value" : "String"
+                  }
+               ]
+            }
+         ],
+         "newAssignments" : [
+            {
+               "taskID" : "String",
+               "resource" : "String",
+               "percentage" : "double",
+               "stringValueContainer" : [
+                  {
+                     "type" : "int",
+                     "value" : "String",
+                     "key" : "String"
+                  }
+               ],
+               "discipline" : "String"
+            }
+         ],
+         "newTasks" : [
+            {
+               "constraint" : "int",
+               "finishDate" : "Date",
+               "duration" : "int",
+               "description" : "String",
+               "workEstimate" : "int",
+               "id" : "String",
+               "prevSiblingID" : "String",
+               "workComplete" : "int",
+               "name" : "String",
+               "fixedType" : "int",
+               "percentComplete" : "double",
+               "finishDateOffset" : "int",
+               "stringValueContainer" : [
+                  {
+                     "key" : "String",
+                     "type" : "int",
+                     "value" : "String"
+                  }
+               ],
+               "startDateOffset" : "int",
+               "startDate" : "Date",
+               "taskType" : "int",
+               "parentTaskID" : "String",
+               "priority" : "int",
+               "autoComplete" : "bool"
+            }
+         ],
+         "deletedTasks" : "IModelObject[]",
+         "taskUpdates" : [
+            {
+               "object" : "IModelObject",
+               "keyValueContainer" : [
+                  {
+                     "key" : "int",
+                     "type" : "int",
+                     "value" : "String"
+                  }
+               ],
+               "stringValueContainer" : [
+                  {
+                     "type" : "int",
+                     "value" : "String",
+                     "key" : "String"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2007-01-ScheduleManagement/modifySchedule",
+   "OperationResponse" : "IServiceData"
+}

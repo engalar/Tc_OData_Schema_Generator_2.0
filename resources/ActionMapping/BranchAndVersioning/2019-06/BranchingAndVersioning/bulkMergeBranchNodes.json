@@ -1,0 +1,45 @@
+{
+   "ServiceOperation" : "Internal-BranchAndVersioning-2019-06-BranchingAndVersioning/bulkMergeBranchNodes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "mergedInfo" : [
+         {
+            "newObjects" : "IModelObject[]",
+            "branchNodes" : [
+               {
+                  "nodeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "branchNode" : "IModelObject",
+                  "tupleNode" : "IModelObject"
+               }
+            ],
+            "clientID" : "String",
+            "edges" : [
+               {
+                  "startNode" : "IModelObject",
+                  "endNode" : "IModelObject",
+                  "edgeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "edgeType" : "String",
+                  "edgeObject" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "config" : {
+               "SampleKeyString" : "String"
+            },
+            "targetBranch" : "IModelObject",
+            "sourceBranch" : "IModelObject",
+            "clientID" : "String",
+            "sourceNodes" : "IModelObject[]"
+         }
+      ]
+   }
+}

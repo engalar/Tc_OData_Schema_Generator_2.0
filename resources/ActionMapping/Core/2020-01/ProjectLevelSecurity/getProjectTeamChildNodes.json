@@ -1,0 +1,105 @@
+{
+   "OperationInput" : {
+      "node" : {
+         "tcRole" : "IModelObject",
+         "isRemovable" : "bool",
+         "tcGroup" : "IModelObject"
+      },
+      "project" : "IModelObject",
+      "depth" : "int"
+   },
+   "ServiceOperation" : "Core-2020-01-ProjectLevelSecurity/getProjectTeamChildNodes",
+   "OperationResponse" : {
+      "childGroupMembers" : [
+         {
+            "isRemovable" : "bool",
+            "privilege" : "int",
+            "groupmember" : "IModelObject"
+         }
+      ],
+      "childRoles" : [
+         {
+            "groupmemberList" : [
+               {
+                  "groupmember" : "IModelObject",
+                  "privilege" : "int",
+                  "isRemovable" : "bool"
+               }
+            ],
+            "groupRole" : {
+               "isRemovable" : "bool",
+               "tcRole" : "IModelObject",
+               "tcGroup" : "IModelObject"
+            }
+         }
+      ],
+      "childGroupMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "groupNode" : {
+                     "isRemovable" : "bool",
+                     "tcGroup" : "IModelObject"
+                  },
+                  "childRoles" : [
+                     {
+                        "groupRole" : {
+                           "tcRole" : "IModelObject",
+                           "isRemovable" : "bool",
+                           "tcGroup" : "IModelObject"
+                        },
+                        "groupmemberList" : [
+                           {
+                              "groupmember" : "IModelObject",
+                              "isRemovable" : "bool",
+                              "privilege" : "int"
+                           }
+                        ]
+                     }
+                  ],
+                  "childGroups" : [
+                     {
+                        "isRemovable" : "bool",
+                        "tcGroup" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         ]
+      ],
+      "childGroups" : [
+         {
+            "childRoles" : [
+               {
+                  "groupmemberList" : [
+                     {
+                        "privilege" : "int",
+                        "isRemovable" : "bool",
+                        "groupmember" : "IModelObject"
+                     }
+                  ],
+                  "groupRole" : {
+                     "tcGroup" : "IModelObject",
+                     "tcRole" : "IModelObject",
+                     "isRemovable" : "bool"
+                  }
+               }
+            ],
+            "groupNode" : {
+               "tcGroup" : "IModelObject",
+               "isRemovable" : "bool"
+            },
+            "childGroups" : [
+               {
+                  "tcGroup" : "IModelObject",
+                  "isRemovable" : "bool"
+               }
+            ]
+         }
+      ],
+      "sd" : "IServiceData"
+   }
+}

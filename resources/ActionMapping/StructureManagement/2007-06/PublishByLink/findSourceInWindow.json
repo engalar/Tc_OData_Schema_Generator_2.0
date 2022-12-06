@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "window" : "IModelObject",
+            "line" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2007-06-PublishByLink/findSourceInWindow",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "inputIndex" : "int",
+            "sourceLine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

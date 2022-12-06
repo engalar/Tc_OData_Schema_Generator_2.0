@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "userId" : "IModelObject"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2008-06-Reservation/transferCheckout"
+}

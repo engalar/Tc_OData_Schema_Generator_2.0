@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "markPrimaryDesignInput" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-BomCore-2017-05-AlignmentManagement/markPrimaryDesignOnPart"
+}

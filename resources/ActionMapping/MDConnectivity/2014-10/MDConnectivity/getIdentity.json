@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "identity" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/getIdentity",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "context" : "IModelObject",
+            "modelElement" : "IModelObject",
+            "modelObject" : "IModelObject"
+         }
+      ]
+   }
+}

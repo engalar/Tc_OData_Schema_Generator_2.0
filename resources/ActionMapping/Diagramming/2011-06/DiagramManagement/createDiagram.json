@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "selectedObject" : "IModelObject",
+            "propNamevsValueMap" : {
+               "SampleKeyString" : "String"
+            },
+            "openDiagram" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createDiagOutput" : [
+         {
+            "diagramTmplFileTickets" : "String[]",
+            "relationsOnDiagram" : [
+               {
+                  "secondaryObject" : "IModelObject",
+                  "shapeRelation" : "IModelObject",
+                  "relation" : "IModelObject",
+                  "primaryObject" : "IModelObject",
+                  "isRelationMemberOmitted" : "bool",
+                  "relationType" : "String"
+               }
+            ],
+            "diagramRev" : "IModelObject",
+            "diagramMembers" : [
+               {
+                  "objectTCTypeName" : "String",
+                  "primaryObject" : "IModelObject",
+                  "shapeRelation" : "IModelObject",
+                  "persistentObject" : "IModelObject",
+                  "isMemberOmitted" : "bool"
+               }
+            ],
+            "appDomain" : "String",
+            "diagMappingFileTicket" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Diagramming-2011-06-DiagramManagement/createDiagram"
+}

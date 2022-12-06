@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "mfkInfo" : [
+         {
+            "domain" : "String",
+            "keyValue" : "String",
+            "itemId" : "String"
+         }
+      ],
+      "clientInfo" : {
+         "clientMinorReleaseVersion" : "int",
+         "clientOdsMajorVersion" : "int",
+         "clientReleaseVersion" : "int",
+         "userId" : "String",
+         "clientNode" : "String",
+         "osUserName" : "String",
+         "clientOdsMinorVersion" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "roleName" : "String",
+         "clientMaintPackVersion" : "int",
+         "clientSiteId" : "int",
+         "clientServiceReleaseVersion" : "int",
+         "userName" : "String"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-MultiSite-2011-06-ObjectDirectory/deleteItemIdRecords"
+}

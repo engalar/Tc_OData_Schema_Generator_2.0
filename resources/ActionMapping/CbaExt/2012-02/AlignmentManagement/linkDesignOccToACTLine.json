@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-CbaExt-2012-02-AlignmentManagement/linkDesignOccToACTLine",
+   "OperationInput" : {
+      "actLines" : "IModelObject[]",
+      "bomLines" : "IModelObject[]"
+   }
+}

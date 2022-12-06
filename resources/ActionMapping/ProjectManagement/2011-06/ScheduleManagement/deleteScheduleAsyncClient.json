@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "ProjectManagement-2011-06-ScheduleManagement/deleteScheduleAsyncClient",
+   "OperationInput" : {
+      "schToDelete" : "IModelObject"
+   }
+}

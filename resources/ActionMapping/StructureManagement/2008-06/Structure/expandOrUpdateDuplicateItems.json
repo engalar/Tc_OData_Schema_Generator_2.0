@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "infos" : [
+         {
+            "itemRevs" : "IModelObject[]",
+            "depTypes" : "NoDep Drawing PartFamilyMaster PartFamilyMember Required AllDep ExcludeFromBom[]",
+            "bomline" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "object" : "IModelObject",
+            "relatedObjInfo" : [
+               {
+                  "relObj" : "IModelObject",
+                  "depType" : "NoDep Drawing PartFamilyMaster PartFamilyMember Required AllDep ExcludeFromBom",
+                  "relationshipName" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2008-06-Structure/expandOrUpdateDuplicateItems"
+}

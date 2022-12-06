@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "primaryObject" : "IModelObject",
+            "relationType" : "String",
+            "secondaryObject" : "IModelObject",
+            "props" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "edges" : [
+         {
+            "rightId" : "String",
+            "relationType" : "String",
+            "startPortObject" : "IModelObject",
+            "leftId" : "String",
+            "endPortObject" : "IModelObject",
+            "metaObject" : "IModelObject",
+            "props" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "nodeUpdates" : {
+         "SampleKeyString" : {
+            "name" : "String",
+            "id" : "String",
+            "props" : {
+               "SampleKeyString" : "String"
+            },
+            "metaObject" : "IModelObject"
+         }
+      },
+      "clientId" : "String"
+   },
+   "ServiceOperation" : "RelationshipViewer-2012-10-NetworkEngine/createRelations"
+}

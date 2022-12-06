@@ -1,0 +1,294 @@
+{
+   "OperationInput" : {
+      "deferredOption" : {
+         "deferredOption" : "int",
+         "schedule" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "assignmentUpdates" : [
+         {
+            "object" : "IModelObject",
+            "keyValContainer" : [
+               {
+                  "value" : "String",
+                  "type" : "int",
+                  "key" : "int"
+               }
+            ],
+            "stringValContainer" : [
+               {
+                  "value" : "String",
+                  "type" : "int",
+                  "key" : "String"
+               }
+            ],
+            "typedAttributesContainer" : [
+               {
+                  "type" : "String",
+                  "attributes" : [
+                     {
+                        "value" : "String",
+                        "type" : "int",
+                        "key" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "deletedProxyTasks" : "IModelObject[]",
+      "deletedAssignments" : "IModelObject[]",
+      "taskUpdates" : [
+         {
+            "typedAttributesContainer" : [
+               {
+                  "type" : "String",
+                  "attributes" : [
+                     {
+                        "type" : "int",
+                        "value" : "String",
+                        "key" : "String"
+                     }
+                  ]
+               }
+            ],
+            "stringValContainer" : [
+               {
+                  "key" : "String",
+                  "type" : "int",
+                  "value" : "String"
+               }
+            ],
+            "keyValContainer" : [
+               {
+                  "value" : "String",
+                  "type" : "int",
+                  "key" : "int"
+               }
+            ],
+            "object" : "IModelObject"
+         }
+      ],
+      "newAssignments" : [
+         {
+            "typedAttributesContainer" : [
+               {
+                  "type" : "String",
+                  "attributes" : [
+                     {
+                        "key" : "String",
+                        "type" : "int",
+                        "value" : "String"
+                     }
+                  ]
+               }
+            ],
+            "keyValContainer" : [
+               {
+                  "key" : "int",
+                  "type" : "int",
+                  "value" : "String"
+               }
+            ],
+            "object" : "IModelObject",
+            "stringValContainer" : [
+               {
+                  "key" : "String",
+                  "value" : "String",
+                  "type" : "int"
+               }
+            ]
+         }
+      ],
+      "newTasks" : [
+         {
+            "object" : "IModelObject",
+            "keyValContainer" : [
+               {
+                  "key" : "int",
+                  "value" : "String",
+                  "type" : "int"
+               }
+            ],
+            "stringValContainer" : [
+               {
+                  "type" : "int",
+                  "value" : "String",
+                  "key" : "String"
+               }
+            ],
+            "typedAttributesContainer" : [
+               {
+                  "attributes" : [
+                     {
+                        "value" : "String",
+                        "type" : "int",
+                        "key" : "String"
+                     }
+                  ],
+                  "type" : "String"
+               }
+            ]
+         }
+      ],
+      "deletedTasks" : "IModelObject[]",
+      "scheduleUpdates" : {
+         "keyValContainer" : [
+            {
+               "type" : "int",
+               "value" : "String",
+               "key" : "int"
+            }
+         ],
+         "object" : "IModelObject",
+         "stringValContainer" : [
+            {
+               "key" : "String",
+               "value" : "String",
+               "type" : "int"
+            }
+         ],
+         "typedAttributesContainer" : [
+            {
+               "attributes" : [
+                  {
+                     "key" : "String",
+                     "type" : "int",
+                     "value" : "String"
+                  }
+               ],
+               "type" : "String"
+            }
+         ]
+      },
+      "schedule" : "IModelObject",
+      "deletedDependencies" : "IModelObject[]",
+      "dependencyUpdates" : [
+         {
+            "typedAttributesContainer" : [
+               {
+                  "type" : "String",
+                  "attributes" : [
+                     {
+                        "key" : "String",
+                        "value" : "String",
+                        "type" : "int"
+                     }
+                  ]
+               }
+            ],
+            "stringValContainer" : [
+               {
+                  "value" : "String",
+                  "type" : "int",
+                  "key" : "String"
+               }
+            ],
+            "object" : "IModelObject",
+            "keyValContainer" : [
+               {
+                  "key" : "int",
+                  "value" : "String",
+                  "type" : "int"
+               }
+            ]
+         }
+      ],
+      "newDependencies" : [
+         {
+            "stringValContainer" : [
+               {
+                  "value" : "String",
+                  "type" : "int",
+                  "key" : "String"
+               }
+            ],
+            "object" : "IModelObject",
+            "keyValContainer" : [
+               {
+                  "value" : "String",
+                  "type" : "int",
+                  "key" : "int"
+               }
+            ],
+            "typedAttributesContainer" : [
+               {
+                  "attributes" : [
+                     {
+                        "key" : "String",
+                        "type" : "int",
+                        "value" : "String"
+                     }
+                  ],
+                  "type" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "newProxyTasks" : [
+         {
+            "stringValContainer" : [
+               {
+                  "type" : "int",
+                  "value" : "String",
+                  "key" : "String"
+               }
+            ],
+            "keyValContainer" : [
+               {
+                  "type" : "int",
+                  "value" : "String",
+                  "key" : "int"
+               }
+            ],
+            "object" : "IModelObject",
+            "typedAttributesContainer" : [
+               {
+                  "attributes" : [
+                     {
+                        "value" : "String",
+                        "type" : "int",
+                        "key" : "String"
+                     }
+                  ],
+                  "type" : "String"
+               }
+            ]
+         }
+      ],
+      "proxyTaskUpdates" : [
+         {
+            "typedAttributesContainer" : [
+               {
+                  "attributes" : [
+                     {
+                        "type" : "int",
+                        "value" : "String",
+                        "key" : "String"
+                     }
+                  ],
+                  "type" : "String"
+               }
+            ],
+            "stringValContainer" : [
+               {
+                  "value" : "String",
+                  "type" : "int",
+                  "key" : "String"
+               }
+            ],
+            "keyValContainer" : [
+               {
+                  "key" : "int",
+                  "value" : "String",
+                  "type" : "int"
+               }
+            ],
+            "object" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2014-10-ScheduleManagement/deferredSave"
+}

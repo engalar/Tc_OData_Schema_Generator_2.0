@@ -1,0 +1,52 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "orgTree" : {
+               "groupStructureMap" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     {
+                        "subgroups" : "IModelObject[]",
+                        "parent" : "IModelObject",
+                        "groupRoles" : [
+                           {
+                              "role" : "IModelObject",
+                              "members" : "IModelObject[]"
+                           }
+                        ],
+                        "group" : "IModelObject"
+                     }
+                  ]
+               ],
+               "rootLevelGroups" : [
+                  {
+                     "groupRoles" : [
+                        {
+                           "members" : "IModelObject[]",
+                           "role" : "IModelObject"
+                        }
+                     ],
+                     "group" : "IModelObject",
+                     "subgroups" : "IModelObject[]",
+                     "parent" : "IModelObject"
+                  }
+               ]
+            },
+            "groups" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Administration-2011-06-OrganizationManagement/getOrganizationGroups",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "role" : "IModelObject",
+            "includeOrgTree" : "bool"
+         }
+      ]
+   }
+}

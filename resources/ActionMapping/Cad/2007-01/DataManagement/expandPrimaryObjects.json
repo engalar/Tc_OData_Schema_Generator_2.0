@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "pref" : {
+         "info" : [
+            {
+               "relationName" : "String",
+               "objectTypeNames" : "String[]"
+            }
+         ],
+         "expItemRev" : "bool"
+      }
+   },
+   "ServiceOperation" : "Cad-2007-01-DataManagement/expandPrimaryObjects",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "inputObject" : "IModelObject",
+            "otherSideObjData" : [
+               {
+                  "relationName" : "String",
+                  "otherSideObjects" : "IModelObject[]"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

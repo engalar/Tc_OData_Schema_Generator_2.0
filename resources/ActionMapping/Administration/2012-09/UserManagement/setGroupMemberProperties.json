@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Administration-2012-09-UserManagement/setGroupMemberProperties",
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "groupMemberPropValuesMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "groupMember" : "IModelObject"
+         }
+      ]
+   }
+}

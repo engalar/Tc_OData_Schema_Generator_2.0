@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2012-09-StructureSearch/mapSrchCriteriaToLines",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "srchCriteria" : "IModelObject",
+            "unselectedNodes" : "IModelObject[]",
+            "selectedNodes" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "contexts" : "IModelObject[]",
+            "criteria" : "IModelObject"
+         }
+      ]
+   }
+}

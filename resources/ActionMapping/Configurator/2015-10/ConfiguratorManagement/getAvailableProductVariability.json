@@ -1,0 +1,200 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "criteriaExpression" : {
+            "clientId" : "String",
+            "expressions" : [
+               {
+                  "exprID" : "String",
+                  "configExprSets" : [
+                     {
+                        "configExpressions" : [
+                           {
+                              "subExpressions" : [
+                                 {
+                                    "expressionGroups" : [
+                                       {
+                                          "groupName" : "String",
+                                          "terms" : [
+                                             {
+                                                "selectionClass" : "String",
+                                                "value" : "IModelObject",
+                                                "valueText" : "String",
+                                                "familyID" : "String",
+                                                "familyNamespace" : "String",
+                                                "family" : "IModelObject",
+                                                "operatorCode" : "int",
+                                                "rangeExpressions" : [
+                                                   {
+                                                      "operatorCode" : "int",
+                                                      "feature" : "IModelObject",
+                                                      "valueText" : "String"
+                                                   }
+                                                ]
+                                             }
+                                          ],
+                                          "context" : "IModelObject"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "expressionType" : "int",
+                              "formula" : "String",
+                              "clientID" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "expressionType" : "int",
+                  "formula" : "String"
+               }
+            ],
+            "targetObject" : "IModelObject"
+         },
+         "applyConstraints" : "int",
+         "familiesToTest" : "IModelObject[]",
+         "context" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "violations" : [
+         {
+            "severity" : "String",
+            "configuratorWSO" : "IModelObject",
+            "violatedRule" : {
+               "formula" : "String",
+               "exprID" : "String",
+               "expressionType" : "int",
+               "configExprSets" : [
+                  {
+                     "configExpressions" : [
+                        {
+                           "clientID" : "String",
+                           "formula" : "String",
+                           "expressionType" : "int",
+                           "subExpressions" : [
+                              {
+                                 "expressionGroups" : [
+                                    {
+                                       "terms" : [
+                                          {
+                                             "value" : "IModelObject",
+                                             "selectionClass" : "String",
+                                             "rangeExpressions" : [
+                                                {
+                                                   "valueText" : "String",
+                                                   "operatorCode" : "int",
+                                                   "feature" : "IModelObject"
+                                                }
+                                             ],
+                                             "operatorCode" : "int",
+                                             "family" : "IModelObject",
+                                             "familyNamespace" : "String",
+                                             "familyID" : "String",
+                                             "valueText" : "String"
+                                          }
+                                       ],
+                                       "context" : "IModelObject",
+                                       "groupName" : "String"
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            },
+            "message" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "availabilityExpressions" : [
+         {
+            "defaultValues" : [
+               {
+                  "value" : "IModelObject",
+                  "selectionClass" : "String",
+                  "valueText" : "String",
+                  "familyNamespace" : "String",
+                  "familyID" : "String",
+                  "rangeExpressions" : [
+                     {
+                        "valueText" : "String",
+                        "operatorCode" : "int",
+                        "feature" : "IModelObject"
+                     }
+                  ],
+                  "family" : "IModelObject",
+                  "operatorCode" : "int"
+               }
+            ],
+            "availability" : [
+               {
+                  "valueText" : "String",
+                  "familyID" : "String",
+                  "familyNamespace" : "String",
+                  "family" : "IModelObject",
+                  "operatorCode" : "int",
+                  "rangeExpressions" : [
+                     {
+                        "feature" : "IModelObject",
+                        "operatorCode" : "int",
+                        "valueText" : "String"
+                     }
+                  ],
+                  "selectionClass" : "String",
+                  "value" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "criteriaStatus" : "String",
+      "suggestedSatisfyingExpr" : {
+         "expressionType" : "int",
+         "configExprSets" : [
+            {
+               "configExpressions" : [
+                  {
+                     "clientID" : "String",
+                     "formula" : "String",
+                     "expressionType" : "int",
+                     "subExpressions" : [
+                        {
+                           "expressionGroups" : [
+                              {
+                                 "terms" : [
+                                    {
+                                       "operatorCode" : "int",
+                                       "family" : "IModelObject",
+                                       "rangeExpressions" : [
+                                          {
+                                             "operatorCode" : "int",
+                                             "feature" : "IModelObject",
+                                             "valueText" : "String"
+                                          }
+                                       ],
+                                       "valueText" : "String",
+                                       "familyID" : "String",
+                                       "familyNamespace" : "String",
+                                       "selectionClass" : "String",
+                                       "value" : "IModelObject"
+                                    }
+                                 ],
+                                 "context" : "IModelObject",
+                                 "groupName" : "String"
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ],
+         "exprID" : "String",
+         "formula" : "String"
+      },
+      "requiredFamilies" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Configurator-2015-10-ConfiguratorManagement/getAvailableProductVariability"
+}

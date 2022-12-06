@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-AsMaintained-2009-06-AsMaintained/createMROBOMWindows",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "bomWindow" : "IModelObject",
+            "bomLine" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "info" : [
+         {
+            "mroRevRule" : "IModelObject",
+            "clientId" : "String",
+            "itemRev" : "IModelObject",
+            "bomView" : "IModelObject",
+            "objectForConfigure" : "IModelObject",
+            "revRule" : "IModelObject",
+            "item" : "IModelObject"
+         }
+      ]
+   }
+}

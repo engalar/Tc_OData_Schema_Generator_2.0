@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "generateContextIDsIn" : [
+         {
+            "contextTypeName" : "String",
+            "contextPropName" : "String",
+            "validateIDs" : "bool",
+            "clientID" : "String",
+            "contextName" : "String",
+            "numberOfIDs" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "generatedContextIDValues" : [
+         {
+            "generatedIDs" : "String[]",
+            "contextName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2020-04-DataManagement/generateContextSpecificIDs2"
+}

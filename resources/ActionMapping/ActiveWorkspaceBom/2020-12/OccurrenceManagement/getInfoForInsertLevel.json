@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "getInfoForInsertLevelIn" : {
+         "elementsToBeReparented" : "IModelObject[]",
+         "fetchAllowedOccRevTypes" : "bool"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2020-12-OccurrenceManagement/getInfoForInsertLevel",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "preferredTypeInfo" : {
+         "isSearchable" : "bool",
+         "elementTypeName" : "String",
+         "objectTypeName" : "String",
+         "searchTypeName" : "String"
+      },
+      "allowedTypeInfos" : [
+         {
+            "searchTypeName" : "String",
+            "objectTypeName" : "String",
+            "isSearchable" : "bool",
+            "elementTypeName" : "String"
+         }
+      ]
+   }
+}

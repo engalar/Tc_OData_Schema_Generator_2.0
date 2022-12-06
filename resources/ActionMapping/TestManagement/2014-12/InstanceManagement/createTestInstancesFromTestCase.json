@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "testSteps" : "String",
+            "owningUserName" : "String",
+            "clientId" : "String",
+            "testType" : "String",
+            "executionScope" : "String",
+            "testName" : "String",
+            "testCase" : "IModelObject",
+            "owningObject" : "IModelObject",
+            "executionSystem" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "testInstances" : "IModelObject[]",
+      "srvcData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-TestManagement-2014-12-InstanceManagement/createTestInstancesFromTestCase"
+}

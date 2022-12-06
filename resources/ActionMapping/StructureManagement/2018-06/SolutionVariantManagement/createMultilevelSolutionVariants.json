@@ -1,0 +1,135 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2018-06-SolutionVariantManagement/createMultilevelSolutionVariants",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expandedBOMLineMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ],
+      "creatMultilevelSVOutputList" : [
+         {
+            "newSVBOMLine" : "IModelObject",
+            "genericBOMLine" : "IModelObject",
+            "statusInfo" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "createMultilevelSVConfigParam" : {
+         "configCriteria" : "IModelObject",
+         "configPreferences" : {
+            "SampleKeyString" : "int"
+         }
+      },
+      "createMultilevelSVInputList" : [
+         {
+            "createSVItemInput" : {
+               "createSVItemInfo" : {
+                  "svCategoryType" : "int",
+                  "createSVItemDesc" : {
+                     "boListProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "boName" : "String",
+                     "stringListProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "doubleListProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "boolListProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "dateListProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "floatListProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "intListProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "boProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "compoundCreateSVItemDescriptor" : {
+                        "SampleKeyString" : [
+                           {
+                              "doubleListProps" : {
+                                 "SampleKeyString" : "double[]"
+                              },
+                              "boListProps" : {
+                                 "SampleKeyString" : "IModelObject[]"
+                              },
+                              "boName" : "String",
+                              "stringListProps" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "boolListProps" : {
+                                 "SampleKeyString" : "bool[]"
+                              },
+                              "floatProps" : {
+                                 "SampleKeyString" : "float"
+                              },
+                              "boolProps" : {
+                                 "SampleKeyString" : "bool"
+                              },
+                              "doubleProps" : {
+                                 "SampleKeyString" : "double"
+                              },
+                              "dateListProps" : {
+                                 "SampleKeyString" : "Date[]"
+                              },
+                              "dateProps" : {
+                                 "SampleKeyString" : "Date"
+                              },
+                              "intProps" : {
+                                 "SampleKeyString" : "int"
+                              },
+                              "floatListProps" : {
+                                 "SampleKeyString" : "float[]"
+                              },
+                              "intListProps" : {
+                                 "SampleKeyString" : "int[]"
+                              },
+                              "boProps" : {
+                                 "SampleKeyString" : "IModelObject"
+                              },
+                              "stringProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "compoundCreateSVItemDescriptor" : "Smc0::Soa::Internal::StructureManagement::_2018_06::SolutionVariantManagement::CreateSVItemDescriptorMap"
+                           }
+                        ]
+                     }
+                  }
+               },
+               "genericBOMLine" : "IModelObject"
+            },
+            "mappedSVBOMLineUID" : "String"
+         }
+      ]
+   }
+}

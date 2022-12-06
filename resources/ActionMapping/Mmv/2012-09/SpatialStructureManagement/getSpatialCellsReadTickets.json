@@ -1,0 +1,51 @@
+{
+   "OperationResponse" : {
+      "vSpatialCellOccInfos" : [
+         {
+            "viOccIdx" : "int[]",
+            "iCellId" : "int"
+         }
+      ],
+      "vSpatialFileInfos" : [
+         {
+            "pDataSet" : "IModelObject",
+            "sOrigFilename" : "String",
+            "pTcFile" : "IModelObject",
+            "sFMSRTicket" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "vOccurrenceInfos" : [
+         {
+            "iFileIdx" : "int",
+            "sOccPartKey" : "String",
+            "occThreadPath" : {
+               "vsThreadUIDs" : "String[]"
+            },
+            "vdXForms" : "double[]",
+            "iBitMask" : "int",
+            "bHasFile" : "bool",
+            "sRefSetName" : "String",
+            "pBOMLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Mmv-2012-09-SpatialStructureManagement/getSpatialCellsReadTickets",
+   "OperationInput" : {
+      "input" : {
+         "pBOMWindow" : "IModelObject",
+         "vCursorOptions" : [
+            {
+               "pMmvCursor" : "IModelObject"
+            }
+         ],
+         "vFlaggedCells" : [
+            {
+               "iBitMask" : "int",
+               "iCellId" : "int"
+            }
+         ],
+         "sSpatialHierDataset" : "String"
+      }
+   }
+}

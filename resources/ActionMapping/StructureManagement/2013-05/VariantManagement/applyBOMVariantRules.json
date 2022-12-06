@@ -1,0 +1,62 @@
+{
+   "OperationResponse" : {
+      "window" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "rules" : [
+         {
+            "variantRule" : "IModelObject",
+            "bomVariantOptionValueEntry" : [
+               {
+                  "option" : "IModelObject",
+                  "variantOptionValue" : [
+                     {
+                        "index" : "int",
+                        "whereSet" : "String",
+                        "value" : "String",
+                        "isConfiguredOptionValue" : "bool",
+                        "howSetInt" : "int",
+                        "howSet" : "String"
+                     }
+                  ],
+                  "optionName" : "String",
+                  "owningItem" : "IModelObject",
+                  "optionDesc" : "String"
+               }
+            ],
+            "isSVRModified" : "bool",
+            "svr" : "IModelObject",
+            "isConstraintsEvaluated" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2013-05-VariantManagement/applyBOMVariantRules",
+   "OperationInput" : {
+      "rules" : [
+         {
+            "svr" : "IModelObject",
+            "isConstraintsEvaluated" : "bool",
+            "isSVRModified" : "bool",
+            "bomVariantOptionValueEntry" : [
+               {
+                  "option" : "IModelObject",
+                  "variantOptionValue" : [
+                     {
+                        "index" : "int",
+                        "whereSet" : "String",
+                        "value" : "String",
+                        "isConfiguredOptionValue" : "bool",
+                        "howSet" : "String",
+                        "howSetInt" : "int"
+                     }
+                  ],
+                  "optionName" : "String",
+                  "owningItem" : "IModelObject",
+                  "optionDesc" : "String"
+               }
+            ],
+            "variantRule" : "IModelObject"
+         }
+      ],
+      "window" : "IModelObject"
+   }
+}

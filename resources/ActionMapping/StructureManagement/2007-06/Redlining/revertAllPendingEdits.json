@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-Redlining/revertAllPendingEdits",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "windows" : "IModelObject[]"
+   }
+}

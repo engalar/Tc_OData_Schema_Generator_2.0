@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "queryParams" : [
+         {
+            "attributeType" : "String",
+            "attributeValue" : "String",
+            "attributeName" : "String",
+            "qryOperator" : "String"
+         }
+      ],
+      "clientInfo" : {
+         "clientMaintPackVersion" : "int",
+         "roleName" : "String",
+         "clientSiteId" : "int",
+         "clientServiceReleaseVersion" : "int",
+         "userName" : "String",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "targetServerSiteId" : "int",
+         "groupName" : "String",
+         "clientNode" : "String",
+         "clientReleaseVersion" : "int"
+      }
+   },
+   "OperationResponse" : {
+      "publishedObjTagAsString" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-TcEntObjectDirectory/queryPublicationRecords"
+}

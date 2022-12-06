@@ -1,0 +1,58 @@
+{
+   "OperationInput" : {
+      "searchInput" : {
+         "searchFilterFieldSortType" : "String",
+         "maxToReturn" : "int",
+         "maxToLoad" : "int",
+         "searchInboxContentType" : "String",
+         "searchSortDirection" : "String",
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "count" : "int",
+                  "selected" : "bool",
+                  "startEndRange" : "String",
+                  "startDateValue" : "Date",
+                  "endNumericValue" : "double",
+                  "startNumericValue" : "double",
+                  "stringValue" : "String",
+                  "searchFilterType" : "String",
+                  "endDateValue" : "Date"
+               }
+            ]
+         },
+         "startIndex" : "int",
+         "searchSortCriteria" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "searchFilterMap" : {
+         "SampleKeyString" : [
+            {
+               "startEndRange" : "String",
+               "selected" : "bool",
+               "count" : "int",
+               "endDateValue" : "Date",
+               "searchFilterType" : "String",
+               "stringValue" : "String",
+               "startNumericValue" : "double",
+               "endNumericValue" : "double",
+               "startDateValue" : "Date"
+            }
+         ]
+      },
+      "defaultFilterFieldDisplayCount" : "int",
+      "searchResults" : "IModelObject[]",
+      "searchFilterCategories" : [
+         {
+            "defaultFilterValueDisplayCount" : "int",
+            "displayName" : "String",
+            "internalName" : "String"
+         }
+      ],
+      "totalFound" : "int",
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int"
+   },
+   "ServiceOperation" : "Internal-AWS2-2013-12-Workflow/performTaskSearch"
+}

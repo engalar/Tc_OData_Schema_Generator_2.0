@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "comparisonData" : [
+         {
+            "fieldName" : "String",
+            "isDifferent" : "bool",
+            "values" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2012-02-StructureVerification/getToolRequirementComparisonDetails",
+   "OperationInput" : {
+      "sourceObjects" : "IModelObject[]",
+      "targetObjects" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "addPropsOnTypeInputs" : [
+         {
+            "propDefinitions" : [
+               {
+                  "propertyStorageType" : "String",
+                  "description" : "String",
+                  "propertyType" : "String",
+                  "displayName" : "String",
+                  "propertyOptions" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "name" : "String"
+               }
+            ],
+            "type" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Core-2020-01-ActiveModeler/addPropertiesOnTypes"
+}

@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "selectedDeclarationInputs" : [
+         {
+            "selectedTargets" : "IModelObject[]",
+            "approverComments" : "String",
+            "approvalStatus" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SubsCmplAW-2018-05-SubstanceCompliance/applyDeclarationApprovals"
+}

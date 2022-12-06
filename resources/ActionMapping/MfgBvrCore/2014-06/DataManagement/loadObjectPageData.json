@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "xmlInput" : "String"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "loadedObjects" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-MfgBvrCore-2014-06-DataManagement/loadObjectPageData"
+}

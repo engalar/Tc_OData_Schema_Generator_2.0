@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "keyValueArgs" : {
+               "SampleKeyString" : "String"
+            },
+            "clientId" : "String",
+            "businessObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ContMgmtS1000D40-2014-06-ContMgmtS1000D40/incrementalDelivery",
+   "OperationResponse" : {
+      "data" : [
+         {
+            "clientId" : "String",
+            "deliveryFileTicket" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

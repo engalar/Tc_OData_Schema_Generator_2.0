@@ -1,0 +1,46 @@
+{
+   "OperationInput" : {
+      "uidsToUnpin" : "String[]",
+      "returnGateway" : "bool"
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-DataManagement/unpinObjects",
+   "OperationResponse" : {
+      "tileGroups" : [
+         {
+            "groupName" : "String",
+            "tiles" : [
+               {
+                  "displayName" : "String",
+                  "validSizes" : "int[]",
+                  "content" : [
+                     {
+                        "contentValue" : "String",
+                        "contentName" : "String"
+                     }
+                  ],
+                  "relUID" : "String",
+                  "styleOverride" : "String",
+                  "action" : {
+                     "commandId" : "String",
+                     "actionType" : "int",
+                     "url" : "String",
+                     "actionParams" : {
+                        "SampleKeyString" : "String"
+                     }
+                  },
+                  "orderNumber" : "int",
+                  "isProtected" : "bool",
+                  "icons" : {
+                     "secondaryIcon" : "String",
+                     "primaryIcon" : "String",
+                     "typeHierarchy" : "String[]"
+                  },
+                  "themeIndex" : "int",
+                  "tileSize" : "int"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

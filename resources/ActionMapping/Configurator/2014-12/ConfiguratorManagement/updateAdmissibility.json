@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "updateAdmissibilityInputList" : [
+         {
+            "updateAdmissibilityInputs" : [
+               {
+                  "contextObject" : "IModelObject",
+                  "updateAdmissibilityData" : [
+                     {
+                        "admissibilityObject" : "IModelObject",
+                        "admissibilityState" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "admissibilityOutputList" : [
+         {
+            "admissibilityDataList" : [
+               {
+                  "contextObject" : "IModelObject",
+                  "admissibilityList" : "IModelObject[]"
+               }
+            ],
+            "index" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-12-ConfiguratorManagement/updateAdmissibility"
+}

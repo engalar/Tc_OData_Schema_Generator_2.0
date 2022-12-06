@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagement-2007-06-ScheduleManagement/deleteNotificationRules",
+   "OperationInput" : {
+      "notificationRuleContainer" : [
+         {
+            "target" : "IModelObject",
+            "ruleType" : "String",
+            "subscriber" : "IModelObject"
+         }
+      ]
+   }
+}

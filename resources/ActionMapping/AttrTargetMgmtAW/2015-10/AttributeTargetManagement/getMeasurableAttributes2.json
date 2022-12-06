@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "parentLine" : "IModelObject",
+            "relationList" : "String[]",
+            "contextLine" : "IModelObject",
+            "clientId" : "String",
+            "parentObj" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "parentAttrList" : [
+         {
+            "attrList" : [
+               {
+                  "relationType" : "String",
+                  "attrObjList" : [
+                     {
+                        "sourceAttribute" : "IModelObject",
+                        "attributeType" : "String",
+                        "attribute" : "IModelObject",
+                        "occName" : "String"
+                     }
+                  ]
+               }
+            ],
+            "isLineInValidationList" : "bool",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AttrTargetMgmtAW-2015-10-AttributeTargetManagement/getMeasurableAttributes2"
+}

@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "tickets" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2006-03-FileManagement/getFileReadTickets",
+   "OperationInput" : {
+      "files" : "IModelObject[]"
+   }
+}

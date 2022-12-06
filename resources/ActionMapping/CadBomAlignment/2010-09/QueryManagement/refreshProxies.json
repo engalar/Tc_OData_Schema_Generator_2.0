@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "proxyObjectInput" : "IModelObject[]"
+   },
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "Internal-CadBomAlignment-2010-09-QueryManagement/refreshProxies"
+}

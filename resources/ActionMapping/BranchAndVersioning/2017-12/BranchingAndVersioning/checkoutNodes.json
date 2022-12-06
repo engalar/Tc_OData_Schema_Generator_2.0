@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientID" : "String",
+            "checkoutNodeObjects" : "IModelObject[]",
+            "config" : {
+               "SampleKeyString" : "String"
+            },
+            "branch" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-BranchAndVersioning-2017-12-BranchingAndVersioning/checkoutNodes",
+   "OperationResponse" : {
+      "newNodeList" : [
+         {
+            "newObjects" : "IModelObject[]",
+            "branchNodes" : [
+               {
+                  "nodeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "branchNode" : "IModelObject",
+                  "tupleNode" : "IModelObject"
+               }
+            ],
+            "clientID" : "String",
+            "edges" : [
+               {
+                  "startNode" : "IModelObject",
+                  "endNode" : "IModelObject",
+                  "edgeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "edgeType" : "String",
+                  "edgeObject" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

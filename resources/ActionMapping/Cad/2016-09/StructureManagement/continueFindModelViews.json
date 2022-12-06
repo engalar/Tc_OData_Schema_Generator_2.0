@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "stopFind" : "bool",
+      "searchID" : "String"
+   },
+   "OperationResponse" : {
+      "finished" : "bool",
+      "modelViewsByStructureNodes" : [
+         {
+            "resultingViews" : "IModelObject[]",
+            "clonestableId" : "String[]",
+            "structureNode" : "IModelObject",
+            "csIdContextOccurrence" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "structureNodesSearched" : "int"
+   },
+   "ServiceOperation" : "Cad-2016-09-StructureManagement/continueFindModelViews"
+}

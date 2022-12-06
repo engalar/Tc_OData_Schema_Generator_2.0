@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "classAttributeValues" : [
+         {
+            "attributeName" : "String",
+            "className" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2007-01-DataManagement/getAttributeValues",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "values" : "String[]",
+            "classAttribute" : {
+               "className" : "String",
+               "attributeName" : "String"
+            }
+         }
+      ]
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2011-06-IncrementalChange/getParentAndChildComponents",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "parentAndChildInfoResponse" : {
+         "parentChildInfos" : [
+            {
+               "parent" : "IModelObject",
+               "context" : "String",
+               "child" : "IModelObject",
+               "ice" : "IModelObject"
+            }
+         ]
+      }
+   },
+   "OperationInput" : {
+      "icRevision" : "IModelObject"
+   }
+}

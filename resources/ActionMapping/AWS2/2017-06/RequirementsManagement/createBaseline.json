@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "objectToBaseline" : "IModelObject",
+            "baselineLabelName" : "String",
+            "isPreciseBaseline" : "bool",
+            "isDryRun" : "bool",
+            "baselineReleaseProcedureName" : "String",
+            "baselineJobName" : "String",
+            "baselineRevisionId" : "String",
+            "baselineJobDescription" : "String",
+            "baselineDescription" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-06-RequirementsManagement/createBaseline",
+   "OperationResponse" : "IServiceData"
+}

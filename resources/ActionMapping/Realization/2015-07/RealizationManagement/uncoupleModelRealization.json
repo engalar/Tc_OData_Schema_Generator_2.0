@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientID" : "String",
+            "sourceModel" : "IModelObject",
+            "targetModel" : "IModelObject",
+            "realizedElement" : "IModelObject",
+            "realizationContainer" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Realization-2015-07-RealizationManagement/uncoupleModelRealization"
+}

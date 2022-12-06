@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2010-09-Structure/packOrUnpack",
+   "OperationInput" : {
+      "flag" : "int",
+      "lines" : "IModelObject[]"
+   }
+}

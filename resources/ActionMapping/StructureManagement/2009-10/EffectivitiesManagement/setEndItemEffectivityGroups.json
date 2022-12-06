@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2009-10-EffectivitiesManagement/setEndItemEffectivityGroups",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "effectivityGrpInput" : [
+         {
+            "bomWindow" : "IModelObject",
+            "clientId" : "String",
+            "effGrpRevisions" : "IModelObject[]"
+         }
+      ]
+   }
+}

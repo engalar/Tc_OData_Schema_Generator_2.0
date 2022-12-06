@@ -1,0 +1,51 @@
+{
+   "OperationInput" : {
+      "deepCopyDataInput" : {
+         "parentDeepCopyData" : {
+            "operationInputTypeName" : "String",
+            "childDeepCopyData" : "Teamcenter::Soa::Core::_2014_10::DataManagement::DeepCopyData[]",
+            "propertyValuesMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "operationInputs" : {
+               "SampleKeyString" : "String[]"
+            },
+            "attachedObject" : "IModelObject"
+         },
+         "deepCopyDatas" : [
+            {
+               "operationInputTypeName" : "String",
+               "childDeepCopyData" : "Teamcenter::Soa::Core::_2014_10::DataManagement::DeepCopyData[]",
+               "operationInputs" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "propertyValuesMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "attachedObject" : "IModelObject"
+            }
+         ],
+         "targetObject" : "IModelObject",
+         "operation" : "String",
+         "selectedBO" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "deepCopyDatas" : [
+         {
+            "operationInputTypeName" : "String",
+            "childDeepCopyData" : "Teamcenter::Soa::Core::_2014_10::DataManagement::DeepCopyData[]",
+            "operationInputs" : {
+               "SampleKeyString" : "String[]"
+            },
+            "propertyValuesMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "attachedObject" : "IModelObject"
+         }
+      ],
+      "selectedBOIsDuplicated" : "bool",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2015-07-DataManagement/getDeepCopyData"
+}

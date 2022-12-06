@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-Validation-2008-06-Validation/parseRequirementExpressions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "variableNames" : "String[]",
+            "functionNames" : "String[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "requirementExpression" : "String"
+         }
+      ]
+   }
+}

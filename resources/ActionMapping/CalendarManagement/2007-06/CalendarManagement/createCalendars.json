@@ -1,0 +1,87 @@
+{
+   "ServiceOperation" : "CalendarManagement-2007-06-CalendarManagement/createCalendars",
+   "OperationResponse" : {
+      "calendarResponse" : [
+         {
+            "calendar" : "IModelObject",
+            "calendarEvent" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "newTCCalendars" : [
+         {
+            "newEvents" : [
+               {
+                  "numRecurrences" : "int",
+                  "eventRanges" : [
+                     {
+                        "endRange" : "int",
+                        "startRange" : "int"
+                     }
+                  ],
+                  "recurDaysOfWeek" : "int",
+                  "firstRecurStart" : "Date",
+                  "recurMonth" : "int",
+                  "recurInterval" : "int",
+                  "firstRecurEnd" : "Date",
+                  "recurWeeksOfMonth" : "int",
+                  "eventExpiryDate" : "Date",
+                  "eventType" : "int"
+               }
+            ],
+            "tccalendarAttributes" : {
+               "source" : "IModelObject",
+               "wedRanges" : [
+                  {
+                     "endRange" : "int",
+                     "startRange" : "int"
+                  }
+               ],
+               "satRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "schedule" : "IModelObject",
+               "sunRanges" : [
+                  {
+                     "endRange" : "int",
+                     "startRange" : "int"
+                  }
+               ],
+               "monRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "tueRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "friRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "description" : "String",
+               "baseCalendar" : "IModelObject",
+               "thuRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "name" : "String",
+               "type" : "int"
+            }
+         }
+      ]
+   }
+}

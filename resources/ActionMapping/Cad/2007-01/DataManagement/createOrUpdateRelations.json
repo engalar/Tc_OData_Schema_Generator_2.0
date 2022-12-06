@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "relationType" : "String",
+            "clientId" : "String",
+            "relation" : "IModelObject",
+            "primaryObject" : "IModelObject",
+            "userData" : "IModelObject",
+            "secondaryObject" : "IModelObject"
+         }
+      ],
+      "complete" : "bool",
+      "pref" : {
+         "info" : [
+            {
+               "objectTypeNames" : "String[]",
+               "relationName" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Cad-2007-01-DataManagement/createOrUpdateRelations",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "relation" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

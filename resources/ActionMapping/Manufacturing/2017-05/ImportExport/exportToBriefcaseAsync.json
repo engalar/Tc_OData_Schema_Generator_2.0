@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2017-05-ImportExport/exportToBriefcaseAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "reason" : "String",
+      "transferOptionSet" : "IModelObject",
+      "sessionOptionNamesAndValues" : {
+         "SampleKeyString" : "String"
+      },
+      "optionNameAndValues" : {
+         "SampleKeyString" : "String"
+      },
+      "sites" : "IModelObject[]"
+   }
+}

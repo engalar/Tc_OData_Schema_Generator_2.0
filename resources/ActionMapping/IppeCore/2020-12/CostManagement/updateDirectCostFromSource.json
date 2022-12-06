@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-IppeCore-2020-12-CostManagement/updateDirectCostFromSource",
+   "OperationInput" : {
+      "conditionalElements" : "IModelObject[]",
+      "targetProductConfigInfo" : "IModelObject",
+      "topLineConditionalElement" : "IModelObject"
+   }
+}

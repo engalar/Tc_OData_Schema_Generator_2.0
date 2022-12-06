@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "StructureManagement-2012-09-Structure/validateParentChildConditions",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "parent" : "IModelObject",
+            "child" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,50 @@
+{
+   "OperationResponse" : {
+      "clsObjs" : [
+         {
+            "clsObjUid" : "String",
+            "properties" : [
+               {
+                  "values" : [
+                     {
+                        "dbValue" : "String",
+                        "displayValue" : "String"
+                     }
+                  ],
+                  "attributeId" : "int"
+               }
+            ],
+            "instanceId" : "String",
+            "lastModDate" : "String",
+            "relationUid" : "String",
+            "unitBase" : "US_UNSPECIFIED US_METRIC US_NON_METRIC",
+            "classId" : "String",
+            "wsoId" : "IModelObject"
+         }
+      ],
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Classification-2018-11-Classification/saveClassificationObjects",
+   "OperationInput" : {
+      "classificationObjects" : [
+         {
+            "clsObjTag" : "IModelObject",
+            "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+            "classId" : "String",
+            "wsoId" : "IModelObject",
+            "properties" : [
+               {
+                  "attributeId" : "int",
+                  "values" : [
+                     {
+                        "displayValue" : "String",
+                        "dbValue" : "String"
+                     }
+                  ]
+               }
+            ],
+            "instanceId" : "String"
+         }
+      ]
+   }
+}

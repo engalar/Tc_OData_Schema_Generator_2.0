@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "businessObjectTypeNames" : "String[]"
+   },
+   "OperationResponse" : {
+      "createDescs" : [
+         {
+            "propDescs" : "IModelObject[]",
+            "secondaryCreateDescs" : {
+               "SampleKeyString" : [
+                  {
+                     "isArray" : "bool",
+                     "businessObjectTypeName" : "String",
+                     "compoundingCtxt" : "CompoundObject CompoundRelation",
+                     "isRequired" : "bool",
+                     "propDescs" : "IModelObject[]",
+                     "secondaryCreateDescs" : "Teamcenter::Soa::Core::_2008_06::PropDescriptor::SecCreateDescMap"
+                  }
+               ]
+            },
+            "businessObjectTypeName" : "String"
+         }
+      ],
+      "srvData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2008-06-PropDescriptor/getCreateDesc"
+}

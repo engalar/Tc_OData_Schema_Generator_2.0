@@ -1,0 +1,60 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "actionsInput" : [
+               {
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "doubleArrayProps" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "intArrayProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "dateArrayProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "boolArrayProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "stringArrayProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "tagProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "tagArrayProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "floatArrayProps" : {
+                     "SampleKeyString" : "float[]"
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  }
+               }
+            ],
+            "effect" : "IModelObject",
+            "cause" : "IModelObject",
+            "relationName" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-FmeaManager-2019-12-FailureModeManagement/addCauseActions",
+   "OperationResponse" : "IServiceData"
+}

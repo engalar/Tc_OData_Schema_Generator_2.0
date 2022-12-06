@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "fileName" : "String",
+            "clientId" : "String",
+            "fileTicket" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "files" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Core-2008-06-FileManagement/commitRegularFiles"
+}

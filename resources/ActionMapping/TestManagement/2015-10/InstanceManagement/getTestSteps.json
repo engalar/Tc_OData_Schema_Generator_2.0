@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "bomLineScope" : "IModelObject",
+            "customProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "testObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "srvcData" : "IServiceData",
+      "stepResults" : [
+         {
+            "steps" : [
+               {
+                  "contents" : [
+                     {
+                        "customProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "allowedTypes" : "String",
+                        "bomlines" : "IModelObject[]",
+                        "uiValue" : "String",
+                        "placeholderStatus" : "String",
+                        "elementType" : "String"
+                     }
+                  ]
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-TestManagement-2015-10-InstanceManagement/getTestSteps"
+}

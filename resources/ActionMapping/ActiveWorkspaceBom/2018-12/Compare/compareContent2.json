@@ -1,0 +1,88 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "compareOptions" : {
+            "SampleKeyString" : "String[]"
+         },
+         "source" : {
+            "visibleUids" : "String[]",
+            "depth" : "int",
+            "element" : "IModelObject",
+            "productContextInfo" : "IModelObject",
+            "filteringRule" : "String"
+         },
+         "sourceCursor" : {
+            "startReached" : "bool",
+            "endReached" : "bool",
+            "startIndex" : "int",
+            "endIndex" : "int",
+            "isForward" : "bool",
+            "pageSize" : "int"
+         },
+         "startFreshCompare" : "bool",
+         "targetCursor" : {
+            "isForward" : "bool",
+            "pageSize" : "int",
+            "startIndex" : "int",
+            "endIndex" : "int",
+            "endReached" : "bool",
+            "startReached" : "bool"
+         },
+         "target" : {
+            "visibleUids" : "String[]",
+            "element" : "IModelObject",
+            "depth" : "int",
+            "productContextInfo" : "IModelObject",
+            "filteringRule" : "String"
+         },
+         "compareInBackground" : "bool",
+         "notificationMessage" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "pagedTargetDifferences" : [
+         {
+            "uids" : "String",
+            "diff" : "int"
+         }
+      ],
+      "totalNoOfSourceDifferences" : "int",
+      "sourceDepth" : "int",
+      "pagedSourceDifferences" : [
+         {
+            "uids" : "String",
+            "diff" : "int"
+         }
+      ],
+      "targetCursor" : {
+         "startIndex" : "int",
+         "endIndex" : "int",
+         "isForward" : "bool",
+         "pageSize" : "int",
+         "startReached" : "bool",
+         "endReached" : "bool"
+      },
+      "sourceDifferences" : {
+         "SampleKeyString" : "int"
+      },
+      "serviceData" : "IServiceData",
+      "totalNoOfTargetDifferences" : "int",
+      "targetDifferences" : {
+         "SampleKeyString" : "int"
+      },
+      "compareOptions" : {
+         "SampleKeyString" : "String[]"
+      },
+      "timestampOfStoredResults" : "Date",
+      "sourceCursor" : {
+         "endReached" : "bool",
+         "startReached" : "bool",
+         "isForward" : "bool",
+         "pageSize" : "int",
+         "startIndex" : "int",
+         "endIndex" : "int"
+      },
+      "targetDepth" : "int"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2018-12-Compare/compareContent2"
+}

@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputVal" : "int"
+   },
+   "ServiceOperation" : "Internal-Integration-2007-06-IntegrationManagement/connect",
+   "OperationInput" : {
+      "inputVal" : "int",
+      "action" : "String"
+   }
+}

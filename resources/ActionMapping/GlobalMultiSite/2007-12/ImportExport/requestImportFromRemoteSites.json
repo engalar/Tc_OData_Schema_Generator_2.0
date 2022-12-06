@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "GlobalMultiSite-2007-12-ImportExport/requestImportFromRemoteSites",
+   "OperationResponse" : {
+      "msgIDs" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "optionNamesAndValues" : [
+         {
+            "name" : "String",
+            "value" : "String"
+         }
+      ],
+      "reason" : "String",
+      "sessionOptionNamesAndValues" : [
+         {
+            "value" : "String",
+            "name" : "String"
+         }
+      ],
+      "owningSitesAndObjs" : [
+         {
+            "owningSiteId" : "int",
+            "objs" : "IModelObject[]"
+         }
+      ],
+      "optionSet" : "IModelObject"
+   }
+}

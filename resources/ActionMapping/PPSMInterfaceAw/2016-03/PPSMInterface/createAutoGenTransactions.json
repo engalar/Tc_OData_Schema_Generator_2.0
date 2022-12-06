@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "PPSMInterfaceAw-2016-03-PPSMInterface/createAutoGenTransactions",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "createContainer" : {
+         "packageObject" : "IModelObject",
+         "eventObject" : "IModelObject",
+         "scheduleDate" : "Date",
+         "selection" : "int",
+         "sourceObjectType" : "int",
+         "cardinality" : "int",
+         "schedulingMethod" : "int"
+      }
+   }
+}

@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "recipe" : {
+         "configDetails" : [
+            {
+               "configContext" : "IModelObject",
+               "configurationFor" : "Universal Partition"
+            }
+         ],
+         "scope" : {
+            "model" : "IModelObject",
+            "searchType" : "String[]",
+            "recipeContainer" : "IModelObject"
+         },
+         "searchExpression" : {
+            "searchOperator" : "And Or Not",
+            "searchExpressionSets" : "Mdl0::Soa::ModelCore::_2011_06::Search::SearchExpressionSet[]",
+            "searchExpression" : {
+               "doTrushapeRefinement" : "bool",
+               "searchExpressions" : "IModelObject[]"
+            }
+         }
+      },
+      "options" : {
+         "sortAttributes" : "String[]",
+         "defaultLoadCount" : "int",
+         "sortOrder" : "Ascending Descending"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "elementsDone" : "int",
+      "searchCursor" : "IModelObject",
+      "finished" : "bool",
+      "modelElements" : "IModelObject[]",
+      "estimatedElementsLeft" : "int"
+   },
+   "ServiceOperation" : "ModelCore-2011-06-Search/executeSearch"
+}

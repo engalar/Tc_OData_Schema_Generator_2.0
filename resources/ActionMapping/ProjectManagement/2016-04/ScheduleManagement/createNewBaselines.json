@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "runInBackground" : "bool",
+      "createBaselineContainer" : [
+         {
+            "parentBaseline" : "IModelObject",
+            "name" : "String",
+            "taskRebaseOption" : "int",
+            "includeNewTasks" : "bool",
+            "updateScheduleBaselineCost" : "bool",
+            "isActive" : "bool",
+            "schedule" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2016-04-ScheduleManagement/createNewBaselines",
+   "OperationResponse" : "IServiceData"
+}

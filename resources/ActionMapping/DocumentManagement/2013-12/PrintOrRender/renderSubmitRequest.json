@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "preserve" : "bool",
+            "clientId" : "String",
+            "renderObjs" : "IModelObject[]",
+            "extraInfo" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "requestObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "DocumentManagement-2013-12-PrintOrRender/renderSubmitRequest"
+}

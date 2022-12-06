@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2016-10-Effectivity/getUnitNetOccurrenceEffectivity",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "netEffectivityOutputVector" : [
+         {
+            "netEOC" : "bool",
+            "netEffectivity" : "String",
+            "occEffectivity" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "bomlines" : "IModelObject[]"
+   }
+}

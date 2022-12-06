@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Workflow-2008-06-Workflow/addAttachments",
+   "OperationInput" : {
+      "task" : "IModelObject",
+      "attachments" : {
+         "attachment" : "IModelObject[]",
+         "attachmentType" : "int[]"
+      }
+   }
+}

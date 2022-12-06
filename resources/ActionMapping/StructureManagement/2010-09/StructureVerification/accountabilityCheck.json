@@ -1,0 +1,57 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "resultDesc" : "String",
+         "options" : "int",
+         "sourceDepth" : "int",
+         "sourceObjects" : "IModelObject[]",
+         "sourceFilteringRule" : "String",
+         "sourceContextLine" : "IModelObject",
+         "targetDepth" : "int",
+         "reportMode" : "int",
+         "targetFilteringRule" : "String",
+         "reportCriteria" : {
+            "contextObjects" : "IModelObject[]",
+            "reportOptionsNames" : "String[]",
+            "stylesheetTag" : "IModelObject",
+            "reportOptionsValues" : "String[]",
+            "relationName" : "String",
+            "datasetCtxObj" : "IModelObject",
+            "criteriaValues" : "String[]",
+            "reportName" : "String",
+            "criteriaName" : "String[]",
+            "contextObjectUIDs" : "String[]",
+            "rdTag" : "IModelObject",
+            "datasetType" : "String",
+            "datasetName" : "String",
+            "datasetCtxUID" : "String",
+            "stylesheetName" : "String"
+         },
+         "targetContextLine" : "IModelObject",
+         "resultName" : "String",
+         "targetObjects" : "IModelObject[]",
+         "matchType" : "int"
+      }
+   },
+   "OperationResponse" : {
+      "accountabilityCheckResults" : [
+         {
+            "resultViewTag" : "IModelObject",
+            "equivalentSourceLines" : "IModelObject[]",
+            "sourceLine" : "IModelObject",
+            "equivalentTargetLines" : "IModelObject[]",
+            "checkResult" : "int",
+            "reportFileInfo" : [
+               {
+                  "isText" : "bool",
+                  "fileName" : "String",
+                  "ticket" : "String"
+               }
+            ]
+         }
+      ],
+      "reachableTargets" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2010-09-StructureVerification/accountabilityCheck"
+}

@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-StructureManagement/getClusterDetails",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clusters" : [
+               {
+                  "line" : "IModelObject",
+                  "idic" : "String",
+                  "isBasis" : "bool"
+               }
+            ]
+         }
+      ]
+   }
+}

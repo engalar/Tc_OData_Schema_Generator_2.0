@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "sessionInfoTicket" : "String"
+   },
+   "ServiceOperation" : "Administration-2018-11-IRM/getSessionInfoTicket"
+}

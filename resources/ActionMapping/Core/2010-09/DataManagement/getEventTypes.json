@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "businessObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2010-09-DataManagement/getEventTypes",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "auditableEvents" : "String[]",
+            "clientId" : "String",
+            "subscribableEvents" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

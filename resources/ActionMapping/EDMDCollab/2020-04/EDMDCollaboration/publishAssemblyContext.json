@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "publishAssemblyInput" : {
+         "fileInfo" : {
+            "fileExtension" : "String",
+            "folderPath" : "String",
+            "fileName" : "String"
+         },
+         "bomLines" : "IModelObject[]",
+         "designUID" : "String"
+      }
+   },
+   "ServiceOperation" : "EDMDCollab-2020-04-EDMDCollaboration/publishAssemblyContext",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "datasetUid" : "String",
+      "writeTicket" : "String"
+   }
+}

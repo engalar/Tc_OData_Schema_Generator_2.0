@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "data" : {
+               "transElem" : "IModelObject",
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "SvcProcessing-2009-06-ServiceProcessing/setTxnElementStatus",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "transElemObjs" : "IModelObject[]"
+         }
+      ]
+   }
+}

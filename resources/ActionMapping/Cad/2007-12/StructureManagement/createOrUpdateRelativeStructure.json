@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "bomViewTypeName" : "String",
+      "inputs" : [
+         {
+            "childInfo" : [
+               {
+                  "clientId" : "String",
+                  "child" : "IModelObject",
+                  "cadOccId" : "String",
+                  "occInfo" : {
+                     "occNotes" : [
+                        {
+                           "noteType" : "String",
+                           "noteText" : "String"
+                        }
+                     ],
+                     "attrsToSet" : [
+                        {
+                           "value" : "String",
+                           "name" : "String"
+                        }
+                     ],
+                     "occTransform" : "double[]",
+                     "asRequired" : "bool"
+                  }
+               }
+            ],
+            "lastModifiedOfBVR" : "Date",
+            "precise" : "bool",
+            "parent" : "IModelObject"
+         }
+      ],
+      "complete" : "bool",
+      "pref" : {
+         "overwriteForLastModDate" : "bool",
+         "cadOccIdAttrName" : "String",
+         "itemTypes" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Cad-2007-12-StructureManagement/createOrUpdateRelativeStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   }
+}

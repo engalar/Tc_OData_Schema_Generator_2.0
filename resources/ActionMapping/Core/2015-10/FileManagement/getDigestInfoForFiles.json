@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {
+      "fileDigestInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "digestAlgorithm" : "String",
+                  "certainty" : "int",
+                  "digest" : "String"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2015-10-FileManagement/getDigestInfoForFiles",
+   "OperationInput" : {
+      "files" : "IModelObject[]"
+   }
+}

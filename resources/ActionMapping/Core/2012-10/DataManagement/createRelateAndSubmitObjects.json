@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "dataToBeRelated" : {
+               "SampleKeyString" : "String[]"
+            },
+            "pasteProp" : "String",
+            "workflowData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "createData" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boName" : "String",
+                        "compoundCreateInput" : "Teamcenter::Soa::Internal::Core::_2012_10::DataManagement::CreateInputMap"
+                     }
+                  ]
+               },
+               "boName" : "String"
+            },
+            "targetObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "objects" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Core-2012-10-DataManagement/createRelateAndSubmitObjects"
+}

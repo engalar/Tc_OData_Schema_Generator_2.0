@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "xmlFileName" : "String",
+      "itemKey" : "String",
+      "processHierarchy" : "String",
+      "itemCreationSetting" : "String",
+      "workingDirectory" : "String",
+      "datasetCreationSetting" : "String",
+      "revisionID" : "String",
+      "itemID" : "String"
+   },
+   "ServiceOperation" : "Internal-Cae-2012-02-SimulationProcessManagement/importSimulationObjects",
+   "OperationResponse" : "bool"
+}

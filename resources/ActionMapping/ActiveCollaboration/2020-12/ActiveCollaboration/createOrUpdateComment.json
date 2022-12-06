@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "request" : [
+         {
+            "comment" : "IModelObject",
+            "conversation" : "IModelObject",
+            "richText" : "String",
+            "rootComment" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ActiveCollaboration-2020-12-ActiveCollaboration/createOrUpdateComment",
+   "OperationResponse" : "IServiceData"
+}

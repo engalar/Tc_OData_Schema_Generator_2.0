@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "AttrTargetMgmt-2015-03-AttributeTargetManagement/getLatestDefinitions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputMap" : {
+         "SampleKeyString" : "IModelObject[]"
+      }
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientID" : "String",
+            "disabledStatus" : "String[]",
+            "objectName" : "String",
+            "enabledStatus" : "String[]",
+            "itemOrRevType" : "String"
+         }
+      ]
+   }
+}

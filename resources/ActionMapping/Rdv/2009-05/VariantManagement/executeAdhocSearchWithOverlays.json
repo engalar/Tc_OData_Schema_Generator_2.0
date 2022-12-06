@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "plmxmlFileLocation" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Rdv-2009-05-VariantManagement/executeAdhocSearchWithOverlays",
+   "OperationInput" : {
+      "datasetTag" : "IModelObject",
+      "bomWindow" : "IModelObject",
+      "vooFlag" : "bool",
+      "svrTag" : "IModelObject",
+      "productRevTag" : "IModelObject",
+      "bookMarkStringsToMatch" : "String[]",
+      "targetBOMLine" : "IModelObject[]"
+   }
+}

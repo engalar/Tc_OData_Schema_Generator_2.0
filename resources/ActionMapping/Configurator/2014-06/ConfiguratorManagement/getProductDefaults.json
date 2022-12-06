@@ -1,0 +1,91 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "expressionsToUpdate" : [
+               {
+                  "targetObject" : "IModelObject",
+                  "expressions" : [
+                     {
+                        "subExpressions" : [
+                           {
+                              "expressionGroups" : [
+                                 {
+                                    "groupName" : "String",
+                                    "terms" : [
+                                       {
+                                          "value" : "IModelObject",
+                                          "operatorCode" : "int",
+                                          "family" : "IModelObject",
+                                          "rangeExpressions" : [
+                                             {
+                                                "valueText" : "String",
+                                                "operatorCode" : "int"
+                                             }
+                                          ],
+                                          "valueText" : "String",
+                                          "familyID" : "String",
+                                          "familyNamespace" : "String"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ],
+                        "expressionType" : "int",
+                        "clientId" : "String",
+                        "formula" : "String"
+                     }
+                  ],
+                  "clientId" : "String"
+               }
+            ],
+            "families" : "IModelObject[]",
+            "context" : "IModelObject",
+            "applyDefaults" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "expressionsWithDefaults" : [
+         {
+            "targetObject" : "IModelObject",
+            "expressions" : [
+               {
+                  "formula" : "String",
+                  "clientId" : "String",
+                  "expressionType" : "int",
+                  "subExpressions" : [
+                     {
+                        "expressionGroups" : [
+                           {
+                              "terms" : [
+                                 {
+                                    "familyNamespace" : "String",
+                                    "familyID" : "String",
+                                    "valueText" : "String",
+                                    "rangeExpressions" : [
+                                       {
+                                          "operatorCode" : "int",
+                                          "valueText" : "String"
+                                       }
+                                    ],
+                                    "operatorCode" : "int",
+                                    "family" : "IModelObject",
+                                    "value" : "IModelObject"
+                                 }
+                              ],
+                              "groupName" : "String"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getProductDefaults"
+}

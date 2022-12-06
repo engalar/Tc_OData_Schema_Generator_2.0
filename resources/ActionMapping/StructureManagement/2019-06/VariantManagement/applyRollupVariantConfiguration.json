@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "bomlines" : "IModelObject[]",
+      "considerWindowSVR" : "bool"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2019-06-VariantManagement/applyRollupVariantConfiguration",
+   "OperationResponse" : "IServiceData"
+}

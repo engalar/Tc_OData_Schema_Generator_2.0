@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "testType" : "String",
+            "clientId" : "String",
+            "expectedResult" : "String",
+            "revisionId" : "String",
+            "steps" : "String",
+            "testCaseName" : "String",
+            "executionSystem" : "String",
+            "itemId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-TestManagement-2014-12-InstanceManagement/createTestCases",
+   "OperationResponse" : {
+      "testCaseResults" : [
+         {
+            "testCaseItem" : "IModelObject",
+            "clientId" : "String",
+            "testCaseRev" : "IModelObject"
+         }
+      ],
+      "srvcData" : "IServiceData"
+   }
+}

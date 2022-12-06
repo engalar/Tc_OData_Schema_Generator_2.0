@@ -1,0 +1,115 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createdRows" : [
+         {
+            "objects" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/createAndAddCostRows",
+   "OperationInput" : {
+      "costRowUIDs" : "String[]",
+      "createInputs" : [
+         {
+            "data" : {
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "boName" : "String",
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "compoundCreateInput" : "Teamcenter::Soa::Internal::Retail::_2012_06::Retail::CreateInputMap",
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "boName" : "String",
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        }
+                     }
+                  ]
+               }
+            },
+            "clientId" : "String"
+         }
+      ]
+   }
+}

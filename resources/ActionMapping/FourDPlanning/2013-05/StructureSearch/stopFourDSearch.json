@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "Internal-FourDPlanning-2013-05-StructureSearch/stopFourDSearch",
+   "OperationResponse" : {
+      "resultMap" : {
+         "SampleKeyString" : [
+            {
+               "occChain" : "String",
+               "object" : "IModelObject"
+            }
+         ]
+      },
+      "objectDone" : "int",
+      "serviceData" : "IServiceData",
+      "finished" : "bool",
+      "estimatedObjectsLeft" : "int",
+      "percentComplete" : "double",
+      "findLinesInProcStructure" : "bool",
+      "searchCursor" : "IModelObject"
+   },
+   "OperationInput" : {
+      "searchCursor" : "IModelObject"
+   }
+}

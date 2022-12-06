@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "parent" : "IModelObject",
+            "objs" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2012-10-Structure/cutItems"
+}

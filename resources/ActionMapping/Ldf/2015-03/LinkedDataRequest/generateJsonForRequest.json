@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "headerMap" : {
+               "SampleKeyString" : "String"
+            },
+            "clientId" : "String",
+            "body" : "String",
+            "status" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Ldf-2015-03-LinkedDataRequest/generateJsonForRequest",
+   "OperationInput" : {
+      "objectStringAsUid" : "String",
+      "ldfLinkObjects" : "String[]",
+      "serviceProviderStringAsUid" : "String"
+   }
+}

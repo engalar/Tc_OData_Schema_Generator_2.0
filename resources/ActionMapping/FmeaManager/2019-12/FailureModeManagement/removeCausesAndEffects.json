@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "failureModeObject" : "IModelObject",
+            "relationName" : "String",
+            "failureObjects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-FmeaManager-2019-12-FailureModeManagement/removeCausesAndEffects",
+   "OperationResponse" : "IServiceData"
+}

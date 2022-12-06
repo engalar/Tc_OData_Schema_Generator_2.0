@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "body" : "String",
+            "clientId" : "String",
+            "headerMap" : {
+               "SampleKeyString" : "String"
+            },
+            "status" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Ldf-2015-03-LinkedDataRequest/generateLinkedDataURI",
+   "OperationInput" : {
+      "puid" : "String",
+      "serviceURI" : "String"
+   }
+}

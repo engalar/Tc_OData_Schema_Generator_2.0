@@ -1,0 +1,5 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Internal-SimProc-2018-11-SimProcessStatusManagement/deleteSimProcessStatusObjects",
+   "OperationResponse" : "IServiceData"
+}

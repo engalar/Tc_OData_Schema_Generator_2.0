@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Core-2014-06-Reservation/bulkCheckout",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "comment" : "String",
+      "changeId" : "String",
+      "reservationType" : "int",
+      "objects" : "IModelObject[]"
+   }
+}

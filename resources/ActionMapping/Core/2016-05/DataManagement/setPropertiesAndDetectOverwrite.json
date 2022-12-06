@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Core-2016-05-DataManagement/setPropertiesAndDetectOverwrite",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "overwriteDetectedObjPropMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String[]"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "propData" : [
+         {
+            "businessObject" : "IModelObject",
+            "lastSavedDateExportedToClient" : "Date",
+            "vecPropNameVal" : [
+               {
+                  "oldValues" : "String[]",
+                  "newValues" : "String[]",
+                  "propertyName" : "String"
+               }
+            ]
+         }
+      ],
+      "options" : {
+         "SampleKeyString" : "String[]"
+      }
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "userInput" : [
+         {
+            "deleteObjects" : "bool",
+            "newOwningGroup" : "String",
+            "userId" : "String",
+            "newOwningUser" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Administration-2016-03-UserManagement/deleteUser"
+}

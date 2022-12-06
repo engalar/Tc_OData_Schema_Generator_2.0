@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2017-06-ImportExport/getDisplayableTypes",
+   "OperationResponse" : {
+      "rootTypes" : [
+         {
+            "realTypeName" : "String",
+            "displayTypeName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "specElementTypes" : [
+         {
+            "displayTypeName" : "String",
+            "realTypeName" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "option" : "String",
+         "specElementTypeName" : "String",
+         "rootTypeName" : "String",
+         "exclusionBOTypeNames" : "String[]"
+      }
+   }
+}

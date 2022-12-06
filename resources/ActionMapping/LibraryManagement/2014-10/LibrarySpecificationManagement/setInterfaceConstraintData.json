@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "interfaceConstraintInputs" : [
+         {
+            "interfaceConstraintDatas" : [
+               {
+                  "sourceAttributeId" : "String",
+                  "compatibleConstraintValues" : [
+                     {
+                        "dataEntry" : "String",
+                        "dataValue" : "String"
+                     }
+                  ],
+                  "destAttributeId" : "String"
+               }
+            ],
+            "overwriteExistingData" : "bool",
+            "specification" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/setInterfaceConstraintData",
+   "OperationResponse" : "IServiceData"
+}

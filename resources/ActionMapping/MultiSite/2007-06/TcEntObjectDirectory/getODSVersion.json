@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : {
+      "serverOdsMajorVersion" : "int",
+      "serviceData" : "IServiceData",
+      "serverServiceReleaseVersion" : "int",
+      "serverMaintPackVersion" : "int",
+      "clientRejected" : "bool",
+      "serverOdsMinorVersion" : "int",
+      "serverReleaseVersion" : "int",
+      "serverMinorReleaseVersion" : "int"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-TcEntObjectDirectory/getODSVersion",
+   "OperationInput" : {
+      "clientInfo" : {
+         "clientSiteId" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "roleName" : "String",
+         "clientMaintPackVersion" : "int",
+         "targetServerSiteId" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "groupName" : "String",
+         "clientNode" : "String",
+         "clientReleaseVersion" : "int"
+      }
+   }
+}

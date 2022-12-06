@@ -1,0 +1,35 @@
+{
+   "OperationResponse" : {
+      "infoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "object" : "IModelObject",
+               "detailedInfo" : {
+                  "SampleKeyString" : {
+                     "dataType" : "String",
+                     "charProperties" : "String",
+                     "tagProperties" : "IModelObject[]",
+                     "boolProperties" : "bool[]",
+                     "doubleProperties" : "double[]",
+                     "integerProperties" : "int[]",
+                     "dateProperties" : "Date[]",
+                     "stringProperties" : "String[]"
+                  }
+               }
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2013-05-TimeWayPlan/getTWPInformation",
+   "OperationInput" : {
+      "input" : {
+         "requestedObjects" : "IModelObject[]",
+         "contextProductBOP" : "IModelObject",
+         "requiredData" : "String[]"
+      }
+   }
+}

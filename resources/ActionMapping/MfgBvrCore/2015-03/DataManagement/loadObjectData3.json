@@ -1,0 +1,34 @@
+{
+   "OperationResponse" : {
+      "relatedObjectsMap" : {
+         "SampleKeyString" : {
+            "additionalPropertiesMap2" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      },
+      "loadedObjectsMap" : {
+         "SampleKeyString" : "IModelObject[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MfgBvrCore-2015-03-DataManagement/loadObjectData3",
+   "OperationInput" : {
+      "sections" : [
+         {
+            "dataEntries" : [
+               {
+                  "entry" : {
+                     "SampleKeyString" : {
+                        "nameToValuesMap" : {
+                           "SampleKeyString" : "String[]"
+                        }
+                     }
+                  }
+               }
+            ],
+            "sectionName" : "String"
+         }
+      ]
+   }
+}

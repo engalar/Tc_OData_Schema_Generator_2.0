@@ -1,0 +1,50 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "baseObjInfo" : {
+               "baseObj" : "IModelObject",
+               "propertiesInfo" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "uploadData" : [
+               {
+                  "existingObject" : "IModelObject",
+                  "newObject" : "IModelObject",
+                  "fileTicket" : "String",
+                  "clientFileId" : "String",
+                  "fileState" : "String",
+                  "fileName" : "String",
+                  "refName" : "String"
+               }
+            ],
+            "markupDataset" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/updateMarkup",
+   "OperationResponse" : {
+      "markupInfo" : {
+         "SampleKeyString" : {
+            "markupDatset" : "IModelObject",
+            "relation" : {
+               "propertiesInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "relation" : "IModelObject"
+            },
+            "references" : [
+               {
+                  "uploadedFile" : "IModelObject",
+                  "uploadedFilename" : "String",
+                  "clientFileId" : "String",
+                  "uploadedFileRefNames" : "String"
+               }
+            ]
+         }
+      },
+      "serviceData" : "IServiceData"
+   }
+}

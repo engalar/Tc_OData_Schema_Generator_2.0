@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "request" : [
+         {
+            "routine2" : "IModelObject",
+            "routine1" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "mappedPortFeatureData" : {
+         "SampleKeyString" : [
+            {
+               "featureID1" : "String",
+               "featureID2" : "String",
+               "featurePortAttrCode" : "String[]"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-ProductionManagement-2017-11-EngineeringDataQuery/getMappedPortFeatureData"
+}

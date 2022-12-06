@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/findPorts",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "clientId" : "String",
+            "freePorts" : "IModelObject[]",
+            "connectedPorts" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "context" : "IModelObject",
+            "portDirection" : "String",
+            "element" : "IModelObject",
+            "portDiscipline" : "String",
+            "partition" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

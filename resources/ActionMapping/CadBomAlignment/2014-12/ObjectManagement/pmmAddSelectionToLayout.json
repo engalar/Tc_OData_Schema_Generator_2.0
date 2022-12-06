@@ -1,0 +1,70 @@
+{
+   "OperationResponse" : {
+      "addSelectionToLayoutMap" : {
+         "SampleKeyString" : {
+            "confilictpmmobject" : [
+               {
+                  "conflictingbomline" : "IModelObject",
+                  "pmmObject" : {
+                     "columnSet" : {
+                        "column" : [
+                           {
+                              "table" : "String",
+                              "name" : "String",
+                              "logicalName" : "String",
+                              "datatype" : "String",
+                              "width" : "int"
+                           }
+                        ],
+                        "table" : "String"
+                     },
+                     "rowSet" : {
+                        "row" : [
+                           {
+                              "clientID" : "String",
+                              "value" : "String[]"
+                           }
+                        ]
+                     }
+                  }
+               }
+            ],
+            "layoutTopline" : "IModelObject",
+            "layoutWindow" : "IModelObject",
+            "layoutChildren" : "IModelObject[]"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2014-12-ObjectManagement/pmmAddSelectionToLayout",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "layoutItemRevision" : "String",
+            "clientId" : "String",
+            "pmmInputObject" : {
+               "columnSet" : {
+                  "column" : [
+                     {
+                        "width" : "int",
+                        "table" : "String",
+                        "name" : "String",
+                        "datatype" : "String",
+                        "logicalName" : "String"
+                     }
+                  ],
+                  "table" : "String"
+               },
+               "rowSet" : {
+                  "row" : [
+                     {
+                        "value" : "String[]",
+                        "clientID" : "String"
+                     }
+                  ]
+               }
+            }
+         }
+      ]
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Manufacturing-2012-02-Model/updateFlows",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : "IModelObject[]",
+      "isSubHierarchies" : "bool"
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "name" : "String",
+            "itemId" : "String",
+            "clientId" : "String",
+            "revId" : "String",
+            "description" : "String",
+            "folder" : "IModelObject",
+            "itemRevision" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2007-01-DataManagement/saveAsNewItem",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "inputToNewItem" : {
+         "SampleKeyString" : {
+            "item" : "IModelObject",
+            "itemRev" : "IModelObject"
+         }
+      }
+   }
+}

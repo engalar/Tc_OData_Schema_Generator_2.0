@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "uploadAction" : "int",
+            "clientId" : "String",
+            "inputObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "IMDSIntegration-2016-09-IMDSIntegration/sendDataToIMDS",
+   "OperationResponse" : "IServiceData"
+}

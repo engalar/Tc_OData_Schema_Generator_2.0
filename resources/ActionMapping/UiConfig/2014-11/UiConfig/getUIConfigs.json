@@ -1,0 +1,63 @@
+{
+   "OperationInput" : {
+      "getUiConfigsIn" : [
+         {
+            "scope" : {
+               "scopeName" : "String",
+               "scopeQueryParam" : "String"
+            },
+            "clientScopeURIs" : "String[]",
+            "client" : {
+               "hostingClientName" : "String",
+               "clientName" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "uiConfigInfo" : [
+         {
+            "columnConfigurations" : [
+               {
+                  "hostingClient" : "String",
+                  "columnConfigurations" : [
+                     {
+                        "columns" : [
+                           {
+                              "propertyName" : "String",
+                              "sortByFlag" : "bool",
+                              "typeName" : "String",
+                              "pixelWidth" : "int"
+                           }
+                        ],
+                        "columnConfigId" : "String",
+                        "sortDirection" : "String"
+                     }
+                  ],
+                  "clientScopeURI" : "String",
+                  "scope" : "String"
+               }
+            ],
+            "client" : "String",
+            "commandConfigurations" : [
+               {
+                  "cmdCollectionIndex" : "int[]",
+                  "hostingClient" : "IModelObject",
+                  "cmdCollections" : [
+                     {
+                        "childConfigIndex" : "int[]",
+                        "commandCollection" : "IModelObject",
+                        "childIsCollection" : "bool[]"
+                     }
+                  ],
+                  "commands" : "IModelObject[]",
+                  "scopeName" : "String",
+                  "clientScope" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "UiConfig-2014-11-UiConfig/getUIConfigs"
+}

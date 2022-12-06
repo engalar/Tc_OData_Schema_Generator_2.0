@@ -1,0 +1,63 @@
+{
+   "ServiceOperation" : "Internal-OccMgmt-2020-05-ImportExport/getMappingGroupInfo",
+   "OperationResponse" : {
+      "mappingOutputs" : [
+         {
+            "typePropInfos" : [
+               {
+                  "objectType" : "String",
+                  "dispTypeName" : "String",
+                  "propInfos" : [
+                     {
+                        "realPropName" : "String",
+                        "dispPropName" : "String",
+                        "propHeader" : "String",
+                        "isRequired" : "bool"
+                     }
+                  ]
+               }
+            ],
+            "mappingGroups" : [
+               {
+                  "realName" : "String",
+                  "isModifiable" : "bool",
+                  "dispName" : "String"
+               }
+            ],
+            "propInfos" : [
+               {
+                  "realPropName" : "String",
+                  "dispPropName" : "String",
+                  "propHeader" : "String",
+                  "isRequired" : "bool"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "transientFileWriteTicket" : "String",
+            "mappingGroupData" : {
+               "groupName" : {
+                  "dispName" : "String",
+                  "realName" : "String",
+                  "isModifiable" : "bool"
+               },
+               "mappingInfo" : [
+                  {
+                     "propHeader" : "String",
+                     "isRequired" : "bool",
+                     "realPropName" : "String",
+                     "dispPropName" : "String"
+                  }
+               ],
+               "actionName" : "String"
+            },
+            "importOptions" : "String[]"
+         }
+      ]
+   }
+}

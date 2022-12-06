@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "failedObjects" : [
+         {
+            "clientId" : "String",
+            "failedItemRevs" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2015-10-DataManagement/reassignParticipants",
+   "OperationInput" : {
+      "reassignParticipantInfo" : [
+         {
+            "fromAssignee" : "IModelObject",
+            "allParticipantTypes" : "bool",
+            "clientId" : "String",
+            "toAssignee" : "IModelObject",
+            "comments" : "String",
+            "itemRevs" : "IModelObject[]",
+            "participantTypes" : "String[]"
+         }
+      ]
+   }
+}

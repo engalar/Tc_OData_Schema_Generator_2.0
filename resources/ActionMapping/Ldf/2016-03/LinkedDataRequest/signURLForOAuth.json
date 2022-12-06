@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "urlString" : "String",
+      "uidServiceProvider" : "String"
+   },
+   "ServiceOperation" : "Internal-Ldf-2016-03-LinkedDataRequest/signURLForOAuth",
+   "OperationResponse" : "String"
+}

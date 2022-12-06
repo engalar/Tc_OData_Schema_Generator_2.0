@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Core-2012-10-DataManagement/refreshObjects2",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "lockObjects" : "bool"
+   }
+}

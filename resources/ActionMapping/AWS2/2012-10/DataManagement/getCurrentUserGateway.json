@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "tileGroupInfos" : [
+         {
+            "tileInfos" : [
+               {
+                  "tile" : "IModelObject",
+                  "tileRel" : "IModelObject"
+               }
+            ],
+            "tileGroupName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-DataManagement/getCurrentUserGateway",
+   "OperationInput" : {}
+}

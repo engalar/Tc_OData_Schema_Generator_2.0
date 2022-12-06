@@ -1,0 +1,60 @@
+{
+   "ServiceOperation" : "ValidationContractAW-2017-12-VCManagement/createAnalysisRequest",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "analysisRequestObjects" : [
+         {
+            "clientID" : "String",
+            "analysisRequestObj" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "additionalProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "inputAttributes" : [
+               {
+                  "context" : "IModelObject",
+                  "parent" : "IModelObject",
+                  "attributeObjects" : "IModelObject[]"
+               }
+            ],
+            "analysisRequestName" : "String",
+            "diagramAction" : "String",
+            "domain" : "IModelObject[]",
+            "clientID" : "String",
+            "analaysisRequestDefinition" : "IModelObject",
+            "analysisRequestType" : "String",
+            "objectsForAnalysisRequest" : [
+               {
+                  "objectToBeAdded" : "IModelObject",
+                  "contextLine" : "IModelObject"
+               }
+            ],
+            "studyParentObject" : "IModelObject",
+            "recipe" : "String",
+            "outputAttributes" : [
+               {
+                  "attributeObjects" : "IModelObject[]",
+                  "context" : "IModelObject",
+                  "parent" : "IModelObject"
+               }
+            ],
+            "configuration" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  {
+                     "configurationValue" : "String",
+                     "configurationName" : "String"
+                  }
+               ]
+            ]
+         }
+      ]
+   }
+}

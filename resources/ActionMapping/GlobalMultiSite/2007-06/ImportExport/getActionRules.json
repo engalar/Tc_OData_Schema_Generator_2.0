@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "scope" : "String",
+         "schemaFormat" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "actionRuleObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/getActionRules"
+}

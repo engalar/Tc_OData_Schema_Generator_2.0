@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "runInBackground" : "bool",
+      "eventObject" : "IModelObject"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "PPSMInterfaceAw-2016-03-PPSMInterface/generateSchedulesForEvent"
+}

@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "loadedObjectMap" : {
+         "SampleKeyString" : "IModelObject[]"
+      },
+      "additionalPropertiesMap" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MfgBvrCore-2015-03-DataManagement/loadObjectData",
+   "OperationInput" : {
+      "xmlInput" : "String"
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "inputInfo" : [
+         {
+            "productLine" : "IModelObject",
+            "productModels" : "IModelObject[]",
+            "revisionRule" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ProgramPlanningApp-2018-11-AdvancedProgramManagement/getVolumeTargets",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "volumeTargets" : [
+         {
+            "productLine" : "IModelObject",
+            "mixRates" : [
+               {
+                  "takeRates" : [
+                     {
+                        "featureLevelTarget" : "IModelObject",
+                        "goal" : "double",
+                        "feature" : "IModelObject",
+                        "distributionFactor" : "double"
+                     }
+                  ],
+                  "distributionFactor" : "double",
+                  "goal" : "double",
+                  "productModelLevelTarget" : "IModelObject",
+                  "productModel" : "IModelObject"
+               }
+            ],
+            "planLevelTarget" : "IModelObject",
+            "goal" : "double"
+         }
+      ]
+   }
+}

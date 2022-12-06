@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-TCXMLImportExport-2020-12-Briefcase/importObjectsFromBriefcaseAsync",
+   "OperationInput" : {
+      "input" : {
+         "sessionOptions" : [
+            {
+               "optionName" : "String",
+               "optionValue" : "String"
+            }
+         ],
+         "transferOptionSet" : "IModelObject",
+         "bczFileTicket" : "String",
+         "overrideOptions" : [
+            {
+               "optionValue" : "String",
+               "optionName" : "String"
+            }
+         ]
+      }
+   }
+}

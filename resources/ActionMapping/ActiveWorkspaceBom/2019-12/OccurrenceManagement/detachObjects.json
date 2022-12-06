@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "primaryObj" : "IModelObject",
+            "secondaryObjs" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-12-OccurrenceManagement/detachObjects",
+   "OperationResponse" : "IServiceData"
+}

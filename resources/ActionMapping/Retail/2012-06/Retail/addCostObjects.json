@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "costObjects" : "IModelObject[]",
+      "parenThread" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/addCostObjects"
+}

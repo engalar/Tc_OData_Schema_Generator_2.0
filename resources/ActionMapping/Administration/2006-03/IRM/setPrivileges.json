@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "accessorId" : "String",
+      "accessorType" : "String",
+      "privilegeSettings" : [
+         {
+            "unset" : "String[]",
+            "object" : "IModelObject",
+            "grant" : "String[]",
+            "revoke" : "String[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Administration-2006-03-IRM/setPrivileges"
+}

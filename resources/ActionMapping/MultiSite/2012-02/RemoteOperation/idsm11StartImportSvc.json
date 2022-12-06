@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "xmitFname" : "String",
+         "compressFlg" : "int",
+         "compressType" : "String",
+         "clientInfo" : {
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "clientCorrelationId" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "osUserName" : "String",
+            "userDataIp" : "String",
+            "userId" : "String",
+            "clientNode" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "serverCorrelationId" : "String",
+      "userDataIp" : "String",
+      "out" : {
+         "importStagingDir" : "String",
+         "sendXmitFile" : "bool",
+         "compressSupportedFlg" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11StartImportSvc"
+}

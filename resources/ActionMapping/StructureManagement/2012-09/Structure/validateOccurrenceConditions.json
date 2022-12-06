@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "lines" : "IModelObject[]",
+      "flag" : "int"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2012-09-Structure/validateOccurrenceConditions"
+}

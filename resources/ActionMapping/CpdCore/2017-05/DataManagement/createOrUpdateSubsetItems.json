@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "subsetItemInfos" : [
+         {
+            "objLastModifiedDateGuard" : "Date",
+            "element" : "IModelObject",
+            "removeChildrenAutomatically" : "bool",
+            "updateRecipeForAppendsAndRemoves" : "bool",
+            "viewType" : "String",
+            "applyTargetPropertiesToElements" : "IModelObject[]",
+            "appendSourceElements" : "IModelObject[]",
+            "guardObjLastModifiedDate" : "bool",
+            "sourceModel" : "IModelObject",
+            "subsetDef" : "IModelObject",
+            "removeSourceElements" : "IModelObject[]",
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "transform" : "double[]",
+            "clientId" : "String",
+            "boType" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "siData" : [
+         {
+            "appendedSourceElementList" : "IModelObject[]",
+            "removedSourceElementList" : "IModelObject[]",
+            "subsetItem" : "IModelObject",
+            "subsetItemRevision" : "IModelObject",
+            "subsetItemInstance" : "IModelObject",
+            "clientID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "CpdCore-2017-05-DataManagement/createOrUpdateSubsetItems"
+}

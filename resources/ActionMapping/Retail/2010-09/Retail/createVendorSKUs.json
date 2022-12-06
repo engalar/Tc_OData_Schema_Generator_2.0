@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "responses" : [
+         {
+            "retailSkuObjectUID" : "String",
+            "vendorOrMillObjectUID" : "String",
+            "vendorSkuObjectUID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/createVendorSKUs",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "startDate" : "Date",
+            "vendorOrMillObjectUID" : "String",
+            "cost" : "double",
+            "endDate" : "Date",
+            "retailSkuObjectUID" : "String"
+         }
+      ]
+   }
+}

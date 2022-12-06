@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "sSpatialHierDataset" : "String",
+         "vPathObjs" : [
+            {
+               "vsThreadUIDs" : "String[]"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-Mmv-2012-09-SpatialStructureManagement/getNodeBBox",
+   "OperationResponse" : {
+      "vNodeBBox" : [
+         {
+            "vdBBox" : "double[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

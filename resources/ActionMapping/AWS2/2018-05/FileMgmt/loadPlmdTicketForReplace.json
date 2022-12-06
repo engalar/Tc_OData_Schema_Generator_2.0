@@ -1,0 +1,30 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "ticket" : "String",
+               "datasetName" : "String",
+               "fileNames" : "String[]",
+               "fileNameExt" : "String[]",
+               "referenceCount" : "int"
+            }
+         ]
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-FileMgmt/loadPlmdTicketForReplace",
+   "OperationInput" : {
+      "infos" : [
+         {
+            "namedReferenceName" : "String",
+            "imanFile" : "IModelObject",
+            "dataset" : "IModelObject",
+            "absoluteFilePath" : "String"
+         }
+      ]
+   }
+}

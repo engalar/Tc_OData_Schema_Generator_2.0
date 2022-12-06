@@ -1,0 +1,98 @@
+{
+   "OperationInput" : {
+      "dashboardInput" : {
+         "paginationDetails" : {
+            "SampleKeyString" : "int"
+         },
+         "dashboardConfig" : "IModelObject",
+         "generateDashboardReport" : {
+            "datasetName" : "String",
+            "createDataset" : "bool",
+            "isGenerateDashboardReport" : "bool",
+            "lastUpdatedTime" : "String"
+         },
+         "queryCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "dashboardExecutionID" : "String",
+         "inputMethod" : "String",
+         "sortCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "bomInputs" : {
+            "variantRules" : "IModelObject[]",
+            "revisionRule" : "IModelObject",
+            "rootIR" : "IModelObject"
+         },
+         "selectedObjects" : "IModelObject[]"
+      },
+      "isAsync" : "bool"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2020-05-SimulationManagementAw/getSimulationDashboardData",
+   "OperationResponse" : {
+      "totalFound" : "int",
+      "objectsFiltered" : "int",
+      "serviceData" : "IServiceData",
+      "simulationDashboardColumnsInfo" : [
+         {
+            "typeName" : "String",
+            "enablePinning" : "bool",
+            "name" : "String",
+            "enableFiltering" : "bool",
+            "enableSorting" : "bool",
+            "pinnedLeft" : "bool",
+            "displayName" : "String"
+         }
+      ],
+      "isDashboardEditable" : "bool",
+      "fileStatus" : [
+         {
+            "ambiguousCount" : "int",
+            "totalCount" : "int",
+            "columnNameHeading" : "String",
+            "foundCount" : "int",
+            "notApplicableCount" : "int",
+            "datasetType" : "String",
+            "notFoundCount" : "int"
+         }
+      ],
+      "simulationDashboardViewModelRows" : [
+         {
+            "simulationDashboardViewModelProps" : [
+               {
+                  "fileDetails" : [
+                     {
+                        "fileComponent" : "IModelObject",
+                        "fileName" : "String",
+                        "itemRevName" : "String",
+                        "datasetName" : "String",
+                        "fileOwningUser" : "String",
+                        "datasetComponent" : "IModelObject",
+                        "lastModifiedDate" : "String",
+                        "itemRevComp" : "IModelObject"
+                     }
+                  ],
+                  "isArray" : "bool",
+                  "uiColumnValueType" : "String",
+                  "isModifiable" : "bool",
+                  "columnInternalValues" : "IModelObject[]",
+                  "statusValue" : "String",
+                  "hasLov" : "bool",
+                  "columnValue" : "String",
+                  "isRequired" : "bool",
+                  "columnName" : "String",
+                  "attributeName" : "String",
+                  "maxLength" : "int",
+                  "attributeComp" : "IModelObject",
+                  "columnValueInternalType" : "String",
+                  "columnType" : "String",
+                  "pedigreeObject" : "IModelObject"
+               }
+            ],
+            "objectToMonitor" : "IModelObject"
+         }
+      ],
+      "objectsProcessed" : "int",
+      "endIndex" : "int"
+   }
+}

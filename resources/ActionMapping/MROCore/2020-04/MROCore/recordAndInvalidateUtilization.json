@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "capturedBy" : "String",
+            "logEntryDesc" : "String",
+            "propagate" : "bool",
+            "logEntry" : "IModelObject",
+            "logBook" : "IModelObject",
+            "physicalPart" : "IModelObject",
+            "recordedAt" : "Date",
+            "valueInput" : [
+               {
+                  "stringValue" : "String",
+                  "doubleValue" : "double",
+                  "boolValue" : "bool",
+                  "characterisitcValue" : "IModelObject",
+                  "characteristicDefinition" : "IModelObject",
+                  "dateValue" : "Date",
+                  "isValueNull" : "bool"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "outputInfo" : [
+         {
+            "logEntry" : "IModelObject",
+            "valueOutput" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MROCore-2020-04-MROCore/recordAndInvalidateUtilization"
+}

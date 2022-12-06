@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "claimAssignmentsData" : [
+         {
+            "assignedResourcePool" : "IModelObject",
+            "scheduleTask" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagementAw-2019-06-ScheduleManagementAw/claimAssignments",
+   "OperationResponse" : "IServiceData"
+}

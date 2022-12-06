@@ -1,0 +1,58 @@
+{
+   "OperationResponse" : {
+      "dimensionMappingMap" : {
+         "SampleKeyString" : [
+            {
+               "childDimensionName" : "String",
+               "dimensionMappings" : [
+                  {
+                     "childDimensionValue" : {
+                        "dimensionName" : "String",
+                        "isActive" : "bool",
+                        "dimensionType" : "String",
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     },
+                     "childBomLine" : "String",
+                     "parentDimensionValue" : {
+                        "internalValue" : "String",
+                        "displayValue" : "String",
+                        "dimensionName" : "String",
+                        "isActive" : "bool",
+                        "dimensionType" : "String"
+                     },
+                     "parentBomLine" : "String"
+                  }
+               ],
+               "parentDimensionName" : "String"
+            }
+         ]
+      },
+      "mappedDimensions" : "String[]",
+      "dimensionValuesMapImprecise" : {
+         "SampleKeyString" : [
+            {
+               "dimensionType" : "String",
+               "defaultDimensionValue" : "String",
+               "dimensionName" : "String",
+               "dimensionValues" : [
+                  {
+                     "internalValue" : "String",
+                     "displayValue" : "String",
+                     "dimensionName" : "String",
+                     "isActive" : "bool",
+                     "dimensionType" : "String"
+                  }
+               ]
+            }
+         ]
+      },
+      "serviceData" : "IServiceData",
+      "topBomLine" : "String"
+   },
+   "ServiceOperation" : "Internal-Retail-2013-12-Retail/getImpreciseDimensionMapData",
+   "OperationInput" : {
+      "bomLineUid" : "String",
+      "revisionUid" : "String"
+   }
+}

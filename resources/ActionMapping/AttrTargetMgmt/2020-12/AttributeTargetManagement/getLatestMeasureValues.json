@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "parameters" : "IModelObject[]",
+      "methods" : "String[]",
+      "valueFileRequired" : "bool"
+   },
+   "ServiceOperation" : "AttrTargetMgmt-2020-12-AttributeTargetManagement/getLatestMeasureValues",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "measureValues" : [
+               {
+                  "method" : "String",
+                  "measureValue" : "IModelObject",
+                  "valueFiles" : [
+                     {
+                        "fileTicket" : "String",
+                        "dataset" : "IModelObject",
+                        "fileName" : "String"
+                     }
+                  ]
+               }
+            ],
+            "parameter" : "IModelObject"
+         }
+      ]
+   }
+}

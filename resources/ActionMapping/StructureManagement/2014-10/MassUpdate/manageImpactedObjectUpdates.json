@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "executionMode" : "murAddImpactedObjectToMarkup murRemoveImpactedObjectFromMarkup",
+            "target" : "IModelObject",
+            "impactedObjects" : "IModelObject[]",
+            "addToProblem" : "bool",
+            "addToSolution" : "bool",
+            "markupChange" : "IModelObject",
+            "change" : "IModelObject",
+            "replacement" : "IModelObject",
+            "operation" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/manageImpactedObjectUpdates",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "status" : "bool",
+            "impactedObject" : "IModelObject",
+            "statusComment" : "String"
+         }
+      ]
+   }
+}

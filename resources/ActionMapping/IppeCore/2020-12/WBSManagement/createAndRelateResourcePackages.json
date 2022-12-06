@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "childTypeSelected" : "String",
+      "wbsCondAndOBSRevs" : [
+         {
+            "selectedOBSElementRevisions" : "IModelObject[]",
+            "selectedWBSCondElement" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-IppeCore-2020-12-WBSManagement/createAndRelateResourcePackages"
+}

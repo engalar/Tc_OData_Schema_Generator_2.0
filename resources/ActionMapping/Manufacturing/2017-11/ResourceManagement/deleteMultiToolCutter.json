@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2017-11-ResourceManagement/deleteMultiToolCutter",
+   "OperationResponse" : {
+      "lastICOUID" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "deleteICOUID" : "String"
+   }
+}

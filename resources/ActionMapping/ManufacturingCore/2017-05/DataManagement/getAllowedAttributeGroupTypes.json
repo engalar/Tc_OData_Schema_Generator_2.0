@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "attachedToTypes" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "attachedToType" : "IModelObject",
+            "invalidAGTypes" : "IModelObject[]",
+            "validAGTypes" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ManufacturingCore-2017-05-DataManagement/getAllowedAttributeGroupTypes"
+}

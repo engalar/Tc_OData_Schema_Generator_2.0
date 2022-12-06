@@ -1,0 +1,72 @@
+{
+   "OperationInput" : {
+      "bvrConfigList" : [
+         {
+            "parentDescriptor" : "String",
+            "bvrType" : "String",
+            "childDescriptorList" : "String[]",
+            "selected" : "bool"
+         }
+      ],
+      "detailsLogConfig" : {
+         "persistDetailsLog" : "bool",
+         "detailsLogDSName" : "String"
+      },
+      "datasetConfigList" : [
+         {
+            "descriptor" : "String",
+            "dsRelation" : "String",
+            "dsSource" : "String",
+            "dsType" : "String",
+            "dsName" : "String",
+            "dsUID" : "String",
+            "selected" : "bool"
+         }
+      ],
+      "destinationFolder" : {
+         "subFolderName" : "String",
+         "useSubFolder" : "bool",
+         "uid" : "String",
+         "pasteInputObject" : "bool"
+      },
+      "workflowConfig" : {
+         "processAssignmentName" : "String",
+         "processTemplateName" : "String"
+      },
+      "configObject" : "IModelObject",
+      "outputConfigList" : [
+         {
+            "outputDescriptor" : "String",
+            "createData" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String",
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "compoundCreateInput" : "CAE0::Soa::Internal::SimProc::_2020_04::SimDataManagement::Cae0CreateObjectInputMap2",
+                        "boName" : "String",
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        }
+                     }
+                  ]
+               }
+            },
+            "outputObjUID" : "String",
+            "useExistingObject" : "bool",
+            "outputType" : "String",
+            "selected" : "bool"
+         }
+      ],
+      "inputConfigList" : [
+         {
+            "objUID" : "String",
+            "inputDescriptor" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SimProc-2020-04-SimDataManagement/processCAEPackage",
+   "OperationResponse" : "IServiceData"
+}

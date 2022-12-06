@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "processes" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2008-12-IPAManagement/generateSearchScope",
+   "OperationResponse" : {
+      "bomlines" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

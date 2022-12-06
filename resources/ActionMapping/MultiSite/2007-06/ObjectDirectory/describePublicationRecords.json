@@ -1,0 +1,48 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-ObjectDirectory/describePublicationRecords",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "records" : [
+         {
+            "owningGroupName" : "String",
+            "pubDate" : "Date",
+            "objectId" : "String",
+            "objectType" : "String",
+            "objectDesc" : "String",
+            "objectClass" : "String",
+            "customAttributes" : {
+               "SampleKeyString" : "String"
+            },
+            "releaseStatus" : "String[]",
+            "objectName" : "String",
+            "owningUserId" : "String",
+            "creationDate" : "Date",
+            "objectTag" : "String",
+            "revisionId" : "String",
+            "owningSiteId" : "int"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "publishedObjTagsAsString" : "String[]",
+      "clientInfo" : {
+         "targetServerSiteId" : "int",
+         "groupName" : "String",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "clientOdsMinorVersion" : "int",
+         "roleName" : "String",
+         "clientMaintPackVersion" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "clientSiteId" : "int",
+         "clientMinorReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientReleaseVersion" : "int",
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String",
+         "osUserName" : "String"
+      }
+   }
+}

@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "requests" : [
+         {
+            "httpMethod" : "HttpGet HttpPut HttpPost HttpDelete HttpOptions HttpHead HttpTrace HttpConnect",
+            "headerMap" : {
+               "SampleKeyString" : "String"
+            },
+            "body" : "String",
+            "clientId" : "String",
+            "resourceUri" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Ldf-2015-03-LinkedDataRequest/executeLinkedDataRequests",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "status" : "int",
+            "body" : "String",
+            "clientId" : "String",
+            "headerMap" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

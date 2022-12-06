@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "metricIds" : "String[]"
+   },
+   "OperationResponse" : {
+      "alertData" : {
+         "SampleKeyString" : {
+            "eventData" : [
+               {
+                  "time" : "String",
+                  "value" : "String",
+                  "additionalInfo" : "String[]"
+               }
+            ],
+            "summary" : "String",
+            "subject" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugMonitor/getAlertInformation"
+}

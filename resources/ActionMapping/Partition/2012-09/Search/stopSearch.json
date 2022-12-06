@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "searchCursor" : "IModelObject"
+   },
+   "ServiceOperation" : "Partition-2012-09-Search/stopSearch",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "finished" : "bool"
+   }
+}

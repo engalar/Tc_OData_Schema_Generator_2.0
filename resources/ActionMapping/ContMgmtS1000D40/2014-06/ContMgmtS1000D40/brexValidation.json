@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "logTransientFileReadTicket" : "String",
+      "serviceData" : "IServiceData",
+      "data" : [
+         {
+            "isValid" : "bool",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ContMgmtS1000D40-2014-06-ContMgmtS1000D40/brexValidation",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "brexFileReadTicket" : "String",
+            "dmTransientFileReadTicket" : "String",
+            "businessObject" : "IModelObject"
+         }
+      ],
+      "isAsync" : "bool"
+   }
+}

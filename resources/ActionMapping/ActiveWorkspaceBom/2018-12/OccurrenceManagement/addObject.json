@@ -1,0 +1,211 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "sortCriteria" : {
+            "sortingOrder" : "String",
+            "propertyName" : "String"
+         },
+         "parentElement" : "IModelObject",
+         "inputCtxt" : {
+            "configuration" : {
+               "now" : "bool",
+               "revisionRule" : "IModelObject",
+               "svrOwningProduct" : "IModelObject",
+               "endItem" : "IModelObject",
+               "variantRule" : "IModelObject",
+               "effectivityRanges" : [
+                  {
+                     "dateIn" : "Date",
+                     "unitIn" : "int",
+                     "dateOut" : "Date",
+                     "unitOut" : "int"
+                  }
+               ],
+               "effectivityDate" : "Date",
+               "unitNo" : "int"
+            },
+            "occurrenceScheme" : "IModelObject",
+            "requestPref" : {
+               "SampleKeyString" : "String[]"
+            },
+            "filterIn" : {
+               "searchFilterFieldSortType" : "String",
+               "searchFilterMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "count" : "int",
+                        "selected" : "bool",
+                        "startEndRange" : "String",
+                        "endNumericValue" : "double",
+                        "startNumericValue" : "double",
+                        "stringDisplayValue" : "String",
+                        "startDateValue" : "Date",
+                        "hasChildren" : "bool",
+                        "endDateValue" : "Date",
+                        "stringValue" : "String",
+                        "searchFilterType" : "String"
+                     }
+                  ]
+               },
+               "searchSortCriteria" : [
+                  {
+                     "fieldName" : "String",
+                     "sortDirection" : "String"
+                  }
+               ],
+               "fetchUpdatedFilters" : "bool",
+               "searchFilterCategories" : [
+                  {
+                     "isMultiSelect" : "bool",
+                     "isHierarchical" : "bool",
+                     "quickSearchable" : "bool",
+                     "displayName" : "String",
+                     "internalName" : "String",
+                     "categoryType" : "String",
+                     "editable" : "bool",
+                     "defaultFilterValueDisplayCount" : "int"
+                  }
+               ],
+               "recipe" : [
+                  {
+                     "criteriaOperatorType" : "String",
+                     "criteriaValues" : "String[]",
+                     "subCriteria" : "Awb0::Soa::Internal::ActiveWorkspaceBom::_2015_07::OccurrenceManagement::Criteria[]",
+                     "criteriaType" : "String",
+                     "criteriaDisplayValue" : "String"
+                  }
+               ]
+            },
+            "pageSize" : "int",
+            "changeContext" : "IModelObject",
+            "productContext" : "IModelObject"
+         },
+         "objectsToBeAdded" : "IModelObject[]",
+         "siblingElement" : "IModelObject",
+         "fetchPagedOccurrences" : "bool",
+         "addObjectIntent" : "String",
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2018-12-OccurrenceManagement/addObject",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "selectedNewElementInfo" : {
+         "newElements" : "IModelObject[]",
+         "pagedOccurrencesInfo" : {
+            "childOccurrences" : [
+               {
+                  "occurrence" : "IModelObject",
+                  "productContext" : "IModelObject"
+               }
+            ],
+            "startReached" : "bool",
+            "focusOccurrence" : "IModelObject",
+            "endReached" : "bool",
+            "productContext" : "IModelObject",
+            "cursor" : {
+               "firstLevelOnly" : "bool",
+               "pageSize" : "int",
+               "endIndex" : "int",
+               "startIndex" : "int",
+               "inputCtxt" : {
+                  "configuration" : {
+                     "effectivityDate" : "Date",
+                     "effectivityRanges" : [
+                        {
+                           "dateIn" : "Date",
+                           "unitOut" : "int",
+                           "unitIn" : "int",
+                           "dateOut" : "Date"
+                        }
+                     ],
+                     "variantRule" : "IModelObject",
+                     "unitNo" : "int",
+                     "svrOwningProduct" : "IModelObject",
+                     "revisionRule" : "IModelObject",
+                     "endItem" : "IModelObject",
+                     "now" : "bool"
+                  },
+                  "requestPref" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "occurrenceScheme" : "IModelObject",
+                  "pageSize" : "int",
+                  "filterIn" : {
+                     "searchFilterCategories" : [
+                        {
+                           "internalName" : "String",
+                           "displayName" : "String",
+                           "quickSearchable" : "bool",
+                           "isHierarchical" : "bool",
+                           "isMultiSelect" : "bool",
+                           "defaultFilterValueDisplayCount" : "int",
+                           "editable" : "bool",
+                           "categoryType" : "String"
+                        }
+                     ],
+                     "recipe" : [
+                        {
+                           "criteriaValues" : "String[]",
+                           "criteriaOperatorType" : "String",
+                           "subCriteria" : "Awb0::Soa::Internal::ActiveWorkspaceBom::_2015_07::OccurrenceManagement::Criteria[]",
+                           "criteriaDisplayValue" : "String",
+                           "criteriaType" : "String"
+                        }
+                     ],
+                     "searchFilterMap" : {
+                        "SampleKeyString" : [
+                           {
+                              "startEndRange" : "String",
+                              "selected" : "bool",
+                              "count" : "int",
+                              "hasChildren" : "bool",
+                              "endDateValue" : "Date",
+                              "stringValue" : "String",
+                              "searchFilterType" : "String",
+                              "endNumericValue" : "double",
+                              "startNumericValue" : "double",
+                              "startDateValue" : "Date",
+                              "stringDisplayValue" : "String"
+                           }
+                        ]
+                     },
+                     "searchSortCriteria" : [
+                        {
+                           "fieldName" : "String",
+                           "sortDirection" : "String"
+                        }
+                     ],
+                     "fetchUpdatedFilters" : "bool",
+                     "searchFilterFieldSortType" : "String"
+                  },
+                  "productContext" : "IModelObject",
+                  "changeContext" : "IModelObject"
+               },
+               "startOccUid" : "String",
+               "cursorData" : "String[]",
+               "parentOccurrences" : "IModelObject[]",
+               "productContext" : "IModelObject",
+               "endOccUid" : "String"
+            }
+         }
+      },
+      "newElementInfos" : [
+         {
+            "newElements" : "IModelObject[]",
+            "newElementToPositionMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "int"
+               ]
+            ],
+            "parentElement" : "IModelObject"
+         }
+      ],
+      "reloadContent" : "bool"
+   }
+}

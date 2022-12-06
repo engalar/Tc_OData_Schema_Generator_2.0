@@ -1,0 +1,14 @@
+{
+    "ServiceOperation": "Core-2013-05-DataManagement\/getSubTypeNames",
+    "InputType":        "SchemaGenerator.GetSubTypeInput",
+    "ResponseType":     "SchemaGenerator.GetSubTypeNamesResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"inBOTypeNames": ["$Input\/SchemaGenerator.inBOTypeNames"]
+    },
+    "OperationResponse": 
+    {
+        "output": "$Response\/SchemaGenerator.output"
+    }
+}

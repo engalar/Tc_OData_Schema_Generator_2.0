@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Integration-2008-06-IntegrationManagement/renameIMF",
+   "OperationInput" : {
+      "infos" : [
+         {
+            "name" : "String",
+            "clientId" : "String",
+            "file" : "IModelObject"
+         }
+      ]
+   }
+}

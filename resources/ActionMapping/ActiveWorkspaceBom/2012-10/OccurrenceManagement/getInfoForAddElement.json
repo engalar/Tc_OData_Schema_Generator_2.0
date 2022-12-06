@@ -1,0 +1,37 @@
+{
+   "OperationResponse" : {
+      "preferredTypeInfo" : {
+         "isSearchable" : "bool",
+         "elementTypeName" : "String",
+         "objectTypeName" : "String",
+         "searchTypeName" : "String"
+      },
+      "allowedTypeInfos" : [
+         {
+            "objectTypeName" : "String",
+            "searchTypeName" : "String",
+            "elementTypeName" : "String",
+            "isSearchable" : "bool"
+         }
+      ],
+      "preferredExists" : "bool",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2012-10-OccurrenceManagement/getInfoForAddElement",
+   "OperationInput" : {
+      "getInfoForElementIn" : {
+         "productContext" : "IModelObject",
+         "parentElement" : "IModelObject",
+         "configurationInfo" : {
+            "configurationObject" : "IModelObject",
+            "now" : "bool",
+            "effectivityDate" : "Date",
+            "variantRule" : "IModelObject",
+            "unitNo" : "int",
+            "revisionRule" : "IModelObject",
+            "svrOwningProduct" : "IModelObject",
+            "endItem" : "IModelObject"
+         }
+      }
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "plantSet" : [
+         {
+            "plantName" : "String",
+            "plantId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProductionManagement-2010-04-MeasurementDataQuery/queryPlantsInfo"
+}

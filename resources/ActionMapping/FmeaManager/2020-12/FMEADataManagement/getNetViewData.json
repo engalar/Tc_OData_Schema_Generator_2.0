@@ -1,0 +1,59 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "rootUIDs" : "String[]",
+         "viewName" : "String",
+         "inquiries" : "String[]",
+         "queryMode" : "DegreeOnly ExpandOnly ExpandAndDegree",
+         "netViewParamMap" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-FmeaManager-2020-12-FMEADataManagement/getNetViewData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "netView" : {
+         "rootUIDs" : "String[]",
+         "netViewGroup" : {
+            "filters" : [
+               {
+                  "displayName" : "String",
+                  "color" : {
+                     "greenValue" : "double",
+                     "redValue" : "double",
+                     "blueValue" : "double"
+                  },
+                  "name" : "String"
+               }
+            ],
+            "name" : "String"
+         },
+         "viewName" : "String",
+         "edges" : [
+            {
+               "leftId" : "String",
+               "relationType" : "String",
+               "rightId" : "String",
+               "props" : {
+                  "SampleKeyString" : "String"
+               },
+               "metaObject" : "IModelObject"
+            }
+         ],
+         "analysisResult" : {
+            "SampleKeyString" : "String"
+         },
+         "nodes" : [
+            {
+               "name" : "String",
+               "props" : {
+                  "SampleKeyString" : "String"
+               },
+               "nodeId" : "String",
+               "metaObject" : "IModelObject"
+            }
+         ]
+      }
+   }
+}

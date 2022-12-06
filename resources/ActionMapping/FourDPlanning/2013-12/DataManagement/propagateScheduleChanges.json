@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "inputObject" : "IModelObject[]",
+         "considerHierarchy" : "bool"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-FourDPlanning-2013-12-DataManagement/propagateScheduleChanges"
+}

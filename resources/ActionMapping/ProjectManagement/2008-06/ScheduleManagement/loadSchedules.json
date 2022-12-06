@@ -1,0 +1,31 @@
+{
+   "ServiceOperation" : "Internal-ProjectManagement-2008-06-ScheduleManagement/loadSchedules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "scheduleData" : [
+         {
+            "calendarEvent" : "IModelObject[]",
+            "taskDependency" : "IModelObject[]",
+            "resourceAssignment" : "IModelObject[]",
+            "schedule" : "IModelObject",
+            "scheduleTask" : "IModelObject[]",
+            "submasterdata" : [
+               {
+                  "masterdata" : [
+                     {
+                        "finish" : "Date",
+                        "uid" : "String",
+                        "start" : "Date"
+                     }
+                  ],
+                  "subschedule" : "IModelObject"
+               }
+            ],
+            "calendar" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "schedule" : "String[]"
+   }
+}

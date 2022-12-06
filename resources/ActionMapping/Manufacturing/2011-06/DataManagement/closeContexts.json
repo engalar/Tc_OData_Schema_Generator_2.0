@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Manufacturing-2011-06-DataManagement/closeContexts",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "contexts" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "obj" : "IModelObject",
+            "childTypeName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "outputMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "indexOfPreferred" : "int",
+               "pasteRelationsInfo" : [
+                  {
+                     "isExpandable" : "bool",
+                     "pasteRelationName" : "String"
+                  }
+               ]
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2013-05-DataManagement/getPasteRelations"
+}

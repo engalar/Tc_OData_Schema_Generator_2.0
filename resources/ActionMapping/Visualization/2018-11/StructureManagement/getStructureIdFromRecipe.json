@@ -1,0 +1,63 @@
+{
+   "OperationInput" : {
+      "productStructureIdInput" : [
+         {
+            "clientId" : "String",
+            "recipeObject" : "IModelObject",
+            "productAndConfig" : {
+               "variantInfos" : [
+                  {
+                     "variantRule" : "IModelObject",
+                     "variantRuleOwningObject" : "IModelObject"
+                  }
+               ],
+               "product" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "effectivityInfos" : [
+                  {
+                     "effectivityUnitNo" : "int",
+                     "endItem" : "IModelObject",
+                     "effectivityDate" : "Date"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "psIdInfos" : [
+         {
+            "productStrutureIdentifier" : "String",
+            "productAndConfig" : {
+               "revisionRule" : "IModelObject",
+               "effectivityInfos" : [
+                  {
+                     "endItem" : "IModelObject",
+                     "effectivityDate" : "Date",
+                     "effectivityUnitNo" : "int"
+                  }
+               ],
+               "variantInfos" : [
+                  {
+                     "variantRule" : "IModelObject",
+                     "variantRuleOwningObject" : "IModelObject"
+                  }
+               ],
+               "product" : "IModelObject"
+            },
+            "clientId" : "String",
+            "revRuleInfo" : [
+               {
+                  "effectivityExpr" : "String",
+                  "context" : "String",
+                  "revRuleDate" : "Date",
+                  "revRuleEntryNames" : "String[]",
+                  "variantExpr" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Visualization-2018-11-StructureManagement/getStructureIdFromRecipe"
+}

@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Rdv-2009-01-VariantManagement/applyNVEMetaExpression",
+   "OperationInput" : {
+      "validate" : "bool",
+      "metaExpr" : [
+         {
+            "tokenType" : "tokenNull tokenAnd tokenOr tokenNot tokenBra tokenKet tokenNVE",
+            "nveRef" : {
+               "nveType" : "nveAuthorized nveSplitting nveMandatorySplit",
+               "nve" : "IModelObject",
+               "nveName" : "String"
+            }
+         }
+      ],
+      "bomlines" : "IModelObject[]"
+   }
+}

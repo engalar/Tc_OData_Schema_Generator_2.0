@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "inputList" : [
+         {
+            "attachmentWindowsList" : "IModelObject[]",
+            "line" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-Attachments/getAttachmentLines",
+   "OperationResponse" : {
+      "attachmentsInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "attachmentLines" : "IModelObject[]",
+               "attachmentWindow" : "IModelObject"
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

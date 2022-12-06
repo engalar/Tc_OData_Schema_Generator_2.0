@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {
+      "logFileTicket" : "String",
+      "serviceData" : "IServiceData",
+      "modelXmlFileTicket" : "String"
+   },
+   "ServiceOperation" : "Internal-BusinessModeler-2007-01-DataModelManagement/exportDataModel",
+   "OperationInput" : {
+      "mode" : "String"
+   }
+}

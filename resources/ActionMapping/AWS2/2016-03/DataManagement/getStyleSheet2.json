@@ -1,0 +1,74 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "targetPage" : "String",
+            "styleSheetType" : "String",
+            "businessObjectType" : "String",
+            "clientContext" : {
+               "SampleKeyString" : "String"
+            },
+            "styleSheetLastModDate" : "Date",
+            "businessObject" : "IModelObject"
+         }
+      ],
+      "processEntireXRT" : "bool"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "processedPage" : "String",
+            "patternMap" : {
+               "SampleKeyString" : {
+                  "patterns" : "String[]",
+                  "condition" : "String",
+                  "preferredPattern" : "String"
+               }
+            },
+            "classificationData" : [
+               {
+                  "classificationTrace" : "String[]",
+                  "classificationObject" : "IModelObject"
+               }
+            ],
+            "jtFileMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "visiblePages" : "bool[]",
+            "context" : {
+               "datasetName" : "String",
+               "preferenceLocation" : "String",
+               "location" : "String",
+               "stylesheetType" : "String",
+               "client" : "String",
+               "type" : "String",
+               "sublocation" : "String"
+            },
+            "datasetInfo" : {
+               "datasetContent" : "String",
+               "datasetLastSaveDate" : "Date"
+            },
+            "tablePropObjectMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "objectToRender" : "IModelObject",
+            "localeMap" : {
+               "SampleKeyString" : "String"
+            },
+            "objectSetMap" : {
+               "SampleKeyString" : "IModelObject"
+            },
+            "imageTypeTicketMap" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2016-03-DataManagement/getStyleSheet2"
+}

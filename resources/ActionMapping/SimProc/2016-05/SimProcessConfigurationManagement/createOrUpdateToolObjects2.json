@@ -1,0 +1,121 @@
+{
+   "OperationInput" : {
+      "toolObjects" : [
+         {
+            "toolType" : "String",
+            "toolName" : "String",
+            "tabObjects" : [
+               {
+                  "tabIdentifier" : "String",
+                  "tabAttributes" : {
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "boUID" : "String",
+                     "isDelete" : "bool",
+                     "compoundCreateInput" : {
+                        "SampleKeyString" : [
+                           {
+                              "stringArrayProps" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "boolArrayProps" : {
+                                 "SampleKeyString" : "bool[]"
+                              },
+                              "floatArrayProps" : {
+                                 "SampleKeyString" : "float[]"
+                              },
+                              "boName" : "String",
+                              "floatProps" : {
+                                 "SampleKeyString" : "float"
+                              },
+                              "boolProps" : {
+                                 "SampleKeyString" : "bool"
+                              },
+                              "doubleArrayProps" : {
+                                 "SampleKeyString" : "double[]"
+                              },
+                              "intArrayProps" : {
+                                 "SampleKeyString" : "int[]"
+                              },
+                              "doubleProps" : {
+                                 "SampleKeyString" : "double"
+                              },
+                              "dateProps" : {
+                                 "SampleKeyString" : "Date"
+                              },
+                              "dateArrayProps" : {
+                                 "SampleKeyString" : "Date[]"
+                              },
+                              "intProps" : {
+                                 "SampleKeyString" : "int"
+                              },
+                              "tagProps" : {
+                                 "SampleKeyString" : "IModelObject"
+                              },
+                              "tagArrayProps" : {
+                                 "SampleKeyString" : "IModelObject[]"
+                              },
+                              "isDelete" : "bool",
+                              "boUID" : "String",
+                              "compoundCreateInput" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::CreateInputMap",
+                              "stringProps" : {
+                                 "SampleKeyString" : "String"
+                              }
+                           }
+                        ]
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "boName" : "String",
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     }
+                  },
+                  "isInherited" : "bool"
+               }
+            ],
+            "parentToolBOMLine" : "IModelObject",
+            "toolItemId" : "String",
+            "toolItemRevId" : "String",
+            "toolBOMLine" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SimProc-2016-05-SimProcessConfigurationManagement/createOrUpdateToolObjects2"
+}

@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "requestType" : "String",
+      "baseRef" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "details" : [
+         {
+            "kvPairs" : {
+               "SampleKeyString" : "String"
+            },
+            "name" : "String",
+            "rscope" : "int",
+            "description" : "String",
+            "ro" : "IModelObject",
+            "stateDesc" : "String",
+            "rupdate" : "int",
+            "status" : {
+               "description" : "String",
+               "status" : "RequestStatus_Normal RequestStatus_Warning RequestStatus_Severe RequestStatus_Abort RequestStatus_Any"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Ai-2013-05-Ai/findRequestOnAiWithReferences"
+}

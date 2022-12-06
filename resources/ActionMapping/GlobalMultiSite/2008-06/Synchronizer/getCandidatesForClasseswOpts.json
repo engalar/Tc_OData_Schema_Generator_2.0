@@ -1,0 +1,31 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2008-06-Synchronizer/getCandidatesForClasseswOpts",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "candidateObjectsList" : "String[]"
+   },
+   "OperationInput" : {
+      "transferFormula" : {
+         "sessionOptions" : [
+            {
+               "name" : "String",
+               "value" : "String"
+            }
+         ],
+         "optionOverrides" : [
+            {
+               "name" : "String",
+               "value" : "String"
+            }
+         ],
+         "transferModeUid" : "String",
+         "xsltFMSTicket" : "String",
+         "optionSetName" : "String",
+         "transferModeName" : "String",
+         "optionSetUid" : "String",
+         "reason" : "String"
+      },
+      "classList" : "String[]",
+      "targetSite" : "int"
+   }
+}

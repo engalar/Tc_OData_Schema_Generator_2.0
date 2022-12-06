@@ -1,0 +1,109 @@
+{
+   "ServiceOperation" : "SvcRequest-2012-02-ServiceRequest/qualifyActivity2",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "output" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "itemData" : {
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               }
+            },
+            "requalify" : "bool",
+            "itemRevData" : {
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               }
+            },
+            "boName" : "String"
+         }
+      ]
+   }
+}

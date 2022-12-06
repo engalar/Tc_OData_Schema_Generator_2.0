@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/setPreferencesAtLocations",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "setPreferenceIn" : [
+         {
+            "preferenceInputs" : {
+               "preferenceName" : "String",
+               "values" : "String[]"
+            },
+            "location" : {
+               "location" : "String",
+               "object" : "IModelObject"
+            }
+         }
+      ]
+   }
+}

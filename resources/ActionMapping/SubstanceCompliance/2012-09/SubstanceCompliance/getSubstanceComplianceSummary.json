@@ -1,0 +1,34 @@
+{
+   "ServiceOperation" : "SubstanceCompliance-2012-09-SubstanceCompliance/getSubstanceComplianceSummary",
+   "OperationResponse" : {
+      "substanceComplianceSummaries" : [
+         {
+            "failedItemsDetails" : [
+               {
+                  "failureReason" : "String",
+                  "failedItem" : "IModelObject"
+               }
+            ],
+            "substanceCmplResult" : "IModelObject",
+            "regulation" : "IModelObject",
+            "exemptionsDetails" : [
+               {
+                  "exemption" : "IModelObject",
+                  "expiryDate" : "Date"
+               }
+            ],
+            "substanceComplianceStatusData" : [
+               {
+                  "numOfParts" : "int",
+                  "statusDisplayName" : "String",
+                  "status" : "int"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "objs" : "IModelObject[]"
+   }
+}

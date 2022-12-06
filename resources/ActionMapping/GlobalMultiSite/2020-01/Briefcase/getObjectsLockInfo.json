@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2020-01-Briefcase/getObjectsLockInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "lockInfo" : [
+         {
+            "lockNodeName" : "String",
+            "lockTime" : "String",
+            "objectUID" : "String",
+            "lockUserId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "objects" : "String[]"
+   }
+}

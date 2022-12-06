@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "sortKeys" : "String[]",
+      "clientInfo" : {
+         "clientMaintPackVersion" : "int",
+         "roleName" : "String",
+         "clientSiteId" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "clientOdsMinorVersion" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "osUserName" : "String",
+         "clientMinorReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String",
+         "clientReleaseVersion" : "int"
+      },
+      "sortOrder" : "int[]",
+      "queryString" : "String"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-ObjectDirectory/queryPublicationRecords",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "publishedObjTagAsString" : "String[]"
+   }
+}

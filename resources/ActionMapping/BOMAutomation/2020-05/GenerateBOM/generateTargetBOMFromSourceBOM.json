@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "userOptions" : {
+         "SampleKeyString" : "String"
+      },
+      "targetOccurrence" : "IModelObject",
+      "sourceOccurrences" : "IModelObject[]",
+      "srcProductContextInfo" : "IModelObject"
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-BOMAutomation-2020-05-GenerateBOM/generateTargetBOMFromSourceBOM"
+}

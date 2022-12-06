@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-Subscription-2018-12-SubscriptionManagement/getSubscriptionViewAndViewModel",
+   "OperationResponse" : {
+      "view" : "String",
+      "viewModel" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "objectsOrTypes" : "IModelObject[]",
+      "eventTypes" : "IModelObject[]"
+   }
+}

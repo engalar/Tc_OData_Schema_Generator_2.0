@@ -1,0 +1,64 @@
+{
+   "OperationResponse" : {
+      "classAttributeDesc" : {
+         "SampleKeyString" : {
+            "attrDescMap" : {
+               "SampleKeyInt" : {
+                  "description" : "String",
+                  "options" : "int",
+                  "extendedProps" : [
+                     {
+                        "propValue" : "String[]",
+                        "propName" : "String"
+                     }
+                  ],
+                  "metricMinValue" : "String",
+                  "metricUnit" : "String",
+                  "nonMetricMinValue" : "String",
+                  "nonMetricFormat" : "int",
+                  "annotation" : "String",
+                  "id" : "int",
+                  "metricDefaultValue" : "String",
+                  "name" : "String",
+                  "shortName" : "String",
+                  "nonMetricUnit" : "String",
+                  "nonMetricMaxValue" : "String",
+                  "arraySize" : "int",
+                  "metricFormat" : "int",
+                  "nonMetricDefaultValue" : "String",
+                  "metricMaxValue" : "String"
+               }
+            }
+         }
+      },
+      "svcData" : "IServiceData",
+      "classificationObjectInfo" : {
+         "SampleKeyString" : {
+            "icoId" : "String",
+            "cid" : "String",
+            "wsoTag" : "IModelObject",
+            "attrValuesMap" : {
+               "SampleKeyInt" : {
+                  "isAttrValid" : "bool",
+                  "values" : [
+                     {
+                        "unit" : "String",
+                        "attrValue" : "String",
+                        "locale" : "String"
+                     }
+                  ]
+               }
+            },
+            "unitBase" : "CLS_METRIC CLS_NONMETRIC CLS_BOTH"
+         }
+      }
+   },
+   "ServiceOperation" : "Classification-2011-12-Classification/getClassificationObjectInfo",
+   "OperationInput" : {
+      "getOptimizedValues" : "bool",
+      "attributeIds" : "int[]",
+      "fetchDescriptor" : "bool",
+      "locale" : "String",
+      "icoUids" : "String[]"
+   }
+}

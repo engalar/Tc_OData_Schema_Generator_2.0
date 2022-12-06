@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Ai-2012-09-Ai/setRequestsInfo",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "infos" : [
+         {
+            "statusInfo" : {
+               "status" : "RequestStatus_Normal RequestStatus_Warning RequestStatus_Severe RequestStatus_Abort RequestStatus_Any",
+               "description" : "String"
+            },
+            "kvPairs" : {
+               "SampleKeyString" : "String"
+            },
+            "ro" : "IModelObject",
+            "stateMessage" : "String"
+         }
+      ]
+   }
+}

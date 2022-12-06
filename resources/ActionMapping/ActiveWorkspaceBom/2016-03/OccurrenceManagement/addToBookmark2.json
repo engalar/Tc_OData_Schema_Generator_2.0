@@ -1,0 +1,42 @@
+{
+   "OperationResponse" : {
+      "addedProductsInfo" : [
+         {
+            "productCtxInfo" : "IModelObject",
+            "rootElement" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "columnConfig" : {
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "sortDirection" : "String",
+               "columnOrder" : "int",
+               "propertyName" : "String",
+               "hiddenFlag" : "bool",
+               "typeName" : "String",
+               "sortPriority" : "int",
+               "pixelWidth" : "int"
+            }
+         ],
+         "columnsToExclude" : "String[]",
+         "operationType" : "String",
+         "hasColumnsChanged" : "bool",
+         "elementTypesForArrange" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2016-03-OccurrenceManagement/addToBookmark2",
+   "OperationInput" : {
+      "input" : {
+         "bookmark" : "IModelObject",
+         "productsToBeAdded" : "IModelObject[]",
+         "columnConfigInput" : {
+            "clientName" : "String",
+            "hostingClientName" : "String",
+            "fetchColumnConfig" : "bool",
+            "operationType" : "String"
+         }
+      }
+   }
+}

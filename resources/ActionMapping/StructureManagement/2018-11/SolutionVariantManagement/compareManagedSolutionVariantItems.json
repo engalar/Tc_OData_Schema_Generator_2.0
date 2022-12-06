@@ -1,0 +1,40 @@
+{
+   "OperationResponse" : {
+      "genericSourceItemRev" : "IModelObject",
+      "servicedata" : "IServiceData",
+      "listOfCompareManagedSVItemRevReport" : [
+         {
+            "gvCompareReportNodeList" : [
+               {
+                  "psOccChildItemUID" : "String",
+                  "itemAction" : "int",
+                  "occPropNameValueMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "psOccThreadUID" : "String"
+               }
+            ],
+            "managedSVItemRev" : "IModelObject",
+            "svCompareReportNodeList" : [
+               {
+                  "psOccChildItemUID" : "String",
+                  "occPropNameValueMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "itemAction" : "int",
+                  "psOccThreadUID" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2018-11-SolutionVariantManagement/compareManagedSolutionVariantItems",
+   "OperationInput" : {
+      "managedSVItemRevInputList" : "IModelObject[]",
+      "configPreferences" : {
+         "SampleKeyString" : "String"
+      },
+      "genericSourceBOMLine" : "IModelObject",
+      "revRuleToUseInUpdate" : "IModelObject"
+   }
+}

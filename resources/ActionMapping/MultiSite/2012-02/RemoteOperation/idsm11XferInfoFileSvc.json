@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "roleName" : "String",
+            "clientCorrelationId" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "userDataIp" : "String",
+            "osUserName" : "String"
+         },
+         "startingBlock" : "int",
+         "infoFile" : "String",
+         "infoStagingDir" : "String",
+         "infoType" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11XferInfoFileSvc",
+   "OperationResponse" : {
+      "userDataIp" : "String",
+      "out" : {
+         "moreFiles" : "bool",
+         "fileData" : "int[]",
+         "fileDataSize" : "int",
+         "transferComplete" : "bool"
+      },
+      "serverCorrelationId" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

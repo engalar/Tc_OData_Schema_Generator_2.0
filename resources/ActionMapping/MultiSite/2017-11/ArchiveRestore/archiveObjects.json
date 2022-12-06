@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "sessionOptionsAndValues" : [
+         {
+            "valueStr" : "String",
+            "nameStr" : "String"
+         }
+      ],
+      "excludeObjects" : "IModelObject[]",
+      "objects" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "progRecUid" : "String",
+      "reportFileTicket" : "String",
+      "reportFileName" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Multisite-2017-11-ArchiveRestore/archiveObjects"
+}

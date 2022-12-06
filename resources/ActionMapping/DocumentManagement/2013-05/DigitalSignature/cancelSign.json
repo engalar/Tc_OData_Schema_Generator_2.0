@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "inputDatasets" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-DocumentManagement-2013-05-DigitalSignature/cancelSign"
+}

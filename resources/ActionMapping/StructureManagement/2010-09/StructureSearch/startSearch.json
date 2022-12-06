@@ -1,0 +1,119 @@
+{
+   "OperationInput" : {
+      "scope" : {
+         "window" : "IModelObject",
+         "scopeBomLines" : "IModelObject[]",
+         "ignoreOccurrenceTypes" : "String[]"
+      },
+      "searchExpression" : {
+         "itemAndRevisionAttributeExpressions" : [
+            {
+               "values" : {
+                  "tagValues" : "IModelObject[]",
+                  "intValues" : "int[]",
+                  "dateValues" : "Date",
+                  "doubleValues" : "double[]",
+                  "boolValues" : "bool[]",
+                  "stringValues" : "String[]"
+               },
+               "className" : "String",
+               "attributeType" : "BooleanType IntegerType DoubleType StringType DateType TagType",
+               "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike",
+               "attributeName" : "String"
+            }
+         ],
+         "returnScopedSubTreesHit" : "bool",
+         "proximitySearchExpressions" : [
+            {
+               "bomLines" : "IModelObject[]",
+               "includeChildBomLines" : "bool",
+               "distance" : "double"
+            }
+         ],
+         "formAttributeExpressions" : [
+            {
+               "isItemForm" : "bool",
+               "values" : {
+                  "stringValues" : "String[]",
+                  "dateValues" : "Date",
+                  "boolValues" : "bool[]",
+                  "doubleValues" : "double[]",
+                  "intValues" : "int[]",
+                  "tagValues" : "IModelObject[]"
+               },
+               "relationType" : "IModelObject",
+               "formType" : "IModelObject",
+               "attributeType" : "BooleanType IntegerType DoubleType StringType DateType TagType",
+               "attributeName" : "String",
+               "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike"
+            }
+         ],
+         "remoteSiteID" : "String",
+         "occurrenceNoteExpressions" : [
+            {
+               "values" : "String[]",
+               "noteType" : "String",
+               "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike"
+            }
+         ],
+         "doTrushapeRefinement" : "bool",
+         "executeRemoteSearch" : "bool",
+         "sizeSearchExpression" : {
+            "largerThan" : "bool",
+            "diagonalLength" : "double"
+         },
+         "inClassQueryExpressions" : [
+            {
+               "inClassAttributeValues" : "String[]",
+               "inClassClassNames" : "String[]",
+               "inClassAttributeIDs" : "int[]"
+            }
+         ],
+         "boxZoneExpressions" : [
+            {
+               "boxOperator" : "Inside Outside Intersects InsideOrIntersects OutsideOrIntersects",
+               "searchBoxes" : [
+                  {
+                     "xmax" : "double",
+                     "transform" : "double[]",
+                     "ymin" : "double",
+                     "ymax" : "double",
+                     "zmax" : "double",
+                     "xmin" : "double",
+                     "zmin" : "double"
+                  }
+               ]
+            }
+         ],
+         "executeVOOFilter" : "bool",
+         "planeZoneExpressions" : [
+            {
+               "planeZoneOperator" : "PlaneZone_above PlaneZone_below PlaneZone_intersects PlaneZone_aboveOrIntersects PlaneZone_belowOrIntersects",
+               "planeZone" : {
+                  "xValue" : "double",
+                  "yValue" : "double",
+                  "displacement" : "double",
+                  "zValue" : "double"
+               }
+            }
+         ],
+         "savedQueryExpressions" : [
+            {
+               "values" : "String[]",
+               "savedQuery" : "IModelObject",
+               "entries" : "String[]"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "searchCursor" : "IModelObject",
+      "estimatedLinesLeft" : "int",
+      "linesDone" : "int",
+      "finished" : "bool",
+      "bomLines" : "IModelObject[]",
+      "percentComplete" : "double"
+   },
+   "ServiceOperation" : "StructureManagement-2010-09-StructureSearch/startSearch"
+}

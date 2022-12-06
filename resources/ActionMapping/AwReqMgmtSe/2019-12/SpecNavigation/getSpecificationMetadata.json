@@ -1,0 +1,80 @@
+{
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2019-12-SpecNavigation/getSpecificationMetadata",
+   "OperationResponse" : {
+      "reqIFTypePropInfos" : [
+         {
+            "propInfos" : [
+               {
+                  "lovDispValues" : "String[]",
+                  "isArray" : "bool",
+                  "hasLOV" : "bool",
+                  "propName" : "String",
+                  "propType" : "String",
+                  "isRequired" : "bool",
+                  "isEditable" : "bool",
+                  "minValue" : "int",
+                  "dispPropName" : "String",
+                  "lovValues" : "String[]",
+                  "maxValue" : "int"
+               }
+            ],
+            "objectTypeRev" : "String",
+            "dispTypeName" : "String",
+            "objectType" : "String",
+            "typeInfo" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "typePropInfos" : [
+         {
+            "typeInfo" : "String",
+            "dispTypeName" : "String",
+            "objectType" : "String",
+            "propInfos" : [
+               {
+                  "isEditable" : "bool",
+                  "dispPropName" : "String",
+                  "minValue" : "int",
+                  "lovValues" : "String[]",
+                  "maxValue" : "int",
+                  "lovDispValues" : "String[]",
+                  "isArray" : "bool",
+                  "propName" : "String",
+                  "hasLOV" : "bool",
+                  "propType" : "String",
+                  "isRequired" : "bool"
+               }
+            ],
+            "objectTypeRev" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "options" : "String[]",
+         "selectedObjects" : "IModelObject[]",
+         "typePropMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "fileTicket" : "String",
+         "inputCtxt" : {
+            "pageSize" : "int",
+            "productContext" : "IModelObject",
+            "structureContextObject" : "IModelObject",
+            "configuration" : {
+               "now" : "bool",
+               "configurationObject" : "IModelObject",
+               "variantRule" : "IModelObject",
+               "effectivityDate" : "Date",
+               "unitNo" : "int",
+               "svrOwningProduct" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "endItem" : "IModelObject"
+            },
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      }
+   }
+}

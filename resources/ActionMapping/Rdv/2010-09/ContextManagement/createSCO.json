@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "scoInfo" : {
+               "bgdBomLines" : "IModelObject[]",
+               "tgtSearchCrtGrp" : "IModelObject",
+               "selTgtBomLines" : "IModelObject[]",
+               "selBgdBomLines" : "IModelObject[]",
+               "varRule" : "IModelObject",
+               "bgdSearchCrtGrp" : "IModelObject",
+               "revRule" : "IModelObject",
+               "tgtBomLines" : "IModelObject[]",
+               "workParts" : "IModelObject[]",
+               "prdItemRevision" : "IModelObject"
+            },
+            "scoType" : "String",
+            "scoDesc" : "String",
+            "scoName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "strCntxtObject" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Rdv-2010-09-ContextManagement/createSCO"
+}

@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "clientId" : "String",
+            "form" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2007-01-DataManagement/createOrUpdateForms",
+   "OperationInput" : {
+      "info" : [
+         {
+            "clientId" : "String",
+            "attributesMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "saveDB" : "bool",
+            "parentObject" : "IModelObject",
+            "relationName" : "String",
+            "formType" : "String",
+            "formObject" : "IModelObject",
+            "name" : "String",
+            "description" : "String"
+         }
+      ]
+   }
+}

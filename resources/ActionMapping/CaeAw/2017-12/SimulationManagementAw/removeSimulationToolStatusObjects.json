@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "operationName" : "String",
+      "statusObjects" : "IModelObject[]",
+      "statusObjectsJobIds" : "String[]"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/removeSimulationToolStatusObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "invalidJobIds" : "String",
+      "clearedJobIds" : "String",
+      "deletedJobIds" : "String"
+   }
+}

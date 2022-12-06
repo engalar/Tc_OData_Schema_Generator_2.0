@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Query-2006-03-SavedQuery/describeSavedQueries",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "fieldLists" : [
+         {
+            "fields" : [
+               {
+                  "entryName" : "String",
+                  "logicalOperation" : "String",
+                  "lov" : "IModelObject",
+                  "attributeName" : "String",
+                  "attributeType" : "int",
+                  "mathOperation" : "String",
+                  "value" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "queries" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "effectivityComponent" : "IModelObject",
+            "releaseStatus" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2015-10-Effectivity/removeReleaseStatusEffectivity"
+}

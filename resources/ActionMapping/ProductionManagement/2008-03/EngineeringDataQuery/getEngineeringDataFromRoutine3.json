@@ -1,0 +1,62 @@
+{
+   "OperationResponse" : {
+      "routineData" : [
+         {
+            "featureData" : [
+               {
+                  "featureId" : "String",
+                  "description" : "String",
+                  "need" : "String",
+                  "featureLabel" : "String",
+                  "altLabel" : "String",
+                  "nominalValues" : {
+                     "z" : "float",
+                     "i" : "float",
+                     "j2" : "float",
+                     "y" : "float",
+                     "x" : "float",
+                     "k" : "float",
+                     "k2" : "float",
+                     "i2" : "float",
+                     "j" : "float"
+                  },
+                  "loadingSplitId" : "String",
+                  "attributeData" : [
+                     {
+                        "attributeCode" : "String",
+                        "significance" : "int",
+                        "specSetCodes" : [
+                           {
+                              "specSetCodeName" : "String",
+                              "lsl" : "float",
+                              "usl" : "float",
+                              "target" : "float"
+                           }
+                        ],
+                        "nominal" : "float",
+                        "need" : "String",
+                        "abbreviation" : "String",
+                        "codeDirection" : "int",
+                        "measurementApproach" : "String",
+                        "formula" : "String"
+                     }
+                  ],
+                  "activeStatus" : "bool",
+                  "featureType" : "String"
+               }
+            ],
+            "routine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2008-03-EngineeringDataQuery/getEngineeringDataFromRoutine3",
+   "OperationInput" : {
+      "routineIdVer" : [
+         {
+            "routineRev" : "String",
+            "routineId" : "String"
+         }
+      ]
+   }
+}

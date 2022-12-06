@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "selectedLine" : "IModelObject",
+            "installationDate" : "Date",
+            "manufacturerID" : "String",
+            "serialNumber" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AsMaintainedAw-2016-03-AsMaintainedAw/installPartUsingSerialNumber"
+}

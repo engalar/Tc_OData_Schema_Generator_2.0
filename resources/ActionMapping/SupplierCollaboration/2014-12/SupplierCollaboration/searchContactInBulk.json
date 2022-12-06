@@ -1,0 +1,34 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputData" : [
+         {
+            "searchContactInfo" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  {
+                     "attrValueMap" : {
+                        "SampleKeyString" : "String"
+                     }
+                  }
+               ]
+            ],
+            "inputExchangeLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2014-12-SupplierCollaboration/searchContactInBulk",
+   "OperationInput" : {
+      "searchCompanyContactsInBulk" : [
+         {
+            "searchCriterion" : {
+               "SampleKeyString" : "String"
+            },
+            "lineObject" : "IModelObject",
+            "isProgramExchangeSearch" : "bool"
+         }
+      ]
+   }
+}

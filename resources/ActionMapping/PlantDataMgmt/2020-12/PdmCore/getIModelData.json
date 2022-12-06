@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "contextID" : "String",
+      "iModelID" : "String"
+   },
+   "ServiceOperation" : "Internal-PlantDataMgmt-2020-12-PdmCore/getIModelData",
+   "OperationResponse" : {
+      "briefcaseReadTickets" : [
+         {
+            "fileName" : "String",
+            "fileTicket" : "String"
+         }
+      ],
+      "latestChangeset" : "IModelObject",
+      "fmsURL" : "String",
+      "iModel" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "changesetReadTickets" : [
+         {
+            "fileTicket" : "String",
+            "fileName" : "String"
+         }
+      ]
+   }
+}

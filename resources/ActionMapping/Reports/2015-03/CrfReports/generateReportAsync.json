@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "reportDefinition" : "IModelObject",
+            "datasetType" : "String",
+            "stylesheet" : "IModelObject",
+            "stylesheetName" : "String",
+            "datasetCtxUID" : "String",
+            "datasetName" : "String",
+            "reportOptionsValues" : "String[]",
+            "relationName" : "String",
+            "criteriaNames" : "String[]",
+            "clientId" : "String",
+            "reportOptionsNames" : "String[]",
+            "contextObjects" : "IModelObject[]",
+            "reportName" : "String",
+            "criteriaValues" : "String[]",
+            "datasetCtxObj" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Reports-2015-03-CrfReports/generateReportAsync"
+}

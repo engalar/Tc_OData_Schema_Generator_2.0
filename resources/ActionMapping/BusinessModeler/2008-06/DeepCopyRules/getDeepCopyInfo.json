@@ -1,0 +1,33 @@
+{
+   "OperationResponse" : {
+      "values" : [
+         {
+            "deepCopyInfos" : [
+               {
+                  "relationTypeName" : "String",
+                  "isTargetPrimary" : "bool",
+                  "newName" : "String",
+                  "action" : "int",
+                  "otherSideObjectTag" : "IModelObject",
+                  "isRequired" : "bool",
+                  "copyRelations" : "bool"
+               }
+            ],
+            "key" : {
+               "itemRevisionTag" : "IModelObject",
+               "operation" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "BusinessModeler-2008-06-DeepCopyRules/getDeepCopyInfo",
+   "OperationInput" : {
+      "keys" : [
+         {
+            "itemRevisionTag" : "IModelObject",
+            "operation" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "applyExemptionDetailsInputs" : [
+         {
+            "businessObject" : "IModelObject",
+            "applyExemptions" : [
+               {
+                  "resultStatus" : "int",
+                  "substanceExemptionsDetails" : [
+                     {
+                        "substanceOrSubstanceCategory" : "IModelObject",
+                        "applicableExemptions" : [
+                           {
+                              "supplierExemption" : "IModelObject",
+                              "exemptionExpiryDate" : "Date"
+                           }
+                        ],
+                        "isMandatory" : "bool",
+                        "appliedExemptions" : [
+                           {
+                              "supplierExemption" : "IModelObject",
+                              "exemptionExpiryDate" : "Date"
+                           }
+                        ]
+                     }
+                  ],
+                  "regulation" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SubsCmplAW-2016-03-SubstanceCompliance/applyExemptions"
+}

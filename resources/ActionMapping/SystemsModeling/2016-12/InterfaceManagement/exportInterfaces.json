@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "productContext" : "IModelObject",
+            "exportOptions" : {
+               "SampleKeyString" : "String[]"
+            },
+            "awbElements" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SystemsModeling-2016-12-InterfaceManagement/exportInterfaces",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "exportedFile" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "itemInfo" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Multisite-2011-06-ImportExport/registerItemId"
+}

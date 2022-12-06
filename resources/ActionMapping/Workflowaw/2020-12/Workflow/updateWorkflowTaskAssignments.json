@@ -1,0 +1,51 @@
+{
+   "OperationInput" : {
+      "inData" : [
+         {
+            "taskData" : {
+               "task" : "IModelObject",
+               "additionalData" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "assigmentData" : {
+                  "SampleKeyString" : [
+                     {
+                        "additionalData" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "isRequired" : "bool",
+                        "signoffProfile" : "IModelObject",
+                        "member" : "IModelObject",
+                        "origin" : "IModelObject"
+                     }
+                  ]
+               }
+            },
+            "dpData" : {
+               "additionalData" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "primaryObject" : "IModelObject",
+               "internalName" : "String",
+               "allowMultipleAssignee" : "bool",
+               "displayName" : "String",
+               "assigneeList" : "IModelObject[]"
+            },
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "outData" : [
+         {
+            "taskOrDP" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Workflowaw-2020-12-Workflow/updateWorkflowTaskAssignments"
+}

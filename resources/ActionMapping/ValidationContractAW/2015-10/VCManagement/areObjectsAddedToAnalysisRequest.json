@@ -1,0 +1,30 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "objectsStatusOutput" : [
+         {
+            "objectStatus" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  {
+                     "addStatus" : "bool",
+                     "validationLink" : "IModelObject"
+                  }
+               ]
+            ],
+            "analysisRequest" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ValidationContractAW-2015-10-VCManagement/areObjectsAddedToAnalysisRequest",
+   "OperationInput" : {
+      "input" : [
+         {
+            "objects" : "IModelObject[]",
+            "analysisRequest" : "IModelObject"
+         }
+      ]
+   }
+}

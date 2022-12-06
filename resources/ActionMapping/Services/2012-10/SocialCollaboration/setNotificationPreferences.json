@@ -1,0 +1,36 @@
+{
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/setNotificationPreferences",
+   "OperationResponse" : {
+      "message" : "String",
+      "success" : "bool",
+      "categories" : [
+         {
+            "categoryName" : "String",
+            "perferences" : [
+               {
+                  "prefName" : "String",
+                  "prefValue" : "bool",
+                  "prefDisplayName" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "request" : {
+         "objectUid" : "String",
+         "categories" : [
+            {
+               "categoryName" : "String",
+               "perferences" : [
+                  {
+                     "prefValue" : "bool",
+                     "prefDisplayName" : "String",
+                     "prefName" : "String"
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

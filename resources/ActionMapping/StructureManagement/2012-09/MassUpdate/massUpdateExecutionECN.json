@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "markupChanges" : "IModelObject[]",
+            "markup" : "IModelObject",
+            "changeItemRev" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2012-09-MassUpdate/massUpdateExecutionECN",
+   "OperationInput" : {
+      "changeItemRevs" : "IModelObject[]"
+   }
+}

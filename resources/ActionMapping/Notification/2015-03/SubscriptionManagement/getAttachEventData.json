@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-Notification-2015-03-SubscriptionManagement/getAttachEventData",
+   "OperationResponse" : {
+      "relations" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "attachmentTypes" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "target" : "IModelObject"
+   }
+}

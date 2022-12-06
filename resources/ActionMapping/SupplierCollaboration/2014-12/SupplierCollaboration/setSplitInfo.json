@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "retrieveOrUpdateSplitInfoIn" : {
+         "splitInfos" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               [
+                  {
+                     "propValues" : "String[]"
+                  }
+               ]
+            ]
+         ],
+         "level" : "int",
+         "mode" : "int",
+         "revisionRule" : "String",
+         "traverseBOM" : "bool",
+         "propNames" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "splitInfos" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "propValues" : "String[]"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2014-12-SupplierCollaboration/setSplitInfo"
+}

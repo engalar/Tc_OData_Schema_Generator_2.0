@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "String",
+   "ServiceOperation" : "Internal-Cae-2012-02-StructureManagement/generateNodeXML",
+   "OperationInput" : {
+      "domain" : "String",
+      "bomlines" : "IModelObject[]"
+   }
+}

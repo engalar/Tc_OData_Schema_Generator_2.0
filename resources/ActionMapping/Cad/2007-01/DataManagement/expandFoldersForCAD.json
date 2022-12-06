@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "folders" : "IModelObject[]",
+      "pref" : {
+         "info" : [
+            {
+               "relationName" : "String",
+               "objectTypeNames" : "String[]"
+            }
+         ],
+         "latestNRevs" : "int",
+         "expItemRev" : "bool"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "itemsOutput" : [
+               {
+                  "outputItem" : "IModelObject",
+                  "itemRevsOutput" : [
+                     {
+                        "outputDatasets" : "IModelObject[]",
+                        "outputItemRevs" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "itemRevsOutput" : [
+               {
+                  "outputDatasets" : "IModelObject[]",
+                  "outputItemRevs" : "IModelObject"
+               }
+            ],
+            "inputFolder" : "IModelObject",
+            "fstlvlFolders" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2007-01-DataManagement/expandFoldersForCAD"
+}

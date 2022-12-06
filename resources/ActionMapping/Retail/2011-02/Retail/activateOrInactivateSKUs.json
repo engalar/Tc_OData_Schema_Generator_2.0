@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2011-02-Retail/activateOrInactivateSKUs",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "desiredSKUStatus" : "bool",
+            "dimensionName" : "String",
+            "objectUID" : "String",
+            "dimensionValue" : "String"
+         }
+      ]
+   }
+}

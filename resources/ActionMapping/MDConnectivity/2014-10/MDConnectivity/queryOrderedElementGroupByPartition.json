@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "clientId" : "String",
+            "elements" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/queryOrderedElementGroupByPartition",
+   "OperationInput" : {
+      "input" : [
+         {
+            "discipline" : "String",
+            "partition" : "IModelObject",
+            "clientId" : "String",
+            "context" : "IModelObject",
+            "orderedElementGroup" : "IModelObject"
+         }
+      ]
+   }
+}

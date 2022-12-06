@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "insertScheduleContainer" : [
+         {
+            "masterSchedule" : "IModelObject",
+            "subSchedule" : "IModelObject",
+            "adjustMasterDates" : "bool",
+            "masterScheduleTask" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2014-10-ScheduleManagement/insertSchedule",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,70 @@
+{
+   "OperationInput" : {
+      "generateNextValuesIn" : [
+         {
+            "propValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "operationType" : "int",
+            "businessObjectName" : "String",
+            "additionalInputParams" : {
+               "SampleKeyString" : "String"
+            },
+            "compoundObjectInput" : {
+               "SampleKeyString" : [
+                  {
+                     "propertyNameWithSelectedPattern" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "clientId" : "String",
+                     "additionalInputParams" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "compoundObjectInput" : "Teamcenter::Soa::Core::_2013_05::DataManagement::CompoundObjectInputMap",
+                     "propValues" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "businessObjectName" : "String",
+                     "operationType" : "int"
+                  }
+               ]
+            },
+            "clientId" : "String",
+            "propertyNameWithSelectedPattern" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2013-05-DataManagement/generateNextValues",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "generatedValues" : [
+         {
+            "clientId" : "String",
+            "generatedValuesOfSecondaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "generatedValues" : {
+                        "SampleKeyString" : {
+                           "isModifiable" : "bool",
+                           "errorCode" : "int",
+                           "nextValue" : "String"
+                        }
+                     },
+                     "generatedValuesOfSecondaryObjects" : "Teamcenter::Soa::Core::_2013_05::DataManagement::GeneratedValuesOfSecondaryObjectsMap",
+                     "clientId" : "String"
+                  }
+               ]
+            },
+            "generatedValues" : {
+               "SampleKeyString" : {
+                  "isModifiable" : "bool",
+                  "errorCode" : "int",
+                  "nextValue" : "String"
+               }
+            }
+         }
+      ]
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Configuration-2010-04-SmartUiBldr/getValuesForComponent",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "componentValues" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "currentSelections" : {
+         "SampleKeyString" : "String"
+      },
+      "component" : [
+         {
+            "clientId" : "String",
+            "component" : "IModelObject"
+         }
+      ],
+      "rootComponent" : {
+         "clientId" : "String",
+         "component" : "IModelObject"
+      }
+   }
+}

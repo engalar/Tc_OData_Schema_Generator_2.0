@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "comps" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "idcWindow" : "IModelObject",
+            "inputIndex" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-PublishByLink/createIDCWindowForDesignAsm"
+}

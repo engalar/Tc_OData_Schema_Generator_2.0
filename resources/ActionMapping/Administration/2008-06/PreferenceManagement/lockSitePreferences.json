@@ -1,0 +1,5 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "Administration-2008-06-PreferenceManagement/lockSitePreferences"
+}

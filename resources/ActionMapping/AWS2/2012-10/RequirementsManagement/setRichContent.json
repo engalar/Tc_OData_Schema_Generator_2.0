@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2012-10-RequirementsManagement/setRichContent",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "bodyText" : "String",
+            "contentType" : "HTML PLAINTEXT",
+            "objectToProcess" : "IModelObject"
+         }
+      ]
+   }
+}

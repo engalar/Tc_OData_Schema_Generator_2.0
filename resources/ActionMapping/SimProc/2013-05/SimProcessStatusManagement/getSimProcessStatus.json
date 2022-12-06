@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "value" : "String",
+      "attribute" : "String"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "SimProc-2013-05-SimProcessStatusManagement/getSimProcessStatus"
+}

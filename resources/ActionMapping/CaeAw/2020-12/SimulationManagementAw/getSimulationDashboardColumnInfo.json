@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "dashboardConfig" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2020-12-SimulationManagementAw/getSimulationDashboardColumnInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "simulationDashboardColumnsInfo" : [
+         {
+            "name" : "String",
+            "enableColumnHiding" : "bool",
+            "enableFiltering" : "bool",
+            "minWidth" : "int",
+            "enablePinning" : "bool",
+            "dataType" : "String",
+            "width" : "int",
+            "pinnedLeft" : "bool",
+            "displayName" : "String",
+            "enableSorting" : "bool"
+         }
+      ]
+   }
+}

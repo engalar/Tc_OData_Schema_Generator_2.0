@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "publishComment" : {
+               "propMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String"
+            },
+            "clientID" : "String",
+            "config" : {
+               "SampleKeyString" : "String"
+            },
+            "publishNodeObjects" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-BranchAndVersioning-2018-12-BranchingAndVersioning/publishBranchNodes2"
+}

@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "multipleLicenseServers" : "IModelObject[]",
+            "licenseServerType" : "String",
+            "protocol" : "int",
+            "failoverLicenseServers" : "IModelObject[]",
+            "licenseServer" : "IModelObject",
+            "portNumber" : "int",
+            "licenseServerName" : "String",
+            "hostName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2018-12-Licensing/updateLicenseServer2",
+   "OperationResponse" : "IServiceData"
+}

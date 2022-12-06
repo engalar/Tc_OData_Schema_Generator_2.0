@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "addedAttrList" : "IModelObject[]",
+            "clientId" : "String",
+            "ignoredAttrList" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "AttrTargetMgmtAW-2017-06-AttributeTargetManagement/attachMeasurableAttributes",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "parentObj" : "IModelObject",
+            "relation" : "String",
+            "addAsCopy" : "bool",
+            "clientId" : "String",
+            "attrList" : "IModelObject[]"
+         }
+      ]
+   }
+}

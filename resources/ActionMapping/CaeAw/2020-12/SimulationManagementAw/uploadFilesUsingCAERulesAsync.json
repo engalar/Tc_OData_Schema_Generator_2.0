@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-CaeAw-2020-12-SimulationManagementAw/uploadFilesUsingCAERulesAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "filesUploadInfo" : [
+         {
+            "conflictResolutionOption" : "String",
+            "modifiedFileName" : "String",
+            "fileLastModified" : "String",
+            "fileName" : "String",
+            "namedReferenceName" : "String",
+            "contextDataset" : "IModelObject",
+            "fileTicket" : "String",
+            "contextItemRevision" : "IModelObject",
+            "fileSize" : "String"
+         }
+      ],
+      "shouldCheckInDataset" : "bool"
+   }
+}

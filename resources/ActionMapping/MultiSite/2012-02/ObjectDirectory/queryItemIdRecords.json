@@ -1,0 +1,44 @@
+{
+   "OperationResponse" : {
+      "serverCorrelID" : "String",
+      "queryResults" : [
+         {
+            "siteId" : "int",
+            "isRegistered" : "bool"
+         }
+      ],
+      "userDataOutput" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-ObjectDirectory/queryItemIdRecords",
+   "OperationInput" : {
+      "mfkInfo" : [
+         {
+            "domain" : "String",
+            "itemId" : "String",
+            "keyValue" : "String"
+         }
+      ],
+      "clientInfo" : {
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "clientSiteId" : "int",
+         "userDataInput" : "String",
+         "roleName" : "String",
+         "userId" : "String",
+         "clientOdsMajorVersion" : "int",
+         "osUserName" : "String",
+         "targetServerSiteId" : "int",
+         "groupName" : "String",
+         "clientOdsMinorVersion" : "int",
+         "clientMaintPackVersion" : "int",
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientCorrelID" : "String",
+         "clientMinorReleaseVersion" : "int"
+      }
+   }
+}

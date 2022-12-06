@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "topline" : "IModelObject",
+            "abeAPN" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Rdv-2008-05-ContextManagement/removePartsRelatedToABE"
+}

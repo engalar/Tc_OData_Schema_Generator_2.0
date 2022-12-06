@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-Administration-2017-11-IRM/getAccessorsInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "accessorInformations" : [
+         {
+            "accessorObject" : "IModelObject",
+            "accessorType" : "String",
+            "accessorName" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "accessorObjects" : "IModelObject[]"
+   }
+}

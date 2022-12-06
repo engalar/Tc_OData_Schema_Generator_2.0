@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "change" : "IModelObject",
+            "searchScope" : {
+               "defaultRevRule" : "String",
+               "productScope" : [
+                  {
+                     "revRule" : "String",
+                     "childScope" : [
+                        {
+                           "recurse" : "bool",
+                           "child" : "IModelObject"
+                        }
+                     ],
+                     "product" : "IModelObject"
+                  }
+               ],
+               "propValues" : "String[]",
+               "propNames" : "String[]"
+            },
+            "operation" : "int",
+            "target" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "target" : "IModelObject",
+            "impactedObjectUIDs" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/getImpactedObjects"
+}

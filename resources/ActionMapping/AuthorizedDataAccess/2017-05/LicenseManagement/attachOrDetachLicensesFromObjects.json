@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "licenseAttachOrDetachInput" : [
+         {
+            "processAsynchronously" : "bool",
+            "detachLicenseDetails" : {
+               "selectedLicenses" : "String[]",
+               "eadParagraph" : "String[]",
+               "objects" : "IModelObject[]"
+            },
+            "attachLicenseDetails" : {
+               "objects" : "IModelObject[]",
+               "eadParagraph" : "String[]",
+               "selectedLicenses" : "String[]"
+            },
+            "contextInfo" : {
+               "variantRule" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "depth" : "int",
+               "typeOption" : "int",
+               "selectedTopLevelObject" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "AuthorizedDataAccess-2017-05-LicenseManagement/attachOrDetachLicensesFromObjects",
+   "OperationResponse" : "IServiceData"
+}

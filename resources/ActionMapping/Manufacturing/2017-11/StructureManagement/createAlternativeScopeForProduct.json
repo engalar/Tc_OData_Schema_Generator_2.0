@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2017-11-StructureManagement/createAlternativeScopeForProduct",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "productNodeAlternativeScp" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "altenativeScpForProdInfo" : [
+         {
+            "newAlternativeScpName" : "String",
+            "productNode" : "IModelObject",
+            "containerInfo" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "newAlternativeScpDesc" : "String"
+         }
+      ]
+   }
+}

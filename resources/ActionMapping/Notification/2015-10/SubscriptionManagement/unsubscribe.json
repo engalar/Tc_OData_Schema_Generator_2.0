@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Internal-Notification-2015-10-SubscriptionManagement/unsubscribe",
+   "OperationResponse" : {
+      "subscriptions" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "subscriptions" : "IModelObject[]"
+   }
+}

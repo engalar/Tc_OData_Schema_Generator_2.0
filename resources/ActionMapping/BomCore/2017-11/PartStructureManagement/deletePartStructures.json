@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "pbeLinesToDelete" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-BomCore-2017-11-PartStructureManagement/deletePartStructures",
+   "OperationResponse" : "IServiceData"
+}

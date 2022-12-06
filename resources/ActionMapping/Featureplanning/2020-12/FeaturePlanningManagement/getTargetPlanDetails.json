@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "targetPlanDetails" : [
+         {
+            "targetInfo" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "targetPlan" : "IModelObject",
+            "rootModel" : "IModelObject",
+            "rootTarget" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Featureplanning-2020-12-FeaturePlanningManagement/getTargetPlanDetails",
+   "OperationInput" : {
+      "confPerspecitve" : "IModelObject",
+      "targetPlans" : "IModelObject[]"
+   }
+}

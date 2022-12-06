@@ -1,0 +1,33 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "participants" : "IModelObject[]",
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "wso" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Participant-2018-11-Participant/addParticipants",
+   "OperationInput" : {
+      "input" : [
+         {
+            "wso" : "IModelObject",
+            "participantInputData" : [
+               {
+                  "participantType" : "String",
+                  "clientId" : "String",
+                  "assignee" : "IModelObject"
+               }
+            ],
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   }
+}

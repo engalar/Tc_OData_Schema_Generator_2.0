@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "String",
+   "ServiceOperation" : "ClassificationCommon-2020-12-Classification/searchClassificationDefinitions",
+   "OperationInput" : {
+      "jsonRequest" : "String"
+   }
+}

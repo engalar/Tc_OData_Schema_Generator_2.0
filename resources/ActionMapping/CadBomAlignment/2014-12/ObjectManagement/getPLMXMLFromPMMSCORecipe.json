@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Internal-CadBomAlignment-2014-12-ObjectManagement/getPLMXMLFromPMMSCORecipe",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "pmmscoPlmxmlInfoMap" : {
+         "SampleKeyString" : {
+            "plmxmlFileReadTicket" : "String",
+            "plmxmlFilename" : "String",
+            "type" : "int"
+         }
+      }
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "pmmSco" : "IModelObject",
+            "openMode" : "int"
+         }
+      ]
+   }
+}

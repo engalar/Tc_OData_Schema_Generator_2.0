@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySearch/searchLibraries",
+   "OperationInput" : {
+      "searchExprs" : [
+         {
+            "expression" : "String",
+            "propertyName" : "String"
+         }
+      ],
+      "contexts" : "IModelObject[]"
+   }
+}

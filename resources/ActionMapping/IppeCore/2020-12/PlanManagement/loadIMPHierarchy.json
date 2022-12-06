@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-IppeCore-2020-12-PlanManagement/loadIMPHierarchy",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "selectedObject" : "IModelObject"
+   }
+}

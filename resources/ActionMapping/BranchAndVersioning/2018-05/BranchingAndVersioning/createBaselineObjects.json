@@ -1,0 +1,56 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientID" : "String",
+            "branch" : "IModelObject",
+            "config" : {
+               "SampleKeyString" : "String"
+            },
+            "description" : "String",
+            "contextObject" : "IModelObject",
+            "contents" : "IModelObject[]",
+            "name" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "branchInfos" : [
+         {
+            "newBranchContent" : {
+               "childrenBranches" : "Bhv1::Soa::Internal::BranchAndVersioning::_2017_12::BranchingAndVersioning::BranchContents[]",
+               "versionObjectNodesData" : [
+                  {
+                     "nodeInfoMap" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "tupleNode" : "IModelObject",
+                     "versionObjectNode" : "IModelObject"
+                  }
+               ],
+               "branchObjectNodeData" : {
+                  "nodeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "branchObjectNode" : "IModelObject",
+                  "tupleNode" : "IModelObject"
+               }
+            },
+            "edges" : [
+               {
+                  "edgeObject" : "IModelObject",
+                  "startNode" : "IModelObject",
+                  "endNode" : "IModelObject",
+                  "edgeType" : "String",
+                  "edgeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ],
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-BranchAndVersioning-2018-05-BranchingAndVersioning/createBaselineObjects"
+}

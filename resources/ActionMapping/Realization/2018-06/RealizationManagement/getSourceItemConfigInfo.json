@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Realization-2018-06-RealizationManagement/getSourceItemConfigInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "configMap" : {
+         "SampleKeyString" : {
+            "bomView" : "String",
+            "configContext" : "IModelObject"
+         }
+      }
+   },
+   "OperationInput" : {
+      "elementInfos" : [
+         {
+            "clientId" : "String",
+            "modelElement" : "IModelObject"
+         }
+      ]
+   }
+}

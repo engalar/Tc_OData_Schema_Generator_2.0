@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "partitionList" : "IModelObject[]",
+            "opCode" : "ADD REPLACE REMOVE",
+            "isParent" : "bool",
+            "partition" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Partition-2011-06-PartitionManagement/updateChildrenOrParents"
+}

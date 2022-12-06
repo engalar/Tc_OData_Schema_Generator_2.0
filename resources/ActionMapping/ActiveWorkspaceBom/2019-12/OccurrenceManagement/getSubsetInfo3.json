@@ -1,0 +1,77 @@
+{
+   "OperationResponse" : {
+      "filterOut" : [
+         {
+            "searchFilterMap" : {
+               "SampleKeyString" : [
+                  {
+                     "startNumericValue" : "double",
+                     "endNumericValue" : "double",
+                     "stringDisplayValue" : "String",
+                     "startDateValue" : "Date",
+                     "endDateValue" : "Date",
+                     "hasChildren" : "bool",
+                     "searchFilterType" : "String",
+                     "stringValue" : "String",
+                     "count" : "int",
+                     "startEndRange" : "String",
+                     "selected" : "bool"
+                  }
+               ]
+            },
+            "defaultCategoryDisplayCount" : "int",
+            "searchFilterCategories" : [
+               {
+                  "internalName" : "String",
+                  "quickSearchable" : "bool",
+                  "displayName" : "String",
+                  "isMultiSelect" : "bool",
+                  "isHierarchical" : "bool",
+                  "endIndex" : "int",
+                  "defaultFilterValueDisplayCount" : "int",
+                  "editable" : "bool",
+                  "categoryType" : "String",
+                  "endReached" : "bool"
+               }
+            ],
+            "recipe" : [
+               {
+                  "criteriaValues" : "String[]",
+                  "criteriaOperatorType" : "String",
+                  "subCriteria" : "Awb0::Soa::Internal::ActiveWorkspaceBom::_2015_07::OccurrenceManagement::Criteria[]",
+                  "criteriaDisplayValue" : "String",
+                  "criteriaType" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-12-OccurrenceManagement/getSubsetInfo3",
+   "OperationInput" : {
+      "subsetInputs" : [
+         {
+            "productInfo" : "IModelObject",
+            "searchFilterFieldSortType" : "String",
+            "requestPref" : {
+               "SampleKeyString" : "String[]"
+            },
+            "recipe" : [
+               {
+                  "criteriaDisplayValue" : "String",
+                  "criteriaType" : "String",
+                  "subCriteria" : "Awb0::Soa::Internal::ActiveWorkspaceBom::_2015_07::OccurrenceManagement::Criteria[]",
+                  "criteriaOperatorType" : "String",
+                  "criteriaValues" : "String[]"
+               }
+            ],
+            "searchSortCriteria" : [
+               {
+                  "sortDirection" : "String",
+                  "fieldName" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

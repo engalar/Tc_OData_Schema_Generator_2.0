@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-Core-2014-10-FileManagement/getPlmdFileTicketForDownload",
+   "OperationResponse" : {
+      "ticket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "infos" : [
+         {
+            "imanFile" : "IModelObject",
+            "dataset" : "IModelObject",
+            "absoluteFilePath" : "String"
+         }
+      ]
+   }
+}

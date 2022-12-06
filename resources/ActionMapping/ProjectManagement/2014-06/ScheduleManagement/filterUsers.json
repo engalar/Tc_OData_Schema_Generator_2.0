@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "filteringcriteria" : {
+         "grouprole" : "IModelObject[]",
+         "qualifications" : [
+            {
+               "isfindAlternates" : "bool",
+               "qualification" : "IModelObject",
+               "level" : "String"
+            }
+         ],
+         "disciplines" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "servicedata" : "IServiceData",
+      "filtereduserinfo" : [
+         {
+            "user" : "IModelObject",
+            "qualificationRel" : "IModelObject",
+            "discipline" : "IModelObject",
+            "groupRole" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2014-06-ScheduleManagement/filterUsers"
+}

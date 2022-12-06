@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String"
+         },
+         "compressPerformedFlg" : "int",
+         "abortFlag" : "bool",
+         "importOptions" : [
+            {
+               "optType" : "int",
+               "optValue" : {
+                  "stringOptVal" : "String",
+                  "optVal" : "int"
+               }
+            }
+         ],
+         "importObjects" : "String[]",
+         "importStagingDir" : "String",
+         "excludeObjects" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "out" : {
+         "failures" : [
+            {
+               "failingObject" : "String",
+               "failureCode" : "int"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm3EndImportSvc"
+}

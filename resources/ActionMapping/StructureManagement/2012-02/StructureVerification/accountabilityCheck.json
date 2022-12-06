@@ -1,0 +1,89 @@
+{
+   "ServiceOperation" : "StructureManagement-2012-02-StructureVerification/accountabilityCheck",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "accountabilityCheckResults" : [
+         {
+            "checkResult" : "int",
+            "reportFileInfo" : [
+               {
+                  "isText" : "bool",
+                  "fileName" : "String",
+                  "ticket" : "String"
+               }
+            ],
+            "equivalentTargetLines" : "IModelObject[]",
+            "sourceLine" : "IModelObject",
+            "equivalentSourceLines" : "IModelObject[]",
+            "resultViewTag" : "IModelObject"
+         }
+      ],
+      "reachableTargets" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "batchDetails" : {
+         "site" : "int",
+         "startTime" : "Date",
+         "identifier" : "String",
+         "secondaryObjects" : "IModelObject[]",
+         "endAfterOccurrences" : "int",
+         "primaryObjects" : "IModelObject[]",
+         "endTime" : "Date",
+         "daysOfWeek" : "bool[]",
+         "priority" : "int",
+         "mode" : "String"
+      },
+      "input" : {
+         "options" : "int",
+         "sourceContextLine" : "IModelObject",
+         "sourceFilteringRule" : "String",
+         "sourceDepth" : "int",
+         "targetContextLine" : "IModelObject",
+         "reportCriteria" : {
+            "reportName" : "String",
+            "criteriaValues" : "String[]",
+            "datasetCtxObj" : "IModelObject",
+            "relationName" : "String",
+            "reportOptionsValues" : "String[]",
+            "stylesheetTag" : "IModelObject",
+            "reportOptionsNames" : "String[]",
+            "contextObjects" : "IModelObject[]",
+            "stylesheetName" : "String",
+            "datasetCtxUID" : "String",
+            "datasetName" : "String",
+            "datasetType" : "String",
+            "rdTag" : "IModelObject",
+            "criteriaName" : "String[]",
+            "contextObjectUIDs" : "String[]"
+         },
+         "targetDepth" : "int",
+         "reportMode" : "int",
+         "partialMatchCriteria" : {
+            "SampleKeyString" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            }
+         },
+         "matchType" : "int",
+         "targetObjects" : "IModelObject[]",
+         "resultDesc" : "String",
+         "sourceObjects" : "IModelObject[]",
+         "includeScopeLines" : "bool",
+         "targetFilteringRule" : "String",
+         "resultName" : "String"
+      }
+   }
+}

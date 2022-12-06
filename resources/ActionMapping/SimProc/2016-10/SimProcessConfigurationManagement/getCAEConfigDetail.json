@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "xmlConfigList" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SimProc-2016-10-SimProcessConfigurationManagement/getCAEConfigDetail",
+   "OperationInput" : {
+      "configItemList" : "IModelObject[]"
+   }
+}

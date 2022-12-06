@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-WeightandBalanceAw-2020-05-Report/generateRollupReportAsync",
+   "OperationInput" : {
+      "inputData" : {
+         "name" : "String",
+         "folder" : "IModelObject",
+         "rollupTemplate" : "IModelObject",
+         "description" : "String",
+         "runInBackground" : "bool",
+         "element" : "IModelObject"
+      }
+   }
+}

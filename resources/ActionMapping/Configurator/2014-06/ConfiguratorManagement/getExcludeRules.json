@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "context" : "IModelObject",
+      "filterCriteria" : {
+         "familyFilters" : {
+            "familyIDs" : "String[]",
+            "families" : "IModelObject[]"
+         },
+         "groupFilters" : {
+            "groupIDs" : "String[]",
+            "groups" : "IModelObject[]"
+         },
+         "valueFilters" : {
+            "values" : "IModelObject[]",
+            "valueIDs" : "String[]"
+         },
+         "includeUnreferencedRules" : "bool"
+      },
+      "severities" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getExcludeRules",
+   "OperationResponse" : "IServiceData"
+}

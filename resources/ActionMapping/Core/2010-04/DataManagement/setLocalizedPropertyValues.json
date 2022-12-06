@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "object" : "IModelObject",
+            "propertyValues" : [
+               {
+                  "locale" : "String",
+                  "name" : "String",
+                  "values" : "String[]",
+                  "statusDesc" : "String[]",
+                  "seqNum" : "int",
+                  "master" : "bool",
+                  "status" : "String[]"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2010-04-DataManagement/setLocalizedPropertyValues",
+   "OperationResponse" : "IServiceData"
+}

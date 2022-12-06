@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "IssueManagement-2011-06-IssueManagement/castReviewDecisionOnIssues",
+   "OperationResponse" : {
+      "theServiceData" : "IServiceData",
+      "resp" : [
+         {
+            "theIssueObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "theComment" : "String",
+            "targetIssue" : "IModelObject",
+            "theDecision" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

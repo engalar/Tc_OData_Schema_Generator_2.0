@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "infos" : [
+         {
+            "namedReferenceName" : "String",
+            "absoluteFilePath" : "String",
+            "dataset" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2014-10-FileManagement/getPlmdFileTicketForUpload",
+   "OperationResponse" : {
+      "ticket" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

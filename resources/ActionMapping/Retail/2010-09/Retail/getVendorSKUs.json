@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "startDate" : "Date",
+            "vendorOrMillObjectUID" : "String",
+            "retailSkuObjectUIDs" : "String[]",
+            "endDate" : "Date"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "responses" : [
+         {
+            "vendorOrMillObjectUID" : "String",
+            "applicableVendorSkuObjectUID" : "String",
+            "vendorSkuObjectUIDs" : "String[]",
+            "retailSkuObjectUID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/getVendorSKUs"
+}

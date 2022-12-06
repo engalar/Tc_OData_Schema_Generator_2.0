@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "strSourceCSYS" : "String",
+      "strSourceBOMLines" : "String[]",
+      "strTargetCSYS" : "String",
+      "strTargetBOMLine" : "String"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "possibleSourceCSYSs" : [
+         {
+            "strCSYSBOMLineName" : "String",
+            "strCSYSBOMLine" : "String"
+         }
+      ],
+      "possibleTargetCSYSs" : [
+         {
+            "strCSYSBOMLine" : "String",
+            "strCSYSBOMLineName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2018-11-ResourceManagement/autoPositionComponentByCSYS"
+}

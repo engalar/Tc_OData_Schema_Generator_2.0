@@ -1,0 +1,81 @@
+{
+   "OperationInput" : {
+      "subsetInfos" : [
+         {
+            "removeSourceElements" : "IModelObject[]",
+            "clientId" : "String",
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "boType" : "String",
+            "auxiliaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "object" : "IModelObject",
+                     "boType" : "String",
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap",
+                              "boType" : "String"
+                           }
+                        ]
+                     },
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     }
+                  }
+               ]
+            },
+            "subordinateSourceElements" : "IModelObject[]",
+            "appendSourceElements" : "IModelObject[]",
+            "guardObjLastModifiedDate" : "bool",
+            "updateRecipeForAppendsAndRemoves" : "bool",
+            "objLastModifiedDateGuard" : "Date",
+            "transform" : "double[]",
+            "replaceSourceElements" : {
+               "SampleKeyString" : "IModelObject"
+            },
+            "sourceModel" : "IModelObject",
+            "modelObject" : "IModelObject",
+            "viewType" : "String",
+            "element" : "IModelObject",
+            "removeChildrenAutomatically" : "bool",
+            "subset" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "dseData" : [
+         {
+            "appendedSourceElementList" : "IModelObject[]",
+            "subsetInstance" : "IModelObject",
+            "clientID" : "String",
+            "csIDMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "subsetElement" : "IModelObject",
+            "subordinateMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "removedSourceElementList" : "IModelObject[]",
+            "dseCsID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "CpdCore-2011-06-DataManagement/createOrUpdateDesignSubsetElements"
+}

@@ -1,0 +1,33 @@
+{
+   "ServiceOperation" : "Internal-ViewMgmtAW-2019-06-ViewDataManagement/executeRecipes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "recipeOutput" : [
+         {
+            "clientId" : "String",
+            "jSONFileFMSTicket" : "String",
+            "zipFileFMSTicket" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "criteria" : {
+               "criteriaSet" : {
+                  "closureRuleNames" : "String[]",
+                  "lwoQueryExpression" : "String",
+                  "savedSearchName" : "String",
+                  "returnTypes" : "String[]"
+               },
+               "revRuleName" : "String",
+               "contextObject" : "IModelObject",
+               "selectContentInputs" : "IModelObject[]"
+            },
+            "clientId" : "String",
+            "inputObjectName" : "String",
+            "inputObject" : "IModelObject"
+         }
+      ]
+   }
+}

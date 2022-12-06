@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "ContractManagement-2018-06-ContractManagement/createOrUpdateSubDelSchedulesAsync",
+   "OperationInput" : {
+      "createOrUpdateSubSchInput" : [
+         {
+            "updateImpactedOnly" : "bool",
+            "businessObject" : "IModelObject",
+            "clientId" : "String",
+            "scheduleTemplate" : "IModelObject"
+         }
+      ]
+   }
+}

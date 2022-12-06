@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "searchCursor" : "IModelObject",
+      "loadCount" : "int"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "estimatedRowsLeft" : "int",
+      "rowsDone" : "int",
+      "searchCursor" : "IModelObject",
+      "foundObjects" : "IModelObject[]",
+      "searchResultTable" : {
+         "doubleColumns" : {
+            "SampleKeyString" : "double[]"
+         },
+         "objectColumns" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "logicalColumns" : {
+            "SampleKeyString" : "bool[]"
+         },
+         "intColumns" : {
+            "SampleKeyString" : "int[]"
+         },
+         "stringColumns" : {
+            "SampleKeyString" : "String[]"
+         },
+         "dateColumns" : {
+            "SampleKeyString" : "Date[]"
+         }
+      },
+      "objectsDone" : "int",
+      "estimatedObjectsLeft" : "int"
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/fetchNextSearchResults"
+}

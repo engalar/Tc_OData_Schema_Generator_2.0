@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "attachmentRelationTypes" : "String[]",
+         "processTemplate" : "String",
+         "processName" : "String",
+         "assignedUserList" : "IModelObject[]",
+         "dueDate" : "Date",
+         "attachments" : "IModelObject[]",
+         "workflowOwner" : "IModelObject",
+         "responsibleParty" : "IModelObject",
+         "processDescription" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "attributes" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData",
+      "workflowTask" : "IModelObject"
+   },
+   "ServiceOperation" : "Workflow-2014-10-Workflow/createWorkflow"
+}

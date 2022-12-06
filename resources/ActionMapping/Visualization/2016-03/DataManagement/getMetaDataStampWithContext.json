@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "metaDataStampInfos" : [
+         {
+            "metaStampInfoId" : "String",
+            "stampingContext" : "IModelObject",
+            "stampedObjects" : [
+               {
+                  "stampedObject" : "IModelObject",
+                  "uniqueStampObjectId" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "metaDataStampOutputInfo" : {
+         "SampleKeyString" : {
+            "stampObjectTickets" : [
+               {
+                  "mdsFileTicket" : "String",
+                  "uniqueStampObjectId" : "String"
+               }
+            ]
+         }
+      }
+   },
+   "ServiceOperation" : "Visualization-2016-03-DataManagement/getMetaDataStampWithContext"
+}

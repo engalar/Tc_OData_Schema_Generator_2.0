@@ -1,0 +1,162 @@
+{
+   "OperationInput" : {
+      "revRule" : "IModelObject",
+      "productModelUID" : "String",
+      "productItemUID" : "String",
+      "productItem" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "variantInfo" : {
+         "ruleChecks" : [
+            {
+               "applicabilityOptions" : [
+                  {
+                     "name" : "String",
+                     "uom" : "String",
+                     "description" : "String",
+                     "valueDataType" : "String",
+                     "tag" : "String",
+                     "optionNamespace" : "String"
+                  }
+               ],
+               "constraintSeverity" : "String",
+               "modelOptions" : [
+                  {
+                     "name" : "String",
+                     "valueDataType" : "String",
+                     "optionNamespace" : "String",
+                     "tag" : "String",
+                     "uom" : "String",
+                     "description" : "String"
+                  }
+               ],
+               "constraintType" : "String",
+               "ruleOptions" : [
+                  {
+                     "name" : "String",
+                     "valueDataType" : "String",
+                     "tag" : "String",
+                     "optionNamespace" : "String",
+                     "uom" : "String",
+                     "description" : "String"
+                  }
+               ],
+               "comment" : "String",
+               "modelDesignator" : {
+                  "asTextExpression" : "String[]",
+                  "id" : "int"
+               },
+               "restrictionOptions" : [
+                  {
+                     "description" : "String",
+                     "uom" : "String",
+                     "optionNamespace" : "String",
+                     "tag" : "String",
+                     "valueDataType" : "String",
+                     "name" : "String"
+                  }
+               ],
+               "restriction" : {
+                  "asTextExpression" : "String[]",
+                  "id" : "int"
+               },
+               "applicability" : {
+                  "asTextExpression" : "String[]",
+                  "id" : "int"
+               }
+            }
+         ],
+         "lastUpdate" : "Date",
+         "defaultConditions" : [
+            {
+               "asTextExpression" : "String[]",
+               "id" : "int"
+            }
+         ],
+         "validValueRanges" : [
+            {
+               "asTextExpression" : "String[]",
+               "id" : "int"
+            }
+         ],
+         "variantOption" : [
+            {
+               "uom" : "String",
+               "description" : "String",
+               "valueDataType" : "String",
+               "tag" : "String",
+               "optionNamespace" : "String",
+               "name" : "String"
+            }
+         ],
+         "ruleCheckExpressions" : {
+            "id" : "int",
+            "asTextExpression" : "String[]"
+         },
+         "familyHash" : {
+            "SampleKeyString" : {
+               "valueRange" : {
+                  "asTextExpression" : "String[]",
+                  "id" : "int"
+               },
+               "variantMode" : "int",
+               "family" : {
+                  "name" : "String",
+                  "uom" : "String",
+                  "description" : "String",
+                  "valueDataType" : "String",
+                  "tag" : "String",
+                  "optionNamespace" : "String"
+               },
+               "values" : {
+                  "SampleKeyString" : {
+                     "name" : "String",
+                     "uom" : "String",
+                     "description" : "String",
+                     "valueDataType" : "String",
+                     "optionNamespace" : "String",
+                     "tag" : "String"
+                  }
+               }
+            }
+         },
+         "familyNameHash" : {
+            "SampleKeyString" : [
+               {
+                  "family" : {
+                     "name" : "String",
+                     "valueDataType" : "String",
+                     "optionNamespace" : "String",
+                     "tag" : "String",
+                     "uom" : "String",
+                     "description" : "String"
+                  },
+                  "values" : {
+                     "SampleKeyString" : {
+                        "description" : "String",
+                        "uom" : "String",
+                        "tag" : "String",
+                        "optionNamespace" : "String",
+                        "valueDataType" : "String",
+                        "name" : "String"
+                     }
+                  },
+                  "variantMode" : "int",
+                  "valueRange" : {
+                     "asTextExpression" : "String[]",
+                     "id" : "int"
+                  }
+               }
+            ]
+         },
+         "defaultExpressions" : [
+            {
+               "asTextExpression" : "String[]",
+               "id" : "int"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getVariantCache"
+}

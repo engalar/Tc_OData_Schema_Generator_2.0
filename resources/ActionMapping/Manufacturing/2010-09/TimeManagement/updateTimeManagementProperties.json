@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "rootNodes" : "IModelObject[]",
+      "fieldNames" : "String[]"
+   },
+   "ServiceOperation" : "Manufacturing-2010-09-TimeManagement/updateTimeManagementProperties",
+   "OperationResponse" : "IServiceData"
+}

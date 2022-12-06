@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Partition-2011-06-PartitionManagement/getMembers",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "inputPartition" : "IModelObject",
+            "membersList" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "configurationContext" : "IModelObject",
+            "isGraphicDataToBeLoaded" : "bool",
+            "partition" : "IModelObject",
+            "contentPersistenceMode" : "STATIC_MODE DYNAMIC_MODE AUTO_MODE ALL_MODE"
+         }
+      ]
+   }
+}

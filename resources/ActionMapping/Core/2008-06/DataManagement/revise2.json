@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "newItemRevisionMasterProperties" : {
+               "form" : "IModelObject",
+               "propertyValueInfo" : [
+                  {
+                     "propertyValues" : "String[]",
+                     "propertyName" : "String"
+                  }
+               ]
+            },
+            "clientId" : "String",
+            "name" : "String",
+            "baseItemRevision" : "IModelObject",
+            "deepCopyInfo" : [
+               {
+                  "newName" : "String",
+                  "relationTypeName" : "String",
+                  "isTargetPrimary" : "bool",
+                  "copyRelations" : "bool",
+                  "action" : "int",
+                  "otherSideObjectTag" : "IModelObject",
+                  "isRequired" : "bool"
+               }
+            ],
+            "description" : "String",
+            "newRevId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "reviseOutputMap" : {
+         "SampleKeyString" : {
+            "relatedObjects" : [
+               {
+                  "relatedObject" : "IModelObject",
+                  "isSecondary" : "bool",
+                  "action" : "int"
+               }
+            ],
+            "newItemRev" : "IModelObject"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2008-06-DataManagement/revise2"
+}

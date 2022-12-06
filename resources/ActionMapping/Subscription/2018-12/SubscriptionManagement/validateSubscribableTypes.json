@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "objectsOrTypes" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "nonSubscribableObjects" : "IModelObject[]",
+      "subscribableObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Subscription-2018-12-SubscriptionManagement/validateSubscribableTypes"
+}

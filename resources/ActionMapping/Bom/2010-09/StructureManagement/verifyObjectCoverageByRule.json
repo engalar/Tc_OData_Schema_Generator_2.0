@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "covered" : "bool[]"
+   },
+   "ServiceOperation" : "Bom-2010-09-StructureManagement/verifyObjectCoverageByRule",
+   "OperationInput" : {
+      "input" : {
+         "contexts" : "IModelObject[]",
+         "depth" : "int",
+         "closureRule" : "String",
+         "objectsToCheck" : "IModelObject[]",
+         "otherStructure" : "IModelObject"
+      }
+   }
+}

@@ -1,0 +1,74 @@
+{
+   "OperationInput" : {
+      "controls" : {
+         "preLoadVisualizationDatasets" : "bool",
+         "expandSubsetAsSaved" : "bool",
+         "variantFormulaOverlayMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               "String"
+            ]
+         ],
+         "levelsToExpand" : "int",
+         "configurationContext" : "IModelObject",
+         "suggestedPageSize" : "int",
+         "includePresentedParents" : "bool",
+         "includeSourceObjectForSubsets" : "bool",
+         "effectivityFormulaOverlayMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               "String"
+            ]
+         ],
+         "includeCopyStableIDMaps" : "bool"
+      },
+      "startingScope" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expandCursor" : "IModelObject",
+      "finished" : "bool",
+      "content" : [
+         {
+            "contentObjInfoInContextMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "presentedParentContent" : "IModelObject[]",
+            "startingObject" : "IModelObject",
+            "copyStableIDData" : [
+               {
+                  "subset" : "IModelObject",
+                  "copyStableIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ]
+               }
+            ],
+            "bomLineContent" : "IModelObject[]",
+            "sourceTargetMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "elementContent" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "CpdCore-2016-05-StructureExpand/startExpandStructure3"
+}

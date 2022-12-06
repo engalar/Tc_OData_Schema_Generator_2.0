@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "plantId" : "String",
+      "eventSysId" : "String",
+      "eventTraceval" : [
+         {
+            "traceCode" : "String",
+            "eventTraceCodeValue" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProductionManagement-2007-06-MeasurementDataLoad/insertEventTrace",
+   "OperationResponse" : "bool"
+}

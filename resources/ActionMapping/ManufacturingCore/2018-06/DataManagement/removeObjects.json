@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-ManufacturingCore-2018-06-DataManagement/removeObjects",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   }
+}

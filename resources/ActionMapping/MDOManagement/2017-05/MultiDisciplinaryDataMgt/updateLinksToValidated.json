@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "mdoDataForUpdate" : {
+               "associatedDesignArtifact" : "IModelObject[]",
+               "clientId" : "String",
+               "mdoObject" : "IModelObject"
+            },
+            "mdiDataForUpdate" : {
+               "mdiObject" : "IModelObject",
+               "instances" : "IModelObject[]"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "mdiObject" : "IModelObject",
+            "mdoObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MDOManagement-2017-05-MultiDisciplinaryDataMgt/updateLinksToValidated"
+}

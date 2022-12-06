@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "targetScope" : "IModelObject",
+            "objects" : "IModelObject[]"
+         }
+      ],
+      "withTraceability" : "bool",
+      "revisionRule" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clonesInfo" : [
+               {
+                  "source" : "IModelObject",
+                  "clone" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Process-2018-11-Clone/cloneObjects"
+}

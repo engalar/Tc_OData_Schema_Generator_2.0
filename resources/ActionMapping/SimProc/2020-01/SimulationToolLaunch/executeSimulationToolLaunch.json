@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "simulationTool" : "IModelObject",
+      "importRuntimeConfiguration" : {
+         "outputNamePatterns" : "String[]",
+         "autoProcessOptions" : "String",
+         "datasetCreationSetting" : "String",
+         "itemCreationSetting" : "String"
+      },
+      "scratchDirectory" : "String",
+      "userStagingDir" : "String",
+      "exportRunTimeConfiguration" : {
+         "runtimeArguments" : "String[]",
+         "plmxmlExportFileName" : "String"
+      },
+      "inputObjects" : [
+         {
+            "configurationContext" : "IModelObject",
+            "inputWebLink" : "IModelObject",
+            "inputDataset" : "IModelObject",
+            "inputFile" : "IModelObject",
+            "inputObject" : "IModelObject"
+         }
+      ],
+      "userStagingLocation" : "String",
+      "launchType" : "String",
+      "optionalInputInfo" : [
+         {
+            "exportDirectory" : "String",
+            "inputObject" : "IModelObject"
+         }
+      ],
+      "fileExportOptions" : [
+         {
+            "autoProcessOption" : "String",
+            "isAutoProcessSelected" : "bool",
+            "promptUserOptions" : [
+               {
+                  "exportOption" : "String",
+                  "fileObject" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "pedigreeCaptureInfo" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "SimProc-2020-01-SimulationToolLaunch/executeSimulationToolLaunch"
+}

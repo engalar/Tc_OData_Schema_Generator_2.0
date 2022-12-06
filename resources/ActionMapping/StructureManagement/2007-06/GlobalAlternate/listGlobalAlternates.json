@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-GlobalAlternate/listGlobalAlternates",
+   "OperationResponse" : {
+      "globalAlternateLists" : [
+         {
+            "globalAlternates" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "items" : "IModelObject[]"
+   }
+}

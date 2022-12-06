@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "specifications" : "IModelObject[]"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/getInterfaceConstraintData",
+   "OperationResponse" : {
+      "interfaceConstraintDataOutputs" : [
+         {
+            "specification" : "IModelObject",
+            "interfaceConstraintDatas" : [
+               {
+                  "compatibleConstraintValues" : [
+                     {
+                        "dataValue" : "String",
+                        "dataEntry" : "String"
+                     }
+                  ],
+                  "destAttributeId" : "String",
+                  "sourceAttributeId" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

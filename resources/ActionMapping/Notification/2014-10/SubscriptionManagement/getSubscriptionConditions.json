@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "conditions" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Notification-2014-10-SubscriptionManagement/getSubscriptionConditions"
+}

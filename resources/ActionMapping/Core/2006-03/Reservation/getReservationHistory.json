@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "Core-2006-03-Reservation/getReservationHistory",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "histories" : [
+         {
+            "object" : "IModelObject",
+            "events" : [
+               {
+                  "comment" : "String",
+                  "user" : "String",
+                  "dateTime" : "String",
+                  "changeId" : "String",
+                  "activity" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   }
+}

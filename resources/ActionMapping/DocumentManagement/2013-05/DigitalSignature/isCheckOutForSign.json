@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "inputDatasets" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-DocumentManagement-2013-05-DigitalSignature/isCheckOutForSign",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "verdict" : "bool[]"
+   }
+}

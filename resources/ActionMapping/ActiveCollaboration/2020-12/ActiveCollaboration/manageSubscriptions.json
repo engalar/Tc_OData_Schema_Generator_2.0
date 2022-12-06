@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "ActiveCollaboration-2020-12-ActiveCollaboration/manageSubscriptions",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "subscriptionFlag" : "bool",
+      "conversations" : "IModelObject[]",
+      "sourceObjects" : "IModelObject[]"
+   }
+}

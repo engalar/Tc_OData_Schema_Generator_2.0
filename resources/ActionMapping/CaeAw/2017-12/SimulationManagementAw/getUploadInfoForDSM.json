@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/getUploadInfoForDSM",
+   "OperationResponse" : {
+      "uploadInfo" : [
+         {
+            "absoluteFilePath" : "String",
+            "dataset" : "IModelObject",
+            "namedReferenceName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "validFilesForUpload" : "String[]",
+      "invalidFilesForUpload" : "String[]"
+   },
+   "OperationInput" : {
+      "fileUploadRuleSet" : "IModelObject",
+      "filesToBeUploaded" : "String[]",
+      "workingDirectory" : "String",
+      "contextObject" : "IModelObject",
+      "shouldCheckInDataset" : "bool"
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "outputObjects" : [
+         {
+            "wasRequestUpdated" : "bool",
+            "requestUpdated" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Translation-2007-06-TranslationManagement/updateTranslationRequest",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "translatorArgs" : "String[]",
+            "nextState" : "String",
+            "requestToUpdate" : "IModelObject",
+            "currentState" : "String",
+            "taskID" : "String",
+            "priority" : "int"
+         }
+      ]
+   }
+}

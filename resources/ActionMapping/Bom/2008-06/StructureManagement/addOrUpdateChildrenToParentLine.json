@@ -1,0 +1,49 @@
+{
+   "ServiceOperation" : "Bom-2008-06-StructureManagement/addOrUpdateChildrenToParentLine",
+   "OperationResponse" : {
+      "itemelementLines" : [
+         {
+            "bomline" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "itemLines" : [
+         {
+            "clientId" : "String",
+            "bomline" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "itemElements" : [
+               {
+                  "itemElementline" : "IModelObject",
+                  "itemElement" : "IModelObject",
+                  "clientId" : "String",
+                  "itemElementLineProperties" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "occType" : "String"
+               }
+            ],
+            "parentLine" : "IModelObject",
+            "viewType" : "String",
+            "items" : [
+               {
+                  "clientId" : "String",
+                  "itemRev" : "IModelObject",
+                  "occType" : "String",
+                  "item" : "IModelObject",
+                  "bomline" : "IModelObject",
+                  "itemLineProperties" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ]
+         }
+      ]
+   }
+}

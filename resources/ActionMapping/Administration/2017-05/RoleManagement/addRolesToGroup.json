@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Administration-2017-05-RoleManagement/addRolesToGroup",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "roleGroupStructs" : [
+         {
+            "rolesToCreateAndAdd" : [
+               {
+                  "roleDescription" : "String",
+                  "roleName" : "String"
+               }
+            ],
+            "grp" : "IModelObject",
+            "clientId" : "String",
+            "rolesToAdd" : "IModelObject[]"
+         }
+      ]
+   }
+}

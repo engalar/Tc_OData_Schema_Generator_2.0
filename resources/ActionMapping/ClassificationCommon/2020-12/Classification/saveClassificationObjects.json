@@ -1,0 +1,243 @@
+{
+   "ServiceOperation" : "Internal-ClassificationCommon-2020-12-Classification/saveClassificationObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "objectDefinitions" : [
+         {
+            "properties" : [
+               {
+                  "datatype" : "PROPERTY_FORMAT_STRING PROPERTY_FORMAT_INTEGER PROPERTY_FORMAT_DOUBLE PROPERTY_FORMAT_DATE PROPERTY_FORMAT_BOOLEAN PROPERTY_FORMAT_VALUE_RANGE PROPERTY_FORMAT_VALUE_WITH_TOLERANCE PROPERTY_FORMAT_LEVEL PROPERTY_FORMAT_POSITION PROPERTY_FORMAT_AXIS PROPERTY_FORMAT_BLOCK",
+                  "id" : "String",
+                  "blockValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "classDefinitionIRDI" : "String",
+                        "properties" : "Cla0::Soa::Internal::ClassificationCommon::_2020_12::Classification::ClassificationProperty[]"
+                     }
+                  ],
+                  "stringValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "strVal" : {
+                           "locale" : "String",
+                           "isMasterLocale" : "bool",
+                           "strVal" : "String",
+                           "translationStatus" : "String"
+                        },
+                        "translations" : [
+                           {
+                              "locale" : "String",
+                              "isMasterLocale" : "bool",
+                              "strVal" : "String",
+                              "translationStatus" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "dateValues" : [
+                     {
+                        "dateVal" : "Date",
+                        "hasValue" : "bool"
+                     }
+                  ],
+                  "booleanValues" : [
+                     {
+                        "boolVal" : "bool",
+                        "hasValue" : "bool"
+                     }
+                  ],
+                  "levelValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "nominal" : "double",
+                        "max" : "double",
+                        "min" : "double",
+                        "unit" : "String",
+                        "typical" : "double"
+                     }
+                  ],
+                  "valueWithToleranceValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "max" : "double",
+                        "nominal" : "double",
+                        "min" : "double",
+                        "unit" : "String"
+                     }
+                  ],
+                  "axisValues" : [
+                     {
+                        "rotX" : "double",
+                        "posX" : "double",
+                        "posY" : "double",
+                        "unit" : "String",
+                        "rotZ" : "double",
+                        "hasValue" : "bool",
+                        "posZ" : "double",
+                        "rotY" : "double"
+                     }
+                  ],
+                  "integerValues" : [
+                     {
+                        "unit" : "String",
+                        "hasValue" : "bool",
+                        "intVal" : "int"
+                     }
+                  ],
+                  "valueRangeValues" : [
+                     {
+                        "unit" : "String",
+                        "min" : "double",
+                        "max" : "double",
+                        "hasValue" : "bool"
+                     }
+                  ],
+                  "positionValues" : [
+                     {
+                        "posZ" : "double",
+                        "unit" : "String",
+                        "posY" : "double",
+                        "posX" : "double",
+                        "hasValue" : "bool"
+                     }
+                  ],
+                  "doubleValues" : [
+                     {
+                        "doubleVal" : "double",
+                        "unit" : "String",
+                        "hasValue" : "bool"
+                     }
+                  ]
+               }
+            ],
+            "nodeID" : "String",
+            "unitSystem" : "int",
+            "classificationObjectUID" : "String",
+            "classifiedObjectUID" : "String",
+            "objectID" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "classificationObjects" : [
+         {
+            "objectID" : "String",
+            "classifiedObjectUID" : "String",
+            "classificationObjectUID" : "String",
+            "unitSystem" : "int",
+            "nodeID" : "String",
+            "properties" : [
+               {
+                  "datatype" : "PROPERTY_FORMAT_STRING PROPERTY_FORMAT_INTEGER PROPERTY_FORMAT_DOUBLE PROPERTY_FORMAT_DATE PROPERTY_FORMAT_BOOLEAN PROPERTY_FORMAT_VALUE_RANGE PROPERTY_FORMAT_VALUE_WITH_TOLERANCE PROPERTY_FORMAT_LEVEL PROPERTY_FORMAT_POSITION PROPERTY_FORMAT_AXIS PROPERTY_FORMAT_BLOCK",
+                  "id" : "String",
+                  "blockValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "classDefinitionIRDI" : "String",
+                        "properties" : "Cla0::Soa::Internal::ClassificationCommon::_2020_12::Classification::ClassificationProperty[]"
+                     }
+                  ],
+                  "stringValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "strVal" : {
+                           "locale" : "String",
+                           "isMasterLocale" : "bool",
+                           "strVal" : "String",
+                           "translationStatus" : "String"
+                        },
+                        "translations" : [
+                           {
+                              "isMasterLocale" : "bool",
+                              "strVal" : "String",
+                              "translationStatus" : "String",
+                              "locale" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "dateValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "dateVal" : "Date"
+                     }
+                  ],
+                  "booleanValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "boolVal" : "bool"
+                     }
+                  ],
+                  "valueWithToleranceValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "nominal" : "double",
+                        "max" : "double",
+                        "min" : "double",
+                        "unit" : "String"
+                     }
+                  ],
+                  "levelValues" : [
+                     {
+                        "typical" : "double",
+                        "unit" : "String",
+                        "min" : "double",
+                        "nominal" : "double",
+                        "max" : "double",
+                        "hasValue" : "bool"
+                     }
+                  ],
+                  "axisValues" : [
+                     {
+                        "posZ" : "double",
+                        "rotY" : "double",
+                        "hasValue" : "bool",
+                        "rotZ" : "double",
+                        "posX" : "double",
+                        "posY" : "double",
+                        "unit" : "String",
+                        "rotX" : "double"
+                     }
+                  ],
+                  "integerValues" : [
+                     {
+                        "hasValue" : "bool",
+                        "intVal" : "int",
+                        "unit" : "String"
+                     }
+                  ],
+                  "valueRangeValues" : [
+                     {
+                        "unit" : "String",
+                        "hasValue" : "bool",
+                        "max" : "double",
+                        "min" : "double"
+                     }
+                  ],
+                  "positionValues" : [
+                     {
+                        "posZ" : "double",
+                        "posY" : "double",
+                        "posX" : "double",
+                        "unit" : "String",
+                        "hasValue" : "bool"
+                     }
+                  ],
+                  "doubleValues" : [
+                     {
+                        "doubleVal" : "double",
+                        "unit" : "String",
+                        "hasValue" : "bool"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "context" : {
+         "id" : "String",
+         "type" : "String",
+         "hierarchy" : "String"
+      }
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/getAddColorsInfo",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "colorPalettes" : "IModelObject[]",
+            "productOrMaterial" : "IModelObject",
+            "seasons" : "IModelObject[]",
+            "brands" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "getAddColorInfoInput" : [
+         {
+            "brand" : "IModelObject",
+            "productOrMaterial" : "IModelObject",
+            "season" : "IModelObject"
+         }
+      ]
+   }
+}

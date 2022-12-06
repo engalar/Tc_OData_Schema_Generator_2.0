@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/setPreferences2",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "preferenceInput" : [
+         {
+            "values" : "String[]",
+            "preferenceName" : "String"
+         }
+      ]
+   }
+}

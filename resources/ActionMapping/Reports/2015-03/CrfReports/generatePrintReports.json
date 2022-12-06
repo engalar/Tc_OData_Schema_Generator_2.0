@@ -1,0 +1,53 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "executedAsynchronously" : "bool",
+      "outputs" : [
+         {
+            "transientFileReadTickets" : "String[]",
+            "transientFileTicketInfos" : [
+               {
+                  "transientFileInfo" : {
+                     "fileName" : "String",
+                     "isText" : "bool"
+                  },
+                  "ticket" : "String"
+               }
+            ],
+            "clientID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Reports-2015-03-CrfReports/generatePrintReports",
+   "OperationInput" : {
+      "reportDefObj" : "IModelObject",
+      "inputs" : [
+         {
+            "inputObject" : "IModelObject",
+            "isBatchPrint" : "bool",
+            "clientID" : "String",
+            "printInfos" : [
+               {
+                  "clientID" : "String",
+                  "paperSize" : "String",
+                  "orientation" : "String",
+                  "printerConfigurationName" : "String",
+                  "printToScale" : "String",
+                  "userStamp" : "String",
+                  "bannerPage" : "String",
+                  "extraInfo" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "pageRange" : "String",
+                  "printStamp" : "String",
+                  "collate" : "bool",
+                  "printObjs" : "IModelObject[]",
+                  "colorMode" : "String",
+                  "printerName" : "String",
+                  "numberCopies" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

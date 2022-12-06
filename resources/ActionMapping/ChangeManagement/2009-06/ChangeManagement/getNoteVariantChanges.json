@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "changeRev" : "IModelObject",
+            "bomChange" : "IModelObject",
+            "vBomChangeDetails" : "String[]",
+            "solutionBVR" : "IModelObject",
+            "vCount" : "int[]",
+            "impactedBVR" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ChangeManagement-2009-06-ChangeManagement/getNoteVariantChanges",
+   "OperationInput" : {
+      "getNoteVariantRequest" : [
+         {
+            "contextRelName" : "String",
+            "bomChangeNode" : "IModelObject"
+         }
+      ]
+   }
+}

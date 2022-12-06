@@ -1,0 +1,61 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "saveAsOutputMap" : {
+         "SampleKeyString" : {
+            "newItem" : "IModelObject",
+            "newItemRev" : "IModelObject",
+            "relatedObjects" : [
+               {
+                  "relatedObject" : "IModelObject",
+                  "isSecondary" : "bool",
+                  "action" : "int"
+               }
+            ]
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Core-2008-06-DataManagement/saveAsNewItemObject",
+   "OperationInput" : {
+      "deepCopyRequired" : "bool",
+      "info" : [
+         {
+            "name" : "String",
+            "baseItemRevision" : "IModelObject",
+            "newItemId" : "String",
+            "description" : "String",
+            "newRevId" : "String",
+            "newItemMasterProperties" : {
+               "propertyValueInfo" : [
+                  {
+                     "propertyName" : "String",
+                     "propertyValues" : "String[]"
+                  }
+               ],
+               "form" : "IModelObject"
+            },
+            "newItemRevisionMasterProperties" : {
+               "propertyValueInfo" : [
+                  {
+                     "propertyName" : "String",
+                     "propertyValues" : "String[]"
+                  }
+               ],
+               "form" : "IModelObject"
+            },
+            "clientId" : "String",
+            "deepCopyInfo" : [
+               {
+                  "action" : "int",
+                  "isRequired" : "bool",
+                  "otherSideObjectTag" : "IModelObject",
+                  "copyRelations" : "bool",
+                  "relationTypeName" : "String",
+                  "isTargetPrimary" : "bool",
+                  "newName" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

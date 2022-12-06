@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "Internal-SimProc-2018-06-SimStructureManagement/getFileDetails2",
+   "OperationResponse" : {
+      "fileToDatasetMap2" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ],
+      "fileToItemRevisionMap2" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "itemRevisions" : "IModelObject[]",
+      "fileToFolderPathMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ],
+      "files" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "inputObjects" : "IModelObject[]"
+   }
+}

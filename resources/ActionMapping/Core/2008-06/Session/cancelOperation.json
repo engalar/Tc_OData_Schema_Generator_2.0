@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-Core-2008-06-Session/cancelOperation",
+   "OperationResponse" : "bool",
+   "OperationInput" : {
+      "id" : "String"
+   }
+}

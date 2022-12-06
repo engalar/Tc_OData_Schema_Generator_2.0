@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Internal-FmeaManager-2020-05-FMEADataManagement/configureFMEAStructure",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : {
+         "targetSystemElement" : "IModelObject",
+         "productContext" : "IModelObject"
+      }
+   }
+}

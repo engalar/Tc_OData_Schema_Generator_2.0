@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-MROCore-2008-06-MROCore/nameOccurrence",
+   "OperationResponse" : {
+      "namedOccurrenceOutput" : [
+         {
+            "clientId" : "String",
+            "bomLine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "nameOccurrenceInputInfo" : [
+         {
+            "bomLine" : "IModelObject",
+            "clientId" : "String",
+            "selectedPattern" : "String"
+         }
+      ]
+   }
+}

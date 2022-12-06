@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2018-05-TCXML/getDiagnosticInfoForAcctTables",
+   "OperationResponse" : {
+      "tableInfos" : [
+         {
+            "tableName" : "String",
+            "tableInfos" : [
+               {
+                  "infoType" : "String",
+                  "infoValues" : "String[]"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "infoType" : "int"
+   }
+}

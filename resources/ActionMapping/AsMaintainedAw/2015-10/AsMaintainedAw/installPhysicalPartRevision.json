@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Internal-AsMaintainedAw-2015-10-AsMaintainedAw/installPhysicalPartRevision",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "selectedOccurrence" : "IModelObject",
+            "installInfo" : {
+               "newPhysicalPartInfo" : {
+                  "serialNumber" : "String",
+                  "manufacturerId" : "String",
+                  "quantity" : "double",
+                  "installationTime" : "Date",
+                  "manufactureDate" : "Date",
+                  "partNumber" : "String",
+                  "lotNumber" : "String"
+               },
+               "usagePropertyValue" : "String",
+               "installationDate" : "Date"
+            },
+            "clientId" : "String",
+            "childPhysicalPartRevision" : "IModelObject",
+            "parentPhysicalPartRevision" : "IModelObject"
+         }
+      ]
+   }
+}

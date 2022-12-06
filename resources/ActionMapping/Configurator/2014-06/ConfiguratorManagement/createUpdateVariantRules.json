@@ -1,0 +1,182 @@
+{
+   "OperationInput" : {
+      "rules" : [
+         {
+            "expressions" : [
+               {
+                  "clientId" : "String",
+                  "expressionType" : "int",
+                  "subExpressions" : [
+                     {
+                        "expressionGroups" : [
+                           {
+                              "groupName" : "String",
+                              "terms" : [
+                                 {
+                                    "valueText" : "String",
+                                    "familyID" : "String",
+                                    "familyNamespace" : "String",
+                                    "value" : "IModelObject",
+                                    "family" : "IModelObject",
+                                    "operatorCode" : "int",
+                                    "rangeExpressions" : [
+                                       {
+                                          "valueText" : "String",
+                                          "operatorCode" : "int"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "formula" : "String"
+               }
+            ],
+            "relationName" : "String",
+            "saveRule" : "bool",
+            "ruleToUpdate" : "IModelObject",
+            "creInputs" : {
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "boName" : "String",
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "objectProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "objectProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boName" : "String",
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "objectArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "compoundCreateInput" : "Cfg0::Soa::Internal::Configurator::_2014_06::ConfiguratorManagement::CreateInputMap",
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        }
+                     }
+                  ]
+               },
+               "objectArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               }
+            },
+            "referenceObject" : "IModelObject"
+         }
+      ],
+      "revRule" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/createUpdateVariantRules",
+   "OperationResponse" : {
+      "ruleOutputs" : [
+         {
+            "ruleObject" : "IModelObject",
+            "variantExpression" : [
+               {
+                  "formula" : "String",
+                  "expressionType" : "int",
+                  "clientId" : "String",
+                  "subExpressions" : [
+                     {
+                        "expressionGroups" : [
+                           {
+                              "terms" : [
+                                 {
+                                    "value" : "IModelObject",
+                                    "family" : "IModelObject",
+                                    "operatorCode" : "int",
+                                    "rangeExpressions" : [
+                                       {
+                                          "operatorCode" : "int",
+                                          "valueText" : "String"
+                                       }
+                                    ],
+                                    "valueText" : "String",
+                                    "familyID" : "String",
+                                    "familyNamespace" : "String"
+                                 }
+                              ],
+                              "groupName" : "String"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "index" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

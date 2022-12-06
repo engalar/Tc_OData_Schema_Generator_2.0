@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-BomCore-2017-05-AlignmentManagement/alignPartOccurrences",
+   "OperationResponse" : {
+      "listResponseData" : [
+         {
+            "pbeAlignment" : "IModelObject",
+            "pbeLine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "partOccAlgnmtInput" : [
+         {
+            "pbeLine" : "IModelObject",
+            "designLine" : "IModelObject"
+         }
+      ]
+   }
+}

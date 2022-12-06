@@ -1,0 +1,189 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "itemRev" : "IModelObject",
+            "extraItemRevObjs" : [
+               {
+                  "clientId" : "String",
+                  "object" : "IModelObject"
+               }
+            ],
+            "clientId" : "String",
+            "item" : "IModelObject",
+            "extraItemObjs" : [
+               {
+                  "clientId" : "String",
+                  "object" : "IModelObject"
+               }
+            ],
+            "datasetOutput" : [
+               {
+                  "commitInfo" : [
+                     {
+                        "datasetFileTicketInfos" : [
+                           {
+                              "datasetFileInfo" : {
+                                 "allowReplace" : "bool",
+                                 "namedReferencedName" : "String",
+                                 "clientId" : "String",
+                                 "isText" : "bool",
+                                 "fileName" : "String"
+                              },
+                              "ticket" : "String"
+                           }
+                        ],
+                        "createNewVersion" : "bool",
+                        "dataset" : "IModelObject"
+                     }
+                  ],
+                  "namedRefObjs" : [
+                     {
+                        "object" : "IModelObject",
+                        "clientId" : "String"
+                     }
+                  ],
+                  "clientId" : "String",
+                  "extraObjs" : [
+                     {
+                        "clientId" : "String",
+                        "object" : "IModelObject"
+                     }
+                  ],
+                  "dataset" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2007-12-DataManagement/createOrUpdateParts",
+   "OperationInput" : {
+      "pref" : {
+         "overwriteForLastModDate" : "bool"
+      },
+      "info" : [
+         {
+            "datasetInput" : [
+               {
+                  "extraObject" : [
+                     {
+                        "object" : "IModelObject",
+                        "relationTypeName" : "String",
+                        "typeName" : "String",
+                        "attrNameValuePairs" : [
+                           {
+                              "name" : "String",
+                              "value" : "String"
+                           }
+                        ],
+                        "clientId" : "String"
+                     }
+                  ],
+                  "name" : "String",
+                  "namedReferencePreference" : "String",
+                  "attrList" : [
+                     {
+                        "value" : "String",
+                        "name" : "String"
+                     }
+                  ],
+                  "clientId" : "String",
+                  "datasetFileInfos" : [
+                     {
+                        "fileName" : "String",
+                        "clientId" : "String",
+                        "isText" : "bool",
+                        "namedReferencedName" : "String",
+                        "allowReplace" : "bool"
+                     }
+                  ],
+                  "itemRevRelationName" : "String",
+                  "lastModifiedOfDataset" : "Date",
+                  "type" : "String",
+                  "datasetRev" : "String",
+                  "description" : "String",
+                  "namedReferenceObjectInfos" : [
+                     {
+                        "namedReferenceName" : "String",
+                        "object" : "IModelObject",
+                        "namedReferenceType" : "String",
+                        "attrNameValuePairs" : [
+                           {
+                              "value" : "String",
+                              "name" : "String"
+                           }
+                        ],
+                        "clientId" : "String",
+                        "typeName" : "String"
+                     }
+                  ],
+                  "id" : "String",
+                  "mappingAttributes" : [
+                     {
+                        "value" : "String",
+                        "name" : "String"
+                     }
+                  ],
+                  "dataset" : "IModelObject",
+                  "createNewVersion" : "bool",
+                  "basisName" : "String"
+               }
+            ],
+            "itemRevInput" : {
+               "revId" : "String",
+               "itemRevision" : "IModelObject",
+               "attrList" : [
+                  {
+                     "value" : "String",
+                     "name" : "String"
+                  }
+               ],
+               "extraObject" : [
+                  {
+                     "object" : "IModelObject",
+                     "relationTypeName" : "String",
+                     "attrNameValuePairs" : [
+                        {
+                           "name" : "String",
+                           "value" : "String"
+                        }
+                     ],
+                     "clientId" : "String",
+                     "typeName" : "String"
+                  }
+               ]
+            },
+            "itemInput" : {
+               "folder" : "IModelObject",
+               "item" : "IModelObject",
+               "attrList" : [
+                  {
+                     "name" : "String",
+                     "value" : "String"
+                  }
+               ],
+               "description" : "String",
+               "itemType" : "String",
+               "extraObject" : [
+                  {
+                     "object" : "IModelObject",
+                     "relationTypeName" : "String",
+                     "clientId" : "String",
+                     "attrNameValuePairs" : [
+                        {
+                           "name" : "String",
+                           "value" : "String"
+                        }
+                     ],
+                     "typeName" : "String"
+                  }
+               ],
+               "itemId" : "String",
+               "name" : "String"
+            },
+            "clientId" : "String"
+         }
+      ]
+   }
+}

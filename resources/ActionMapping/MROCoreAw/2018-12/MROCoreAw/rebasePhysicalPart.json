@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "MROCoreAw-2018-12-MROCoreAw/rebasePhysicalPart",
+   "OperationInput" : {
+      "rebaseInfoPartInfo" : [
+         {
+            "rebaseNeutralPartInfo" : {
+               "element" : "IModelObject",
+               "productContextInfo" : "IModelObject"
+            },
+            "contextName" : "String",
+            "rebaseDate" : "Date",
+            "rebasePhysicalPartInfo" : {
+               "element" : "IModelObject",
+               "productContextInfo" : "IModelObject"
+            }
+         }
+      ]
+   }
+}

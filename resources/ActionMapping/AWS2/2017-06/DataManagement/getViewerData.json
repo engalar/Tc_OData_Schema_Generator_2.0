@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "direction" : "String",
+         "obj" : "IModelObject",
+         "dataset" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : {
+         "views" : [
+            {
+               "fmsTicket" : "String",
+               "viewer" : "String",
+               "file" : "IModelObject"
+            }
+         ],
+         "hasMoreDatasets" : "bool",
+         "dataset" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-06-DataManagement/getViewerData"
+}

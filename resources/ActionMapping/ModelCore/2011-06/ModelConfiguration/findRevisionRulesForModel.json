@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "ModelCore-2011-06-ModelConfiguration/findRevisionRulesForModel",
+   "OperationResponse" : {
+      "revisonRules" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {}
+}

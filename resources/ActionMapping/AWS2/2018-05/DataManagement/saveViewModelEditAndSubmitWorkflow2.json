@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "workflowData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "isPessimisticLock" : "bool",
+            "viewModelProperties" : [
+               {
+                  "isModifiable" : "bool",
+                  "dbValues" : "String[]",
+                  "uiValues" : "String[]",
+                  "propertyName" : "String",
+                  "srcObjLsd" : "Date",
+                  "intermediateObjectUids" : "String[]"
+               }
+            ],
+            "obj" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-DataManagement/saveViewModelEditAndSubmitWorkflow2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "viewModelObjectsJsonString" : "String[]",
+      "workflowProcess" : "IModelObject[]"
+   }
+}

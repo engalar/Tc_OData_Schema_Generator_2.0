@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "asyncCpcInput" : {
+         "originalCCUid" : "IModelObject",
+         "releaseStatus" : "String",
+         "cpcName" : "String",
+         "cpcDesc" : "String",
+         "refStructures" : "IModelObject[]",
+         "effectivityInfo" : {
+            "endItem" : "IModelObject",
+            "dateRange" : "Date[]",
+            "endItemRev" : "IModelObject",
+            "unitRangeText" : "String",
+            "openEndedStatus" : "int"
+         },
+         "cloningStructsInfo" : [
+            {
+               "newName" : "String",
+               "cloningParams" : {
+                  "SampleKeyString" : "String"
+               },
+               "cloningRule" : "String",
+               "newRevId" : "String",
+               "scopes" : "IModelObject[]",
+               "newId" : "String",
+               "newDescription" : "String"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-StructureManagement/createAsyncCollabPlanningContext"
+}

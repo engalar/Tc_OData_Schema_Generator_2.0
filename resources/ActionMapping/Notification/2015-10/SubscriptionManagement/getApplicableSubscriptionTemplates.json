@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "subscriptionTemplates" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Notification-2015-10-SubscriptionManagement/getApplicableSubscriptionTemplates",
+   "OperationInput" : {
+      "subscribedObject" : "IModelObject"
+   }
+}

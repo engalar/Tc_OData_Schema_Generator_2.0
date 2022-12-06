@@ -1,0 +1,60 @@
+{
+   "OperationInput" : {
+      "scheduleCopyContainer" : [
+         {
+            "scheduleToCopy" : "IModelObject",
+            "resetWork" : "bool",
+            "id" : "String",
+            "copyinfo" : [
+               {
+                  "isRequired" : "bool",
+                  "relation" : "String",
+                  "isTargetPrimary" : "bool",
+                  "objectComp" : "IModelObject",
+                  "operationType" : "int",
+                  "objName" : "String"
+               }
+            ],
+            "stringValueContainer" : [
+               {
+                  "key" : "String",
+                  "type" : "int",
+                  "value" : "String"
+               }
+            ],
+            "copyBaselines" : "bool",
+            "typedAttributesContainer" : [
+               {
+                  "attributes" : [
+                     {
+                        "type" : "int",
+                        "value" : "String",
+                        "key" : "String"
+                     }
+                  ],
+                  "type" : "String"
+               }
+            ],
+            "iDeepCopyCount" : "int",
+            "name" : "String",
+            "revId" : "String",
+            "description" : "String",
+            "loadOnResponse" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2008-06-ScheduleManagement/copySchedules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "scheduleResponse" : [
+         {
+            "calendar" : "IModelObject[]",
+            "schedule" : "IModelObject",
+            "scheduleTask" : "IModelObject[]",
+            "taskDependency" : "IModelObject[]",
+            "resourceAssignment" : "IModelObject[]",
+            "calendarEvent" : "IModelObject[]"
+         }
+      ]
+   }
+}

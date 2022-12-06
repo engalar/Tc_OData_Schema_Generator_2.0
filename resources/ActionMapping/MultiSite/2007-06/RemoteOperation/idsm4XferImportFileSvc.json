@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "importStagingDir" : "String",
+         "importFile" : "String",
+         "extraString" : "String",
+         "extraInt" : "int",
+         "clientInfo" : {
+            "roleName" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "osUserName" : "String",
+            "clientNode" : "String",
+            "userId" : "String"
+         },
+         "fileSize" : "String",
+         "command" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm4XferImportFileSvc",
+   "OperationResponse" : {
+      "out" : {
+         "extraInt" : "int",
+         "portNumber" : "int",
+         "serverId" : "int",
+         "extraString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

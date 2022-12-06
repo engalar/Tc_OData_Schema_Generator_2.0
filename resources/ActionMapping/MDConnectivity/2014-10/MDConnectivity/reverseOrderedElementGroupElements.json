@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/reverseOrderedElementGroupElements",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "orderedElementGroup" : "IModelObject",
+            "lastModifiedDateGuard" : "Date",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

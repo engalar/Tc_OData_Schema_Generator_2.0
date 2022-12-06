@@ -1,0 +1,797 @@
+{
+   "OperationInput" : {
+      "sessionsToCreateOrUpdate" : [
+         {
+            "productAndConfigsToCreate" : [
+               {
+                  "objsAttachInfos" : [
+                     {
+                        "baseObjectToCreateOrUpdate" : {
+                           "objectToUpdate" : "IModelObject",
+                           "overwriteForLastModDate" : "bool",
+                           "objectPropsToUpdate" : {
+                              "SampleKeyString" : {
+                                 "stringValues" : "String[]",
+                                 "dateValues" : "Date[]",
+                                 "boolValues" : "bool[]",
+                                 "doubleValues" : "double[]",
+                                 "intValues" : "int[]",
+                                 "tagValues" : "IModelObject[]",
+                                 "floatValues" : "float[]"
+                              }
+                           },
+                           "objectToCreate" : {
+                              "creInp" : {
+                                 "boName" : "String",
+                                 "compoundCreateInput" : {
+                                    "SampleKeyString" : [
+                                       {
+                                          "propertyNameValues" : {
+                                             "SampleKeyString" : {
+                                                "dateValues" : "Date[]",
+                                                "boolValues" : "bool[]",
+                                                "doubleValues" : "double[]",
+                                                "stringValues" : "String[]",
+                                                "tagValues" : "IModelObject[]",
+                                                "intValues" : "int[]",
+                                                "floatValues" : "float[]"
+                                             }
+                                          },
+                                          "boName" : "String",
+                                          "compoundCreateInput" : "Teamcenter::Soa::Cad::_2020_01::AppSessionManagement::CreateInputMap"
+                                       }
+                                    ]
+                                 },
+                                 "propertyNameValues" : {
+                                    "SampleKeyString" : {
+                                       "intValues" : "int[]",
+                                       "floatValues" : "float[]",
+                                       "tagValues" : "IModelObject[]",
+                                       "stringValues" : "String[]",
+                                       "dateValues" : "Date[]",
+                                       "boolValues" : "bool[]",
+                                       "doubleValues" : "double[]"
+                                    }
+                                 }
+                              },
+                              "relateToObject" : "IModelObject",
+                              "relationName" : "String"
+                           },
+                           "lmdOfObject" : "Date"
+                        },
+                        "clientId" : "String",
+                        "relationName" : "String",
+                        "additionalProps" : {
+                           "SampleKeyString" : {
+                              "tagValues" : "IModelObject[]",
+                              "intValues" : "int[]",
+                              "floatValues" : "float[]",
+                              "stringValues" : "String[]",
+                              "dateValues" : "Date[]",
+                              "doubleValues" : "double[]",
+                              "boolValues" : "bool[]"
+                           }
+                        },
+                        "recipe" : {
+                           "searchRecipe" : "IModelObject",
+                           "occurrenceLists" : [
+                              {
+                                 "resultObjects" : {
+                                    "lines" : "IModelObject[]",
+                                    "compositePathIdentifiers" : [
+                                       {
+                                          "pathIdentifiers" : [
+                                             {
+                                                "resultPathIdentifiers" : "String[]",
+                                                "identifierPropertyName" : "String"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 "resultContext" : "String"
+                              }
+                           ],
+                           "staticStructureFile" : "IModelObject",
+                           "structureContextIdentifier" : {
+                              "product" : "IModelObject",
+                              "bomViewType" : "IModelObject",
+                              "configOptions" : {
+                                 "SampleKeyString" : {
+                                    "floatValues" : "float[]",
+                                    "tagValues" : "IModelObject[]",
+                                    "intValues" : "int[]",
+                                    "stringValues" : "String[]",
+                                    "dateValues" : "Date[]",
+                                    "doubleValues" : "double[]",
+                                    "boolValues" : "bool[]"
+                                 }
+                              },
+                              "configInfo" : {
+                                 "activeAssemblyArrangement" : "IModelObject",
+                                 "revRuleConfigInfo" : {
+                                    "today" : "bool",
+                                    "endItem" : "IModelObject",
+                                    "unitNo" : "int",
+                                    "date" : "Date",
+                                    "endItemRevision" : "IModelObject",
+                                    "overrideFolders" : [
+                                       {
+                                          "ruleEntry" : "IModelObject",
+                                          "folder" : "IModelObject"
+                                       }
+                                    ],
+                                    "revRule" : "IModelObject"
+                                 },
+                                 "effGrpRevList" : "IModelObject[]",
+                                 "configContext" : "IModelObject",
+                                 "bomWinPropFlagMap" : {
+                                    "SampleKeyString" : {
+                                       "boolValues" : "bool[]",
+                                       "doubleValues" : "double[]",
+                                       "dateValues" : "Date[]",
+                                       "stringValues" : "String[]",
+                                       "tagValues" : "IModelObject[]",
+                                       "floatValues" : "float[]",
+                                       "intValues" : "int[]"
+                                    }
+                                 },
+                                 "variantRulesOrOptionSets" : "IModelObject[]"
+                              }
+                           }
+                        }
+                     }
+                  ],
+                  "productSessionDataAttachInfos" : [
+                     {
+                        "sessionData" : {
+                           "objectToUpdate" : "IModelObject",
+                           "objectToCreate" : {
+                              "relationName" : "String",
+                              "creInp" : {
+                                 "propertyNameValues" : {
+                                    "SampleKeyString" : {
+                                       "tagValues" : "IModelObject[]",
+                                       "floatValues" : "float[]",
+                                       "intValues" : "int[]",
+                                       "stringValues" : "String[]",
+                                       "doubleValues" : "double[]",
+                                       "boolValues" : "bool[]",
+                                       "dateValues" : "Date[]"
+                                    }
+                                 },
+                                 "boName" : "String",
+                                 "compoundCreateInput" : {
+                                    "SampleKeyString" : [
+                                       {
+                                          "boName" : "String",
+                                          "compoundCreateInput" : "Teamcenter::Soa::Cad::_2020_01::AppSessionManagement::CreateInputMap",
+                                          "propertyNameValues" : {
+                                             "SampleKeyString" : {
+                                                "boolValues" : "bool[]",
+                                                "doubleValues" : "double[]",
+                                                "dateValues" : "Date[]",
+                                                "stringValues" : "String[]",
+                                                "tagValues" : "IModelObject[]",
+                                                "intValues" : "int[]",
+                                                "floatValues" : "float[]"
+                                             }
+                                          }
+                                       }
+                                    ]
+                                 }
+                              },
+                              "relateToObject" : "IModelObject"
+                           },
+                           "lmdOfObject" : "Date",
+                           "overwriteForLastModDate" : "bool",
+                           "objectPropsToUpdate" : {
+                              "SampleKeyString" : {
+                                 "dateValues" : "Date[]",
+                                 "boolValues" : "bool[]",
+                                 "doubleValues" : "double[]",
+                                 "stringValues" : "String[]",
+                                 "intValues" : "int[]",
+                                 "floatValues" : "float[]",
+                                 "tagValues" : "IModelObject[]"
+                              }
+                           }
+                        },
+                        "clientId" : "String"
+                     }
+                  ],
+                  "clientId" : "String",
+                  "structureRecipeProps" : {
+                     "SampleKeyString" : {
+                        "stringValues" : "String[]",
+                        "dateValues" : "Date[]",
+                        "boolValues" : "bool[]",
+                        "doubleValues" : "double[]",
+                        "tagValues" : "IModelObject[]",
+                        "intValues" : "int[]",
+                        "floatValues" : "float[]"
+                     }
+                  },
+                  "structureRecipe" : {
+                     "searchRecipe" : "IModelObject",
+                     "staticStructureFile" : "IModelObject",
+                     "occurrenceLists" : [
+                        {
+                           "resultObjects" : {
+                              "compositePathIdentifiers" : [
+                                 {
+                                    "pathIdentifiers" : [
+                                       {
+                                          "identifierPropertyName" : "String",
+                                          "resultPathIdentifiers" : "String[]"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "lines" : "IModelObject[]"
+                           },
+                           "resultContext" : "String"
+                        }
+                     ],
+                     "structureContextIdentifier" : {
+                        "bomViewType" : "IModelObject",
+                        "configInfo" : {
+                           "variantRulesOrOptionSets" : "IModelObject[]",
+                           "bomWinPropFlagMap" : {
+                              "SampleKeyString" : {
+                                 "floatValues" : "float[]",
+                                 "intValues" : "int[]",
+                                 "tagValues" : "IModelObject[]",
+                                 "boolValues" : "bool[]",
+                                 "doubleValues" : "double[]",
+                                 "dateValues" : "Date[]",
+                                 "stringValues" : "String[]"
+                              }
+                           },
+                           "configContext" : "IModelObject",
+                           "effGrpRevList" : "IModelObject[]",
+                           "revRuleConfigInfo" : {
+                              "revRule" : "IModelObject",
+                              "endItemRevision" : "IModelObject",
+                              "overrideFolders" : [
+                                 {
+                                    "folder" : "IModelObject",
+                                    "ruleEntry" : "IModelObject"
+                                 }
+                              ],
+                              "unitNo" : "int",
+                              "date" : "Date",
+                              "today" : "bool",
+                              "endItem" : "IModelObject"
+                           },
+                           "activeAssemblyArrangement" : "IModelObject"
+                        },
+                        "configOptions" : {
+                           "SampleKeyString" : {
+                              "tagValues" : "IModelObject[]",
+                              "floatValues" : "float[]",
+                              "intValues" : "int[]",
+                              "stringValues" : "String[]",
+                              "boolValues" : "bool[]",
+                              "doubleValues" : "double[]",
+                              "dateValues" : "Date[]"
+                           }
+                        },
+                        "product" : "IModelObject"
+                     }
+                  }
+               }
+            ],
+            "productAndConfigsToUpdate" : [
+               {
+                  "stableId" : "String",
+                  "productSessionDataAttachInfos" : [
+                     {
+                        "clientId" : "String",
+                        "sessionData" : {
+                           "objectToUpdate" : "IModelObject",
+                           "lmdOfObject" : "Date",
+                           "objectToCreate" : {
+                              "relateToObject" : "IModelObject",
+                              "creInp" : {
+                                 "compoundCreateInput" : {
+                                    "SampleKeyString" : [
+                                       {
+                                          "compoundCreateInput" : "Teamcenter::Soa::Cad::_2020_01::AppSessionManagement::CreateInputMap",
+                                          "boName" : "String",
+                                          "propertyNameValues" : {
+                                             "SampleKeyString" : {
+                                                "floatValues" : "float[]",
+                                                "intValues" : "int[]",
+                                                "tagValues" : "IModelObject[]",
+                                                "stringValues" : "String[]",
+                                                "doubleValues" : "double[]",
+                                                "boolValues" : "bool[]",
+                                                "dateValues" : "Date[]"
+                                             }
+                                          }
+                                       }
+                                    ]
+                                 },
+                                 "boName" : "String",
+                                 "propertyNameValues" : {
+                                    "SampleKeyString" : {
+                                       "intValues" : "int[]",
+                                       "floatValues" : "float[]",
+                                       "tagValues" : "IModelObject[]",
+                                       "doubleValues" : "double[]",
+                                       "boolValues" : "bool[]",
+                                       "dateValues" : "Date[]",
+                                       "stringValues" : "String[]"
+                                    }
+                                 }
+                              },
+                              "relationName" : "String"
+                           },
+                           "overwriteForLastModDate" : "bool",
+                           "objectPropsToUpdate" : {
+                              "SampleKeyString" : {
+                                 "doubleValues" : "double[]",
+                                 "boolValues" : "bool[]",
+                                 "dateValues" : "Date[]",
+                                 "stringValues" : "String[]",
+                                 "intValues" : "int[]",
+                                 "tagValues" : "IModelObject[]",
+                                 "floatValues" : "float[]"
+                              }
+                           }
+                        }
+                     }
+                  ],
+                  "objsAttachInfos" : [
+                     {
+                        "recipe" : {
+                           "structureContextIdentifier" : {
+                              "bomViewType" : "IModelObject",
+                              "configInfo" : {
+                                 "revRuleConfigInfo" : {
+                                    "date" : "Date",
+                                    "unitNo" : "int",
+                                    "endItemRevision" : "IModelObject",
+                                    "overrideFolders" : [
+                                       {
+                                          "ruleEntry" : "IModelObject",
+                                          "folder" : "IModelObject"
+                                       }
+                                    ],
+                                    "revRule" : "IModelObject",
+                                    "endItem" : "IModelObject",
+                                    "today" : "bool"
+                                 },
+                                 "activeAssemblyArrangement" : "IModelObject",
+                                 "bomWinPropFlagMap" : {
+                                    "SampleKeyString" : {
+                                       "doubleValues" : "double[]",
+                                       "boolValues" : "bool[]",
+                                       "dateValues" : "Date[]",
+                                       "stringValues" : "String[]",
+                                       "tagValues" : "IModelObject[]",
+                                       "intValues" : "int[]",
+                                       "floatValues" : "float[]"
+                                    }
+                                 },
+                                 "variantRulesOrOptionSets" : "IModelObject[]",
+                                 "configContext" : "IModelObject",
+                                 "effGrpRevList" : "IModelObject[]"
+                              },
+                              "configOptions" : {
+                                 "SampleKeyString" : {
+                                    "floatValues" : "float[]",
+                                    "intValues" : "int[]",
+                                    "tagValues" : "IModelObject[]",
+                                    "doubleValues" : "double[]",
+                                    "boolValues" : "bool[]",
+                                    "dateValues" : "Date[]",
+                                    "stringValues" : "String[]"
+                                 }
+                              },
+                              "product" : "IModelObject"
+                           },
+                           "staticStructureFile" : "IModelObject",
+                           "occurrenceLists" : [
+                              {
+                                 "resultObjects" : {
+                                    "lines" : "IModelObject[]",
+                                    "compositePathIdentifiers" : [
+                                       {
+                                          "pathIdentifiers" : [
+                                             {
+                                                "resultPathIdentifiers" : "String[]",
+                                                "identifierPropertyName" : "String"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 },
+                                 "resultContext" : "String"
+                              }
+                           ],
+                           "searchRecipe" : "IModelObject"
+                        },
+                        "additionalProps" : {
+                           "SampleKeyString" : {
+                              "intValues" : "int[]",
+                              "tagValues" : "IModelObject[]",
+                              "floatValues" : "float[]",
+                              "stringValues" : "String[]",
+                              "boolValues" : "bool[]",
+                              "doubleValues" : "double[]",
+                              "dateValues" : "Date[]"
+                           }
+                        },
+                        "relationName" : "String",
+                        "baseObjectToCreateOrUpdate" : {
+                           "lmdOfObject" : "Date",
+                           "objectToCreate" : {
+                              "creInp" : {
+                                 "compoundCreateInput" : {
+                                    "SampleKeyString" : [
+                                       {
+                                          "propertyNameValues" : {
+                                             "SampleKeyString" : {
+                                                "stringValues" : "String[]",
+                                                "boolValues" : "bool[]",
+                                                "doubleValues" : "double[]",
+                                                "dateValues" : "Date[]",
+                                                "floatValues" : "float[]",
+                                                "intValues" : "int[]",
+                                                "tagValues" : "IModelObject[]"
+                                             }
+                                          },
+                                          "boName" : "String",
+                                          "compoundCreateInput" : "Teamcenter::Soa::Cad::_2020_01::AppSessionManagement::CreateInputMap"
+                                       }
+                                    ]
+                                 },
+                                 "boName" : "String",
+                                 "propertyNameValues" : {
+                                    "SampleKeyString" : {
+                                       "tagValues" : "IModelObject[]",
+                                       "floatValues" : "float[]",
+                                       "intValues" : "int[]",
+                                       "boolValues" : "bool[]",
+                                       "doubleValues" : "double[]",
+                                       "dateValues" : "Date[]",
+                                       "stringValues" : "String[]"
+                                    }
+                                 }
+                              },
+                              "relateToObject" : "IModelObject",
+                              "relationName" : "String"
+                           },
+                           "objectPropsToUpdate" : {
+                              "SampleKeyString" : {
+                                 "boolValues" : "bool[]",
+                                 "doubleValues" : "double[]",
+                                 "dateValues" : "Date[]",
+                                 "stringValues" : "String[]",
+                                 "floatValues" : "float[]",
+                                 "tagValues" : "IModelObject[]",
+                                 "intValues" : "int[]"
+                              }
+                           },
+                           "overwriteForLastModDate" : "bool",
+                           "objectToUpdate" : "IModelObject"
+                        },
+                        "clientId" : "String"
+                     }
+                  ],
+                  "detachObjects" : "String[]",
+                  "structureRecipeProps" : {
+                     "SampleKeyString" : {
+                        "intValues" : "int[]",
+                        "tagValues" : "IModelObject[]",
+                        "floatValues" : "float[]",
+                        "stringValues" : "String[]",
+                        "doubleValues" : "double[]",
+                        "boolValues" : "bool[]",
+                        "dateValues" : "Date[]"
+                     }
+                  }
+               }
+            ],
+            "productSessionDataAttachInfos" : [
+               {
+                  "clientId" : "String",
+                  "sessionData" : {
+                     "objectPropsToUpdate" : {
+                        "SampleKeyString" : {
+                           "intValues" : "int[]",
+                           "floatValues" : "float[]",
+                           "tagValues" : "IModelObject[]",
+                           "doubleValues" : "double[]",
+                           "boolValues" : "bool[]",
+                           "dateValues" : "Date[]",
+                           "stringValues" : "String[]"
+                        }
+                     },
+                     "overwriteForLastModDate" : "bool",
+                     "objectToCreate" : {
+                        "relationName" : "String",
+                        "creInp" : {
+                           "propertyNameValues" : {
+                              "SampleKeyString" : {
+                                 "dateValues" : "Date[]",
+                                 "doubleValues" : "double[]",
+                                 "boolValues" : "bool[]",
+                                 "stringValues" : "String[]",
+                                 "intValues" : "int[]",
+                                 "tagValues" : "IModelObject[]",
+                                 "floatValues" : "float[]"
+                              }
+                           },
+                           "compoundCreateInput" : {
+                              "SampleKeyString" : [
+                                 {
+                                    "propertyNameValues" : {
+                                       "SampleKeyString" : {
+                                          "boolValues" : "bool[]",
+                                          "doubleValues" : "double[]",
+                                          "dateValues" : "Date[]",
+                                          "stringValues" : "String[]",
+                                          "floatValues" : "float[]",
+                                          "tagValues" : "IModelObject[]",
+                                          "intValues" : "int[]"
+                                       }
+                                    },
+                                    "compoundCreateInput" : "Teamcenter::Soa::Cad::_2020_01::AppSessionManagement::CreateInputMap",
+                                    "boName" : "String"
+                                 }
+                              ]
+                           },
+                           "boName" : "String"
+                        },
+                        "relateToObject" : "IModelObject"
+                     },
+                     "lmdOfObject" : "Date",
+                     "objectToUpdate" : "IModelObject"
+                  }
+               }
+            ],
+            "clientId" : "String",
+            "attachObjectsToSession" : [
+               {
+                  "clientId" : "String",
+                  "baseObjectToCreateOrUpdate" : {
+                     "objectToCreate" : {
+                        "creInp" : {
+                           "propertyNameValues" : {
+                              "SampleKeyString" : {
+                                 "floatValues" : "float[]",
+                                 "intValues" : "int[]",
+                                 "tagValues" : "IModelObject[]",
+                                 "stringValues" : "String[]",
+                                 "dateValues" : "Date[]",
+                                 "doubleValues" : "double[]",
+                                 "boolValues" : "bool[]"
+                              }
+                           },
+                           "compoundCreateInput" : {
+                              "SampleKeyString" : [
+                                 {
+                                    "boName" : "String",
+                                    "compoundCreateInput" : "Teamcenter::Soa::Cad::_2020_01::AppSessionManagement::CreateInputMap",
+                                    "propertyNameValues" : {
+                                       "SampleKeyString" : {
+                                          "tagValues" : "IModelObject[]",
+                                          "floatValues" : "float[]",
+                                          "intValues" : "int[]",
+                                          "dateValues" : "Date[]",
+                                          "boolValues" : "bool[]",
+                                          "doubleValues" : "double[]",
+                                          "stringValues" : "String[]"
+                                       }
+                                    }
+                                 }
+                              ]
+                           },
+                           "boName" : "String"
+                        },
+                        "relateToObject" : "IModelObject",
+                        "relationName" : "String"
+                     },
+                     "lmdOfObject" : "Date",
+                     "overwriteForLastModDate" : "bool",
+                     "objectPropsToUpdate" : {
+                        "SampleKeyString" : {
+                           "dateValues" : "Date[]",
+                           "doubleValues" : "double[]",
+                           "boolValues" : "bool[]",
+                           "stringValues" : "String[]",
+                           "intValues" : "int[]",
+                           "tagValues" : "IModelObject[]",
+                           "floatValues" : "float[]"
+                        }
+                     },
+                     "objectToUpdate" : "IModelObject"
+                  },
+                  "relationName" : "String",
+                  "additionalProps" : {
+                     "SampleKeyString" : {
+                        "tagValues" : "IModelObject[]",
+                        "intValues" : "int[]",
+                        "floatValues" : "float[]",
+                        "doubleValues" : "double[]",
+                        "boolValues" : "bool[]",
+                        "dateValues" : "Date[]",
+                        "stringValues" : "String[]"
+                     }
+                  },
+                  "recipe" : {
+                     "staticStructureFile" : "IModelObject",
+                     "occurrenceLists" : [
+                        {
+                           "resultContext" : "String",
+                           "resultObjects" : {
+                              "compositePathIdentifiers" : [
+                                 {
+                                    "pathIdentifiers" : [
+                                       {
+                                          "resultPathIdentifiers" : "String[]",
+                                          "identifierPropertyName" : "String"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "lines" : "IModelObject[]"
+                           }
+                        }
+                     ],
+                     "structureContextIdentifier" : {
+                        "product" : "IModelObject",
+                        "configOptions" : {
+                           "SampleKeyString" : {
+                              "tagValues" : "IModelObject[]",
+                              "intValues" : "int[]",
+                              "floatValues" : "float[]",
+                              "stringValues" : "String[]",
+                              "dateValues" : "Date[]",
+                              "boolValues" : "bool[]",
+                              "doubleValues" : "double[]"
+                           }
+                        },
+                        "configInfo" : {
+                           "effGrpRevList" : "IModelObject[]",
+                           "bomWinPropFlagMap" : {
+                              "SampleKeyString" : {
+                                 "intValues" : "int[]",
+                                 "tagValues" : "IModelObject[]",
+                                 "floatValues" : "float[]",
+                                 "doubleValues" : "double[]",
+                                 "boolValues" : "bool[]",
+                                 "dateValues" : "Date[]",
+                                 "stringValues" : "String[]"
+                              }
+                           },
+                           "variantRulesOrOptionSets" : "IModelObject[]",
+                           "configContext" : "IModelObject",
+                           "revRuleConfigInfo" : {
+                              "revRule" : "IModelObject",
+                              "overrideFolders" : [
+                                 {
+                                    "ruleEntry" : "IModelObject",
+                                    "folder" : "IModelObject"
+                                 }
+                              ],
+                              "endItemRevision" : "IModelObject",
+                              "date" : "Date",
+                              "unitNo" : "int",
+                              "endItem" : "IModelObject",
+                              "today" : "bool"
+                           },
+                           "activeAssemblyArrangement" : "IModelObject"
+                        },
+                        "bomViewType" : "IModelObject"
+                     },
+                     "searchRecipe" : "IModelObject"
+                  }
+               }
+            ],
+            "detachObjectOrProductsFromSession" : "String[]",
+            "sessionToCreateOrUpdate" : {
+               "objectToCreate" : {
+                  "relationName" : "String",
+                  "creInp" : {
+                     "boName" : "String",
+                     "compoundCreateInput" : {
+                        "SampleKeyString" : [
+                           {
+                              "propertyNameValues" : {
+                                 "SampleKeyString" : {
+                                    "floatValues" : "float[]",
+                                    "tagValues" : "IModelObject[]",
+                                    "intValues" : "int[]",
+                                    "dateValues" : "Date[]",
+                                    "doubleValues" : "double[]",
+                                    "boolValues" : "bool[]",
+                                    "stringValues" : "String[]"
+                                 }
+                              },
+                              "boName" : "String",
+                              "compoundCreateInput" : "Teamcenter::Soa::Cad::_2020_01::AppSessionManagement::CreateInputMap"
+                           }
+                        ]
+                     },
+                     "propertyNameValues" : {
+                        "SampleKeyString" : {
+                           "stringValues" : "String[]",
+                           "boolValues" : "bool[]",
+                           "doubleValues" : "double[]",
+                           "dateValues" : "Date[]",
+                           "intValues" : "int[]",
+                           "floatValues" : "float[]",
+                           "tagValues" : "IModelObject[]"
+                        }
+                     }
+                  },
+                  "relateToObject" : "IModelObject"
+               },
+               "lmdOfObject" : "Date",
+               "overwriteForLastModDate" : "bool",
+               "objectPropsToUpdate" : {
+                  "SampleKeyString" : {
+                     "intValues" : "int[]",
+                     "floatValues" : "float[]",
+                     "tagValues" : "IModelObject[]",
+                     "stringValues" : "String[]",
+                     "boolValues" : "bool[]",
+                     "doubleValues" : "double[]",
+                     "dateValues" : "Date[]"
+                  }
+               },
+               "objectToUpdate" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2020-01-AppSessionManagement/createOrUpdateSavedSession",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "sessionOutputs" : [
+         {
+            "baseObjectAttachOutputs" : [
+               {
+                  "baseObject" : "IModelObject",
+                  "stableId" : "String",
+                  "clientId" : "String"
+               }
+            ],
+            "recipeOfOpenedProductOutputs" : [
+               {
+                  "relativeToSessionStableId" : "String",
+                  "clientId" : "String",
+                  "productSessionDataAttachOutputs" : [
+                     {
+                        "clientId" : "String",
+                        "stableId" : "String",
+                        "baseObject" : "IModelObject"
+                     }
+                  ],
+                  "baseObjectAttachOutputs" : [
+                     {
+                        "stableId" : "String",
+                        "clientId" : "String",
+                        "baseObject" : "IModelObject"
+                     }
+                  ],
+                  "recipeObject" : "IModelObject"
+               }
+            ],
+            "sessionObject" : "IModelObject",
+            "clientId" : "String",
+            "productSessionDataAttachOutputs" : [
+               {
+                  "clientId" : "String",
+                  "stableId" : "String",
+                  "baseObject" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "journalModule" : [
+         {
+            "status" : "bool",
+            "moduleName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugLogging/setModuleJournalStatus"
+}

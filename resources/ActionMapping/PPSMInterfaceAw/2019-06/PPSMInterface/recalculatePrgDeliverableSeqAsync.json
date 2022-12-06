@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "PPSMInterfaceAw-2019-06-PPSMInterface/recalculatePrgDeliverableSeqAsync",
+   "OperationInput" : {
+      "eventObject" : "IModelObject"
+   }
+}

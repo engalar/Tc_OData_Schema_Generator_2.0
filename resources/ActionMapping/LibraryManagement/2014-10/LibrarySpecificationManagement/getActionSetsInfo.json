@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "actionSetInputs" : [
+         {
+            "specification" : "IModelObject",
+            "actionSetExprs" : [
+               {
+                  "propertyName" : "String",
+                  "expression" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "actionSetOutputs" : [
+         {
+            "specification" : "IModelObject",
+            "appDatas" : "IModelObject[]",
+            "actionDefs" : "IModelObject[]",
+            "actionSet" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/getActionSetsInfo"
+}

@@ -1,0 +1,39 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createdObjects" : "IModelObject[]",
+      "updatedTasks" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ProjectManagement-2014-10-ScheduleManagement/createPhaseGateTask",
+   "OperationInput" : {
+      "taskInputContainer" : {
+         "otherAttributes" : [
+            {
+               "attrName" : "String",
+               "attrType" : "int",
+               "attrValue" : "String"
+            }
+         ],
+         "workEstimate" : "int",
+         "desc" : "String",
+         "prevSibling" : "IModelObject",
+         "start" : "Date",
+         "typedOtherAttributes" : [
+            {
+               "objectType" : "String",
+               "updates" : [
+                  {
+                     "attrName" : "String",
+                     "attrValue" : "String",
+                     "attrType" : "int"
+                  }
+               ]
+            }
+         ],
+         "name" : "String",
+         "finish" : "Date",
+         "objectType" : "String",
+         "parent" : "IModelObject"
+      }
+   }
+}

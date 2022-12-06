@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Allocations-2007-01-Allocation/changeICContext",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "allocWindowInput" : "IModelObject",
+      "icContextRev" : "IModelObject"
+   }
+}

@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "searchFilterMap" : {
+               "SampleKeyString" : [
+                  {
+                     "startDateValue" : "Date",
+                     "endNumericValue" : "double",
+                     "startNumericValue" : "double",
+                     "stringValue" : "String",
+                     "searchFilterType" : "SearchStringFilter SearchDateFilter SearchNumericFilter",
+                     "endDateValue" : "Date",
+                     "count" : "int",
+                     "selected" : "bool",
+                     "startEndRange" : "String"
+                  }
+               ]
+            },
+            "shareSavedSearch" : "int",
+            "receiveNotification" : "int",
+            "propInfo" : [
+               {
+                  "object" : "IModelObject",
+                  "properties" : [
+                     {
+                        "name" : "String",
+                        "values" : "String[]"
+                     }
+                  ]
+               }
+            ],
+            "pinSearch" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "savedSearchList" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2015-10-FullTextSearch/modifyFullTextSavedSearch"
+}

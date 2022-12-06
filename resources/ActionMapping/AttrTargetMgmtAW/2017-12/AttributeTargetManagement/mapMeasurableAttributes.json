@@ -1,0 +1,54 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "mapObj" : "IModelObject",
+            "addedAlignments" : [
+               {
+                  "alignmentObj" : "IModelObject",
+                  "targetAttr" : "IModelObject",
+                  "sourceAttr" : "IModelObject"
+               }
+            ],
+            "ignoredAlignments" : [
+               {
+                  "targetAttr" : "IModelObject",
+                  "alignmentObj" : "IModelObject",
+                  "sourceAttr" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AttrTargetMgmtAW-2017-12-AttributeTargetManagement/mapMeasurableAttributes",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "contextObj" : "IModelObject",
+            "alignmentInputs" : [
+               {
+                  "alignmentPropInput" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "resultAttrBase" : "IModelObject",
+                  "sourceObj" : "IModelObject",
+                  "targetObj" : "IModelObject"
+               }
+            ],
+            "mapObj" : "IModelObject",
+            "mapObjPropInput" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ],
+      "pref" : {
+         "toCreateResultAttr" : "bool",
+         "toDeleteUnalignment" : "bool",
+         "mapObjType" : "String",
+         "alignmentObjType" : "String"
+      }
+   }
+}

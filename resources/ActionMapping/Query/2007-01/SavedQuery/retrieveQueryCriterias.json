@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Query-2007-01-SavedQuery/retrieveQueryCriterias",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "values" : "String[]",
+            "searchName" : "String",
+            "keys" : "String[]",
+            "queryName" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "queryCriteriaNames" : "String[]"
+   }
+}

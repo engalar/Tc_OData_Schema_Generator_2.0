@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "generatedContextIDValues" : [
+         {
+            "generatedIDs" : "String[]",
+            "contextName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2016-05-DataManagement/generateContextSpecificIDs",
+   "OperationInput" : {
+      "generateContextIDsIn" : [
+         {
+            "clientID" : "String",
+            "numberOfIDs" : "int",
+            "contextName" : "String"
+         }
+      ]
+   }
+}

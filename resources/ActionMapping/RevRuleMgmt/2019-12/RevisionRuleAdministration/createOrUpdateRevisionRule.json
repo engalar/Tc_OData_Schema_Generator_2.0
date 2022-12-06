@@ -1,0 +1,66 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "revisionRuleInfo" : {
+            "description" : "String",
+            "entriesInfo" : [
+               {
+                  "entryType" : "int",
+                  "displayText" : "String",
+                  "revRuleEntryKeyToValue" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "groupEntryInfo" : {
+                     "listOfSubEntries" : [
+                        {
+                           "mapOfSubEntryKeyToValue" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "subEntryType" : "int",
+                           "displayText" : "String"
+                        }
+                     ],
+                     "groupByTypes" : "String[]"
+                  }
+               }
+            ],
+            "name" : "String",
+            "uid" : "String",
+            "nestedEffectivity" : "bool"
+         },
+         "updateExisting" : "bool",
+         "isPrivate" : "bool"
+      }
+   },
+   "ServiceOperation" : "Internal-RevRuleMgmt-2019-12-RevisionRuleAdministration/createOrUpdateRevisionRule",
+   "OperationResponse" : {
+      "revisionRuleInfo" : {
+         "description" : "String",
+         "name" : "String",
+         "entriesInfo" : [
+            {
+               "entryType" : "int",
+               "displayText" : "String",
+               "revRuleEntryKeyToValue" : {
+                  "SampleKeyString" : "String"
+               },
+               "groupEntryInfo" : {
+                  "groupByTypes" : "String[]",
+                  "listOfSubEntries" : [
+                     {
+                        "subEntryType" : "int",
+                        "mapOfSubEntryKeyToValue" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "displayText" : "String"
+                     }
+                  ]
+               }
+            }
+         ],
+         "uid" : "String",
+         "nestedEffectivity" : "bool"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

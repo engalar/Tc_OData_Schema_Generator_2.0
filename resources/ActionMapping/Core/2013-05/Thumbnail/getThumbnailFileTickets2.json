@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "businessObjects" : "IModelObject[]",
+      "searchOrders" : {
+         "relationSearchOrder" : "String[]",
+         "datasetTypeSearchOrder" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "thumbnailFileTicketsMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Core-2013-05-Thumbnail/getThumbnailFileTickets2"
+}

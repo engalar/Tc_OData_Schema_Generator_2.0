@@ -1,0 +1,75 @@
+{
+   "ServiceOperation" : "IssueManagement-2009-06-IssueManagement/createIssueItems",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "itemRev" : "IModelObject",
+            "changeItem" : "IModelObject",
+            "generalDatasets" : "IModelObject[]",
+            "viewDataset" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "id" : "String",
+            "capturedImageFileTicket" : "String",
+            "reviewSetting" : {
+               "topNodeBVR" : "IModelObject",
+               "relationToIssue" : "String",
+               "refAndFiles" : [
+                  {
+                     "fileType" : "String",
+                     "fileTicket" : "String",
+                     "fileName" : "String",
+                     "refName" : "String"
+                  }
+               ],
+               "sceneName" : "String",
+               "configContext" : "IModelObject",
+               "existingSnapshot" : "IModelObject"
+            },
+            "relationData" : [
+               {
+                  "relationName" : "String",
+                  "operation" : "String",
+                  "tags" : "IModelObject[]"
+               }
+            ],
+            "attributes" : [
+               {
+                  "values" : "String[]",
+                  "name" : "String"
+               }
+            ],
+            "desc" : "String",
+            "title" : "String",
+            "type" : "String",
+            "capturedImageFile" : "String",
+            "generalDatasets" : [
+               {
+                  "existingDS" : "IModelObject",
+                  "dsInfo" : {
+                     "type" : "String",
+                     "name" : "String",
+                     "tool" : "String",
+                     "description" : "String"
+                  },
+                  "relationToContainer" : "String",
+                  "fileInfo" : {
+                     "fileName" : "String",
+                     "refName" : "String",
+                     "fileTicket" : "String",
+                     "fileType" : "String"
+                  }
+               }
+            ],
+            "revId" : "String"
+         }
+      ]
+   }
+}

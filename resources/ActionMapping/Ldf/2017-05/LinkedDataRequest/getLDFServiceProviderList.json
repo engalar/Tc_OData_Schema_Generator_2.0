@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "uidContextObject" : "String"
+   },
+   "ServiceOperation" : "Internal-Ldf-2017-05-LinkedDataRequest/getLDFServiceProviderList",
+   "OperationResponse" : "IServiceData"
+}

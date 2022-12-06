@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "updateMemberInputStruct" : {
+         "membersToBeUpdated" : {
+            "SampleKeyString" : {
+               "traversalPath" : [
+                  {
+                     "direction" : "String",
+                     "propertyType" : "String",
+                     "destinationType" : "String",
+                     "propertyName" : "String",
+                     "destinationObjectCriteria" : "String"
+                  }
+               ],
+               "memberPropertyName" : "String",
+               "retrieveClassificationData" : "bool",
+               "description" : "String",
+               "displayName" : "String"
+            }
+         },
+         "logicalObjectType" : "IModelObject"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Core-2018-06-LogicalObject/updateMembers"
+}

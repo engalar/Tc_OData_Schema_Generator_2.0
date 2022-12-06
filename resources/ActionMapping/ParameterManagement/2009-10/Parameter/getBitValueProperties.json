@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "bitValues" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "bitValueInfo" : [
+         {
+            "value" : "bool",
+            "bitDefinition" : {
+               "name" : "String",
+               "bitDefinitionObject" : "IModelObject",
+               "bitNum" : "int",
+               "meaningOf0" : "String",
+               "meaningOf1" : "String",
+               "byteNum" : "int"
+            },
+            "bitValueObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ParameterManagement-2009-10-Parameter/getBitValueProperties"
+}

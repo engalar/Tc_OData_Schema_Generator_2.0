@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/createComment",
+   "OperationResponse" : {
+      "isSuccess" : "bool",
+      "message" : "String",
+      "commentUid" : "String"
+   },
+   "OperationInput" : {
+      "request" : {
+         "plainText" : "String",
+         "ratingValue" : "int",
+         "contextObjectUids" : "String[]",
+         "commentType" : "String",
+         "targetObjectUid" : "String",
+         "sendToObjectUids" : "String[]",
+         "objectName" : "String",
+         "richText" : "String",
+         "tagNameString" : "String"
+      }
+   }
+}

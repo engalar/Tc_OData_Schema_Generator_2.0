@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : {
+      "output" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-FourDPlanning-2013-12-DataManagement/compareProcessWithScheduleTask",
+   "OperationInput" : {
+      "input" : {
+         "inputObjects" : "IModelObject[]",
+         "considerHierarchy" : "bool"
+      }
+   }
+}

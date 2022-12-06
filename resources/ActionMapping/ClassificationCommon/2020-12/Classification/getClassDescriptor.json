@@ -1,0 +1,483 @@
+{
+   "ServiceOperation" : "ClassificationCommon-2020-12-Classification/getClassDescriptor",
+   "OperationResponse" : {
+      "blocks" : [
+         {
+            "irdi" : "String",
+            "status" : "String",
+            "id" : "String",
+            "shortName" : {
+               "isMasterLocale" : "bool",
+               "translationStatus" : "String",
+               "translations" : [
+                  {
+                     "translationStatus" : "String",
+                     "strVal" : "String",
+                     "isMasterLocale" : "bool",
+                     "locale" : "String"
+                  }
+               ],
+               "strValue" : "String",
+               "locale" : "String"
+            },
+            "classType" : "String",
+            "classNamespace" : "String",
+            "isAbstract" : "bool",
+            "classAttributes" : [
+               {
+                  "type" : "String",
+                  "name" : {
+                     "isMasterLocale" : "bool",
+                     "translations" : [
+                        {
+                           "strVal" : "String",
+                           "translationStatus" : "String",
+                           "isMasterLocale" : "bool",
+                           "locale" : "String"
+                        }
+                     ],
+                     "strValue" : "String",
+                     "translationStatus" : "String",
+                     "locale" : "String"
+                  },
+                  "attributeIndex" : "String",
+                  "userData" : [
+                     {
+                        "val" : "String",
+                        "sequence" : "int",
+                        "name" : "String"
+                     }
+                  ],
+                  "dataType" : {
+                     "nonMetricFormat" : {
+                        "scale" : "int",
+                        "unit" : "String",
+                        "numberOfDigits" : "int",
+                        "nxUnitID" : "String",
+                        "keyLOV" : "String",
+                        "precision" : "int"
+                     },
+                     "metricFormat" : {
+                        "nxUnitID" : "String",
+                        "keyLOV" : "String",
+                        "precision" : "int",
+                        "numberOfDigits" : "int",
+                        "unit" : "String",
+                        "scale" : "int"
+                     },
+                     "numberOfDigits" : "int",
+                     "isPolymorphicController" : "bool",
+                     "type" : "PROPERTY_FORMAT_STRING PROPERTY_FORMAT_INTEGER PROPERTY_FORMAT_DOUBLE PROPERTY_FORMAT_DATE PROPERTY_FORMAT_BOOLEAN PROPERTY_FORMAT_VALUE_RANGE PROPERTY_FORMAT_VALUE_WITH_TOLERANCE PROPERTY_FORMAT_LEVEL PROPERTY_FORMAT_POSITION PROPERTY_FORMAT_AXIS PROPERTY_FORMAT_BLOCK",
+                     "maxLength" : "int",
+                     "blockReference" : "String",
+                     "cardinalityController" : "String",
+                     "isLocalizable" : "bool"
+                  },
+                  "cardinality" : "String",
+                  "reference" : "String",
+                  "dbIndex" : "String",
+                  "annotation" : {
+                     "isMasterLocale" : "bool",
+                     "translationStatus" : "String",
+                     "translations" : [
+                        {
+                           "strVal" : "String",
+                           "translationStatus" : "String",
+                           "isMasterLocale" : "bool",
+                           "locale" : "String"
+                        }
+                     ],
+                     "strValue" : "String",
+                     "locale" : "String"
+                  }
+               }
+            ],
+            "unitSystem" : "int",
+            "revision" : "String",
+            "definition" : {
+               "locale" : "String",
+               "translationStatus" : "String",
+               "translations" : [
+                  {
+                     "locale" : "String",
+                     "strVal" : "String",
+                     "translationStatus" : "String",
+                     "isMasterLocale" : "bool"
+                  }
+               ],
+               "strValue" : "String",
+               "isMasterLocale" : "bool"
+            },
+            "note" : {
+               "locale" : "String",
+               "isMasterLocale" : "bool",
+               "strValue" : "String",
+               "translations" : [
+                  {
+                     "translationStatus" : "String",
+                     "strVal" : "String",
+                     "isMasterLocale" : "bool",
+                     "locale" : "String"
+                  }
+               ],
+               "translationStatus" : "String"
+            },
+            "remark" : {
+               "translations" : [
+                  {
+                     "isMasterLocale" : "bool",
+                     "translationStatus" : "String",
+                     "strVal" : "String",
+                     "locale" : "String"
+                  }
+               ],
+               "strValue" : "String",
+               "translationStatus" : "String",
+               "isMasterLocale" : "bool",
+               "locale" : "String"
+            },
+            "name" : {
+               "locale" : "String",
+               "isMasterLocale" : "bool",
+               "strValue" : "String",
+               "translationStatus" : "String",
+               "translations" : [
+                  {
+                     "isMasterLocale" : "bool",
+                     "strVal" : "String",
+                     "translationStatus" : "String",
+                     "locale" : "String"
+                  }
+               ]
+            }
+         }
+      ],
+      "baseClasses" : [
+         {
+            "classType" : "String",
+            "shortName" : {
+               "isMasterLocale" : "bool",
+               "translations" : [
+                  {
+                     "locale" : "String",
+                     "isMasterLocale" : "bool",
+                     "translationStatus" : "String",
+                     "strVal" : "String"
+                  }
+               ],
+               "strValue" : "String",
+               "translationStatus" : "String",
+               "locale" : "String"
+            },
+            "id" : "String",
+            "status" : "String",
+            "irdi" : "String",
+            "name" : {
+               "locale" : "String",
+               "isMasterLocale" : "bool",
+               "translations" : [
+                  {
+                     "locale" : "String",
+                     "translationStatus" : "String",
+                     "strVal" : "String",
+                     "isMasterLocale" : "bool"
+                  }
+               ],
+               "strValue" : "String",
+               "translationStatus" : "String"
+            },
+            "remark" : {
+               "locale" : "String",
+               "strValue" : "String",
+               "translations" : [
+                  {
+                     "strVal" : "String",
+                     "translationStatus" : "String",
+                     "isMasterLocale" : "bool",
+                     "locale" : "String"
+                  }
+               ],
+               "translationStatus" : "String",
+               "isMasterLocale" : "bool"
+            },
+            "note" : {
+               "isMasterLocale" : "bool",
+               "translationStatus" : "String",
+               "translations" : [
+                  {
+                     "isMasterLocale" : "bool",
+                     "strVal" : "String",
+                     "translationStatus" : "String",
+                     "locale" : "String"
+                  }
+               ],
+               "strValue" : "String",
+               "locale" : "String"
+            },
+            "definition" : {
+               "translationStatus" : "String",
+               "strValue" : "String",
+               "translations" : [
+                  {
+                     "locale" : "String",
+                     "isMasterLocale" : "bool",
+                     "translationStatus" : "String",
+                     "strVal" : "String"
+                  }
+               ],
+               "isMasterLocale" : "bool",
+               "locale" : "String"
+            },
+            "revision" : "String",
+            "unitSystem" : "int",
+            "classAttributes" : [
+               {
+                  "attributeIndex" : "String",
+                  "type" : "String",
+                  "name" : {
+                     "isMasterLocale" : "bool",
+                     "translationStatus" : "String",
+                     "strValue" : "String",
+                     "translations" : [
+                        {
+                           "locale" : "String",
+                           "translationStatus" : "String",
+                           "strVal" : "String",
+                           "isMasterLocale" : "bool"
+                        }
+                     ],
+                     "locale" : "String"
+                  },
+                  "cardinality" : "String",
+                  "userData" : [
+                     {
+                        "name" : "String",
+                        "sequence" : "int",
+                        "val" : "String"
+                     }
+                  ],
+                  "dataType" : {
+                     "numberOfDigits" : "int",
+                     "isPolymorphicController" : "bool",
+                     "nonMetricFormat" : {
+                        "numberOfDigits" : "int",
+                        "scale" : "int",
+                        "unit" : "String",
+                        "precision" : "int",
+                        "keyLOV" : "String",
+                        "nxUnitID" : "String"
+                     },
+                     "metricFormat" : {
+                        "numberOfDigits" : "int",
+                        "scale" : "int",
+                        "unit" : "String",
+                        "precision" : "int",
+                        "nxUnitID" : "String",
+                        "keyLOV" : "String"
+                     },
+                     "maxLength" : "int",
+                     "cardinalityController" : "String",
+                     "blockReference" : "String",
+                     "isLocalizable" : "bool",
+                     "type" : "PROPERTY_FORMAT_STRING PROPERTY_FORMAT_INTEGER PROPERTY_FORMAT_DOUBLE PROPERTY_FORMAT_DATE PROPERTY_FORMAT_BOOLEAN PROPERTY_FORMAT_VALUE_RANGE PROPERTY_FORMAT_VALUE_WITH_TOLERANCE PROPERTY_FORMAT_LEVEL PROPERTY_FORMAT_POSITION PROPERTY_FORMAT_AXIS PROPERTY_FORMAT_BLOCK"
+                  },
+                  "dbIndex" : "String",
+                  "reference" : "String",
+                  "annotation" : {
+                     "translationStatus" : "String",
+                     "translations" : [
+                        {
+                           "locale" : "String",
+                           "isMasterLocale" : "bool",
+                           "strVal" : "String",
+                           "translationStatus" : "String"
+                        }
+                     ],
+                     "strValue" : "String",
+                     "isMasterLocale" : "bool",
+                     "locale" : "String"
+                  }
+               }
+            ],
+            "isAbstract" : "bool",
+            "classNamespace" : "String"
+         }
+      ],
+      "keyLOVDefinitions" : [
+         {
+            "name" : {
+               "locale" : "String",
+               "isMasterLocale" : "bool",
+               "translationStatus" : "String",
+               "translations" : [
+                  {
+                     "translationStatus" : "String",
+                     "strVal" : "String",
+                     "isMasterLocale" : "bool",
+                     "locale" : "String"
+                  }
+               ],
+               "strValue" : "String"
+            },
+            "objectType" : "String",
+            "revision" : "String",
+            "keyLOVItems" : {
+               "boolItems" : [
+                  {
+                     "boolValue" : "bool",
+                     "displayValue" : {
+                        "locale" : "String",
+                        "translations" : [
+                           {
+                              "locale" : "String",
+                              "strVal" : "String",
+                              "translationStatus" : "String",
+                              "isMasterLocale" : "bool"
+                           }
+                        ],
+                        "translationStatus" : "String",
+                        "strValue" : "String",
+                        "isMasterLocale" : "bool"
+                     }
+                  }
+               ],
+               "referenceItems" : [
+                  {
+                     "valueMeaning" : "String",
+                     "displayValue" : {
+                        "isMasterLocale" : "bool",
+                        "strValue" : "String",
+                        "translations" : [
+                           {
+                              "locale" : "String",
+                              "isMasterLocale" : "bool",
+                              "strVal" : "String",
+                              "translationStatus" : "String"
+                           }
+                        ],
+                        "translationStatus" : "String",
+                        "locale" : "String"
+                     },
+                     "stringValue" : "String",
+                     "blockReference" : "String"
+                  }
+               ],
+               "dataType" : "KEY_TYPE_REFERENCE KEY_TYPE_DATE KEY_TYPE_BOOLEAN KEY_TYPE_STRING KEY_TYPE_INTEGER KEY_TYPE_DOUBLE",
+               "dateItems" : [
+                  {
+                     "valueMeaning" : "String",
+                     "isSubMenu" : "bool",
+                     "dependencyKey" : "String",
+                     "subMenuItems" : "Cla0::Soa::Internal::ClassificationCommon::_2020_12::Classification::LOVDateItems[]",
+                     "subMenuTitle" : {
+                        "strValue" : "String",
+                        "translations" : [
+                           {
+                              "locale" : "String",
+                              "isMasterLocale" : "bool",
+                              "strVal" : "String",
+                              "translationStatus" : "String"
+                           }
+                        ],
+                        "translationStatus" : "String",
+                        "isMasterLocale" : "bool",
+                        "locale" : "String"
+                     },
+                     "dateValue" : "String"
+                  }
+               ],
+               "integerItems" : [
+                  {
+                     "subMenuTitle" : {
+                        "strValue" : "String",
+                        "translations" : [
+                           {
+                              "locale" : "String",
+                              "isMasterLocale" : "bool",
+                              "translationStatus" : "String",
+                              "strVal" : "String"
+                           }
+                        ],
+                        "translationStatus" : "String",
+                        "isMasterLocale" : "bool",
+                        "locale" : "String"
+                     },
+                     "valueMeaning" : "String",
+                     "subMenuItems" : "Cla0::Soa::Internal::ClassificationCommon::_2020_12::Classification::LOVIntegerItems[]",
+                     "isSubMenu" : "bool",
+                     "dependencyKey" : "String",
+                     "integerValue" : "int"
+                  }
+               ],
+               "doubleItems" : [
+                  {
+                     "subMenuTitle" : {
+                        "locale" : "String",
+                        "translations" : [
+                           {
+                              "isMasterLocale" : "bool",
+                              "translationStatus" : "String",
+                              "strVal" : "String",
+                              "locale" : "String"
+                           }
+                        ],
+                        "translationStatus" : "String",
+                        "strValue" : "String",
+                        "isMasterLocale" : "bool"
+                     },
+                     "dependencyKey" : "String",
+                     "subMenuItems" : "Cla0::Soa::Internal::ClassificationCommon::_2020_12::Classification::LOVDoubleItems[]",
+                     "valueMeaning" : "String",
+                     "isSuMenu" : "bool",
+                     "doubleValue" : "double"
+                  }
+               ],
+               "stringItems" : [
+                  {
+                     "isSubMenu" : "bool",
+                     "dependencyKey" : "String",
+                     "subMenuItems" : "Cla0::Soa::Internal::ClassificationCommon::_2020_12::Classification::LOVStringItems[]",
+                     "displayValue" : {
+                        "locale" : "String",
+                        "isMasterLocale" : "bool",
+                        "strValue" : "String",
+                        "translationStatus" : "String",
+                        "translations" : [
+                           {
+                              "isMasterLocale" : "bool",
+                              "strVal" : "String",
+                              "translationStatus" : "String",
+                              "locale" : "String"
+                           }
+                        ]
+                     },
+                     "stringValue" : "String",
+                     "subMenuTitle" : {
+                        "translationStatus" : "String",
+                        "translations" : [
+                           {
+                              "strVal" : "String",
+                              "translationStatus" : "String",
+                              "isMasterLocale" : "bool",
+                              "locale" : "String"
+                           }
+                        ],
+                        "strValue" : "String",
+                        "isMasterLocale" : "bool",
+                        "locale" : "String"
+                     }
+                  }
+               ]
+            },
+            "id" : "String",
+            "status" : "String",
+            "irdi" : "String",
+            "keyLOVNamespace" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "nodeIDs" : "String[]"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Manufacturing-2010-09-TimeManagement/populateAllocatedTimeProperties",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "precedence" : "String[]",
+      "stopLevel" : "int",
+      "propagateZeroValues" : "bool",
+      "rootNodes" : "IModelObject[]"
+   }
+}

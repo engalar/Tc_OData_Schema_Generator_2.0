@@ -1,0 +1,36 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "designToAlignedPartsInfos" : [
+         {
+            "parts" : {
+               "rowSet" : {
+                  "row" : [
+                     {
+                        "clientID" : "String",
+                        "value" : "String[]"
+                     }
+                  ]
+               },
+               "columnSet" : {
+                  "table" : "String",
+                  "column" : [
+                     {
+                        "table" : "String",
+                        "logicalName" : "String",
+                        "datatype" : "String",
+                        "name" : "String",
+                        "width" : "int"
+                     }
+                  ]
+               }
+            },
+            "localDesign" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-CbaExt-2014-12-QueryManagement/findAlignedPartForDrawing",
+   "OperationInput" : {
+      "designs" : "IModelObject[]"
+   }
+}

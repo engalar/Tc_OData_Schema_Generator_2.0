@@ -1,0 +1,5 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2006-03-Session/logout"
+}

@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "targetLines" : "IModelObject[]",
+      "srcLines" : "IModelObject[]",
+      "copyRulesKey" : "String",
+      "copyFutureEffectivity" : "bool"
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-StructureManagement/pasteDuplicateStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createdFutureICRevs" : "IModelObject[]",
+      "createdICRevs" : "IModelObject[]",
+      "newChildLines" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   }
+}

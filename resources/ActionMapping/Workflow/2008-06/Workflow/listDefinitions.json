@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Workflow-2008-06-Workflow/listDefinitions",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "status" : "int",
+            "description" : "String",
+            "name" : "String",
+            "version" : "String",
+            "definitionkey" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "name" : "String",
+      "templatestatus" : "int"
+   }
+}

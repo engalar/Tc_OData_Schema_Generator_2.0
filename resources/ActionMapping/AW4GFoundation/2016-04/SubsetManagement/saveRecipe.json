@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AW4GFoundation-2016-04-SubsetManagement/saveRecipe",
+   "OperationInput" : {
+      "input" : [
+         {
+            "recipeContainer" : "IModelObject",
+            "recipe" : [
+               {
+                  "criteriaOperatorType" : "String",
+                  "criteriaValues" : "String[]",
+                  "subCriteria" : "Fgf0::Soa::Internal::AW4GFoundation::_2016_04::SubsetManagement::Criteria[]",
+                  "criteriaType" : "String",
+                  "criteriaDisplayValue" : "String"
+               }
+            ],
+            "productInfo" : "IModelObject"
+         }
+      ]
+   }
+}

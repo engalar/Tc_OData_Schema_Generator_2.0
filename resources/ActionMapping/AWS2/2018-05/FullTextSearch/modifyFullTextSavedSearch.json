@@ -1,0 +1,45 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "savedSearchList" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-FullTextSearch/modifyFullTextSavedSearch",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "pinSearch" : "int",
+            "chartInputParameters" : {
+               "SampleKeyString" : "String"
+            },
+            "propInfo" : [
+               {
+                  "properties" : [
+                     {
+                        "name" : "String",
+                        "values" : "String[]"
+                     }
+                  ],
+                  "object" : "IModelObject"
+               }
+            ],
+            "searchFilterMap" : {
+               "SampleKeyString" : [
+                  {
+                     "count" : "int",
+                     "selected" : "bool",
+                     "startEndRange" : "String",
+                     "startDateValue" : "Date",
+                     "startNumericValue" : "double",
+                     "endNumericValue" : "double",
+                     "searchFilterType" : "SearchStringFilter SearchDateFilter SearchNumericFilter",
+                     "stringValue" : "String",
+                     "endDateValue" : "Date"
+                  }
+               ]
+            },
+            "shareSavedSearch" : "int",
+            "receiveNotification" : "int"
+         }
+      ]
+   }
+}

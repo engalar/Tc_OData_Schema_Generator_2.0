@@ -1,0 +1,121 @@
+{
+   "OperationInput" : {
+      "designContextInfos" : [
+         {
+            "option" : {
+               "proximityDistance" : "double",
+               "includeReuseOnly" : "bool",
+               "models" : "IModelObject[]",
+               "includeSubordinate" : "bool",
+               "configuration" : "IModelObject"
+            },
+            "createInput" : {
+               "clientId" : "String",
+               "data" : {
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "compoundCreateInput" : {
+                     "SampleKeyString" : [
+                        {
+                           "compoundCreateInput" : "Cpd0::Soa::CpdCore::_2020_01::DataManagement::CreateInputMap2",
+                           "objectArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "objectProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           },
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "boName" : "String",
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           }
+                        }
+                     ]
+                  },
+                  "objectArrayProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "dateArrayProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "intArrayProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "doubleArrayProps" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "objectProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  },
+                  "boName" : "String",
+                  "floatArrayProps" : {
+                     "SampleKeyString" : "float[]"
+                  },
+                  "boolArrayProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "stringArrayProps" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            },
+            "designItems" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "CpdCore-2020-01-DataManagement/generateDesignContext",
+   "OperationResponse" : {
+      "clientIdMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

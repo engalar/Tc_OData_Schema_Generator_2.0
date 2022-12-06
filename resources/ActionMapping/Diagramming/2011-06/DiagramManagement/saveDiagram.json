@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "diagFileTicket" : "String",
+            "selectedObject" : "IModelObject",
+            "diagramRevision" : "IModelObject",
+            "diagImageFileTicket" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "saveDiagOutput" : [
+         {
+            "resultObjects" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Diagramming-2011-06-DiagramManagement/saveDiagram"
+}

@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "preferences" : [
+         {
+            "values" : "String[]",
+            "name" : "String",
+            "scope" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2007-01-Session/getPreferences",
+   "OperationInput" : {
+      "requestedPrefs" : [
+         {
+            "names" : "String[]",
+            "scope" : "String"
+         }
+      ]
+   }
+}

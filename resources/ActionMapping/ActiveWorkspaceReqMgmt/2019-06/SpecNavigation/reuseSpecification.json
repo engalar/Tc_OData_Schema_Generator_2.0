@@ -1,0 +1,69 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "reuseStatusList" : [
+         {
+            "errorMsg" : "String",
+            "status" : "int",
+            "element" : "IModelObject",
+            "clonedObject" : "IModelObject",
+            "origObject" : "IModelObject"
+         }
+      ],
+      "newSpecification" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2019-06-SpecNavigation/reuseSpecification",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "createInputs" : [
+               {
+                  "compoundCreateInput" : {
+                     "SampleKeyString" : [
+                        {
+                           "propertyNameValues" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "boName" : "String",
+                           "compoundCreateInput" : "Arm0::Soa::Internal::ActiveWorkspaceReqMgmt::_2019_06::SpecNavigation::CreateInputMap"
+                        }
+                     ]
+                  },
+                  "boName" : "String",
+                  "propertyNameValues" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "selectedElements" : "IModelObject[]",
+            "datasetVersion" : "int",
+            "dataset" : "IModelObject",
+            "operationType" : "String",
+            "isRunInBackground" : "bool",
+            "inputCtxt" : {
+               "productContext" : "IModelObject",
+               "structureContextObject" : "IModelObject",
+               "pageSize" : "int",
+               "requestPref" : {
+                  "SampleKeyString" : "String"
+               },
+               "configuration" : {
+                  "unitNo" : "int",
+                  "variantRule" : "IModelObject",
+                  "effectivityDate" : "Date",
+                  "endItem" : "IModelObject",
+                  "svrOwningProduct" : "IModelObject",
+                  "revisionRule" : "IModelObject",
+                  "configurationObject" : "IModelObject",
+                  "now" : "bool"
+               }
+            },
+            "options" : {
+               "SampleKeyString" : "String"
+            },
+            "isDeep" : "bool",
+            "tracelinkType" : "String"
+         }
+      ]
+   }
+}

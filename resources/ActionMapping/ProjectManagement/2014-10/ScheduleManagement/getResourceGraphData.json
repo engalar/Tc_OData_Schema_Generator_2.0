@@ -1,0 +1,43 @@
+{
+   "ServiceOperation" : "ProjectManagement-2014-10-ScheduleManagement/getResourceGraphData",
+   "OperationResponse" : {
+      "stacksVector" : [
+         {
+            "numDays" : "int",
+            "userName" : "String",
+            "stacks" : [
+               {
+                  "numElements" : "int",
+                  "stack" : [
+                     {
+                        "schStartDate" : "Date",
+                        "resourceMinutes" : "double",
+                        "taskstartDate" : "Date",
+                        "schName" : "String",
+                        "taskMinutes" : "double",
+                        "day" : "Date",
+                        "schUid" : "String",
+                        "taskEndDate" : "Date",
+                        "schEndDate" : "Date",
+                        "schTaskUid" : "String",
+                        "calUid" : "String",
+                        "userUid" : "String",
+                        "taskMinutesOverLoad" : "double",
+                        "stackBase" : "double",
+                        "taskName" : "String",
+                        "userData" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "loadResourceGraphContainer" : {
+         "endDate" : "Date",
+         "startDate" : "Date",
+         "resources" : "IModelObject[]"
+      }
+   }
+}

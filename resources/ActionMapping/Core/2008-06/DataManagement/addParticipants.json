@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Core-2008-06-DataManagement/addParticipants",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "participantOutput" : [
+         {
+            "participant" : "IModelObject[]",
+            "itemRev" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "addParticipantInfo" : [
+         {
+            "itemRev" : "IModelObject",
+            "participantInfo" : [
+               {
+                  "assignee" : "IModelObject",
+                  "clientId" : "String",
+                  "participantType" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

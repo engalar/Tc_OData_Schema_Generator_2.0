@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "relationName" : "String",
+            "disconnectFrom" : "IModelObject",
+            "object" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2009-10-DataManagement/disconnectObjects"
+}

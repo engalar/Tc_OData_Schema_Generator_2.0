@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "context" : "IModelObject",
+            "removeRefContexts" : "IModelObject[]",
+            "removeExistingRef" : "bool",
+            "addRefContexts" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2011-06-StructureManagement/setReferenceContexts"
+}

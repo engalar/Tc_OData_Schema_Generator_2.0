@@ -1,0 +1,36 @@
+{
+   "OperationResponse" : {
+      "specRulesOutputs" : [
+         {
+            "specRule" : "IModelObject",
+            "specification" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/createSpecificationRules",
+   "OperationInput" : {
+      "specRulesInputs" : [
+         {
+            "specRuleInfo" : {
+               "isSpecRuleActive" : "bool",
+               "ruleSetId" : "String",
+               "specRuleDescription" : "String",
+               "specRuleName" : "String",
+               "specRuleId" : "String",
+               "libraryNode" : "IModelObject",
+               "ruleType" : "String",
+               "trgtFilterCriteria" : {
+                  "attributeId" : "String",
+                  "query" : "String"
+               },
+               "srcFilterCriteria" : {
+                  "query" : "String",
+                  "attributeId" : "String"
+               }
+            },
+            "specification" : "IModelObject"
+         }
+      ]
+   }
+}

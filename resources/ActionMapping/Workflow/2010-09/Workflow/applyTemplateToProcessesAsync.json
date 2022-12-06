@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Workflow-2010-09-Workflow/applyTemplateToProcessesAsync",
+   "OperationInput" : {
+      "applyTemplateInput" : [
+         {
+            "processTemplate" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

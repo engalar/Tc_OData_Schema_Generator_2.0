@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "DocumentManagement-2008-06-DocumentControl/getCheckinModeAndFiles",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outs" : [
+         {
+            "filenames" : "String[]",
+            "mode" : "String",
+            "itemRevision" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   }
+}

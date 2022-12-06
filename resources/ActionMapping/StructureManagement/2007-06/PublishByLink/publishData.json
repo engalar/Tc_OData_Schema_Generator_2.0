@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "inputIndex" : "int",
+            "publishLink" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2007-06-PublishByLink/publishData",
+   "OperationInput" : {
+      "publishDataInfos" : [
+         {
+            "linkInfo" : {
+               "targets" : "IModelObject[]",
+               "source" : "IModelObject",
+               "name" : "String",
+               "type" : "String"
+            },
+            "dataFlags" : "int"
+         }
+      ]
+   }
+}

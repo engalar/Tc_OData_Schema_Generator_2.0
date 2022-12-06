@@ -1,0 +1,5 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-PerformanceMonitor/clearPerformanceInformation",
+   "OperationInput" : {}
+}

@@ -1,0 +1,93 @@
+{
+   "OperationInput" : {
+      "controls" : {
+         "includePresentedParents" : "bool",
+         "includeSourceObjectForSubsets" : "bool",
+         "effectivityFormulaOverlayMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               "String"
+            ]
+         ],
+         "includeCopyStableIDMaps" : "bool",
+         "levelsToExpand" : "int",
+         "suggestedPageSize" : "int",
+         "configurationContext" : "IModelObject",
+         "variantFormulaOverlayMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               "String"
+            ]
+         ],
+         "partitionScopeMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               {
+                  "scheme" : "IModelObject",
+                  "isOnlyImmediateGroupRequired" : "bool"
+               }
+            ]
+         ],
+         "preLoadVisualizationDatasets" : "bool",
+         "expandSubsetAsSaved" : "bool"
+      },
+      "startingScope" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expandCursor" : "IModelObject",
+      "content" : [
+         {
+            "bomLineContent" : "IModelObject[]",
+            "contentObjInfoInContextMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "presentedParentContent" : "IModelObject[]",
+            "copyStableIDData" : [
+               {
+                  "copyStableIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ],
+                  "subset" : "IModelObject"
+               }
+            ],
+            "elementContent" : "IModelObject[]",
+            "sourceTargetMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "partitionGroups" : [
+               {
+                  "childPartitionGroups" : "Cpd0::Soa::CpdCore::_2017_05::StructureExpand::PartitionGroup[]",
+                  "isRootPartition" : "bool",
+                  "partition" : "IModelObject",
+                  "members" : "IModelObject[]"
+               }
+            ],
+            "startingObject" : "IModelObject"
+         }
+      ],
+      "finished" : "bool"
+   },
+   "ServiceOperation" : "CpdCore-2017-05-StructureExpand/startExpandStructure4"
+}

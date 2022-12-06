@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "options" : "String[]",
+         "srcContextInfo" : "IModelObject",
+         "traceabilityMatrixObject" : "IModelObject",
+         "rowPageTonavigate" : "int",
+         "sourceObjects" : "IModelObject[]",
+         "relationType" : "String",
+         "itemsPerPage" : "int",
+         "isRunInBackground" : "bool",
+         "actionPerformed" : "String",
+         "targetContextInfo" : "IModelObject",
+         "colPageToNavigate" : "int",
+         "showChildrenTracelinks" : "bool",
+         "targetObjects" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2018-12-SpecNavigation/getTraceabilityMatrixAsync",
+   "OperationResponse" : {}
+}

@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "ProjectManagement-2014-10-ScheduleManagement/detachSchedule",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "detachScheduleContainer" : [
+         {
+            "subSchedule" : "IModelObject",
+            "masterSchedule" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "CpdCore-2015-07-DataManagement/getProductConfigurations",
+   "OperationResponse" : {
+      "variantCriteria" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "productName" : "String",
+      "productNameSpace" : "String"
+   }
+}

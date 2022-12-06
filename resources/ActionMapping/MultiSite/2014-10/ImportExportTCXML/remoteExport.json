@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "rinfos" : [
+         {
+            "optionSetName" : "String",
+            "reason" : "String",
+            "exportOptions" : [
+               {
+                  "optionName" : "String",
+                  "optionValue" : "String[]"
+               }
+            ],
+            "objects" : "IModelObject[]",
+            "targetSites" : "String[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "failureInfo" : [
+         {
+            "sites" : "String[]",
+            "failuresPerOperation" : [
+               {
+                  "failureStrings" : "String[]",
+                  "failureObjects" : "IModelObject[]",
+                  "failureCodes" : "int[]"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Multisite-2014-10-ImportExportTCXML/remoteExport"
+}

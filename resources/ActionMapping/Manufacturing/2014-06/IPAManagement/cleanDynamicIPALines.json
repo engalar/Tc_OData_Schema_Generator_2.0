@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "inputBOPLines" : "IModelObject[]",
+         "cleanSubHierarchy" : "bool"
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2014-06-IPAManagement/cleanDynamicIPALines",
+   "OperationResponse" : "IServiceData"
+}

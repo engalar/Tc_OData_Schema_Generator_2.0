@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Allocations-2007-01-Allocation/getBOMViews",
+   "OperationInput" : {
+      "allocationContext" : "IModelObject"
+   }
+}

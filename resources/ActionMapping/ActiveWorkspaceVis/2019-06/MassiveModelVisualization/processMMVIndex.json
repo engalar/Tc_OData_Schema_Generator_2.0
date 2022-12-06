@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "structureId" : "String"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceVis-2019-06-MassiveModelVisualization/processMMVIndex",
+   "OperationResponse" : "IServiceData"
+}

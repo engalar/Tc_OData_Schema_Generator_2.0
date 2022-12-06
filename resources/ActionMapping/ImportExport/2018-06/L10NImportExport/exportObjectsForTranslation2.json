@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Internal-ImportExport-2018-06-L10NImportExport/exportObjectsForTranslation2",
+   "OperationResponse" : {
+      "tickets" : [
+         {
+            "locale" : "String",
+            "ticket" : "String"
+         }
+      ],
+      "data" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputObjectsInfo" : {
+         "translationsExist" : "bool",
+         "statuses" : "String[]",
+         "objects" : "IModelObject[]",
+         "transferOptionSet" : "String",
+         "locale" : "String",
+         "typesPropertiesInfo" : [
+            {
+               "propertyNames" : "String[]",
+               "typeName" : "String"
+            }
+         ]
+      }
+   }
+}

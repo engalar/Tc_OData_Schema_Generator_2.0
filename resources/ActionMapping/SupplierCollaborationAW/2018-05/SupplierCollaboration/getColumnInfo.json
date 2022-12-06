@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "inputObject" : "IModelObject",
+         "structType" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/getColumnInfo",
+   "OperationResponse" : {
+      "columnInfo" : [
+         {
+            "isDisplayed" : "bool",
+            "propDisplayName" : "String",
+            "columnWidth" : "int",
+            "typeName" : "String",
+            "propInternalName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "groupInfos" : [
+         {
+            "geomConnGroupContentInfo" : {
+               "createOrUpdateLinkInfos" : [
+                  {
+                     "connectedPME" : "IModelObject",
+                     "clientId" : "String",
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "owningPME" : "IModelObject",
+                     "link" : "IModelObject"
+                  }
+               ],
+               "linksToRemove" : "IModelObject[]"
+            },
+            "geomConnGroupInfo" : {
+               "endObject2" : "IModelObject",
+               "geomGroup" : "IModelObject",
+               "endObject1" : "IModelObject",
+               "logicalId" : "String",
+               "connectionId" : "String",
+               "attrInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boType" : "String"
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "clientIdToLinkMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData",
+      "clientIdToGroupMap" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "ModelCore-2015-07-GeometricConnectivity/createOrUpdateGeomConnGroups"
+}

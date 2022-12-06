@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Core-2009-10-Thumbnail/updateThumbnail",
+   "OperationInput" : {
+      "updateThumbnailInputs" : [
+         {
+            "thumbnailSource" : "IModelObject",
+            "isAutoSelect" : "bool",
+            "isNone" : "bool"
+         }
+      ],
+      "businessObject" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "productContextInfo" : "IModelObject",
+         "replacement" : "IModelObject",
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         },
+         "columnConfigInput" : {
+            "fetchColumnConfig" : "bool",
+            "hostingClientName" : "String",
+            "clientName" : "String",
+            "operationType" : "String"
+         },
+         "elements" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "columnConfig" : {
+         "operationType" : "String",
+         "columns" : [
+            {
+               "typeName" : "String",
+               "hiddenFlag" : "bool",
+               "columnOrder" : "int",
+               "propertyName" : "String",
+               "sortDirection" : "String",
+               "pixelWidth" : "int",
+               "sortPriority" : "int"
+            }
+         ],
+         "columnConfigId" : "String",
+         "columnsToExclude" : "String[]",
+         "elementTypesForArrange" : "String[]",
+         "hasColumnsChanged" : "bool"
+      },
+      "replacableElements" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "reloadContent" : "bool"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2016-03-OccurrenceManagement/replaceElement"
+}

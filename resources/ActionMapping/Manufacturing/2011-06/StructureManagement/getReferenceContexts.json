@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "contexts" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2011-06-StructureManagement/getReferenceContexts",
+   "OperationResponse" : {
+      "refcontexts" : [
+         {
+            "contextsarray" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

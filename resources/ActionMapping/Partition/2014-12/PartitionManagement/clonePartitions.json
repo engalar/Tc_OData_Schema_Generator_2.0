@@ -1,0 +1,41 @@
+{
+   "OperationInput" : {
+      "inputVector" : [
+         {
+            "sourceModel" : "IModelObject",
+            "varRule" : "IModelObject",
+            "inputOptions" : [
+               {
+                  "boolMap" : {
+                     "SampleKeyString" : "bool"
+                  }
+               }
+            ],
+            "targetModel" : "IModelObject",
+            "revRule" : "IModelObject",
+            "sourcePartitions" : "IModelObject[]",
+            "sourceSchemes" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "failedPartitions" : [
+               {
+                  "errorValue" : {
+                     "level" : "Error_severity_information Error_severity_warning Error_severity_error",
+                     "message" : "String",
+                     "code" : "int"
+                  },
+                  "sourceScheme" : "IModelObject",
+                  "sourcePartition" : "IModelObject"
+               }
+            ],
+            "sourceModel" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Partition-2014-12-PartitionManagement/clonePartitions"
+}

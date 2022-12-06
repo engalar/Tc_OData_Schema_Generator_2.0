@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "fRefresh" : "bool",
+      "attachmentlines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2011-06-IncrementalChange/getAttachmentChanges",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "response" : [
+         {
+            "listOfAttachments" : [
+               {
+                  "line" : "IModelObject",
+                  "relationIces" : [
+                     {
+                        "howConfigured" : "String",
+                        "typeOfIce" : "int",
+                        "icRev" : "IModelObject",
+                        "ice" : "IModelObject"
+                     }
+                  ],
+                  "childEditIces" : [
+                     {
+                        "icRev" : "IModelObject",
+                        "ice" : "IModelObject",
+                        "howConfigured" : "String",
+                        "typeOfIce" : "int"
+                     }
+                  ],
+                  "absOccRootLine" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Query-2007-06-SavedQuery/retrieveSearchCriteria",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "searchName" : "String",
+            "resultsType" : "String",
+            "values" : "String[]",
+            "queryName" : "String",
+            "keys" : "String[]",
+            "virtualFolderPath" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "searchNames" : "String[]"
+   }
+}

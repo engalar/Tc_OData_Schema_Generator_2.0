@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "projectInfos" : [
+         {
+            "projectDescription" : "String",
+            "active" : "bool",
+            "teamMembers" : [
+               {
+                  "teamMemberType" : "int",
+                  "teamMember" : "IModelObject"
+               }
+            ],
+            "visible" : "bool",
+            "useProgramContext" : "bool",
+            "clientId" : "String",
+            "projectName" : "String",
+            "projectId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2012-09-ProjectLevelSecurity/createProjects",
+   "OperationResponse" : {
+      "projectOpsOutputs" : [
+         {
+            "clientId" : "String",
+            "project" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-MultiSite-2007-06-ObjectDirectory/unpublishObjects",
+   "OperationInput" : {
+      "clientInfo" : {
+         "osUserName" : "String",
+         "clientMinorReleaseVersion" : "int",
+         "userId" : "String",
+         "clientNode" : "String",
+         "clientOdsMajorVersion" : "int",
+         "clientReleaseVersion" : "int",
+         "roleName" : "String",
+         "clientMaintPackVersion" : "int",
+         "clientSiteId" : "int",
+         "clientServiceReleaseVersion" : "int",
+         "userName" : "String",
+         "clientOdsMinorVersion" : "int",
+         "targetServerSiteId" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "groupName" : "String"
+      },
+      "objTagAsString" : "String[]"
+   }
+}

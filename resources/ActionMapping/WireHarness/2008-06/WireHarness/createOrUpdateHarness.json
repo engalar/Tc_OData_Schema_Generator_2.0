@@ -1,0 +1,910 @@
+{
+   "OperationInput" : {
+      "precise" : "bool",
+      "inputs" : [
+         {
+            "harnessData" : [
+               {
+                  "connectors" : [
+                     {
+                        "connectorOccProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "ports" : [
+                           {
+                              "realizedPorts" : [
+                                 {
+                                    "clientId" : "String",
+                                    "objectOccThread" : "IModelObject",
+                                    "objectOcc" : "IModelObject",
+                                    "object" : "IModelObject"
+                                 }
+                              ],
+                              "itemElementOccProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                              "itemElement" : {
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject",
+                                 "objectOcc" : "IModelObject",
+                                 "object" : "IModelObject"
+                              }
+                           }
+                        ],
+                        "connector" : {
+                           "objectOccThread" : "IModelObject",
+                           "clientId" : "String",
+                           "object" : "IModelObject",
+                           "objectOcc" : "IModelObject"
+                        }
+                     }
+                  ],
+                  "shields" : [
+                     {
+                        "connections" : [
+                           {
+                              "connection" : {
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject",
+                                 "objectOcc" : "IModelObject",
+                                 "object" : "IModelObject"
+                              },
+                              "connectionOccProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "associatedWires" : [
+                                 {
+                                    "object" : "IModelObject",
+                                    "objectOcc" : "IModelObject",
+                                    "objectOccThread" : "IModelObject",
+                                    "clientId" : "String"
+                                 }
+                              ],
+                              "associatedPorts" : [
+                                 {
+                                    "clientId" : "String",
+                                    "objectOccThread" : "IModelObject",
+                                    "objectOcc" : "IModelObject",
+                                    "object" : "IModelObject"
+                                 }
+                              ],
+                              "associatedshilds" : [
+                                 {
+                                    "objectOccThread" : "IModelObject",
+                                    "clientId" : "String",
+                                    "object" : "IModelObject",
+                                    "objectOcc" : "IModelObject"
+                                 }
+                              ]
+                           }
+                        ],
+                        "childshields" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ShieldData[]",
+                        "shield" : {
+                           "clientId" : "String",
+                           "objectOccThread" : "IModelObject",
+                           "object" : "IModelObject",
+                           "objectOcc" : "IModelObject"
+                        },
+                        "connectors" : [
+                           {
+                              "ports" : [
+                                 {
+                                    "itemElementOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "realizedPorts" : [
+                                       {
+                                          "object" : "IModelObject",
+                                          "objectOcc" : "IModelObject",
+                                          "objectOccThread" : "IModelObject",
+                                          "clientId" : "String"
+                                       }
+                                    ],
+                                    "itemElement" : {
+                                       "clientId" : "String",
+                                       "objectOccThread" : "IModelObject",
+                                       "objectOcc" : "IModelObject",
+                                       "object" : "IModelObject"
+                                    },
+                                    "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]"
+                                 }
+                              ],
+                              "connector" : {
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject",
+                                 "object" : "IModelObject",
+                                 "objectOcc" : "IModelObject"
+                              },
+                              "connectorOccProps" : {
+                                 "SampleKeyString" : "String"
+                              }
+                           }
+                        ],
+                        "cables" : [
+                           {
+                              "childcables" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::CableData[]",
+                              "connections" : [
+                                 {
+                                    "connectionOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "associatedWires" : [
+                                       {
+                                          "objectOccThread" : "IModelObject",
+                                          "clientId" : "String",
+                                          "object" : "IModelObject",
+                                          "objectOcc" : "IModelObject"
+                                       }
+                                    ],
+                                    "associatedshilds" : [
+                                       {
+                                          "objectOcc" : "IModelObject",
+                                          "object" : "IModelObject",
+                                          "clientId" : "String",
+                                          "objectOccThread" : "IModelObject"
+                                       }
+                                    ],
+                                    "associatedPorts" : [
+                                       {
+                                          "clientId" : "String",
+                                          "objectOccThread" : "IModelObject",
+                                          "object" : "IModelObject",
+                                          "objectOcc" : "IModelObject"
+                                       }
+                                    ],
+                                    "connection" : {
+                                       "objectOcc" : "IModelObject",
+                                       "object" : "IModelObject",
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String"
+                                    }
+                                 }
+                              ],
+                              "wires" : [
+                                 {
+                                    "wireOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "wire" : {
+                                       "clientId" : "String",
+                                       "objectOccThread" : "IModelObject",
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject"
+                                    }
+                                 }
+                              ],
+                              "cableOccProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "devices" : [
+                                 {
+                                    "deviceOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "associatedConnectors" : [
+                                       {
+                                          "object" : "IModelObject",
+                                          "objectOcc" : "IModelObject",
+                                          "clientId" : "String",
+                                          "objectOccThread" : "IModelObject"
+                                       }
+                                    ],
+                                    "ports" : [
+                                       {
+                                          "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                          "itemElement" : {
+                                             "objectOccThread" : "IModelObject",
+                                             "clientId" : "String",
+                                             "object" : "IModelObject",
+                                             "objectOcc" : "IModelObject"
+                                          },
+                                          "realizedPorts" : [
+                                             {
+                                                "objectOccThread" : "IModelObject",
+                                                "clientId" : "String",
+                                                "object" : "IModelObject",
+                                                "objectOcc" : "IModelObject"
+                                             }
+                                          ],
+                                          "itemElementOccProps" : {
+                                             "SampleKeyString" : "String"
+                                          }
+                                       }
+                                    ],
+                                    "device" : {
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String",
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject"
+                                    },
+                                    "connectors" : [
+                                       {
+                                          "connectorOccProps" : {
+                                             "SampleKeyString" : "String"
+                                          },
+                                          "connector" : {
+                                             "objectOccThread" : "IModelObject",
+                                             "clientId" : "String",
+                                             "objectOcc" : "IModelObject",
+                                             "object" : "IModelObject"
+                                          },
+                                          "ports" : [
+                                             {
+                                                "itemElement" : {
+                                                   "objectOccThread" : "IModelObject",
+                                                   "clientId" : "String",
+                                                   "object" : "IModelObject",
+                                                   "objectOcc" : "IModelObject"
+                                                },
+                                                "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                                "itemElementOccProps" : {
+                                                   "SampleKeyString" : "String"
+                                                },
+                                                "realizedPorts" : [
+                                                   {
+                                                      "object" : "IModelObject",
+                                                      "objectOcc" : "IModelObject",
+                                                      "clientId" : "String",
+                                                      "objectOccThread" : "IModelObject"
+                                                   }
+                                                ]
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "shields" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ShieldData[]",
+                              "cable" : {
+                                 "object" : "IModelObject",
+                                 "objectOcc" : "IModelObject",
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject"
+                              },
+                              "connectors" : [
+                                 {
+                                    "ports" : [
+                                       {
+                                          "realizedPorts" : [
+                                             {
+                                                "object" : "IModelObject",
+                                                "objectOcc" : "IModelObject",
+                                                "objectOccThread" : "IModelObject",
+                                                "clientId" : "String"
+                                             }
+                                          ],
+                                          "itemElementOccProps" : {
+                                             "SampleKeyString" : "String"
+                                          },
+                                          "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                          "itemElement" : {
+                                             "object" : "IModelObject",
+                                             "objectOcc" : "IModelObject",
+                                             "objectOccThread" : "IModelObject",
+                                             "clientId" : "String"
+                                          }
+                                       }
+                                    ],
+                                    "connector" : {
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject",
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String"
+                                    },
+                                    "connectorOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    }
+                                 }
+                              ]
+                           }
+                        ],
+                        "shieldOccProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "devices" : [
+                           {
+                              "connectors" : [
+                                 {
+                                    "connector" : {
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject",
+                                       "clientId" : "String",
+                                       "objectOccThread" : "IModelObject"
+                                    },
+                                    "ports" : [
+                                       {
+                                          "itemElement" : {
+                                             "clientId" : "String",
+                                             "objectOccThread" : "IModelObject",
+                                             "object" : "IModelObject",
+                                             "objectOcc" : "IModelObject"
+                                          },
+                                          "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                          "itemElementOccProps" : {
+                                             "SampleKeyString" : "String"
+                                          },
+                                          "realizedPorts" : [
+                                             {
+                                                "objectOccThread" : "IModelObject",
+                                                "clientId" : "String",
+                                                "object" : "IModelObject",
+                                                "objectOcc" : "IModelObject"
+                                             }
+                                          ]
+                                       }
+                                    ],
+                                    "connectorOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    }
+                                 }
+                              ],
+                              "associatedConnectors" : [
+                                 {
+                                    "objectOcc" : "IModelObject",
+                                    "object" : "IModelObject",
+                                    "objectOccThread" : "IModelObject",
+                                    "clientId" : "String"
+                                 }
+                              ],
+                              "deviceOccProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "device" : {
+                                 "objectOcc" : "IModelObject",
+                                 "object" : "IModelObject",
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject"
+                              },
+                              "ports" : [
+                                 {
+                                    "itemElement" : {
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject",
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String"
+                                    },
+                                    "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                    "itemElementOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "realizedPorts" : [
+                                       {
+                                          "objectOcc" : "IModelObject",
+                                          "object" : "IModelObject",
+                                          "clientId" : "String",
+                                          "objectOccThread" : "IModelObject"
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ],
+                        "wires" : [
+                           {
+                              "wireOccProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "wire" : {
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject",
+                                 "object" : "IModelObject",
+                                 "objectOcc" : "IModelObject"
+                              }
+                           }
+                        ]
+                     }
+                  ],
+                  "cables" : [
+                     {
+                        "connections" : [
+                           {
+                              "connection" : {
+                                 "object" : "IModelObject",
+                                 "objectOcc" : "IModelObject",
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject"
+                              },
+                              "associatedPorts" : [
+                                 {
+                                    "object" : "IModelObject",
+                                    "objectOcc" : "IModelObject",
+                                    "clientId" : "String",
+                                    "objectOccThread" : "IModelObject"
+                                 }
+                              ],
+                              "associatedshilds" : [
+                                 {
+                                    "clientId" : "String",
+                                    "objectOccThread" : "IModelObject",
+                                    "objectOcc" : "IModelObject",
+                                    "object" : "IModelObject"
+                                 }
+                              ],
+                              "connectionOccProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "associatedWires" : [
+                                 {
+                                    "clientId" : "String",
+                                    "objectOccThread" : "IModelObject",
+                                    "object" : "IModelObject",
+                                    "objectOcc" : "IModelObject"
+                                 }
+                              ]
+                           }
+                        ],
+                        "childcables" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::CableData[]",
+                        "devices" : [
+                           {
+                              "ports" : [
+                                 {
+                                    "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                    "itemElement" : {
+                                       "objectOcc" : "IModelObject",
+                                       "object" : "IModelObject",
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String"
+                                    },
+                                    "realizedPorts" : [
+                                       {
+                                          "objectOcc" : "IModelObject",
+                                          "object" : "IModelObject",
+                                          "objectOccThread" : "IModelObject",
+                                          "clientId" : "String"
+                                       }
+                                    ],
+                                    "itemElementOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    }
+                                 }
+                              ],
+                              "device" : {
+                                 "objectOcc" : "IModelObject",
+                                 "object" : "IModelObject",
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject"
+                              },
+                              "deviceOccProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "associatedConnectors" : [
+                                 {
+                                    "objectOccThread" : "IModelObject",
+                                    "clientId" : "String",
+                                    "object" : "IModelObject",
+                                    "objectOcc" : "IModelObject"
+                                 }
+                              ],
+                              "connectors" : [
+                                 {
+                                    "ports" : [
+                                       {
+                                          "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                          "itemElement" : {
+                                             "clientId" : "String",
+                                             "objectOccThread" : "IModelObject",
+                                             "object" : "IModelObject",
+                                             "objectOcc" : "IModelObject"
+                                          },
+                                          "realizedPorts" : [
+                                             {
+                                                "object" : "IModelObject",
+                                                "objectOcc" : "IModelObject",
+                                                "objectOccThread" : "IModelObject",
+                                                "clientId" : "String"
+                                             }
+                                          ],
+                                          "itemElementOccProps" : {
+                                             "SampleKeyString" : "String"
+                                          }
+                                       }
+                                    ],
+                                    "connector" : {
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject",
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String"
+                                    },
+                                    "connectorOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    }
+                                 }
+                              ]
+                           }
+                        ],
+                        "wires" : [
+                           {
+                              "wire" : {
+                                 "objectOcc" : "IModelObject",
+                                 "object" : "IModelObject",
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject"
+                              },
+                              "wireOccProps" : {
+                                 "SampleKeyString" : "String"
+                              }
+                           }
+                        ],
+                        "cableOccProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "cable" : {
+                           "objectOcc" : "IModelObject",
+                           "object" : "IModelObject",
+                           "objectOccThread" : "IModelObject",
+                           "clientId" : "String"
+                        },
+                        "connectors" : [
+                           {
+                              "ports" : [
+                                 {
+                                    "itemElementOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "realizedPorts" : [
+                                       {
+                                          "object" : "IModelObject",
+                                          "objectOcc" : "IModelObject",
+                                          "clientId" : "String",
+                                          "objectOccThread" : "IModelObject"
+                                       }
+                                    ],
+                                    "itemElement" : {
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject",
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String"
+                                    },
+                                    "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]"
+                                 }
+                              ],
+                              "connector" : {
+                                 "objectOccThread" : "IModelObject",
+                                 "clientId" : "String",
+                                 "objectOcc" : "IModelObject",
+                                 "object" : "IModelObject"
+                              },
+                              "connectorOccProps" : {
+                                 "SampleKeyString" : "String"
+                              }
+                           }
+                        ],
+                        "shields" : [
+                           {
+                              "shield" : {
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject",
+                                 "object" : "IModelObject",
+                                 "objectOcc" : "IModelObject"
+                              },
+                              "connections" : [
+                                 {
+                                    "associatedPorts" : [
+                                       {
+                                          "clientId" : "String",
+                                          "objectOccThread" : "IModelObject",
+                                          "objectOcc" : "IModelObject",
+                                          "object" : "IModelObject"
+                                       }
+                                    ],
+                                    "associatedshilds" : [
+                                       {
+                                          "object" : "IModelObject",
+                                          "objectOcc" : "IModelObject",
+                                          "objectOccThread" : "IModelObject",
+                                          "clientId" : "String"
+                                       }
+                                    ],
+                                    "associatedWires" : [
+                                       {
+                                          "objectOccThread" : "IModelObject",
+                                          "clientId" : "String",
+                                          "objectOcc" : "IModelObject",
+                                          "object" : "IModelObject"
+                                       }
+                                    ],
+                                    "connectionOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "connection" : {
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String",
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject"
+                                    }
+                                 }
+                              ],
+                              "childshields" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ShieldData[]",
+                              "devices" : [
+                                 {
+                                    "deviceOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "associatedConnectors" : [
+                                       {
+                                          "objectOccThread" : "IModelObject",
+                                          "clientId" : "String",
+                                          "object" : "IModelObject",
+                                          "objectOcc" : "IModelObject"
+                                       }
+                                    ],
+                                    "ports" : [
+                                       {
+                                          "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                          "itemElement" : {
+                                             "objectOccThread" : "IModelObject",
+                                             "clientId" : "String",
+                                             "object" : "IModelObject",
+                                             "objectOcc" : "IModelObject"
+                                          },
+                                          "realizedPorts" : [
+                                             {
+                                                "objectOcc" : "IModelObject",
+                                                "object" : "IModelObject",
+                                                "clientId" : "String",
+                                                "objectOccThread" : "IModelObject"
+                                             }
+                                          ],
+                                          "itemElementOccProps" : {
+                                             "SampleKeyString" : "String"
+                                          }
+                                       }
+                                    ],
+                                    "device" : {
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String",
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject"
+                                    },
+                                    "connectors" : [
+                                       {
+                                          "connectorOccProps" : {
+                                             "SampleKeyString" : "String"
+                                          },
+                                          "ports" : [
+                                             {
+                                                "itemElementOccProps" : {
+                                                   "SampleKeyString" : "String"
+                                                },
+                                                "realizedPorts" : [
+                                                   {
+                                                      "objectOccThread" : "IModelObject",
+                                                      "clientId" : "String",
+                                                      "object" : "IModelObject",
+                                                      "objectOcc" : "IModelObject"
+                                                   }
+                                                ],
+                                                "itemElement" : {
+                                                   "objectOcc" : "IModelObject",
+                                                   "object" : "IModelObject",
+                                                   "objectOccThread" : "IModelObject",
+                                                   "clientId" : "String"
+                                                },
+                                                "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]"
+                                             }
+                                          ],
+                                          "connector" : {
+                                             "clientId" : "String",
+                                             "objectOccThread" : "IModelObject",
+                                             "object" : "IModelObject",
+                                             "objectOcc" : "IModelObject"
+                                          }
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "wires" : [
+                                 {
+                                    "wireOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "wire" : {
+                                       "clientId" : "String",
+                                       "objectOccThread" : "IModelObject",
+                                       "object" : "IModelObject",
+                                       "objectOcc" : "IModelObject"
+                                    }
+                                 }
+                              ],
+                              "connectors" : [
+                                 {
+                                    "connector" : {
+                                       "objectOcc" : "IModelObject",
+                                       "object" : "IModelObject",
+                                       "objectOccThread" : "IModelObject",
+                                       "clientId" : "String"
+                                    },
+                                    "ports" : [
+                                       {
+                                          "realizedPorts" : [
+                                             {
+                                                "clientId" : "String",
+                                                "objectOccThread" : "IModelObject",
+                                                "objectOcc" : "IModelObject",
+                                                "object" : "IModelObject"
+                                             }
+                                          ],
+                                          "itemElementOccProps" : {
+                                             "SampleKeyString" : "String"
+                                          },
+                                          "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                          "itemElement" : {
+                                             "object" : "IModelObject",
+                                             "objectOcc" : "IModelObject",
+                                             "objectOccThread" : "IModelObject",
+                                             "clientId" : "String"
+                                          }
+                                       }
+                                    ],
+                                    "connectorOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    }
+                                 }
+                              ],
+                              "cables" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::CableData[]",
+                              "shieldOccProps" : {
+                                 "SampleKeyString" : "String"
+                              }
+                           }
+                        ]
+                     }
+                  ],
+                  "wires" : [
+                     {
+                        "wireOccProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "wire" : {
+                           "object" : "IModelObject",
+                           "objectOcc" : "IModelObject",
+                           "objectOccThread" : "IModelObject",
+                           "clientId" : "String"
+                        }
+                     }
+                  ],
+                  "harnessOccProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "harness" : {
+                     "object" : "IModelObject",
+                     "objectOcc" : "IModelObject",
+                     "objectOccThread" : "IModelObject",
+                     "clientId" : "String"
+                  },
+                  "devices" : [
+                     {
+                        "deviceOccProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "associatedConnectors" : [
+                           {
+                              "objectOcc" : "IModelObject",
+                              "object" : "IModelObject",
+                              "objectOccThread" : "IModelObject",
+                              "clientId" : "String"
+                           }
+                        ],
+                        "ports" : [
+                           {
+                              "itemElement" : {
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject",
+                                 "objectOcc" : "IModelObject",
+                                 "object" : "IModelObject"
+                              },
+                              "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                              "itemElementOccProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "realizedPorts" : [
+                                 {
+                                    "object" : "IModelObject",
+                                    "objectOcc" : "IModelObject",
+                                    "clientId" : "String",
+                                    "objectOccThread" : "IModelObject"
+                                 }
+                              ]
+                           }
+                        ],
+                        "device" : {
+                           "objectOccThread" : "IModelObject",
+                           "clientId" : "String",
+                           "objectOcc" : "IModelObject",
+                           "object" : "IModelObject"
+                        },
+                        "connectors" : [
+                           {
+                              "connectorOccProps" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "connector" : {
+                                 "object" : "IModelObject",
+                                 "objectOcc" : "IModelObject",
+                                 "clientId" : "String",
+                                 "objectOccThread" : "IModelObject"
+                              },
+                              "ports" : [
+                                 {
+                                    "realizedPorts" : [
+                                       {
+                                          "objectOcc" : "IModelObject",
+                                          "object" : "IModelObject",
+                                          "clientId" : "String",
+                                          "objectOccThread" : "IModelObject"
+                                       }
+                                    ],
+                                    "itemElementOccProps" : {
+                                       "SampleKeyString" : "String"
+                                    },
+                                    "childItemElements" : "Teamcenter::Soa::WireHarness::_2008_06::WireHarness::ItemElementData[]",
+                                    "itemElement" : {
+                                       "clientId" : "String",
+                                       "objectOccThread" : "IModelObject",
+                                       "objectOcc" : "IModelObject",
+                                       "object" : "IModelObject"
+                                    }
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "connections" : [
+                     {
+                        "connection" : {
+                           "objectOccThread" : "IModelObject",
+                           "clientId" : "String",
+                           "object" : "IModelObject",
+                           "objectOcc" : "IModelObject"
+                        },
+                        "associatedPorts" : [
+                           {
+                              "object" : "IModelObject",
+                              "objectOcc" : "IModelObject",
+                              "clientId" : "String",
+                              "objectOccThread" : "IModelObject"
+                           }
+                        ],
+                        "associatedshilds" : [
+                           {
+                              "objectOcc" : "IModelObject",
+                              "object" : "IModelObject",
+                              "objectOccThread" : "IModelObject",
+                              "clientId" : "String"
+                           }
+                        ],
+                        "associatedWires" : [
+                           {
+                              "object" : "IModelObject",
+                              "objectOcc" : "IModelObject",
+                              "clientId" : "String",
+                              "objectOccThread" : "IModelObject"
+                           }
+                        ],
+                        "connectionOccProps" : {
+                           "SampleKeyString" : "String"
+                        }
+                     }
+                  ]
+               }
+            ],
+            "parent" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "bomViewTypeName" : "String"
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "objectOccThread" : "IModelObject",
+            "clientId" : "String",
+            "objectOcc" : "IModelObject",
+            "object" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "WireHarness-2008-06-WireHarness/createOrUpdateHarness"
+}

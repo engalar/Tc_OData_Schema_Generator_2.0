@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/copyAndReplaceConstDetailInConstTable",
+   "OperationResponse" : {
+      "outPut" : [
+         {
+            "copiedconstructionDetails" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "constructionDetails" : "String[]",
+            "constructionTable" : "String"
+         }
+      ]
+   }
+}

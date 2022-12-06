@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "SvcRequest-2010-04-ServiceRequest/delegateRequestedActivity",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "newPerforms" : "IModelObject",
+            "clientId" : "String",
+            "currPerforms" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "primaryServiceRequest" : "IModelObject",
+            "delegateLocation" : "IModelObject",
+            "delegateContact" : "IModelObject",
+            "newDelegate" : "bool",
+            "clientId" : "String",
+            "delegateStringProps" : {
+               "SampleKeyString" : "String"
+            },
+            "delegateDateProps" : {
+               "SampleKeyString" : "Date"
+            },
+            "requestedActivities" : "IModelObject[]",
+            "performsServiceRequest" : "IModelObject"
+         }
+      ]
+   }
+}

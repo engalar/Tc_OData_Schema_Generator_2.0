@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "sourceSchemes" : "IModelObject[]",
+            "sourcePartitions" : "IModelObject[]",
+            "inputOptions" : [
+               {
+                  "boolMap" : {
+                     "SampleKeyString" : "bool"
+                  }
+               }
+            ],
+            "targetModel" : "IModelObject",
+            "revRule" : "IModelObject",
+            "varRule" : "IModelObject",
+            "sourceModel" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Partition-2013-05-PartitionManagement/createOrUpdateRealizedPartitions",
+   "OperationResponse" : "IServiceData"
+}

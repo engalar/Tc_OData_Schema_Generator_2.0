@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "targetBomline" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "result" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Cae-2013-05-StructureManagement/getCAEPropertyComparisonDetails"
+}

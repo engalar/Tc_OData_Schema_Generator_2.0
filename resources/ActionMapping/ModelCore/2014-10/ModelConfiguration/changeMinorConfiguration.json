@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "targetSample" : "IModelObject",
+      "sourceObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ModelCore-2014-10-ModelConfiguration/changeMinorConfiguration",
+   "OperationResponse" : {
+      "targetObjectMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

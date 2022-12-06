@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "shapeSearchInput" : {
+         "partShape" : "int",
+         "partSizeBegin" : "int",
+         "partSizeEnd" : "int",
+         "qryStr" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-ShapeSearch-2012-10-ShapeSearch/performShapeSearch",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "searchResult" : {
+         "numOfObjects" : "int",
+         "businessObjectUIDs" : "String[]"
+      }
+   }
+}

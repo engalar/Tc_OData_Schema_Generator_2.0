@@ -1,0 +1,119 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "srmeData" : [
+         {
+            "clientId" : "String",
+            "subsetData" : [
+               {
+                  "subsetCsId" : "String",
+                  "removedSourceElementList" : "IModelObject[]",
+                  "appendedSourceElementList" : "IModelObject[]",
+                  "csIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ],
+                  "subset" : "IModelObject",
+                  "subsetClientId" : "String",
+                  "persistentObjMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "IModelObject"
+                     ]
+                  ]
+               }
+            ],
+            "composition" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Realization-2015-07-RealizationManagement/createOrUpdateCompositionSubset",
+   "OperationInput" : {
+      "input" : {
+         "createInfo" : [
+            {
+               "subsetCreateInfos" : [
+                  {
+                     "sourceModel" : "IModelObject",
+                     "includeSourceElements" : "IModelObject[]",
+                     "transform" : "double[]",
+                     "baselineRev" : "IModelObject",
+                     "subsetClientId" : "String",
+                     "purpose" : "String",
+                     "recipeDef" : "IModelObject",
+                     "configContext" : "IModelObject"
+                  }
+               ],
+               "auxObjectInfo" : [
+                  {
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "sourceObject" : "IModelObject"
+                  }
+               ],
+               "clientID" : "String",
+               "auxInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "compositionInfo" : {
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "compositionType" : "String",
+                  "composition" : "IModelObject",
+                  "targetModel" : "IModelObject"
+               }
+            }
+         ],
+         "updateInfo" : [
+            {
+               "removeList" : "IModelObject[]",
+               "baselineRev" : "IModelObject",
+               "transform" : "double[]",
+               "updateAuxObjectInfo" : [
+                  {
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "compoundInfo" : "Rlz0::Soa::Realization::_2015_07::RealizationManagement::CompoundCreateInfoMap3",
+                              "attributeInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "boType" : "String"
+                           }
+                        ]
+                     },
+                     "attributeInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "auxObject" : "IModelObject",
+                     "boType" : "String",
+                     "relationType" : "String"
+                  }
+               ],
+               "replaceSourceElements" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "subsetElement" : "IModelObject",
+               "persistSourceElements" : "IModelObject",
+               "removeSecondaryObjectsAutomatically" : "bool",
+               "clientID" : "String",
+               "updateAuxInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "objLastModifiedDateGuard" : "Date",
+               "appendList" : "IModelObject[]",
+               "recipeDef" : "IModelObject",
+               "updateRecipeForAppendsAndRemoves" : "bool"
+            }
+         ]
+      }
+   }
+}

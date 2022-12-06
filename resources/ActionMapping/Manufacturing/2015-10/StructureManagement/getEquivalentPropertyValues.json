@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "propertyNamesByCategory" : [
+               {
+                  "propertyCategory" : "String",
+                  "propertyNames" : "String[]"
+               }
+            ],
+            "originalItemRevision" : "IModelObject",
+            "newItemRevision" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-10-StructureManagement/getEquivalentPropertyValues",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "equivalentPropValuesElements" : [
+         {
+            "equivalentPropertyValues" : [
+               {
+                  "sourcePropName" : "String",
+                  "sourceValue" : "String",
+                  "targetPropName" : "String"
+               }
+            ],
+            "propertyCategory" : "String",
+            "attachments" : [
+               {
+                  "relationName" : "String",
+                  "action" : "String",
+                  "secondary" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

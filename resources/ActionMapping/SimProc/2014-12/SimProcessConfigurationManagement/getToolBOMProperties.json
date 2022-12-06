@@ -1,0 +1,338 @@
+{
+   "ServiceOperation" : "Internal-SimProc-2014-12-SimProcessConfigurationManagement/getToolBOMProperties",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "itemsPropValueStruct" : {
+         "toolTabPropValue" : {
+            "attributeConfigTabPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "boName" : "String",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "inputConfigTabPropValue" : {
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "boName" : "String",
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "boName" : "String",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               }
+            },
+            "parentInputConfigTabPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String",
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "accessControlConfigTabPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String",
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "parentAttributeConfigTabPropValue" : {
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap",
+                        "boName" : "String",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        }
+                     }
+                  ]
+               }
+            },
+            "envVarConfigTabPropValue" : {
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String"
+                     }
+                  ]
+               }
+            },
+            "generalConfigTabPropValue" : {
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "boName" : "String",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               }
+            },
+            "parentEnvVarConfigTabPropValue" : {
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "boName" : "String",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               }
+            },
+            "toolPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "boName" : "String",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               },
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "boName" : "String"
+            },
+            "inputParamConfigTabPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String"
+                     }
+                  ]
+               },
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "boName" : "String"
+            },
+            "parentUserFeedbackConfigTabPropValue" : {
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "boName" : "String",
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "boName" : "String",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               }
+            },
+            "userFeedbackConfigTabPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "outputConfigTabPropValue" : {
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String"
+                     }
+                  ]
+               }
+            },
+            "parentInputParamConfigTabPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String",
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "parentOutputConfigTabPropValue" : {
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "boName" : "String",
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap",
+                        "boName" : "String",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        }
+                     }
+                  ]
+               }
+            },
+            "parentLaunchPropConfigTabPropValue" : {
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String"
+                     }
+                  ]
+               }
+            },
+            "parentAccessControlConfigTabPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap",
+                        "boName" : "String",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        }
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "parentGeneralConfigTabPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String",
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "launchPropConfigTabPropValue" : {
+               "refObjNameValueMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "refObjNameValueMap" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::ReferencePropMap",
+                        "propNameValueMap" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "boName" : "String"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         },
+         "childTools" : "CAE0::Soa::Internal::SimProc::_2014_12::SimProcessConfigurationManagement::CAEToolItemPropStruct[]",
+         "toolObject" : "IModelObject"
+      }
+   },
+   "OperationInput" : {
+      "tabIdentifiers" : "String[]"
+   }
+}

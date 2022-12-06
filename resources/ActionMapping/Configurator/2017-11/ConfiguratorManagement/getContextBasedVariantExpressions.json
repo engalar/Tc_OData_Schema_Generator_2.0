@@ -1,0 +1,62 @@
+{
+   "OperationResponse" : {
+      "configObjectExpressions" : [
+         {
+            "targetObject" : "IModelObject",
+            "clientId" : "String",
+            "expressions" : [
+               {
+                  "formula" : "String",
+                  "exprID" : "String",
+                  "configExprSets" : [
+                     {
+                        "configExpressions" : [
+                           {
+                              "formula" : "String",
+                              "clientID" : "String",
+                              "subExpressions" : [
+                                 {
+                                    "expressionGroups" : [
+                                       {
+                                          "groupName" : "String",
+                                          "context" : "IModelObject",
+                                          "terms" : [
+                                             {
+                                                "valueText" : "String",
+                                                "familyID" : "String",
+                                                "familyNamespace" : "String",
+                                                "operatorCode" : "int",
+                                                "family" : "IModelObject",
+                                                "rangeExpressions" : [
+                                                   {
+                                                      "valueText" : "String",
+                                                      "operatorCode" : "int",
+                                                      "feature" : "IModelObject"
+                                                   }
+                                                ],
+                                                "selectionClass" : "String",
+                                                "value" : "IModelObject"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "expressionType" : "int"
+                           }
+                        ]
+                     }
+                  ],
+                  "expressionType" : "int"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Configurator-2017-11-ConfiguratorManagement/getContextBasedVariantExpressions",
+   "OperationInput" : {
+      "perspective" : "IModelObject",
+      "targetObjects" : "IModelObject[]"
+   }
+}

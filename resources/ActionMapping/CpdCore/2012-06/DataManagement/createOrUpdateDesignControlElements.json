@@ -1,0 +1,124 @@
+{
+   "OperationResponse" : {
+      "clientIdToDCEOutputMap" : {
+         "SampleKeyString" : {
+            "csIdMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String"
+               ]
+            ],
+            "shapeDesign" : {
+               "shapeDesign" : "IModelObject",
+               "shapeDesignRevsion" : "IModelObject"
+            },
+            "designControlElement" : "IModelObject"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "CpdCore-2012-06-DataManagement/createOrUpdateDesignControlElements",
+   "OperationInput" : {
+      "elementInfos" : [
+         {
+            "clientId" : "String",
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "boType" : "String",
+            "compoundCreateInput" : {
+               "createInfo" : {
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "compoundInfo" : {
+                     "SampleKeyString" : [
+                        {
+                           "attrInfo" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap",
+                           "boType" : "String"
+                        }
+                     ]
+                  },
+                  "boType" : "String"
+               },
+               "folder" : "IModelObject"
+            },
+            "auxiliaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "object" : "IModelObject",
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "boType" : "String",
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap"
+                           }
+                        ]
+                     },
+                     "boType" : "String"
+                  }
+               ]
+            },
+            "removeControlledElements" : [
+               {
+                  "csId" : "String",
+                  "clientId" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "secondaryObject" : "IModelObject"
+               }
+            ],
+            "guardObjLastModifiedDate" : "bool",
+            "replaceControlledElements" : [
+               {
+                  "csId" : "String",
+                  "clientId" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "secondaryObject" : "IModelObject"
+               }
+            ],
+            "directModelDataset" : "IModelObject",
+            "boundingBox" : "double[]",
+            "objLastModifiedDateGuard" : "Date",
+            "deleteControlledElements" : [
+               {
+                  "csId" : "String",
+                  "clientId" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "secondaryObject" : "IModelObject"
+               }
+            ],
+            "transform" : "double[]",
+            "modelObject" : "IModelObject",
+            "addControlledElements" : [
+               {
+                  "secondaryObject" : "IModelObject",
+                  "csId" : "String",
+                  "clientId" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "trueshapeDataset" : "IModelObject",
+            "element" : "IModelObject"
+         }
+      ]
+   }
+}

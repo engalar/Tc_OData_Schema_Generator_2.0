@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "objectPropNameValues" : [
+               {
+                  "vecNameVal" : [
+                     {
+                        "values" : "String[]",
+                        "name" : "String"
+                     }
+                  ],
+                  "object" : "IModelObject"
+               }
+            ],
+            "action" : "int",
+            "clientId" : "String",
+            "targetBo" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Validation-2012-02-Validation/performActionOnOverrideApproval"
+}

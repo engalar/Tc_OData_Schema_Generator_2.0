@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "relation" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Realization-2016-10-RealizationManagement/createRelations",
+   "OperationInput" : {
+      "input" : [
+         {
+            "secondaryObject" : "IModelObject",
+            "userData" : "IModelObject",
+            "clientId" : "String",
+            "primaryObject" : "IModelObject",
+            "relationType" : "String"
+         }
+      ]
+   }
+}

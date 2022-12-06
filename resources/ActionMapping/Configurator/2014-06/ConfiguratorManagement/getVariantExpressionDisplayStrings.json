@@ -1,0 +1,52 @@
+{
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getVariantExpressionDisplayStrings",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "displayStrings" : [
+         {
+            "expressionStrings" : "String[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "revRule" : "IModelObject",
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "expressions" : [
+               {
+                  "subExpressions" : [
+                     {
+                        "expressionGroups" : [
+                           {
+                              "terms" : [
+                                 {
+                                    "operatorCode" : "int",
+                                    "family" : "IModelObject",
+                                    "rangeExpressions" : [
+                                       {
+                                          "valueText" : "String",
+                                          "operatorCode" : "int"
+                                       }
+                                    ],
+                                    "value" : "IModelObject",
+                                    "familyID" : "String",
+                                    "familyNamespace" : "String",
+                                    "valueText" : "String"
+                                 }
+                              ],
+                              "groupName" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "clientId" : "String",
+                  "expressionType" : "int",
+                  "formula" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

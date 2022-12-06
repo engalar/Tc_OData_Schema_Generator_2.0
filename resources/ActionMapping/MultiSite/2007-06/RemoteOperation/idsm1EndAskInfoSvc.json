@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm1EndAskInfoSvc",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "roleName" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String"
+         },
+         "infoStagingDir" : "String",
+         "abortFlag" : "bool",
+         "infoType" : "int"
+      }
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2018-05-OccurrenceManagement/addSubstitutes",
+   "OperationInput" : {
+      "inputData" : {
+         "substitutesToBeAdded" : "IModelObject[]",
+         "element" : "IModelObject"
+      }
+   }
+}

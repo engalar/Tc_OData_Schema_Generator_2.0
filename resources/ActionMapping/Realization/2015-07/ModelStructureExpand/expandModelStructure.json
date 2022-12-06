@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "configurationContext" : "IModelObject",
+            "levelsToExpand" : "int",
+            "clientId" : "String",
+            "includeCopyStableIDMaps" : "bool",
+            "includeSourceObjectForSubsets" : "bool",
+            "objectToExpand" : "IModelObject",
+            "expandSubsetAsSaved" : "bool",
+            "preLoadVisualizationDatasets" : "bool",
+            "expandOptions" : {
+               "SampleKeyString" : "String"
+            },
+            "contextObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Realization-2015-07-ModelStructureExpand/expandModelStructure",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "copyStableIDData" : [
+               {
+                  "copyStableIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ],
+                  "subset" : "IModelObject"
+               }
+            ],
+            "elementContent" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

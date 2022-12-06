@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "SocialInt-2019-06-TeamCollaborationService/registerSocialUser",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : "String[]"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "socialAppType" : "String",
+            "redirectUri" : "String"
+         }
+      ]
+   }
+}

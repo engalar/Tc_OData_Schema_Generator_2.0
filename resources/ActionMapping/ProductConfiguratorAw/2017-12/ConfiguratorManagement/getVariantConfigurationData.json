@@ -1,0 +1,74 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "selectedObject" : "IModelObject",
+         "configPerspective" : "IModelObject",
+         "switchingToGuidedMode" : "bool",
+         "guidedConfigurationMode" : "bool",
+         "initialVariantRule" : "IModelObject",
+         "configContext" : "IModelObject",
+         "userSelections" : {
+            "SampleKeyString" : [
+               {
+                  "optionValue" : "String",
+                  "selectionState" : "int"
+               }
+            ]
+         },
+         "optionGroup" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2017-12-ConfiguratorManagement/getVariantConfigurationData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "isValidConfiguration" : "bool",
+      "currentGroup" : "String",
+      "userSelections" : {
+         "SampleKeyString" : [
+            {
+               "optionValue" : "String",
+               "selectionState" : "int"
+            }
+         ]
+      },
+      "selectionsSummary" : {
+         "summaryOfSelections" : [
+            {
+               "familyDisplayName" : "String",
+               "selectionState" : "int",
+               "valueDisplayValue" : "String"
+            }
+         ],
+         "displayName" : "String",
+         "internalName" : "String"
+      },
+      "configPerspective" : "IModelObject",
+      "allGroups" : [
+         {
+            "optGroup" : "String",
+            "groupDisplayName" : "String",
+            "families" : [
+               {
+                  "isThumbnailDisplay" : "bool",
+                  "familyOptions" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "familyDisplayName" : "String",
+                  "familyType" : "String",
+                  "family" : "String",
+                  "optionValues" : [
+                     {
+                        "optValue" : "IModelObject",
+                        "selectionState" : "int",
+                        "optValueStr" : "String",
+                        "allowedSelectionStates" : "int[]",
+                        "valueDisplayName" : "String"
+                     }
+                  ]
+               }
+            ],
+            "isComplete" : "bool"
+         }
+      ]
+   }
+}

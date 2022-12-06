@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "exportInfo" : {
+               "targetSites" : "IModelObject[]",
+               "exportType" : "bool",
+               "ai" : "IModelObject",
+               "workflowTemplate" : "IModelObject"
+            },
+            "dataInfo" : {
+               "exportScope" : "IModelObject",
+               "executionPlan" : "IModelObject",
+               "exportObjects" : "IModelObject[]",
+               "exportObjectsWithIC" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     "IModelObject[]"
+                  ]
+               ],
+               "infoForm" : "IModelObject"
+            },
+            "userCredentials" : {
+               "mesUserPassword" : "String",
+               "mesUserName" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "workflows" : "IModelObject[]"
+   },
+   "ServiceOperation" : "MESInteg-2016-09-Release/executionDataExport3"
+}

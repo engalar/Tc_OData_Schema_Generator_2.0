@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "results" : [
+         {
+            "errors" : [
+               {
+                  "objects" : "IModelObject[]",
+                  "message" : "String",
+                  "constraintType" : "IModelObject",
+                  "constraints" : "IModelObject[]"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-Constraints/validateConstraintConsistency",
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "constraintTypes" : "IModelObject[]",
+            "rootNodes" : "IModelObject[]"
+         }
+      ]
+   }
+}

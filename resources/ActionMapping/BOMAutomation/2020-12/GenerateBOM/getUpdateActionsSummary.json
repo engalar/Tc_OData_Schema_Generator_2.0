@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Internal-BOMAutomation-2020-12-GenerateBOM/getUpdateActionsSummary",
+   "OperationResponse" : {
+      "updateActions" : [
+         {
+            "alignedTargetOccurrences" : "IModelObject[]",
+            "modifiedSourceRev" : "IModelObject",
+            "alignedTargetRev" : "IModelObject",
+            "possibleUpdateActions" : [
+               {
+                  "internalValue" : "String",
+                  "displayValue" : "String"
+               }
+            ],
+            "modifiedSourceOccurrences" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "changeNoticeRevision" : "IModelObject",
+      "sourceRootOcc" : "IModelObject",
+      "targetRootOcc" : "IModelObject"
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "rootCauseObject" : "IModelObject",
+            "itemRevision" : "IModelObject",
+            "propertyName" : "String",
+            "relationName" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Capaonawc-2019-06-QualityIssueManagement/markObjectAsRootCause",
+   "OperationResponse" : {
+      "successfullyMarkedObjects" : "IModelObject[]",
+      "failedToMarkObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

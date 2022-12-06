@@ -1,0 +1,34 @@
+{
+   "ServiceOperation" : "Internal-ImportExport-2017-11-FileImportExport/importDocumentAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "input" : {
+         "transientFileWriteTicket" : "String",
+         "childSpecElementType" : "String",
+         "clientId" : "String",
+         "specDesc" : "String",
+         "specificationType" : "String",
+         "selectedObject" : "IModelObject",
+         "keywordImportOptions" : {
+            "keywordImportRules" : [
+               {
+                  "keywordImportConditions" : [
+                     {
+                        "keyword" : "String",
+                        "opType" : "String"
+                     }
+                  ],
+                  "conditionProcessingType" : "String",
+                  "targetChildType" : "String"
+               }
+            ],
+            "importOptions" : [
+               {
+                  "value" : "String",
+                  "option" : "String"
+               }
+            ]
+         }
+      }
+   }
+}

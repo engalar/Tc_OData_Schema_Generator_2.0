@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Manufacturing-2009-06-StructureManagement/deleteAttachments",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "lines" : "IModelObject[]"
+   }
+}

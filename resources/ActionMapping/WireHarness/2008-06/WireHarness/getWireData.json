@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "wires" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "wireData" : [
+         {
+            "lengthData" : [
+               {
+                  "length" : "double",
+                  "lengthType" : "String"
+               }
+            ],
+            "colorData" : [
+               {
+                  "color" : "String",
+                  "colorType" : "String"
+               }
+            ],
+            "wire" : "IModelObject",
+            "properties" : {
+               "separationCode" : "String",
+               "wireNumber" : "String",
+               "offset" : "String",
+               "multiplier" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "WireHarness-2008-06-WireHarness/getWireData"
+}

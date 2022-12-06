@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/findSupersedure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "supersedureOutput" : [
+         {
+            "findsupercedure" : "IModelObject[]",
+            "bomedit" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "bomedit" : "IModelObject[]"
+   }
+}

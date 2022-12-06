@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Partition-2011-06-Search/createPartitionExpressions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expressions" : [
+         {
+            "clientid" : "String",
+            "searchDef" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "partitionSearchexpInput" : {
+         "partitionQueryExpressions" : [
+            {
+               "clientid" : "String",
+               "partitionObjectExpression" : "IModelObject",
+               "partitionItemRevExpression" : "IModelObject"
+            }
+         ],
+         "unassignedQueryExpression" : {
+            "clientid" : "String",
+            "partitionSchemeNames" : "String[]"
+         }
+      }
+   }
+}

@@ -1,0 +1,56 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "scheduleTasksInfo" : [
+         {
+            "scheduleTask" : "IModelObject",
+            "parentTask" : "IModelObject"
+         }
+      ],
+      "hasMoreTasks" : "bool",
+      "taskBaselineMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "baselineTask" : "IModelObject",
+               "properties" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         ]
+      ],
+      "proxyTasks" : "IModelObject[]",
+      "calendarInfo" : {
+         "dayRanges" : {
+            "SampleKeyInt" : "String[]"
+         },
+         "eventRanges" : [
+            {
+               "eventDate" : "Date",
+               "ranges" : "String[]"
+            }
+         ]
+      },
+      "taskDependenciesInfo" : [
+         {
+            "taskDependency" : "IModelObject",
+            "properties" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagementAw-2018-12-ScheduleManagementAw/loadSchedule2",
+   "OperationInput" : {
+      "loadScheduleInfo" : {
+         "referenceTask" : "IModelObject",
+         "schedule" : "IModelObject",
+         "parentTasks" : "IModelObject[]",
+         "loadOptions" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "expandToSelection" : "bool",
+      "productContextInfos" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ActiveWorkspaceBom-2015-10-OccurrenceManagementCad/createBOMWindowsFromContexts",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "bomWindowsAndSelections" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "selections" : [
+                  {
+                     "selectionPath" : "IModelObject[]"
+                  }
+               ],
+               "bomWindow" : "IModelObject"
+            }
+         ]
+      ]
+   }
+}

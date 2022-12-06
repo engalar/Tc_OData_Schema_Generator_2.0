@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2008-12-Core/checkinForProcessSimulate",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "rootLines" : "IModelObject[]",
+      "params" : {
+         "isRecursive" : "bool",
+         "ciProcess" : "bool"
+      }
+   }
+}

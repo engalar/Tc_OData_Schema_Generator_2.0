@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Manufacturing-2009-06-StructureManagement/getStructureContextTopLines",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "lines" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "scs" : "IModelObject[]"
+   }
+}

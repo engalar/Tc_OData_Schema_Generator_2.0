@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "neutralPart" : "IModelObject",
+            "physicalPartInfo" : {
+               "manufacturingDate" : "Date",
+               "neutralItemId" : "String",
+               "serialNumber" : "String",
+               "manufacturerId" : "String",
+               "lotNumber" : "String",
+               "locationName" : "String",
+               "dispositionType" : "String"
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "physicalPartRevision" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AsMaintainedAw-2015-03-AsMaintainedAw/generatePhysicalPart"
+}

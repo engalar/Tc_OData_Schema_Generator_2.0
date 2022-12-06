@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/deleteSkus",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   }
+}

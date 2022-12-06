@@ -1,0 +1,64 @@
+{
+   "OperationInput" : {
+      "createPMIInputInfo" : [
+         {
+            "pmiData" : {
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "businessObjectProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "formType" : "String",
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "businessObjectArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               }
+            },
+            "targetObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createPMIOutput" : [
+         {
+            "createdPMI" : "IModelObject",
+            "targetObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "PMIManagement-2011-12-PMIManagement/createPMI"
+}

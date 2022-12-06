@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "filter" : {
+         "customStrings" : {
+            "SampleKeyString" : "String"
+         },
+         "aiQryParams" : {
+            "userId" : "String",
+            "contextString" : "String",
+            "releasedAfter" : "Date",
+            "createdAfter" : "Date",
+            "createdBefore" : "Date",
+            "modifiedAfter" : "Date",
+            "targetAppProjectId" : "String",
+            "modifiedBefore" : "Date",
+            "targetSiteIds" : "String[]",
+            "groupName" : "String",
+            "description" : "String",
+            "releasedBefore" : "Date",
+            "type" : "String",
+            "name" : "String"
+         },
+         "stateDescription" : "String",
+         "requestStatus" : "String[]",
+         "statusDescription" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "requests" : [
+         {
+            "description" : "String",
+            "ro" : "IModelObject",
+            "stateDesc" : "String",
+            "kvPairs" : {
+               "SampleKeyString" : "String"
+            },
+            "rscope" : "int",
+            "name" : "String",
+            "status" : {
+               "status" : "RequestStatus_Normal RequestStatus_Warning RequestStatus_Severe RequestStatus_Abort RequestStatus_Any",
+               "description" : "String"
+            },
+            "rupdate" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Ai-2013-12-Ai/findRequestsWithDependencies"
+}

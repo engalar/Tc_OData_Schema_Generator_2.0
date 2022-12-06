@@ -1,0 +1,169 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "details" : [
+         {
+            "revisionChangeDetails" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               }
+            },
+            "occEffChangeDetails" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "icChangeDetails" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               }
+            },
+            "periodChangeDetails" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2014-12-StructureVerification/getStructureChangeDetails",
+   "OperationInput" : {
+      "detailsElements" : [
+         {
+            "icChangesInfo" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "periodChangesInfo" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "revisionChangesInfo" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               }
+            },
+            "searchContext" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               }
+            },
+            "occEffChangesInfo" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            }
+         }
+      ]
+   }
+}

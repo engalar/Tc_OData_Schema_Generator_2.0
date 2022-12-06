@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : {
+      "fmsTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2020-05-SimulationManagementAw/processProgressMonitorFilesUsingDSM",
+   "OperationInput" : {
+      "statusObject" : "IModelObject",
+      "userSessionInfo" : {
+         "hostPath" : "String",
+         "tcSSOURL" : "String",
+         "tcSSOEnabled" : "bool",
+         "securityToken" : "String",
+         "tcSSOAppId" : "String"
+      },
+      "jobDetailObjects" : [
+         {
+            "viewModelProperties" : [
+               {
+                  "propertyValues" : "String[]",
+                  "propertyName" : "String"
+               }
+            ],
+            "objUID" : "String"
+         }
+      ],
+      "isDSMEnabled" : "bool"
+   }
+}

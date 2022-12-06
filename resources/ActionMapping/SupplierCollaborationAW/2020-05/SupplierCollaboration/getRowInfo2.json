@@ -1,0 +1,45 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "level" : "int",
+         "toBeExpandedNode" : "IModelObject",
+         "rootNode" : "IModelObject",
+         "structType" : "String"
+      },
+      "exchangeLineObj" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "endIndex" : "int",
+      "totalFound" : "int",
+      "viewModelRows" : [
+         {
+            "assemblyStructure" : {
+               "nodeId" : "String",
+               "totalChildCount" : "int",
+               "displayName" : "String",
+               "levelIndex" : "int",
+               "isLeafNode" : "bool",
+               "typeName" : "String",
+               "thumbnailImageTicket" : "String"
+            },
+            "viewModelObject" : {
+               "modelObject" : "IModelObject",
+               "viewModelProperties" : [
+                  {
+                     "propDBValue" : "String",
+                     "propDataType" : "String",
+                     "propUIValue" : "String",
+                     "propParentBO" : "IModelObject",
+                     "hasLOV" : "bool",
+                     "propInternalName" : "String",
+                     "isEditable" : "bool",
+                     "propDisplayName" : "String"
+                  }
+               ]
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2020-05-SupplierCollaboration/getRowInfo2"
+}

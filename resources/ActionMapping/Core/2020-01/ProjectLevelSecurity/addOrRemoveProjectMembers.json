@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "groups" : "IModelObject[]",
+            "addOrRemove" : "bool",
+            "gms" : "IModelObject[]",
+            "project" : "IModelObject",
+            "groupRoles" : [
+               {
+                  "isRemovable" : "bool",
+                  "tcRole" : "IModelObject",
+                  "tcGroup" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2020-01-ProjectLevelSecurity/addOrRemoveProjectMembers"
+}

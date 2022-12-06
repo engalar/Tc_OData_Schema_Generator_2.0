@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "bomLines" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-Redlining/revertPendingEdits"
+}

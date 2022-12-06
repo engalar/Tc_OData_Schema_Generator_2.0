@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "equivalentObjects" : [
+         {
+            "eqvTargetLines" : "IModelObject[]",
+            "eqvSrcLines" : "IModelObject[]"
+         }
+      ],
+      "comparisonCriteria" : {
+         "dateMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "objMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "dblMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "intMap" : {
+            "SampleKeyString" : "int[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2012-02-StructureVerification/getActivitiesComparisonDetails",
+   "OperationResponse" : {
+      "details" : [
+         {
+            "equivalentLines" : "IModelObject[]",
+            "index" : "int",
+            "details" : {
+               "children" : "Teamcenter::Soa::Internal::StructureManagement::_2012_02::StructureVerification::ActivityDetailsElement[]",
+               "isDifferent" : "bool",
+               "activities" : "IModelObject[]"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,58 @@
+{
+   "OperationInput" : {
+      "sortCriteria" : {
+         "sortDirection" : "int",
+         "fieldName" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveModeler-2019-12-DataModelManagement/getRootTypes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "columnConfig" : {
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "enableSorting" : "bool",
+               "pixelWidth" : "int",
+               "isFilteringEnabled" : "bool",
+               "displayName" : "String",
+               "typeName" : "String",
+               "hiddenFlag" : "bool",
+               "sortDirection" : "String",
+               "columnOrder" : "int",
+               "sortPriority" : "int",
+               "propertyName" : "String"
+            }
+         ],
+         "operationType" : "String"
+      },
+      "totalFound" : "int",
+      "viewModelObjects" : [
+         {
+            "typeInfoViewModelObject" : [
+               {
+                  "typeInfo" : {
+                     "typeHierarchy" : "String[]",
+                     "rootTypeName" : "String",
+                     "canAddSubTypes" : "bool",
+                     "type" : "String",
+                     "level" : "int"
+                  },
+                  "viewModelPropertiesMap" : {
+                     "SampleKeyString" : {
+                        "propDisplayName" : "String",
+                        "isModifiable" : "bool",
+                        "propInternalName" : "String",
+                        "propUIValue" : "String",
+                        "propDataType" : "String",
+                        "propDBValue" : "String"
+                     }
+                  },
+                  "hasChildren" : "bool"
+               }
+            ]
+         }
+      ],
+      "endIndex" : "int"
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "partitionObject" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/getConditionalElemGroups",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "conditionalElemGroupObjects" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

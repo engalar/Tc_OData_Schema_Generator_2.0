@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "transientFileWriteTicket" : "String",
+            "objectToProcess" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "resultObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Requirementsmanagement-2007-01-RequirementsManagement/setRichContent"
+}

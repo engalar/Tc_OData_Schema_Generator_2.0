@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "operation" : "int"
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/getRevisionRules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "revRuleNames" : "String[]"
+   }
+}

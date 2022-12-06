@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "childGroupsToGroupStructs" : [
+         {
+            "groupsToCreateAndAdd" : [
+               {
+                  "privilege" : "bool",
+                  "security" : "String",
+                  "description" : "String",
+                  "localVolume" : "IModelObject",
+                  "volume" : "IModelObject",
+                  "name" : "String"
+               }
+            ],
+            "groupsToAdd" : "IModelObject[]",
+            "parentGroup" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Administration-2017-05-GroupManagement/addChildGroups"
+}

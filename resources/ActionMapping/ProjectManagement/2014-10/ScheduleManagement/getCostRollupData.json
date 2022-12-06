@@ -1,0 +1,39 @@
+{
+   "ServiceOperation" : "ProjectManagement-2014-10-ScheduleManagement/getCostRollupData",
+   "OperationResponse" : {
+      "costServiceData" : "IServiceData",
+      "costDetails" : [
+         {
+            "billRate" : "IModelObject",
+            "taskCostDetails" : "Teamcenter::Soa::ProjectManagement::_2014_10::ScheduleManagement::CostDetailContainer[]",
+            "currency" : "String",
+            "totalEstimatedMinutes" : "int",
+            "totalEstimatedCost" : "double",
+            "billingType" : "String",
+            "billCode" : "String",
+            "billSubCode" : "String",
+            "task" : "IModelObject",
+            "numchildren" : "int",
+            "fixedCostData" : [
+               {
+                  "name" : "String",
+                  "subCode" : "String",
+                  "useActual" : "bool",
+                  "estimate" : "String",
+                  "fixedCost" : "IModelObject",
+                  "accrualType" : "int",
+                  "currency" : "String",
+                  "actual" : "String",
+                  "billingType" : "String",
+                  "billCode" : "String"
+               }
+            ],
+            "totalAccruedCost" : "double",
+            "totalAccruedMinutes" : "int"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "costDetailRequest" : "IModelObject[]"
+   }
+}

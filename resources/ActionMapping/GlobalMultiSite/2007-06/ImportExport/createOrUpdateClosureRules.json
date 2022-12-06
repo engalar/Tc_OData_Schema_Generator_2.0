@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/createOrUpdateClosureRules",
+   "OperationResponse" : {
+      "closureRuleObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "closureRuleToUpdate" : "IModelObject",
+            "depth" : "int[]",
+            "scope" : "String",
+            "comments" : "String[]",
+            "clauses" : "String[]",
+            "description" : "String",
+            "schemaFormat" : "String",
+            "name" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "ProductionManagement-2007-06-MeasurementDataLoad/insertLogData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "logInput" : [
+         {
+            "uploadTime" : "String",
+            "routineId" : "String",
+            "eventTime" : "String",
+            "plantId" : "String",
+            "scriptId" : "String",
+            "iFail" : "int",
+            "errorMessage" : "String",
+            "fileName" : "String",
+            "jsn" : "String",
+            "deviceId" : "String",
+            "attributeId" : "String",
+            "errorCode" : "int",
+            "urlToDevice" : "String",
+            "routineName" : "String",
+            "scriptRev" : "String",
+            "featureName" : "String"
+         }
+      ]
+   }
+}

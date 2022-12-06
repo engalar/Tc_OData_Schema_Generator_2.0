@@ -1,0 +1,42 @@
+{
+   "OperationResponse" : {
+      "additionalInfo" : {
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strToDblVectorMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-DebugMonitor-2015-10-JournalBasedTesting/terminateJBT",
+   "OperationInput" : {
+      "input" : {
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToDblVectorMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         }
+      }
+   }
+}

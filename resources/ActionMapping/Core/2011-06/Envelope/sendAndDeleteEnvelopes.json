@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Core-2011-06-Envelope/sendAndDeleteEnvelopes",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "envelopes" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,60 @@
+{
+   "ServiceOperation" : "Internal-Cad-2017-05-StructureManagement/getProductStructureArrangements",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "arrOutput" : [
+         {
+            "psArrOutput" : [
+               {
+                  "arrangeData" : [
+                     {
+                        "arrangeID" : {
+                           "arrangeSubfileid" : "String",
+                           "arrangeName" : "String"
+                        },
+                        "occData" : [
+                           {
+                              "occurrenceThread" : "String",
+                              "occTransform" : "double[]",
+                              "absOccOverrides" : [
+                                 {
+                                    "occurrenceThreadPath" : "String[]",
+                                    "absTransform" : "double[]",
+                                    "suppression" : "bool",
+                                    "jtOverride" : {
+                                       "jtDataset" : "IModelObject",
+                                       "fileTicket" : "String",
+                                       "jtFileName" : "String",
+                                       "jtFile" : "IModelObject"
+                                    },
+                                    "overrideTypes" : "int",
+                                    "usedArrangement" : {
+                                       "arrangeName" : "String",
+                                       "arrangeSubfileid" : "String"
+                                    }
+                                 }
+                              ]
+                           }
+                        ],
+                        "arrangeType" : "int"
+                     }
+                  ],
+                  "line" : "IModelObject",
+                  "bvr" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "psArrInput" : [
+         {
+            "lwbStructures" : {
+               "lwbLines" : "IModelObject[]",
+               "lwbWindow" : "IModelObject"
+            },
+            "bvrs" : "IModelObject[]"
+         }
+      ]
+   }
+}

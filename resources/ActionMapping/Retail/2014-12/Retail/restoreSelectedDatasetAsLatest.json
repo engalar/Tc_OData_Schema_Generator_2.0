@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "datasetToRestore" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Retail-2014-12-Retail/restoreSelectedDatasetAsLatest",
+   "OperationResponse" : "IServiceData"
+}

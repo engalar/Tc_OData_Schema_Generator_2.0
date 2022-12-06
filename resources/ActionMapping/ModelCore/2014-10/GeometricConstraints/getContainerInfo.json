@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "datasetOptions" : {
+         "mode" : "NO_DATA GET_DATASET_ONLY GET_FILE_FOR_NAMED_REF GET_READTICKET_FOR_NAMED_REF",
+         "namedRefName" : "String"
+      },
+      "navOptions" : {
+         "configContextObject" : "IModelObject",
+         "mode" : "PRECISE CONFIGURED"
+      },
+      "inputs" : [
+         {
+            "owner" : "IModelObject",
+            "iteration" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "ModelCore-2014-10-GeometricConstraints/getContainerInfo",
+   "OperationResponse" : {
+      "containerInfo" : [
+         {
+            "iteration" : "int",
+            "constraintData" : "IModelObject",
+            "systemManaged" : "bool",
+            "areConstraintsFullySolved" : "bool",
+            "nameReferenceTicketMap" : {
+               "SampleKeyString" : "String"
+            },
+            "isLatestIterationWorking" : "bool",
+            "latestIteration" : "int",
+            "owner" : "IModelObject",
+            "memberList" : [
+               {
+                  "member" : "IModelObject",
+                  "csid" : "String",
+                  "isForeground" : "bool"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

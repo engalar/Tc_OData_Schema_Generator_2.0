@@ -1,0 +1,45 @@
+{
+   "OperationInput" : {
+      "typeInput" : [
+         {
+            "typeInputsMap" : {
+               "SampleKeyString" : {
+                  "typeDefinition" : {
+                     "typeClassName" : "String",
+                     "parentTypeName" : "String",
+                     "displayName" : "String",
+                     "typeOptions" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "createPrimaryBusinessObject" : "bool",
+                     "name" : "String",
+                     "isAbstract" : "bool",
+                     "description" : "String"
+                  },
+                  "dataModelOptions" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "typeInputsMap" : "Teamcenter::Soa::Internal::Core::_2020_01::ActiveModeler::TypeInputMap"
+               }
+            },
+            "dataModelOptions" : {
+               "SampleKeyString" : "String[]"
+            },
+            "typeDefinition" : {
+               "typeClassName" : "String",
+               "typeOptions" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "displayName" : "String",
+               "parentTypeName" : "String",
+               "createPrimaryBusinessObject" : "bool",
+               "name" : "String",
+               "isAbstract" : "bool",
+               "description" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Core-2020-01-ActiveModeler/createTypes"
+}

@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "deriveInput" : {
+         "workflowTemplateName" : "String",
+         "selectedObjects" : "IModelObject[]",
+         "deepCopyDatas" : [
+            {
+               "inputProperties" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "operationInputType" : "String",
+               "deepCopyProperties" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "attachedObject" : "IModelObject",
+               "childDeepCopyData" : "Teamcenter::Soa::ChangeManagement::_2020_01::ChangeManagement::DeepCopyData[]"
+            }
+         ],
+         "propagateRelation" : "bool",
+         "derivePropertyData" : {
+            "propertyNameValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "boName" : "String",
+            "compoundDeriveInput" : {
+               "SampleKeyString" : [
+                  {
+                     "boName" : "String",
+                     "compoundDeriveInput" : "Teamcenter::Soa::ChangeManagement::_2020_01::ChangeManagement::DerivePropertyValueInputMap",
+                     "propertyNameValues" : {
+                        "SampleKeyString" : "String[]"
+                     }
+                  }
+               ]
+            }
+         },
+         "submitToWorkflow" : "bool"
+      }
+   },
+   "ServiceOperation" : "ChangeManagement-2020-01-ChangeManagement/deriveChangeItems",
+   "OperationResponse" : "IServiceData"
+}

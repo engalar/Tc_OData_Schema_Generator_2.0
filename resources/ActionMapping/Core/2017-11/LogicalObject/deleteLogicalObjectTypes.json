@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-Core-2017-11-LogicalObject/deleteLogicalObjectTypes",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "logicalObjects" : "IModelObject[]"
+   }
+}

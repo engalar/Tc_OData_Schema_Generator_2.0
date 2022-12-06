@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "renderFormat" : "String",
+      "saveRenderedFiles" : "bool",
+      "selectedObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "DocumentManagement-2018-11-PrintOrRender/renderFilesSubmitRequest",
+   "OperationResponse" : "IServiceData"
+}

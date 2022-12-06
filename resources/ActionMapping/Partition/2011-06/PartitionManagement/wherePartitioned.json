@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "partitionable" : "IModelObject",
+            "partitions" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Partition-2011-06-PartitionManagement/wherePartitioned",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "partitionable" : "IModelObject",
+            "partitionScheme" : "IModelObject",
+            "modelContext" : "IModelObject",
+            "configurationContext" : "IModelObject"
+         }
+      ]
+   }
+}

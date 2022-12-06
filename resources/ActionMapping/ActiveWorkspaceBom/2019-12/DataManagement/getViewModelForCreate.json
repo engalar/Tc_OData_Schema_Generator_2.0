@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "viewModelCreateInObjsJsonStrings" : "String[]",
+      "createHtmlProviders" : "String[]",
+      "serviceData" : "IServiceData",
+      "columnPropToCreateInPropMap" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-12-DataManagement/getViewModelForCreate",
+   "OperationInput" : {
+      "input" : {
+         "businessObjectType" : "String",
+         "parent" : "IModelObject",
+         "propertyNames" : "String[]"
+      }
+   }
+}

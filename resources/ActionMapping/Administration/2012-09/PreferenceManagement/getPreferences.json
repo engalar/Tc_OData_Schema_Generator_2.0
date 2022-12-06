@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/getPreferences",
+   "OperationResponse" : {
+      "response" : [
+         {
+            "values" : {
+               "valueOrigination" : "String",
+               "values" : "String[]"
+            },
+            "definition" : {
+               "name" : "String",
+               "type" : "int",
+               "description" : "String",
+               "isDisabled" : "bool",
+               "isEnvEnabled" : "bool",
+               "protectionScope" : "String",
+               "category" : "String",
+               "isArray" : "bool",
+               "isOOTBPreference" : "bool"
+            }
+         }
+      ],
+      "data" : "IServiceData"
+   },
+   "OperationInput" : {
+      "includePreferenceDescriptions" : "bool",
+      "preferenceNames" : "String[]"
+   }
+}

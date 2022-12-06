@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "index" : "int"
+   },
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "Core-2012-02-Session/unregisterState"
+}

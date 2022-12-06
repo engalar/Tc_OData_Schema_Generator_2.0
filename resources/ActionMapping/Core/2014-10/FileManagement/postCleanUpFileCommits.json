@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-Core-2014-10-FileManagement/postCleanUpFileCommits",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "files" : "IModelObject[]"
+   }
+}

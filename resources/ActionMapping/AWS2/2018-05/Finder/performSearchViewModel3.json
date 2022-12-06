@@ -1,0 +1,148 @@
+{
+   "OperationInput" : {
+      "searchInput" : {
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "colorValue" : "String",
+                  "count" : "int",
+                  "selected" : "bool",
+                  "startEndRange" : "String",
+                  "startNumericValue" : "double",
+                  "endNumericValue" : "double",
+                  "stringDisplayValue" : "String",
+                  "startDateValue" : "Date",
+                  "endDateValue" : "Date",
+                  "searchFilterType" : "String",
+                  "stringValue" : "String"
+               }
+            ]
+         },
+         "searchSortCriteria" : [
+            {
+               "fieldName" : "String",
+               "sortDirection" : "ASC DESC"
+            }
+         ],
+         "focusObjUid" : "String",
+         "pagingType" : "String",
+         "internalPropertyName" : "String",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "maxToLoad" : "int",
+         "cursor" : {
+            "endIndex" : "int",
+            "startIndex" : "int",
+            "startReached" : "bool",
+            "endReached" : "bool"
+         },
+         "attributesToInflate" : "String[]",
+         "maxToReturn" : "int",
+         "searchFilterFieldSortType" : "String",
+         "providerName" : "String"
+      },
+      "saveColumnConfigData" : {
+         "scopeName" : "String",
+         "clientScopeURI" : "String",
+         "scope" : "String",
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "sortPriority" : "int",
+               "pixelWidth" : "int",
+               "sortDirection" : "String",
+               "columnOrder" : "int",
+               "propertyName" : "String",
+               "hiddenFlag" : "bool",
+               "typeName" : "String"
+            }
+         ]
+      },
+      "inflateProperties" : "bool",
+      "columnConfigInput" : {
+         "hostingClientName" : "String",
+         "clientName" : "String",
+         "columnsToExclude" : "String[]",
+         "clientScopeURI" : "String",
+         "operationType" : "String"
+      },
+      "noServiceData" : "bool"
+   },
+   "OperationResponse" : {
+      "searchFilterCategories" : [
+         {
+            "internalName" : "String",
+            "displayName" : "String",
+            "defaultFilterValueDisplayCount" : "int"
+         }
+      ],
+      "searchFilterMap5" : {
+         "SampleKeyString" : [
+            {
+               "endDateValue" : "Date",
+               "stringValue" : "String",
+               "searchFilterType" : "String",
+               "endNumericValue" : "double",
+               "startNumericValue" : "double",
+               "startDateValue" : "Date",
+               "stringDisplayValue" : "String",
+               "startEndRange" : "String",
+               "selected" : "bool",
+               "count" : "int",
+               "colorValue" : "String"
+            }
+         ]
+      },
+      "additionalSearchInfoMap" : {
+         "SampleKeyString" : "String[]"
+      },
+      "searchFilterCategoriesUnpopulated" : [
+         {
+            "displayName" : "String",
+            "defaultFilterValueDisplayCount" : "int",
+            "internalName" : "String"
+         }
+      ],
+      "cursor" : {
+         "endIndex" : "int",
+         "startIndex" : "int",
+         "endReached" : "bool",
+         "startReached" : "bool"
+      },
+      "defaultFilterFieldDisplayCount" : "int",
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int",
+      "objectsGroupedByProperty" : {
+         "unmatchedObjectList" : "IModelObject[]",
+         "internalPropertyName" : "String",
+         "groupedObjectsMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               "String[]"
+            ]
+         ]
+      },
+      "totalFound" : "int",
+      "searchResultsJSON" : "String",
+      "columnConfig" : {
+         "columns" : [
+            {
+               "pixelWidth" : "int",
+               "displayName" : "String",
+               "typeName" : "String",
+               "sortDirection" : "String",
+               "columnOrder" : "int",
+               "hiddenFlag" : "bool",
+               "sortPriority" : "int",
+               "propertyName" : "String"
+            }
+         ],
+         "columnConfigId" : "String",
+         "operationType" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-05-Finder/performSearchViewModel3"
+}

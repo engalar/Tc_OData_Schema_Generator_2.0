@@ -1,0 +1,33 @@
+{
+   "ServiceOperation" : "Core-2008-06-DataManagement/getRevNRAttachDetails",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "excludedLetters" : "String[]",
+      "secRevDetails" : [
+         {
+            "revFormat" : "int",
+            "revOption" : "String"
+         }
+      ],
+      "initRevDetails" : [
+         {
+            "revFormat" : "int",
+            "revOption" : "String"
+         }
+      ],
+      "supplRevDetails" : [
+         {
+            "revFormat" : "int",
+            "revOption" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "typeAndItemRevInfos" : [
+         {
+            "itemRev" : "IModelObject",
+            "typeName" : "String"
+         }
+      ]
+   }
+}

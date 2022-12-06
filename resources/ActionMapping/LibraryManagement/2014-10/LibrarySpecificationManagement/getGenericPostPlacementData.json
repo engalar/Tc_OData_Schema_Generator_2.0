@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "genPPDataInputs" : [
+         {
+            "sourceNode" : "IModelObject",
+            "specification" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "genPPDatas" : [
+         {
+            "targetLibraryNode" : "IModelObject",
+            "quantity" : "int",
+            "specification" : "IModelObject",
+            "genPPAttrExprs" : [
+               {
+                  "expression" : "String",
+                  "propertyName" : "String"
+               }
+            ],
+            "sourceLibraryNode" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/getGenericPostPlacementData"
+}

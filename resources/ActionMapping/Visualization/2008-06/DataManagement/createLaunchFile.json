@@ -1,0 +1,41 @@
+{
+   "OperationResponse" : {
+      "ticket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/createLaunchFile",
+   "OperationInput" : {
+      "serverInfo" : {
+         "hostpath" : "String",
+         "servermode" : "int",
+         "serverAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "protocol" : "String"
+      },
+      "sessionInfo" : {
+         "sessionAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "sessionDescriminator" : "String"
+      },
+      "userDataAgentInfo" : {
+         "userAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "userApplication" : "String",
+         "userAppVersion" : "String"
+      },
+      "idInfos" : [
+         {
+            "id" : "IModelObject",
+            "itemRev" : "IModelObject",
+            "operation" : "String",
+            "idAdditionalInfo" : {
+               "SampleKeyString" : "String"
+            },
+            "item" : "IModelObject"
+         }
+      ]
+   }
+}

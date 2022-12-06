@@ -1,0 +1,38 @@
+{
+   "OperationResponse" : {
+      "updateSnapshotInfo" : {
+         "SampleKeyString" : {
+            "snapshotDataset" : "IModelObject",
+            "references" : [
+               {
+                  "uploadedFile" : "IModelObject",
+                  "uploadedFilename" : "String",
+                  "clientFileId" : "String",
+                  "uploadedFileRefNames" : "String"
+               }
+            ]
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/updateTwoDSnaphot",
+   "OperationInput" : {
+      "input" : [
+         {
+            "namedRefInfo" : [
+               {
+                  "fileTicket" : "String",
+                  "newObject" : "IModelObject",
+                  "existingObject" : "IModelObject",
+                  "refName" : "String",
+                  "fileState" : "String",
+                  "fileName" : "String",
+                  "clientFileId" : "String"
+               }
+            ],
+            "clientId" : "String",
+            "snapshotDataset" : "IModelObject"
+         }
+      ]
+   }
+}

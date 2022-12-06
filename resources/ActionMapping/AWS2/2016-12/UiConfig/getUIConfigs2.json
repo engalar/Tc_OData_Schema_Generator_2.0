@@ -1,0 +1,65 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "uiConfigInfo" : [
+         {
+            "commandConfigurations" : [
+               {
+                  "cmdCollections" : [
+                     {
+                        "childIsVisible" : "bool[]",
+                        "childConfigIndex" : "int[]",
+                        "childIsCollection" : "bool[]",
+                        "commandCollection" : "IModelObject"
+                     }
+                  ],
+                  "clientScope" : "IModelObject",
+                  "commands" : "IModelObject[]",
+                  "scopeName" : "String",
+                  "commandCollectionRels" : "IModelObject[]",
+                  "cmdCollectionIndex" : "int[]",
+                  "hostingClient" : "IModelObject"
+               }
+            ],
+            "columnConfigurations" : [
+               {
+                  "hostingClient" : "String",
+                  "columnConfigurations" : [
+                     {
+                        "columnConfigId" : "String",
+                        "columns" : [
+                           {
+                              "propertyName" : "String",
+                              "sortByFlag" : "bool",
+                              "typeName" : "String",
+                              "pixelWidth" : "int"
+                           }
+                        ],
+                        "sortDirection" : "String"
+                     }
+                  ],
+                  "scope" : "String",
+                  "clientScopeURI" : "String"
+               }
+            ],
+            "client" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AWS2-2016-12-UiConfig/getUIConfigs2",
+   "OperationInput" : {
+      "getUiConfigsIn" : [
+         {
+            "clientScopeURIs" : "String[]",
+            "scope" : {
+               "scopeQueryParam" : "String",
+               "scopeName" : "String"
+            },
+            "client" : {
+               "clientName" : "String",
+               "hostingClientName" : "String"
+            }
+         }
+      ]
+   }
+}

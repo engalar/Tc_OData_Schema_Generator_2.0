@@ -1,0 +1,50 @@
+{
+   "OperationResponse" : {
+      "modelElements" : [
+         {
+            "elementId" : "String",
+            "clientId" : "String",
+            "lastModifiedDate" : "Date",
+            "mappedProperties" : {
+               "SampleKeyString" : "String[]"
+            },
+            "businessObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "UmlSysml-2018-12-UmlSysml/updateModelElements3",
+   "OperationInput" : {
+      "updateModelElementsInput" : {
+         "configurationInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "clientId" : "String",
+         "modelRelationInfo" : [
+            {
+               "secondaryModel" : "IModelObject",
+               "primaryModel" : "IModelObject",
+               "propertyMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "action" : "String",
+               "relationType" : "String"
+            }
+         ],
+         "toolIdentifier" : "String",
+         "modelElements" : [
+            {
+               "umlId" : "String",
+               "propertyMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "tcuid" : "String",
+               "businessObjectType" : "String",
+               "lastModifiedDate" : "Date",
+               "parentModel" : "IModelObject",
+               "action" : "String"
+            }
+         ]
+      }
+   }
+}

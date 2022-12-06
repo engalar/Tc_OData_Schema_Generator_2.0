@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getDefaultRules",
+   "OperationInput" : {
+      "filterCriteria" : {
+         "valueFilters" : {
+            "valueIDs" : "String[]",
+            "values" : "IModelObject[]"
+         },
+         "groupFilters" : {
+            "groups" : "IModelObject[]",
+            "groupIDs" : "String[]"
+         },
+         "familyFilters" : {
+            "familyIDs" : "String[]",
+            "families" : "IModelObject[]"
+         },
+         "includeUnreferencedRules" : "bool"
+      },
+      "context" : "IModelObject"
+   }
+}

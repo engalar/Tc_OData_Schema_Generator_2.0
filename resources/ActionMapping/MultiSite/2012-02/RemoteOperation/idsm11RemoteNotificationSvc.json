@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11RemoteNotificationSvc",
+   "OperationResponse" : {
+      "out" : {
+         "failureCodes" : "int[]"
+      },
+      "userDataIp" : "String",
+      "serverCorrelationId" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "clientCorrelationId" : "String",
+            "roleName" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "userDataIp" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "osUserName" : "String"
+         },
+         "replicatedObjects" : "String[]",
+         "eventTypeName" : "String"
+      }
+   }
+}

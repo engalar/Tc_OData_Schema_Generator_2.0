@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "layoutItemRevision" : "String",
+            "selectedLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2014-12-ObjectManagement/addCADOccurrencesToLayout",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "addToLayoutMap" : {
+         "SampleKeyString" : {
+            "layoutChildren" : "IModelObject[]",
+            "layoutWindow" : "IModelObject",
+            "layoutTopline" : "IModelObject",
+            "conflictingLines" : "IModelObject[]"
+         }
+      }
+   }
+}

@@ -1,0 +1,47 @@
+{
+   "OperationResponse" : {
+      "vviStrBuffersOutputMap" : {
+         "SampleKeyString" : "String"
+      },
+      "ticket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Visualization-2013-05-DataManagement/createLaunchInfo",
+   "OperationInput" : {
+      "serverInfo" : {
+         "hostpath" : "String",
+         "serverAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "servermode" : "int",
+         "protocol" : "String"
+      },
+      "userDataAgentInfo" : {
+         "userAppVersion" : "String",
+         "userApplication" : "String",
+         "userAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         }
+      },
+      "sessionInfo" : {
+         "sessionDescriminator" : "String",
+         "hasTransientVolume" : "bool",
+         "sessionAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         }
+      },
+      "idInfos" : [
+         {
+            "itemRev" : "IModelObject",
+            "operation" : "String",
+            "clientId" : "String",
+            "item" : "IModelObject",
+            "object" : "IModelObject",
+            "idAdditionalInfo" : {
+               "SampleKeyString" : "String"
+            },
+            "structureMode" : "String"
+         }
+      ]
+   }
+}

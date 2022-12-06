@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "tgtDimValNotOnSrc" : {
+         "SampleKeyString" : "String[]"
+      },
+      "srcDimValNotOnTgt" : {
+         "SampleKeyString" : "String[]"
+      },
+      "tgtDimNotOnSrc" : "String[]",
+      "srcDimNotOnTgt" : "String[]",
+      "servicedata" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/replaceBOMLine",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "bomLine" : "IModelObject",
+            "boolFlag" : "bool",
+            "dimensionList" : "String[]",
+            "itemRevision" : "IModelObject"
+         }
+      ]
+   }
+}

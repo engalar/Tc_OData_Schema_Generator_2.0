@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "toolRequirements" : [
+         {
+            "parentObject" : "IModelObject",
+            "toolRequirements" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-Model/getToolRequirements",
+   "OperationInput" : {
+      "parentObject" : "IModelObject[]",
+      "toolRequirementStatus" : "String[]"
+   }
+}

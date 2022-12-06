@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Core-2011-06-Session/getTypeDescriptions",
+   "OperationResponse" : "IModelObject",
+   "OperationInput" : {
+      "typeNames" : "String[]"
+   }
+}

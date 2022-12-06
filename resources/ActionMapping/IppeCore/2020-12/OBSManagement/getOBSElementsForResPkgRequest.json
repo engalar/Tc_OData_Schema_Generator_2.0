@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "childTypes" : [
+         {
+            "realName" : "String",
+            "displayName" : "String"
+         }
+      ],
+      "obsElementsList" : "String[]"
+   },
+   "ServiceOperation" : "Internal-IppeCore-2020-12-OBSManagement/getOBSElementsForResPkgRequest",
+   "OperationInput" : {
+      "selectedElements" : "IModelObject[]",
+      "productContextInfo" : "IModelObject"
+   }
+}

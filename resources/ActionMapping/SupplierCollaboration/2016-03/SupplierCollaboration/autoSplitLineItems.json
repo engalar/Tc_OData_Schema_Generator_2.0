@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SupplierCollaboration-2016-03-SupplierCollaboration/autoSplitLineItems",
+   "OperationInput" : {
+      "splitInput" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "Internal-IppeCore-2020-12-WBSManagement/addMissingWBSContentFromCompare",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "topLineConditionalElement" : "IModelObject",
+      "conditionalElements" : "IModelObject[]",
+      "targetProductConfigInfo" : "IModelObject"
+   }
+}

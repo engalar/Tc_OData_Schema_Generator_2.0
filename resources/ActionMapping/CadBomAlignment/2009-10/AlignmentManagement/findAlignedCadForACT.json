@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "actLine" : "IModelObject",
+            "clientID" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "outputCadData" : [
+         {
+            "clientID" : "String",
+            "outputCad" : [
+               {
+                  "cadContext" : "IModelObject",
+                  "meAppPathNode" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2009-10-AlignmentManagement/findAlignedCadForACT"
+}

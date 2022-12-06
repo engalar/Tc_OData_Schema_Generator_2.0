@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Internal-Cae-2014-06-StructureManagement/refreshSimulationDataMonitor",
+   "OperationResponse" : {
+      "progressHeadings" : [
+         {
+            "dstype" : "String",
+            "totalCount" : "int",
+            "heading" : "String",
+            "foundCount" : "int"
+         }
+      ],
+      "columnHeadings" : "String[]",
+      "serviceData" : "IServiceData",
+      "monitoredComponentMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "columnHeading" : "String",
+                  "value" : "String",
+                  "isImage" : "bool"
+               }
+            ]
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "itemrevisions" : "IModelObject[]"
+   }
+}

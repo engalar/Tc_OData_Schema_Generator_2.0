@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "targets" : "IModelObject[]"
+   },
+   "ServiceOperation" : "StructureManagement-2007-06-PublishByLink/deleteTargetsFromLink",
+   "OperationResponse" : "IServiceData"
+}

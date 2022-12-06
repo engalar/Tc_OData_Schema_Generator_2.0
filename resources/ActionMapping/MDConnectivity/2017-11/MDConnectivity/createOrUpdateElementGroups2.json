@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "orderedElementGroups" : [
+               {
+                  "attributeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "elements" : "IModelObject[]",
+                  "lastModifiedDateGuard" : "Date",
+                  "startElement" : "IModelObject",
+                  "clientId" : "String",
+                  "boType" : "String",
+                  "endElement" : "IModelObject",
+                  "orderedElementGroup" : "IModelObject",
+                  "specification" : "IModelObject"
+               }
+            ],
+            "conditionalElementGroups" : {
+               "clientId" : "String",
+               "orderedGroups" : "IModelObject[]",
+               "boType" : "String",
+               "modelObject" : "IModelObject",
+               "attributeInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "conditionalElementGroup" : "IModelObject",
+               "elements" : "IModelObject[]",
+               "lastModifiedDateGuard" : "Date"
+            },
+            "partition" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "condElementGroupClientId" : "String",
+            "orderedElementGroup" : {
+               "SampleKeyString" : "IModelObject"
+            },
+            "condElementGroup" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDConnectivity-2017-11-MDConnectivity/createOrUpdateElementGroups2"
+}

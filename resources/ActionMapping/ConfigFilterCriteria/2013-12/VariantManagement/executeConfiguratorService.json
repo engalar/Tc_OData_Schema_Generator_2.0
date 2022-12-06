@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "inputXMLString" : "String",
+      "configuratorURL" : "String"
+   },
+   "OperationResponse" : {
+      "responseData" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ConfigFilterCriteria-2013-12-VariantManagement/executeConfiguratorService"
+}

@@ -1,0 +1,34 @@
+{
+   "OperationResponse" : {
+      "servicedata" : "IServiceData",
+      "output" : {
+         "SampleKeyString" : {
+            "numProcessedRequests" : "int",
+            "numSuggestedRequests" : "int",
+            "nodeanswerLists" : [
+               {
+                  "backgroundNodeList" : "String[]"
+               }
+            ]
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Rdv-2010-04-VariantManagement/getValidBackgroundOverlays",
+   "OperationInput" : {
+      "abortOnError" : "bool",
+      "questions" : [
+         {
+            "disttargetsList" : [
+               {
+                  "proxtargetId" : "String",
+                  "proximity" : "double",
+                  "target" : "String"
+               }
+            ],
+            "clientId" : "String",
+            "revrulename" : "String",
+            "topitemrev" : "String"
+         }
+      ]
+   }
+}

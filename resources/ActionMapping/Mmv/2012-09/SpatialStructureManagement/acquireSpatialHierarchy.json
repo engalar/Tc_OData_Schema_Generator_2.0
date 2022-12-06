@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-Mmv-2012-09-SpatialStructureManagement/acquireSpatialHierarchy",
+   "OperationResponse" : {
+      "vpSpatialHierDatasets" : "IModelObject[]",
+      "vpTcFiles" : "IModelObject[]",
+      "vsOrigFilenames" : "String[]",
+      "vsFileTickets" : "String[]",
+      "serviceData" : "IServiceData",
+      "viIndexVector" : "int[]"
+   },
+   "OperationInput" : {
+      "input" : {
+         "vpBOMLines" : "IModelObject[]"
+      }
+   }
+}

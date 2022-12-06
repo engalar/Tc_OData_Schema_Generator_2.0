@@ -1,0 +1,122 @@
+{
+   "OperationInput" : {
+      "columnConfigInput" : {
+         "columnsToExclude" : "String[]",
+         "clientScopeURI" : "String",
+         "operationType" : "String",
+         "hostingClientName" : "String",
+         "clientName" : "String"
+      },
+      "saveColumnConfigData" : {
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "typeName" : "String",
+               "propertyName" : "String",
+               "columnOrder" : "int",
+               "sortDirection" : "String",
+               "hiddenFlag" : "bool",
+               "pixelWidth" : "int",
+               "sortPriority" : "int"
+            }
+         ],
+         "scope" : "String",
+         "clientScopeURI" : "String",
+         "scopeName" : "String"
+      },
+      "searchInput" : {
+         "startIndex" : "int",
+         "searchSortCriteria" : [
+            {
+               "fieldName" : "String",
+               "sortDirection" : "ASC DESC"
+            }
+         ],
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "searchFilterType" : "String",
+                  "stringValue" : "String",
+                  "endDateValue" : "Date",
+                  "stringDisplayValue" : "String",
+                  "startDateValue" : "Date",
+                  "startNumericValue" : "double",
+                  "endNumericValue" : "double",
+                  "startEndRange" : "String",
+                  "selected" : "bool",
+                  "count" : "int"
+               }
+            ]
+         },
+         "maxToLoad" : "int",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "internalPropertyName" : "String",
+         "attributesToInflate" : "String[]",
+         "providerName" : "String",
+         "maxToReturn" : "int",
+         "searchFilterFieldSortType" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-AWS2-2016-12-Finder/performSearch2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int",
+      "objectsGroupedByProperty" : {
+         "groupedObjectsMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               "String[]"
+            ]
+         ],
+         "internalPropertyName" : "String",
+         "unmatchedObjectList" : "IModelObject[]"
+      },
+      "totalFound" : "int",
+      "searchFilterCategories" : [
+         {
+            "internalName" : "String",
+            "displayName" : "String",
+            "defaultFilterValueDisplayCount" : "int"
+         }
+      ],
+      "defaultFilterFieldDisplayCount" : "int",
+      "searchFilterMap2" : {
+         "SampleKeyString" : [
+            {
+               "endDateValue" : "Date",
+               "stringValue" : "String",
+               "searchFilterType" : "String",
+               "endNumericValue" : "double",
+               "startNumericValue" : "double",
+               "stringDisplayValue" : "String",
+               "startDateValue" : "Date",
+               "selected" : "bool",
+               "startEndRange" : "String",
+               "count" : "int",
+               "colorValue" : "String"
+            }
+         ]
+      },
+      "columnConfig" : {
+         "columns" : [
+            {
+               "typeName" : "String",
+               "hiddenFlag" : "bool",
+               "propertyName" : "String",
+               "columnOrder" : "int",
+               "sortDirection" : "String",
+               "pixelWidth" : "int",
+               "sortPriority" : "int"
+            }
+         ],
+         "columnConfigId" : "String",
+         "operationType" : "String"
+      },
+      "searchResults" : "IModelObject[]",
+      "endIndex" : "int"
+   }
+}

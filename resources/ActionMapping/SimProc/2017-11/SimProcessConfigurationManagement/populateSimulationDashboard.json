@@ -1,0 +1,41 @@
+{
+   "OperationInput" : {
+      "dashboardConfiguration" : "IModelObject",
+      "inputItemIRList" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "dashboardPopulateInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "pedigreeObject" : "IModelObject",
+                  "datasetComp" : "IModelObject",
+                  "attributeComp" : "IModelObject",
+                  "attributeName" : "String",
+                  "columnType" : "String",
+                  "columnName" : "String",
+                  "isModifiable" : "bool",
+                  "columnValue" : "String",
+                  "imageValue" : "String",
+                  "columnValueType" : "String"
+               }
+            ]
+         ]
+      ],
+      "objectsFiltered" : "int",
+      "serviceData" : "IServiceData",
+      "progressHeadings" : [
+         {
+            "totalCount" : "int",
+            "heading" : "String",
+            "dsType" : "String",
+            "foundCount" : "int"
+         }
+      ],
+      "objectsToMonitor" : "int"
+   },
+   "ServiceOperation" : "Internal-SimProc-2017-11-SimProcessConfigurationManagement/populateSimulationDashboard"
+}

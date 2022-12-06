@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : {
+      "historyObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-DataManagement/getHistory",
+   "OperationInput" : {}
+}

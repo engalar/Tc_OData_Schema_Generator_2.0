@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "BranchFoundation-2019-06-BranchFoundation/getBranchCandidatesInfo",
+   "OperationResponse" : {
+      "branchCandidates" : [
+         {
+            "branchMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "branch" : "IModelObject",
+            "inputCriteria" : "String[]",
+            "clientID" : "String",
+            "branchContents" : "IModelObject[]"
+         }
+      ]
+   }
+}

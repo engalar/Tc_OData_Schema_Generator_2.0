@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "laEditVec" : [
+         {
+            "laObj" : "IModelObject",
+            "laAttributes" : [
+               {
+                  "value" : "String",
+                  "name" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-Model/editLogicalAssignments",
+   "OperationResponse" : "IServiceData"
+}

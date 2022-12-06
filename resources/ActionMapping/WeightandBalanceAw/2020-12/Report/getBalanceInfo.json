@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "balanceType" : "String",
+         "element" : "String",
+         "cursor" : {
+            "endReached" : "bool",
+            "pageSize" : "int",
+            "endIndex" : "int"
+         },
+         "rollupDataset" : "IModelObject",
+         "fetchRange" : "bool",
+         "viewType" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-WeightandBalanceAw-2020-12-Report/getBalanceInfo",
+   "OperationResponse" : {
+      "range" : {
+         "endIndex" : "int",
+         "startIndex" : "int"
+      },
+      "serviceData" : "IServiceData",
+      "serializedCoordinates" : "String",
+      "cursor" : {
+         "endReached" : "bool",
+         "pageSize" : "int",
+         "endIndex" : "int"
+      }
+   }
+}

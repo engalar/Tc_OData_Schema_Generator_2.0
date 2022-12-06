@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "historyObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-DataManagement/clearHistory",
+   "OperationInput" : {}
+}

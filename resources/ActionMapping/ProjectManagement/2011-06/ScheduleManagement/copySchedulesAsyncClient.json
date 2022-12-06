@@ -1,0 +1,64 @@
+{
+   "OperationInput" : {
+      "schToCopy" : [
+         {
+            "scheduleToCopy" : "IModelObject",
+            "id" : "String",
+            "stringValueContainer" : [
+               {
+                  "value" : "String",
+                  "type" : "int",
+                  "key" : "String"
+               }
+            ],
+            "revId" : "String",
+            "description" : "String",
+            "options" : {
+               "integerOptions" : [
+                  {
+                     "value" : "int",
+                     "name" : "String"
+                  }
+               ],
+               "stringOptions" : [
+                  {
+                     "value" : "String",
+                     "name" : "String"
+                  }
+               ],
+               "logicalOptions" : [
+                  {
+                     "name" : "String",
+                     "value" : "bool"
+                  }
+               ]
+            },
+            "typedAttributesContainer" : [
+               {
+                  "type" : "String",
+                  "attributes" : [
+                     {
+                        "value" : "String",
+                        "type" : "int",
+                        "key" : "String"
+                     }
+                  ]
+               }
+            ],
+            "copyInfo" : [
+               {
+                  "objName" : "String",
+                  "objectComp" : "IModelObject",
+                  "operationType" : "int",
+                  "isTargetPrimary" : "bool",
+                  "relation" : "String",
+                  "isRequired" : "bool"
+               }
+            ],
+            "name" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2011-06-ScheduleManagement/copySchedulesAsyncClient",
+   "OperationResponse" : "bool"
+}

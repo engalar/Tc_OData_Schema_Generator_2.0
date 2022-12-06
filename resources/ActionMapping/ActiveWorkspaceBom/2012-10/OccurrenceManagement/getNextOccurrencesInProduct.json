@@ -1,0 +1,199 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "data" : [
+         {
+            "occurrences" : [
+               {
+                  "attachedObjects" : [
+                     {
+                        "fileTicket" : "String",
+                        "namedRefObject" : "IModelObject",
+                        "relationName" : "String",
+                        "attachedObject" : "IModelObject",
+                        "namedReferenceName" : "String"
+                     }
+                  ],
+                  "occurrence" : "IModelObject"
+               }
+            ],
+            "cursor" : {
+               "product" : "IModelObject",
+               "firstLevelOnly" : "bool",
+               "pageSize" : "int",
+               "contextInfo" : "IModelObject",
+               "endIndex" : "int",
+               "startIndex" : "int",
+               "inputCtxt" : {
+                  "structureContextObject" : "IModelObject",
+                  "pageSize" : "int",
+                  "filter" : {
+                     "searchInput" : {
+                        "searchFilterFieldSortType" : "Alphabetical Priority",
+                        "searchSortCriteria" : [
+                           {
+                              "fieldName" : "String",
+                              "sortDirection" : "ASC DESC"
+                           }
+                        ],
+                        "searchString" : "String",
+                        "searchFilterMap" : {
+                           "SampleKeyString" : [
+                              {
+                                 "count" : "int",
+                                 "startEndRange" : "String",
+                                 "selected" : "bool",
+                                 "startDateValue" : "Date",
+                                 "endNumericValue" : "double",
+                                 "startNumericValue" : "double",
+                                 "stringValue" : "String",
+                                 "searchFilterType" : "StringFilter DateFilter NumericFilter",
+                                 "endDateValue" : "Date"
+                              }
+                           ]
+                        }
+                     }
+                  },
+                  "updateAutoBookmark" : "bool",
+                  "productContext" : "IModelObject",
+                  "attachedDataCriteria" : [
+                     {
+                        "returnFileTickets" : "bool",
+                        "attachedObjectType" : "String",
+                        "namedReferences" : "String[]",
+                        "returnAttachedObject" : "bool",
+                        "returnNamedRefObject" : "bool",
+                        "relationName" : "String"
+                     }
+                  ],
+                  "requestPref" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "configuration" : {
+                     "endItem" : "IModelObject",
+                     "svrOwningProduct" : "IModelObject",
+                     "revisionRule" : "IModelObject",
+                     "unitNo" : "int",
+                     "effectivityDate" : "Date",
+                     "variantRule" : "IModelObject",
+                     "now" : "bool",
+                     "configurationObject" : "IModelObject"
+                  }
+               },
+               "cursorData" : "String[]"
+            },
+            "defaultFilterFieldDisplayCount" : "int",
+            "searchFilterCategories" : [
+               {
+                  "defaultFilterValueDisplayCount" : "int",
+                  "displayName" : "String",
+                  "internalName" : "String"
+               }
+            ],
+            "startReached" : "bool",
+            "rootOccurrence" : {
+               "attachedObjects" : [
+                  {
+                     "namedRefObject" : "IModelObject",
+                     "fileTicket" : "String",
+                     "relationName" : "String",
+                     "attachedObject" : "IModelObject",
+                     "namedReferenceName" : "String"
+                  }
+               ],
+               "occurrence" : "IModelObject"
+            },
+            "endReached" : "bool",
+            "searchFilterMap" : {
+               "SampleKeyString" : [
+                  {
+                     "endNumericValue" : "double",
+                     "startNumericValue" : "double",
+                     "startDateValue" : "Date",
+                     "endDateValue" : "Date",
+                     "stringValue" : "String",
+                     "searchFilterType" : "StringFilter DateFilter NumericFilter",
+                     "count" : "int",
+                     "startEndRange" : "String",
+                     "selected" : "bool"
+                  }
+               ]
+            },
+            "productContextInfo" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2012-10-OccurrenceManagement/getNextOccurrencesInProduct",
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "cursor" : {
+               "pageSize" : "int",
+               "firstLevelOnly" : "bool",
+               "startIndex" : "int",
+               "contextInfo" : "IModelObject",
+               "endIndex" : "int",
+               "inputCtxt" : {
+                  "attachedDataCriteria" : [
+                     {
+                        "relationName" : "String",
+                        "returnAttachedObject" : "bool",
+                        "returnNamedRefObject" : "bool",
+                        "namedReferences" : "String[]",
+                        "attachedObjectType" : "String",
+                        "returnFileTickets" : "bool"
+                     }
+                  ],
+                  "productContext" : "IModelObject",
+                  "updateAutoBookmark" : "bool",
+                  "configuration" : {
+                     "now" : "bool",
+                     "configurationObject" : "IModelObject",
+                     "unitNo" : "int",
+                     "effectivityDate" : "Date",
+                     "variantRule" : "IModelObject",
+                     "endItem" : "IModelObject",
+                     "svrOwningProduct" : "IModelObject",
+                     "revisionRule" : "IModelObject"
+                  },
+                  "requestPref" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "pageSize" : "int",
+                  "structureContextObject" : "IModelObject",
+                  "filter" : {
+                     "searchInput" : {
+                        "searchFilterFieldSortType" : "Alphabetical Priority",
+                        "searchSortCriteria" : [
+                           {
+                              "sortDirection" : "ASC DESC",
+                              "fieldName" : "String"
+                           }
+                        ],
+                        "searchFilterMap" : {
+                           "SampleKeyString" : [
+                              {
+                                 "endDateValue" : "Date",
+                                 "stringValue" : "String",
+                                 "searchFilterType" : "StringFilter DateFilter NumericFilter",
+                                 "endNumericValue" : "double",
+                                 "startNumericValue" : "double",
+                                 "startDateValue" : "Date",
+                                 "selected" : "bool",
+                                 "startEndRange" : "String",
+                                 "count" : "int"
+                              }
+                           ]
+                        },
+                        "searchString" : "String"
+                     }
+                  }
+               },
+               "cursorData" : "String[]",
+               "product" : "IModelObject"
+            },
+            "goForward" : "bool"
+         }
+      ]
+   }
+}

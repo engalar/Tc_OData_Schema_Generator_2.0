@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "configs" : {
+         "SampleKeyString" : "String"
+      },
+      "attributes" : "String[]",
+      "objects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-12-DataManagement/getViewModelProperties2",
+   "OperationResponse" : {
+      "viewModelPropertiesJsonString" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

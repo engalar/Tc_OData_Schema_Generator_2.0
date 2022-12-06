@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "revisionRule" : "IModelObject",
+            "sourceSubset" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Process-2017-05-ProductSubset/createOrUpdateProductSubsets",
+   "OperationResponse" : "IServiceData"
+}

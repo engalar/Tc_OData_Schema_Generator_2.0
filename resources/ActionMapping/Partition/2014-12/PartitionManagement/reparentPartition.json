@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "childPartitions" : "IModelObject[]",
+            "opCode" : "MOVE_REPARENTING_PARTITION REPLACE_REPARENTING_PARTITION",
+            "targetParentPartition" : "IModelObject",
+            "sourceParentPartition" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Partition-2014-12-PartitionManagement/reparentPartition",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "inputPartition" : "IModelObject",
+            "memberErrorVector" : [
+               {
+                  "errorVal" : {
+                     "code" : "int",
+                     "message" : "String",
+                     "level" : "Error_severity_information Error_severity_warning Error_severity_error"
+                  },
+                  "member" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

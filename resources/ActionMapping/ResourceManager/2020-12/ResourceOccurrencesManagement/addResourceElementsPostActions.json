@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "predecessorComponent" : "IModelObject",
+      "successorComponents" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-ResourceManager-2020-12-ResourceOccurrencesManagement/addResourceElementsPostActions",
+   "OperationResponse" : "IServiceData"
+}

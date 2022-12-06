@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2015-03-FullTextSearch/updateIndexIslandStatus",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "applicationID" : "String",
+      "status" : "int",
+      "indexIslandUIDs" : "String[]",
+      "exportDate" : "Date"
+   }
+}

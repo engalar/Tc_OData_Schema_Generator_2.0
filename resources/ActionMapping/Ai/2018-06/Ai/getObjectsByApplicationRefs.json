@@ -1,0 +1,91 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "additionalInfo" : {
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "configInfo" : {
+               "configuringObject" : {
+                  "version" : "String",
+                  "application" : "String",
+                  "label" : "String"
+               },
+               "existingWindow" : "IModelObject",
+               "revRuleName" : "String",
+               "variantRule" : {
+                  "application" : "String",
+                  "version" : "String",
+                  "label" : "String"
+               },
+               "useDefaultRevisionRule" : "bool"
+            },
+            "appRefs" : [
+               {
+                  "application" : "String",
+                  "version" : "String",
+                  "label" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "additionalInfo" : {
+         "dateMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "objMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "dblMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "intMap" : {
+            "SampleKeyString" : "int[]"
+         }
+      },
+      "responseElements" : [
+         {
+            "createdWindows" : "IModelObject[]",
+            "additionalInfo" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "objects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Ai-2018-06-Ai/getObjectsByApplicationRefs"
+}

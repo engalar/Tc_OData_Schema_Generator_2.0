@@ -1,0 +1,46 @@
+{
+   "OperationInput" : {
+      "graphParamMap" : {
+         "SampleKeyString" : "String[]"
+      },
+      "rootIds" : "String[]",
+      "viewName" : "String",
+      "inquiries" : "String[]"
+   },
+   "OperationResponse" : {
+      "graph" : {
+         "serviceCursor" : "int",
+         "viewName" : "String",
+         "edges" : [
+            {
+               "props" : {
+                  "SampleKeyString" : "String"
+               },
+               "metaObject" : "IModelObject",
+               "endPortObject" : "IModelObject",
+               "startPortObject" : "IModelObject",
+               "leftId" : "String",
+               "relationType" : "String",
+               "rightId" : "String"
+            }
+         ],
+         "rootIds" : "String[]",
+         "analysisResult" : {
+            "SampleKeyString" : "String"
+         },
+         "nodes" : [
+            {
+               "name" : "String",
+               "id" : "String",
+               "props" : {
+                  "SampleKeyString" : "String"
+               },
+               "metaObject" : "IModelObject"
+            }
+         ],
+         "isPartial" : "bool"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "RelationshipViewer-2012-10-NetworkEngine/queryNetwork"
+}

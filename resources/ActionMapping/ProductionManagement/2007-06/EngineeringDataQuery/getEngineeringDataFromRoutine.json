@@ -1,0 +1,30 @@
+{
+   "ServiceOperation" : "ProductionManagement-2007-06-EngineeringDataQuery/getEngineeringDataFromRoutine",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "routineData" : [
+         {
+            "routine" : "IModelObject",
+            "featureData" : [
+               {
+                  "featureOccurrence" : "IModelObject",
+                  "featureAttributeData" : [
+                     {
+                        "featureAttributeForm" : "IModelObject[]",
+                        "featureAttribute" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "routineIdVer" : [
+         {
+            "routineId" : "String",
+            "routineRev" : "String"
+         }
+      ]
+   }
+}

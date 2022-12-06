@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2009-10-DataManagement/setTableProperties",
+   "OperationInput" : {
+      "tableData" : [
+         {
+            "tableDefInfo" : {
+               "tableDef" : "IModelObject",
+               "rowLabels" : "String[]",
+               "rows" : "int",
+               "colLabels" : "String[]",
+               "columns" : "int"
+            },
+            "tableObject" : "IModelObject",
+            "tableCells" : [
+               {
+                  "desc" : "String",
+                  "column" : "int",
+                  "row" : "int",
+                  "value" : {
+                     "type" : "String",
+                     "strValues" : "String[]"
+                  }
+               }
+            ]
+         }
+      ]
+   }
+}

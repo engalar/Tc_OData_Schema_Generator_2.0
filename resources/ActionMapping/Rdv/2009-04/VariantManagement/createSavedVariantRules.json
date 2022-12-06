@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Internal-Rdv-2009-04-VariantManagement/createSavedVariantRules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "aSVRs" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "input" : {
+         "svrData" : [
+            {
+               "varRule" : "IModelObject",
+               "desc" : "String",
+               "relation" : "String",
+               "name" : "String",
+               "option" : "IModelObject[]",
+               "value" : "String[]"
+            }
+         ],
+         "itemRev" : "IModelObject"
+      }
+   }
+}

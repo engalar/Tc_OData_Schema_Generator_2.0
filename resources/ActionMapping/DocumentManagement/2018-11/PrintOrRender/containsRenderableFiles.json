@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {
+      "objectsWithRenderableFiles" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "DocumentManagement-2018-11-PrintOrRender/containsRenderableFiles",
+   "OperationInput" : {
+      "renderFormat" : "String",
+      "selectedObjects" : "IModelObject[]"
+   }
+}

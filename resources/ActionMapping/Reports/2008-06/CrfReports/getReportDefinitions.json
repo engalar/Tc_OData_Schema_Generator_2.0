@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "inputCriteria" : [
+         {
+            "status" : "String",
+            "source" : "String",
+            "contextObjects" : "IModelObject[]",
+            "category" : "String",
+            "reportDefinitionName" : "String",
+            "clientId" : "String",
+            "reportDefinitionId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Reports-2008-06-CrfReports/getReportDefinitions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "reportdefinitions" : [
+         {
+            "clientId" : "String",
+            "reportdefinition" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "dashboardReportInput" : {
+         "totalObjectsMonitored" : "int",
+         "inputMethod" : "String",
+         "dashboardConfig" : "IModelObject",
+         "lastUpdatedTime" : "Date",
+         "datasetName" : "String",
+         "loadedObjects" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Internal-CaeAw-2020-12-SimulationManagementAw/generateSimulationDashboardReport",
+   "OperationResponse" : {}
+}

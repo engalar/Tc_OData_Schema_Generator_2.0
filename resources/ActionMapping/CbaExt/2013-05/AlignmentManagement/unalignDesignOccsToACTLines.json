@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "bomLines" : "IModelObject[]",
+      "actLines" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-CbaExt-2013-05-AlignmentManagement/unalignDesignOccsToACTLines"
+}

@@ -1,0 +1,56 @@
+{
+   "OperationInput" : {
+      "searchCriterion" : [
+         {
+            "jsn" : "String",
+            "clientId" : "String",
+            "toDate" : "Date",
+            "fromDate" : "Date",
+            "activeInactive" : "String",
+            "routineId" : "String",
+            "plantId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProductionManagement-2010-04-MeasurementDataQuery/queryActiveOrDeactiveData2",
+   "OperationResponse" : {
+      "events2" : [
+         {
+            "clientId2" : "String",
+            "eventsSet2" : [
+               {
+                  "eventDatetime" : "String",
+                  "utcTime" : "String",
+                  "shiftNumber" : "int",
+                  "routineId" : "String",
+                  "hiLow" : "String",
+                  "plantId" : "String",
+                  "vehicleProgram" : "String",
+                  "traceData" : [
+                     {
+                        "traceCodeValue" : "String",
+                        "traceCode" : "String"
+                     }
+                  ],
+                  "partName" : "String",
+                  "shiftDay" : "String",
+                  "routineRev" : "String",
+                  "ftrsData" : [
+                     {
+                        "ftrNameFtrAttCodeAval" : "String"
+                     }
+                  ],
+                  "active" : "int",
+                  "buildLabel" : "String",
+                  "eventType" : "String",
+                  "deviceType" : "String",
+                  "device" : "String",
+                  "phaseName" : "String",
+                  "eventSysId" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

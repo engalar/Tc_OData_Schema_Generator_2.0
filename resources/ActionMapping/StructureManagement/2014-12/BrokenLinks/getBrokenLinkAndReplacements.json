@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2014-12-BrokenLinks/getBrokenLinkAndReplacements",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "brokenLinkWithReplacementCandidates" : [
+         {
+            "brokenLink" : "IModelObject",
+            "replacementCandidates" : [
+               {
+                  "matchedProps" : "String[]",
+                  "candidate" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "brokenLinkInput" : {
+         "replacementCandidateSearchInput" : {
+            "searchScopes" : "IModelObject[]",
+            "replacementCandidateSearchCriteria" : [
+               {
+                  "propertyName" : "String",
+                  "propertyValue" : "String",
+                  "operatorName" : "String"
+               }
+            ],
+            "revisionRule" : "IModelObject"
+         },
+         "searchScope" : "IModelObject[]",
+         "autoRepair" : "bool",
+         "fullStructure" : "bool"
+      }
+   }
+}

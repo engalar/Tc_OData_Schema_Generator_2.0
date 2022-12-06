@@ -1,0 +1,57 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "uploadData" : [
+               {
+                  "clientFileId" : "String",
+                  "fileName" : "String",
+                  "refName" : "String",
+                  "fileState" : "String",
+                  "existingObject" : "IModelObject",
+                  "newObject" : "IModelObject",
+                  "fileTicket" : "String"
+               }
+            ],
+            "createDatasetInfo" : {
+               "datasetType" : "String",
+               "tool" : "String",
+               "datasetDesc" : "String",
+               "datasetName" : "String"
+            },
+            "attachToLocation" : "IModelObject",
+            "baseObjInfo" : {
+               "baseObj" : "IModelObject",
+               "propertiesInfo" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "markupInfo" : {
+         "SampleKeyString" : {
+            "references" : [
+               {
+                  "uploadedFileRefNames" : "String",
+                  "uploadedFile" : "IModelObject",
+                  "clientFileId" : "String",
+                  "uploadedFilename" : "String"
+               }
+            ],
+            "attachRelation" : "IModelObject",
+            "relation" : {
+               "relation" : "IModelObject",
+               "propertiesInfo" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "markupDatset" : "IModelObject"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/createMarkup"
+}

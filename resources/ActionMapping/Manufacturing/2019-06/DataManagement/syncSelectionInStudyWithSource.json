@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "mode" : "String",
+            "selectedLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : "String"
+   },
+   "ServiceOperation" : "Manufacturing-2019-06-DataManagement/syncSelectionInStudyWithSource"
+}

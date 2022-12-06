@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "Internal-Retail-2009-06-Retail/getLabDips",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "getLabDipQuery" : [
+         {
+            "isLabDipExists" : "bool",
+            "labDip" : "IModelObject",
+            "vendorPart" : "IModelObject",
+            "isVendorPartExists" : "bool"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "matRev" : "IModelObject",
+            "colorOrColorway" : "IModelObject",
+            "vendor" : "IModelObject"
+         }
+      ]
+   }
+}

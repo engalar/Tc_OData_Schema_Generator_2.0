@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "contextObject" : "IModelObject",
+      "linkObjects" : "IModelObject[]",
+      "createdObject" : "IModelObject"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-CaeAw-2017-06-SimulationManagementAw/relateSimulationObjects"
+}

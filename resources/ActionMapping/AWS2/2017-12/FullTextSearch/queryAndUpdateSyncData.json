@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2017-12-FullTextSearch/queryAndUpdateSyncData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "syncInfo" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "OperationInput" : {
+      "inputData" : {
+         "queryAndUpdateOptions" : "int",
+         "dryRun" : "bool"
+      }
+   }
+}

@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "visible" : "bool",
+            "queryName" : "String",
+            "isFolderSiteLevel" : "bool",
+            "prefName" : "String",
+            "name" : "String",
+            "queryValues" : "String[]",
+            "queryCriteria" : "String[]",
+            "savedSearchName" : "String",
+            "operation" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "configData" : [
+         {
+            "visible" : "bool",
+            "queryName" : "String",
+            "isFolderSiteLevel" : "bool",
+            "prefName" : "String",
+            "name" : "String",
+            "queryValues" : "String[]",
+            "queryCriteria" : "String[]",
+            "savedSearchName" : "String",
+            "operation" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "IssueManagement-2010-04-IssueManagement/configureIssueLists"
+}

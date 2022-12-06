@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-Retail-2016-04-Retail/replaceLinePlanProductRequests",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "requestUsage" : "IModelObject",
+            "replacingProducts" : "IModelObject[]"
+         }
+      ]
+   }
+}

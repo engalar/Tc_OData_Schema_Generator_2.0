@@ -1,0 +1,58 @@
+{
+   "OperationResponse" : {
+      "details" : [
+         {
+            "index" : "int",
+            "equivalentLines" : "IModelObject[]",
+            "attachmentExtDetails" : [
+               {
+                  "extensionName" : "String",
+                  "attachmentTypesDetails" : [
+                     {
+                        "attachmentRelType" : "IModelObject",
+                        "attachmentsDetails" : [
+                           {
+                              "matchType" : "int",
+                              "attachments" : "IModelObject[]"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2017-05-StructureVerification/getAttachmentComparisonDetails",
+   "OperationInput" : {
+      "equivalentObjects" : [
+         {
+            "eqvSrcLines" : "IModelObject[]",
+            "eqvTargetLines" : "IModelObject[]"
+         }
+      ],
+      "partialMatchCriteria" : [
+         {
+            "extensionName" : "String",
+            "extensionCriteria" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               }
+            }
+         }
+      ]
+   }
+}

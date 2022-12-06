@@ -1,0 +1,36 @@
+{
+   "OperationResponse" : {
+      "selectedWorkPackageList" : "IModelObject[]",
+      "obsRevisionList" : "IModelObject[]",
+      "workPackageAndOrgInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "valueData" : "String",
+                  "orgObject" : "IModelObject",
+                  "index" : "int"
+               }
+            ]
+         ]
+      ],
+      "allowedChildTypesMap" : {
+         "SampleKeyString" : "String"
+      },
+      "writeAccessMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "bool"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-IppeCore-2020-12-WBSManagement/getRespAssignmentMatrix",
+   "OperationInput" : {
+      "conditionalElements" : "IModelObject[]"
+   }
+}

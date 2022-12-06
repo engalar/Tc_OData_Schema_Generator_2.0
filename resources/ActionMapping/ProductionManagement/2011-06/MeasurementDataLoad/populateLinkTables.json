@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "oldLinkName" : "String",
+      "userName" : "String",
+      "plantId" : "String",
+      "serverName" : "String",
+      "updateTables" : "String",
+      "linkName" : "String",
+      "targetDbType" : "String",
+      "dbName" : "String"
+   },
+   "ServiceOperation" : "ProductionManagement-2011-06-MeasurementDataLoad/populateLinkTables",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   }
+}

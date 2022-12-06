@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "map" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/generatePDF",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "userAttrs" : "String[]",
+            "saveAsDataset" : "bool",
+            "exportObjectUIDs" : "String[]",
+            "optionSetName" : "String",
+            "synchronize" : "bool",
+            "isCompressionRequired" : "bool",
+            "printGroup" : "String",
+            "reportTemplate" : "IModelObject",
+            "techpackfilename" : "String",
+            "tcGSMessageId" : "String"
+         }
+      ]
+   }
+}

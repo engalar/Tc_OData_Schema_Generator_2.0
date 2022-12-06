@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Core-2007-12-DataManagement/validateAlternateIds",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "validityId" : "Valid Invalid Modified Override Duplicate",
+            "modifiedAltRevId" : "String",
+            "modifiedAltId" : "String",
+            "clientId" : "String",
+            "validityRevId" : "Valid Invalid Modified Override Duplicate"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "context" : "IModelObject",
+            "alternateId" : "String",
+            "patternName" : "String",
+            "identifierType" : "IModelObject",
+            "alternateRevId" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

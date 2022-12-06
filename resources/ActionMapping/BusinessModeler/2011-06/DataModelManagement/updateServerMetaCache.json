@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "option" : "int"
+   },
+   "OperationResponse" : {
+      "logFileTickets" : "String[]",
+      "errorCode" : "int"
+   },
+   "ServiceOperation" : "Internal-BusinessModeler-2011-06-DataModelManagement/updateServerMetaCache"
+}

@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Manufacturing-2013-05-IPAManagement/localUpdateIPATree",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileticket" : {
+         "fileName" : "String",
+         "fileTicket" : "String"
+      }
+   },
+   "OperationInput" : {
+      "processLines" : "IModelObject[]"
+   }
+}

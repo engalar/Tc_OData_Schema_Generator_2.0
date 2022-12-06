@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "lines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2009-06-StructureManagement/closeAttachmentWindow",
+   "OperationResponse" : "IServiceData"
+}

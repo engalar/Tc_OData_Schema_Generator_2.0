@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "neutralBOMLine" : "IModelObject",
+            "physicalBOMLine" : "IModelObject",
+            "rebaseDate" : "Date",
+            "contextName" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "MROCore-2009-06-MROCore/rebasePhysicalPart",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "physicalBOMLine" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

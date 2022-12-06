@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "fileTypes" : "FileType_Binary FileType_Text[]",
+      "originalFileNames" : "String[]"
+   },
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "tickets" : "String[]"
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/getFileWriteTickets"
+}

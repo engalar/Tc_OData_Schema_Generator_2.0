@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "commitInfos" : [
+         {
+            "imanFile" : "IModelObject",
+            "newOriginalFileName" : "String",
+            "replaceFileTicket" : "String"
+         }
+      ],
+      "flags" : "bool[]"
+   },
+   "ServiceOperation" : "Internal-Core-2010-09-FileManagement/commitReplacedFiles",
+   "OperationResponse" : "IServiceData"
+}

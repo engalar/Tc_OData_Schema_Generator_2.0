@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "updateWBSInput" : {
+         "uid" : "String",
+         "compoundInput" : {
+            "SampleKeyString" : [
+               {
+                  "uid" : "String",
+                  "propertyNameValues" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "compoundInput" : "Ipp0::Soa::Internal::IppeCore::_2020_12::IPPEExternalScheduleIntegration::WBSUpdateInputMap"
+               }
+            ]
+         },
+         "propertyNameValues" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "emailIds" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-IppeCore-2020-12-IPPEExternalScheduleIntegration/updateWBSPlanFromExtSchedule"
+}

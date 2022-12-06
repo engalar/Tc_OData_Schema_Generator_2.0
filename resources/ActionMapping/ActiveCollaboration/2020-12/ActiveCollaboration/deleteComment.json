@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "ActiveCollaboration-2020-12-ActiveCollaboration/deleteComment",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "objsToDelete" : "IModelObject[]"
+   }
+}

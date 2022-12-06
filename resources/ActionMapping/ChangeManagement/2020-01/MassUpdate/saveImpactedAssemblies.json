@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ChangeManagement-2020-01-MassUpdate/saveImpactedAssemblies",
+   "OperationInput" : {
+      "impactedObjectsInfo" : [
+         {
+            "impactedObject" : "IModelObject",
+            "massUpdateChanges" : [
+               {
+                  "propValue" : "String",
+                  "propName" : "String"
+               }
+            ]
+         }
+      ],
+      "changeObject" : "IModelObject"
+   }
+}

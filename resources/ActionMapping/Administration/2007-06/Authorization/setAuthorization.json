@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "inputAuthorization" : [
+         {
+            "ruleDomain" : "String",
+            "accessorTag" : "IModelObject",
+            "names" : "String[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Administration-2007-06-Authorization/setAuthorization"
+}

@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "contextObject" : "IModelObject",
+      "isAdd" : "bool",
+      "outOfDateObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-06-SimulationManagementAw/addOrUpdateLatestReferences",
+   "OperationResponse" : "IServiceData"
+}

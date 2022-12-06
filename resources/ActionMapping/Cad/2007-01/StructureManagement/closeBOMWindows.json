@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "bomWindows" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Cad-2007-01-StructureManagement/closeBOMWindows",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   }
+}

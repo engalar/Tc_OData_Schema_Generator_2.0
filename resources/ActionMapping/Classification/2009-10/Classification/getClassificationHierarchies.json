@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "hierarchies" : {
+         "SampleKeyString" : "String[]"
+      },
+      "data" : "IServiceData",
+      "ids" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Internal-Classification-2009-10-Classification/getClassificationHierarchies",
+   "OperationInput" : {
+      "wsos" : "IModelObject[]"
+   }
+}

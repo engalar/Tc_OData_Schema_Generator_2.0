@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "MESInteg-2013-05-Release/findReleaseCandidates",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "releaseCandidatesInformationList" : [
+         {
+            "releaseCandidatesWithIncrementalChange" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "releaseCandidatesFromReleaseStatus" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "checkIncrementalChange" : "bool",
+            "releaseCandidatesRoots" : "IModelObject[]",
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

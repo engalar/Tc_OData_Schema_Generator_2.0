@@ -1,0 +1,83 @@
+{
+   "ServiceOperation" : "Cad-2013-05-StructureManagement/createOrUpdateRelativeStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : {
+         "SampleKeyString" : {
+            "bvr" : "IModelObject",
+            "occurrence" : "IModelObject",
+            "occThread" : "IModelObject"
+         }
+      }
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "childInfo" : [
+               {
+                  "clientId" : "String",
+                  "childBomViewTypeName" : "String",
+                  "child" : "IModelObject",
+                  "cadOccId" : "String",
+                  "occInfo" : {
+                     "occNotes" : [
+                        {
+                           "noteType" : "String",
+                           "noteText" : "String"
+                        }
+                     ],
+                     "moveInfo" : {
+                        "commonParent" : "IModelObject",
+                        "occThreadPathToBeMoved" : "String[]",
+                        "occThreadPathTargetParent" : [
+                           {
+                              "id" : "String",
+                              "idType" : "OccurrenceThread CadOccId ClientId",
+                              "parent" : "IModelObject",
+                              "isNew" : "bool"
+                           }
+                        ],
+                        "sourceAssembly" : "IModelObject"
+                     },
+                     "occTransform" : "double[]",
+                     "asRequired" : "bool",
+                     "attrsToSet" : [
+                        {
+                           "value" : "String",
+                           "name" : "String"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "parentInfo" : {
+               "supportingClassAttrs" : [
+                  {
+                     "attrsToSet" : [
+                        {
+                           "values" : "String[]",
+                           "name" : "String"
+                        }
+                     ],
+                     "topLineAttrThatRefersToObject" : "String"
+                  }
+               ],
+               "parent" : "IModelObject",
+               "lastModifiedOfBVR" : "Date",
+               "clientId" : "String",
+               "complete" : "bool",
+               "bomViewTypeName" : "String",
+               "changeContext" : "IModelObject",
+               "precise" : "bool"
+            }
+         }
+      ],
+      "pref" : {
+         "overwriteForLastModDate" : "bool",
+         "bomViewTypeName" : "String",
+         "cadOccIdAttrName" : "String",
+         "objectTypes" : "String[]",
+         "continueOnError" : "bool"
+      }
+   }
+}

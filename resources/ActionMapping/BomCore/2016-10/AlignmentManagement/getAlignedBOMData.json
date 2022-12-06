@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "configurationContext" : "IModelObject",
+            "designElements" : [
+               {
+                  "designElement" : "IModelObject",
+                  "clientId" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "alignedDataForDesignElements" : [
+         {
+            "clientId" : "String",
+            "designElement" : "IModelObject",
+            "bomData" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "BomCore-2016-10-AlignmentManagement/getAlignedBOMData"
+}

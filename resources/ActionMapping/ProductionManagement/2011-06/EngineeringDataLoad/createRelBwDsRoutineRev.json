@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "routineRev" : "IModelObject",
+      "xlsbDs" : "IModelObject"
+   },
+   "ServiceOperation" : "ProductionManagement-2011-06-EngineeringDataLoad/createRelBwDsRoutineRev",
+   "OperationResponse" : "IServiceData"
+}

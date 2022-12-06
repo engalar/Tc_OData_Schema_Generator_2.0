@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "solutionItems" : "IModelObject[]",
+            "impactedItems" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ChangeManagement-2015-10-ChangeManagement/createChangeLineage",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "relations" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

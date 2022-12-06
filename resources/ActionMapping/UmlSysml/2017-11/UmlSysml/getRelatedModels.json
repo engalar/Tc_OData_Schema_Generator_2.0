@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "relatedModelsInputData" : [
+         {
+            "relationName" : "String",
+            "clientId" : "String",
+            "expandPrimaryOrSecondary" : "String",
+            "relatedObjectType" : "String",
+            "inputObjectUID" : "String",
+            "revisionRule" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "UmlSysml-2017-11-UmlSysml/getRelatedModels",
+   "OperationResponse" : {
+      "modelData" : [
+         {
+            "relatedObjects" : [
+               {
+                  "relatedObjects" : "Uml0::Soa::UmlSysml::_2017_11::UmlSysml::RelatedObject[]",
+                  "uid" : "String"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

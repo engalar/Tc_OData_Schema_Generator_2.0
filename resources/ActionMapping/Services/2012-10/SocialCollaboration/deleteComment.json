@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "request" : {
+         "targetObjectUid" : "String",
+         "commentObjectUid" : "String"
+      }
+   },
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/deleteComment",
+   "OperationResponse" : {
+      "success" : "bool",
+      "msg" : "String"
+   }
+}

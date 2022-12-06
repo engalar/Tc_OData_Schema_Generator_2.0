@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "qualificationRecords" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-TrainingQualificationAw-2020-12-TrainingQualification/assignQualificationUnits",
+   "OperationInput" : {
+      "assignQualificationInputs" : [
+         {
+            "qualificationUnits" : "IModelObject[]",
+            "qualificationProfiles" : "IModelObject[]"
+         }
+      ]
+   }
+}

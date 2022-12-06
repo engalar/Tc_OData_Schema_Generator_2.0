@@ -1,0 +1,5 @@
+{
+   "OperationResponse" : "String",
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugMonitor/getTcServerMonitoringMode",
+   "OperationInput" : {}
+}

@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/getDatasetIndexableFilesInfo",
+   "OperationResponse" : {
+      "dsFileInfosMap" : {
+         "SampleKeyString" : [
+            {
+               "isText" : "bool",
+               "fmsFileTicket" : "String",
+               "fileName" : "String",
+               "fileUID" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "datasetUIDs" : "String[]"
+   }
+}

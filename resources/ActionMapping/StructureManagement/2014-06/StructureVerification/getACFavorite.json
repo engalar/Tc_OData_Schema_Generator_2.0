@@ -1,0 +1,61 @@
+{
+   "ServiceOperation" : "StructureManagement-2014-06-StructureVerification/getACFavorite",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "accSettings" : {
+         "sourceObjects" : "IModelObject[]",
+         "resultDesc" : "String",
+         "resultName" : "String",
+         "includeScopeLines" : "bool",
+         "targetFilteringRule" : "String",
+         "sourceFilteringRule" : "String",
+         "sourceContextLine" : "IModelObject",
+         "sourceDepth" : "int",
+         "options" : "int",
+         "matchType" : "int",
+         "targetObjects" : "IModelObject[]",
+         "targetContextLine" : "IModelObject",
+         "reportCriteria" : {
+            "datasetCtxUID" : "String",
+            "datasetName" : "String",
+            "stylesheetName" : "String",
+            "rdTag" : "IModelObject",
+            "contextObjectUIDs" : "String[]",
+            "criteriaName" : "String[]",
+            "datasetType" : "String",
+            "criteriaValues" : "String[]",
+            "datasetCtxObj" : "IModelObject",
+            "reportName" : "String",
+            "reportOptionsNames" : "String[]",
+            "contextObjects" : "IModelObject[]",
+            "relationName" : "String",
+            "stylesheetTag" : "IModelObject",
+            "reportOptionsValues" : "String[]"
+         },
+         "targetDepth" : "int",
+         "partialMatchCriteria" : {
+            "SampleKeyString" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            }
+         },
+         "reportMode" : "int"
+      }
+   },
+   "OperationInput" : {
+      "datasetUID" : "String"
+   }
+}

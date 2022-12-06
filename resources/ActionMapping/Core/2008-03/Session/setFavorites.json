@@ -1,0 +1,46 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "curFavorites" : {
+            "containers" : [
+               {
+                  "type" : "String",
+                  "clientId" : "String",
+                  "parentId" : "String",
+                  "id" : "String",
+                  "displayName" : "String"
+               }
+            ],
+            "objects" : [
+               {
+                  "parentId" : "String",
+                  "clientId" : "String",
+                  "displayName" : "String",
+                  "objectTag" : "IModelObject"
+               }
+            ]
+         },
+         "newFavorites" : {
+            "containers" : [
+               {
+                  "displayName" : "String",
+                  "type" : "String",
+                  "clientId" : "String",
+                  "id" : "String",
+                  "parentId" : "String"
+               }
+            ],
+            "objects" : [
+               {
+                  "displayName" : "String",
+                  "objectTag" : "IModelObject",
+                  "parentId" : "String",
+                  "clientId" : "String"
+               }
+            ]
+         }
+      }
+   },
+   "ServiceOperation" : "Core-2008-03-Session/setFavorites",
+   "OperationResponse" : "IServiceData"
+}

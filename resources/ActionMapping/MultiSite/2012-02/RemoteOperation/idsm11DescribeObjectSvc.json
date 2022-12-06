@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "roleName" : "String",
+            "clientCorrelationId" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "userDataIp" : "String"
+         },
+         "tagsAsString" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "serverCorrelationId" : "String",
+      "userDataIp" : "String",
+      "out" : {
+         "objectDesc" : {
+            "objectReleaseStatusNames" : "String[]",
+            "objectId" : "String",
+            "objectType" : "String",
+            "objectLastModDate" : "Date",
+            "objectDesc" : "String",
+            "objectOwner" : "String",
+            "objectClass" : "String",
+            "siteId" : "int",
+            "objectName" : "String",
+            "customAttrNames" : "String[]",
+            "objectCreationDate" : "Date",
+            "tagAsString" : "String",
+            "customAttrValues" : "String[]",
+            "objectGroup" : "String",
+            "objectRevId" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11DescribeObjectSvc"
+}

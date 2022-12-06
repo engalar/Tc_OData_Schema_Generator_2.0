@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "fRefresh" : "bool",
+      "bomlines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2011-06-IncrementalChange/getStructureChanges",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "response" : [
+         {
+            "baseInfo" : [
+               {
+                  "typeOfIce" : "int",
+                  "howConfigured" : "String",
+                  "ice" : "IModelObject",
+                  "icRev" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

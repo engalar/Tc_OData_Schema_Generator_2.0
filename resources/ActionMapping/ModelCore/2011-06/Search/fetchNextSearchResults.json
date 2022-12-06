@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "searchCursor" : {
+         "loadCount" : "int",
+         "cursor" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "estimatedElementsLeft" : "int",
+      "finished" : "bool",
+      "modelElements" : "IModelObject[]",
+      "searchCursor" : "IModelObject",
+      "elementsDone" : "int",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ModelCore-2011-06-Search/fetchNextSearchResults"
+}

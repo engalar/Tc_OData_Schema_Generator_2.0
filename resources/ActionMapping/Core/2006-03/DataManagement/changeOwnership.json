@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Core-2006-03-DataManagement/changeOwnership",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "owner" : "IModelObject",
+            "group" : "IModelObject",
+            "object" : "IModelObject"
+         }
+      ]
+   }
+}

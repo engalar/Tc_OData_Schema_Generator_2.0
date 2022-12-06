@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "option" : "int"
+   },
+   "OperationResponse" : "String",
+   "ServiceOperation" : "Internal-BusinessModeler-2011-06-DataModelManagement/updateClientMetaCache"
+}

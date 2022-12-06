@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "occKinematicsInfoinput" : [
+         {
+            "scope" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2018-06-DataManagement/getOccurrenceKinematicsInformation",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "occurrenceKinematicInfo" : [
+         {
+            "resourceLineInformation" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "context" : "IModelObject",
+            "scope" : "IModelObject"
+         }
+      ]
+   }
+}

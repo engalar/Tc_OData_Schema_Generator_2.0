@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "primaryObjects" : "IModelObject[]",
+      "pref" : {
+         "expItemRev" : "bool",
+         "info" : [
+            {
+               "objectTypeNames" : "String[]",
+               "relationName" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Core-2007-06-DataManagement/expandGRMRelationsForPrimary",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "otherSideObjData" : [
+               {
+                  "relationName" : "String",
+                  "otherSideObjects" : "IModelObject[]"
+               }
+            ],
+            "inputObject" : "IModelObject"
+         }
+      ]
+   }
+}

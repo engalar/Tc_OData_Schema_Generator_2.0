@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "statusObject" : "IModelObject",
+      "userSessionInfo" : {
+         "hostPath" : "String",
+         "tcSSOURL" : "String",
+         "tcSSOEnabled" : "bool",
+         "securityToken" : "String",
+         "tcSSOAppId" : "String"
+      },
+      "jobDetailObjects" : [
+         {
+            "viewModelProperties" : [
+               {
+                  "propertyValues" : "String[]",
+                  "isModifiable" : "bool",
+                  "propertyName" : "String"
+               }
+            ],
+            "objUID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-CaeAw-2019-06-SimulationManagementAw/processConflictFilesOnMonitorJob",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "fmsTicket" : "String"
+   }
+}

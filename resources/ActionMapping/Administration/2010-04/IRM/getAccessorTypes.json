@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Administration-2010-04-IRM/getAccessorTypes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "accessorTypeNameInfos" : [
+         {
+            "internalName" : "String",
+            "displayName" : "String"
+         }
+      ]
+   }
+}

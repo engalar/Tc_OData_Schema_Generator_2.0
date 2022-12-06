@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "effectiveDate" : "Date",
+         "retailLinePlan" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "linePlanUsageRollUpCostMap" : {
+         "SampleKeyString" : {
+            "actualMarginPercentage" : "double",
+            "costDiagnostics" : "String",
+            "rollUpCostValue" : "double"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2014-12-Retail/calculateRollupCost"
+}

@@ -1,0 +1,85 @@
+{
+   "OperationResponse" : {
+      "rmeData" : [
+         {
+            "realizationContainer" : "IModelObject",
+            "sourceToTargetCreatedObject" : {
+               "SampleKeyString" : "String"
+            },
+            "failedObjects" : [
+               {
+                  "errorValue" : {
+                     "message" : "String",
+                     "code" : "int",
+                     "level" : "Error_severity_information Error_severity_warning Error_severity_error"
+                  },
+                  "sourceObject" : "IModelObject"
+               }
+            ],
+            "sourceToTargetUpdatedObject" : {
+               "SampleKeyString" : "String"
+            },
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Realization-2014-10-RealizationManagement/createOrUpdateModelToModelRealization",
+   "OperationInput" : {
+      "input" : {
+         "createInfo" : [
+            {
+               "auxInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "clientID" : "String",
+               "sourceModelInfo" : {
+                  "sourceModel" : "IModelObject",
+                  "configContext" : "IModelObject",
+                  "includeSourceElements" : "IModelObject[]",
+                  "subsetDef" : "IModelObject"
+               },
+               "targetModel" : "IModelObject",
+               "realizationContainerName" : "String",
+               "boType" : "String",
+               "auxObjectInfo" : [
+                  {
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "sourceObject" : "IModelObject"
+                  }
+               ]
+            }
+         ],
+         "updateInfo" : [
+            {
+               "sourceModelInfo" : {
+                  "configContext" : "IModelObject",
+                  "includeSourceElements" : "IModelObject[]",
+                  "subsetDef" : "IModelObject",
+                  "sourceModel" : "IModelObject"
+               },
+               "clientID" : "String",
+               "realizationContainer" : "IModelObject",
+               "appendRemoveElementsInfo" : {
+                  "removeList" : "IModelObject[]",
+                  "configContext" : "IModelObject",
+                  "appendList" : "IModelObject[]"
+               },
+               "updateAuxObjectInfo" : [
+                  {
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "sourceObject" : "IModelObject"
+                  }
+               ],
+               "updateAuxInfo" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         ]
+      }
+   }
+}

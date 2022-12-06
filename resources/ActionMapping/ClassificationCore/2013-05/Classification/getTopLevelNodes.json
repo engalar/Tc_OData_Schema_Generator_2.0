@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : {
+      "topLevelNodes" : "IModelObject[]",
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "ClassificationCore-2013-05-Classification/getTopLevelNodes",
+   "OperationInput" : {}
+}

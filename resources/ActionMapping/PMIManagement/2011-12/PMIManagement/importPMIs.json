@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "inputInfo" : [
+         {
+            "relationTypeObject" : "IModelObject",
+            "datasetTypeName" : "String",
+            "sourceObject" : "IModelObject",
+            "pmiFormTypeName" : "String",
+            "namedReferenceTypeName" : "String",
+            "targetObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "importPMIsOutput" : [
+         {
+            "targetObject" : "IModelObject",
+            "markedAsDeletedPMIs" : "IModelObject[]",
+            "createdPMIs" : "IModelObject[]",
+            "updatedPMIs" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "PMIManagement-2011-12-PMIManagement/importPMIs"
+}

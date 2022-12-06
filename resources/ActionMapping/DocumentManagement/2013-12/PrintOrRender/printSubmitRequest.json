@@ -1,0 +1,35 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "clientId" : "String",
+            "requestObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "DocumentManagement-2013-12-PrintOrRender/printSubmitRequest",
+   "OperationInput" : {
+      "input" : [
+         {
+            "numberCopies" : "String",
+            "colorMode" : "String",
+            "printObjs" : "IModelObject[]",
+            "printerName" : "String",
+            "collate" : "bool",
+            "extraInfo" : {
+               "SampleKeyString" : "String"
+            },
+            "bannerPage" : "String",
+            "printStamp" : "String",
+            "pageRange" : "String",
+            "clientId" : "String",
+            "orientation" : "String",
+            "printerConfigurationName" : "String",
+            "paperSize" : "String",
+            "userStamp" : "String",
+            "printToScale" : "String"
+         }
+      ]
+   }
+}

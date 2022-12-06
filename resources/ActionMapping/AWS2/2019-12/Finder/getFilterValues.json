@@ -1,0 +1,42 @@
+{
+   "OperationResponse" : {
+      "facetValues" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2019-12-Finder/getFilterValues",
+   "OperationInput" : {
+      "filterFacetInput" : {
+         "columnFilters" : [
+            {
+               "operation" : "String",
+               "values" : "String[]",
+               "columnName" : "String"
+            }
+         ],
+         "startIndex" : "int",
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "endNumericValue" : "double",
+                  "startNumericValue" : "double",
+                  "stringDisplayValue" : "String",
+                  "startDateValue" : "Date",
+                  "endDateValue" : "Date",
+                  "stringValue" : "String",
+                  "searchFilterType" : "String",
+                  "count" : "int",
+                  "colorValue" : "String",
+                  "selected" : "bool",
+                  "startEndRange" : "String"
+               }
+            ]
+         },
+         "maxToReturn" : "int",
+         "providerName" : "String",
+         "columnName" : "String",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   }
+}

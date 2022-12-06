@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2014-06-IPAManagement/getDynamicIPALines",
+   "OperationResponse" : {
+      "bopLineToIPALines" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputBOPLines" : "IModelObject[]"
+   }
+}

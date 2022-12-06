@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-Core-2007-12-Session/getProperties",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "attributes" : "String[]",
+      "objects" : "IModelObject[]"
+   }
+}

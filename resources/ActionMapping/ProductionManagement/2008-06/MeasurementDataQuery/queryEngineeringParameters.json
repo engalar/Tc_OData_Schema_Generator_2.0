@@ -1,0 +1,32 @@
+{
+   "OperationResponse" : {
+      "response" : [
+         {
+            "id" : "String",
+            "additionalresponses" : {
+               "SampleKeyString" : "String[]"
+            },
+            "displayname" : "String"
+         }
+      ],
+      "partialErrors" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2008-06-MeasurementDataQuery/queryEngineeringParameters",
+   "OperationInput" : {
+      "request" : {
+         "phasename" : "String",
+         "plantid" : "String",
+         "additionalinfo" : {
+            "SampleKeyString" : "String[]"
+         },
+         "devicetype" : "String",
+         "routineid" : "String",
+         "routinerev" : "String",
+         "device" : "String",
+         "eventtypes" : "String",
+         "partnames" : "String",
+         "vehicleprogram" : "String"
+      },
+      "operationType" : "String"
+   }
+}

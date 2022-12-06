@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "MESInteg-2013-05-Release/openPreviousReleasedVersion",
+   "OperationResponse" : {
+      "createdWindowInfo" : [
+         {
+            "context" : "IModelObject",
+            "object" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "executionPlans" : "IModelObject[]"
+   }
+}

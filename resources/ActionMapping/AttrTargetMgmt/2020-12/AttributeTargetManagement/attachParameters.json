@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "parameters" : "IModelObject[]",
+            "parent" : "IModelObject",
+            "paramDirection" : "String",
+            "clientId" : "String",
+            "createCopy" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "AttrTargetMgmt-2020-12-AttributeTargetManagement/attachParameters",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "clientId" : "String",
+            "paramDirection" : "String",
+            "ignoredParams" : "IModelObject[]",
+            "parent" : "IModelObject",
+            "attachedParams" : [
+               {
+                  "inputParameter" : "IModelObject",
+                  "attachedParameter" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

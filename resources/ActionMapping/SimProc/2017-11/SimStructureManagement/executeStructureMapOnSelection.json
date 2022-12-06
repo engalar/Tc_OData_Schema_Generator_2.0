@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "structureMapInputs" : {
+         "domain" : "String",
+         "structureMapIR" : "IModelObject",
+         "selectedBOMLines" : "IModelObject[]",
+         "rootBOMLine" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-SimProc-2017-11-SimStructureManagement/executeStructureMapOnSelection",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "activityLog" : "String"
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "MDOManagement-2014-10-MultiDisciplinaryDataMgt/linkDesignInstances",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "instanceLinkingObject" : "IModelObject[]",
+            "isSuccess" : "bool",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "context" : "IModelObject",
+            "designInstancesData" : [
+               {
+                  "isPreciseLink" : "bool",
+                  "designInstance" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   }
+}

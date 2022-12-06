@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "productContextElementInfo" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "awbConnections" : "IModelObject[]",
+            "runInBackground" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SystemsModeling-2017-12-InterfaceManagement/findOrCreateInteractions",
+   "OperationResponse" : "IServiceData"
+}

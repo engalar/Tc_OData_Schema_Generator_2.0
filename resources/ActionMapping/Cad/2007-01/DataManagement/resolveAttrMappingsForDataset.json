@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "dataset" : "IModelObject",
+            "mappedProperties" : [
+               {
+                  "attrTitle" : "String",
+                  "itemTypeName" : "String",
+                  "resolvedObject" : "IModelObject",
+                  "datasetTypeName" : "String",
+                  "resolvedPropertyName" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2007-01-DataManagement/resolveAttrMappingsForDataset",
+   "OperationInput" : {
+      "info" : [
+         {
+            "dataset" : "IModelObject",
+            "cadAttrMappingDefinitions" : "IModelObject[]",
+            "itemRev" : "IModelObject"
+         }
+      ]
+   }
+}

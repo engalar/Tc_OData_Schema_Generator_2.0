@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "reportOutputs" : [
+         {
+            "clientId" : "String",
+            "fileName" : "String",
+            "datasetObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ESMBase-2011-06-ESMBase/generateSoftwareHardwareReport",
+   "OperationInput" : {
+      "generateReportInputs" : [
+         {
+            "clientId" : "String",
+            "reportFormatType" : "int",
+            "configRule" : "IModelObject",
+            "createDataset" : "bool",
+            "itemRevision" : "IModelObject",
+            "datasetName" : "String"
+         }
+      ]
+   }
+}

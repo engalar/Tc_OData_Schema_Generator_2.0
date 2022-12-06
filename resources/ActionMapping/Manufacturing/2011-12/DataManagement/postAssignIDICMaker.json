@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "postAssignInput" : [
+         {
+            "occurrences" : [
+               {
+                  "occThreadsChain" : "String[]",
+                  "clientID" : "String",
+                  "stockAbleOccThread" : "String"
+               }
+            ],
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2011-12-DataManagement/postAssignIDICMaker",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "occurrenceIDICs" : [
+         {
+            "clientID" : "String",
+            "returnID" : "String"
+         }
+      ]
+   }
+}

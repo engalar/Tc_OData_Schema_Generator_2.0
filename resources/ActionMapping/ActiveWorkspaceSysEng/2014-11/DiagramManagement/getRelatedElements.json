@@ -1,0 +1,78 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputCtxt" : {
+               "configuration" : {
+                  "configurationObject" : "IModelObject",
+                  "revisionRule" : "IModelObject",
+                  "endItem" : "IModelObject",
+                  "now" : "bool",
+                  "variantRule" : "IModelObject",
+                  "effectivityDate" : "Date",
+                  "unitNo" : "int"
+               },
+               "productContext" : "IModelObject",
+               "structureContextObject" : "IModelObject",
+               "pageSize" : "int"
+            },
+            "elements" : "IModelObject[]",
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            },
+            "clientId" : "String",
+            "cursor" : [
+               {
+                  "startReached" : "bool",
+                  "cursorType" : "String",
+                  "endReached" : "bool",
+                  "endIndex" : "int",
+                  "startIndex" : "int",
+                  "pageSize" : "int"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "end1Elements" : [
+         {
+            "inputElement" : "IModelObject",
+            "relationData" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "clientId" : "String",
+      "end2Elements" : [
+         {
+            "inputElement" : "IModelObject",
+            "relationData" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ],
+      "cursors" : [
+         {
+            "startIndex" : "int",
+            "endIndex" : "int",
+            "pageSize" : "int",
+            "startReached" : "bool",
+            "endReached" : "bool",
+            "cursorType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceSysEng-2014-11-DiagramManagement/getRelatedElements"
+}

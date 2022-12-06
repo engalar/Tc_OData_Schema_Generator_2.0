@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "request" : {
+         "sourceObjects" : "IModelObject[]",
+         "listOfPartipants" : "IModelObject[]",
+         "defaultCommentText" : "String",
+         "conversation" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "ActiveCollaboration-2020-12-ActiveCollaboration/createOrUpdateConversation",
+   "OperationResponse" : "IServiceData"
+}

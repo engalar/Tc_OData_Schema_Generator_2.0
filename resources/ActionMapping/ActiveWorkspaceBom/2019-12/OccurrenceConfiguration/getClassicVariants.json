@@ -1,0 +1,42 @@
+{
+   "OperationResponse" : {
+      "productContext" : "IModelObject",
+      "variantContent" : {
+         "variantOptionValueEntry" : [
+            {
+               "variantOptionValue" : [
+                  {
+                     "howset" : "int",
+                     "optionValue" : "String"
+                  }
+               ],
+               "optionName" : "String",
+               "optionUID" : "String",
+               "owningItemUID" : "String",
+               "optionDesc" : "String"
+            }
+         ],
+         "variantRule" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-12-OccurrenceConfiguration/getClassicVariants",
+   "OperationInput" : {
+      "inputData" : {
+         "optionValuesCursor" : {
+            "startIndex" : "int",
+            "endIndex" : "int",
+            "isForward" : "bool",
+            "pageSize" : "int",
+            "startReached" : "bool",
+            "endReached" : "bool"
+         },
+         "optionFilter" : {
+            "owningItemUID" : "String",
+            "optionUID" : "String"
+         },
+         "productContext" : "IModelObject",
+         "variantRule" : "IModelObject"
+      }
+   }
+}

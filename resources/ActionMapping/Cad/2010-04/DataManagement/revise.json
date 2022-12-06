@@ -1,0 +1,64 @@
+{
+   "OperationResponse" : {
+      "reviseOutputMap" : {
+         "SampleKeyString" : {
+            "newItemRev" : "IModelObject",
+            "relatedObjects" : [
+               {
+                  "nRdeepCopyOutput" : [
+                     {
+                        "relatedObject" : "IModelObject",
+                        "action" : "int",
+                        "isSecondary" : "bool"
+                     }
+                  ],
+                  "action" : "int",
+                  "isSecondary" : "bool",
+                  "relatedObject" : "IModelObject"
+               }
+            ]
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Cad-2010-04-DataManagement/revise",
+   "OperationInput" : {
+      "info" : [
+         {
+            "clientId" : "String",
+            "newItemRevisionMasterProperties" : {
+               "form" : "IModelObject",
+               "propertyValueInfo" : [
+                  {
+                     "propertyName" : "String",
+                     "propertyValues" : "String[]"
+                  }
+               ]
+            },
+            "name" : "String",
+            "baseItemRevision" : "IModelObject",
+            "deepCopyInfo" : [
+               {
+                  "isRequired" : "bool",
+                  "copyRelations" : "bool",
+                  "otherSideObject" : "IModelObject",
+                  "relationTypeName" : "String",
+                  "isTargetPrimary" : "bool",
+                  "newName" : "String",
+                  "action" : "int",
+                  "nRdeepCopyInfo" : [
+                     {
+                        "newName" : "String",
+                        "referenceName" : "String",
+                        "otherSideObject" : "IModelObject",
+                        "action" : "int"
+                     }
+                  ]
+               }
+            ],
+            "newRevId" : "String",
+            "description" : "String"
+         }
+      ]
+   }
+}

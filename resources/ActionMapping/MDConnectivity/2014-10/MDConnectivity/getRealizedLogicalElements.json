@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "context" : "IModelObject",
+            "modelObject" : "IModelObject",
+            "itemRevision" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "logicalElements" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/getRealizedLogicalElements"
+}

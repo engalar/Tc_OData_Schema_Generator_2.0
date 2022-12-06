@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-AWPdmCore-2020-05-PlantDataManagement/getCrossProbingData",
+   "OperationResponse" : {
+      "physicalExternalIds" : "String[]",
+      "treeSelections" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "logicalExternalIds" : "String[]"
+   },
+   "OperationInput" : {
+      "treeSelections" : "IModelObject[]",
+      "viewerSelections" : "String[]",
+      "productContext" : "IModelObject",
+      "treeInitiated" : "bool"
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "columnConfigurations" : [
+         {
+            "scopeName" : "String",
+            "columnConfigId" : "String",
+            "columns" : [
+               {
+                  "pixelWidth" : "int",
+                  "sortPriority" : "int",
+                  "typeName" : "String",
+                  "hiddenFlag" : "bool",
+                  "columnOrder" : "int",
+                  "sortDirection" : "String",
+                  "propertyName" : "String"
+               }
+            ],
+            "clientScopeURI" : "String",
+            "scope" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2016-03-UiConfig/saveUIColumnConfigs"
+}

@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "compressFlg" : "int",
+         "compressType" : "String",
+         "clientInfo" : {
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "clientCorrelationId" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "userDataIp" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "out" : {
+         "serverStagingDir" : "String",
+         "compressSupportedFlg" : "int"
+      },
+      "userDataIp" : "String",
+      "serverCorrelationId" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11StartSendObjectsSvc"
+}

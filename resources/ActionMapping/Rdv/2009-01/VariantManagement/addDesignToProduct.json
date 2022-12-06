@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "archApn" : "IModelObject",
+      "lous" : "IModelObject[]",
+      "iaRev" : "IModelObject",
+      "prodRevs" : "IModelObject[]",
+      "validate" : "bool",
+      "noRequestedOccs" : "int",
+      "metaExpr" : [
+         {
+            "nveRef" : {
+               "nve" : "IModelObject",
+               "nveType" : "nveAuthorized nveSplitting nveMandatorySplit",
+               "nveName" : "String"
+            },
+            "tokenType" : "tokenNull tokenAnd tokenOr tokenNot tokenBra tokenKet tokenNVE"
+         }
+      ],
+      "component" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Rdv-2009-01-VariantManagement/addDesignToProduct",
+   "OperationResponse" : {
+      "newOccType" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "newOcc" : "IModelObject[]"
+   }
+}

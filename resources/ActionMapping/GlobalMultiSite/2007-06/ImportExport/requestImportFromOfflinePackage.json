@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "optionSetTag" : "IModelObject",
+      "optionNamesAndValues" : [
+         {
+            "name" : "String",
+            "value" : "String"
+         }
+      ],
+      "sessionOptionAndValues" : [
+         {
+            "value" : "String",
+            "name" : "String"
+         }
+      ],
+      "fmsTicket" : "String"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "msgId" : "String"
+   },
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/requestImportFromOfflinePackage"
+}

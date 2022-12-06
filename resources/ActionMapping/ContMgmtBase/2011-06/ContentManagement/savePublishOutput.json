@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ContMgmtBase-2011-06-ContentManagement/savePublishOutput",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "uploadInfos" : [
+               {
+                  "datasetTypeName" : "String",
+                  "fileWriteTicket" : "String",
+                  "fileName" : "String",
+                  "refName" : "String"
+               }
+            ],
+            "composedOrReviewerDocRev" : "IModelObject"
+         }
+      ]
+   }
+}

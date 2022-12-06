@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Internal-Reports-2007-06-BOMRollup/getRollupTemplateCalculations",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "rollupTemplate" : "IModelObject",
+            "rollupCalcTemplates" : [
+               {
+                  "type" : "ROLLUPCalcInvalid ROLLUPCalcSum ROLLUPCalcCofm ROLLUPCalcInertia ROLLUPCalcRef",
+                  "calcTemplates" : "IModelObject[]"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "rollupTemplate" : "IModelObject"
+         }
+      ]
+   }
+}

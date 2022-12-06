@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "routineSet" : [
+         {
+            "routineRev" : "String",
+            "routineId" : "String",
+            "routineName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2010-04-MeasurementDataQuery/queryRoutinesInfo",
+   "OperationInput" : {
+      "plantId" : "String"
+   }
+}

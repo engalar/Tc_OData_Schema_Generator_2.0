@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "designToAlignedACTLineInfos" : [
+         {
+            "pmmACTLine" : "IModelObject[]",
+            "design" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-CbaExt-2014-12-QueryManagement/findAlignedACTLinesForDesigns",
+   "OperationInput" : {
+      "preciseEffectivityDetails" : {
+         "preciseEffectivityDate" : "String",
+         "preciseEffectivityPoint" : "String"
+      },
+      "designs" : [
+         {
+            "clientID" : "String",
+            "bomLine" : "IModelObject"
+         }
+      ]
+   }
+}

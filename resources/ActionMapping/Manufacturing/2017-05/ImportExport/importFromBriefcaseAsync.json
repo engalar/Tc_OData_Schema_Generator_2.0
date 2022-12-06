@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "optionSetTag" : "IModelObject",
+      "optionNamesAndValues" : {
+         "SampleKeyString" : "String"
+      },
+      "fmsTicket" : "String",
+      "sessionOptionAndValues" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-Manufacturing-2017-05-ImportExport/importFromBriefcaseAsync"
+}

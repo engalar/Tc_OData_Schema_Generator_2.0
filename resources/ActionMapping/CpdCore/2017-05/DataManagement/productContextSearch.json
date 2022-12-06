@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "clientIdMap" : {
+         "SampleKeyString" : [
+            {
+               "contents" : "IModelObject[]",
+               "configurationContext" : "IModelObject"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CpdCore-2017-05-DataManagement/productContextSearch",
+   "OperationInput" : {
+      "productContextSearchInfos" : [
+         {
+            "searchObjects" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

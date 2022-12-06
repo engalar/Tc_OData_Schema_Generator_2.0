@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "productSkuUid" : "String"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "vendors" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/getVendorsForProductSku"
+}

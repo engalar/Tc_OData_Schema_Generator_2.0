@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Internal-Process-2017-05-Compare/propagateUpdatedElementsInSubset",
+   "OperationResponse" : {
+      "propagatedToElements" : [
+         {
+            "statusData" : [
+               {
+                  "assignedToObjects" : "IModelObject[]",
+                  "status" : "String[]"
+               }
+            ],
+            "clientID" : "String",
+            "modifiedElements" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "propagateUpdatedElementsInSubset" : [
+         {
+            "context" : "IModelObject",
+            "clientID" : "String",
+            "inputElements" : "IModelObject[]"
+         }
+      ]
+   }
+}

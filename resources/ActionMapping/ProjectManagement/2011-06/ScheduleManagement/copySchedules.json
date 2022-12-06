@@ -1,0 +1,76 @@
+{
+   "ServiceOperation" : "ProjectManagement-2011-06-ScheduleManagement/copySchedules",
+   "OperationResponse" : {
+      "scheduleResponse" : [
+         {
+            "scheduleTask" : "IModelObject[]",
+            "schedule" : "IModelObject",
+            "taskDependency" : "IModelObject[]",
+            "resourceAssignment" : "IModelObject[]",
+            "calendarEvent" : "IModelObject[]",
+            "calendar" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "containers" : [
+         {
+            "description" : "String",
+            "revId" : "String",
+            "options" : {
+               "stringOptions" : [
+                  {
+                     "value" : "String",
+                     "name" : "String"
+                  }
+               ],
+               "logicalOptions" : [
+                  {
+                     "value" : "bool",
+                     "name" : "String"
+                  }
+               ],
+               "integerOptions" : [
+                  {
+                     "value" : "int",
+                     "name" : "String"
+                  }
+               ]
+            },
+            "name" : "String",
+            "typedAttributesContainer" : [
+               {
+                  "type" : "String",
+                  "attributes" : [
+                     {
+                        "key" : "String",
+                        "type" : "int",
+                        "value" : "String"
+                     }
+                  ]
+               }
+            ],
+            "copyInfo" : [
+               {
+                  "isTargetPrimary" : "bool",
+                  "objName" : "String",
+                  "objectComp" : "IModelObject",
+                  "operationType" : "int",
+                  "isRequired" : "bool",
+                  "relation" : "String"
+               }
+            ],
+            "scheduleToCopy" : "IModelObject",
+            "stringValueContainer" : [
+               {
+                  "key" : "String",
+                  "type" : "int",
+                  "value" : "String"
+               }
+            ],
+            "id" : "String"
+         }
+      ]
+   }
+}

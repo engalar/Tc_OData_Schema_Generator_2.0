@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Vendormanagement-2007-06-VendorManagement/createOrUpdateLineItems",
+   "OperationInput" : {
+      "bidPackage" : "IModelObject",
+      "properties" : [
+         {
+            "partid" : "String",
+            "viewtype" : "String",
+            "closureRule" : "String",
+            "varRule" : "String",
+            "quantity" : "int",
+            "revRule" : "String",
+            "quote" : "IModelObject",
+            "name" : "String",
+            "liccname" : "String",
+            "liccdesc" : "String",
+            "description" : "String"
+         }
+      ]
+   }
+}

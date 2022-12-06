@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-DebugMonitor-2014-06-JournalBasedTesting/validatePropertyValues",
+   "OperationInput" : {
+      "userEnteredErrorMessage" : "String",
+      "expectedPropertyValues" : [
+         {
+            "object" : "IModelObject",
+            "properties" : [
+               {
+                  "value" : "String[]",
+                  "propertyName" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

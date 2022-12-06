@@ -1,0 +1,152 @@
+{
+   "OperationResponse" : {
+      "createAndSubsOutputs" : [
+         {
+            "viBOMLine" : "IModelObject",
+            "genericBOMLine" : "IModelObject",
+            "newVariantItemRevision" : "IModelObject",
+            "isExistingVIFound" : "bool"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2012-09-VariantManagement/createAndSubstituteVariantItem",
+   "OperationInput" : {
+      "createAndSubstituteVIInput" : [
+         {
+            "findVIBeforeCreate" : "bool",
+            "createOrSaveAsDescriptor" : {
+               "saveAsIn" : {
+                  "targetObject" : "IModelObject",
+                  "deepCopyDatas" : [
+                     {
+                        "isTargetPrimary" : "bool",
+                        "propertyType" : "Relation Reference",
+                        "saveAsInputTypeName" : "String",
+                        "copyAction" : "String",
+                        "isRequired" : "bool",
+                        "copyRelations" : "bool",
+                        "saveAsInput" : {
+                           "tagArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "boName" : "String",
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "tagProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           }
+                        },
+                        "attachedObject" : "IModelObject",
+                        "propertyName" : "String",
+                        "childDeepCopyData" : "Teamcenter::Soa::StructureManagement::_2012_09::VariantManagement::DeepCopyData[]"
+                     }
+                  ],
+                  "saveAsInput" : {
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "boName" : "String",
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     }
+                  }
+               },
+               "bCreateOrSaveAsFlag" : "bool",
+               "properties" : [
+                  {
+                     "type" : "String",
+                     "name" : "String",
+                     "itemId" : "String",
+                     "revId" : "String",
+                     "description" : "String",
+                     "clientId" : "String",
+                     "uom" : "String",
+                     "extendedAttributes" : [
+                        {
+                           "objectType" : "String",
+                           "attributes" : {
+                              "SampleKeyString" : "String"
+                           }
+                        }
+                     ]
+                  }
+               ]
+            },
+            "viBOMLine" : "IModelObject",
+            "genericBOMLine" : "IModelObject",
+            "linkVIToGenericItem" : "bool"
+         }
+      ]
+   }
+}

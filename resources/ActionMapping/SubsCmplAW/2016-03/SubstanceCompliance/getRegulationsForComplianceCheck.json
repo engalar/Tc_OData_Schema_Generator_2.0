@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-SubsCmplAW-2016-03-SubstanceCompliance/getRegulationsForComplianceCheck",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "getRegulationsOutputs" : [
+         {
+            "regulation" : "IModelObject",
+            "isPreSelected" : "bool"
+         }
+      ]
+   },
+   "OperationInput" : {}
+}

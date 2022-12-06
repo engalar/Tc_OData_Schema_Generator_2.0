@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "wbsRootItemID" : "String"
+   },
+   "ServiceOperation" : "Internal-IppeCore-2020-12-IPPEExternalScheduleIntegration/getEmailAddressOfWBSRootOwner",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "emailIds" : "String[]"
+   }
+}

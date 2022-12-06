@@ -1,0 +1,46 @@
+{
+   "ServiceOperation" : "Cad-2013-05-StructureManagement/createBOMWindows2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "bomLine" : "IModelObject",
+            "bomWindow" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "info" : [
+         {
+            "configContext" : "IModelObject",
+            "bomWinPropFlagMap" : {
+               "SampleKeyString" : "String"
+            },
+            "itemRev" : "IModelObject",
+            "bomView" : "IModelObject",
+            "revRuleConfigInfo" : {
+               "props" : {
+                  "overrideFolders" : [
+                     {
+                        "folder" : "IModelObject",
+                        "ruleEntry" : "IModelObject"
+                     }
+                  ],
+                  "endItemRevision" : "IModelObject",
+                  "date" : "Date",
+                  "unitNo" : "int",
+                  "today" : "bool",
+                  "endItem" : "IModelObject"
+               },
+               "revRule" : "IModelObject",
+               "clientId" : "String"
+            },
+            "clientId" : "String",
+            "activeAssemblyArrangement" : "IModelObject",
+            "objectsForConfigure" : "IModelObject[]",
+            "item" : "IModelObject"
+         }
+      ]
+   }
+}

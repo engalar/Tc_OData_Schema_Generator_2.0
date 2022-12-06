@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "attrAndValues" : [
+         {
+            "values" : "String[]",
+            "attrName" : "String"
+         }
+      ],
+      "result" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Query-2008-06-Finder/findObjectsByClassAndAttributes",
+   "OperationInput" : {
+      "input" : {
+         "clientId" : "String",
+         "className" : "String",
+         "outputAttributeNames" : "String[]",
+         "attrAndValues" : [
+            {
+               "values" : "String[]",
+               "attrName" : "String"
+            }
+         ]
+      }
+   }
+}

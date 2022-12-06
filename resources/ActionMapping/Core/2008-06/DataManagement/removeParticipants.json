@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "participants" : [
+         {
+            "itemRev" : "IModelObject",
+            "participant" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2008-06-DataManagement/removeParticipants",
+   "OperationResponse" : "IServiceData"
+}

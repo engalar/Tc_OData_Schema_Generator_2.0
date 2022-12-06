@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "getAvailableViewTypesInputs" : [
+         {
+            "clientId" : "String",
+            "itemObject" : "IModelObject",
+            "itemRevisionObj" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2011-06-Structure/getAvailableViewTypes",
+   "OperationResponse" : {
+      "viewTypesOutputs" : [
+         {
+            "viewTags" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

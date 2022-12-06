@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Rdv-2007-06-VariantManagement/getVariabilityInfo",
+   "OperationResponse" : {
+      "compAndParentVarInfo" : [
+         {
+            "compVarInfo" : [
+               {
+                  "comment" : "String",
+                  "variantObj" : "IModelObject",
+                  "variabilityObj" : "IModelObject"
+               }
+            ],
+            "parentVarInfo" : [
+               {
+                  "variantObj" : "IModelObject",
+                  "comment" : "String",
+                  "variabilityObj" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

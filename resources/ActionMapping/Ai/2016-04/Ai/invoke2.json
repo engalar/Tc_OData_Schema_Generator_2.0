@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "xmlIn" : "String",
+      "methodName" : "String"
+   },
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "xmlOut" : "String"
+   },
+   "ServiceOperation" : "Internal-Ai-2016-04-Ai/invoke2"
+}

@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "queries" : [
+         {
+            "description" : "String",
+            "name" : "String",
+            "query" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Query-2006-03-SavedQuery/getSavedQueries"
+}

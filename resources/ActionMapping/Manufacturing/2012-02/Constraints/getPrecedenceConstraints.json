@@ -1,0 +1,41 @@
+{
+   "OperationResponse" : {
+      "predecessorMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "constraintObject" : "IModelObject",
+                  "adjacentObject" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "successorMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "constraintObject" : "IModelObject",
+                  "adjacentObject" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-Constraints/getPrecedenceConstraints",
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "successorLevel" : "int",
+            "inputObject" : "IModelObject",
+            "predecessorLevel" : "int"
+         }
+      ]
+   }
+}

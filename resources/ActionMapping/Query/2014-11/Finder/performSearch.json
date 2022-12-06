@@ -1,0 +1,81 @@
+{
+   "OperationInput" : {
+      "searchInput" : {
+         "attributesToInflate" : "String[]",
+         "maxToReturn" : "int",
+         "searchFilterFieldSortType" : "String",
+         "providerName" : "String",
+         "searchSortCriteria" : [
+            {
+               "sortDirection" : "ASC DESC",
+               "fieldName" : "String"
+            }
+         ],
+         "startIndex" : "int",
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "startEndRange" : "String",
+                  "selected" : "bool",
+                  "count" : "int",
+                  "searchFilterType" : "String",
+                  "stringValue" : "String",
+                  "endDateValue" : "Date",
+                  "stringDisplayValue" : "String",
+                  "startDateValue" : "Date",
+                  "startNumericValue" : "double",
+                  "endNumericValue" : "double"
+               }
+            ]
+         },
+         "internalPropertyName" : "String",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "maxToLoad" : "int"
+      }
+   },
+   "ServiceOperation" : "Query-2014-11-Finder/performSearch",
+   "OperationResponse" : {
+      "searchResults" : "IModelObject[]",
+      "searchFilterMap" : {
+         "SampleKeyString" : [
+            {
+               "selected" : "bool",
+               "startEndRange" : "String",
+               "count" : "int",
+               "endDateValue" : "Date",
+               "stringValue" : "String",
+               "searchFilterType" : "String",
+               "endNumericValue" : "double",
+               "startNumericValue" : "double",
+               "stringDisplayValue" : "String",
+               "startDateValue" : "Date"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int",
+      "totalFound" : "int",
+      "objectsGroupedByProperty" : {
+         "unmatchedObjectList" : "IModelObject[]",
+         "internalPropertyName" : "String",
+         "groupedObjectsMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               "String[]"
+            ]
+         ]
+      },
+      "searchFilterCategories" : [
+         {
+            "defaultFilterValueDisplayCount" : "int",
+            "displayName" : "String",
+            "internalName" : "String"
+         }
+      ],
+      "defaultFilterFieldDisplayCount" : "int"
+   }
+}

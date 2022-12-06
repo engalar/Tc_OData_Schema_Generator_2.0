@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "dcdFilterInfo" : {
+         "objTypes" : "String[]",
+         "occTypes" : "String[]"
+      },
+      "inputBOs" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "getDCDsOutput" : [
+         {
+            "selectedObject" : "IModelObject",
+            "dcdLines" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "PMIManagement-2014-06-PMIManagement/getDCDs"
+}

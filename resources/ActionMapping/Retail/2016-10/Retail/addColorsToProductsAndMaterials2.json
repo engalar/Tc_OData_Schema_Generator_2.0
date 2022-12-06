@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-Retail-2016-10-Retail/addColorsToProductsAndMaterials2",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "addColorInput" : [
+         {
+            "colorOrColorways" : "IModelObject[]",
+            "brand" : "IModelObject",
+            "colorPalette" : "IModelObject",
+            "productOrMaterial" : "IModelObject",
+            "season" : "IModelObject"
+         }
+      ]
+   }
+}

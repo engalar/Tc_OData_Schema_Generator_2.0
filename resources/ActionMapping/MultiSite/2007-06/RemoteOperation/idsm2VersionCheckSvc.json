@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "out" : {
+         "serverVersion" : "int",
+         "clientRejected" : "int"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm2VersionCheckSvc",
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String"
+         },
+         "clientVersion" : "int"
+      }
+   }
+}

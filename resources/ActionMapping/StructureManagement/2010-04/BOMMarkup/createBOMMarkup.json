@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "createBOMMarkupsList" : [
+         {
+            "markup" : "IModelObject",
+            "bomLine" : "IModelObject",
+            "markupChange" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2010-04-BOMMarkup/createBOMMarkup",
+   "OperationInput" : {
+      "input" : [
+         {
+            "propertyValue" : "String",
+            "bomLine" : "IModelObject",
+            "note" : "String",
+            "propertyName" : "String",
+            "markupType" : "int",
+            "inputObject" : "IModelObject",
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

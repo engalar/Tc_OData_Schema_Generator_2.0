@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "serverCorrelationId" : "String",
+      "userDataIp" : "String"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11EndSendObjectsSvc",
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userDataIp" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "clientCorrelationId" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int"
+         },
+         "abortFlag" : "bool",
+         "serverStagingDir" : "String"
+      }
+   }
+}

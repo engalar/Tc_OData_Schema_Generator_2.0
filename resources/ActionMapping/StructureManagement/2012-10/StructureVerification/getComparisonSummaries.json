@@ -1,0 +1,47 @@
+{
+   "ServiceOperation" : "StructureManagement-2012-10-StructureVerification/getComparisonSummaries",
+   "OperationResponse" : {
+      "comparisonSummaries" : [
+         {
+            "index" : "int",
+            "summaries" : [
+               {
+                  "isDifferent" : "bool",
+                  "extensionName" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "partialMatchCriteria" : [
+         {
+            "extensionName" : "String",
+            "extensionCriteria" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               }
+            }
+         }
+      ],
+      "equivalentObjects" : [
+         {
+            "eqvSrcLines" : "IModelObject[]",
+            "eqvTargetLines" : "IModelObject[]"
+         }
+      ]
+   }
+}

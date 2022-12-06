@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "targetObjectsToExport" : "IModelObject[]",
+         "templateName" : "String",
+         "objectsToExport" : "IModelObject[]",
+         "exportOptions" : [
+            {
+               "optionvalue" : "String",
+               "option" : "String"
+            }
+         ],
+         "attributesToExport" : "String[]",
+         "recipeTargetObjects" : "String[]",
+         "objectTemplateInputs" : [
+            {
+               "boType" : "String",
+               "objectTemplateName" : "String"
+            }
+         ],
+         "recipeSourceObjects" : "String[]",
+         "applicationFormat" : "String",
+         "includeAttachments" : "bool"
+      }
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-AWS2-2017-06-RequirementsManagement/exportAsync2"
+}

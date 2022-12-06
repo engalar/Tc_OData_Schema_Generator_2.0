@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "bitDefinitionInfo" : [
+         {
+            "bitNum" : "int",
+            "name" : "String",
+            "bitDefinitionObject" : "IModelObject",
+            "byteNum" : "int",
+            "meaningOf0" : "String",
+            "meaningOf1" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ParameterManagement-2009-10-Parameter/setBitDefinitionProperties",
+   "OperationResponse" : "IServiceData"
+}

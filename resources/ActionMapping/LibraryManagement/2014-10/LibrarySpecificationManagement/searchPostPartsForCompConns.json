@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "searchPPInputs" : [
+         {
+            "sourceConnectionType" : "String",
+            "library" : "IModelObject",
+            "targetConnectionType" : "String",
+            "specification" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/searchPostPartsForCompConns",
+   "OperationResponse" : {
+      "resultOutputs" : [
+         {
+            "specification" : "IModelObject",
+            "library" : "IModelObject",
+            "libraryElements" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "libraryElements" : "IModelObject[]"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryUsage/findInstantiations",
+   "OperationResponse" : {
+      "instantiations" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

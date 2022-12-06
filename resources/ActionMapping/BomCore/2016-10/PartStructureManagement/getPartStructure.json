@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-BomCore-2016-10-PartStructureManagement/getPartStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "partStructureWindow" : "IModelObject"
+   },
+   "OperationInput" : {
+      "includeAlignedDesignInfo" : "bool",
+      "configurationContext" : "IModelObject",
+      "part" : "IModelObject"
+   }
+}

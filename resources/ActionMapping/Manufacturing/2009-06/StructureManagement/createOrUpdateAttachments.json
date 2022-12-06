@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "attachments" : [
+         {
+            "bomLine" : "IModelObject",
+            "attLine" : "IModelObject",
+            "objects" : {
+               "SampleKeyString" : "IModelObject[]"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2009-06-StructureManagement/createOrUpdateAttachments"
+}

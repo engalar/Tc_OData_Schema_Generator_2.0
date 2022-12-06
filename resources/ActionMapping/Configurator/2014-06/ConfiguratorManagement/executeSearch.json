@@ -1,0 +1,157 @@
+{
+   "OperationInput" : {
+      "searchOptions" : {
+         "sortAttributes" : "String[]",
+         "defaultLoadCount" : "int",
+         "sortOrder" : "Ascending Descending[]"
+      },
+      "searchRecipe" : {
+         "rootExpressionInputClientId" : "String",
+         "settings" : {
+            "SampleKeyString" : "String[]"
+         },
+         "searchExpression" : {
+            "resultTypes" : [
+               {
+                  "resultColumns" : [
+                     {
+                        "index" : "int",
+                        "attribute" : "String",
+                        "dataType" : "int",
+                        "alias" : "String"
+                     }
+                  ],
+                  "clientId" : "String",
+                  "searchResultObjectTypes" : "String[]",
+                  "predicateClauseParameters" : [
+                     {
+                        "predicateOperator" : "int",
+                        "attribute" : "String",
+                        "valueObjects" : "IModelObject[]"
+                     }
+                  ]
+               }
+            ],
+            "excludeObjects" : [
+               {
+                  "objects" : "IModelObject[]",
+                  "clientId" : "String",
+                  "resultColumns" : [
+                     {
+                        "dataType" : "int",
+                        "alias" : "String",
+                        "attribute" : "String",
+                        "index" : "int"
+                     }
+                  ]
+               }
+            ],
+            "traversals" : [
+               {
+                  "transferOptionsSet" : "IModelObject",
+                  "clientID" : "String",
+                  "optionNames" : "String[]",
+                  "resultColumns" : [
+                     {
+                        "attribute" : "String",
+                        "index" : "int",
+                        "alias" : "String",
+                        "dataType" : "int"
+                     }
+                  ],
+                  "optionValues" : "String[]"
+               }
+            ],
+            "savedQueries" : [
+               {
+                  "clientId" : "String",
+                  "values" : "String[]",
+                  "resultColumns" : [
+                     {
+                        "attribute" : "String",
+                        "index" : "int",
+                        "dataType" : "int",
+                        "alias" : "String"
+                     }
+                  ],
+                  "savedQuery" : "IModelObject",
+                  "entries" : "String[]"
+               }
+            ],
+            "includeObjects" : [
+               {
+                  "clientId" : "String",
+                  "resultColumns" : [
+                     {
+                        "index" : "int",
+                        "attribute" : "String",
+                        "alias" : "String",
+                        "dataType" : "int"
+                     }
+                  ],
+                  "objects" : "IModelObject[]"
+               }
+            ],
+            "expressionGroups" : [
+               {
+                  "expressionIds" : "String[]",
+                  "settings" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "searchOperator" : "UnionAll UnionUnique Intersection Difference",
+                  "clientId" : "String"
+               }
+            ],
+            "expressionJoins" : [
+               {
+                  "expressionIds" : "String[]",
+                  "settings" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "joinConditions" : [
+                     {
+                        "right" : "int",
+                        "operatorCode" : "int",
+                        "left" : "int"
+                     }
+                  ],
+                  "searchOperator" : "InnerJoin LeftJoin RightJoin FullJoin",
+                  "clientId" : "String"
+               }
+            ]
+         },
+         "configuratorPerspective" : "IModelObject",
+         "variantCriteria" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/executeSearch",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "estimatedRowsLeft" : "int",
+      "rowsDone" : "int",
+      "searchCursor" : "IModelObject",
+      "searchResultTable" : {
+         "doubleColumns" : {
+            "SampleKeyString" : "double[]"
+         },
+         "objectColumns" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "intColumns" : {
+            "SampleKeyString" : "int[]"
+         },
+         "logicalColumns" : {
+            "SampleKeyString" : "bool[]"
+         },
+         "stringColumns" : {
+            "SampleKeyString" : "String[]"
+         },
+         "dateColumns" : {
+            "SampleKeyString" : "Date[]"
+         }
+      },
+      "foundObjects" : "IModelObject[]",
+      "objectsDone" : "int",
+      "estimatedObjectsLeft" : "int"
+   }
+}

@@ -1,0 +1,34 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "item" : "IModelObject",
+            "itemRevOutput" : [
+               {
+                  "datasets" : "IModelObject[]",
+                  "itemRevision" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2007-01-DataManagement/getItemFromId",
+   "OperationInput" : {
+      "pref" : {
+         "prefs" : [
+            {
+               "relationTypeName" : "String",
+               "objectTypeNames" : "String[]"
+            }
+         ]
+      },
+      "nRev" : "int",
+      "infos" : [
+         {
+            "revIds" : "String[]",
+            "itemId" : "String"
+         }
+      ]
+   }
+}

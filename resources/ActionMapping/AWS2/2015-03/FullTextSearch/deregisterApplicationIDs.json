@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "applicationIDs" : "String[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2015-03-FullTextSearch/deregisterApplicationIDs",
+   "OperationResponse" : "IServiceData"
+}

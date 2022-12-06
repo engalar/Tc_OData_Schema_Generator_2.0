@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Core-2020-01-DataManagement/createIdDisplayRules",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "idDispRuleCreIns" : [
+         {
+            "idContexts" : "IModelObject[]",
+            "useDefault" : "bool",
+            "ruleName" : "String",
+            "setCurrent" : "bool"
+         }
+      ]
+   }
+}

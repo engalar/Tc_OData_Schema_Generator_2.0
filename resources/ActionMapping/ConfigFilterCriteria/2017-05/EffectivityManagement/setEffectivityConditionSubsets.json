@@ -1,0 +1,68 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ConfigFilterCriteria-2017-05-EffectivityManagement/setEffectivityConditionSubsets",
+   "OperationInput" : {
+      "subsetCriteria" : {
+         "effectivityTable" : [
+            {
+               "unitIn" : "int",
+               "rest" : {
+                  "productNameSpace" : "String",
+                  "productName" : "String",
+                  "formula" : "String"
+               },
+               "dateOut" : "Date",
+               "unitOut" : "int",
+               "dateIn" : "Date"
+            }
+         ],
+         "formula" : {
+            "formula" : "String",
+            "productName" : "String",
+            "productNameSpace" : "String"
+         },
+         "opCode" : "int",
+         "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+         "value" : {
+            "family" : "IModelObject",
+            "name" : "String",
+            "description" : "String"
+         }
+      },
+      "actionCode" : "int",
+      "productName" : "String",
+      "productNamespace" : "String",
+      "effectivityConditions" : [
+         {
+            "targetObjects" : "IModelObject[]",
+            "expression" : {
+               "effectivityTable" : [
+                  {
+                     "unitIn" : "int",
+                     "rest" : {
+                        "productName" : "String",
+                        "formula" : "String",
+                        "productNameSpace" : "String"
+                     },
+                     "dateOut" : "Date",
+                     "unitOut" : "int",
+                     "dateIn" : "Date"
+                  }
+               ],
+               "formula" : {
+                  "productName" : "String",
+                  "formula" : "String",
+                  "productNameSpace" : "String"
+               },
+               "opCode" : "int",
+               "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+               "value" : {
+                  "name" : "String",
+                  "family" : "IModelObject",
+                  "description" : "String"
+               }
+            }
+         }
+      ]
+   }
+}

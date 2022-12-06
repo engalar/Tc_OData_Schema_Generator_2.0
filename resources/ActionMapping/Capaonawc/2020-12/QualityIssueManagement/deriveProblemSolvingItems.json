@@ -1,0 +1,47 @@
+{
+   "ServiceOperation" : "Internal-Capaonawc-2020-12-QualityIssueManagement/deriveProblemSolvingItems",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "deriveInput" : {
+         "propagateRelation" : "bool",
+         "derivePropertyData" : {
+            "compoundDeriveInput" : {
+               "SampleKeyString" : [
+                  {
+                     "boName" : "String",
+                     "compoundDeriveInput" : "CAW0::Soa::Internal::Capaonawc::_2020_12::QualityIssueManagement::DerivePropertyValueInputMap",
+                     "propertyNameValues" : {
+                        "SampleKeyString" : "String[]"
+                     }
+                  }
+               ]
+            },
+            "boName" : "String",
+            "propertyNameValues" : {
+               "SampleKeyString" : "String[]"
+            }
+         },
+         "submitToWorkflow" : "bool",
+         "workflowTemplateName" : "String",
+         "selectedObjects" : "IModelObject[]",
+         "deepCopyDatas" : [
+            {
+               "childDeepCopyData" : "CAW0::Soa::Internal::Capaonawc::_2020_12::QualityIssueManagement::DeepCopyData[]",
+               "inputProperties" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "deepCopyProperties" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "operationInputType" : "String",
+               "attachedObject" : "IModelObject"
+            }
+         ]
+      },
+      "deriveOptions" : {
+         "targetObject" : "IModelObject",
+         "targetAsDuplicate" : "bool",
+         "targetRelation" : "String"
+      }
+   }
+}

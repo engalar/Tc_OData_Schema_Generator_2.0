@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "schedule" : "String[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "scheduleData" : [
+         {
+            "calendar" : "IModelObject[]",
+            "schedule" : "IModelObject",
+            "scheduleTask" : "IModelObject[]",
+            "taskDependency" : "IModelObject[]",
+            "resourceAssignment" : "IModelObject[]",
+            "calendarEvent" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2007-01-ScheduleManagement/loadSchedule"
+}

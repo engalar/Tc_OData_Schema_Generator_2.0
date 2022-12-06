@@ -1,0 +1,112 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "lastModifiedOfBVR" : "Date",
+            "contextItemRev" : "IModelObject",
+            "bvrAbsOccInfo" : [
+               {
+                  "absOccData" : {
+                     "overridesToRemove" : "String[]",
+                     "overridesToSet" : [
+                        {
+                           "name" : "String",
+                           "value" : "String"
+                        }
+                     ],
+                     "attachmentsToUnattach" : [
+                        {
+                           "relationTypeName" : "String",
+                           "dataset" : "IModelObject"
+                        }
+                     ],
+                     "usedArr" : "IModelObject",
+                     "asRequired" : "bool",
+                     "occTransform" : "double[]",
+                     "clientIdOfUsedArrangement" : "String",
+                     "attachments" : [
+                        {
+                           "relationTypeName" : "String",
+                           "dataset" : "IModelObject"
+                        }
+                     ],
+                     "occNotes" : [
+                        {
+                           "noteText" : "String",
+                           "noteType" : "String"
+                        }
+                     ]
+                  },
+                  "clientId" : "String",
+                  "cadOccIdPath" : "String[]",
+                  "absOcc" : "IModelObject"
+               }
+            ],
+            "arrAbsOccInfo" : [
+               {
+                  "isDefault" : "bool",
+                  "absOccInfo" : [
+                     {
+                        "clientId" : "String",
+                        "absOccData" : {
+                           "overridesToRemove" : "String[]",
+                           "overridesToSet" : [
+                              {
+                                 "value" : "String",
+                                 "name" : "String"
+                              }
+                           ],
+                           "attachmentsToUnattach" : [
+                              {
+                                 "dataset" : "IModelObject",
+                                 "relationTypeName" : "String"
+                              }
+                           ],
+                           "usedArr" : "IModelObject",
+                           "occTransform" : "double[]",
+                           "asRequired" : "bool",
+                           "clientIdOfUsedArrangement" : "String",
+                           "occNotes" : [
+                              {
+                                 "noteType" : "String",
+                                 "noteText" : "String"
+                              }
+                           ],
+                           "attachments" : [
+                              {
+                                 "dataset" : "IModelObject",
+                                 "relationTypeName" : "String"
+                              }
+                           ]
+                        },
+                        "cadOccIdPath" : "String[]",
+                        "absOcc" : "IModelObject"
+                     }
+                  ],
+                  "description" : "String",
+                  "clientId" : "String",
+                  "name" : "String",
+                  "arrangement" : "IModelObject",
+                  "externalUid" : "String"
+               }
+            ]
+         }
+      ],
+      "complete" : "bool",
+      "bomViewTypeName" : "String",
+      "pref" : {
+         "overwriteForLastModDate" : "bool",
+         "cadOccIdAttrName" : "String"
+      }
+   },
+   "ServiceOperation" : "Cad-2007-12-StructureManagement/createOrUpdateAbsoluteStructure",
+   "OperationResponse" : {
+      "asmArrOutput" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData",
+      "absOccOutput" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   }
+}

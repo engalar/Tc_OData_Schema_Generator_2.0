@@ -1,0 +1,61 @@
+{
+   "ServiceOperation" : "Internal-ValidationContractAW-2018-12-VCManagement/manageAnalysisRequests",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "analysisRequest" : "IModelObject",
+            "addedInterfaceDefMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "clientId" : "String",
+            "removedElements" : "IModelObject[]",
+            "addedElements" : "IModelObject[]",
+            "removedInterfaceDefMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "pref" : {
+         "diagramAction" : "String",
+         "useClosureRule" : "bool"
+      },
+      "input" : [
+         {
+            "analysisRequest" : "IModelObject",
+            "data" : [
+               {
+                  "elementInputs" : [
+                     {
+                        "end" : "IModelObject",
+                        "endContext" : "IModelObject",
+                        "portToInterfaceDefsMap" : [
+                           [
+                              "SampleKeyIModelObject"
+                           ],
+                           [
+                              "IModelObject[]"
+                           ]
+                        ]
+                     }
+                  ],
+                  "manageAction" : "String"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   }
+}

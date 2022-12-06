@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2014-12-ResourceManagement/getVendorCatalogInfo2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "catalogInfo" : [
+         {
+            "vendorAcronym" : "String",
+            "vendorCatalogShortDescription" : "String",
+            "vendorCatalogDescription" : "String",
+            "gtcHierarchyVersion" : "String",
+            "vendorCatalogRootClassId" : "String",
+            "gtcPackageId" : "String",
+            "vendorName" : "String",
+            "gtcPackageCreationDate" : "String",
+            "vendorCatalogId" : "String",
+            "vendorCatalogVersion" : "String",
+            "vendorCatalogRootDir" : "String",
+            "vendorCatalogLanguage" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "catalogTypes" : "int"
+   }
+}

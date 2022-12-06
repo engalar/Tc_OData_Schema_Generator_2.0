@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "port1" : "IModelObject",
+            "orderedElemGroup" : "IModelObject",
+            "connection" : "IModelObject",
+            "clientId" : "String",
+            "attributeInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "port2" : "IModelObject",
+            "element" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/insertConnectionElement"
+}

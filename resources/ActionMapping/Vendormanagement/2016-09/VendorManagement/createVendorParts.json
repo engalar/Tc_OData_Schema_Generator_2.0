@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "properties" : [
+         {
+            "companyLocationObj" : "IModelObject",
+            "partName" : "String",
+            "clientId" : "String",
+            "partType" : "String",
+            "partId" : "String",
+            "revId" : "String",
+            "vendorObj" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Vendormanagement-2016-09-VendorManagement/createVendorParts",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "vendorPart" : "IModelObject",
+            "clientId" : "String",
+            "vendorPartRev" : "IModelObject"
+         }
+      ]
+   }
+}

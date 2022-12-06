@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "tickets" : [
+         {
+            "transientFileWriteTicket" : "String",
+            "deleteFlag" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2018-11-FileManagement/getTransientFileTicketsForDownload",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "transientFileReadTickets" : "String[]"
+   }
+}

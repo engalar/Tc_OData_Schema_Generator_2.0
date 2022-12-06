@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "AsBuilt-2010-04-AsBuilt/searchInstallablePhysPart",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "altInstallablePhysParts" : "IModelObject[]",
+            "prefInstallablePhysParts" : "IModelObject[]",
+            "deviatedInstallablePhysParts" : "IModelObject[]",
+            "clientId" : "String",
+            "subInstallablePhysParts" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "physBOMLine" : "IModelObject",
+            "clientId" : "String",
+            "usageBOMLine" : "IModelObject",
+            "searchInfo" : {
+               "searchMap" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         }
+      ]
+   }
+}

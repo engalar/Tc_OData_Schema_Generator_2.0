@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "topline" : "IModelObject",
+            "recipeObj" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Visualization-2008-06-StructureManagement/createBOMsFromRecipes",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "bomWindow" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Cad-2007-06-StructureManagement/deleteClassicOptions",
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "clientId" : "String",
+            "bomLine" : "IModelObject",
+            "optionNames" : "String[]"
+         }
+      ]
+   }
+}

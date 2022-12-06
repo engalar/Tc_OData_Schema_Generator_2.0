@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "operationInput" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ProgramInfra-2016-04-ProgramManagement/getPlanHierarchy",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "responseStructList" : [
+         {
+            "inputPlan" : "IModelObject",
+            "planHierarchy" : "IModelObject[]"
+         }
+      ]
+   }
+}

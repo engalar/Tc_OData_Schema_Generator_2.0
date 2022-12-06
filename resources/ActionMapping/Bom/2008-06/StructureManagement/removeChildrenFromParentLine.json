@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Bom-2008-06-StructureManagement/removeChildrenFromParentLine",
+   "OperationInput" : {
+      "bomlines" : "IModelObject[]"
+   }
+}

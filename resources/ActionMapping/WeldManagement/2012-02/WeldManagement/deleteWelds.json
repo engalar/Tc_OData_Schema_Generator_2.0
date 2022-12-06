@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "parentBvr" : "IModelObject",
+            "destroy" : "bool",
+            "comps" : [
+               {
+                  "occUid" : "String",
+                  "compRev" : "IModelObject",
+                  "compOcc" : "IModelObject",
+                  "compBvr" : "IModelObject",
+                  "revUid" : "String",
+                  "bvrUid" : "String"
+               }
+            ],
+            "relType" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "WeldManagement-2012-02-WeldManagement/deleteWelds",
+   "OperationResponse" : {
+      "results" : [
+         {
+            "clientId" : "String",
+            "message" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

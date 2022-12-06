@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "logFileFMSTicket" : "String",
+      "serviceData" : "IServiceData",
+      "errorFileFMSTicket" : "String"
+   },
+   "ServiceOperation" : "GlobalMultiSite-2008-06-ImportExport/importObjectsFromOfflinePackage",
+   "OperationInput" : {
+      "optionNamesAndValues" : [
+         {
+            "name" : "String",
+            "value" : "String"
+         }
+      ],
+      "optionSetTag" : "IModelObject",
+      "fmsTicket" : "String",
+      "sessionOptionAndValues" : [
+         {
+            "value" : "String",
+            "name" : "String"
+         }
+      ]
+   }
+}

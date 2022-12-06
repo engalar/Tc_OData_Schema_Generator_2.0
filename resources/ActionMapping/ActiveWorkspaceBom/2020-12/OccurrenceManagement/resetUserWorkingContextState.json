@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "responsePref" : {
+         "SampleKeyString" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2020-12-OccurrenceManagement/resetUserWorkingContextState",
+   "OperationInput" : {
+      "inputData" : {
+         "productContext" : "IModelObject",
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   }
+}

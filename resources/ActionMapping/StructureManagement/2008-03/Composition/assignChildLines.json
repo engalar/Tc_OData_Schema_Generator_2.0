@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "StructureManagement-2008-03-Composition/assignChildLines",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "assignOutput" : [
+         {
+            "linesWithoutPreds" : "IModelObject[]",
+            "newLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "copyPreds" : "bool",
+            "newParentLine" : "IModelObject",
+            "linesToAssign" : [
+               {
+                  "occType" : "String",
+                  "lineToAssign" : "IModelObject"
+               }
+            ],
+            "copyOccTypeFromSource" : "bool"
+         }
+      ]
+   }
+}

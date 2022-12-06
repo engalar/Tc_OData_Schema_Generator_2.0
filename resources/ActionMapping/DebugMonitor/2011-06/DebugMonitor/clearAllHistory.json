@@ -1,0 +1,5 @@
+{
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugMonitor/clearAllHistory",
+   "OperationResponse" : "bool",
+   "OperationInput" : {}
+}

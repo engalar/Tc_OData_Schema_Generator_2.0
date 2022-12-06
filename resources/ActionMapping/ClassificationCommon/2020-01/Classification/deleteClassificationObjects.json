@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Internal-ClassificationCommon-2020-01-Classification/deleteClassificationObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "jsonResponse" : "String"
+   },
+   "OperationInput" : {
+      "jsonRequest" : "String"
+   }
+}

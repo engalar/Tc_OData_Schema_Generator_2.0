@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "selectedLine" : "IModelObject",
+            "clientId" : "String",
+            "operation" : "int",
+            "newNumber" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Requirementsmanagement-2010-09-RequirementsManagement/moveLine"
+}

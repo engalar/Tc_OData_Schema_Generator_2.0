@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "scheduleDeliverableData" : [
+         {
+            "deliverableType" : "String",
+            "deliverableReference" : "IModelObject",
+            "deliverableName" : "String",
+            "schedule" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagement-2008-06-ScheduleManagement/createScheduleDeliverableTemplates"
+}

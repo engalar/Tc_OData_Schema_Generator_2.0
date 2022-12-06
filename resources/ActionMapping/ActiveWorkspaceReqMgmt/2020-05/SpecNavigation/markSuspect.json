@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2020-05-SpecNavigation/markSuspect",
+   "OperationInput" : {
+      "inputData" : {
+         "removePrevNotifications" : "bool",
+         "requestPref" : {
+            "SampleKeyString" : "String"
+         },
+         "suspectObjectsMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "dueDate" : "Date",
+         "isRunInBackground" : "bool",
+         "note" : "String"
+      }
+   }
+}

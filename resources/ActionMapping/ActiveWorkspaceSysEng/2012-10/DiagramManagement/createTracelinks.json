@@ -1,0 +1,41 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "tracelinkObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ActiveWorkspaceSysEng-2012-10-DiagramManagement/createTracelinks",
+   "OperationInput" : {
+      "input" : [
+         {
+            "tracelinkCreateInput" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "compoundCreateInput" : "Ase0::Soa::ActiveWorkspaceSysEng::_2012_10::DiagramManagement::CreateInputMap",
+                        "boName" : "String",
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        }
+                     }
+                  ]
+               },
+               "boName" : "String"
+            },
+            "complyingEnd" : "IModelObject",
+            "definingEnd" : "IModelObject",
+            "clientId" : "String",
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   }
+}

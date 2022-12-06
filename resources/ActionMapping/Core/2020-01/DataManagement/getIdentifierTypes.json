@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "identifierTypesIn" : [
+         {
+            "inputItemOrRev" : "IModelObject",
+            "idContext" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2020-01-DataManagement/getIdentifierTypes",
+   "OperationResponse" : {
+      "identifiersOutput" : [
+         {
+            "identifierTypes" : "IModelObject[]",
+            "item" : "IModelObject",
+            "inputItemOrRev" : "IModelObject",
+            "revisions" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

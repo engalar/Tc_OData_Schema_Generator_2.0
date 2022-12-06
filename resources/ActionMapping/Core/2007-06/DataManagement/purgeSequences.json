@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "objects" : [
+         {
+            "inputObject" : "IModelObject",
+            "validateLatestFlag" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2007-06-DataManagement/purgeSequences"
+}

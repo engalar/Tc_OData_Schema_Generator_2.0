@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Core-2012-09-Envelope/sendEmail",
+   "OperationInput" : {
+      "emailinfos" : [
+         {
+            "listOfExtCcRecipients" : "String[]",
+            "listOfCcRecipients" : "IModelObject[]",
+            "messageBody" : "String",
+            "listOfRecipients" : "IModelObject[]",
+            "clientID" : "String",
+            "fmsReadTickets" : "String[]",
+            "listOfExtRecipients" : "String[]",
+            "sender" : "IModelObject",
+            "subject" : "String"
+         }
+      ]
+   }
+}

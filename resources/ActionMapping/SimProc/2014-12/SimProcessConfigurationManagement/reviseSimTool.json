@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "toolBOMLines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-SimProc-2014-12-SimProcessConfigurationManagement/reviseSimTool",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "extraString" : "String",
+         "clientInfo" : {
+            "roleName" : "String",
+            "clientCorrelationId" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "osUserName" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "userDataIp" : "String"
+         },
+         "extraInt" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11GetErrorStackSvc",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "serverCorrelationId" : "String",
+      "out" : {
+         "errorText" : "String[]",
+         "extraInt" : "int",
+         "nStackEntries" : "int",
+         "errorCodes" : "int[]",
+         "extraString" : "String"
+      },
+      "userDataIp" : "String"
+   }
+}

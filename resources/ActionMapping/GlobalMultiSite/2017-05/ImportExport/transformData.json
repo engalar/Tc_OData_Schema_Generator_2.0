@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputFileTickets" : "String[]",
+      "sessionOptions" : [
+         {
+            "value" : "String",
+            "name" : "String"
+         }
+      ],
+      "ruleFileNamesOrTickets" : "String[]"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2017-05-ImportExport/transformData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputFileTicket" : "String",
+      "logFileTicket" : "String"
+   }
+}

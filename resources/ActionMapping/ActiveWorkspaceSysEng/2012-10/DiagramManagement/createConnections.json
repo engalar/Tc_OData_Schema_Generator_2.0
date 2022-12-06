@@ -1,0 +1,74 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "connectionCreateInput" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boName" : "String",
+                        "compoundCreateInput" : "Ase0::Soa::ActiveWorkspaceSysEng::_2012_10::DiagramManagement::CreateInputMap"
+                     }
+                  ]
+               },
+               "boName" : "String"
+            },
+            "end1" : "IModelObject",
+            "end2" : "IModelObject",
+            "clientId" : "String",
+            "connectionParent" : "IModelObject",
+            "productContext" : "IModelObject",
+            "end1CreateInput" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String",
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boName" : "String",
+                        "compoundCreateInput" : "Ase0::Soa::ActiveWorkspaceSysEng::_2012_10::DiagramManagement::CreateInputMap"
+                     }
+                  ]
+               }
+            },
+            "end2CreateInput" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "boName" : "String",
+                        "compoundCreateInput" : "Ase0::Soa::ActiveWorkspaceSysEng::_2012_10::DiagramManagement::CreateInputMap",
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        }
+                     }
+                  ]
+               },
+               "boName" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "ActiveWorkspaceSysEng-2012-10-DiagramManagement/createConnections",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "connection" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

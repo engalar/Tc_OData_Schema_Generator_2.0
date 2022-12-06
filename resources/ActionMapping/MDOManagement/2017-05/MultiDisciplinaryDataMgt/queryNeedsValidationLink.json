@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "queryInput" : [
+         {
+            "inputDesignArtifact" : "IModelObject",
+            "inputMDO" : "IModelObject",
+            "queryAllMDILinks" : "bool",
+            "clientId" : "String",
+            "queryAllMDOLinks" : "bool",
+            "inputDesignInstance" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2017-05-MultiDisciplinaryDataMgt/queryNeedsValidationLink",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "linkQueryOutput" : [
+         {
+            "mdiLinkOutput" : [
+               {
+                  "instances" : "IModelObject[]",
+                  "mdiObject" : "IModelObject"
+               }
+            ],
+            "mdoLinkOutput" : [
+               {
+                  "associatedDesignArtifact" : "IModelObject[]",
+                  "clientId" : "String",
+                  "mdoObject" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   }
+}

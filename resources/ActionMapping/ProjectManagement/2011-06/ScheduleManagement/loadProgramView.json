@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "loadProgramViewContainer" : {
+         "loadProgramViewSets" : [
+            {
+               "loadProgramViewFilters" : [
+                  {
+                     "field" : "String",
+                     "value" : "String",
+                     "condition" : "int"
+                  }
+               ]
+            }
+         ],
+         "schedules" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "calendar" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "resourceAssignment" : "IModelObject[]",
+      "taskDependency" : "IModelObject[]",
+      "scheduleTask" : "IModelObject[]",
+      "schedules" : "IModelObject[]",
+      "calendarEvent" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2011-06-ScheduleManagement/loadProgramView"
+}

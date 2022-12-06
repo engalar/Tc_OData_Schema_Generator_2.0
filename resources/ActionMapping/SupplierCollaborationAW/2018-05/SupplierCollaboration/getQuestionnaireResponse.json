@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "viewModelRows" : [
+         {
+            "modelObject" : "IModelObject",
+            "viewModelProperties" : [
+               {
+                  "propDBValue" : "String",
+                  "propDataType" : "String",
+                  "propUIValue" : "String",
+                  "propParentBO" : "IModelObject",
+                  "hasLOV" : "bool",
+                  "propInternalName" : "String",
+                  "isEditable" : "bool",
+                  "propDisplayName" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/getQuestionnaireResponse",
+   "OperationInput" : {
+      "responseObject" : "IModelObject"
+   }
+}

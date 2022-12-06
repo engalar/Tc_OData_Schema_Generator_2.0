@@ -1,0 +1,76 @@
+{
+   "OperationResponse" : {
+      "behaviorData" : {
+         "descriptionsAttached" : "bool[]",
+         "lovUsage" : "int",
+         "style" : "String",
+         "rangeLowerLimit" : "String",
+         "columnNames" : {
+            "lovDescrProp" : "String",
+            "displayNames" : {
+               "SampleKeyString" : "String"
+            },
+            "columnManagementFlags" : {
+               "SampleKeyString" : "int"
+            },
+            "filterProperties" : "String[]",
+            "lovValueProp" : "String"
+         },
+         "dependendProps" : "String[]",
+         "rangeUpperLimit" : "String"
+      },
+      "lovValues" : [
+         {
+            "propDisplayValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "childRows" : "Teamcenter::Soa::Core::_2013_05::LOV::LOVValueRow[]",
+            "propInternalValueTypes" : {
+               "SampleKeyString" : "int"
+            },
+            "propInternalValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "uid" : "String"
+         }
+      ],
+      "lovData" : {
+         "unProcessedObjects" : "String[]",
+         "currentIndex" : "int",
+         "style" : "String",
+         "additionalValuesSkipped" : "bool",
+         "filterData" : {
+            "maxResults" : "int",
+            "numberToReturn" : "int",
+            "sortPropertyName" : "String",
+            "filterString" : "String",
+            "order" : "int"
+         },
+         "lovs" : "IModelObject[]"
+      },
+      "moreValuesExist" : "bool",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2013-05-LOV/getInitialLOVValues",
+   "OperationInput" : {
+      "initialData" : {
+         "lovInput" : {
+            "operationName" : "String",
+            "owningObject" : "IModelObject",
+            "propertyValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "boName" : "String"
+         },
+         "propertyName" : "String",
+         "filterData" : {
+            "filterString" : "String",
+            "sortPropertyName" : "String",
+            "maxResults" : "int",
+            "numberToReturn" : "int",
+            "order" : "int"
+         },
+         "lov" : "IModelObject"
+      }
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "semanticType" : "String"
+   },
+   "OperationResponse" : {
+      "ldfTCTypesList" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Ldf-2017-05-LinkedDataRequest/getTCTypesFromSemanticTypes"
+}

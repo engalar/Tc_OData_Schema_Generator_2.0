@@ -1,0 +1,56 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2020-12-OccurrenceManagement/removeLevel",
+   "OperationResponse" : {
+      "newElementInfos" : [
+         {
+            "parentElement" : "IModelObject",
+            "newElements" : [
+               {
+                  "stableId" : "String",
+                  "occurrenceId" : "String",
+                  "numberOfChildren" : "int",
+                  "occurrence" : "IModelObject",
+                  "underlyingObjectType" : "String",
+                  "displayName" : "String"
+               }
+            ],
+            "newElementToPositionMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "int"
+               ]
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "childOccurrencesInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "occurrence" : "IModelObject",
+                  "underlyingObjectType" : "String",
+                  "displayName" : "String",
+                  "stableId" : "String",
+                  "occurrenceId" : "String",
+                  "numberOfChildren" : "int"
+               }
+            ]
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "inputData" : {
+         "sortCriteria" : {
+            "sortingOrder" : "String",
+            "propertyName" : "String"
+         },
+         "productContext" : "IModelObject",
+         "elementsToRemoveLevel" : "IModelObject[]"
+      }
+   }
+}

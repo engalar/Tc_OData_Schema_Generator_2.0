@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "id" : "IModelObject",
+      "info" : {
+         "status" : "RequestStatus_Normal RequestStatus_Warning RequestStatus_Severe RequestStatus_Abort RequestStatus_Any",
+         "description" : "String"
+      },
+      "stateMsg" : "String"
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/endExchange",
+   "OperationResponse" : "IServiceData"
+}

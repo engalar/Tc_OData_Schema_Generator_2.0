@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2019-06-DataManagement/unlinkAndDeleteObjects",
+   "OperationInput" : {
+      "deleteInput" : [
+         {
+            "property" : "String",
+            "container" : "IModelObject",
+            "unlinkAlways" : "bool",
+            "objectsToDelete" : "IModelObject[]"
+         }
+      ]
+   }
+}

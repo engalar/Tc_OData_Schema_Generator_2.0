@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "supportingObject" : "IModelObject",
+      "supportingValue" : "String",
+      "task" : "IModelObject",
+      "password" : "String",
+      "comments" : "String",
+      "action" : "String"
+   },
+   "ServiceOperation" : "Workflow-2012-10-Workflow/performAction2",
+   "OperationResponse" : "IServiceData"
+}

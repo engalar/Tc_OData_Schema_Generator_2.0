@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-ManufacturingCore-2017-05-DataManagement/getConfiguredObjects",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientID" : "String",
+            "configuredObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientID" : "String",
+            "object" : "IModelObject"
+         }
+      ]
+   }
+}

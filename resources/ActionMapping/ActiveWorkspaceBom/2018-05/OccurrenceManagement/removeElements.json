@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2018-05-OccurrenceManagement/removeElements",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "elementsToRemove" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-Core-2017-11-Type/getSubTypeHierarchicalTrees",
+   "OperationResponse" : {
+      "treeRootNodes" : [
+         {
+            "typeDisplayName" : "String",
+            "subTypes" : "Teamcenter::Soa::Internal::Core::_2017_11::Type::TypeHierarchicalTreeNode[]",
+            "typeInternalName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "givenTypes" : [
+         {
+            "clientId" : "String",
+            "typeInternalName" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "itemRevToProductItems" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "totalPageCount" : "int"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-StructureSearch/getProductsWhereUsed",
+   "OperationInput" : {
+      "itemRevisions" : "IModelObject[]",
+      "pageNumber" : "int"
+   }
+}

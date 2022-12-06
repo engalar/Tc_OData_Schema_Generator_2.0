@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "clusterGroupInfoSet" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2011-06-MeasurementDataQuery/queryClusterGroupInfo",
+   "OperationInput" : {
+      "routineRevs" : "IModelObject[]"
+   }
+}

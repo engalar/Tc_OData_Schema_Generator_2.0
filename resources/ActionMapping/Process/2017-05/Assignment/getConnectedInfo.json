@@ -1,0 +1,111 @@
+{
+   "ServiceOperation" : "Internal-Process-2017-05-Assignment/getConnectedInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "sourceObject" : "IModelObject",
+            "connectedObjectInfo" : [
+               {
+                  "obj" : "IModelObject",
+                  "connectedObjects" : "IModelObject[]",
+                  "connectedObjClientInfo" : [
+                     {
+                        "integerArrayInfo" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "doubleInfo" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "booleanArrayInfo" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "tagArrayInfo" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "stringInfo" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "integerInfo" : {
+                           "SampleKeyString" : "int"
+                        },
+                        "doubleArrayInfo" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "booleanInfo" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "stringArrayInfo" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "tagInfo" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "tagToTagVectorMapInfo" : {
+                           "SampleKeyString" : {
+                              "tagToTagVectorMap" : [
+                                 [
+                                    "SampleKeyIModelObject"
+                                 ],
+                                 [
+                                    "IModelObject[]"
+                                 ]
+                              ]
+                           }
+                        }
+                     }
+                  ],
+                  "clientInfo" : {
+                     "tagArrayInfo" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "booleanArrayInfo" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "doubleInfo" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "integerArrayInfo" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "tagInfo" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "tagToTagVectorMapInfo" : {
+                        "SampleKeyString" : {
+                           "tagToTagVectorMap" : [
+                              [
+                                 "SampleKeyIModelObject"
+                              ],
+                              [
+                                 "IModelObject[]"
+                              ]
+                           ]
+                        }
+                     },
+                     "stringArrayInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "booleanInfo" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "doubleArrayInfo" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "stringInfo" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "integerInfo" : {
+                        "SampleKeyString" : "int"
+                     }
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "context" : "IModelObject",
+      "sourceObjects" : "IModelObject[]"
+   }
+}

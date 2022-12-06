@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "vpSpatialHierDatasetUids" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Internal-Mmv-2012-09-SpatialStructureManagement/isSpatialHierarchyLatest",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "vbLatestVersionFlags" : "bool[]"
+   }
+}

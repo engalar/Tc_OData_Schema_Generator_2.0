@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2014-06-DataManagement/addOrRemoveAssociatedContexts",
+   "OperationInput" : {
+      "input" : [
+         {
+            "actionMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "addContext" : [
+               {
+                  "relationName" : "String",
+                  "context" : "IModelObject"
+               }
+            ],
+            "removeContext" : [
+               {
+                  "context" : "IModelObject",
+                  "relationName" : "String"
+               }
+            ],
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

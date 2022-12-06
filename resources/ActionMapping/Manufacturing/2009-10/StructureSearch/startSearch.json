@@ -1,0 +1,137 @@
+{
+   "OperationInput" : {
+      "searchExpression" : {
+         "inClassQueryExpressions" : [
+            {
+               "inClassAttributeValues" : "String[]",
+               "inClassClassNames" : "String[]",
+               "inClassAttributeIDs" : "int[]"
+            }
+         ],
+         "sizeSearchExpression" : {
+            "diagonalLength" : "bool",
+            "largerThan" : "bool"
+         },
+         "boxZoneExpressions" : [
+            {
+               "boxOperator" : "Inside Outside Intersects InsideOrIntersects OutsideOrIntersects",
+               "searchBoxes" : [
+                  {
+                     "zmin" : "double",
+                     "xmin" : "double",
+                     "zmax" : "double",
+                     "transform" : "double[]",
+                     "xmax" : "double",
+                     "ymax" : "double",
+                     "ymin" : "double"
+                  }
+               ]
+            }
+         ],
+         "planeZoneExpressions" : [
+            {
+               "planzeZone" : {
+                  "xvalue" : "double",
+                  "yvalue" : "double",
+                  "zvalue" : "double",
+                  "displacement" : "double"
+               },
+               "planeZoneOperator" : "PlaneAbove PlaneBelow PlaneIntersects PlaneAboveOrIntersects PlaneBelowOrIntersects"
+            }
+         ],
+         "savedQueryExpressions" : [
+            {
+               "entries" : "String[]",
+               "savedQuery" : "IModelObject",
+               "values" : "String[]"
+            }
+         ],
+         "returnScopedSubTreesHit" : "bool",
+         "itemAndRevisionAttributeExpressions" : [
+            {
+               "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike",
+               "attributeName" : "String",
+               "values" : {
+                  "stringValues" : "String[]",
+                  "boolValues" : "bool[]",
+                  "doubleValues" : "double[]",
+                  "dateValues" : "Date",
+                  "intValues" : "int[]",
+                  "tagValues" : "IModelObject[]"
+               },
+               "className" : "String",
+               "attributeType" : "BooleanType IntegerType DoubleType StringType DateType TagType"
+            }
+         ],
+         "proximitySearchExpressions" : [
+            {
+               "includeChildBomLines" : "bool",
+               "distance" : "double",
+               "bomLines" : "IModelObject[]"
+            }
+         ],
+         "formAttributeExpressions" : [
+            {
+               "relationType" : "IModelObject",
+               "formType" : "IModelObject",
+               "attributeType" : "BooleanType IntegerType DoubleType StringType DateType TagType",
+               "isItemForm" : "bool",
+               "values" : {
+                  "dateValues" : "Date",
+                  "boolValues" : "bool[]",
+                  "doubleValues" : "double[]",
+                  "stringValues" : "String[]",
+                  "intValues" : "int[]",
+                  "tagValues" : "IModelObject[]"
+               },
+               "attributeName" : "String",
+               "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike"
+            }
+         ],
+         "doTrushapeRefinement" : "bool",
+         "occurrenceNoteExpressions" : [
+            {
+               "noteType" : "String",
+               "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike",
+               "values" : "String[]"
+            }
+         ]
+      },
+      "scope" : "IModelObject[]",
+      "mfgSearchCriteria" : {
+         "logicalDesignator" : [
+            {
+               "value" : "String",
+               "name" : "String"
+            }
+         ],
+         "objectTypes" : "IModelObject[]",
+         "refinements" : [
+            {
+               "refinements" : [
+                  {
+                     "relations" : [
+                        {
+                           "relationName" : "String",
+                           "matchType" : "NotApplicableMatch FullMatch PartialMatch NoMatch",
+                           "objectClass" : "String"
+                        }
+                     ],
+                     "relatedScopes" : "IModelObject[]"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-StructureSearch/startSearch",
+   "OperationResponse" : {
+      "percentComplete" : "double",
+      "estimatedObjectsLeft" : "int",
+      "finished" : "bool",
+      "objects" : "IModelObject[]",
+      "searchCursor" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "objectDone" : "int"
+   }
+}

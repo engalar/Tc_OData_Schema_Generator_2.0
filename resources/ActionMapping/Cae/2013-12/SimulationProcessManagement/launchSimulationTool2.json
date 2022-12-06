@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "datasetCreationOption" : "String",
+      "itemCreationOption" : "String",
+      "plmxmlExportFileName" : "String",
+      "launchType" : "String",
+      "inputObjects" : [
+         {
+            "inputObjectDataVec" : [
+               {
+                  "object" : "IModelObject",
+                  "configCntx" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "workingDirectory" : "String",
+      "toolName" : "String",
+      "runtimeArguments" : "String[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Cae-2013-12-SimulationProcessManagement/launchSimulationTool2"
+}

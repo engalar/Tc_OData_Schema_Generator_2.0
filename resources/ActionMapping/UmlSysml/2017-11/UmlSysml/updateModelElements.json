@@ -1,0 +1,32 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "UmlSysml-2017-11-UmlSysml/updateModelElements",
+   "OperationInput" : {
+      "createUpdateDeleteRelateModelData" : {
+         "clientId" : "String",
+         "modelElements" : [
+            {
+               "parentModel" : "IModelObject",
+               "action" : "String",
+               "umlId" : "String",
+               "tcuid" : "String",
+               "propertyMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "businessObjectType" : "String"
+            }
+         ],
+         "modelRelationInfo" : [
+            {
+               "relationType" : "String",
+               "action" : "String",
+               "propertyMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "primaryModel" : "IModelObject",
+               "secondaryModel" : "IModelObject"
+            }
+         ]
+      }
+   }
+}

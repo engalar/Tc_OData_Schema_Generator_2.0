@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "costObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-IppeCore-2020-12-CostManagement/populateWBSCostElement",
+   "OperationResponse" : "IServiceData"
+}

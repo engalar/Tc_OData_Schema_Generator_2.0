@@ -1,0 +1,42 @@
+{
+   "ServiceOperation" : "Internal-SupplierCollaboration-2015-07-SupplierCollaboration/createOrUpdateDesignExchange",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "createOrUpdateDesignXchangeInput" : [
+         {
+            "createOrUpdateExchangeLinesInput" : [
+               {
+                  "exchangeLinePropInput" : [
+                     {
+                        "propName" : "String",
+                        "propValues" : "String[]"
+                     }
+                  ],
+                  "exchangeLineUID" : "String",
+                  "searchQueryPropertyInput" : [
+                     {
+                        "queryName" : "String",
+                        "queryInfo" : [
+                           {
+                              "propValues" : "String[]",
+                              "propName" : "String"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "updateExchangeObjectPropsIn" : {
+               "exchangeRevObject" : "IModelObject",
+               "exObjPropNameValues" : [
+                  {
+                     "propName" : "String",
+                     "propValues" : "String[]"
+                  }
+               ]
+            },
+            "exchangeLinesToBeDeleted" : "String[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "businessObject" : "IModelObject",
+            "clientId" : "String",
+            "transientFileReadTicket" : "String",
+            "keyValueArgs" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "ContMgmtS1000D40-2014-06-ContMgmtS1000D40/bulkImport",
+   "OperationResponse" : {
+      "data" : [
+         {
+            "wasSuccessful" : "bool",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "exchangeObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2015-07-SupplierCollaboration/fetchSupplierTrackingReport",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "reportData" : [
+         {
+            "trackingData" : [
+               {
+                  "trackingDataMap" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ],
+            "reportType" : "ACTIVITY_REPORT ATTACHMENT_REPORT",
+            "trackingWFResponses" : [
+               {
+                  "user" : "String",
+                  "actionDt" : "Date",
+                  "action" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

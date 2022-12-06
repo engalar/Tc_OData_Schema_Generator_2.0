@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "request" : "IModelObject",
+      "serverMode" : "int"
+   },
+   "OperationResponse" : {
+      "currentState" : "String",
+      "ticket" : "String",
+      "logFileticket" : "String",
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Ai-2008-06-Ai/endGenerateMonolithicJt"
+}

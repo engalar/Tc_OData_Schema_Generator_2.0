@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "supercedureProperties" : [
+         {
+            "solutionBvr" : "IModelObject",
+            "bomCancels" : "IModelObject[]",
+            "bomAdds" : "IModelObject[]",
+            "extendedAttributes" : {
+               "values" : "String[]",
+               "attributeName" : "String"
+            },
+            "clientID" : "String",
+            "isTransferred" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/createSupercedures",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "supercedure" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

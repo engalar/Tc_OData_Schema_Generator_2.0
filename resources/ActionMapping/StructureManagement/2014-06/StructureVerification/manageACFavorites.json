@@ -1,0 +1,67 @@
+{
+   "OperationResponse" : {
+      "dataset" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2014-06-StructureVerification/manageACFavorites",
+   "OperationInput" : {
+      "input" : {
+         "description" : "String",
+         "datasetUID" : "String",
+         "name" : "String",
+         "action" : "String",
+         "accSettings" : {
+            "includeScopeLines" : "bool",
+            "targetFilteringRule" : "String",
+            "resultName" : "String",
+            "resultDesc" : "String",
+            "sourceObjects" : "IModelObject[]",
+            "reportMode" : "int",
+            "partialMatchCriteria" : {
+               "SampleKeyString" : {
+                  "dblMap" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "objMap" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "strMap" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "dateMap" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "intMap" : {
+                     "SampleKeyString" : "int[]"
+                  }
+               }
+            },
+            "targetDepth" : "int",
+            "targetContextLine" : "IModelObject",
+            "reportCriteria" : {
+               "reportName" : "String",
+               "criteriaValues" : "String[]",
+               "datasetCtxObj" : "IModelObject",
+               "stylesheetTag" : "IModelObject",
+               "relationName" : "String",
+               "reportOptionsValues" : "String[]",
+               "reportOptionsNames" : "String[]",
+               "contextObjects" : "IModelObject[]",
+               "stylesheetName" : "String",
+               "datasetCtxUID" : "String",
+               "datasetName" : "String",
+               "datasetType" : "String",
+               "rdTag" : "IModelObject",
+               "contextObjectUIDs" : "String[]",
+               "criteriaName" : "String[]"
+            },
+            "targetObjects" : "IModelObject[]",
+            "matchType" : "int",
+            "options" : "int",
+            "sourceDepth" : "int",
+            "sourceFilteringRule" : "String",
+            "sourceContextLine" : "IModelObject"
+         }
+      }
+   }
+}

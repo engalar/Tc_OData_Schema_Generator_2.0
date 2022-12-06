@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "namedColumnConfigsJSON" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2020-05-UiConfig/getNamedColumnConfigs",
+   "OperationInput" : {
+      "namedColumnConfigCriteria" : {
+         "SampleKeyString" : "String"
+      },
+      "namedColumnConfigInput" : {
+         "columnConfigId" : "String",
+         "columnsToExclude" : "String[]",
+         "columnConfigName" : "String",
+         "clientName" : "String",
+         "clientScopeUri" : "String"
+      }
+   }
+}

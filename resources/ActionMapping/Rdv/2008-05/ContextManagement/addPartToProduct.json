@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Rdv-2008-05-ContextManagement/addPartToProduct",
+   "OperationResponse" : {
+      "partSolutionAPNs" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "abeApnTag" : "IModelObject",
+            "quantity" : "int",
+            "component" : "IModelObject",
+            "abe" : "IModelObject",
+            "aNves" : "IModelObject[]",
+            "values" : [
+               {
+                  "noteType" : "String",
+                  "noteText" : "String"
+               }
+            ],
+            "prodRevTags" : "IModelObject[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "metaExprs" : [
+         {
+            "tokens" : [
+               {
+                  "nveRef" : {
+                     "nveName" : "String",
+                     "nve" : "IModelObject",
+                     "nveType" : "nveAuthorized nveSplitting nveMandatorySplit"
+                  },
+                  "tokenType" : "tokenNull tokenAnd tokenOr tokenNot tokenBra tokenKet tokenNVE"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "xoCharts" : [
+         {
+            "tableChars" : "int[]",
+            "noOfColumns" : "int",
+            "colHeaderExprStrs" : "String[]",
+            "noOfRows" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Rdv-2009-01-VariantManagement/validateNVEMetaExpressions"
+}

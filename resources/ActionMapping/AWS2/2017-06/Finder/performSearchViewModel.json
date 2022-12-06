@@ -1,0 +1,155 @@
+{
+   "OperationInput" : {
+      "columnConfigInput" : {
+         "clientScopeURI" : "String",
+         "operationType" : "String",
+         "columnsToExclude" : "String[]",
+         "clientName" : "String",
+         "hostingClientName" : "String"
+      },
+      "saveColumnConfigData" : {
+         "scopeName" : "String",
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "pixelWidth" : "int",
+               "sortPriority" : "int",
+               "typeName" : "String",
+               "hiddenFlag" : "bool",
+               "propertyName" : "String",
+               "columnOrder" : "int",
+               "sortDirection" : "String"
+            }
+         ],
+         "clientScopeURI" : "String",
+         "scope" : "String"
+      },
+      "inflateProperties" : "bool",
+      "searchInput" : {
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "startNumericValue" : "double",
+                  "endNumericValue" : "double",
+                  "startDateValue" : "Date",
+                  "stringDisplayValue" : "String",
+                  "endDateValue" : "Date",
+                  "searchFilterType" : "String",
+                  "stringValue" : "String",
+                  "count" : "int",
+                  "selected" : "bool",
+                  "startEndRange" : "String"
+               }
+            ]
+         },
+         "startIndex" : "int",
+         "searchSortCriteria" : [
+            {
+               "sortDirection" : "ASC DESC",
+               "fieldName" : "String"
+            }
+         ],
+         "maxToLoad" : "int",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "internalPropertyName" : "String",
+         "attributesToInflate" : "String[]",
+         "searchFilterFieldSortType" : "String",
+         "maxToReturn" : "int",
+         "providerName" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-06-Finder/performSearchViewModel",
+   "OperationResponse" : {
+      "searchFilterCategories" : [
+         {
+            "internalName" : "String",
+            "displayName" : "String",
+            "defaultFilterValueDisplayCount" : "int"
+         }
+      ],
+      "propDescriptors" : [
+         {
+            "maxLength" : "int",
+            "lov" : "IModelObject",
+            "maxArraySize" : "int",
+            "propertyName" : "String",
+            "displayName" : "String",
+            "propertyType" : "int",
+            "isArray" : "bool",
+            "srcObjectTypeName" : "String",
+            "propConstants" : {
+               "SampleKeyString" : "String"
+            },
+            "valueType" : "int",
+            "lovCategory" : "int"
+         }
+      ],
+      "defaultFilterFieldDisplayCount" : "int",
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int",
+      "totalFound" : "int",
+      "searchFilterMap3" : {
+         "SampleKeyString" : [
+            {
+               "colorValue" : "String",
+               "count" : "int",
+               "startEndRange" : "String",
+               "selected" : "bool",
+               "stringDisplayValue" : "String",
+               "startDateValue" : "Date",
+               "startNumericValue" : "double",
+               "endNumericValue" : "double",
+               "searchFilterType" : "String",
+               "stringValue" : "String",
+               "endDateValue" : "Date"
+            }
+         ]
+      },
+      "objectsGroupedByProperty" : {
+         "groupedObjectsMap" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               "String[]"
+            ]
+         ],
+         "unmatchedObjectList" : "IModelObject[]",
+         "internalPropertyName" : "String"
+      },
+      "searchResults" : [
+         {
+            "viewModelProperties" : [
+               {
+                  "intermediateObjectUids" : "String[]",
+                  "propertyName" : "String",
+                  "srcObjLsd" : "Date",
+                  "values" : "String[]",
+                  "displayValues" : "String[]",
+                  "isModifiable" : "bool"
+               }
+            ],
+            "modelObject" : "IModelObject"
+         }
+      ],
+      "endIndex" : "int",
+      "columnConfig" : {
+         "operationType" : "String",
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "displayName" : "String",
+               "pixelWidth" : "int",
+               "columnOrder" : "int",
+               "sortDirection" : "String",
+               "hiddenFlag" : "bool",
+               "typeName" : "String",
+               "sortPriority" : "int",
+               "propertyName" : "String"
+            }
+         ]
+      }
+   }
+}

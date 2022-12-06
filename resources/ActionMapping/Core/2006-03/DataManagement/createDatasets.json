@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "dataset" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2006-03-DataManagement/createDatasets",
+   "OperationInput" : {
+      "input" : [
+         {
+            "toolUsed" : "String",
+            "description" : "String",
+            "clientId" : "String",
+            "relationType" : "String",
+            "type" : "String",
+            "container" : "IModelObject",
+            "name" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "ServiceOperation" : "Classification-2007-01-Classification/updateClassificationObjects",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "clsObjs" : [
+         {
+            "wsoId" : "IModelObject",
+            "properties" : [
+               {
+                  "attributeId" : "int",
+                  "values" : [
+                     {
+                        "displayValue" : "String",
+                        "dbValue" : "String"
+                     }
+                  ]
+               }
+            ],
+            "instanceId" : "String",
+            "classId" : "String",
+            "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+            "clsObjTag" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "clsObjs" : [
+         {
+            "classId" : "String",
+            "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+            "clsObjTag" : "IModelObject",
+            "instanceId" : "String",
+            "properties" : [
+               {
+                  "attributeId" : "int",
+                  "values" : [
+                     {
+                        "displayValue" : "String",
+                        "dbValue" : "String"
+                     }
+                  ]
+               }
+            ],
+            "wsoId" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "attributeGroups" : "IModelObject[]",
+            "assignmentInfo" : {
+               "assignedToObj" : "IModelObject",
+               "assignedObject" : "IModelObject",
+               "assignmentType" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Process-2017-05-AssignmentInContextInformation/deleteInContextAttributeGroups",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "attributeGroups" : "IModelObject[]",
+            "assignmentInfo" : {
+               "assignedToObj" : "IModelObject",
+               "assignmentType" : "IModelObject",
+               "assignedObject" : "IModelObject"
+            }
+         }
+      ]
+   }
+}

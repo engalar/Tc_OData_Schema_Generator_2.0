@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "buildConditions" : "IModelObject[]",
+      "detachedContents" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-AW4GFoundation-2016-04-BuildConditionManagement/detachBuildCondition",
+   "OperationInput" : {
+      "contentsToBeDetached" : {
+         "productInfo" : "IModelObject",
+         "contentsToDetach" : "IModelObject[]"
+      }
+   }
+}

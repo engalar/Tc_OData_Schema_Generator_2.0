@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "filterByIndexedStatus" : "bool"
+   },
+   "OperationResponse" : {
+      "isImpactGlobal" : "bool",
+      "serviceData" : "IServiceData",
+      "impactedUids" : "String[]"
+   },
+   "ServiceOperation" : "Administration-2012-10-IRM/getAMImpactedObjects"
+}

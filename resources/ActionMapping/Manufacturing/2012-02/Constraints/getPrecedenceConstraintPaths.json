@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "startNode" : "IModelObject",
+            "endNode" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-Constraints/getPrecedenceConstraintPaths",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "paths" : [
+               {
+                  "components" : [
+                     {
+                        "constraintIsInherited" : "bool",
+                        "predecessor" : "IModelObject",
+                        "constraint" : "IModelObject"
+                     }
+                  ],
+                  "endNode" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

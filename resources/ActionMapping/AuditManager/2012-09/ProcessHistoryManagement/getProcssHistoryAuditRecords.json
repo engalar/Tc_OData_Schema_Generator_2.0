@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "wsoObject" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "processNames" : "String[]",
+      "rootProcessHistoryAuditRecords" : [
+         {
+            "secondaryAuditRecords" : "IModelObject[]",
+            "auditRecord" : "IModelObject",
+            "childrenAuditRecords" : "Fnd0::Soa::Internal::AuditManager::_2012_09::ProcessHistoryManagement::ProcessHistoryAuditRecordStruct[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AuditManager-2012-09-ProcessHistoryManagement/getProcssHistoryAuditRecords"
+}

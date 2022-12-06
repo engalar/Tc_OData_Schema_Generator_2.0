@@ -1,0 +1,51 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "includeObjects" : "String[]",
+         "checkClientAfterNWsos" : "int",
+         "reason" : "String",
+         "exportObjects" : "String[]",
+         "compressFlg" : "int",
+         "clientInfo" : {
+            "roleName" : "String",
+            "clientCorrelationId" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "osUserName" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "userDataIp" : "String"
+         },
+         "compressType" : "String",
+         "excludeObjects" : "String[]",
+         "exportOptions" : [
+            {
+               "optType" : "int",
+               "optValue" : {
+                  "optVal" : "int",
+                  "stringOptVal" : "String"
+               }
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11StartExportSvc",
+   "OperationResponse" : {
+      "serverCorrelationId" : "String",
+      "userDataIp" : "String",
+      "out" : {
+         "compressPerformedFlg" : "int",
+         "failures" : [
+            {
+               "failureCode" : "int",
+               "failingObject" : "String"
+            }
+         ],
+         "exportStagingDir" : "String",
+         "exportFiles" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

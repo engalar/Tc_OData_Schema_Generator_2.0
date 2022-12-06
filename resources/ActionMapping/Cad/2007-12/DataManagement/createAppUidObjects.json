@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "count" : "int"
+   },
+   "ServiceOperation" : "Internal-Cad-2007-12-DataManagement/createAppUidObjects",
+   "OperationResponse" : "IServiceData"
+}

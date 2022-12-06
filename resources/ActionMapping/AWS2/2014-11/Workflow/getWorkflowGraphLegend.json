@@ -1,0 +1,52 @@
+{
+   "OperationInput" : {
+      "viewName" : "String"
+   },
+   "ServiceOperation" : "Internal-AWS2-2014-11-Workflow/getWorkflowGraphLegend",
+   "OperationResponse" : {
+      "presentationStylesXML" : "String",
+      "serviceData" : "IServiceData",
+      "presentationRulesXML" : "String",
+      "legendData" : [
+         {
+            "displayName" : "String",
+            "defaultLayout" : "String",
+            "objectGroup" : [
+               {
+                  "color" : {
+                     "blueValue" : "double",
+                     "redValue" : "double",
+                     "greenValue" : "double"
+                  },
+                  "displayName" : "String",
+                  "types" : [
+                     {
+                        "typeName" : "String",
+                        "displayName" : "String"
+                     }
+                  ],
+                  "name" : "String"
+               }
+            ],
+            "name" : "String",
+            "relationGroup" : [
+               {
+                  "color" : {
+                     "greenValue" : "double",
+                     "blueValue" : "double",
+                     "redValue" : "double"
+                  },
+                  "displayName" : "String",
+                  "name" : "String",
+                  "types" : [
+                     {
+                        "displayName" : "String",
+                        "typeName" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "elements" : "String[]",
+      "context" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-ManufacturingDisclosure/removeBackgroundElements",
+   "OperationResponse" : "IServiceData"
+}

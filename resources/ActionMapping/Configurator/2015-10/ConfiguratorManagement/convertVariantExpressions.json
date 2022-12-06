@@ -1,0 +1,124 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "context" : "IModelObject",
+            "exprsToConvert" : [
+               {
+                  "expressionType" : "int",
+                  "configExprSets" : [
+                     {
+                        "configExpressions" : [
+                           {
+                              "expressionType" : "int",
+                              "subExpressions" : [
+                                 {
+                                    "expressionGroups" : [
+                                       {
+                                          "groupName" : "String",
+                                          "context" : "IModelObject",
+                                          "terms" : [
+                                             {
+                                                "familyID" : "String",
+                                                "familyNamespace" : "String",
+                                                "valueText" : "String",
+                                                "family" : "IModelObject",
+                                                "operatorCode" : "int",
+                                                "rangeExpressions" : [
+                                                   {
+                                                      "operatorCode" : "int",
+                                                      "feature" : "IModelObject",
+                                                      "valueText" : "String"
+                                                   }
+                                                ],
+                                                "selectionClass" : "String",
+                                                "value" : "IModelObject"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "clientID" : "String",
+                              "formula" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "exprID" : "String",
+                  "formula" : "String"
+               }
+            ],
+            "expressionFormat" : "int",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "applConfigExprsWithDisplayString" : [
+               {
+                  "configExprSetsInfo" : [
+                     {
+                        "configExprsWithDisplayString" : [
+                           {
+                              "configExprDisplayString" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "applConfigExprDisplayString" : "String",
+                  "applConfigExpr" : {
+                     "expressionType" : "int",
+                     "configExprSets" : [
+                        {
+                           "configExpressions" : [
+                              {
+                                 "subExpressions" : [
+                                    {
+                                       "expressionGroups" : [
+                                          {
+                                             "context" : "IModelObject",
+                                             "terms" : [
+                                                {
+                                                   "selectionClass" : "String",
+                                                   "value" : "IModelObject",
+                                                   "valueText" : "String",
+                                                   "familyID" : "String",
+                                                   "familyNamespace" : "String",
+                                                   "family" : "IModelObject",
+                                                   "operatorCode" : "int",
+                                                   "rangeExpressions" : [
+                                                      {
+                                                         "valueText" : "String",
+                                                         "feature" : "IModelObject",
+                                                         "operatorCode" : "int"
+                                                      }
+                                                   ]
+                                                }
+                                             ],
+                                             "groupName" : "String"
+                                          }
+                                       ]
+                                    }
+                                 ],
+                                 "expressionType" : "int",
+                                 "formula" : "String",
+                                 "clientID" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "exprID" : "String",
+                     "formula" : "String"
+                  }
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Configurator-2015-10-ConfiguratorManagement/convertVariantExpressions"
+}

@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "searchParameter" : {
+         "searchVariantRule" : "IModelObject",
+         "searchPreferences" : {
+            "SampleKeyString" : "String"
+         },
+         "svCategories" : "int"
+      },
+      "searchSVItemInputList" : [
+         {
+            "selectedItemRevision" : "IModelObject",
+            "searchItemRevision" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2018-11-SolutionVariantManagement/searchSolutionVariantItems3",
+   "OperationResponse" : {
+      "searchSVItemOutputList" : [
+         {
+            "unloadedSVItemObjectsUIDList" : {
+               "SampleKeyString" : "String[]"
+            },
+            "intialSVItemOutputList" : [
+               {
+                  "svItemRev" : "IModelObject",
+                  "svItemPropsMap" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ],
+            "searchItemRevision" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

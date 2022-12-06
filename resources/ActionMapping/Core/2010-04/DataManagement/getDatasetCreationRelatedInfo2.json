@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "parentObject" : "IModelObject",
+      "typeName" : "String"
+   },
+   "OperationResponse" : {
+      "toolNames" : "String[]",
+      "newDatasetName" : "String",
+      "nameCanBeModified" : "bool",
+      "toolDisplayNames" : "String[]",
+      "serviceData" : "IServiceData",
+      "initValuePropertyRules" : "String[]"
+   },
+   "ServiceOperation" : "Core-2010-04-DataManagement/getDatasetCreationRelatedInfo2"
+}

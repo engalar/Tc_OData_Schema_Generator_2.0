@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "partOccUnAlgnmtInput" : [
+         {
+            "pbeLine" : "IModelObject",
+            "unAlignChildPBELines" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-BomCore-2017-05-AlignmentManagement/unAlignPartOccurrences"
+}

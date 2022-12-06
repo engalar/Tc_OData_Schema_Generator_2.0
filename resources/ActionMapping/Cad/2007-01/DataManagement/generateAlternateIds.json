@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Cad-2007-01-DataManagement/generateAlternateIds",
+   "OperationResponse" : {
+      "inputIndexToAltId" : {
+         "SampleKeyInt" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "parentAltId" : "IModelObject",
+            "idContext" : "IModelObject",
+            "count" : "int",
+            "pattern" : "String",
+            "altIdType" : "String"
+         }
+      ]
+   }
+}

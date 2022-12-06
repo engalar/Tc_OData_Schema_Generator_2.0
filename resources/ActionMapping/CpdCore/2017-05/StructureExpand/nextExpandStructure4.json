@@ -1,0 +1,56 @@
+{
+   "OperationInput" : {
+      "expandCursor" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expandCursor" : "IModelObject",
+      "content" : [
+         {
+            "bomLineContent" : "IModelObject[]",
+            "contentObjInfoInContextMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "presentedParentContent" : "IModelObject[]",
+            "copyStableIDData" : [
+               {
+                  "copyStableIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ],
+                  "subset" : "IModelObject"
+               }
+            ],
+            "sourceTargetMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "elementContent" : "IModelObject[]",
+            "partitionGroups" : [
+               {
+                  "childPartitionGroups" : "Cpd0::Soa::CpdCore::_2017_05::StructureExpand::PartitionGroup[]",
+                  "isRootPartition" : "bool",
+                  "partition" : "IModelObject",
+                  "members" : "IModelObject[]"
+               }
+            ],
+            "startingObject" : "IModelObject"
+         }
+      ],
+      "finished" : "bool"
+   },
+   "ServiceOperation" : "CpdCore-2017-05-StructureExpand/nextExpandStructure4"
+}

@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "srcBOMLines" : "IModelObject[]",
+            "srcCtxtLine" : "IModelObject",
+            "numSrcBOMLines" : "int",
+            "options" : "int",
+            "tarCtxtLine" : "IModelObject",
+            "tarBOMLines" : "IModelObject[]",
+            "modeStr" : "String",
+            "clientId" : "String",
+            "outputMode" : "int",
+            "useBomCompareEngine" : "bool",
+            "numTarBOMLines" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AsBuilt-2008-06-AsBuilt/mroBomCompare",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "srcRetBOMLines" : "IModelObject[]",
+            "matRetBOMLines" : "IModelObject[]",
+            "reportLines" : "String[]",
+            "numMatRetBOMLines" : "int",
+            "clientId" : "String",
+            "numSrcRetBOMLines" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-Capaonawc-2020-12-QualityIssueManagement/markObjectAsRootCause2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "successfulObjects" : "IModelObject[]",
+      "failedObjects" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "rootCauseObject" : "IModelObject",
+            "itemRevision" : "IModelObject",
+            "clientId" : "String",
+            "relationName" : "String"
+         }
+      ],
+      "removeRootCauseMark" : "bool",
+      "multipleRootCauseAllowed" : "bool"
+   }
+}

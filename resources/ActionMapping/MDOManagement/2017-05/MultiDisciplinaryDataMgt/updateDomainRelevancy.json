@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "MDOManagement-2017-05-MultiDisciplinaryDataMgt/updateDomainRelevancy",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "domainRelevancy" : {
+               "irrelevantDomain" : "String[]",
+               "relevantDomain" : "String[]"
+            },
+            "clientId" : "String",
+            "designArtifact" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "addInformation" : {
+               "irrelevantDomain" : "String[]",
+               "relevantDomain" : "String[]"
+            },
+            "removeInformation" : {
+               "irrelevantDomain" : "String[]",
+               "relevantDomain" : "String[]"
+            },
+            "clientId" : "String",
+            "designArtifact" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,57 @@
+{
+   "ServiceOperation" : "MDOManagement-2017-05-MultiDisciplinaryDataMgt/searchMDO3",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "mdoSearchOutput" : [
+         {
+            "mdoOutput" : [
+               {
+                  "associatedDesignArtifact" : [
+                     {
+                        "isValidated" : "bool",
+                        "designArtifact" : "IModelObject",
+                        "irrelevantDomains" : "String[]",
+                        "needsValidation" : "bool",
+                        "relevantDomains" : "String[]"
+                     }
+                  ],
+                  "mdoObject" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "searchInputs3" : [
+         {
+            "filterForDomainRelevancy" : {
+               "isFilterForRelevantDomain" : "bool",
+               "domain" : "String"
+            },
+            "filterCriteria" : {
+               "attributeValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "typeObj" : "IModelObject",
+               "domain" : "String"
+            },
+            "mdoCriteria" : {
+               "SampleKeyString" : "String[]"
+            },
+            "designArtifactInputs" : {
+               "designArtifactCriteria" : [
+                  {
+                     "attributeValues" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "typeObj" : "IModelObject"
+                  }
+               ],
+               "designArtifactsObjects" : "IModelObject[]"
+            },
+            "clientId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : {
+      "workspacesViewModel" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-12-DataManagement/getAvailableWorkspaces",
+   "OperationInput" : {
+      "filterParams" : {
+         "SampleKeyString" : "String"
+      }
+   }
+}

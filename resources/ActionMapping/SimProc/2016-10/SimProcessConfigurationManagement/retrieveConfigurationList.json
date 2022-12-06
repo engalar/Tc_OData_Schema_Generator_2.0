@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SimProc-2016-10-SimProcessConfigurationManagement/retrieveConfigurationList",
+   "OperationInput" : {
+      "inputCriteria" : {
+         "SampleKeyString" : "String[]"
+      }
+   }
+}

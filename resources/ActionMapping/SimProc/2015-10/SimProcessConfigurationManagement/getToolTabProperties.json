@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "toolTabsMaster" : [
+         {
+            "toolTabValue" : [
+               {
+                  "toolTabMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "internalProps" : "CAE0::Soa::SimProc::_2015_10::SimProcessConfigurationManagement::ToolTabValue[]",
+                  "tabIdentifier" : "String"
+               }
+            ],
+            "toolUID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "SimProc-2015-10-SimProcessConfigurationManagement/getToolTabProperties",
+   "OperationInput" : {
+      "tabIdentifiers" : "String[]",
+      "inputItemTypes" : "String[]",
+      "launchTypes" : "String[]"
+   }
+}

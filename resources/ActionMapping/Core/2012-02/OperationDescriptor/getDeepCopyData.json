@@ -1,0 +1,79 @@
+{
+   "OperationInput" : {
+      "deepCopyDataInput" : [
+         {
+            "object" : "IModelObject",
+            "operation" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2012-02-OperationDescriptor/getDeepCopyData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "deepCopyInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "copyRelations" : "bool",
+                  "saveAsInput" : {
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "boName" : "String",
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     }
+                  },
+                  "isRequired" : "bool",
+                  "copyAction" : "String",
+                  "saveAsInputTypeName" : "String",
+                  "isTargetPrimary" : "bool",
+                  "propertyType" : "Relation Reference",
+                  "childDeepCopyData" : "Teamcenter::Soa::Core::_2011_06::OperationDescriptor::DeepCopyData[]",
+                  "propertyName" : "String",
+                  "attachedObject" : "IModelObject"
+               }
+            ]
+         ]
+      ]
+   }
+}

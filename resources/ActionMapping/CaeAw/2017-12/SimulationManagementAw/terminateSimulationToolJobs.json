@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : {
+      "terminatedJobIds" : "String",
+      "serviceData" : "IServiceData",
+      "invalidJobIds" : "String",
+      "deletedJobIds" : "String"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/terminateSimulationToolJobs",
+   "OperationInput" : {
+      "statusObjectsJobIds" : "String[]"
+   }
+}

@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "inputObjects" : "IModelObject[]",
+               "changeConfigurationMode" : "String"
+            }
+         ]
+      ]
+   },
+   "ServiceOperation" : "EditContext-2016-10-DataManagement/setChangeContext2",
+   "OperationResponse" : {
+      "configuredObjectsMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "configuredObjs" : "IModelObject[]",
+               "changeContext" : "IModelObject"
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

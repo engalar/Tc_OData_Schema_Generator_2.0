@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-12-OccurrenceManagement/removeInContextPropertyOverride",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "removeInContextOverridesInfo" : {
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         },
+         "propertyName" : "String",
+         "element" : "IModelObject"
+      }
+   }
+}

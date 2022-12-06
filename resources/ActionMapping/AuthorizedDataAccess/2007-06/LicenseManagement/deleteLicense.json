@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "licenseIds" : "String[]"
+   },
+   "ServiceOperation" : "AuthorizedDataAccess-2007-06-LicenseManagement/deleteLicense",
+   "OperationResponse" : "IServiceData"
+}

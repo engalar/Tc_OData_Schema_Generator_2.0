@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Core-2020-01-ProjectLevelSecurity/getPrivilegeInProjects",
+   "OperationResponse" : {
+      "projectPrivilege" : [
+         {
+            "privilege" : "int",
+            "project" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "projects" : "IModelObject[]"
+   }
+}

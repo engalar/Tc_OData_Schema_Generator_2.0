@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "ProgramInfra-2016-04-ProgramManagement/clonePlanHierarchy",
+   "OperationResponse" : {
+      "planObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputInfo" : [
+         {
+            "planObject" : "IModelObject",
+            "propertyValueMap" : {
+               "SampleKeyString" : "String"
+            },
+            "primeEventDate" : "Date"
+         }
+      ]
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "WireHarness-2008-06-WireHarness/getWireProtectionSegments",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "segments" : "IModelObject[]",
+            "protectionAreaData" : {
+               "SampleKeyString" : "String"
+            },
+            "wireProtectionLine" : "IModelObject"
+         }
+      ]
+   }
+}

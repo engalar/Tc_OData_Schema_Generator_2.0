@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "dataset" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Capaonawc-2020-05-QualityIssueManagement/attachCapaReports",
+   "OperationInput" : {
+      "attachCapaReportsInput" : {
+         "fmsFileTicket" : "String",
+         "namedReferenceType" : "String",
+         "relationName" : "String",
+         "datasetTypeToRemove" : "String",
+         "datasetTypeToCreate" : "String",
+         "contextObject" : "IModelObject"
+      }
+   }
+}

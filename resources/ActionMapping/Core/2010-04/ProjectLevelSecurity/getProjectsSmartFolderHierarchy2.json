@@ -1,0 +1,30 @@
+{
+   "ServiceOperation" : "Internal-Core-2010-04-ProjectLevelSecurity/getProjectsSmartFolderHierarchy2",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "projectID" : "String",
+            "projectSmartFolderHierarchy" : [
+               {
+                  "parentName" : "String",
+                  "internalName" : "String",
+                  "filters" : [
+                     {
+                        "value" : "String",
+                        "name" : "String",
+                        "sourceTypeName" : "String"
+                     }
+                  ],
+                  "name" : "String",
+                  "parentInternalName" : "String",
+                  "isLeaf" : "bool"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "projectIDs" : "String[]"
+   }
+}

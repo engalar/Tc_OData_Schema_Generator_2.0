@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "fullReleaseUpdate" : "bool",
+            "infoForm" : "IModelObject",
+            "mesCredentials" : {
+               "mesUserPassword" : "String",
+               "mesUserName" : "String"
+            },
+            "deltaReleaseinfo" : {
+               "releaseCandidatesFromReleaseStatus" : "IModelObject[]",
+               "releaseCandidatesWithIncrementalChange" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     "IModelObject[]"
+                  ]
+               ]
+            },
+            "fullReleaseInfo" : {
+               "executionPlan" : "IModelObject",
+               "targetSites" : "IModelObject[]"
+            },
+            "workflowTemplate" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "workflows" : "IModelObject[]"
+   },
+   "ServiceOperation" : "MESInteg-2016-09-Release/createReleaseUpdatePackage2"
+}

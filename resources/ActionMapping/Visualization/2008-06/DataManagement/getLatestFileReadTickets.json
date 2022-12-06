@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/getLatestFileReadTickets",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "getLatestFileReadTicketsOutput" : [
+         {
+            "originalFilename" : "String",
+            "clientId" : "String",
+            "readTicket" : "String",
+            "namedRefUID" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "info" : [
+         {
+            "originalFilename" : "String",
+            "dataset" : "IModelObject",
+            "namedRef" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

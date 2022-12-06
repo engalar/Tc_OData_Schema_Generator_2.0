@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "distAppProps" : [
+         {
+            "appName" : "String",
+            "clientIrmNumber" : "int",
+            "clientReleaseVersion" : "int",
+            "opCode" : "int",
+            "appInputStringVal" : "String[]"
+         }
+      ],
+      "clientInfo" : {
+         "clientMinorReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientReleaseVersion" : "int",
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String",
+         "osUserName" : "String",
+         "clientOdsMinorVersion" : "int",
+         "targetServerSiteId" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "groupName" : "String",
+         "roleName" : "String",
+         "clientMaintPackVersion" : "int",
+         "clientSiteId" : "int",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-ObjectDirectory/distributedApplication",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "appResponse" : [
+         {
+            "appOutputStringVal" : "String[]",
+            "errorTexts" : "String[]",
+            "errorCodes" : "int[]"
+         }
+      ]
+   }
+}

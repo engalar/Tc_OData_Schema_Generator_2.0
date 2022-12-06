@@ -1,0 +1,65 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "totalFound" : "int",
+      "columnConfig" : {
+         "operationType" : "String",
+         "columns" : [
+            {
+               "propertyName" : "String",
+               "sortPriority" : "int",
+               "typeName" : "String",
+               "hiddenFlag" : "bool",
+               "columnOrder" : "int",
+               "sortDirection" : "String",
+               "enableSorting" : "bool",
+               "pixelWidth" : "int",
+               "isFilteringEnabled" : "bool",
+               "displayName" : "String"
+            }
+         ],
+         "columnConfigId" : "String"
+      },
+      "canAddPropertiesMap" : {
+         "SampleKeyString" : "bool"
+      },
+      "viewModelObjects" : [
+         {
+            "viewModelPropMap" : {
+               "SampleKeyString" : {
+                  "propDisplayName" : "String",
+                  "isModifiable" : "bool",
+                  "propInternalName" : "String",
+                  "propUIValue" : "String",
+                  "propDataType" : "String",
+                  "propDBValue" : "String"
+               }
+            },
+            "propertyName" : "String"
+         }
+      ],
+      "endIndex" : "int"
+   },
+   "ServiceOperation" : "Internal-ActiveModeler-2019-12-DataModelManagement/getPropertiesForType",
+   "OperationInput" : {
+      "maxToReturn" : "int",
+      "columnFilters" : [
+         {
+            "values" : "String[]",
+            "columnName" : "String",
+            "operation" : "String"
+         }
+      ],
+      "searchString" : "String",
+      "inputOptions" : {
+         "SampleKeyString" : "String[]"
+      },
+      "type" : "String",
+      "columnsToReturn" : "String[]",
+      "startIndex" : "int",
+      "sortCriteria" : {
+         "sortDirection" : "int",
+         "fieldName" : "String"
+      }
+   }
+}

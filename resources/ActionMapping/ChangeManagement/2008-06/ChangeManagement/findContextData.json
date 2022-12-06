@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "findcontextRequest" : [
+         {
+            "secondaryContextInputData" : "IModelObject",
+            "changeRev" : "IModelObject",
+            "primaryContextInputData" : "IModelObject",
+            "contextRelName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "vBomEditCount" : "int[]",
+            "contextOutputData" : "IModelObject[]",
+            "changeRev" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/findContextData"
+}

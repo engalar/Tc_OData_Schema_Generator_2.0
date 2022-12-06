@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "validationDatas" : "IModelObject[]",
+         "targetObjects" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Internal-Validation-2007-06-Validation/getValidationResults",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : "IModelObject[]"
+   }
+}

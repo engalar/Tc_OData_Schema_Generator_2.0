@@ -1,0 +1,65 @@
+{
+   "OperationInput" : {
+      "getUiConfigsIn" : [
+         {
+            "client" : {
+               "clientName" : "String",
+               "hostingClientName" : "String"
+            },
+            "scope" : {
+               "scopeName" : "String",
+               "scopeQueryParam" : "String"
+            },
+            "clientScopeURIs" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "UiConfig-2015-10-UiConfig/getUIConfigs",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "uiConfigInfo" : [
+         {
+            "client" : "String",
+            "columnConfigurations" : [
+               {
+                  "scope" : "String",
+                  "clientScopeURI" : "String",
+                  "hostingClient" : "String",
+                  "columnConfigurations" : [
+                     {
+                        "sortDirection" : "String",
+                        "columnConfigId" : "String",
+                        "columns" : [
+                           {
+                              "propertyName" : "String",
+                              "typeName" : "String",
+                              "sortByFlag" : "bool",
+                              "pixelWidth" : "int"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "commandConfigurations" : [
+               {
+                  "cmdCollectionIndex" : "int[]",
+                  "hostingClient" : "IModelObject",
+                  "commandCollectionRels" : "IModelObject[]",
+                  "cmdCollections" : [
+                     {
+                        "childConfigIndex" : "int[]",
+                        "childIsVisible" : "bool[]",
+                        "commandCollection" : "IModelObject",
+                        "childIsCollection" : "bool[]"
+                     }
+                  ],
+                  "commands" : "IModelObject[]",
+                  "scopeName" : "String",
+                  "clientScope" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

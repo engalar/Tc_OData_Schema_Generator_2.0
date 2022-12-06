@@ -1,0 +1,66 @@
+{
+   "ServiceOperation" : "CpdCore-2015-07-DataManagement/createOrUpdateDesignFeatures",
+   "OperationResponse" : {
+      "connectionIDMap" : {
+         "SampleKeyString" : "String"
+      },
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "featureInfos" : [
+         {
+            "feature" : "IModelObject",
+            "directModelDataset" : "IModelObject",
+            "connectedInfo" : [
+               {
+                  "csId" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "designElement" : "IModelObject",
+                  "clientId" : "String"
+               }
+            ],
+            "associatedDataset" : "IModelObject",
+            "objLastModifiedDateGuard" : "Date",
+            "boundingBox" : "double[]",
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "boType" : "String",
+            "auxiliaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "object" : "IModelObject",
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2015_07::DataManagement::CompoundCreateInfoMap3",
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "boType" : "String"
+                           }
+                        ]
+                     },
+                     "boType" : "String"
+                  }
+               ]
+            },
+            "mergeConnected" : "bool",
+            "guardObjLastModifiedDate" : "bool",
+            "trueshapeDataset" : "IModelObject",
+            "thumbnailDataset" : "IModelObject",
+            "transform" : "double[]",
+            "modelObject" : "IModelObject"
+         }
+      ]
+   }
+}

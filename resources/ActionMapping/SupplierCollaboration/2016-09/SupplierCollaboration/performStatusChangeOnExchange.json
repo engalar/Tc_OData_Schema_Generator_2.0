@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "performStatusChangeOnExchangeInStruct" : [
+         {
+            "exchangeObject" : "IModelObject",
+            "clientID" : "String",
+            "operationType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2016-09-SupplierCollaboration/performStatusChangeOnExchange",
+   "OperationResponse" : "IServiceData"
+}

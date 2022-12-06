@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "AuthorizedDataAccess-2012-09-LicenseManagement/setLicenseDetails",
+   "OperationInput" : {
+      "licenseInfo" : [
+         {
+            "licenseCategory" : "String",
+            "licenseId" : "String",
+            "qualifyingCfr" : "String",
+            "groups" : "String[]",
+            "expiryDate" : "Date",
+            "users" : "String[]",
+            "licenseType" : "String",
+            "lockDate" : "Date",
+            "licenseReason" : "String"
+         }
+      ]
+   }
+}

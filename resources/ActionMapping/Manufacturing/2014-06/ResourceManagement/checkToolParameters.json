@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "checkResults" : [
+         {
+            "report" : "String[]",
+            "icoId" : "String",
+            "status" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2014-06-ResourceManagement/checkToolParameters",
+   "OperationInput" : {
+      "checkTypes" : "String[]",
+      "checkLevel" : "String",
+      "icoIds" : "String[]"
+   }
+}

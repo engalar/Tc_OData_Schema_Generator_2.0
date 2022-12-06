@@ -1,0 +1,37 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "subscriptionTemplates" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Notification-2015-10-SubscriptionManagement/modifySubscriptionTemplates",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "subscriptionTemplate" : "IModelObject",
+            "templateData" : {
+               "subscribedObjectCriteria" : {
+                  "attributeValues" : "String[]",
+                  "mathOperators" : "String[]",
+                  "attributeNames" : "String[]",
+                  "logicOperators" : "String[]"
+               },
+               "name" : "String",
+               "validAccessors" : {
+                  "roles" : "IModelObject[]",
+                  "groups" : "IModelObject[]"
+               },
+               "description" : "String",
+               "targetObjectCriteria" : {
+                  "attributeValues" : "String[]",
+                  "mathOperators" : "String[]",
+                  "logicOperators" : "String[]",
+                  "attributeNames" : "String[]"
+               },
+               "closureRule" : "IModelObject",
+               "targetObjectType" : "IModelObject",
+               "subscribedObjectType" : "IModelObject"
+            }
+         }
+      ]
+   }
+}

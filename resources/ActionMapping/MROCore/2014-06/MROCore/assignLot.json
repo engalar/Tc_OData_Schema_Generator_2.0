@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "lot" : "IModelObject",
+            "quantity" : "int",
+            "physicalBOMLine" : "IModelObject",
+            "clientId" : "String",
+            "physicalPartRevision" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "MROCore-2014-06-MROCore/assignLot"
+}

@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "pref" : {
+         "application" : "String",
+         "appliedConfig" : "bool",
+         "goalFileRequired" : "bool",
+         "paramDirection" : "String"
+      },
+      "inputs" : [
+         {
+            "parent" : "IModelObject",
+            "paramConfig" : {
+               "variantRule" : "IModelObject",
+               "revRule" : "IModelObject"
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "clientId" : "String",
+            "parent" : "IModelObject",
+            "paramData" : [
+               {
+                  "goalFiles" : [
+                     {
+                        "fileName" : "String",
+                        "fileTicket" : "String",
+                        "dataset" : "IModelObject"
+                     }
+                  ],
+                  "paramDirection" : "String",
+                  "parameter" : "IModelObject",
+                  "overrideContext" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "AttrTargetMgmt-2020-12-AttributeTargetManagement/getParameters"
+}

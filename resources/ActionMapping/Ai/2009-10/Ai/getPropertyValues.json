@@ -1,0 +1,92 @@
+{
+   "OperationResponse" : {
+      "objProps" : [
+         {
+            "properties" : [
+               {
+                  "maxStrLen" : "int",
+                  "access" : "int",
+                  "values" : "String[]",
+                  "usage" : "AI_LV_Unknown AI_LV_Exhaustive_list AI_LV_Suggestions AI_LV_Ranges AI_LV_Upper_bound",
+                  "lovValues" : "String[]",
+                  "type" : "String",
+                  "name" : "String",
+                  "emptyElement" : "int[]",
+                  "nullElement" : "int[]"
+               }
+            ],
+            "failedPropMessages" : "String[]",
+            "failedPropIndices" : "int[]",
+            "obj" : {
+               "application" : "String",
+               "version" : "String",
+               "label" : "String"
+            }
+         }
+      ],
+      "failedSetIndices" : [
+         {
+            "index" : "int",
+            "indices" : "int[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Ai-2009-10-Ai/getPropertyValues",
+   "OperationInput" : {
+      "input" : [
+         {
+            "objs" : [
+               {
+                  "apprefs" : [
+                     {
+                        "label" : "String",
+                        "application" : "String",
+                        "version" : "String"
+                     }
+                  ],
+                  "config" : {
+                     "configuringObject" : {
+                        "label" : "String",
+                        "version" : "String",
+                        "application" : "String"
+                     },
+                     "existingWindow" : "IModelObject",
+                     "revRuleName" : "String",
+                     "variantRule" : {
+                        "version" : "String",
+                        "application" : "String",
+                        "label" : "String"
+                     },
+                     "useDefaultRevisionRule" : "bool"
+                  },
+                  "refContexts" : [
+                     {
+                        "config" : {
+                           "useDefaultRevisionRule" : "bool",
+                           "variantRule" : {
+                              "label" : "String",
+                              "version" : "String",
+                              "application" : "String"
+                           },
+                           "existingWindow" : "IModelObject",
+                           "revRuleName" : "String",
+                           "configuringObject" : {
+                              "application" : "String",
+                              "version" : "String",
+                              "label" : "String"
+                           }
+                        },
+                        "topLineObject" : {
+                           "version" : "String",
+                           "application" : "String",
+                           "label" : "String"
+                        }
+                     }
+                  ]
+               }
+            ],
+            "properties" : "String[]"
+         }
+      ]
+   }
+}

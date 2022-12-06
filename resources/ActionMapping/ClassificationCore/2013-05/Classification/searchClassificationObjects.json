@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "searchInput" : {
+         "sortOrder" : [
+            {
+               "sortProperty" : "String",
+               "ascendingSort" : "bool"
+            }
+         ],
+         "options" : "int",
+         "node" : "IModelObject",
+         "propertyNames" : "String[]",
+         "expressions" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "numRows" : "int",
+      "resultSet" : "String"
+   },
+   "ServiceOperation" : "ClassificationCore-2013-05-Classification/searchClassificationObjects"
+}

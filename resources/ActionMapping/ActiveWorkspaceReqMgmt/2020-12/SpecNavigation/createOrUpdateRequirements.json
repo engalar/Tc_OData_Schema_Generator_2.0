@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "topSpecRev" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "updatedObjs" : "IModelObject[]",
+      "createdObjs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ActiveWorkspaceReqMgmt-2020-12-SpecNavigation/createOrUpdateRequirements",
+   "OperationInput" : {
+      "input" : {
+         "options" : "String[]",
+         "selectedFolder" : "IModelObject",
+         "jsonFileTicket" : "String"
+      }
+   }
+}

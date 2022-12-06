@@ -1,0 +1,60 @@
+{
+   "ServiceOperation" : "Internal-Core-2011-06-ICT/invokeICTMethod",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "array" : [
+               {
+                  "entries" : [
+                     {
+                        "structure" : [
+                           {
+                              "args" : "Teamcenter::Soa::Internal::Core::_2011_06::ICT::Arg[]"
+                           }
+                        ],
+                        "val" : "String",
+                        "array" : "Teamcenter::Soa::Internal::Core::_2011_06::ICT::Array[]"
+                     }
+                  ]
+               }
+            ],
+            "val" : "String",
+            "structure" : [
+               {
+                  "args" : "Teamcenter::Soa::Internal::Core::_2011_06::ICT::Arg[]"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "args" : [
+         {
+            "val" : "String",
+            "structure" : [
+               {
+                  "args" : "Teamcenter::Soa::Internal::Core::_2011_06::ICT::Arg[]"
+               }
+            ],
+            "array" : [
+               {
+                  "entries" : [
+                     {
+                        "array" : "Teamcenter::Soa::Internal::Core::_2011_06::ICT::Array[]",
+                        "structure" : [
+                           {
+                              "args" : "Teamcenter::Soa::Internal::Core::_2011_06::ICT::Arg[]"
+                           }
+                        ],
+                        "val" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "methodName" : "String",
+      "className" : "String"
+   }
+}

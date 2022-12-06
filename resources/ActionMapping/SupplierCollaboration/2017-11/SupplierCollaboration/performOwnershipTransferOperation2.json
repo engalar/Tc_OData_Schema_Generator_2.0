@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "includeChildren" : "bool",
+      "input" : {
+         "companyContact" : "IModelObject",
+         "itemRevisions" : "IModelObject[]",
+         "operationType" : "String",
+         "exchangeLine" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2017-11-SupplierCollaboration/performOwnershipTransferOperation2",
+   "OperationResponse" : "IServiceData"
+}

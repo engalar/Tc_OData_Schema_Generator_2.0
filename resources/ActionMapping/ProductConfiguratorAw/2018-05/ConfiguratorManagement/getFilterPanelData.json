@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "featureParameters" : [
+         {
+            "internalName" : "String",
+            "isSelected" : "bool",
+            "displayName" : "String"
+         }
+      ],
+      "intentParameters" : [
+         {
+            "isSelected" : "bool",
+            "internalName" : "String",
+            "displayName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2018-05-ConfiguratorManagement/getFilterPanelData",
+   "OperationInput" : {
+      "selectedObject" : "IModelObject"
+   }
+}

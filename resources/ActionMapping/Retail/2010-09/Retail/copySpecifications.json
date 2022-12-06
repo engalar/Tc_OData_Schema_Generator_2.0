@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/copySpecifications",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "targetObjectUIDs" : "String[]",
+            "copyConstructionDetail" : "bool",
+            "copyGradeRule" : "bool",
+            "sourceObjectUID" : "String",
+            "bomSpecifications" : {
+               "copyBom" : "bool",
+               "copyDimensionalConstraints" : "bool",
+               "copyDimensions" : "bool",
+               "copyDimensionalValues" : "bool"
+            }
+         }
+      ]
+   }
+}

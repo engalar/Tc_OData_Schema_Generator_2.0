@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "identifierTypesIn" : [
+         {
+            "inputItemOrRev" : "IModelObject",
+            "idContext" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "identifiersOutput" : [
+         {
+            "inputItemOrRev" : "IModelObject",
+            "revisions" : "IModelObject[]",
+            "identifierTypes" : "IModelObject[]",
+            "item" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2019-12-DataManagement/getIdentifierTypes"
+}

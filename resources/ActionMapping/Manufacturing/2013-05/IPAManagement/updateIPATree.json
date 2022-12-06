@@ -1,0 +1,37 @@
+{
+   "ServiceOperation" : "Manufacturing-2013-05-IPAManagement/updateIPATree",
+   "OperationResponse" : {
+      "productWindowAppPathRoot" : "IModelObject",
+      "appPathRootType" : "IModelObject",
+      "logFileTicket" : {
+         "fileTicket" : "String",
+         "fileName" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "ipaInput" : {
+         "emailDetails" : {
+            "mailCcReceivers" : "String[]",
+            "logFileName" : "String",
+            "mailMessage" : "String",
+            "mailSubject" : "String",
+            "mailToReceivers" : "String[]",
+            "isLogFileNeeded" : "bool"
+         },
+         "configDetails" : {
+            "effectivityDetails" : {
+               "effectivityDateRange" : "String",
+               "effectivityUnitRange" : "String",
+               "effectivityEndItem" : "IModelObject",
+               "effectivityEndItemRev" : "IModelObject"
+            },
+            "processWindow" : "IModelObject",
+            "occGrpType" : "String",
+            "ipaName" : "String",
+            "processTypes" : "String[]",
+            "consumptionOccTypes" : "String[]"
+         }
+      }
+   }
+}

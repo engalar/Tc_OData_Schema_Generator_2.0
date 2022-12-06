@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "updateCollectionInput" : [
+         {
+            "productStructureFile" : "IModelObject",
+            "deltaCollectionIdentifier" : "String",
+            "isFull" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceVis-2015-03-MassiveModelVisualization/updateDeltaCollection",
+   "OperationResponse" : "IServiceData"
+}

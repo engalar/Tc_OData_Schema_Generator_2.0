@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "ModelCore-2011-06-Search/createOrUpdateConfigurations",
+   "OperationResponse" : {
+      "configContext" : [
+         {
+            "configContext" : "IModelObject",
+            "clientid" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "configData" : [
+         {
+            "configContext" : "IModelObject",
+            "revisionRule" : "IModelObject",
+            "variantRule" : "IModelObject",
+            "clientid" : "String"
+         }
+      ]
+   }
+}

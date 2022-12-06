@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "mmvCursors" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Mmv-2012-09-SpatialStructureManagement/releaseMmvCursor"
+}

@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "customVariantRule" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2017-12-ConfiguratorManagement/createCustomVariantRule",
+   "OperationInput" : {
+      "userSelections" : {
+         "SampleKeyString" : [
+            {
+               "optionValue" : "String",
+               "selectionState" : "int"
+            }
+         ]
+      },
+      "guidedConfigurationMode" : "bool",
+      "configPerspective" : "IModelObject",
+      "variantRule" : "IModelObject"
+   }
+}

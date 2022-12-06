@@ -1,0 +1,59 @@
+{
+   "OperationInput" : {
+      "request" : [
+         {
+            "queryRange" : {
+               "queryLastXhrs" : "int",
+               "querySingleJob" : {
+                  "job" : "String",
+                  "dateTimeRange" : {
+                     "toDateTime" : "String",
+                     "fromDateTime" : "String"
+                  }
+               },
+               "queryLastXmin" : "int",
+               "additionalinfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "queryLastXjobs" : "int",
+               "queryDateTimeRange" : {
+                  "toDateTime" : "String",
+                  "fromDateTime" : "String"
+               },
+               "queryJobRange" : {
+                  "fromJob" : "String",
+                  "dateTimeRange" : {
+                     "fromDateTime" : "String",
+                     "toDateTime" : "String"
+                  },
+                  "toJob" : "String"
+               }
+            },
+            "filter" : "String",
+            "clientId" : "String",
+            "shiftNumber" : "int",
+            "enggData" : {
+               "additionalinfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "plantid" : "String",
+               "phasename" : "String",
+               "devicetype" : "String",
+               "eventtypes" : "String",
+               "partnames" : "String",
+               "device" : "String",
+               "routineid" : "String",
+               "routinerev" : "String",
+               "vehicleprogram" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "partialErrors" : "IServiceData",
+      "measurementTicketsInfo" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "ServiceOperation" : "ProductionManagement-2008-06-MeasurementDataQuery/getMeasurementTicket"
+}

@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "rollup" : "bool",
+      "relationships" : [
+         {
+            "parentChange" : "IModelObject",
+            "secondaryObject" : "IModelObject",
+            "relationType" : "String",
+            "primaryObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-CmSmInterface-2020-01-RelationManagement/propagateOrRollupRelations",
+   "OperationResponse" : "IServiceData"
+}

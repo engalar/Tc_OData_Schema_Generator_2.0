@@ -1,0 +1,38 @@
+{
+   "OperationResponse" : {
+      "presentationStylesXML" : "String",
+      "serviceData" : "IServiceData",
+      "presentationRulesXML" : "String",
+      "legendData" : [
+         {
+            "defaultLayout" : "String",
+            "displayName" : "String",
+            "groupData" : [
+               {
+                  "scopeFilter" : "String",
+                  "displayName" : "String",
+                  "color" : {
+                     "blueValue" : "double",
+                     "redValue" : "double",
+                     "greenValue" : "double"
+                  },
+                  "groupType" : "String",
+                  "types" : [
+                     {
+                        "displayName" : "String",
+                        "typeName" : "String",
+                        "isAuthorable" : "bool"
+                     }
+                  ],
+                  "name" : "String"
+               }
+            ],
+            "name" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ActiveWorkspaceSysEng-2015-10-DiagramManagement/getDiagramLegend4",
+   "OperationInput" : {
+      "viewName" : "String"
+   }
+}

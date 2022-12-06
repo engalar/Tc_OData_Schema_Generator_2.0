@@ -1,0 +1,41 @@
+{
+   "OperationInput" : {
+      "classIds" : "String[]"
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/getAttributesForClasses",
+   "OperationResponse" : {
+      "attributes" : {
+         "SampleKeyString" : [
+            {
+               "maxValue" : "String",
+               "name" : "String",
+               "unitName" : "String",
+               "format" : {
+                  "formatType" : "int",
+                  "formatModifier2" : "int",
+                  "formatModifier1" : "int",
+                  "formatLength" : "int"
+               },
+               "altFormat" : {
+                  "formatType" : "int",
+                  "formatModifier2" : "int",
+                  "formatLength" : "int",
+                  "formatModifier1" : "int"
+               },
+               "arraySize" : "int",
+               "shortName" : "String",
+               "preConfig" : "String",
+               "config" : "String",
+               "description" : "String",
+               "postConfig" : "String",
+               "minValue" : "String",
+               "options" : "int",
+               "defaultValue" : "String",
+               "annotation" : "String",
+               "id" : "int"
+            }
+         ]
+      },
+      "data" : "IServiceData"
+   }
+}

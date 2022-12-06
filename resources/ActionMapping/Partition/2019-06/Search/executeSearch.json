@@ -1,0 +1,59 @@
+{
+   "OperationInput" : {
+      "exportOption" : {
+         "columnAttributes" : "String[]",
+         "applicationFormat" : "String"
+      },
+      "scope" : {
+         "scheme" : "IModelObject",
+         "isOnlyImmediateGroupsReqd" : "bool"
+      },
+      "options" : {
+         "defaultLoadCount" : "int",
+         "sortOptions" : [
+            {
+               "sortAttribute" : "String",
+               "sortOrder" : "AscendingOrder DescendingOrder"
+            }
+         ]
+      },
+      "recipe" : {
+         "configDetails" : [
+            {
+               "configContext" : "IModelObject",
+               "configurationFor" : "Universal Partition"
+            }
+         ],
+         "scope" : {
+            "recipeContainer" : "IModelObject",
+            "searchType" : "String[]",
+            "model" : "IModelObject"
+         },
+         "searchExpression" : {
+            "searchExpressionSets" : "Ptn0::Soa::Partition::_2012_09::Search::SearchExpressionSet[]",
+            "searchExpression" : {
+               "searchExpressions" : "IModelObject[]",
+               "doTrushapeRefinement" : "bool"
+            },
+            "searchOperator" : "And Or Not"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "elementsDone" : "int",
+      "searchCursor" : "IModelObject",
+      "isFinished" : "bool",
+      "partitionGrps" : [
+         {
+            "partition" : "IModelObject",
+            "members" : "IModelObject[]",
+            "isRootPartition" : "bool",
+            "childPartitionGroups" : "Ptn0::Soa::Partition::_2012_09::Search::PartitionGroup[]"
+         }
+      ],
+      "estimatedElementsLeft" : "int",
+      "modelElements" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Partition-2019-06-Search/executeSearch"
+}

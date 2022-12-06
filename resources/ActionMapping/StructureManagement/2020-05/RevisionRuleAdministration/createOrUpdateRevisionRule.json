@@ -1,0 +1,68 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2020-05-RevisionRuleAdministration/createOrUpdateRevisionRule",
+   "OperationResponse" : {
+      "revisionRuleInfo" : {
+         "isPrivate" : "bool",
+         "description" : "String",
+         "uid" : "String",
+         "nestedEffectivity" : "bool",
+         "name" : "String",
+         "entriesInfo" : [
+            {
+               "revRuleEntryKeyToValue" : {
+                  "SampleKeyString" : "String"
+               },
+               "groupEntryInfo" : {
+                  "groupByTypes" : "String[]",
+                  "listOfSubEntries" : [
+                     {
+                        "displayText" : "String",
+                        "subEntryType" : "int",
+                        "mapOfSubEntryKeyToValue" : {
+                           "SampleKeyString" : "String"
+                        }
+                     }
+                  ]
+               },
+               "entryType" : "int",
+               "displayText" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputData" : {
+         "updateExisting" : "bool",
+         "isPrivate" : "bool",
+         "revisionRuleInfo" : {
+            "entriesInfo" : [
+               {
+                  "displayText" : "String",
+                  "entryType" : "int",
+                  "revRuleEntryKeyToValue" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "groupEntryInfo" : {
+                     "listOfSubEntries" : [
+                        {
+                           "subEntryType" : "int",
+                           "mapOfSubEntryKeyToValue" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "displayText" : "String"
+                        }
+                     ],
+                     "groupByTypes" : "String[]"
+                  }
+               }
+            ],
+            "name" : "String",
+            "uid" : "String",
+            "nestedEffectivity" : "bool",
+            "description" : "String",
+            "isPrivate" : "bool"
+         }
+      }
+   }
+}

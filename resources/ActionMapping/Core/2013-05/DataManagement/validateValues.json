@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "operationType" : "int",
+            "propValuesMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "businessObjectName" : "String",
+            "compoundObjectInput" : {
+               "SampleKeyString" : [
+                  {
+                     "compoundObjectInput" : "Teamcenter::Soa::Core::_2013_05::DataManagement::CompoundValidateInputMap",
+                     "clientId" : "String",
+                     "operationType" : "int",
+                     "propValuesMap" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "businessObjectName" : "String"
+                  }
+               ]
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "validationResults" : {
+         "SampleKeyString" : {
+            "validationStatus" : [
+               {
+                  "valueStatus" : "int",
+                  "propName" : "String",
+                  "modifiedValue" : "String[]"
+               }
+            ],
+            "uniqueID" : "bool"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2013-05-DataManagement/validateValues"
+}

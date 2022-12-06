@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "sampleRequests" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "sampleComments" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "postedDate" : "String",
+                  "richText" : "String",
+                  "userInfo" : "String"
+               }
+            ]
+         ]
+      ]
+   },
+   "ServiceOperation" : "Internal-RetailAW-2016-03-Retail/getSampleRequestComments"
+}

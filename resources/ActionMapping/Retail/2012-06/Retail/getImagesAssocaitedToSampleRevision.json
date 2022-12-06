@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "roundAndItsImages" : [
+         {
+            "images" : "IModelObject[]",
+            "roundId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/getImagesAssocaitedToSampleRevision",
+   "OperationInput" : {
+      "displayOption" : "CURRENT_ROUND CURRENT_AND_PREVIOUS_ROUND ALL_ROUNDS",
+      "sampleRevision" : "IModelObject"
+   }
+}

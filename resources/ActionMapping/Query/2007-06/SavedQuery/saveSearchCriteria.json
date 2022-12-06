@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Query-2007-06-SavedQuery/saveSearchCriteria",
+   "OperationInput" : {
+      "searchCriteria" : [
+         {
+            "queryName" : "String",
+            "virtualFolderPath" : "String",
+            "keys" : "String[]",
+            "resultsType" : "String",
+            "searchName" : "String",
+            "values" : "String[]"
+         }
+      ]
+   }
+}

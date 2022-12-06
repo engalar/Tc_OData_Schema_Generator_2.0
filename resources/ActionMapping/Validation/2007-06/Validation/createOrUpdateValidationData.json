@@ -1,0 +1,73 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "existingValidationData" : "IModelObject",
+            "category" : "String",
+            "clientId" : "String",
+            "requirementObject" : "IModelObject",
+            "closureRule" : {
+               "closureRuleName" : "String",
+               "type" : "String[]",
+               "closureRuleObject" : "IModelObject",
+               "useExistingObject" : "bool"
+            },
+            "checkUserPriviledge" : "bool",
+            "attrList" : [
+               {
+                  "name" : "String",
+                  "value" : "String",
+                  "operation" : "String"
+               }
+            ],
+            "externalRule" : {
+               "ruleDatasetInfo" : {
+                  "name" : "String",
+                  "type" : "String",
+                  "clientId" : "String",
+                  "fileInfos" : [
+                     {
+                        "fileName" : "String",
+                        "textFlag" : "int",
+                        "namedReferencedName" : "String",
+                        "clientId" : "String"
+                     }
+                  ]
+               },
+               "extenralRuleObject" : "IModelObject",
+               "useExistingObject" : "bool"
+            },
+            "description" : "String",
+            "agentName" : "String",
+            "name" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Validation-2007-06-Validation/createOrUpdateValidationData",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "closureRule" : "IModelObject",
+            "validationDataObject" : "IModelObject",
+            "externalRuleDataset" : "IModelObject",
+            "datasetOutput" : {
+               "clientId" : "String",
+               "dataset" : "IModelObject",
+               "datasetFileTicketInfos" : [
+                  {
+                     "datasetFileInfo" : {
+                        "clientId" : "String",
+                        "namedReferencedName" : "String",
+                        "textFlag" : "int",
+                        "fileName" : "String"
+                     },
+                     "ticket" : "String"
+                  }
+               ]
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

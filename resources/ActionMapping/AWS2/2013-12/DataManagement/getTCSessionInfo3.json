@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "extraInfoIn" : "String[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2013-12-DataManagement/getTCSessionInfo3",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "extraInfoOut" : {
+         "SampleKeyString" : "String"
+      },
+      "userSession" : "IModelObject"
+   }
+}

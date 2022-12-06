@@ -1,0 +1,62 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "configForOtherSideBVRData" : [
+               {
+                  "toplineObject" : "IModelObject",
+                  "configData" : "IModelObject"
+               }
+            ],
+            "input4GDesignInstance" : {
+               "isPreciseLink" : "bool",
+               "designInstanceFor4G" : "IModelObject"
+            },
+            "configForOtherSide4GData" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "linkedInstances" : [
+               {
+                  "mdiObject" : "IModelObject",
+                  "context" : "IModelObject",
+                  "mdoObjectsLinkedToMDI" : "IModelObject[]",
+                  "instancesInfo" : [
+                     {
+                        "designInstanceFor4G" : "IModelObject",
+                        "relevantDomains" : "String[]",
+                        "bvrInstanceData" : {
+                           "configuredObject" : "IModelObject",
+                           "instanceOccThreadPath" : "String",
+                           "assemblyDetails" : {
+                              "configData" : "IModelObject",
+                              "toplineObject" : "IModelObject"
+                           }
+                        },
+                        "needsValidation" : "bool",
+                        "irrelevantDomains" : "String[]",
+                        "isValidated" : "bool"
+                     }
+                  ]
+               }
+            ],
+            "hasLinkedInstance" : "bool",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2020-12-MultiDisciplinaryDataMgt/getLinkedInstancesFor4G"
+}

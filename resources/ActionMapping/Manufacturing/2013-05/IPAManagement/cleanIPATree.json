@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "processWindow" : "IModelObject",
+      "forceCleanAll" : "bool"
+   },
+   "ServiceOperation" : "Manufacturing-2013-05-IPAManagement/cleanIPATree",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "appPathRootWindows" : [
+         {
+            "productWindowAppPathRoot" : "IModelObject",
+            "appPathRootType" : "IModelObject"
+         }
+      ],
+      "logFileTicket" : {
+         "fileName" : "String",
+         "fileTicket" : "String"
+      }
+   }
+}

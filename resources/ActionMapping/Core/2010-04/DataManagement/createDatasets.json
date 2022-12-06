@@ -1,0 +1,68 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "nrObjectInfos" : [
+               {
+                  "clientId" : "String",
+                  "referenceType" : "String",
+                  "object" : "IModelObject",
+                  "namedReferenceName" : "String"
+               }
+            ],
+            "datasetFileInfos" : [
+               {
+                  "fileName" : "String",
+                  "namedReferenceName" : "String",
+                  "allowReplace" : "bool",
+                  "isText" : "bool",
+                  "clientId" : "String"
+               }
+            ],
+            "attrs" : [
+               {
+                  "values" : "String[]",
+                  "name" : "String"
+               }
+            ],
+            "name" : "String",
+            "type" : "String",
+            "container" : "IModelObject",
+            "relationType" : "String",
+            "datasetId" : "String",
+            "toolUsed" : "String",
+            "description" : "String",
+            "datasetRev" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "datasetOutput" : [
+         {
+            "clientId" : "String",
+            "dataset" : "IModelObject",
+            "commitInfo" : [
+               {
+                  "createNewVersion" : "bool",
+                  "dataset" : "IModelObject",
+                  "datasetFileTicketInfos" : [
+                     {
+                        "ticket" : "String",
+                        "datasetFileInfo" : {
+                           "namedReferenceName" : "String",
+                           "fileName" : "String",
+                           "clientId" : "String",
+                           "isText" : "bool",
+                           "allowReplace" : "bool"
+                        }
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "servData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2010-04-DataManagement/createDatasets"
+}

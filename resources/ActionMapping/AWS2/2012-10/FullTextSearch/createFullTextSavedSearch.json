@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "searchString" : "String",
+            "searchFilterMap" : {
+               "SampleKeyString" : [
+                  {
+                     "startNumericValue" : "double",
+                     "endNumericValue" : "double",
+                     "startDateValue" : "Date",
+                     "endDateValue" : "Date",
+                     "searchFilterType" : "StringFilter DateFilter NumericFilter",
+                     "stringValue" : "String",
+                     "count" : "int",
+                     "selected" : "bool",
+                     "startEndRange" : "String"
+                  }
+               ]
+            },
+            "savedSearchName" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/createFullTextSavedSearch"
+}

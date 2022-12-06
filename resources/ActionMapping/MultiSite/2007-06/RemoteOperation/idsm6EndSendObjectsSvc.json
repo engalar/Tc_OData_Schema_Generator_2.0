@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm6EndSendObjectsSvc",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputs" : {
+         "abortFlag" : "bool",
+         "serverStagingDir" : "String",
+         "clientInfo" : {
+            "clientNode" : "String",
+            "userId" : "String",
+            "osUserName" : "String",
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "roleName" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int"
+         }
+      }
+   }
+}

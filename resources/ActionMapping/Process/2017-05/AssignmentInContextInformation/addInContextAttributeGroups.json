@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "assignmentInfo" : {
+               "assignedToObj" : "IModelObject",
+               "assignmentType" : "IModelObject",
+               "assignedObject" : "IModelObject"
+            },
+            "attributeGroups" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Process-2017-05-AssignmentInContextInformation/addInContextAttributeGroups",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "assignmentInfo" : {
+               "assignedToObj" : "IModelObject",
+               "assignedObject" : "IModelObject",
+               "assignmentType" : "IModelObject"
+            },
+            "attributeGroups" : "IModelObject[]"
+         }
+      ]
+   }
+}

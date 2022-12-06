@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "MESInteg-2014-12-Release/executionDataExport",
+   "OperationResponse" : {
+      "workflows" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "exportInfo" : {
+               "exportType" : "bool",
+               "targetSites" : "IModelObject[]",
+               "ai" : "IModelObject",
+               "workflowTemplate" : "IModelObject"
+            },
+            "dataInfo" : {
+               "exportObjectsWithIC" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     "IModelObject[]"
+                  ]
+               ],
+               "exportScope" : "IModelObject",
+               "executionPlan" : "IModelObject",
+               "exportObjects" : "IModelObject[]"
+            }
+         }
+      ]
+   }
+}

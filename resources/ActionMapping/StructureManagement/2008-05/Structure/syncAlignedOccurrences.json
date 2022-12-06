@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-StructureManagement-2008-05-Structure/syncAlignedOccurrences",
+   "OperationInput" : {
+      "input" : [
+         {
+            "source" : "IModelObject",
+            "target" : "IModelObject"
+         }
+      ]
+   }
+}

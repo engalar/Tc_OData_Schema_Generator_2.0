@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Internal-Validation-2010-04-Validation/getValidationResults2",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "targetObjects" : "IModelObject[]",
+      "validationAgentRevObjects" : "IModelObject[]",
+      "selectedObjects" : "IModelObject[]",
+      "valDataObjects" : "IModelObject[]"
+   }
+}

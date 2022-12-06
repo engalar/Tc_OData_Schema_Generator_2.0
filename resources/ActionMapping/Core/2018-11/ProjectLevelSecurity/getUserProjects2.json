@@ -1,0 +1,30 @@
+{
+   "ServiceOperation" : "Core-2018-11-ProjectLevelSecurity/getUserProjects2",
+   "OperationResponse" : {
+      "userProjectList" : [
+         {
+            "projects" : "IModelObject[]",
+            "userGroupRole" : {
+               "tcUser" : "IModelObject",
+               "tcGroup" : "IModelObject",
+               "tcRole" : "IModelObject"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "visibleProjectsOnly" : "bool",
+      "userInfoList" : [
+         {
+            "tcGroup" : "IModelObject",
+            "tcUser" : "IModelObject",
+            "tcRole" : "IModelObject"
+         }
+      ],
+      "programsOnly" : "bool",
+      "programsAndTheChildProjects" : "bool",
+      "privilegedProjectsOnly" : "bool",
+      "activeProjectsOnly" : "bool"
+   }
+}

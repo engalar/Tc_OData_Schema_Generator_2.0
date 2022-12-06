@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-DebugMonitor-2019-06-DebugLogging/startLogging",
+   "OperationResponse" : {
+      "prevDebugLoggingFlags" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "logFlags" : {
+         "SampleKeyString" : "String"
+      }
+   }
+}

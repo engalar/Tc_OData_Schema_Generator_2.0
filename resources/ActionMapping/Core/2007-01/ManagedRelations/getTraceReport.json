@@ -1,0 +1,37 @@
+{
+   "ServiceOperation" : "Core-2007-01-ManagedRelations/getTraceReport",
+   "OperationResponse" : {
+      "indirectDefiningTree" : [
+         {
+            "children" : "IModelObject[]",
+            "parent" : "IModelObject"
+         }
+      ],
+      "indirectComplyingTree" : [
+         {
+            "children" : "IModelObject[]",
+            "parent" : "IModelObject"
+         }
+      ],
+      "definingTree" : [
+         {
+            "parent" : "IModelObject",
+            "children" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "complyingTree" : [
+         {
+            "children" : "IModelObject[]",
+            "parent" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "reportType" : "String",
+         "inputTag" : "IModelObject",
+         "reportDepth" : "int"
+      }
+   }
+}

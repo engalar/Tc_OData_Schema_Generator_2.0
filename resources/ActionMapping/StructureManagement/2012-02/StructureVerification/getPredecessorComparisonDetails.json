@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "details" : [
+         {
+            "details" : [
+               {
+                  "matchType" : "int",
+                  "predecessors" : "IModelObject[]"
+               }
+            ],
+            "index" : "int",
+            "equivalentLines" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2012-02-StructureVerification/getPredecessorComparisonDetails",
+   "OperationInput" : {
+      "input" : [
+         {
+            "eqvSrcLines" : "IModelObject[]",
+            "eqvTargetLines" : "IModelObject[]"
+         }
+      ],
+      "ignoreStructureSpecific" : "bool"
+   }
+}

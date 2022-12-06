@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "masterSchedule" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2008-06-ScheduleManagement/getSchedulesToinsert",
+   "OperationResponse" : "IServiceData"
+}

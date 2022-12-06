@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Manufacturing-2012-02-DataManagement/automaticAssociateAndAllocate",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : {
+         "ticket" : "String",
+         "fileName" : "String"
+      }
+   },
+   "OperationInput" : {
+      "input" : {
+         "targetPlantBOPLines" : "IModelObject[]",
+         "sourceProductBOP" : "IModelObject",
+         "referenceProductBOP" : "IModelObject"
+      }
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "RelationshipViewer-2012-10-NetworkEngine/getGraphStyleDef",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "styleXMLStr" : "String"
+   }
+}

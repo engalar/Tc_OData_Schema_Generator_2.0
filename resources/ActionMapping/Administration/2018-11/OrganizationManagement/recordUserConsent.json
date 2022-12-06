@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "userConsent" : "bool"
+   },
+   "ServiceOperation" : "Administration-2018-11-OrganizationManagement/recordUserConsent",
+   "OperationResponse" : "IServiceData"
+}

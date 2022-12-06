@@ -1,0 +1,61 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "attachToLocation" : "IModelObject",
+            "sessionModelBaseObjs" : [
+               {
+                  "propertiesInfo" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "baseObj" : "IModelObject"
+               }
+            ],
+            "uploadData" : [
+               {
+                  "existingObject" : "IModelObject",
+                  "newObject" : "IModelObject",
+                  "fileTicket" : "String",
+                  "clientFileId" : "String",
+                  "refName" : "String",
+                  "fileState" : "String",
+                  "fileName" : "String"
+               }
+            ],
+            "createDatasetInfo" : {
+               "datasetDesc" : "String",
+               "datasetType" : "String",
+               "tool" : "String",
+               "datasetName" : "String"
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "sessionModelInfo" : {
+         "SampleKeyString" : {
+            "sessionModelDatset" : "IModelObject",
+            "relations" : [
+               {
+                  "relation" : "IModelObject",
+                  "propertiesInfo" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ],
+            "references" : [
+               {
+                  "uploadedFile" : "IModelObject",
+                  "uploadedFilename" : "String",
+                  "clientFileId" : "String",
+                  "uploadedFileRefNames" : "String"
+               }
+            ],
+            "attachRelation" : "IModelObject"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/createSessionModel"
+}

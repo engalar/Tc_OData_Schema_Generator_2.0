@@ -1,0 +1,81 @@
+{
+   "ServiceOperation" : "IMDSIntegration-2013-05-IMDSIntegration/retrieveIMDSData",
+   "OperationResponse" : {
+      "imdsDataOut" : [
+         {
+            "recipientDataObjects" : "IModelObject[]",
+            "compOut" : [
+               {
+                  "matProperties" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "isReadOnly" : "bool",
+                  "mat1UsesMaterialObjOut" : [
+                     {
+                        "mat1UsesMaterialObj" : "IModelObject",
+                        "materialObjOut" : {
+                           "compMaterialProperties" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "matObject" : "IModelObject",
+                           "subObjOuts" : [
+                              {
+                                 "subAppRelObjOut" : [
+                                    {
+                                       "imdsObjouts" : [
+                                          {
+                                             "isSelected" : "bool",
+                                             "imdsObject" : "IModelObject"
+                                          }
+                                       ],
+                                       "imdsObjTypeTag" : "IModelObject"
+                                    }
+                                 ],
+                                 "mat1UsesSubstanceObj" : "IModelObject",
+                                 "substanceObject" : "IModelObject"
+                              }
+                           ]
+                        }
+                     }
+                  ]
+               }
+            ],
+            "clientId" : "String",
+            "imdsDataMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "suplDataOut" : [
+               {
+                  "isReadOnly" : "bool",
+                  "companyobjout" : [
+                     {
+                        "isSelected" : "bool",
+                        "companyRelatedOjects" : [
+                           {
+                              "imdsObjouts" : [
+                                 {
+                                    "isSelected" : "bool",
+                                    "imdsObject" : "IModelObject"
+                                 }
+                              ],
+                              "imdsObjTypeTag" : "IModelObject"
+                           }
+                        ],
+                        "companyObject" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "imdsInput" : [
+         {
+            "inputObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

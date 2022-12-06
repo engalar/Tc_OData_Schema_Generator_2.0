@@ -1,0 +1,33 @@
+{
+   "ServiceOperation" : "Query-2007-06-Finder/findWorkspaceObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputList" : [
+         {
+            "foundObjects" : "IModelObject[]",
+            "findSetIndex" : "int"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "findList" : [
+         {
+            "criterias" : [
+               {
+                  "group" : "IModelObject",
+                  "objectType" : "String",
+                  "releasedBefore" : "Date",
+                  "scope" : "WSO_scope_All WSO_scope_Approved",
+                  "createdAfter" : "Date",
+                  "modifiedAfter" : "Date",
+                  "createdBefore" : "Date",
+                  "releasedAfter" : "Date",
+                  "objectName" : "String",
+                  "owner" : "IModelObject",
+                  "modifiedBefore" : "Date"
+               }
+            ]
+         }
+      ]
+   }
+}

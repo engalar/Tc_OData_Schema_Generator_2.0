@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "srcRevId" : "String",
+      "objectType" : "String",
+      "attrValueMap" : {
+         "SampleKeyString" : "String"
+      },
+      "compId" : "String",
+      "srcOwnOrg" : "String"
+   },
+   "OperationResponse" : {
+      "matchingObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AdsFoundation-2012-09-AdsFoundation/resolveSourceDocument"
+}

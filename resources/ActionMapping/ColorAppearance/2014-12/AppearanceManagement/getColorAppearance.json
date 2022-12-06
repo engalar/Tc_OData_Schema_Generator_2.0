@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "targetObjects" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "servicedata" : "IServiceData",
+      "businessObjectColorAppearances" : [
+         {
+            "groupName" : "String",
+            "clientID" : "String",
+            "targetObject" : "IModelObject",
+            "appearanceUsages" : [
+               {
+                  "surfaceDesignator" : "String",
+                  "colorAppearance" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "ColorAppearance-2014-12-AppearanceManagement/getColorAppearance"
+}

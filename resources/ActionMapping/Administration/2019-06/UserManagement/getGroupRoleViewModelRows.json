@@ -1,0 +1,33 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "startIndex" : "int",
+         "userObject" : "IModelObject",
+         "pageSize" : "int"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "totalFound" : "int",
+      "viewModelRows" : [
+         {
+            "viewModelProperties" : [
+               {
+                  "propUIValue" : "String",
+                  "propDataType" : "String",
+                  "propBO" : "IModelObject",
+                  "propDBValue" : "String",
+                  "hasLOV" : "bool",
+                  "isModifiable" : "bool",
+                  "propInternalName" : "String",
+                  "propDisplayName" : "String",
+                  "isEditable" : "bool"
+               }
+            ],
+            "modelObject" : "IModelObject"
+         }
+      ],
+      "endIndex" : "int"
+   },
+   "ServiceOperation" : "Internal-Administration-2019-06-UserManagement/getGroupRoleViewModelRows"
+}

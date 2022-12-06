@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "configuratorURL" : "String"
+   },
+   "OperationResponse" : {
+      "configurableProducts" : [
+         {
+            "productName" : "String",
+            "productNameSpace" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ConfigFilterCriteria-2011-06-EffectivityManagement/getConfigurableProducts"
+}

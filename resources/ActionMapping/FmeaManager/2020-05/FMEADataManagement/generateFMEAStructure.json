@@ -1,0 +1,59 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "rootNodeInfo" : {
+            "refObjArrayProps" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "floatProps" : {
+               "SampleKeyString" : "float"
+            },
+            "floatArrayProps" : {
+               "SampleKeyString" : "float[]"
+            },
+            "intProps" : {
+               "SampleKeyString" : "int"
+            },
+            "stringArrayProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "boolArrayProps" : {
+               "SampleKeyString" : "bool[]"
+            },
+            "refObjProps" : {
+               "SampleKeyString" : "IModelObject"
+            },
+            "dateArrayProps" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "dateProps" : {
+               "SampleKeyString" : "Date"
+            },
+            "doubleProps" : {
+               "SampleKeyString" : "double"
+            },
+            "stringProps" : {
+               "SampleKeyString" : "String"
+            },
+            "boolProps" : {
+               "SampleKeyString" : "bool"
+            },
+            "doubleArrayProps" : {
+               "SampleKeyString" : "double[]"
+            },
+            "intArrayProps" : {
+               "SampleKeyString" : "int[]"
+            }
+         },
+         "sourceStructInfo" : {
+            "sourceObject" : "IModelObject",
+            "productContext" : "IModelObject"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "rootNode" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-FmeaManager-2020-05-FMEADataManagement/generateFMEAStructure"
+}

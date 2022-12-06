@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "resetAssessmentInput" : [
+         {
+            "resetOptions" : [
+               {
+                  "keyName" : "String",
+                  "keyValue" : "String"
+               }
+            ],
+            "rygObject" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ApqpProgramMgtAw-2020-12-ApqpProgramMgt/resetManualAssessmentAsync",
+   "OperationResponse" : {}
+}

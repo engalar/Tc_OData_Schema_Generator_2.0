@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "resourceElementsToRemove" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-ResourceManager-2020-12-ResourceOccurrencesManagement/removeResourceElements",
+   "OperationResponse" : "IServiceData"
+}

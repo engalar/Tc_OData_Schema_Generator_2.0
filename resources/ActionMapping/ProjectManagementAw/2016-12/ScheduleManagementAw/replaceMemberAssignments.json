@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagementAw-2016-12-ScheduleManagementAw/replaceMemberAssignments",
+   "OperationInput" : {
+      "runInBackground" : "bool",
+      "replaceMemberAssignmentData" : [
+         {
+            "oldResource" : "IModelObject",
+            "newResource" : "IModelObject"
+         }
+      ]
+   }
+}

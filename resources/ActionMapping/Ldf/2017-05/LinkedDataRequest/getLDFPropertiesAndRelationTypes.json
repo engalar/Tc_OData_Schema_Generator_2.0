@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-Ldf-2017-05-LinkedDataRequest/getLDFPropertiesAndRelationTypes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "propertiesMap" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "OperationInput" : {
+      "url" : "String",
+      "uidServiceProvider" : "String",
+      "uidContextObject" : "String"
+   }
+}

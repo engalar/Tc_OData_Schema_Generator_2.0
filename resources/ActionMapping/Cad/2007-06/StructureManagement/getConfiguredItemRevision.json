@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "Cad-2007-06-StructureManagement/getConfiguredItemRevision",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "configuredItemRev" : "IModelObject",
+            "inputInfo" : {
+               "revRule" : "IModelObject",
+               "object" : "IModelObject"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "object" : "IModelObject",
+            "revRule" : "IModelObject"
+         }
+      ]
+   }
+}

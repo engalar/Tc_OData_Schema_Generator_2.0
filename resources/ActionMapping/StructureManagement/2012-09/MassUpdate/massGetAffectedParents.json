@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "operation" : "int",
+            "change" : "IModelObject",
+            "target" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2012-09-MassUpdate/massGetAffectedParents",
+   "OperationResponse" : {
+      "massUpdateAffectedOutputs" : [
+         {
+            "parent" : "IModelObject",
+            "selectableComment" : "String",
+            "selectable" : "bool"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

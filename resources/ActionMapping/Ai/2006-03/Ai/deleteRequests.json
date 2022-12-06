@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Ai-2006-03-Ai/deleteRequests",
+   "OperationInput" : {
+      "requestIds" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "updateModelElementsInput" : {
+         "clientId" : "String",
+         "modelRelationInfo" : [
+            {
+               "secondaryModel" : "IModelObject",
+               "primaryModel" : "IModelObject",
+               "propertyMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "action" : "String",
+               "relationType" : "String"
+            }
+         ],
+         "modelElements" : [
+            {
+               "parentModel" : "IModelObject",
+               "action" : "String",
+               "businessObjectType" : "String",
+               "propertyMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "tcuid" : "String",
+               "umlId" : "String"
+            }
+         ],
+         "toolIdentifier" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "elementsOutputMap" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "UmlSysml-2017-11-UmlSysml/updateModelElements2"
+}

@@ -1,0 +1,56 @@
+{
+   "OperationInput" : {
+      "serverInfo" : {
+         "serverAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "servermode" : "int",
+         "hostpath" : "String",
+         "protocol" : "String"
+      },
+      "userDataAgentInfo" : {
+         "userAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "userAppVersion" : "String",
+         "userApplication" : "String"
+      },
+      "sessionInfo" : {
+         "sessionOptions" : {
+            "SampleKeyString" : {
+               "includeInLaunchFile" : "bool",
+               "optionValue" : "String"
+            }
+         },
+         "sessionDescriminator" : "String",
+         "sessionAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         }
+      },
+      "idInfos" : [
+         {
+            "idAdditionalInfo" : {
+               "SampleKeyString" : "String"
+            },
+            "createOptions" : {
+               "SampleKeyString" : {
+                  "includeInLaunchFile" : "bool",
+                  "optionValue" : "String"
+               }
+            },
+            "item" : "IModelObject",
+            "occurrencesList" : "IModelObject[]",
+            "launchedObject" : "IModelObject",
+            "itemRev" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ActiveWorkspaceVis-2015-03-DataManagement/createLaunchInfo",
+   "OperationResponse" : {
+      "vviStrBuffersOutputMap" : {
+         "SampleKeyString" : "String"
+      },
+      "ticket" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

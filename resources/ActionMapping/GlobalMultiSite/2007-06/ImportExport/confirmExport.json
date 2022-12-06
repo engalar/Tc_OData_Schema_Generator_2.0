@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "tcGSMessageId" : "String",
+      "targetSite" : "int",
+      "commit" : "bool",
+      "fmsTicketOfFailedObjs" : "String"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "ownershipChanges" : [
+         {
+            "replicaSiteId" : "int",
+            "listOfGSIdentities" : "String[]"
+         }
+      ],
+      "stubReplication" : [
+         {
+            "masterSiteId" : "int",
+            "listOfGSIdentities" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-ImportExport/confirmExport"
+}

@@ -1,0 +1,55 @@
+{
+   "OperationInput" : {
+      "saveInput" : {
+         "sections" : [
+            {
+               "sectionName" : "String",
+               "dataEntries" : [
+                  {
+                     "entry" : {
+                        "SampleKeyString" : {
+                           "nameToValuesMap" : {
+                              "SampleKeyString" : "String[]"
+                           }
+                        }
+                     }
+                  }
+               ]
+            }
+         ],
+         "parameters" : {
+            "SampleKeyString" : "String[]"
+         },
+         "relatedObjects" : {
+            "SampleKeyString" : "IModelObject"
+         }
+      },
+      "input" : "String"
+   },
+   "OperationResponse" : {
+      "saveResults" : [
+         {
+            "saveResultObject" : "IModelObject",
+            "clientID" : "String",
+            "saveErrors" : [
+               {
+                  "saveErrorMessage" : "String",
+                  "saveErrorCode" : "int",
+                  "severity" : "SAVE_ERROR SAVE_WARNING"
+               }
+            ]
+         }
+      ],
+      "saveEvents" : [
+         {
+            "relatedEvents" : "String[]",
+            "eventId" : "String",
+            "eventData" : "String[]",
+            "eventObjectUid" : "String",
+            "eventType" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MfgBvrCore-2016-04-DataManagement/saveData3"
+}

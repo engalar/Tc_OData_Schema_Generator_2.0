@@ -1,0 +1,41 @@
+{
+   "OperationInput" : {
+      "key" : "String"
+   },
+   "ServiceOperation" : "RelationshipViewer-2014-11-NetworkEngine/getViews3",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "views" : [
+         {
+            "displayName" : "String",
+            "defaultLayout" : "String",
+            "diagramMode" : "bool",
+            "groups" : [
+               {
+                  "filters" : [
+                     {
+                        "displayName" : "String",
+                        "color" : {
+                           "blueValue" : "double",
+                           "redValue" : "double",
+                           "greenValue" : "double"
+                        },
+                        "name" : "String",
+                        "types" : [
+                           {
+                              "internalName" : "String",
+                              "displayName" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "name" : "String"
+               }
+            ],
+            "visible" : "bool",
+            "name" : "String",
+            "defaultExpandDirection" : "String"
+         }
+      ]
+   }
+}

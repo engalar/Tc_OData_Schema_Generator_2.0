@@ -1,0 +1,74 @@
+{
+   "ServiceOperation" : "WeldManagement-2012-02-WeldManagement/createUpdateWelds",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "weldouts" : [
+         {
+            "clientId" : "String",
+            "welds" : [
+               {
+                  "revUid" : "String",
+                  "compBvr" : "IModelObject",
+                  "compRev" : "IModelObject",
+                  "compOcc" : "IModelObject",
+                  "bvrUid" : "String",
+                  "occUid" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "parentBvr" : "IModelObject",
+            "weldComps" : [
+               {
+                  "ugEntHandle" : "String",
+                  "revise" : "bool",
+                  "compBvr" : "IModelObject",
+                  "compRev" : "IModelObject",
+                  "features" : [
+                     {
+                        "jtFile" : "String",
+                        "desc" : "String",
+                        "comps" : "IModelObject[]",
+                        "featOcc" : "IModelObject",
+                        "featRev" : "IModelObject",
+                        "revForms" : [
+                           {
+                              "formType" : "String",
+                              "formName" : "String",
+                              "attributes" : [
+                                 {
+                                    "values" : "String[]",
+                                    "name" : "String"
+                                 }
+                              ],
+                              "formRel" : "String"
+                           }
+                        ],
+                        "revise" : "bool",
+                        "ugEntHandle" : "String",
+                        "nxFile" : "String",
+                        "nxTicket" : "String",
+                        "name" : "String",
+                        "type" : "String",
+                        "revAttributes" : [
+                           {
+                              "name" : "String",
+                              "values" : "String[]"
+                           }
+                        ],
+                        "jtTicket" : "String"
+                     }
+                  ],
+                  "compOcc" : "IModelObject",
+                  "relType" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

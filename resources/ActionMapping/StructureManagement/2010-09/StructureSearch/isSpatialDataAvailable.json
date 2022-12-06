@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "StructureManagement-2010-09-StructureSearch/isSpatialDataAvailable",
+   "OperationInput" : {
+      "topItem" : "IModelObject"
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "StructureManagement-2007-06-PublishByLink/addTargets",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "inputIndex" : "int",
+            "publishLink" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "targets" : "IModelObject[]",
+            "source" : "IModelObject"
+         }
+      ]
+   }
+}

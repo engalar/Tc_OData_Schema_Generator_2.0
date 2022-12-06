@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "currentSelections" : {
+         "SampleKeyString" : "String"
+      },
+      "components" : [
+         {
+            "component" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Configuration-2010-04-SmartUiBldr/listForerunnersForComponents",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "forerunningComponents" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-Core-2006-03-Session/initTypeByUids",
+   "OperationResponse" : "IModelObject",
+   "OperationInput" : {
+      "uids" : "String[]"
+   }
+}

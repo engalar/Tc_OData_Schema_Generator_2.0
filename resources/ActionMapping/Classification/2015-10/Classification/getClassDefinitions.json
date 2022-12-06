@@ -1,0 +1,129 @@
+{
+   "OperationInput" : {
+      "classIDs" : "String[]"
+   },
+   "OperationResponse" : {
+      "classDefinitionMap" : {
+         "SampleKeyString" : {
+            "instanceCount" : "int",
+            "unitBase" : "UNSPECIFIED METRIC ENGLISH",
+            "shortName" : "String",
+            "userData1" : "String",
+            "id" : "String",
+            "childCount" : "int",
+            "name" : "String",
+            "viewCount" : "int",
+            "description" : "String",
+            "userData2" : "String",
+            "options" : {
+               "isGroup" : "bool",
+               "isAbstract" : "bool",
+               "isValid" : "bool",
+               "isAssembly" : "bool"
+            },
+            "parent" : "String",
+            "documents" : [
+               {
+                  "originalFileName" : "String",
+                  "documentType" : "String",
+                  "ticket" : "String"
+               }
+            ]
+         }
+      },
+      "classAttributesDefinitionMap" : {
+         "SampleKeyString" : {
+            "configuredKeyLOVDefinitionMap" : {
+               "SampleKeyInt" : {
+                  "sharedSites" : "IModelObject[]",
+                  "keyLovEntries" : [
+                     {
+                        "lovValue" : "String",
+                        "deprecatedSatus" : "bool",
+                        "lovKey" : "String"
+                     }
+                  ],
+                  "id" : "String",
+                  "name" : "String",
+                  "keyLovtag" : "IModelObject",
+                  "options" : "int",
+                  "owningSite" : "IModelObject"
+               }
+            },
+            "attributeDefinitionMap" : {
+               "SampleKeyInt" : {
+                  "classAttributeProperty" : {
+                     "name" : "String",
+                     "options" : "int",
+                     "extendedProperties" : [
+                        {
+                           "propertyName" : "String",
+                           "values" : [
+                              {
+                                 "value" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "description" : "String",
+                     "metricFormat" : {
+                        "format" : {
+                           "formatModifier2" : "int",
+                           "formatType" : "int",
+                           "formatLength" : "int",
+                           "formatModifier1" : "int"
+                        },
+                        "defaultValue" : "String",
+                        "unitName" : "String",
+                        "maximumValue" : "String",
+                        "minimumValue" : "String"
+                     },
+                     "id" : "int",
+                     "arraySize" : "int",
+                     "attributeConfiguration" : {
+                        "preConfig" : "String",
+                        "config" : "String",
+                        "postConfig" : "String"
+                     },
+                     "shortName" : "String",
+                     "nonMetricFormat" : {
+                        "unitName" : "String",
+                        "maximumValue" : "String",
+                        "defaultValue" : "String",
+                        "format" : {
+                           "formatType" : "int",
+                           "formatModifier2" : "int",
+                           "formatModifier1" : "int",
+                           "formatLength" : "int"
+                        },
+                        "minimumValue" : "String"
+                     },
+                     "annotation" : "String"
+                  },
+                  "dependencyAttribute" : "String",
+                  "dependencyConfiguration" : "String"
+               }
+            }
+         }
+      },
+      "serviceData" : "IServiceData",
+      "keyLOVDefinitionMap" : {
+         "SampleKeyString" : {
+            "name" : "String",
+            "keyLovtag" : "IModelObject",
+            "sharedSites" : "IModelObject[]",
+            "id" : "String",
+            "keyLovEntries" : [
+               {
+                  "deprecatedSatus" : "bool",
+                  "lovValue" : "String",
+                  "lovKey" : "String"
+               }
+            ],
+            "owningSite" : "IModelObject",
+            "options" : "int"
+         }
+      }
+   },
+   "ServiceOperation" : "Classification-2015-10-Classification/getClassDefinitions"
+}

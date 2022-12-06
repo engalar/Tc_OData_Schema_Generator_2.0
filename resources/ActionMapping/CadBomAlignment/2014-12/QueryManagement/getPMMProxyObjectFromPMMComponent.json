@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "rowColumn" : {
+               "columnSet" : {
+                  "column" : [
+                     {
+                        "width" : "int",
+                        "logicalName" : "String",
+                        "datatype" : "String",
+                        "name" : "String",
+                        "table" : "String"
+                     }
+                  ],
+                  "table" : "String"
+               },
+               "rowSet" : {
+                  "row" : [
+                     {
+                        "value" : "String[]"
+                     }
+                  ]
+               }
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2014-12-QueryManagement/getPMMProxyObjectFromPMMComponent",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "proxies" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

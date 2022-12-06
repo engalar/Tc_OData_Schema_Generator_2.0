@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "object" : "IModelObject",
+            "reportType" : "String",
+            "clientID" : "String",
+            "productVariant" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "reportFiles" : [
+         {
+            "reportFileTicket" : "String",
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MfgBvrCore-2015-03-Reports/generateReport2"
+}

@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "pmmParts" : {
+         "columnSet" : {
+            "table" : "String",
+            "column" : [
+               {
+                  "logicalName" : "String",
+                  "datatype" : "String",
+                  "name" : "String",
+                  "table" : "String",
+                  "width" : "int"
+               }
+            ]
+         },
+         "rowSet" : {
+            "row" : [
+               {
+                  "value" : "String[]",
+                  "clientID" : "String"
+               }
+            ]
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-CbaExt-2014-12-QueryManagement/findAlignedCADForPart",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "partToAlignedDesignsInfos" : [
+         {
+            "impreciseUniqueKey" : "String",
+            "localDesigns" : [
+               {
+                  "isPublished" : "bool",
+                  "isPrimary" : "bool",
+                  "localDesign" : "IModelObject"
+               }
+            ],
+            "remoteDesigns" : [
+               {
+                  "remoteDesign" : "IModelObject",
+                  "isPrimary" : "bool",
+                  "isPublished" : "bool"
+               }
+            ]
+         }
+      ]
+   }
+}

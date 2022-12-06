@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "AuthorizedDataAccess-2007-06-LicenseManagement/setLicenseDetails",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "licenseInfo" : [
+         {
+            "users" : "String[]",
+            "licenseId" : "String",
+            "expiryDate" : "Date",
+            "licenseReason" : "String",
+            "licenseType" : "String",
+            "groups" : "String[]"
+         }
+      ]
+   }
+}

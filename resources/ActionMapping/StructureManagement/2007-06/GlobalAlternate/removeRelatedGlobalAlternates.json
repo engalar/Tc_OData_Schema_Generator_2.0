@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "gAltItems" : "IModelObject[]",
+            "item" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-GlobalAlternate/removeRelatedGlobalAlternates",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "globalAlternateLists" : [
+         {
+            "globalAlternates" : "IModelObject[]"
+         }
+      ]
+   }
+}

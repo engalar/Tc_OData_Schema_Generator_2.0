@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "out" : {
+         "serverIrmNumber" : "int",
+         "serverMinorVersion" : "int",
+         "serverQrmNumber" : "int",
+         "serverMajorVersion" : "int"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm7AskVersionSvc",
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "roleName" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "osUserName" : "String"
+         }
+      }
+   }
+}

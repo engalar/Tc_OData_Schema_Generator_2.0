@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Allocations-2007-01-Allocation/changeAllocatedBOMWindows",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "allocationWindow" : "IModelObject",
+      "allocationLines" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "addBOMWindowList" : "IModelObject[]",
+      "removeBOMWindowList" : "IModelObject[]",
+      "allocWindowInput" : "IModelObject"
+   }
+}

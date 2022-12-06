@@ -1,0 +1,41 @@
+{
+   "OperationInput" : {
+      "rawdata" : [
+         {
+            "eventDateTime" : "String",
+            "phaseName" : "String",
+            "device" : "String",
+            "deviceType" : "String",
+            "eventType" : "String",
+            "buildLabel" : "String",
+            "traceInput" : [
+               {
+                  "traceCode" : "String",
+                  "eventTraceCodeValue" : "String"
+               }
+            ],
+            "ftrInput" : [
+               {
+                  "ftrUid" : "String",
+                  "ftrName" : "String",
+                  "ftrattCode" : "String",
+                  "actualValue" : "double"
+               }
+            ],
+            "vehicleProgram" : "String",
+            "plantId" : "String",
+            "routineId" : "String",
+            "shiftNumber" : "int",
+            "utcTime" : "String",
+            "routineRev" : "String",
+            "shiftDay" : "String",
+            "partName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProductionManagement-2007-06-MeasurementDataLoad/insertMeasurementData",
+   "OperationResponse" : {
+      "eventSysId" : "String[]",
+      "serviceData" : "IServiceData"
+   }
+}

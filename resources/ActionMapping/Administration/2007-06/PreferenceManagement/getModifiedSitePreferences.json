@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Internal-Administration-2007-06-PreferenceManagement/getModifiedSitePreferences",
+   "OperationResponse" : {
+      "preferencesArray" : [
+         {
+            "prefsInfo" : [
+               {
+                  "contextInformation" : [
+                     {
+                        "value" : "String[]",
+                        "contextName" : "String"
+                     }
+                  ],
+                  "preferenceDefinition" : {
+                     "preferenceType" : "String",
+                     "preferenceDescription" : "String",
+                     "preferenceName" : "String",
+                     "preferenceScope" : "String",
+                     "isArray" : "bool",
+                     "preferenceCategory" : "String",
+                     "isDisabled" : "bool"
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

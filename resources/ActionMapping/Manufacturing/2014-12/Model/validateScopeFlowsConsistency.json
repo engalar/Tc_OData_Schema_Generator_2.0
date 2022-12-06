@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "rootLines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2014-12-Model/validateScopeFlowsConsistency",
+   "OperationResponse" : {
+      "fileTicket" : {
+         "fileName" : "String",
+         "ticket" : "String"
+      },
+      "data" : [
+         {
+            "isConsistent" : "bool",
+            "cycles" : [
+               {
+                  "objects" : "IModelObject[]",
+                  "flows" : "IModelObject[]"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

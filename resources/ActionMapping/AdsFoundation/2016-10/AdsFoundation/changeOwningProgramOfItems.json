@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "changeOwningProgInput" : [
+         {
+            "owningProgram" : "IModelObject",
+            "inputItemObjects" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "AdsFoundation-2016-10-AdsFoundation/changeOwningProgramOfItems"
+}

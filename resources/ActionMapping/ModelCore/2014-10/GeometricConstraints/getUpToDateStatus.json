@@ -1,0 +1,31 @@
+{
+   "ServiceOperation" : "ModelCore-2014-10-GeometricConstraints/getUpToDateStatus",
+   "OperationResponse" : {
+      "upToDate" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "elementStatus" : "bool",
+               "outOfDateGeometricConstraintContainers" : "IModelObject[]"
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "pendingChecksum" : "String[]",
+            "inputElement" : "IModelObject",
+            "pendingTransform" : "double[]"
+         }
+      ],
+      "verifyInContextOfPendingData" : "bool",
+      "navOptions" : {
+         "configContextObject" : "IModelObject",
+         "mode" : "PRECISE CONFIGURED"
+      }
+   }
+}

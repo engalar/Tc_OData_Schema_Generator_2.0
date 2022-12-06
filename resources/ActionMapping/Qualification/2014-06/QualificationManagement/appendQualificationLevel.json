@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Qualification-2014-06-QualificationManagement/appendQualificationLevel",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "qualificationLevelInfo" : [
+         {
+            "levelName" : "String",
+            "qualification" : "IModelObject"
+         }
+      ]
+   }
+}

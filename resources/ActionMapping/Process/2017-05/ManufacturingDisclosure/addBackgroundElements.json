@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-Process-2017-05-ManufacturingDisclosure/addBackgroundElements",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "elements" : "IModelObject[]",
+      "context" : "IModelObject"
+   }
+}

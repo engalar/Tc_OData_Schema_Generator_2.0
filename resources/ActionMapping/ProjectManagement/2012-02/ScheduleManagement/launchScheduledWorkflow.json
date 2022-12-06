@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "tasks" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "launchedWorkflows" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/launchScheduledWorkflow"
+}

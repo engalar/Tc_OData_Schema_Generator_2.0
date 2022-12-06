@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "advancedQueryCriteria" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2016-12-AdvancedSearch/getSelectedQueryCriteria",
+   "OperationInput" : {
+      "selectedQuery" : "IModelObject"
+   }
+}

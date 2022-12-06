@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "selectedcountry" : "String"
+   },
+   "ServiceOperation" : "Administration-2016-10-UserManagement/saveAndValidateCurrentCountry",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm3StartImportSvc",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "out" : {
+         "compressSupportedFlg" : "int",
+         "sendXmitFile" : "bool",
+         "importStagingDir" : "String"
+      }
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "roleName" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "targetSiteId" : "int",
+            "groupName" : "String"
+         },
+         "compressType" : "String",
+         "compressFlg" : "int",
+         "xmitFname" : "String"
+      }
+   }
+}

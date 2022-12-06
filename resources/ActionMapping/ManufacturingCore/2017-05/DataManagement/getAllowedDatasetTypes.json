@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "attachedToTypes" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "datasetInfoMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "attachedToType" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ManufacturingCore-2017-05-DataManagement/getAllowedDatasetTypes"
+}

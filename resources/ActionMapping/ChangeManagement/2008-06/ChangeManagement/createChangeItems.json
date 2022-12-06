@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "changeItemProps" : [
+         {
+            "extendedData" : [
+               {
+                  "values" : "String[]",
+                  "attributeName" : "String"
+               }
+            ],
+            "revisionID" : "String",
+            "clientID" : "String",
+            "relationshipData" : [
+               {
+                  "tags" : "IModelObject[]",
+                  "relTypeName" : "String",
+                  "operation" : "String"
+               }
+            ],
+            "name" : "String",
+            "type" : "String",
+            "iD" : "String",
+            "description" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/createChangeItems",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "itemRev" : "IModelObject",
+            "clientId" : "String",
+            "changeItem" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

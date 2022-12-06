@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-ShapeSearch-2012-10-ShapeSearch/findShapeSearchProfiles",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "profile" : {
+         "profileName" : "String[]",
+         "defaultProfile" : "int"
+      }
+   },
+   "OperationInput" : {
+      "profileLocale" : {
+         "profileLocale" : "String"
+      }
+   }
+}

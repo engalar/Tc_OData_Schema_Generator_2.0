@@ -1,0 +1,72 @@
+{
+   "ServiceOperation" : "EDMDCollab-2020-04-EDMDCollaboration/getCollaborationData2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "getCollaborationDataOutput" : {
+         "idxBaselineInfos" : [
+            {
+               "associatedIDXIncrements" : [
+                  {
+                     "associatedIDXBaseline" : {
+                        "packageObject" : "IModelObject",
+                        "packageReadTicket" : "String",
+                        "idxObject" : "IModelObject",
+                        "idxReadTicket" : "String"
+                     },
+                     "associatedIDXResponse" : {
+                        "packageObject" : "IModelObject",
+                        "packageReadTicket" : "String",
+                        "idxObject" : "IModelObject",
+                        "idxReadTicket" : "String"
+                     },
+                     "idxIncrement" : {
+                        "idxObject" : "IModelObject",
+                        "idxReadTicket" : "String",
+                        "packageObject" : "IModelObject",
+                        "packageReadTicket" : "String"
+                     }
+                  }
+               ],
+               "idxBaseline" : {
+                  "idxReadTicket" : "String",
+                  "idxObject" : "IModelObject",
+                  "packageReadTicket" : "String",
+                  "packageObject" : "IModelObject"
+               }
+            }
+         ],
+         "changeItems" : "IModelObject[]",
+         "idxIncrementInfos" : [
+            {
+               "idxIncrement" : {
+                  "packageObject" : "IModelObject",
+                  "packageReadTicket" : "String",
+                  "idxObject" : "IModelObject",
+                  "idxReadTicket" : "String"
+               },
+               "associatedIDXResponse" : {
+                  "packageObject" : "IModelObject",
+                  "packageReadTicket" : "String",
+                  "idxObject" : "IModelObject",
+                  "idxReadTicket" : "String"
+               },
+               "associatedIDXBaseline" : {
+                  "packageReadTicket" : "String",
+                  "packageObject" : "IModelObject",
+                  "idxReadTicket" : "String",
+                  "idxObject" : "IModelObject"
+               }
+            }
+         ]
+      }
+   },
+   "OperationInput" : {
+      "getCollaborationInput" : {
+         "designUID" : "String",
+         "domainIdentifier" : "String",
+         "include3DModelPackage" : "bool",
+         "filterCriteria" : "String",
+         "idxObjectType" : "String"
+      }
+   }
+}

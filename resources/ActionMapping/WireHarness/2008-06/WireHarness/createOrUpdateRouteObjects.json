@@ -1,0 +1,216 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "routeData" : {
+               "route" : "IModelObject",
+               "nodeData" : [
+                  {
+                     "nodeAttributes" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "clientId" : "String",
+                     "node" : "IModelObject",
+                     "name" : "String"
+                  }
+               ],
+               "segmentData" : [
+                  {
+                     "name" : "String",
+                     "endNode" : {
+                        "nodeAttributes" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "name" : "String",
+                        "node" : "IModelObject",
+                        "clientId" : "String"
+                     },
+                     "clientId" : "String",
+                     "startNode" : {
+                        "clientId" : "String",
+                        "name" : "String",
+                        "node" : "IModelObject",
+                        "nodeAttributes" : {
+                           "SampleKeyString" : "String"
+                        }
+                     },
+                     "centerCurve" : {
+                        "curveAttributes" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "clientId" : "String",
+                        "multiplicities" : "int[]",
+                        "knots" : "double[]",
+                        "curve" : "IModelObject",
+                        "name" : "String",
+                        "controlPoints" : [
+                           {
+                              "points" : "double[]"
+                           }
+                        ]
+                     },
+                     "segment" : "IModelObject",
+                     "segmentAttributes" : {
+                        "SampleKeyString" : "String"
+                     }
+                  }
+               ],
+               "displayData" : {
+                  "rgbValues" : "double[]",
+                  "width" : "double",
+                  "font" : "int"
+               },
+               "routeAttributes" : {
+                  "SampleKeyString" : "String"
+               },
+               "clientId" : "String",
+               "curveData" : {
+                  "controlPoints" : [
+                     {
+                        "points" : "double[]"
+                     }
+                  ],
+                  "name" : "String",
+                  "curve" : "IModelObject",
+                  "knots" : "double[]",
+                  "multiplicities" : "int[]",
+                  "clientId" : "String",
+                  "curveAttributes" : {
+                     "SampleKeyString" : "String"
+                  }
+               },
+               "name" : "String"
+            },
+            "curveData" : {
+               "controlPoints" : [
+                  {
+                     "points" : "double[]"
+                  }
+               ],
+               "clientId" : "String",
+               "curveAttributes" : {
+                  "SampleKeyString" : "String"
+               },
+               "name" : "String",
+               "curve" : "IModelObject",
+               "knots" : "double[]",
+               "multiplicities" : "int[]"
+            },
+            "segmentData" : {
+               "segmentAttributes" : {
+                  "SampleKeyString" : "String"
+               },
+               "segment" : "IModelObject",
+               "centerCurve" : {
+                  "name" : "String",
+                  "curve" : "IModelObject",
+                  "multiplicities" : "int[]",
+                  "knots" : "double[]",
+                  "clientId" : "String",
+                  "curveAttributes" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "controlPoints" : [
+                     {
+                        "points" : "double[]"
+                     }
+                  ]
+               },
+               "name" : "String",
+               "startNode" : {
+                  "name" : "String",
+                  "node" : "IModelObject",
+                  "clientId" : "String",
+                  "nodeAttributes" : {
+                     "SampleKeyString" : "String"
+                  }
+               },
+               "endNode" : {
+                  "clientId" : "String",
+                  "name" : "String",
+                  "node" : "IModelObject",
+                  "nodeAttributes" : {
+                     "SampleKeyString" : "String"
+                  }
+               },
+               "clientId" : "String"
+            },
+            "nodeData" : {
+               "clientId" : "String",
+               "node" : "IModelObject",
+               "name" : "String",
+               "nodeAttributes" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "segment" : {
+               "curve" : {
+                  "clientId" : "String",
+                  "object" : "IModelObject"
+               },
+               "nodes" : [
+                  {
+                     "object" : "IModelObject",
+                     "clientId" : "String"
+                  }
+               ],
+               "segment" : {
+                  "clientId" : "String",
+                  "object" : "IModelObject"
+               }
+            },
+            "route" : {
+               "route" : {
+                  "clientId" : "String",
+                  "object" : "IModelObject"
+               },
+               "nodes" : [
+                  {
+                     "clientId" : "String",
+                     "object" : "IModelObject"
+                  }
+               ],
+               "segments" : [
+                  {
+                     "curve" : {
+                        "object" : "IModelObject",
+                        "clientId" : "String"
+                     },
+                     "nodes" : [
+                        {
+                           "object" : "IModelObject",
+                           "clientId" : "String"
+                        }
+                     ],
+                     "segment" : {
+                        "clientId" : "String",
+                        "object" : "IModelObject"
+                     }
+                  }
+               ],
+               "curve" : {
+                  "object" : "IModelObject",
+                  "clientId" : "String"
+               }
+            },
+            "curve" : {
+               "clientId" : "String",
+               "object" : "IModelObject"
+            },
+            "node" : {
+               "object" : "IModelObject",
+               "clientId" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "WireHarness-2008-06-WireHarness/createOrUpdateRouteObjects"
+}

@@ -1,0 +1,80 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "containingFolder" : "IModelObject",
+            "newRevId" : "String",
+            "type" : "String",
+            "baseItemRevision" : "IModelObject",
+            "deepCopyInfo" : [
+               {
+                  "isTargetPrimary" : "bool",
+                  "relationTypeName" : "String",
+                  "newName" : "String",
+                  "isRequired" : "bool",
+                  "otherSideObject" : "IModelObject",
+                  "copyRelations" : "bool",
+                  "action" : "int",
+                  "nRdeepCopyInfo" : [
+                     {
+                        "otherSideObject" : "IModelObject",
+                        "action" : "int",
+                        "newName" : "String",
+                        "referenceName" : "String"
+                     }
+                  ]
+               }
+            ],
+            "itemPropertyInfo" : [
+               {
+                  "propertyValues" : "String[]",
+                  "propertyName" : "String"
+               }
+            ],
+            "clientId" : "String",
+            "newItemRevisionMasterProperties" : {
+               "form" : "IModelObject",
+               "propertyValueInfo" : [
+                  {
+                     "propertyValues" : "String[]",
+                     "propertyName" : "String"
+                  }
+               ]
+            },
+            "newItemMasterProperties" : {
+               "propertyValueInfo" : [
+                  {
+                     "propertyName" : "String",
+                     "propertyValues" : "String[]"
+                  }
+               ],
+               "form" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Cad-2010-04-DataManagement/saveAsNewItem",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "saveAsOutputMap" : {
+         "SampleKeyString" : {
+            "newItem" : "IModelObject",
+            "newItemRev" : "IModelObject",
+            "relatedObjects" : [
+               {
+                  "isSecondary" : "bool",
+                  "action" : "int",
+                  "nRdeepCopyOutput" : [
+                     {
+                        "relatedObject" : "IModelObject",
+                        "isSecondary" : "bool",
+                        "action" : "int"
+                     }
+                  ],
+                  "relatedObject" : "IModelObject"
+               }
+            ]
+         }
+      }
+   }
+}

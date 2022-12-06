@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "toolBOMLines" : "IModelObject[]",
+      "isUnreleaseAll" : "bool"
+   },
+   "ServiceOperation" : "Internal-SimProc-2016-05-SimProcessConfigurationManagement/unreleaseTools",
+   "OperationResponse" : "IServiceData"
+}

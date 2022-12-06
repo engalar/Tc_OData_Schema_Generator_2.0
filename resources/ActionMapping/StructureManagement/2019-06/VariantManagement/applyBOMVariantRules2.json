@@ -1,0 +1,62 @@
+{
+   "OperationInput" : {
+      "window" : "IModelObject",
+      "rules" : [
+         {
+            "variantRule" : "IModelObject",
+            "bomVariantOptionValueEntry" : [
+               {
+                  "option" : "IModelObject",
+                  "variantOptionValue" : [
+                     {
+                        "value" : "String",
+                        "index" : "int",
+                        "whereSet" : "String",
+                        "howSetInt" : "int",
+                        "howSet" : "String",
+                        "isConfiguredOptionValue" : "bool"
+                     }
+                  ],
+                  "optionName" : "String",
+                  "owningItem" : "IModelObject",
+                  "optionDesc" : "String"
+               }
+            ],
+            "svr" : "IModelObject",
+            "isConstraintsEvaluated" : "bool",
+            "isSVRModified" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2019-06-VariantManagement/applyBOMVariantRules2",
+   "OperationResponse" : {
+      "window" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "rules" : [
+         {
+            "bomVariantOptionValueEntry" : [
+               {
+                  "optionDesc" : "String",
+                  "variantOptionValue" : [
+                     {
+                        "whereSet" : "String",
+                        "index" : "int",
+                        "value" : "String",
+                        "isConfiguredOptionValue" : "bool",
+                        "howSetInt" : "int",
+                        "howSet" : "String"
+                     }
+                  ],
+                  "optionName" : "String",
+                  "option" : "IModelObject",
+                  "owningItem" : "IModelObject"
+               }
+            ],
+            "variantRule" : "IModelObject",
+            "isSVRModified" : "bool",
+            "isConstraintsEvaluated" : "bool",
+            "svr" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "staticTable" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clientId" : "String"
+   },
+   "ServiceOperation" : "Core-2010-09-DataManagement/getStaticTableData"
+}

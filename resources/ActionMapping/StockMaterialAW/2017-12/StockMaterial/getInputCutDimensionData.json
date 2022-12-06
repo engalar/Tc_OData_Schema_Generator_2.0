@@ -1,0 +1,31 @@
+{
+   "ServiceOperation" : "Internal-StockMaterialAW-2017-12-StockMaterial/getInputCutDimensionData",
+   "OperationResponse" : {
+      "cutDimensionsData" : [
+         {
+            "cutDimesionPropeties" : [
+               {
+                  "type" : "String",
+                  "isEnabled" : "bool",
+                  "isRequired" : "bool",
+                  "displayName" : "String",
+                  "propName" : "String",
+                  "isEditable" : "bool",
+                  "initValue" : "String"
+               }
+            ],
+            "businessObject" : "IModelObject",
+            "dimensionsUsed" : [
+               {
+                  "internalValue" : "String",
+                  "displayValue" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputObjects" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "inputConnLines" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "connectedLines" : "IModelObject[]",
+            "connectionLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2014-06-StructureSearch/searchConnectedLines"
+}

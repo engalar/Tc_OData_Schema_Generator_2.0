@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "searchInputs2" : [
+         {
+            "designArtifactInputs" : {
+               "designArtifactCriteria" : [
+                  {
+                     "attributeValues" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "typeObj" : "IModelObject"
+                  }
+               ],
+               "designArtifactsObjects" : "IModelObject[]"
+            },
+            "clientId" : "String",
+            "filterCriteria" : {
+               "domain" : "String",
+               "attributeValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "typeObj" : "IModelObject"
+            },
+            "mdoCriteria" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2015-07-MultiDisciplinaryDataMgt/searchMDO2",
+   "OperationResponse" : {
+      "mdoSearchOutput" : {
+         "mdoOutput" : [
+            {
+               "mdoObject" : "IModelObject",
+               "clientId" : "String",
+               "associatedDesignArtifact" : [
+                  {
+                     "designArtifact" : "IModelObject",
+                     "domain" : "String"
+                  }
+               ]
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   }
+}

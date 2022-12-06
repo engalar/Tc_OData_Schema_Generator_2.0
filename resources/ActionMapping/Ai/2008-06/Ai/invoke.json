@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "methodName" : "String",
+      "strIn" : "String"
+   },
+   "ServiceOperation" : "Internal-Ai-2008-06-Ai/invoke",
+   "OperationResponse" : "String"
+}

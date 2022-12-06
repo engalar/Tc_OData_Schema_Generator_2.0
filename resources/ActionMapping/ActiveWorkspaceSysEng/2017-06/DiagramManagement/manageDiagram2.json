@@ -1,0 +1,93 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "nodeData" : [
+               {
+                  "node" : "IModelObject",
+                  "nodeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "edgeData" : [
+               {
+                  "edgeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "end1Element" : "IModelObject",
+                  "end2Element" : "IModelObject",
+                  "edge" : "IModelObject"
+               }
+            ],
+            "clientId" : "String",
+            "portData" : [
+               {
+                  "port" : "IModelObject",
+                  "portOwner" : "IModelObject",
+                  "portInfo" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "diagramInfo" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceSysEng-2017-06-DiagramManagement/manageDiagram2",
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputCtxt" : {
+               "productContextElementInfo" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     "IModelObject"
+                  ]
+               ],
+               "structureContextObject" : "IModelObject",
+               "productContext" : "IModelObject",
+               "configuration" : {
+                  "configurationObject" : "IModelObject",
+                  "variantRule" : "IModelObject",
+                  "effectivityDate" : "Date",
+                  "unitNo" : "int",
+                  "revisionRule" : "IModelObject",
+                  "endItem" : "IModelObject",
+                  "now" : "bool"
+               }
+            },
+            "createInput" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "compoundCreateInput" : "Ase0::Soa::ActiveWorkspaceSysEng::_2012_10::DiagramManagement::CreateInputMap",
+                        "boName" : "String"
+                     }
+                  ]
+               },
+               "boName" : "String"
+            },
+            "secondaryObjects" : "IModelObject[]",
+            "visibleObjects" : "IModelObject[]",
+            "diagramInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "primaryObjects" : "IModelObject[]",
+            "userAction" : "String"
+         }
+      ]
+   }
+}

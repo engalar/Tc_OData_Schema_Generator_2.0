@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "targetObjectUid" : "String"
+   },
+   "OperationResponse" : {
+      "message" : "String",
+      "success" : "bool"
+   },
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/unSubscribeToObject"
+}

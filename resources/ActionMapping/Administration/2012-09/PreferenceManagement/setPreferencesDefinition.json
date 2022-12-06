@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/setPreferencesDefinition",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "preferenceInput" : [
+         {
+            "values" : "String[]",
+            "definition" : {
+               "name" : "String",
+               "type" : "int",
+               "isDisabled" : "bool",
+               "description" : "String",
+               "protectionScope" : "String",
+               "isEnvEnabled" : "bool",
+               "category" : "String",
+               "isOOTBPreference" : "bool",
+               "isArray" : "bool"
+            }
+         }
+      ]
+   }
+}

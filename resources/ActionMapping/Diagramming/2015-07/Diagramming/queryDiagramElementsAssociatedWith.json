@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Diagramming-2015-07-Diagramming/queryDiagramElementsAssociatedWith",
+   "OperationResponse" : {
+      "results" : [
+         {
+            "elements" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "diagram" : "IModelObject",
+            "clientId" : "String",
+            "elements" : "IModelObject[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "SocialInt-2019-06-TeamCollaborationService/deleteKeys",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "socialAppType" : "String",
+            "id" : "String",
+            "uninstall" : "bool"
+         }
+      ]
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputBreakDownCriteria" : {
+         "queryInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "explosionLevel" : "int",
+         "partInfo" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "actWindow" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2014-12-QueryManagement/performMultilevelACTBreakdown"
+}

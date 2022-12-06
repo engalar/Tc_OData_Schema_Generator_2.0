@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "cancelPublishInput" : {
+         "designUID" : "String",
+         "domainIdentifier" : "String"
+      }
+   },
+   "ServiceOperation" : "EDMDCollab-2020-01-EDMDCollaboration/cancelPublishIntent",
+   "OperationResponse" : "IServiceData"
+}

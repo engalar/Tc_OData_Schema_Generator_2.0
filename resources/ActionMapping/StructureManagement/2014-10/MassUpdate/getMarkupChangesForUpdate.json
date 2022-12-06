@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/getMarkupChangesForUpdate",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "changeItemRev" : "IModelObject",
+            "markupChangeUIDs" : "String[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugLogging/getJournalFile",
+   "OperationResponse" : "String",
+   "OperationInput" : {
+      "size" : "int"
+   }
+}

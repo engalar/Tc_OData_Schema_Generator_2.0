@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2017-06-EffectivityManagment/addOrRemoveRelStatusEffectivities",
+   "OperationInput" : {
+      "input" : {
+         "effectivities" : "IModelObject[]",
+         "addOrRemove" : "bool",
+         "status" : "IModelObject"
+      }
+   }
+}

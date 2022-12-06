@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "filter" : [
+         {
+            "templateTypes" : "String[]",
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            },
+            "inputObjects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2014-11-RequirementsManagement/getExportTemplates",
+   "OperationResponse" : {
+      "outTmplNames" : {
+         "SampleKeyString" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

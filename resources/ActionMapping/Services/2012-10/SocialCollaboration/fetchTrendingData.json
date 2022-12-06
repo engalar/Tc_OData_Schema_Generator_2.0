@@ -1,0 +1,5 @@
+{
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/fetchTrendingData",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {}
+}

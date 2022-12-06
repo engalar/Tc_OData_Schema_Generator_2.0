@@ -1,0 +1,45 @@
+{
+   "OperationResponse" : {
+      "modifiedObjectList" : "String[]",
+      "serviceData" : "IServiceData",
+      "transientFileReadTickets" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Requirementsmanagement-2009-10-RequirementsManagement/importUnmanagedData",
+   "OperationInput" : {
+      "relativeStructParent" : [
+         {
+            "objectType" : "String",
+            "actionRequired" : "String",
+            "parentAttrList" : {
+               "SampleKeyString" : "String[]"
+            },
+            "parentID" : "String",
+            "childInfo" : [
+               {
+                  "refDesignator" : "String",
+                  "childID" : "String",
+                  "childAttrList" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "actionRequired" : "String",
+                  "childChangeType" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "objectType" : "String",
+                  "attrListRel" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "structModification" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "relationType" : "String"
+               }
+            ],
+            "parentChangeType" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ],
+      "importOptions" : "String[]"
+   }
+}

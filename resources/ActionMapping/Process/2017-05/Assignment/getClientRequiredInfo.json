@@ -1,0 +1,114 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "objectClientRequiredInfoMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  {
+                     "tagInfo" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "tagToTagVectorMapInfo" : {
+                        "SampleKeyString" : {
+                           "tagToTagVectorMap" : [
+                              [
+                                 "SampleKeyIModelObject"
+                              ],
+                              [
+                                 "IModelObject[]"
+                              ]
+                           ]
+                        }
+                     },
+                     "stringArrayInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "booleanInfo" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "doubleArrayInfo" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "stringInfo" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "integerInfo" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "tagArrayInfo" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "booleanArrayInfo" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "doubleInfo" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "integerArrayInfo" : {
+                        "SampleKeyString" : "int[]"
+                     }
+                  }
+               ]
+            ],
+            "globalClientRequiredInfo" : {
+               "booleanArrayInfo" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagArrayInfo" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "integerArrayInfo" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleInfo" : {
+                  "SampleKeyString" : "double"
+               },
+               "booleanInfo" : {
+                  "SampleKeyString" : "bool"
+               },
+               "stringInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "integerInfo" : {
+                  "SampleKeyString" : "int"
+               },
+               "doubleArrayInfo" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "tagInfo" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "tagToTagVectorMapInfo" : {
+                  "SampleKeyString" : {
+                     "tagToTagVectorMap" : [
+                        [
+                           "SampleKeyIModelObject"
+                        ],
+                        [
+                           "IModelObject[]"
+                        ]
+                     ]
+                  }
+               },
+               "stringArrayInfo" : {
+                  "SampleKeyString" : "String[]"
+               }
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Assignment/getClientRequiredInfo",
+   "OperationInput" : {
+      "input" : [
+         {
+            "context" : "IModelObject",
+            "clientRequiredInformation" : "String[]",
+            "updatedObjects" : "IModelObject[]"
+         }
+      ]
+   }
+}

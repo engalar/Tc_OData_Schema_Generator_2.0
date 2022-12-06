@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "nameValues" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/getPropertiesOfObjects",
+   "OperationInput" : {
+      "propertySetNames" : "String[]",
+      "appRefs" : [
+         {
+            "version" : "String",
+            "application" : "String",
+            "label" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "applicationID" : "String",
+      "status" : "int",
+      "classNames" : "String[]",
+      "subscriptionAppID" : "String",
+      "maxObjectCount" : "int",
+      "exportedDate" : "Date"
+   },
+   "OperationResponse" : {
+      "indexedObjectsUIDs" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2015-03-FullTextSearch/getIndexedObjects"
+}

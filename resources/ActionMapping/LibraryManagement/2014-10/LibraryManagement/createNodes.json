@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "createInput" : [
+         {
+            "hierarchy" : "IModelObject",
+            "clientID" : "String",
+            "replicateClsNodes" : "bool",
+            "allowedMemberTypes" : "String[]",
+            "additionalProperties" : {
+               "SampleKeyString" : "String[]"
+            },
+            "classificatioNode" : "IModelObject",
+            "parentNode" : "IModelObject",
+            "id" : "String",
+            "boName" : "String",
+            "description" : "String",
+            "name" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryManagement/createNodes",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "node" : "IModelObject",
+            "nodeHierarchy" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

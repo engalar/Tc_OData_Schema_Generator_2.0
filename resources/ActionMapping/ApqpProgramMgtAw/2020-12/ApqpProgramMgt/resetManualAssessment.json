@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Internal-ApqpProgramMgtAw-2020-12-ApqpProgramMgt/resetManualAssessment",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "runInBackground" : "bool",
+      "resetAssessmentInput" : [
+         {
+            "resetOptions" : [
+               {
+                  "keyName" : "String",
+                  "keyValue" : "String"
+               }
+            ],
+            "rygObject" : "IModelObject[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,62 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "newCloneOccEff" : "String",
+            "sourceObject" : "IModelObject",
+            "parentObject" : "IModelObject",
+            "sourceOccEff" : "String",
+            "scopeSearchObject" : "IModelObject",
+            "additionalInfo" : {
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               }
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clonedObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Manufacturing-2014-06-DataManagement/cloneAssemblyAndProcessObjects"
+}

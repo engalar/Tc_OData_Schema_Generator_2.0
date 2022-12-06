@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Logistics-2014-06-LogisticsPlanning/assignContainersToStations",
+   "OperationResponse" : {
+      "assignedStationsInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputList" : "IModelObject[]"
+   }
+}

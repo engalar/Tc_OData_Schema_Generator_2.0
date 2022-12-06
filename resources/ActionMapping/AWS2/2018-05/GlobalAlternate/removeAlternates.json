@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "element" : "IModelObject",
+      "alternatesToBeRemoved" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2018-05-GlobalAlternate/removeAlternates"
+}

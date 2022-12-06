@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "rinfos" : [
+         {
+            "owningSiteIds" : "int[]",
+            "reason" : "String",
+            "importOptions" : [
+               {
+                  "optionName" : "String",
+                  "optionValue" : "String[]"
+               }
+            ],
+            "optionSetName" : "String",
+            "objectUIDs" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Multisite-2014-10-ImportExportTCXML/remoteImportByUID",
+   "OperationResponse" : {
+      "failureInfo" : [
+         {
+            "failuresPerOperation" : [
+               {
+                  "failureStrings" : "String[]",
+                  "failureObjects" : "IModelObject[]",
+                  "failureCodes" : "int[]"
+               }
+            ],
+            "sites" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

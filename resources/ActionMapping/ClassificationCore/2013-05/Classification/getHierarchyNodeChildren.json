@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "nodeInfo" : [
+         {
+            "extendedInfoRequested" : "String[]",
+            "node" : "IModelObject",
+            "filters" : [
+               {
+                  "propertyName" : "String",
+                  "expression" : "String"
+               }
+            ],
+            "recursive" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "children" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "nodeName" : "String",
+                  "allowMultipleClassification" : "bool",
+                  "nodeDesc" : "String",
+                  "icon" : "IModelObject",
+                  "parent" : "IModelObject",
+                  "levelSortIndex" : "int",
+                  "nodeToUpdate" : "IModelObject",
+                  "isAssembly" : "bool",
+                  "nodeId" : "String",
+                  "isLeafNode" : "bool",
+                  "attachments" : "IModelObject[]",
+                  "instanceCount" : "int",
+                  "nodeType" : "HierarchyNode_Group HierarchyNode_Master HierarchyNode_Reference",
+                  "isAbstract" : "bool",
+                  "masterNode" : "IModelObject",
+                  "storageClassTypeName" : "String",
+                  "images" : "IModelObject[]"
+               }
+            ]
+         ]
+      ]
+   },
+   "ServiceOperation" : "ClassificationCore-2013-05-Classification/getHierarchyNodeChildren"
+}

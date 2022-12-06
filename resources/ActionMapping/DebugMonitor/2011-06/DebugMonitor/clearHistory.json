@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "metricIds" : "String[]"
+   },
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugMonitor/clearHistory",
+   "OperationResponse" : "bool"
+}

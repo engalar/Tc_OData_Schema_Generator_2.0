@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "wires" : "IModelObject[]"
+   },
+   "ServiceOperation" : "WireHarness-2008-06-WireHarness/deleteWireData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   }
+}

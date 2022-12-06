@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "relationList" : "String[]",
+            "parentLine" : "IModelObject",
+            "clientId" : "String",
+            "parentObj" : "IModelObject",
+            "contextLine" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "parentAttrList" : [
+         {
+            "attrList" : [
+               {
+                  "relationType" : "String",
+                  "attrObjList" : [
+                     {
+                        "occName" : "String",
+                        "attribute" : "IModelObject",
+                        "attributeType" : "SOURCEATTR OVERRIDDENATTR INPUTATTR SYNCCANDIDATE OUTPUTATTR_NOTUPDATE OUTPUTATTR_PUBLISHCANDIDATE OUTPUTATTR_PUBLISHED",
+                        "sourceAttribute" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "isLineInValidationList" : "bool",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AttrTargetMgmtAW-2015-03-AttributeTargetManagement/getMeasurableAttributes"
+}

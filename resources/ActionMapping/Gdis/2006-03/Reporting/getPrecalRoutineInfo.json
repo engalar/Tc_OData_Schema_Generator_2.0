@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Internal-Gdis-2006-03-Reporting/getPrecalRoutineInfo",
+   "OperationResponse" : {
+      "result" : [
+         {
+            "percentOnTarget" : "double",
+            "routineDate" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "fromDate" : "String",
+      "routineId" : "String",
+      "routineRev" : "String",
+      "specSetCode" : "String",
+      "toDate" : "String"
+   }
+}

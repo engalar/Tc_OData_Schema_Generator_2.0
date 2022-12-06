@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "lineItemCollectionInfo" : {
+         "SampleKeyString" : "String"
+      },
+      "splitInput" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2016-10-SupplierCollaboration/autoSplitLineItems",
+   "OperationResponse" : "IServiceData"
+}

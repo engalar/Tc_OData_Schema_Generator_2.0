@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Retail-2013-12-Retail/addColorsOrColorways",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "colorPaletteUID" : "String",
+            "brandUID" : "String",
+            "colorOrColorwayUID" : "String",
+            "seasonUID" : "String",
+            "revisionUID" : "String"
+         }
+      ]
+   }
+}

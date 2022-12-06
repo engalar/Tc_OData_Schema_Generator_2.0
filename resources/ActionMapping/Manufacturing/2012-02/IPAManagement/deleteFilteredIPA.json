@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "process" : "IModelObject",
+            "isRecursive" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-IPAManagement/deleteFilteredIPA",
+   "OperationResponse" : "IServiceData"
+}

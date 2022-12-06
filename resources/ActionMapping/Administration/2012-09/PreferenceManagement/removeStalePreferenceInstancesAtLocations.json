@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "locations" : [
+         {
+            "location" : "String",
+            "object" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/removeStalePreferenceInstancesAtLocations"
+}

@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "rule" : "IModelObject",
+      "ruleConditions" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-ControlPlan-2020-05-RuleEngine/createUpdateRuleConditions",
+   "OperationInput" : {
+      "createInputRule" : {
+         "rule" : "IModelObject",
+         "operation" : "String",
+         "defaultNamingConvention" : "String",
+         "ruleConditions" : {
+            "namingConvention" : "String",
+            "expression" : "String"
+         },
+         "sourceClass" : "String",
+         "ruleStatus" : "String"
+      }
+   }
+}

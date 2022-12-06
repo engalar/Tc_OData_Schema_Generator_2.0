@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "StructureManagement-2012-09-Structure/add",
+   "OperationResponse" : {
+      "addedLines" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "flags" : "int",
+            "parent" : "IModelObject",
+            "toBeAdded" : [
+               {
+                  "bomView" : "IModelObject",
+                  "item" : "IModelObject",
+                  "element" : "IModelObject",
+                  "itemRev" : "IModelObject",
+                  "initialValues" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "line" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

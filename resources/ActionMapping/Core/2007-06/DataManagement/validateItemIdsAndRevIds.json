@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "infos" : [
+         {
+            "revId" : "String",
+            "itemType" : "String",
+            "itemId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2007-06-DataManagement/validateItemIdsAndRevIds",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "revIdStatus" : "Valid Invalid Modified Override Duplicate",
+            "modRevId" : "String",
+            "itemIdStatus" : "Valid Invalid Modified Override Duplicate",
+            "modItemId" : "String"
+         }
+      ]
+   }
+}

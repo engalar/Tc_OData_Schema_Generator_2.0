@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "reviewDeclInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "complianceResults" : "IModelObject[]",
+               "targetObject" : "IModelObject",
+               "declarationType" : "String",
+               "declarationRev" : "IModelObject"
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "SubstanceCompliance-2015-10-SubstanceCompliance/getDeclarationDetailsForReview",
+   "OperationInput" : {
+      "reviewTasks" : "IModelObject[]"
+   }
+}

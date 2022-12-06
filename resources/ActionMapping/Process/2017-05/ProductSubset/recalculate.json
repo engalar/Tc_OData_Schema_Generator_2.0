@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Process-2017-05-ProductSubset/recalculate",
+   "OperationInput" : {
+      "scopes" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "assignmentTypes" : [
+         {
+            "validAssignmentTypes" : "IModelObject[]",
+            "defaultAssignmentType" : "IModelObject",
+            "assignToType" : "IModelObject",
+            "assigneeType" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Assignment/getAssignmentTypeInformation",
+   "OperationInput" : {}
+}

@@ -1,0 +1,74 @@
+{
+   "OperationInput" : {
+      "productName" : "String",
+      "configuratorURL" : "String",
+      "productNameSpace" : "String",
+      "referenceExpressions" : [
+         {
+            "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+            "value" : {
+               "description" : "String",
+               "family" : "IModelObject",
+               "name" : "String"
+            },
+            "effectivityTable" : [
+               {
+                  "unitOut" : "int",
+                  "unitIn" : "int",
+                  "rest" : {
+                     "productName" : "String",
+                     "formula" : "String",
+                     "productNameSpace" : "String"
+                  },
+                  "dateOut" : "Date",
+                  "dateIn" : "Date"
+               }
+            ],
+            "formula" : {
+               "formula" : "String",
+               "productName" : "String",
+               "productNameSpace" : "String"
+            },
+            "opCode" : "int"
+         }
+      ],
+      "expressions" : [
+         {
+            "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+            "value" : {
+               "description" : "String",
+               "name" : "String",
+               "family" : "IModelObject"
+            },
+            "opCode" : "int",
+            "effectivityTable" : [
+               {
+                  "unitIn" : "int",
+                  "rest" : {
+                     "productNameSpace" : "String",
+                     "formula" : "String",
+                     "productName" : "String"
+                  },
+                  "dateOut" : "Date",
+                  "unitOut" : "int",
+                  "dateIn" : "Date"
+               }
+            ],
+            "formula" : {
+               "productNameSpace" : "String",
+               "formula" : "String",
+               "productName" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "overlapStates" : [
+         {
+            "overlapStates" : "OverlapStateNone OverlapStateSubset OverlapStateMatch OverlapStateSuperset OverlapStateIntersect[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ConfigFilterCriteria-2013-05-EffectivityManagement/getEffectivityOverlapStates"
+}

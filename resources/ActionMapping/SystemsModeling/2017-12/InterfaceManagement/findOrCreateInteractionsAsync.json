@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "asyncInputs" : [
+         {
+            "awbConnectionRecipes" : "String[]",
+            "productContextElementInfo" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-SystemsModeling-2017-12-InterfaceManagement/findOrCreateInteractionsAsync"
+}

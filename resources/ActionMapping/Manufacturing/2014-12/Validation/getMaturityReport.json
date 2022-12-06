@@ -1,0 +1,53 @@
+{
+   "OperationResponse" : {
+      "maturityResult" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "evaluatedObject" : "IModelObject",
+               "objectLevelStatus" : [
+                  {
+                     "propertyName" : "String",
+                     "value" : "String[]",
+                     "dataType" : "String"
+                  }
+               ],
+               "ruleResults" : {
+                  "SampleKeyString" : [
+                     {
+                        "value" : "String[]",
+                        "propertyName" : "String",
+                        "dataType" : "String"
+                     }
+                  ]
+               }
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2014-12-Validation/getMaturityReport",
+   "OperationInput" : {
+      "maturityReportRequest" : {
+         "supportingInformation" : [
+            {
+               "value" : "String[]",
+               "propertyName" : "String",
+               "dataType" : "String"
+            }
+         ],
+         "selectedRules" : {
+            "SampleKeyString" : [
+               {
+                  "propertyName" : "String",
+                  "value" : "String[]",
+                  "dataType" : "String"
+               }
+            ]
+         },
+         "inputObjects" : "IModelObject[]"
+      }
+   }
+}

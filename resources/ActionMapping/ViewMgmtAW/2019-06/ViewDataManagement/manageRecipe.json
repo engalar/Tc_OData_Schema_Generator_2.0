@@ -1,0 +1,63 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "recipeObject" : "IModelObject",
+            "manageAction" : "Create Update Read ApplyConfig",
+            "attributeValues" : {
+               "SampleKeyString" : "String"
+            },
+            "criteriaInput" : {
+               "criteriaSet" : {
+                  "lwoQueryExpression" : "String",
+                  "closureRuleNames" : "String[]",
+                  "savedSearchName" : "String",
+                  "returnTypes" : "String[]"
+               },
+               "revRuleName" : "String",
+               "contextObject" : "IModelObject",
+               "selectContentInputs" : "IModelObject[]"
+            },
+            "clientId" : "String",
+            "recipeCreInput" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String",
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "boName" : "String",
+                        "compoundCreateInput" : "Evm1::Soa::Internal::ViewMgmtAW::_2019_06::ViewDataManagement::CreateInputMap"
+                     }
+                  ]
+               }
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ViewMgmtAW-2019-06-ViewDataManagement/manageRecipe",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "recipeOutput" : [
+         {
+            "recipeObject" : "IModelObject",
+            "recipeOutput" : {
+               "selectContentInputs" : "IModelObject[]",
+               "contextObject" : "IModelObject",
+               "revRuleName" : "String",
+               "criteriaSet" : {
+                  "closureRuleNames" : "String[]",
+                  "lwoQueryExpression" : "String",
+                  "savedSearchName" : "String",
+                  "returnTypes" : "String[]"
+               }
+            },
+            "clientId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "setRuleAsCurrentInDB" : "bool",
+      "identifiableObjects" : "IModelObject[]",
+      "displayRule" : "IModelObject"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2007-12-Session/setAndEvaluateIdDisplayRule"
+}

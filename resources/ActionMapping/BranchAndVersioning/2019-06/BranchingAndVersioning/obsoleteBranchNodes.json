@@ -1,0 +1,50 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "obsoleteNodes" : "IModelObject[]",
+            "obsoleteComment" : {
+               "propMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String"
+            },
+            "clientID" : "String",
+            "config" : {
+               "SampleKeyString" : "String"
+            },
+            "branch" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "obsoleteNodeInfo" : [
+         {
+            "clientID" : "String",
+            "branchNodes" : [
+               {
+                  "tupleNode" : "IModelObject",
+                  "nodeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "branchNode" : "IModelObject"
+               }
+            ],
+            "newObjects" : "IModelObject[]",
+            "edges" : [
+               {
+                  "edgeObject" : "IModelObject",
+                  "edgeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "edgeType" : "String",
+                  "endNode" : "IModelObject",
+                  "startNode" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-BranchAndVersioning-2019-06-BranchingAndVersioning/obsoleteBranchNodes"
+}

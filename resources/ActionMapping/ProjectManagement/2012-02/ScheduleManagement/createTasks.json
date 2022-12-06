@@ -1,0 +1,42 @@
+{
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/createTasks",
+   "OperationResponse" : {
+      "updatedTasks" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "createdObjects" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "createContainers" : [
+         {
+            "objectType" : "String",
+            "name" : "String",
+            "finish" : "Date",
+            "parent" : "IModelObject",
+            "workEstimate" : "int",
+            "otherAttributes" : [
+               {
+                  "attrValue" : "String",
+                  "attrType" : "int",
+                  "attrName" : "String"
+               }
+            ],
+            "start" : "Date",
+            "prevSibling" : "IModelObject",
+            "typedOtherAttributes" : [
+               {
+                  "updates" : [
+                     {
+                        "attrValue" : "String",
+                        "attrType" : "int",
+                        "attrName" : "String"
+                     }
+                  ],
+                  "objectType" : "String"
+               }
+            ],
+            "desc" : "String"
+         }
+      ],
+      "schedule" : "IModelObject"
+   }
+}

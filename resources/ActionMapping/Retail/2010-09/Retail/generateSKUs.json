@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "dimensionNames" : "String[]",
+            "bomLineUID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/generateSKUs",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "skuObjects" : {
+         "SampleKeyString" : "String[]"
+      }
+   }
+}

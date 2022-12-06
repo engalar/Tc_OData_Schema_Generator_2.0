@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "personData" : [
+         {
+            "propValues" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Administration-2009-10-PersonManagement/getStringProperties",
+   "OperationInput" : {
+      "personObjects" : "IModelObject[]",
+      "attributes" : "String[]"
+   }
+}

@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "configurationsToCompare" : [
+         {
+            "src" : "IModelObject",
+            "other" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "compareResults" : "bool[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Ai-2008-06-Ai/compareConfigurationContexts"
+}

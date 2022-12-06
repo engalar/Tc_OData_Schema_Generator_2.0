@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-SubsCmplAW-2019-12-SubstanceCompliance/acknowledgeImpFailureQRecords",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "selectedAcknowledgeImpFailureQRecords" : "IModelObject[]"
+   }
+}

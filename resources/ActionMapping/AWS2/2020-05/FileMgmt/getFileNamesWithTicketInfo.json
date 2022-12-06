@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "fileName" : "String",
+            "fileTicket" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2020-05-FileMgmt/getFileNamesWithTicketInfo",
+   "OperationInput" : {
+      "businessObjectsIn" : "IModelObject[]"
+   }
+}

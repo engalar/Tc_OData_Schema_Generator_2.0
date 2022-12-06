@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "generateLog" : "bool",
+            "recursive" : "bool",
+            "reResolve" : "bool",
+            "recipeObjs" : "IModelObject[]",
+            "searchScopes" : "IModelObject[]",
+            "recipeAnchor" : "IModelObject",
+            "removePreviouslyResolved" : "bool",
+            "appKey" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2014-12-StructureSearch/resolveAssignmentRecipe",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "info" : [
+         {
+            "intMap" : {
+               "SampleKeyString" : "int[]"
+            },
+            "strMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "objMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "dblMap" : {
+               "SampleKeyString" : "double[]"
+            },
+            "dateMap" : {
+               "SampleKeyString" : "Date[]"
+            }
+         }
+      ]
+   }
+}

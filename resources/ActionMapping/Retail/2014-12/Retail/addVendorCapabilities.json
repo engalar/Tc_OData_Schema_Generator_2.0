@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-Retail-2014-12-Retail/addVendorCapabilities",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "locations" : "IModelObject[]",
+            "vendor" : "IModelObject",
+            "contacts" : "IModelObject[]",
+            "brand" : "IModelObject",
+            "vendorClassId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Diagramming-2011-06-DiagramManagement/createOrUpdateTemplate",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "diagramTmplRev" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputData" : {
+         "relationRule" : "String[]",
+         "membershipRule" : "IModelObject",
+         "diagramTmplRev" : "IModelObject",
+         "tmplMappingFileTicket" : "String",
+         "propNamevsPropValueMap" : {
+            "SampleKeyString" : "String"
+         },
+         "tmplStencilFileTickets" : "String[]",
+         "available" : "bool"
+      }
+   }
+}

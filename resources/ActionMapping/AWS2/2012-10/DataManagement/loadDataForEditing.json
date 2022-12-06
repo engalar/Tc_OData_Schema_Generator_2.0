@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "obj" : "IModelObject",
+            "objLsds" : [
+               {
+                  "obj" : "IModelObject",
+                  "lsd" : "Date"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-DataManagement/loadDataForEditing",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "propertyNames" : "String[]",
+            "isPessimisticLock" : "bool",
+            "obj" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "mainObject" : {
+               "alternateId" : "String",
+               "makeDefault" : "bool",
+               "additionalProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "identifiableObject" : "IModelObject"
+            },
+            "identifierType" : "IModelObject",
+            "revObject" : {
+               "alternateId" : "String",
+               "makeDefault" : "bool",
+               "additionalProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "identifiableObject" : "IModelObject"
+            },
+            "context" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2007-12-DataManagement/createAlternateIdentifiers"
+}

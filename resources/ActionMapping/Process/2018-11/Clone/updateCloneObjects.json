@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "action" : "ACTION_DELETE_CLONE ACTION_UNLINK_CLONE ACTION_SKIP_CLONE",
+      "cloneObjects" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Process-2018-11-Clone/updateCloneObjects"
+}

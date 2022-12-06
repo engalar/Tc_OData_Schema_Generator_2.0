@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "abeApn" : "IModelObject",
+            "values" : [
+               {
+                  "noteType" : "String",
+                  "noteText" : "String"
+               }
+            ],
+            "prodRevs" : "IModelObject[]",
+            "validate" : "bool",
+            "abeLine" : "IModelObject",
+            "component" : "IModelObject",
+            "quantity" : "int",
+            "metaExpr" : [
+               {
+                  "nveRef" : {
+                     "nveType" : "nveAuthorized nveSplitting nveMandatorySplit",
+                     "nve" : "IModelObject",
+                     "nveName" : "String"
+                  },
+                  "tokenType" : "tokenNull tokenAnd tokenOr tokenNot tokenBra tokenKet tokenNVE"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "partSolutionAPN" : "IModelObject",
+            "component" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Rdv-2010-04-VariantManagement/addPartToProduct"
+}

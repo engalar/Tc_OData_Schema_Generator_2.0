@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "orderId" : "String",
+         "topLines" : "IModelObject[]",
+         "unitEffectivity" : "int",
+         "executionPlan" : "IModelObject",
+         "dateEffectivity" : "Date",
+         "isDateEffToday" : "bool",
+         "endItem" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "updatedRevRule" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MESInteg-2015-03-Release/setExecutionIdAndRevisionRule"
+}

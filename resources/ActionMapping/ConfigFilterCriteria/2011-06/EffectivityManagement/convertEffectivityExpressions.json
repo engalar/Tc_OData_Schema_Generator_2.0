@@ -1,0 +1,47 @@
+{
+   "OperationInput" : {
+      "expressions" : [
+         {
+            "opCode" : "int",
+            "formula" : {
+               "productName" : "String",
+               "formula" : "String",
+               "productNameSpace" : "String"
+            },
+            "effectivityTable" : [
+               {
+                  "dateIn" : "Date",
+                  "unitOut" : "int",
+                  "unitIn" : "int",
+                  "rest" : {
+                     "productName" : "String",
+                     "formula" : "String",
+                     "productNameSpace" : "String"
+                  },
+                  "dateOut" : "Date"
+               }
+            ],
+            "value" : {
+               "description" : "String",
+               "family" : "IModelObject",
+               "name" : "String"
+            },
+            "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]"
+         }
+      ],
+      "productName" : "String",
+      "configuratorURL" : "String",
+      "productNameSpace" : "String"
+   },
+   "ServiceOperation" : "ConfigFilterCriteria-2011-06-EffectivityManagement/convertEffectivityExpressions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "effectivityFormulae" : [
+         {
+            "productName" : "String",
+            "formula" : "String",
+            "productNameSpace" : "String"
+         }
+      ]
+   }
+}

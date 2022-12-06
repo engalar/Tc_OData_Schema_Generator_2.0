@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "mergeRedLineChangesInput" : {
+         "sourceLines" : "IModelObject[]",
+         "propertiesToMerge" : "String[]",
+         "mergeChildren" : "bool",
+         "targetLine" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-CmAws-2020-12-Changes/mergeRedLineChanges",
+   "OperationResponse" : "IServiceData"
+}

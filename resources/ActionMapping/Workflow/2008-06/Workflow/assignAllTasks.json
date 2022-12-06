@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "assignmentList" : "IModelObject",
+      "process" : "IModelObject",
+      "resources" : [
+         {
+            "revQuorum" : "int",
+            "taskTemplate" : "IModelObject",
+            "ackQuorum" : "int",
+            "actions" : "int[]",
+            "templateResources" : "IModelObject[]",
+            "profiles" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Workflow-2008-06-Workflow/assignAllTasks"
+}

@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "scenario" : "String"
+   },
+   "ServiceOperation" : "Core-2010-04-LanguageInformation/getLanguagesList",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "languageList" : "IModelObject[]"
+   }
+}

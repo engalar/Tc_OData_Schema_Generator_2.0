@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "context" : "IModelObject"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "EditContext-2014-12-DataManagement/setEditContext"
+}

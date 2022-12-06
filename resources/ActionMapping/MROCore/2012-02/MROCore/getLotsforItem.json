@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "item" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-MROCore-2012-02-MROCore/getLotsforItem",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "lots" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

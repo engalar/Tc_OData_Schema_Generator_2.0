@@ -1,0 +1,47 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputLine" : "IModelObject",
+            "additionalInfo" : {
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-StructureManagement/removeDesignPartAlignment",
+   "OperationResponse" : {
+      "additionalInfo" : {
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToDoubleVectorMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         }
+      },
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "makeEachUnique" : "bool",
+      "costRowUIDs" : "String[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "updatedRows" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/makeUniqueRows"
+}

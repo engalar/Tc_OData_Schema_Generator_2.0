@@ -1,0 +1,52 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "filterOut" : [
+         {
+            "endIndex" : "int",
+            "searchFilterMap" : {
+               "SampleKeyString" : [
+                  {
+                     "selected" : "bool",
+                     "startEndRange" : "String",
+                     "count" : "int",
+                     "stringValue" : "String",
+                     "searchFilterType" : "String",
+                     "hasChildren" : "bool",
+                     "endDateValue" : "Date",
+                     "startDateValue" : "Date",
+                     "stringDisplayValue" : "String",
+                     "endNumericValue" : "double",
+                     "startNumericValue" : "double"
+                  }
+               ]
+            },
+            "endReached" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-12-OccurrenceManagement/findMatchingFilters2",
+   "OperationInput" : {
+      "input" : [
+         {
+            "appliedCriteria" : [
+               {
+                  "subCriteria" : "Awb0::Soa::Internal::ActiveWorkspaceBom::_2015_07::OccurrenceManagement::Criteria[]",
+                  "criteriaDisplayValue" : "String",
+                  "criteriaType" : "String",
+                  "criteriaValues" : "String[]",
+                  "criteriaOperatorType" : "String"
+               }
+            ],
+            "productInfo" : "IModelObject",
+            "searchCriteria" : {
+               "categoryInternalName" : "String",
+               "categoryType" : "String",
+               "endIndex" : "int",
+               "searchString" : "String",
+               "pageSize" : "int"
+            }
+         }
+      ]
+   }
+}

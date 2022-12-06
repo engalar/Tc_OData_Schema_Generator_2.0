@@ -1,0 +1,124 @@
+{
+   "ServiceOperation" : "TcmAccess-2017-06-StudyManagement/openContexts",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "contexts" : [
+               {
+                  "objectInfo" : "IModelObject",
+                  "context" : "IModelObject",
+                  "views" : "IModelObject[]",
+                  "structureContext" : "IModelObject"
+               }
+            ],
+            "collaborationContext" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputObject" : "IModelObject",
+            "openViews" : "bool",
+            "openAssociatedContexts" : "bool",
+            "contextSettings" : {
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "doubleArrayProps" : {
+                           "SampleKeyString" : "double[]"
+                        },
+                        "intArrayProps" : {
+                           "SampleKeyString" : "int[]"
+                        },
+                        "boolProps" : {
+                           "SampleKeyString" : "bool"
+                        },
+                        "dateArrayProps" : {
+                           "SampleKeyString" : "Date[]"
+                        },
+                        "dateProps" : {
+                           "SampleKeyString" : "Date"
+                        },
+                        "doubleProps" : {
+                           "SampleKeyString" : "double"
+                        },
+                        "floatArrayProps" : {
+                           "SampleKeyString" : "float[]"
+                        },
+                        "boolArrayProps" : {
+                           "SampleKeyString" : "bool[]"
+                        },
+                        "stringArrayProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "floatProps" : {
+                           "SampleKeyString" : "float"
+                        },
+                        "type" : "String",
+                        "compoundCreateInput" : "Tca0::Soa::TcmAccess::_2017_06::StudyManagement::CreateInputMap",
+                        "stringProps" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "tagArrayProps" : {
+                           "SampleKeyString" : "IModelObject[]"
+                        },
+                        "tagProps" : {
+                           "SampleKeyString" : "IModelObject"
+                        },
+                        "intProps" : {
+                           "SampleKeyString" : "int"
+                        }
+                     }
+                  ]
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "type" : "String",
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "structureContextTypes" : "String[]"
+         }
+      ]
+   }
+}

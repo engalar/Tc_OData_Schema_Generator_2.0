@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "SimProc-2013-05-SimProcessStatusManagement/deleteSimProcessStatus",
+   "OperationResponse" : "bool",
+   "OperationInput" : {
+      "jobIds" : "String[]"
+   }
+}

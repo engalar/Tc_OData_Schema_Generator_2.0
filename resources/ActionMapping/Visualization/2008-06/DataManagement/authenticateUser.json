@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/authenticateUser",
+   "OperationInput" : {
+      "password" : "String",
+      "username" : "String"
+   }
+}

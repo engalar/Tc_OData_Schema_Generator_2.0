@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "templatesInput" : [
+         {
+            "retailProduct" : "IModelObject",
+            "primaryTemplates" : "IModelObject[]",
+            "secondaryTemplates" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/applyGradeRuleTemplates"
+}

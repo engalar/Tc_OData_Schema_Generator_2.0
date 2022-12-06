@@ -1,0 +1,62 @@
+{
+   "OperationInput" : {
+      "containerInfo3" : [
+         {
+            "constraintAttrInfoMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "memberList" : [
+               {
+                  "memberToRemove" : "IModelObject",
+                  "membership" : {
+                     "csid" : "String",
+                     "isForeground" : "bool",
+                     "member" : "IModelObject"
+                  }
+               }
+            ],
+            "owner" : "IModelObject",
+            "constraintData" : {
+               "datasetLastModifiedDateGuard" : "Date",
+               "nameReferenceFileMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "dataSetType" : "String"
+            },
+            "updateIteration" : "int",
+            "attrInfoMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "systemManaged" : "bool",
+            "constraintOptionsMap" : {
+               "SampleKeyString" : "bool"
+            },
+            "areConstraintsFullySolved" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "updatedContainers" : [
+         {
+            "nameReferenceTicketMap" : {
+               "SampleKeyString" : "String"
+            },
+            "outputIteration" : "int",
+            "members" : [
+               {
+                  "csid" : "String",
+                  "isForeground" : "bool",
+                  "member" : "IModelObject"
+               }
+            ],
+            "inputIteration" : "int",
+            "constraintDataSet" : "IModelObject",
+            "owner" : "IModelObject",
+            "isLatestIterationWorking" : "bool",
+            "latestIteration" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ModelCore-2016-10-GeometricConstraints/updateContainer3"
+}

@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "propertyInfo" : [
+         {
+            "object" : "IModelObject",
+            "propsToget" : [
+               {
+                  "locales" : "String[]",
+                  "name" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2015-07-DataManagement/getLocalizedProperties2",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "propertyValues" : [
+               {
+                  "statusDesc" : "String[]",
+                  "status" : "String[]",
+                  "master" : "bool",
+                  "name" : "String",
+                  "locale" : "String",
+                  "values" : "String[]",
+                  "seqNum" : "int",
+                  "internalStatus" : "String[]"
+               }
+            ],
+            "businessObject" : "IModelObject"
+         }
+      ],
+      "partialErrors" : "IServiceData"
+   }
+}

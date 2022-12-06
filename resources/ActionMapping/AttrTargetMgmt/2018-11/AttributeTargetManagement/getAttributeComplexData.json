@@ -1,0 +1,81 @@
+{
+   "OperationResponse" : {
+      "attributeComplexDataOutput" : [
+         {
+            "attrPropNamesToAttrComplexDataMap" : {
+               "SampleKeyString" : [
+                  {
+                     "columnHeaders" : [
+                        {
+                           "index" : "int",
+                           "name" : "String"
+                        }
+                     ],
+                     "rowHeaders" : [
+                        {
+                           "index" : "int",
+                           "name" : "String"
+                        }
+                     ],
+                     "rows" : [
+                        {
+                           "cells" : [
+                              {
+                                 "data" : "String",
+                                 "index" : "int"
+                              }
+                           ],
+                           "index" : "int"
+                        }
+                     ],
+                     "tableName" : "String"
+                  }
+               ]
+            },
+            "objectToRetrieve" : "IModelObject",
+            "measurePropNamesToMeasurementComplexDataMap" : {
+               "SampleKeyString" : [
+                  {
+                     "columnHeaders" : [
+                        {
+                           "name" : "String",
+                           "index" : "int"
+                        }
+                     ],
+                     "rowHeaders" : [
+                        {
+                           "index" : "int",
+                           "name" : "String"
+                        }
+                     ],
+                     "tableName" : "String",
+                     "rows" : [
+                        {
+                           "cells" : [
+                              {
+                                 "data" : "String",
+                                 "index" : "int"
+                              }
+                           ],
+                           "index" : "int"
+                        }
+                     ]
+                  }
+               ]
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "AttrTargetMgmt-2018-11-AttributeTargetManagement/getAttributeComplexData",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "objectToRetrieve" : "IModelObject",
+            "clientId" : "String",
+            "attrPropNames" : "String[]",
+            "measurePropNames" : "String[]"
+         }
+      ]
+   }
+}

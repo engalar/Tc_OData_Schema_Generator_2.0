@@ -1,0 +1,19 @@
+{
+   "OperationInput" : {
+      "createInput" : [
+         {
+            "appearanceUsages" : [
+               {
+                  "colorAppearance" : "IModelObject",
+                  "surfaceDesignator" : "String"
+               }
+            ],
+            "targetObject" : "IModelObject",
+            "groupName" : "String",
+            "clientID" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ColorAppearance-2014-12-AppearanceManagement/setColorAppearance"
+}

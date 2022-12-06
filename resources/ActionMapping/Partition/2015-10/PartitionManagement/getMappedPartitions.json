@@ -1,0 +1,33 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "mappedPartitions" : [
+         {
+            "owningPartitionToMappedPartitionsMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Partition-2015-10-PartitionManagement/getMappedPartitions",
+   "OperationInput" : {
+      "operationInput" : [
+         {
+            "options" : {
+               "boolMap" : {
+                  "SampleKeyString" : "bool"
+               }
+            },
+            "partitionSchemes" : "IModelObject[]",
+            "configurationContext" : "IModelObject",
+            "appModelReference" : "IModelObject",
+            "partitions" : "IModelObject[]"
+         }
+      ]
+   }
+}

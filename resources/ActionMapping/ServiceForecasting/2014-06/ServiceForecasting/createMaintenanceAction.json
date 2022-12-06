@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "maintenanceActionInput" : [
+         {
+            "maintActStructCont" : "IModelObject",
+            "maintActSrvReqRev" : "IModelObject",
+            "maintActSatisfiesMAs" : "SSF0::Soa::ServiceForecasting::_2014_06::ServiceForecasting::MaintenanceActionInputInfo[]",
+            "maintActDueDate" : "Date",
+            "maintActName" : "String",
+            "maintActImpactedPart" : "IModelObject",
+            "maintActNote" : "String",
+            "maintActRequiresMAs" : "SSF0::Soa::ServiceForecasting::_2014_06::ServiceForecasting::MaintenanceActionInputInfo[]",
+            "maintActAutoComplete" : "bool",
+            "maintActPartPosition" : "String",
+            "maintActAsset" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ServiceForecasting-2014-06-ServiceForecasting/createMaintenanceAction",
+   "OperationResponse" : "IServiceData"
+}

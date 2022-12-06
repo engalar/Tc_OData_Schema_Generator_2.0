@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "processLeafNodes" : "bool",
+      "roots" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2010-09-TimeManagement/calculateCriticalPathEx",
+   "OperationResponse" : {
+      "results" : [
+         {
+            "object" : "IModelObject",
+            "duration" : "double",
+            "components" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

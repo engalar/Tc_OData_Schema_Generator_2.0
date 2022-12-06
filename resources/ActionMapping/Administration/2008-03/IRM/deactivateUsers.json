@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "deactivateUser" : [
+         {
+            "newGroup" : "IModelObject",
+            "targetUser" : "IModelObject",
+            "newUser" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Administration-2008-03-IRM/deactivateUsers"
+}

@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-Cad-2008-03-DataManagement/exportConfiguredNXAssembly",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "transientZipFileReadTicket" : "String",
+            "transientLogFileReadTicket" : "String",
+            "bomline" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "bomline" : "IModelObject",
+            "namingFormat" : "String"
+         }
+      ]
+   }
+}

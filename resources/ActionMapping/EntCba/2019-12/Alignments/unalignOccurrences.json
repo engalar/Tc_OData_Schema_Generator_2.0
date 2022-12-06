@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "designContext" : "IModelObject",
+            "designOccurrence" : "IModelObject",
+            "partContext" : "IModelObject",
+            "partOccurrence" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-EntCba-2019-12-Alignments/unalignOccurrences",
+   "OperationResponse" : "IServiceData"
+}

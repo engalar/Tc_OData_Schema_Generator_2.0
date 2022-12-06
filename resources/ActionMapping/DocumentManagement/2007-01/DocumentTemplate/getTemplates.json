@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "DocumentManagement-2007-01-DocumentTemplate/getTemplates",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "templateName" : "String",
+            "fileTicket" : {
+               "ticket" : "String",
+               "fileName" : "String"
+            },
+            "dataset" : "IModelObject",
+            "templateRev" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : {
+         "templateUnits" : "String",
+         "nameReferenceName" : "String",
+         "version" : "String",
+         "createItemType" : "String",
+         "application" : "String",
+         "relation" : "String",
+         "templateType" : "String"
+      }
+   }
+}

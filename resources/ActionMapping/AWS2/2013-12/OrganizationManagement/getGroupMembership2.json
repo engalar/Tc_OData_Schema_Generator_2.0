@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2013-12-OrganizationManagement/getGroupMembership2",
+   "OperationResponse" : {
+      "groupMembers" : [
+         {
+            "role" : "IModelObject",
+            "groupMembers" : "IModelObject[]",
+            "group" : "IModelObject"
+         }
+      ],
+      "totalFound" : "int",
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int",
+      "userToPersonMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "maxToReturn" : "int",
+         "userId" : "String",
+         "searchForSubGroup" : "bool",
+         "maxToLoad" : "int",
+         "roleName" : "String",
+         "userName" : "String",
+         "groupName" : "String",
+         "startIndex" : "int"
+      }
+   }
+}

@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "boolValueInputKeyValuePairs" : {
+               "SampleKeyString" : "bool"
+            },
+            "savedSearchCriteria" : [
+               {
+                  "criteriaDisplayValue" : "String",
+                  "criteriaName" : "String",
+                  "criteriaValue" : "String"
+               }
+            ],
+            "stringValueInputKeyValuePairs" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2019-06-AdvancedSavedSearch/createAdvancedSavedSearch",
+   "OperationResponse" : {
+      "savedSearchList" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

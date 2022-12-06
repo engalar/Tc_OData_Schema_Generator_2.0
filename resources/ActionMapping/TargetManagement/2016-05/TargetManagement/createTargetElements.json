@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "TargetManagement-2016-05-TargetManagement/createTargetElements",
+   "OperationInput" : {
+      "createInputs" : [
+         {
+            "selectedObject" : "IModelObject",
+            "applicationModel" : "IModelObject",
+            "contextObject" : "IModelObject",
+            "parentTargetElement" : "IModelObject",
+            "createOrUpdateInputs" : [
+               {
+                  "propertyValueMap" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "boType" : "String"
+               }
+            ],
+            "clientId" : "String",
+            "targetDefinitionRevision" : "IModelObject"
+         }
+      ]
+   }
+}

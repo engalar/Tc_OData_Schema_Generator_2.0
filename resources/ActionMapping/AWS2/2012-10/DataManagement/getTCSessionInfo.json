@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Internal-AWS2-2012-10-DataManagement/getTCSessionInfo",
+   "OperationResponse" : {
+      "userSession" : "IModelObject",
+      "serviceData" : "IServiceData"
+   }
+}

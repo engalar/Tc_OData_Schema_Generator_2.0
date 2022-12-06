@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "lovInput" : {
+         "operationName" : "String",
+         "owningObject" : "IModelObject",
+         "propertyValues" : {
+            "SampleKeyString" : "String[]"
+         },
+         "boName" : "String"
+      },
+      "propName" : "String",
+      "uidOfSelectedRows" : "String[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-LOV/validateLOVValueSelections",
+   "OperationResponse" : {
+      "updatedPropValues" : {
+         "uid" : "String",
+         "propInternalValues" : {
+            "SampleKeyString" : "String[]"
+         },
+         "childRows" : "Awp0::Soa::Internal::AWS2::_2012_10::LOV::LOVValueRow[]",
+         "propDisplayValues" : {
+            "SampleKeyString" : "String[]"
+         }
+      },
+      "dependentPropNames" : "String[]",
+      "serviceData" : "IServiceData",
+      "propHasValidValues" : "bool"
+   }
+}

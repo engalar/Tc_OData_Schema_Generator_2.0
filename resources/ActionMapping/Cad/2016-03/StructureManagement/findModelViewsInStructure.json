@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Cad-2016-03-StructureManagement/findModelViewsInStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "possibleMatching" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ],
+      "unfoundFromModelViewList" : "IModelObject[]",
+      "modelViewsByStructureNodes" : [
+         {
+            "clonestableId" : "String[]",
+            "resultingViews" : "IModelObject[]",
+            "csIdContextOccurrence" : "IModelObject",
+            "structureNode" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "options" : {
+         "SampleKeyString" : "bool"
+      },
+      "structureScope" : "IModelObject[]",
+      "withDisclosureIntent" : "String[]",
+      "disclosure" : "IModelObject",
+      "configurationContext" : "IModelObject"
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "ActiveCollaboration-2020-12-ActiveCollaboration/deleteConversation",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "objsToDelete" : "IModelObject[]"
+   }
+}

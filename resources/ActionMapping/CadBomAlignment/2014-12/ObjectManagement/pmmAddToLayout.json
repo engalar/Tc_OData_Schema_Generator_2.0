@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Internal-CadBomAlignment-2014-12-ObjectManagement/pmmAddToLayout",
+   "OperationResponse" : {
+      "addToLayoutMap" : {
+         "SampleKeyString" : {
+            "layoutWindow" : "IModelObject",
+            "layoutChildren" : "IModelObject[]",
+            "conflictingLines" : "IModelObject[]",
+            "layoutTopline" : "IModelObject"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "layoutItemRevision" : "IModelObject",
+            "selectedLines" : "IModelObject[]",
+            "clientId" : "String",
+            "viewType" : "String"
+         }
+      ]
+   }
+}

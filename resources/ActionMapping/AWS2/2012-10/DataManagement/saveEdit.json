@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "isPessimisticLock" : "bool",
+            "propertyNameValues" : [
+               {
+                  "values" : "String[]",
+                  "name" : "String"
+               }
+            ],
+            "obj" : "IModelObject",
+            "objLsds" : [
+               {
+                  "obj" : "IModelObject",
+                  "lsd" : "Date"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-DataManagement/saveEdit",
+   "OperationResponse" : "IServiceData"
+}

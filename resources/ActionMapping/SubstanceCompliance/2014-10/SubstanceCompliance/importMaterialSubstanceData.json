@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "msdInput" : [
+         {
+            "xslPath" : "String",
+            "inputFileFmsTickets" : "String[]",
+            "supportingFileFmsTickets" : "String[]",
+            "optionSetName" : "String",
+            "transferMode" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "msdImportStatusVec" : [
+         {
+            "inputMsdFilename" : "String",
+            "msdErrors" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "SubstanceCompliance-2014-10-SubstanceCompliance/importMaterialSubstanceData"
+}

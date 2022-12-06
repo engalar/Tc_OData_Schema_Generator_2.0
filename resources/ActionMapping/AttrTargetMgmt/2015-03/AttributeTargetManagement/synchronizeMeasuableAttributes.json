@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "parentObj" : "IModelObject",
+            "attrCandidates" : "IModelObject[]",
+            "clientID" : "String"
+         }
+      ],
+      "pref" : {
+         "direction" : "SyncFromSource PublishToSource",
+         "outputRelations" : "String[]",
+         "inputRelations" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "outputMap" : {
+         "SampleKeyString" : "IModelObject[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "AttrTargetMgmt-2015-03-AttributeTargetManagement/synchronizeMeasuableAttributes"
+}

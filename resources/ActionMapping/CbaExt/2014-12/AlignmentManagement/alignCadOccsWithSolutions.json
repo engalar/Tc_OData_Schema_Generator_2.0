@@ -1,0 +1,89 @@
+{
+   "ServiceOperation" : "Internal-CbaExt-2014-12-AlignmentManagement/alignCadOccsWithSolutions",
+   "OperationResponse" : {
+      "updatedItemRowSet" : {
+         "rowSet" : {
+            "row" : [
+               {
+                  "value" : "String[]",
+                  "clientID" : "String"
+               }
+            ]
+         },
+         "columnSet" : {
+            "column" : [
+               {
+                  "table" : "String",
+                  "datatype" : "String",
+                  "logicalName" : "String",
+                  "name" : "String",
+                  "width" : "int"
+               }
+            ],
+            "table" : "String"
+         }
+      },
+      "serviceData" : "IServiceData",
+      "itemsToRemove" : "String[]"
+   },
+   "OperationInput" : {
+      "alignmentInput" : {
+         "authorization" : "String",
+         "operation" : "String",
+         "updateAndAlignInfo" : [
+            {
+               "designs" : [
+                  {
+                     "design" : "IModelObject",
+                     "clientID" : "String"
+                  }
+               ],
+               "pmmObjectUpdateInfo" : {
+                  "field" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "tuid" : "String",
+                  "relatedObjectUpdate" : [
+                     {
+                        "relatedObjects" : [
+                           {
+                              "field" : {
+                                 "SampleKeyString" : "String"
+                              },
+                              "action" : "Add Update Del",
+                              "tuid" : "String"
+                           }
+                        ],
+                        "table" : "String"
+                     }
+                  ],
+                  "clientID" : "String"
+               }
+            }
+         ],
+         "pmmInputObject" : {
+            "columnSet" : {
+               "table" : "String",
+               "column" : [
+                  {
+                     "table" : "String",
+                     "name" : "String",
+                     "datatype" : "String",
+                     "logicalName" : "String",
+                     "width" : "int"
+                  }
+               ]
+            },
+            "rowSet" : {
+               "row" : [
+                  {
+                     "value" : "String[]",
+                     "clientID" : "String"
+                  }
+               ]
+            }
+         },
+         "autoCommit" : "bool"
+      }
+   }
+}

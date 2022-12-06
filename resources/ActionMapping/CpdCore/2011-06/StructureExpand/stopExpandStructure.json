@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "CpdCore-2011-06-StructureExpand/stopExpandStructure",
+   "OperationResponse" : "bool",
+   "OperationInput" : {
+      "expandCursor" : "IModelObject"
+   }
+}

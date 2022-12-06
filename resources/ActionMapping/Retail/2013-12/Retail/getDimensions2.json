@@ -1,0 +1,31 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "responses" : {
+         "SampleKeyString" : [
+            {
+               "dimensionName" : "String",
+               "dimensionValues" : [
+                  {
+                     "dimensionName" : "String",
+                     "isActive" : "bool",
+                     "dimensionType" : "String",
+                     "internalValue" : "String",
+                     "displayValue" : "String"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-Retail-2013-12-Retail/getDimensions2",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "dimensionNames" : "String[]",
+            "getAllDimensions" : "bool",
+            "revisionUID" : "String"
+         }
+      ]
+   }
+}

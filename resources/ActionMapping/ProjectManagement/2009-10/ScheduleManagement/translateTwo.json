@@ -1,0 +1,251 @@
+{
+   "OperationInput" : {
+      "scheduleUid" : "String"
+   },
+   "OperationResponse" : {
+      "translatorResponseScheduleModifyContainerSub" : [
+         {
+            "translatorExceptions" : [
+               {
+                  "operation" : "int",
+                  "errorString" : "String",
+                  "objectUid" : "String",
+                  "errorSeverity" : "int",
+                  "parameterValues" : [
+                     {
+                        "key" : "int",
+                        "value" : "String"
+                     }
+                  ],
+                  "errorNumber" : "int"
+               }
+            ],
+            "scheduleUid" : "String",
+            "scheduleModifyContainer" : [
+               {
+                  "taskUpdates" : [
+                     {
+                        "typedAttributesContainer" : [
+                           {
+                              "attributes" : [
+                                 {
+                                    "key" : "String",
+                                    "value" : "String",
+                                    "type" : "int"
+                                 }
+                              ],
+                              "type" : "String"
+                           }
+                        ],
+                        "object" : "IModelObject",
+                        "keyValContainer" : [
+                           {
+                              "value" : "String",
+                              "type" : "int",
+                              "key" : "int"
+                           }
+                        ],
+                        "stringValContainer" : [
+                           {
+                              "key" : "String",
+                              "type" : "int",
+                              "value" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "newAssignments" : [
+                     {
+                        "typedAttributesContainer" : [
+                           {
+                              "type" : "String",
+                              "attributes" : [
+                                 {
+                                    "key" : "String",
+                                    "type" : "int",
+                                    "value" : "String"
+                                 }
+                              ]
+                           }
+                        ],
+                        "object" : "IModelObject",
+                        "keyValContainer" : [
+                           {
+                              "key" : "int",
+                              "type" : "int",
+                              "value" : "String"
+                           }
+                        ],
+                        "stringValContainer" : [
+                           {
+                              "key" : "String",
+                              "type" : "int",
+                              "value" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "deletedTasks" : "IModelObject[]",
+                  "newTasks" : [
+                     {
+                        "typedAttributesContainer" : [
+                           {
+                              "attributes" : [
+                                 {
+                                    "type" : "int",
+                                    "value" : "String",
+                                    "key" : "String"
+                                 }
+                              ],
+                              "type" : "String"
+                           }
+                        ],
+                        "object" : "IModelObject",
+                        "keyValContainer" : [
+                           {
+                              "key" : "int",
+                              "value" : "String",
+                              "type" : "int"
+                           }
+                        ],
+                        "stringValContainer" : [
+                           {
+                              "key" : "String",
+                              "type" : "int",
+                              "value" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "assignmentUpdates" : [
+                     {
+                        "typedAttributesContainer" : [
+                           {
+                              "attributes" : [
+                                 {
+                                    "key" : "String",
+                                    "value" : "String",
+                                    "type" : "int"
+                                 }
+                              ],
+                              "type" : "String"
+                           }
+                        ],
+                        "stringValContainer" : [
+                           {
+                              "key" : "String",
+                              "type" : "int",
+                              "value" : "String"
+                           }
+                        ],
+                        "keyValContainer" : [
+                           {
+                              "type" : "int",
+                              "value" : "String",
+                              "key" : "int"
+                           }
+                        ],
+                        "object" : "IModelObject"
+                     }
+                  ],
+                  "deletedAssignments" : "IModelObject[]",
+                  "newDependencies" : [
+                     {
+                        "typedAttributesContainer" : [
+                           {
+                              "attributes" : [
+                                 {
+                                    "key" : "String",
+                                    "type" : "int",
+                                    "value" : "String"
+                                 }
+                              ],
+                              "type" : "String"
+                           }
+                        ],
+                        "stringValContainer" : [
+                           {
+                              "value" : "String",
+                              "type" : "int",
+                              "key" : "String"
+                           }
+                        ],
+                        "keyValContainer" : [
+                           {
+                              "value" : "String",
+                              "type" : "int",
+                              "key" : "int"
+                           }
+                        ],
+                        "object" : "IModelObject"
+                     }
+                  ],
+                  "dependencyUpdates" : [
+                     {
+                        "typedAttributesContainer" : [
+                           {
+                              "type" : "String",
+                              "attributes" : [
+                                 {
+                                    "value" : "String",
+                                    "type" : "int",
+                                    "key" : "String"
+                                 }
+                              ]
+                           }
+                        ],
+                        "stringValContainer" : [
+                           {
+                              "key" : "String",
+                              "value" : "String",
+                              "type" : "int"
+                           }
+                        ],
+                        "keyValContainer" : [
+                           {
+                              "value" : "String",
+                              "type" : "int",
+                              "key" : "int"
+                           }
+                        ],
+                        "object" : "IModelObject"
+                     }
+                  ],
+                  "deleteAllTasks" : "bool",
+                  "scheduleUpdates" : {
+                     "keyValContainer" : [
+                        {
+                           "key" : "int",
+                           "type" : "int",
+                           "value" : "String"
+                        }
+                     ],
+                     "object" : "IModelObject",
+                     "stringValContainer" : [
+                        {
+                           "type" : "int",
+                           "value" : "String",
+                           "key" : "String"
+                        }
+                     ],
+                     "typedAttributesContainer" : [
+                        {
+                           "attributes" : [
+                              {
+                                 "key" : "String",
+                                 "value" : "String",
+                                 "type" : "int"
+                              }
+                           ],
+                           "type" : "String"
+                        }
+                     ]
+                  },
+                  "deletedDependencies" : "IModelObject[]"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2009-10-ScheduleManagement/translateTwo"
+}

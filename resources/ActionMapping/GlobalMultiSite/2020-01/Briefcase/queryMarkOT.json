@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "appId" : "String",
+      "needHelperObjects" : "bool",
+      "userId" : "String",
+      "objects" : "String[]",
+      "targetSiteId" : "int"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "markInfo" : [
+         {
+            "parentUID" : "String",
+            "objectUID" : "String",
+            "targetSiteId" : "int",
+            "userId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2020-01-Briefcase/queryMarkOT"
+}

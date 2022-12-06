@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "targetSites" : "String[]",
+      "objects" : "IModelObject[]",
+      "options" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Multisite-2019-06-Search/publish",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "failureInfo" : [
+         {
+            "failureStrings" : "String[]",
+            "failureObject" : "IModelObject",
+            "failedSite" : "String",
+            "failureCodes" : "int[]"
+         }
+      ]
+   }
+}

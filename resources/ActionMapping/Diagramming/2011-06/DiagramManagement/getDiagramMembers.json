@@ -1,0 +1,38 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "relationsOnDiagram" : [
+               {
+                  "secondaryObject" : "IModelObject",
+                  "shapeRelation" : "IModelObject",
+                  "primaryObject" : "IModelObject",
+                  "relation" : "IModelObject",
+                  "isRelationMemberOmitted" : "bool",
+                  "relationType" : "String"
+               }
+            ],
+            "diagramMembers" : [
+               {
+                  "shapeRelation" : "IModelObject",
+                  "persistentObject" : "IModelObject",
+                  "isMemberOmitted" : "bool",
+                  "objectTCTypeName" : "String",
+                  "primaryObject" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Diagramming-2011-06-DiagramManagement/getDiagramMembers",
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "diagramRevision" : "IModelObject",
+            "selectedObject" : "IModelObject",
+            "membershipType" : "int"
+         }
+      ]
+   }
+}

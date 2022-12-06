@@ -1,0 +1,112 @@
+{
+   "OperationResponse" : {
+      "lineFutureRevisionInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "revInfoList" : [
+                     {
+                        "futureRevision" : "IModelObject",
+                        "additionalInfo" : {
+                           "strToDoubleVectorMap" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "strToStrVectorMap" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "strToIntVectorMap" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "strToObjVectorMap" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "strToDateVectorMap" : {
+                              "SampleKeyString" : "Date[]"
+                           }
+                        },
+                        "futureRevStatusInfo" : [
+                           {
+                              "status" : "IModelObject",
+                              "futureRevEffectivityInfo" : [
+                                 {
+                                    "effectivity" : "IModelObject",
+                                    "effectivityTransitionsMap" : {
+                                       "SampleKeyString" : "String[]"
+                                    },
+                                    "ranges" : "String[]"
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "additionalInfo" : {
+                     "strToStrVectorMap" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "strToDoubleVectorMap" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "strToDateVectorMap" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "strToIntVectorMap" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "strToObjVectorMap" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     }
+                  },
+                  "line" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "additionalInfo" : {
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strToDoubleVectorMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2017-05-DataManagement/getFutureRevisions",
+   "OperationInput" : {
+      "input" : [
+         {
+            "additionalInfo" : {
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               }
+            },
+            "inputLine" : "IModelObject"
+         }
+      ]
+   }
+}

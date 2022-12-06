@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "amSyncAppID" : "String",
+      "applicationID" : "String"
+   },
+   "OperationResponse" : {
+      "impactedUids" : "String[]",
+      "queriedDateTime" : "Date",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2015-03-FullTextSearch/getAMImpactedObjects"
+}

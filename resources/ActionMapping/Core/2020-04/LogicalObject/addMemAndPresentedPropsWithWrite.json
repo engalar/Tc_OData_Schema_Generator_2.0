@@ -1,0 +1,39 @@
+{
+   "ServiceOperation" : "Internal-Core-2020-04-LogicalObject/addMemAndPresentedPropsWithWrite",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "memberOrPresentedProps" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "addMembersAndPresentedProps" : {
+         "memberPropertiesDefinitions" : [
+            {
+               "displayName" : "String",
+               "description" : "String",
+               "memberPropertyName" : "String",
+               "retrieveClassificationData" : "bool",
+               "traversalPath" : [
+                  {
+                     "propertyName" : "String",
+                     "destinationObjectCriteria" : "String",
+                     "propertyType" : "String",
+                     "direction" : "String",
+                     "destinationType" : "String"
+                  }
+               ]
+            }
+         ],
+         "logicalObjectType" : "IModelObject",
+         "presentedPropertiesDefinitions" : [
+            {
+               "rootOrMemberName" : "String",
+               "sourcePropertyName" : "String",
+               "isWritable" : "bool",
+               "presentedPropertyName" : "String",
+               "description" : "String",
+               "displayName" : "String"
+            }
+         ]
+      }
+   }
+}

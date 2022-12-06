@@ -1,0 +1,36 @@
+{
+   "ServiceOperation" : "Internal-CbaExt-2014-12-QueryManagement/findAlignedPartForDrawingProxy",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "designProxyToAlignedPartsInfos" : [
+         {
+            "designProxy" : "IModelObject",
+            "parts" : {
+               "rowSet" : {
+                  "row" : [
+                     {
+                        "value" : "String[]",
+                        "clientID" : "String"
+                     }
+                  ]
+               },
+               "columnSet" : {
+                  "column" : [
+                     {
+                        "table" : "String",
+                        "datatype" : "String",
+                        "logicalName" : "String",
+                        "name" : "String",
+                        "width" : "int"
+                     }
+                  ],
+                  "table" : "String"
+               }
+            }
+         }
+      ]
+   },
+   "OperationInput" : {
+      "designProxies" : "IModelObject[]"
+   }
+}

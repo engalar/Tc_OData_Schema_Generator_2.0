@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "inputObject" : "IModelObject",
+      "workingDirectory" : "String",
+      "xmlFileName" : "String",
+      "jobID" : "String",
+      "simulationTool" : "IModelObject",
+      "importRuntimeConfiguration" : {
+         "outputNamePatterns" : "String[]",
+         "datasetCreationSetting" : "String",
+         "itemCreationSetting" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-SimProc-2015-10-SimulationToolLaunch/importSimulationToolLaunchOutputs",
+   "OperationResponse" : "IServiceData"
+}

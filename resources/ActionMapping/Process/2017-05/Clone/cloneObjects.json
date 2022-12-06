@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "targetScope" : "IModelObject",
+      "createLink" : "bool",
+      "revisionRule" : "IModelObject",
+      "inputSourceObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Clone/cloneObjects",
+   "OperationResponse" : {
+      "assignmentMappingFailures" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "reason" : "int",
+               "assignedToRelationTypesMap" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     "IModelObject[]"
+                  ]
+               ]
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "clonesInfo" : [
+         {
+            "clone" : "IModelObject",
+            "masterInfo" : {
+               "hasMasterProgressed" : "bool",
+               "configuredMaster" : "IModelObject",
+               "masterProductEffectivity" : "String",
+               "originalMaster" : "IModelObject"
+            },
+            "source" : "IModelObject",
+            "cloneProductEffectivity" : "String"
+         }
+      ]
+   }
+}

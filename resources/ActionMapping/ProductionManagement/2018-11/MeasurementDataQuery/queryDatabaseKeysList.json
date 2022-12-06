@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "databaseKeysSet" : "String[]"
+   },
+   "ServiceOperation" : "Internal-ProductionManagement-2018-11-MeasurementDataQuery/queryDatabaseKeysList",
+   "OperationInput" : {}
+}

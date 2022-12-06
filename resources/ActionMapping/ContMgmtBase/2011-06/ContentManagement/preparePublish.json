@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "publishTool" : "IModelObject",
+            "priority" : "int",
+            "startTime" : "Date",
+            "endTime" : "Date",
+            "keyValueArgs" : {
+               "SampleKeyString" : "String"
+            },
+            "primaryObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "dataResult" : [
+         {
+            "publishMetaDataReadTicket" : "String",
+            "composedFileReadTicket" : "String",
+            "clientSidePublishing" : "bool",
+            "requestCreated" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ContMgmtBase-2011-06-ContentManagement/preparePublish"
+}

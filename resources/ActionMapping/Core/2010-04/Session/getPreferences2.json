@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "preferences" : [
+         {
+            "values" : "String[]",
+            "name" : "String",
+            "description" : "String",
+            "isDisabled" : "bool",
+            "prefType" : "int",
+            "category" : "String",
+            "scope" : "String",
+            "isArray" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2010-04-Session/getPreferences2",
+   "OperationInput" : {
+      "preferenceNames" : [
+         {
+            "scope" : "String",
+            "names" : "String[]"
+         }
+      ]
+   }
+}

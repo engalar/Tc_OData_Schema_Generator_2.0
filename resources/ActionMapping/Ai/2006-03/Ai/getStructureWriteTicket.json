@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Ai-2006-03-Ai/getStructureWriteTicket",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "ticket" : "String"
+   },
+   "OperationInput" : {
+      "originalFileName" : "String"
+   }
+}

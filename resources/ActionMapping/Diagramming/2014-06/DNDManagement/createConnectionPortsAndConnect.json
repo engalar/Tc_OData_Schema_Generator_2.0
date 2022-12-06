@@ -1,0 +1,51 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "inputMap" : {
+               "SampleKeyString" : {
+                  "newObject" : "IModelObject",
+                  "pasteRelation" : "String",
+                  "clientId" : "String",
+                  "pasteTarget" : "IModelObject",
+                  "createData" : {
+                     "compoundCreateInput" : {
+                        "SampleKeyString" : [
+                           {
+                              "propertyNameValues" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "compoundCreateInput" : "Fnd0::Soa::Diagramming::_2014_06::DNDManagement::CreateInputMap",
+                              "boName" : "String"
+                           }
+                        ]
+                     },
+                     "boName" : "String",
+                     "propertyNameValues" : {
+                        "SampleKeyString" : "String[]"
+                     }
+                  },
+                  "opType" : "String"
+               }
+            },
+            "objectsToConnectTo" : "IModelObject[]",
+            "connectionObject" : "IModelObject",
+            "connectCase" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "SampleKeyString" : {
+               "pasteResultObject" : "IModelObject",
+               "newObject" : "IModelObject",
+               "clientID" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Diagramming-2014-06-DNDManagement/createConnectionPortsAndConnect"
+}

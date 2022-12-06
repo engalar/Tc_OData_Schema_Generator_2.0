@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "GlobalMultiSite-2007-06-SiteReservation/cancelSiteCheckOut",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   }
+}

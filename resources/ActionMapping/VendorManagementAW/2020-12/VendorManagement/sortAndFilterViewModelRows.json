@@ -1,0 +1,58 @@
+{
+   "ServiceOperation" : "Internal-VendorManagementAW-2020-12-VendorManagement/sortAndFilterViewModelRows",
+   "OperationResponse" : {
+      "viewModelRows" : [
+         {
+            "viewModelProperties" : [
+               {
+                  "propDBValue" : "String",
+                  "propDataType" : "String",
+                  "propUIValue" : "String",
+                  "propParentBO" : "IModelObject",
+                  "hasLOV" : "bool",
+                  "propInternalName" : "String",
+                  "isEditable" : "bool",
+                  "propDisplayName" : "String"
+               }
+            ],
+            "modelObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : {
+         "columnFilters" : [
+            {
+               "columnName" : "String",
+               "values" : "String[]",
+               "operation" : "String"
+            }
+         ],
+         "sortCriteria" : [
+            {
+               "fieldName" : "String",
+               "isAscending" : "bool",
+               "sortingOrder" : "int"
+            }
+         ],
+         "viewModelRows" : [
+            {
+               "viewModelProperties" : [
+                  {
+                     "propInternalName" : "String",
+                     "propDisplayName" : "String",
+                     "isEditable" : "bool",
+                     "propUIValue" : "String",
+                     "propDataType" : "String",
+                     "propDBValue" : "String",
+                     "hasLOV" : "bool",
+                     "propParentBO" : "IModelObject"
+                  }
+               ],
+               "modelObject" : "IModelObject"
+            }
+         ]
+      }
+   }
+}

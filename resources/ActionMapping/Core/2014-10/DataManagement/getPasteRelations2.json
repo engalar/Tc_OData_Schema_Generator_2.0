@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "childTypeName" : "String",
+            "obj" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2014-10-DataManagement/getPasteRelations2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "clientId" : "String",
+            "pasteRelInfo" : [
+               {
+                  "pastRelDisplayName" : "String",
+                  "pastRelName" : "String",
+                  "isExpandable" : "bool"
+               }
+            ],
+            "indexOfPreferred" : "int"
+         }
+      ]
+   }
+}

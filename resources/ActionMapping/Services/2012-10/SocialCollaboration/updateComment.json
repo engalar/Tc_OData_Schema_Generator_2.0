@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "request" : {
+         "attrNameValueMap" : {
+            "SampleKeyString" : "String"
+         },
+         "commentObjectUid" : "String"
+      }
+   },
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/updateComment",
+   "OperationResponse" : {
+      "msg" : "String",
+      "success" : "bool"
+   }
+}

@@ -1,0 +1,216 @@
+{
+   "ServiceOperation" : "Internal-CbaExt-2016-03-QueryManagement/executeSpatialSearch",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "spatialSearchResults" : [
+         {
+            "clientID" : "String",
+            "dynamicPLMXML" : "String",
+            "backgroundLOUs" : {
+               "rowSet" : {
+                  "row" : [
+                     {
+                        "clientID" : "String",
+                        "value" : "String[]"
+                     }
+                  ]
+               },
+               "columnSet" : {
+                  "table" : "String",
+                  "column" : [
+                     {
+                        "width" : "int",
+                        "table" : "String",
+                        "name" : "String",
+                        "logicalName" : "String",
+                        "datatype" : "String"
+                     }
+                  ]
+               }
+            },
+            "backgroundSolutions" : {
+               "columnSet" : {
+                  "table" : "String",
+                  "column" : [
+                     {
+                        "name" : "String",
+                        "logicalName" : "String",
+                        "datatype" : "String",
+                        "table" : "String",
+                        "width" : "int"
+                     }
+                  ]
+               },
+               "rowSet" : {
+                  "row" : [
+                     {
+                        "value" : "String[]",
+                        "clientID" : "String"
+                     }
+                  ]
+               }
+            },
+            "conflictBOMLineSolutionMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "String[]"
+               ]
+            ],
+            "targetSolutionToBkgSolutionsMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "backgroundCADOccDetails" : [
+               {
+                  "layoutWindowFlag" : "bool",
+                  "toplineItemRevision" : "IModelObject",
+                  "bomWindow" : "IModelObject",
+                  "bkgBOMLineAndRelatedSolutionsMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String[]"
+                     ]
+                  ],
+                  "targetBOMLines" : "IModelObject[]"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "additionalFieldQueryCriteria" : {
+               "fieldQueryCriteriaList" : [
+                  {
+                     "fieldName" : "String",
+                     "additionalCriteriaField" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "tableName" : "String"
+                  }
+               ]
+            },
+            "targetDetails" : {
+               "reconcile" : "bool",
+               "bomSolveInput" : {
+                  "revisionRule" : "String",
+                  "modelOption" : "String",
+                  "vehicleLine" : "String",
+                  "type" : "String",
+                  "modelExpression" : "String",
+                  "productType" : "String"
+               },
+               "targetLOUSolutionsMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "isVisRequested" : "bool",
+               "targetLOUs" : {
+                  "rowSet" : {
+                     "row" : [
+                        {
+                           "clientID" : "String",
+                           "value" : "String[]"
+                        }
+                     ]
+                  },
+                  "columnSet" : {
+                     "table" : "String",
+                     "column" : [
+                        {
+                           "logicalName" : "String",
+                           "datatype" : "String",
+                           "name" : "String",
+                           "table" : "String",
+                           "width" : "int"
+                        }
+                     ]
+                  }
+               },
+               "rootContext" : "String",
+               "targetSolutions" : {
+                  "rowSet" : {
+                     "row" : [
+                        {
+                           "value" : "String[]",
+                           "clientID" : "String"
+                        }
+                     ]
+                  },
+                  "columnSet" : {
+                     "table" : "String",
+                     "column" : [
+                        {
+                           "table" : "String",
+                           "datatype" : "String",
+                           "logicalName" : "String",
+                           "name" : "String",
+                           "width" : "int"
+                        }
+                     ]
+                  }
+               },
+               "commonCriteria" : {
+                  "recordstate" : "String",
+                  "effectiveInPoint" : "String",
+                  "effectiveOutDate" : "String",
+                  "stream" : "String",
+                  "effectiveInDate" : "String",
+                  "effectiveDate" : "String",
+                  "productionDate" : "String",
+                  "effectiveOutPoint" : "String",
+                  "effectivePoint" : "String",
+                  "additionalCriteriaFields" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "productionPoint" : "String"
+               },
+               "tableSpecificQuery" : [
+                  {
+                     "tableSpecificQueryCriteria" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "tableName" : "String",
+                     "selectList" : {
+                        "column" : [
+                           {
+                              "table" : "String",
+                              "name" : "String",
+                              "datatype" : "String",
+                              "logicalName" : "String",
+                              "width" : "int"
+                           }
+                        ],
+                        "table" : "String"
+                     }
+                  }
+               ]
+            },
+            "spatialSearchCriterias" : {
+               "designItemID" : "String",
+               "boundingBox" : {
+                  "xmax" : "double",
+                  "ymax" : "double",
+                  "ymin" : "double",
+                  "xmin" : "double",
+                  "zmax" : "double",
+                  "zmin" : "double"
+               },
+               "additionalCriterias" : {
+                  "SampleKeyString" : "String"
+               },
+               "layoutItemID" : "String",
+               "contextItemID" : "String",
+               "validOverlayFilter" : "bool",
+               "trueShapeFilter" : "bool",
+               "proximity" : "double",
+               "searchType" : "String"
+            },
+            "clientID" : "String"
+         }
+      ]
+   }
+}

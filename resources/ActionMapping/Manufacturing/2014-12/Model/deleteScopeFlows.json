@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Manufacturing-2014-12-Model/deleteScopeFlows",
+   "OperationInput" : {
+      "scopeFlowsInfo" : [
+         {
+            "predecessor" : "IModelObject",
+            "successor" : "IModelObject"
+         }
+      ]
+   }
+}

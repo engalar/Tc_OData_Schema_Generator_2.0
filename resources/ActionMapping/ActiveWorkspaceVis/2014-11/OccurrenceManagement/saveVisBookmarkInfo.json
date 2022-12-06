@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "visBookmarkInfos" : [
+         {
+            "visBookmarkFileReadTicket" : "String",
+            "visBookmarkFile" : "IModelObject",
+            "productContextInfo" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceVis-2014-11-OccurrenceManagement/saveVisBookmarkInfo",
+   "OperationInput" : {
+      "saveBookmarkInfos" : [
+         {
+            "visBookmarkTransientFileTicket" : "String",
+            "productContextInfo" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "parent" : "IModelObject",
+            "replaceParams" : [
+               {
+                  "reviseAndReplace" : "bool",
+                  "selectedParam" : "IModelObject",
+                  "targetParam" : "IModelObject",
+                  "revisePropInput" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "AttrTargetMgmtAW-2019-12-AttributeTargetManagement/replaceParameters",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "ignoredParams" : "IModelObject[]",
+            "newParams" : "IModelObject[]",
+            "oldParams" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

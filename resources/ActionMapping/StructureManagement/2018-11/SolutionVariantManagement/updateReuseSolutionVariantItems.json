@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "updatedReuseSVIROutputList" : [
+         {
+            "updatedReuseSVItemRev" : "IModelObject",
+            "inputReuseSVItemRev" : "IModelObject"
+         }
+      ],
+      "servicedata" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2018-11-SolutionVariantManagement/updateReuseSolutionVariantItems",
+   "OperationInput" : {
+      "genericSourceBOMLine" : "IModelObject",
+      "configPreferences" : {
+         "SampleKeyString" : "String"
+      },
+      "revRuleToUseInUpdate" : "IModelObject",
+      "reuseSVItemRevInputList" : "IModelObject[]"
+   }
+}

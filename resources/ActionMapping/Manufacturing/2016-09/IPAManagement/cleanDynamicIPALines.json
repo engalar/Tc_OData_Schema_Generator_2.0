@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-IPAManagement/cleanDynamicIPALines",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : {
+         "fileTicket" : "String",
+         "fileName" : "String"
+      }
+   },
+   "OperationInput" : {
+      "inputLines" : [
+         {
+            "isRecursive" : "bool",
+            "inputLine" : "IModelObject"
+         }
+      ]
+   }
+}

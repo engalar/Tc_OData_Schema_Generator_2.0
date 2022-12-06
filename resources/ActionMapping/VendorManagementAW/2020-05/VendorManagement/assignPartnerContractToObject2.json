@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "configurationContext" : "IModelObject",
+         "preferredStatus" : "String",
+         "partnerContract" : "IModelObject",
+         "selectedObject" : "IModelObject"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-VendorManagementAW-2020-05-VendorManagement/assignPartnerContractToObject2"
+}

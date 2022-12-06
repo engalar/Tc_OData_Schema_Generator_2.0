@@ -1,0 +1,33 @@
+{
+   "ServiceOperation" : "Classification-2016-09-Classification/findValues",
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "findValuesOutputs" : [
+         {
+            "foundValues" : [
+               {
+                  "unitSystem" : "int",
+                  "count" : "int",
+                  "value" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "findValueInputs" : [
+         {
+            "activeUnitsystem" : "int",
+            "attributeID" : "int",
+            "classID" : "String",
+            "searchInBothUnitSystems" : "bool",
+            "attributeValues" : [
+               {
+                  "value" : "String",
+                  "id" : "int"
+               }
+            ]
+         }
+      ]
+   }
+}

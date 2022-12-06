@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Core-2011-06-Session/loginSSO",
+   "OperationResponse" : {
+      "partialErrors" : "IModelObject",
+      "serverInfo" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "OperationInput" : {
+      "credentials" : {
+         "locale" : "String",
+         "password" : "String",
+         "user" : "String",
+         "group" : "String",
+         "descrimator" : "String",
+         "role" : "String"
+      }
+   }
+}

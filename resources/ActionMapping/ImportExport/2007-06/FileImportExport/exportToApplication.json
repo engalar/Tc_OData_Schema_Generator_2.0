@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ImportExport-2007-06-FileImportExport/exportToApplication",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "attributesToExport" : "String[]",
+            "objectsToExport" : "IModelObject[]",
+            "templateId" : "String",
+            "applicationFormat" : "String"
+         }
+      ]
+   }
+}

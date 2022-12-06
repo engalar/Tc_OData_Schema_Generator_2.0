@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "classId" : "String",
+      "catalogRootDirectory" : "String",
+      "importOption" : "int"
+   },
+   "OperationResponse" : {
+      "importStepP21ProductResults" : [
+         {
+            "report" : "String[]",
+            "icoId" : "String",
+            "status" : "int",
+            "wsoUid" : "String",
+            "icoUid" : "String",
+            "classId" : "String"
+         }
+      ],
+      "logFileTicket" : {
+         "fileName" : "String",
+         "ticket" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-ResourceManagement/importStepP21Files3"
+}

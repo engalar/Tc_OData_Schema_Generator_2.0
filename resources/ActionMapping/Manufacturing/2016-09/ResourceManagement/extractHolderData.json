@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "icoIds" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-ResourceManagement/extractHolderData",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,34 @@
+{
+   "OperationResponse" : {
+      "sreviceData" : "IServiceData",
+      "openNoteObjectsDetails" : [
+         {
+            "inputDetails" : {
+               "standardNote" : "IModelObject",
+               "clientId" : "String",
+               "stdNoteRelation" : "IModelObject"
+            },
+            "noteText" : "String",
+            "clientId" : "String",
+            "parametersOnRelation" : [
+               {
+                  "assignedValue" : "String",
+                  "parameter" : "String",
+                  "values" : "String[]"
+               }
+            ],
+            "templateText" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Requirementsmanagement-2009-10-RequirementsManagement/openStdNote",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "stdNoteRelation" : "IModelObject",
+            "standardNote" : "IModelObject"
+         }
+      ]
+   }
+}

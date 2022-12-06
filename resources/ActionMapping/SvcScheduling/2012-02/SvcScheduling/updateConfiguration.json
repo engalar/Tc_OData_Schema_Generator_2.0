@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "configUpdateDate" : "Date",
+            "jobActivityRev" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "SvcScheduling-2012-02-SvcScheduling/updateConfiguration"
+}

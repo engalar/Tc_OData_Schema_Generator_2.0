@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "options" : {
+         "SampleKeyString" : "String[]"
+      },
+      "typeNames" : "String[]"
+   },
+   "ServiceOperation" : "Core-2015-10-Session/getTypeDescriptions2",
+   "OperationResponse" : "IModelObject"
+}

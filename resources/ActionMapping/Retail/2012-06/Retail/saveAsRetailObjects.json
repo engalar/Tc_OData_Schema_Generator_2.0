@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/saveAsRetailObjects",
+   "OperationInput" : {
+      "input" : {
+         "sourceProductUid" : "String",
+         "targetProductUid" : "String",
+         "options" : [
+            {
+               "optionName" : "OPTION_CLASSIFICATION OPTION_COMMENTS OPTION_INTERNAL_COMMENTS OPTION_DIMENSIONS OPTION_BOM OPTION_GROUP_DELIVERY OPTION_CONSTRUCTIONS OPTION_MEASUREMENTS OPTION_CORE_SIZE OPTION_COSTING OPTION_RELATIONS OPTION_COLORORCOLORWAYS",
+               "optionValue" : "COPY_AS_OBJECT COPY_AS_REFERENCE NO_COPY",
+               "relationNames" : "String[]"
+            }
+         ]
+      }
+   }
+}

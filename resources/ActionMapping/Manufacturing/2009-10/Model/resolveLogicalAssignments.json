@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2009-10-Model/resolveLogicalAssignments",
+   "OperationInput" : {
+      "laVec" : "IModelObject[]",
+      "externalSources" : "IModelObject[]",
+      "resolveObjects" : [
+         {
+            "recursive" : "bool",
+            "object" : "IModelObject",
+            "laResolveType" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,64 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "appKey" : "String",
+            "recipeAnchorOrRecipe" : "IModelObject",
+            "name" : "String",
+            "additionalSearchCriteria" : {
+               "absoccAttributes" : [
+                  {
+                     "value" : "String",
+                     "name" : "String"
+                  }
+               ],
+               "refinements" : [
+                  {
+                     "refinements" : [
+                        {
+                           "relations" : [
+                              {
+                                 "objectClass" : "String",
+                                 "matchType" : "NotApplicableMatch FullMatch PartialMatch NoMatch",
+                                 "relationName" : "String"
+                              }
+                           ],
+                           "relatedScopes" : "IModelObject[]"
+                        }
+                     ]
+                  }
+               ],
+               "objectTypes" : "IModelObject[]",
+               "logicalDesignator" : {
+                  "value" : "String",
+                  "name" : "String"
+               }
+            },
+            "searchContextSC" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "info" : [
+         {
+            "intMap" : {
+               "SampleKeyString" : "int[]"
+            },
+            "dblMap" : {
+               "SampleKeyString" : "double[]"
+            },
+            "objMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "strMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "dateMap" : {
+               "SampleKeyString" : "Date[]"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2014-12-StructureSearch/createOrUpdateAssignmentRecipe"
+}

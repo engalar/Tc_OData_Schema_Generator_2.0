@@ -1,0 +1,18 @@
+{
+    "ServiceOperation": "Internal-Core-2017-11-Type\/getSubTypeHierarchicalTrees",
+    "InputType":        "SchemaGenerator.GetSubTypeHierarchicalTreesInput",
+    "ResponseType":     "SchemaGenerator.GetSubTypeHierarchicalTreesResponse",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"givenTypes":
+		[{
+			"typeInternalName": "$Input\/TypeInternalName",
+			"clientId": "Test"
+		}]
+    },
+    "OperationResponse": 
+    {
+        "treeRootNodes":"$Response\/SchemaGenerator.treeRootNodes_getSubTypeHierarchicalTreesResponse"
+    }
+}

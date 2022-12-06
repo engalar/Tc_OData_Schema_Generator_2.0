@@ -1,0 +1,65 @@
+{
+   "OperationInput" : {
+      "inspectionDefsIPXMLMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ],
+      "contextObject" : "IModelObject",
+      "importPMIInControlPlanStructInputs" : [
+         {
+            "bctCharUID" : "String",
+            "createcharInput" : {
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "boName" : "String",
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               }
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ControlPlan-2020-05-ControlPlanPmiImport/importPMIInControlPlanStruct",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createdPMIs" : "IModelObject[]",
+      "createdCharcteristics" : "IModelObject[]",
+      "createdInspectionDefinitions" : "IModelObject[]",
+      "createdCharacteristicsGroups" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySearch/discardSearchResults",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "resultSet" : "String"
+   }
+}

@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "partitionScheme" : "IModelObject",
+            "modelContext" : "IModelObject",
+            "rootObjectForSearchScope" : "IModelObject",
+            "searchTerm" : "String",
+            "configContext" : "IModelObject",
+            "propertyNames" : "String[]",
+            "paginationOptions" : {
+               "pageSize" : "int",
+               "startFrom" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Process-2017-11-ProductSubset/searchPartitions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "totalFound" : "int",
+            "finished" : "bool",
+            "results" : [
+               {
+                  "partition" : "IModelObject",
+                  "childPartitionsInfo" : "Mpr0::Soa::Internal::Process::_2017_11::ProductSubset::SearchPartitionsOutputInfo[]",
+                  "isResultOfSearch" : "bool"
+               }
+            ]
+         }
+      ]
+   }
+}

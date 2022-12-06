@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "classes" : [
+         {
+            "exclusionTypes" : "String[]",
+            "baseClass" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "inputClassToTypes" : {
+         "SampleKeyString" : [
+            {
+               "type" : "String",
+               "displayType" : "String",
+               "hierarchies" : "String[]"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2010-04-DataManagement/getAvailableTypesWithDisplayNames"
+}

@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "childrenObj" : "IModelObject[]",
+            "parentObj" : "IModelObject",
+            "clientId" : "String",
+            "propertyName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2014-10-DataManagement/addChildren"
+}

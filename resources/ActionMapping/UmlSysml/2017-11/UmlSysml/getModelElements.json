@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "modelElements" : [
+         {
+            "elementId" : "String",
+            "clientId" : "String",
+            "lastModifiedDate" : "Date",
+            "mappedProperties" : {
+               "SampleKeyString" : "String[]"
+            },
+            "businessObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "UmlSysml-2017-11-UmlSysml/getModelElements",
+   "OperationInput" : {
+      "toolIdentifier" : "String",
+      "rootObjects" : [
+         {
+            "clientId" : "String",
+            "expandMembers" : "bool",
+            "rootObjectUID" : "String",
+            "lastSyncDate" : "Date"
+         }
+      ],
+      "confContext" : "IModelObject"
+   }
+}

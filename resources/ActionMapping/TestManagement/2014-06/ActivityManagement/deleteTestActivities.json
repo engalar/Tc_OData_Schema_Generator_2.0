@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "TestManagement-2014-06-ActivityManagement/deleteTestActivities",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "testActivities" : "IModelObject[]",
+            "testInstance" : "IModelObject"
+         }
+      ]
+   }
+}

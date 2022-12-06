@@ -1,0 +1,34 @@
+{
+   "OperationResponse" : {
+      "outputStru" : [
+         {
+            "results" : "IModelObject[]",
+            "clientId" : "String",
+            "configData" : {
+               "queryName" : "String",
+               "visible" : "bool",
+               "prefName" : "String",
+               "name" : "String",
+               "isFolderSiteLevel" : "bool",
+               "savedSearchName" : "String",
+               "operation" : "bool",
+               "queryValues" : "String[]",
+               "queryCriteria" : "String[]"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "IssueManagement-2010-04-IssueManagement/getExpandIssueLists",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "siteLevel" : "String",
+            "clientId" : "String",
+            "expandList" : "bool",
+            "userLevel" : "String",
+            "name" : "String"
+         }
+      ]
+   }
+}

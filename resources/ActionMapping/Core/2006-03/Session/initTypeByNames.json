@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "typeNames" : "String[]"
+   },
+   "OperationResponse" : "IModelObject",
+   "ServiceOperation" : "Internal-Core-2006-03-Session/initTypeByNames"
+}

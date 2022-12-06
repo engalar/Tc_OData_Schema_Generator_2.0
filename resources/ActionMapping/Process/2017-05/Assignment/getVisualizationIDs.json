@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "includeBackground" : "bool",
+      "elements" : "IModelObject[]",
+      "assignmentTypesFilter" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "visualizationIDsInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "foregroundElementsIDs" : "String[]",
+               "backgroundElementsIDs" : "String[]"
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Assignment/getVisualizationIDs"
+}

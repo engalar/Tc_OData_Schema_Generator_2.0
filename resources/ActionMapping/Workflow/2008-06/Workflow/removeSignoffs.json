@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "signoffs" : [
+         {
+            "removeSignoffObjs" : "IModelObject[]",
+            "task" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Workflow-2008-06-Workflow/removeSignoffs"
+}

@@ -1,0 +1,30 @@
+{
+   "ServiceOperation" : "ClassificationCore-2013-05-Classification/createOrUpdateHierarchyNodes",
+   "OperationResponse" : {
+      "nodeObjects" : "IModelObject[]",
+      "data" : "IServiceData"
+   },
+   "OperationInput" : {
+      "hierarchyNodeDetails" : [
+         {
+            "isLeafNode" : "bool",
+            "instanceCount" : "int",
+            "attachments" : "IModelObject[]",
+            "nodeToUpdate" : "IModelObject",
+            "isAssembly" : "bool",
+            "nodeId" : "String",
+            "parent" : "IModelObject",
+            "levelSortIndex" : "int",
+            "allowMultipleClassification" : "bool",
+            "nodeName" : "String",
+            "icon" : "IModelObject",
+            "nodeDesc" : "String",
+            "images" : "IModelObject[]",
+            "storageClassTypeName" : "String",
+            "isAbstract" : "bool",
+            "masterNode" : "IModelObject",
+            "nodeType" : "HierarchyNode_Group HierarchyNode_Master HierarchyNode_Reference"
+         }
+      ]
+   }
+}

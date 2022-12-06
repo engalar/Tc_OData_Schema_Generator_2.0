@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "excludeDimensions" : "String[]",
+            "productRevision" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/getSampleOtherCreateInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "getSampleOtherCreateInfoOutputs" : [
+         {
+            "dimensionInfoList" : [
+               {
+                  "dimensionValues" : [
+                     {
+                        "dimensionName" : "String",
+                        "isActive" : "bool",
+                        "dimensionType" : "String",
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     }
+                  ],
+                  "dimensionName" : "String"
+               }
+            ],
+            "classifiedTemplates" : [
+               {
+                  "templateTypeName" : "String",
+                  "classId" : "String",
+                  "templateObjects" : "IModelObject[]"
+               }
+            ],
+            "productRevision" : "IModelObject"
+         }
+      ]
+   }
+}

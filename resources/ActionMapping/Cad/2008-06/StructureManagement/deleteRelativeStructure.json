@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "childInfo" : "String[]",
+            "lastModifiedOfBVR" : "Date",
+            "parent" : "IModelObject"
+         }
+      ],
+      "bomViewTypeName" : "String",
+      "pref" : {
+         "overwriteForLastModDate" : "bool",
+         "cadOccIdAttrName" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2008-06-StructureManagement/deleteRelativeStructure"
+}

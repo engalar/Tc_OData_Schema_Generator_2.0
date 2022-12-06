@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "isReleaseAll" : "bool",
+      "toolBOMLines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-SimProc-2014-12-SimProcessConfigurationManagement/releaseTools",
+   "OperationResponse" : "IServiceData"
+}

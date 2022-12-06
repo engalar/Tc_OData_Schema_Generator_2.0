@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "properties" : {
+               "offset" : "String",
+               "multiplier" : "String",
+               "wireNumber" : "String",
+               "separationCode" : "String"
+            },
+            "colorData" : [
+               {
+                  "colorType" : "String",
+                  "color" : "String"
+               }
+            ],
+            "wire" : "IModelObject",
+            "lengthData" : [
+               {
+                  "lengthType" : "String",
+                  "length" : "double"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "WireHarness-2008-06-WireHarness/createOrUpdateWireData"
+}

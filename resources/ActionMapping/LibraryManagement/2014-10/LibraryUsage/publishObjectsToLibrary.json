@@ -1,0 +1,39 @@
+{
+   "OperationResponse" : {
+      "objectsPublished" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "libraryObject" : "IModelObject",
+                  "libraryElement" : "IModelObject",
+                  "classificationObject" : "IModelObject"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryUsage/publishObjectsToLibrary",
+   "OperationInput" : {
+      "objectsInput" : [
+         {
+            "doBulkPublish" : "bool",
+            "objectsToPublish" : [
+               {
+                  "properties" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "object" : "IModelObject",
+                  "elementProperties" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "libraryNode" : "IModelObject"
+         }
+      ]
+   }
+}

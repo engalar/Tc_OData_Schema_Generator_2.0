@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "catalogRootDirectories" : "String[]",
+      "classIds" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2014-12-ResourceManagement/getStepP21FileCounts2",
+   "OperationResponse" : {
+      "countMap" : {
+         "SampleKeyString" : "int"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

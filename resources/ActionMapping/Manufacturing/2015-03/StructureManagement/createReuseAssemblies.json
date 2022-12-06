@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "nodes" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-StructureManagement/createReuseAssemblies",
+   "OperationInput" : {
+      "input" : [
+         {
+            "basisOccurrenceChain" : "String",
+            "clusterElements" : [
+               {
+                  "idic" : "String",
+                  "isBasis" : "bool",
+                  "line" : "IModelObject"
+               }
+            ],
+            "modelAssemblyNode" : "IModelObject",
+            "nodesAssignedInModelAssembly" : "IModelObject[]",
+            "parentNodes" : "IModelObject[]"
+         }
+      ]
+   }
+}

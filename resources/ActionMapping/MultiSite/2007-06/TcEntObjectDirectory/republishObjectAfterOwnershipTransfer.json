@@ -1,0 +1,44 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-TcEntObjectDirectory/republishObjectAfterOwnershipTransfer",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "republishParams" : [
+         {
+            "oldObjectTag" : "String",
+            "pubRecProps" : {
+               "objectClass" : "String",
+               "objectDesc" : "String",
+               "objectType" : "String",
+               "objectId" : "String",
+               "pubDate" : "Date",
+               "owningGroupName" : "String",
+               "revisionId" : "String",
+               "owningSiteId" : "int",
+               "objectTag" : "String",
+               "creationDate" : "Date",
+               "projectName" : "String",
+               "objectName" : "String",
+               "owningUserId" : "String",
+               "releaseStatus" : "String[]",
+               "customAttributes" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         }
+      ],
+      "clientInfo" : {
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "clientServiceReleaseVersion" : "int",
+         "userName" : "String",
+         "clientSiteId" : "int",
+         "clientMaintPackVersion" : "int",
+         "roleName" : "String",
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String"
+      }
+   }
+}

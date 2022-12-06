@@ -1,0 +1,129 @@
+{
+   "ServiceOperation" : "Core-2011-06-DataManagement/saveAsObjects",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "objects" : "IModelObject[]",
+            "targetObject" : "IModelObject"
+         }
+      ],
+      "saveAsTrees" : [
+         {
+            "childSaveAsNodes" : "Teamcenter::Soa::Core::_2011_06::DataManagement::SaveAsTree[]",
+            "originalObject" : "IModelObject",
+            "objectCopy" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "saveAsIn" : [
+         {
+            "targetObject" : "IModelObject",
+            "deepCopyDatas" : [
+               {
+                  "childDeepCopyData" : "Teamcenter::Soa::Core::_2011_06::DataManagement::DeepCopyData[]",
+                  "propertyName" : "String",
+                  "attachedObject" : "IModelObject",
+                  "saveAsInput" : {
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "boName" : "String",
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     }
+                  },
+                  "copyRelations" : "bool",
+                  "isRequired" : "bool",
+                  "copyAction" : "String",
+                  "saveAsInputTypeName" : "String",
+                  "propertyType" : "Relation Reference",
+                  "isTargetPrimary" : "bool"
+               }
+            ],
+            "saveAsInput" : {
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "boName" : "String",
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               }
+            }
+         }
+      ]
+   }
+}

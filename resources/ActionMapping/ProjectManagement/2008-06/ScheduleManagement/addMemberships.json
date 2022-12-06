@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "addedMembers" : "IModelObject[]",
+      "data" : "IServiceData"
+   },
+   "ServiceOperation" : "ProjectManagement-2008-06-ScheduleManagement/addMemberships",
+   "OperationInput" : {
+      "membershipData" : [
+         {
+            "membershipLevel" : "int",
+            "resource" : "IModelObject",
+            "schedule" : "IModelObject",
+            "currency" : "String",
+            "cost" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "inputDimensionConditions" : [
+         {
+            "dimensionConditionInfo" : [
+               {
+                  "dimensionConditionOperator" : "OR AND",
+                  "dimensionComparisonOperator" : "EQ NEQ LT GT GTEQ LTEQ",
+                  "dimensionName" : "String",
+                  "dimensionValue" : "String"
+               }
+            ],
+            "contextBomLineUID" : "String",
+            "bomLineUID" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/createOrUpdateDimensionConditions"
+}

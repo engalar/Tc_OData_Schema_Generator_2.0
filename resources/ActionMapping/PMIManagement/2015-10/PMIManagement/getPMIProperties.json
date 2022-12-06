@@ -1,0 +1,57 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "pmiPropertyNames" : "String[]",
+            "inputBO" : "IModelObject",
+            "contextBO" : "IModelObject",
+            "objTypes" : "String[]",
+            "occTypes" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "PMIManagement-2015-10-PMIManagement/getPMIProperties",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "pmiInfos" : [
+               {
+                  "pmiID" : "String",
+                  "pmiStringPropertyInfos" : [
+                     {
+                        "name" : "String",
+                        "value" : "String"
+                     }
+                  ],
+                  "pmiIntPropertyInfos" : [
+                     {
+                        "name" : "String",
+                        "value" : "int"
+                     }
+                  ],
+                  "pmiBoolPropertyInfos" : [
+                     {
+                        "value" : "bool",
+                        "name" : "String"
+                     }
+                  ],
+                  "pmiDatePropertyInfos" : [
+                     {
+                        "name" : "String",
+                        "value" : "Date"
+                     }
+                  ],
+                  "pmiDoublePropertyInfos" : [
+                     {
+                        "value" : "double",
+                        "name" : "String"
+                     }
+                  ]
+               }
+            ],
+            "inputBO" : "IModelObject"
+         }
+      ]
+   }
+}

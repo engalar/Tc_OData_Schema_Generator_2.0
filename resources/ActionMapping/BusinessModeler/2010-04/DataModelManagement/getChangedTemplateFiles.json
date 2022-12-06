@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "timestamp" : "Date",
+            "templateDirectory" : "String",
+            "templateFileTicket" : "String",
+            "templateFile" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-BusinessModeler-2010-04-DataModelManagement/getChangedTemplateFiles",
+   "OperationInput" : {
+      "retrieveFiles" : "bool",
+      "inputs" : [
+         {
+            "templateDirectory" : "String",
+            "timestamp" : "Date",
+            "templateFile" : "String"
+         }
+      ]
+   }
+}

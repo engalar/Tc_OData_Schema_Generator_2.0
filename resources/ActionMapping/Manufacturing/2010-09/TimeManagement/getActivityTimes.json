@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "rootNodes" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "results" : [
+         {
+            "rootNode" : "IModelObject",
+            "timePerCategoryMap" : {
+               "SampleKeyString" : "double"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2010-09-TimeManagement/getActivityTimes"
+}

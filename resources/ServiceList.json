@@ -1,0 +1,5446 @@
+{
+   "Internal-Integration-2008-06-IntegrationManagement" : [
+      "renameIMF"
+   ],
+   "Internal-Integration-2007-06-IntegrationManagement" : [
+      "connect"
+   ],
+   "DocumentManagement-2018-06-AttributeExchange" : [
+      "updateDocumentProperties"
+   ],
+   "Internal-SystemsModeling-2017-12-InterfaceManagement" : [
+      "findOrCreateInteractions",
+      "findOrCreateInteractionsAsync"
+   ],
+   "Internal-ActiveWorkspaceSysEng-2016-03-DiagramManagement" : [
+      "getRelatedElements2"
+   ],
+   "Administration-2016-10-UserManagement" : [
+      "getCurrentCountryPageInfo",
+      "saveAndValidateCurrentCountry"
+   ],
+   "Cad-2012-09-DataManagement" : [
+      "createOrUpdateParts"
+   ],
+   "StructureManagement-2008-05-StructureVerification" : [
+      "checkAlignment"
+   ],
+   "Internal-Retail-2016-10-Retail" : [
+      "getViewModelRows",
+      "addColorsToProductsAndMaterials2",
+      "addOrRemoveMeasurements",
+      "addOrRemoveVariants"
+   ],
+   "Internal-CadBomAlignment-2015-10-ObjectManagement" : [
+      "updatePSFromPMM"
+   ],
+   "Manufacturing-2013-12-ResourceManagement" : [
+      "getStepP21FileCounts",
+      "getVendorCatalogInfo",
+      "importStepP21Files",
+      "importVendorCatalogHierarchy",
+      "importStep3DModels",
+      "updateNXToolAssemblies"
+   ],
+   "Internal-CadBomAlignment-2013-05-QueryManagement" : [
+      "performMultilevelEngineeringBreakdown"
+   ],
+   "Partition-2011-06-PartitionManagement" : [
+      "getChildren",
+      "getMembers",
+      "getParents",
+      "getPartitions",
+      "getSchemesInModel",
+      "getTopLevelPartitions",
+      "updateMembers",
+      "wherePartitioned",
+      "persistDynamicMembers",
+      "updateChildrenOrParents"
+   ],
+   "Workflow-2010-09-Workflow" : [
+      "applyTemplateToProcesses",
+      "applyTemplateToProcessesAsync"
+   ],
+   "IntegrationFramework-2017-11-DataManagement" : [
+      "exportCollection",
+      "importCollection",
+      "updateCollection"
+   ],
+   "Internal-FmeaManager-2019-12-FailureModeManagement" : [
+      "addCauseActions",
+      "addCausesAndEffects",
+      "removeCauseActions",
+      "removeCausesAndEffects"
+   ],
+   "BusinessModeler-2007-06-Constants" : [
+      "getGlobalConstantValues",
+      "getPropertyConstantValues",
+      "getTypeConstantValues"
+   ],
+   "Internal-Administration-2018-11-SiteManagement" : [
+      "createOrUpdateSites"
+   ],
+   "Internal-SimProc-2018-11-SimulationToolLaunch" : [
+      "getValidToolsForStructureMap"
+   ],
+   "Internal-Core-2017-05-FileManagement" : [
+      "getPlmdFileTicketForReplace"
+   ],
+   "Internal-Configurator-2017-11-ConfiguratorManagement" : [
+      "getContextBasedVariantExpressions",
+      "setConfigurationSessionInfo"
+   ],
+   "Cae-2014-06-StructureManagement" : [
+      "executeDeriveCAEStructure"
+   ],
+   "Process-2017-05-AssignmentInContextInformation" : [
+      "addInContextAttributeGroups",
+      "deleteInContextAttributeGroups",
+      "getInContextAttributeGroups",
+      "moveInContextAttributeGroups"
+   ],
+   "DocumentManagement-2013-12-PrintOrRender" : [
+      "getPrinterDefinitions",
+      "printSubmitRequest",
+      "renderSubmitRequest"
+   ],
+   "Core-2008-06-Session" : [
+      "setObjectPropertyPolicy",
+      "login",
+      "loginSSO",
+      "getDisplayStrings"
+   ],
+   "Internal-ProductionManagement-2018-06-MeasurementDataLoad" : [
+      "populateDBLocatorTable",
+      "populateLinkLocatorTable"
+   ],
+   "Partition-2018-06-PartitionManagement" : [
+      "getParents",
+      "wherePartitioned2"
+   ],
+   "Ai-2006-03-Ai" : [
+      "commitFiles",
+      "commitStructureFile",
+      "createPublishRequest",
+      "generateFullSyncRequest",
+      "generateStructure",
+      "getFileReadTickets",
+      "getFileWriteTickets",
+      "getNextApprovedRequest",
+      "getPropertiesOfObjects",
+      "getStructureReadTicket",
+      "getStructureWriteTicket",
+      "objectsExist",
+      "createProjects",
+      "deleteProjects",
+      "deleteRequests",
+      "endExchange",
+      "getProjects",
+      "getProjectsInfo",
+      "getRequestsForProject",
+      "getRequestsInfo",
+      "processPublishRequest",
+      "processStructure",
+      "setExchangeMessage",
+      "setProjectsInfo",
+      "startExchange"
+   ],
+   "ChangeManagement-2009-06-ChangeManagement" : [
+      "getNoteVariantChanges"
+   ],
+   "Ewia-2012-10-DataManagement" : [
+      "getCortonaAnimationFileTicket",
+      "generatePrintableReport",
+      "getRelated",
+      "loadWorkPackageData"
+   ],
+   "Core-2008-06-ManagedRelations" : [
+      "getManagedRelations"
+   ],
+   "Internal-CadBomAlignment-2014-12-ObjectManagement" : [
+      "createPMMSCO",
+      "getPLMXMLFromPMMSCORecipe",
+      "pmmAddSelectionToLayout",
+      "addCADOccurrencesToLayout",
+      "pmmAddToLayout",
+      "getPMMSCOInfo",
+      "saveOrClonePMMSCOWithFiles"
+   ],
+   "Diagramming-2017-05-Diagramming" : [
+      "findDiagrams2"
+   ],
+   "Internal-SimProc-2018-06-SimStructureManagement" : [
+      "generateNodeXMLWithFocus",
+      "getFileDetails2",
+      "removeDuplicateCadJt"
+   ],
+   "Internal-ContMgmtBase-2011-06-ContentManagement" : [
+      "prepareServerPublishing"
+   ],
+   "Internal-Configurator-2015-03-ConfiguratorManagement" : [
+      "getAvailableProductVariability"
+   ],
+   "Internal-Core-2007-09-DataManagement" : [
+      "whereUsedOccGroup"
+   ],
+   "Internal-Cad-2007-12-DataManagement" : [
+      "createAppUidObjects"
+   ],
+   "Process-2017-11-ProductSubset" : [
+      "createOrUpdateProductSubsets"
+   ],
+   "Internal-CadBomAlignment-2014-12-QueryManagement" : [
+      "performMultilevelACTBreakdown",
+      "getPMMProxyObjectFromPMMComponent"
+   ],
+   "ProjectManagement-2011-12-ScheduleManagement" : [
+      "createDependencies"
+   ],
+   "Internal-ShapeSearch-2012-10-ShapeSearch" : [
+      "getGeolusID",
+      "findShapeSearchProfiles",
+      "performShapeSearch",
+      "shapeSearchServerQuery"
+   ],
+   "Manufacturing-2017-05-ImportExport" : [
+      "importFromBriefcase"
+   ],
+   "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration" : [
+      "getAssemblyInSupplierResponse",
+      "getAssemblyStructure",
+      "cancelModificationRights",
+      "grantModificationRights",
+      "getColumnInfo",
+      "getColumnInfoForAssemblyStructure",
+      "getQuestionnaireResponse",
+      "getItemsListForSupplierResponse",
+      "getRequestAttributes",
+      "siteCheckInSupplierChanges",
+      "getSupplierTrackingReport",
+      "removeContactsFromExchangeLines",
+      "removeExchangeLines"
+   ],
+   "GlobalMultiSite-2007-12-ImportExport" : [
+      "requestExportToRemoteSites",
+      "requestImportFromRemoteSites",
+      "getRemoteSites"
+   ],
+   "Internal-AWS2-2019-12-Finder" : [
+      "exportObjectsToFile",
+      "getFilterValues"
+   ],
+   "Query-2019-06-SavedQuery" : [
+      "executeBOQueriesWithSort"
+   ],
+   "Internal-StructureManagement-2018-11-MassUpdate" : [
+      "hasActiveMarkupAssociated",
+      "saveImpactedAssemblies"
+   ],
+   "Internal-StructureManagement-2007-12-BrokenLinks" : [
+      "getBrokenLinkInfoWithFixOpt",
+      "repairBrokenLinks"
+   ],
+   "Internal-StructureManagement-2010-09-Structure" : [
+      "resequence"
+   ],
+   "StructureManagement-2011-06-Structure" : [
+      "setClosureRuleVariablesAndValues",
+      "unloadBelow",
+      "duplicate3",
+      "expandOrUpdateDuplicateItems3",
+      "validateStructureItemIds3"
+   ],
+   "Internal-IcsAw-2017-12-Author" : [
+      "findClassifications"
+   ],
+   "Internal-Validation-2012-02-Validation" : [
+      "createOrUpdateValidationResults2",
+      "performActionOnOverrideApproval"
+   ],
+   "Core-2020-01-DataManagement" : [
+      "getIdContexts",
+      "getIdentifierTypes",
+      "createIdDisplayRules"
+   ],
+   "Internal-StructureManagement-2008-05-Restructure" : [
+      "replaceInContext"
+   ],
+   "Internal-Visualization-2008-06-DataManagement" : [
+      "authenticateUser",
+      "createTwoDSnapshot",
+      "getLatestFileReadTickets",
+      "createMarkup",
+      "updateMarkup",
+      "getMetaDataStamp",
+      "saveSession",
+      "createSessionModel",
+      "updateSessionModel",
+      "updateTwoDSnaphot",
+      "createLaunchFile"
+   ],
+   "Internal-BranchAndVersioning-2018-05-BranchingAndVersioning" : [
+      "addBranchContents",
+      "cancelCheckoutNodes",
+      "createBaselineObjects",
+      "mergeBranchNodes"
+   ],
+   "ModelCore-2014-10-ModelConfiguration" : [
+      "changeMinorConfiguration"
+   ],
+   "Internal-Manufacturing-2015-03-StructureManagement" : [
+      "configureMultipleStructures",
+      "createReuseAssemblies",
+      "searchForClusters",
+      "alignAssemblies",
+      "getClusterDetails"
+   ],
+   "Internal-ActiveWorkspaceBom-2019-12-OccurrenceConfiguration" : [
+      "createOrUpdateClassicVariantRule",
+      "getClassicVariants",
+      "getConfigurationRules2"
+   ],
+   "Internal-Rdv-2007-06-VariantManagement" : [
+      "getVariabilityInfo"
+   ],
+   "Internal-Validation-2010-04-Validation" : [
+      "getValidationResults2",
+      "getValidationTargets",
+      "runValidation"
+   ],
+   "Internal-Core-2006-03-Session" : [
+      "initTypeByNames",
+      "initTypeByUids"
+   ],
+   "Internal-Core-2011-06-ICT" : [
+      "invokeICTMethod"
+   ],
+   "Internal-AWS2-2016-03-DataManagement" : [
+      "getStyleSheet2",
+      "getUnprocessedXRT",
+      "saveXRT"
+   ],
+   "Asp0Aspect-2019-06-AspectManagement" : [
+      "expandAspects"
+   ],
+   "PPSMInterfaceAw-2020-05-PPSMInterface" : [
+      "propagateUsers",
+      "propagateUsersAsync"
+   ],
+   "AsMaintained-2010-04-AsMaintained" : [
+      "searchInstallablePhysPart",
+      "setMroWindowTopLine"
+   ],
+   "Internal-Administration-2011-06-OrganizationManagement" : [
+      "getOrganizationGroups"
+   ],
+   "Query-2007-01-SavedQuery" : [
+      "retrieveQueryCriterias",
+      "deleteQueryCriterias",
+      "reorderSavedQueryCriterias",
+      "saveQueryCriterias"
+   ],
+   "ModelCore-2011-06-Search" : [
+      "createOrUpdateConfigurations",
+      "getRecipes",
+      "createSearchExpressions",
+      "executeSearch",
+      "fetchNextSearchResults",
+      "stopSearch",
+      "setRecipes"
+   ],
+   "StructureManagement-2013-05-VariantManagement" : [
+      "applyBOMVariantRules",
+      "getBOMVariantRules",
+      "getVariantExpressionsMatchInfo",
+      "setBOMVariantRules"
+   ],
+   "Internal-RetailAW-2016-03-Retail" : [
+      "getSampleRequestComments",
+      "replaceElementAndCopyDimMapping"
+   ],
+   "Administration-2018-11-OrganizationManagement" : [
+      "getUserConsentStatement",
+      "recordUserConsent"
+   ],
+   "Internal-CadBomAlignment-2013-12-ObjectManagement" : [
+      "createOrUpdateSearchCriteria",
+      "deleteSearchCriteria"
+   ],
+   "Internal-Mmv-2012-09-SpatialStructureManagement" : [
+      "acquireSpatialHierarchy",
+      "createMmvCursor",
+      "getNodeBBox",
+      "getSpatialCellsReadTickets",
+      "isSpatialHierarchyLatest",
+      "releaseMmvCursor",
+      "releaseSpatialHierarchy"
+   ],
+   "Process-2017-05-Assignment" : [
+      "assignObjects",
+      "getAssignments",
+      "reassignObjects",
+      "unassignObjects",
+      "updateAssignments"
+   ],
+   "Internal-BranchAndVersioning-2019-06-BranchingAndVersioning" : [
+      "bulkMergeBranchNodes",
+      "obsoleteBranchNodes"
+   ],
+   "Query-2007-09-SavedQuery" : [
+      "executeSavedQueries"
+   ],
+   "ProductionManagement-2007-12-EngineeringDataQuery" : [
+      "getFeatureAttributeDataOfCluster2",
+      "getEngineeringDataFromRoutine2"
+   ],
+   "MES-2012-09-WorkInstructions" : [
+      "loadWorkInstructionDoc",
+      "saveWorkInstructionDoc"
+   ],
+   "Ai-2009-06-Ai" : [
+      "generateScopedMultipleStructure3",
+      "getPersistentObjects"
+   ],
+   "Internal-Cae-2011-06-StructureManagement" : [
+      "executeDatamap",
+      "executeStructureMap"
+   ],
+   "Internal-BomCore-2017-11-PartStructureManagement" : [
+      "deletePartStructures"
+   ],
+   "DocMgmtAw-2017-06-DocMgmt" : [
+      "getPrinterDefinitions"
+   ],
+   "Internal-CbaExt-2013-05-AlignmentManagement" : [
+      "unalignDesignOccsToACTLines"
+   ],
+   "Internal-SimProc-2018-11-SimStructureManagement" : [
+      "executeStructMapWithInclusionRule",
+      "generateCAEStructOnSelectionAsync"
+   ],
+   "Internal-AWS2-2020-05-FullTextSearch" : [
+      "getSearchSettings"
+   ],
+   "Internal-ModelCore-2017-05-ModelConfiguration" : [
+      "getCalculatedEffectivity"
+   ],
+   "Manufacturing-2013-05-ImportExport" : [
+      "importManufacturingFeatures"
+   ],
+   "Internal-SimProc-2016-05-SimulationToolLaunch" : [
+      "importSimulationToolLaunchOutputs"
+   ],
+   "Ldf-2018-06-LinkedDataRequest" : [
+      "getLDFFileSelectionDialogService"
+   ],
+   "Classification-2015-03-Classification" : [
+      "getKeyLOVsForDependentAttributes"
+   ],
+   "Internal-Process-2018-11-Clone" : [
+      "cloneObjects",
+      "updateCloneObjects"
+   ],
+   "Manufacturing-2012-02-Constraints" : [
+      "getPrecedenceConstraintPaths",
+      "getPrecedenceConstraints",
+      "validateConstraintConsistency",
+      "validateProcessAreaAssignments"
+   ],
+   "ValidationContractAW-2018-05-VCManagement" : [
+      "validateAnalysisRequest",
+      "validateAnalysisRequestAsync"
+   ],
+   "Core-2012-02-OperationDescriptor" : [
+      "getDeepCopyData"
+   ],
+   "Core-2011-06-LOV" : [
+      "getLOVAttachments"
+   ],
+   "IssueManagement-2009-06-IssueManagement" : [
+      "createIssueItems",
+      "reviewIssues",
+      "updateIssueItems"
+   ],
+   "Internal-CaeAw-2019-12-SimulationManagementAw" : [
+      "processSimToolAndCapturePedigree2"
+   ],
+   "Internal-Visualization-2011-12-StructureManagement" : [
+      "expandPSFromOccurrenceList"
+   ],
+   "Internal-EntCba-2019-12-Alignments" : [
+      "alignOccurrences",
+      "unalignOccurrences"
+   ],
+   "Internal-DebugMonitor-2011-06-DebugMonitor" : [
+      "clearAllHistory",
+      "clearHistory",
+      "reloadConfiguration",
+      "setMetricConfig",
+      "setTcServerMonitoringMode",
+      "getAlertInformation",
+      "getMetricMetaData",
+      "getOperationalHealthData",
+      "getValidMetrics",
+      "getTcServerMonitoringMode"
+   ],
+   "Asp0Aspect-2015-07-AspectManagement" : [
+      "expandAspects",
+      "getAspectSchemesInModel"
+   ],
+   "Internal-Classification-2009-10-Classification" : [
+      "getClassificationHierarchies",
+      "getClassificationProperties"
+   ],
+   "Workflow-2014-10-Workflow" : [
+      "createWorkflow",
+      "createRemoteWorkflowAsync"
+   ],
+   "Workflow-2013-05-Workflow" : [
+      "getWorkflowTemplates"
+   ],
+   "CpdCore-2017-05-DataManagement" : [
+      "createOrUpdateSubsetItems"
+   ],
+   "Internal-Manufacturing-2014-06-IPAManagement" : [
+      "getDynamicIPALines",
+      "cleanDynamicIPALines"
+   ],
+   "Internal-Core-2007-05-Session" : [
+      "refreshPOMCachePerRequestDeprecated"
+   ],
+   "ModelCore-2016-05-GeometricConnectivity" : [
+      "mergeGeomConnGroups",
+      "splitGeomConnGroups",
+      "validateGeomConnGroups"
+   ],
+   "Reports-2008-06-CrfReports" : [
+      "getReportDefinitions"
+   ],
+   "Internal-Core-2016-10-DataManagement" : [
+      "reviseObjectsInBulk"
+   ],
+   "Realization-2018-06-RealizationManagement" : [
+      "getSourceItemConfigInfo"
+   ],
+   "Requirementsmanagement-2010-09-RequirementsManagement" : [
+      "moveLine"
+   ],
+   "ClassificationCommon-2020-12-Classification" : [
+      "getClassDescriptor",
+      "importClassificationDefinitions",
+      "searchClassificationDefinitions"
+   ],
+   "ProductionManagement-2007-12-EngineeringDataLoad" : [
+      "importFeatureData"
+   ],
+   "Internal-ProductionManagement-2017-11-EngineeringDataQuery" : [
+      "getMappedPortFeatureData"
+   ],
+   "Rdv-2009-04-ContextManagement" : [
+      "getAllGOPartSolutions",
+      "getPastePrimeAttributes"
+   ],
+   "Internal-Manufacturing-2018-11-StructureManagement" : [
+      "evaluateLinks",
+      "findBrokenPartsInProductView",
+      "findBrokenProductViews"
+   ],
+   "CpdCore-2017-05-Realization" : [
+      "updateSubsetsContent"
+   ],
+   "Internal-ColorBomPmm-2016-03-ColorBOMManagement" : [
+      "queryColorRules"
+   ],
+   "Internal-Retail-2012-06-Retail" : [
+      "addCostObjects",
+      "getColorOrColorwayGroupDeliveries",
+      "copyAndReplaceConstDetailInConstTable",
+      "createAndAddCostRows",
+      "createCostingObjects",
+      "deleteSkus",
+      "getObjectBrowserResults",
+      "getProductSkuStructure",
+      "getVendorsForProductSku",
+      "makeUniqueCost",
+      "makeUniqueRows",
+      "removeCostObjects",
+      "removeCostRows",
+      "replaceBOMLine",
+      "getCommentsAssociatedToSampleRevision",
+      "getImagesAssocaitedToSampleRevision",
+      "switchToSkuCosting",
+      "deleteColorRelation",
+      "performMassAction",
+      "reorderBOMLines",
+      "saveAsRetailObjects"
+   ],
+   "Realization-2016-05-ModelStructureExpand" : [
+      "expandModelStructure2"
+   ],
+   "Realization-2014-10-RealizationManagement" : [
+      "createOrUpdateModelToModelRealization",
+      "getSourceModelConfigInfo"
+   ],
+   "Core-2020-04-DataManagement" : [
+      "generateContextSpecificIDs2"
+   ],
+   "Cad-2018-06-StructureManagement" : [
+      "writeAssemblyConfigurationDetails"
+   ],
+   "Internal-ActiveWorkspaceReqMgmt-2017-06-ImportExport" : [
+      "getDisplayableTypes"
+   ],
+   "Internal-GlobalMultiSite-2020-01-OwnershipRecovery" : [
+      "findOtTransactions",
+      "recoverOwnership",
+      "recoverOwnershipUsingBriefcase",
+      "deleteOtTransaction"
+   ],
+   "Internal-Subscription-2018-12-SubscriptionManagement" : [
+      "getApplicableConfiguredEvents",
+      "getAllSubscribableEventTypes",
+      "getSubscriptionViewAndViewModel",
+      "getApplicableCommonEventTypes",
+      "validateSubscribableTypes"
+   ],
+   "Internal-Subscription-2018-05-SubscriptionManagement" : [
+      "getApplicableEventTypes",
+      "getSubscriptionCreationView"
+   ],
+   "Internal-CadBomAlignment-2012-02-QueryManagement" : [
+      "refreshProxies2"
+   ],
+   "Internal-AWS2-2016-12-DataManagement" : [
+      "saveEditAndSubmitToWorkflow",
+      "getDeclarativeStyleSheets",
+      "getDefaultRelation"
+   ],
+   "GlobalMultiSite-2007-06-SiteReservation" : [
+      "cancelSiteCheckOut",
+      "siteCheckIn",
+      "siteCheckOut"
+   ],
+   "Internal-CaeAw-2017-12-SimulationManagementAw" : [
+      "getDownloadInfoForDSM",
+      "removeSimulationToolStatusObjects",
+      "processSimulationToolMultiLaunch",
+      "processProgressMonitorFiles",
+      "processStatusObjectOpenDirectory",
+      "terminateSimulationToolJobs",
+      "getUploadInfoForDSM",
+      "getValidSimulationRelationList",
+      "deleteCAEFiles",
+      "deleteExternalLinks"
+   ],
+   "MESInteg-2013-05-Release" : [
+      "createReleaseUpdatePackage",
+      "findReleaseCandidates",
+      "isUpdateAllowed",
+      "openPreviousReleasedVersion",
+      "applyReleaseStatusToLines"
+   ],
+   "Partition-2011-06-Search" : [
+      "createPartitionExpressions"
+   ],
+   "Internal-FourDPlanning-2013-05-DataManagement" : [
+      "automaticProcessCreation"
+   ],
+   "Featureplanning-2020-12-FeaturePlanningManagement" : [
+      "getTargetPlanDetails",
+      "getTargetPlans"
+   ],
+   "ModelCore-2013-05-Search" : [
+      "createSearchExpressions"
+   ],
+   "SimProc-2017-11-SimulationToolLaunch" : [
+      "executeSimulationToolLaunch"
+   ],
+   "Internal-TestManagement-2014-12-InstanceManagement" : [
+      "getBOMLinesFromCloneStableIdChain",
+      "createTestCases",
+      "getTestSteps",
+      "createTestInstancesFromTestCase",
+      "editTestInstances"
+   ],
+   "Internal-Core-2008-03-Session" : [
+      "disableUserSessionState"
+   ],
+   "Internal-Core-2017-11-LogicalObject" : [
+      "addMembersAndPresentedProps",
+      "createLogicalObjectTypes",
+      "deleteLogicalObjectTypes",
+      "deleteMembersAndPresentedProps"
+   ],
+   "Core-2014-10-ProjectLevelSecurity" : [
+      "propagateData"
+   ],
+   "ProjectManagement-2018-11-ScheduleManagement" : [
+      "submitTimesheetEntries",
+      "submitTimesheetEntriesAsync"
+   ],
+   "Internal-Translation-2007-06-TranslationManagement" : [
+      "createDatasetOfVersion",
+      "insertDatasetVersion",
+      "queryTranslationRequests",
+      "updateTranslationRequest"
+   ],
+   "Core-2010-04-LanguageInformation" : [
+      "getLanguagesList",
+      "getAllTranslationStatuses"
+   ],
+   "Internal-FourDPlanning-2013-05-StructureSearch" : [
+      "nextFourDSearch",
+      "startFourDSearch",
+      "stopFourDSearch"
+   ],
+   "Manufacturing-2014-06-StructureSearch" : [
+      "searchConnectedLines"
+   ],
+   "Internal-Core-2008-06-DataManagement" : [
+      "reviseObject",
+      "saveAsNewItemObject",
+      "createCachedRelations",
+      "multiRelationMultiLevelExpand",
+      "setDefaultProjectForProjectMembers"
+   ],
+   "Internal-ManufacturingCM-2017-05-ChangeManagement" : [
+      "getEcnImpactAnalysisInfo"
+   ],
+   "Internal-CadBomAlignment-2013-05-ObjectManagement" : [
+      "getSearchCriteria"
+   ],
+   "Reports-2015-10-CrfReports" : [
+      "getOfficeStylesheets"
+   ],
+   "Internal-ChangeManagement-2015-03-ChangeManagement" : [
+      "connectChangeNoticeToContext",
+      "createOrUpdatePreviousEffectivity",
+      "updateChangeNoticeRelations",
+      "disconnectChangeNoticeFromContext",
+      "removePrevEffectivityFromChgNotice"
+   ],
+   "BusinessModeler-2010-04-BusinessRules" : [
+      "getVerificationRules"
+   ],
+   "CalendarManagement-2007-06-CalendarManagement" : [
+      "createCalendars",
+      "updateCalendars"
+   ],
+   "Internal-Core-2008-06-Session" : [
+      "cancelOperation"
+   ],
+   "MROCore-2009-06-MROCore" : [
+      "rebasePhysicalPart",
+      "recordUtilization"
+   ],
+   "MDConnectivity-2014-10-MDConnectivity" : [
+      "createOrUpdateModelElements",
+      "createOrUpdateElementGroups",
+      "findConnectionsOnPort",
+      "findPortsGroups",
+      "findPorts",
+      "queryParentElementGroup",
+      "getConditionalElemGroups",
+      "queryConnectionModelElements",
+      "queryModelElementsOfElementGroup",
+      "getIdentity",
+      "getOrderedElementGroups",
+      "getRealizedLogicalElements",
+      "queryOrderedElementGroupByPartition",
+      "splitOrderedElementGroupElements",
+      "insertConnectionElement",
+      "insertOrderedElementGroupElements",
+      "reverseOrderedElementGroupElements"
+   ],
+   "Internal-CadBomAlignment-2009-10-AlignmentManagement" : [
+      "findAlignedCadForACT"
+   ],
+   "Internal-Manufacturing-2020-01-StructureSearch" : [
+      "searchScopedStructure"
+   ],
+   "Internal-ProjectManagement-2014-10-ScheduleManagement" : [
+      "deferredSave",
+      "pasteTasks"
+   ],
+   "Internal-AWS2-2019-06-Finder" : [
+      "performSearchViewModel4"
+   ],
+   "ImportExport-2011-06-FileImportExport" : [
+      "importFromApplication",
+      "exportToApplication",
+      "getExportTemplates",
+      "createReqMarkup",
+      "updateReqMarkup"
+   ],
+   "Internal-Manufacturing-2016-09-ResourceManagement" : [
+      "getVendorCatalogInfo3",
+      "extractHolderData"
+   ],
+   "Internal-Realization-2016-10-RealizationManagement" : [
+      "createRelations"
+   ],
+   "Internal-Multisite-2011-06-ImportExportAsync" : [
+      "remoteExport"
+   ],
+   "SimProc-2014-12-SimulationToolLaunch" : [
+      "executeSimulationToolLaunch"
+   ],
+   "TcmAccess-2017-06-StudyManagement" : [
+      "openContexts"
+   ],
+   "MDOManagement-2018-06-MultiDisciplinaryDataMgt" : [
+      "getDomainRelevancyOfAnObject",
+      "splitDesignArtifactsOfMDThread",
+      "splitDesignInstancesOfMDInstance"
+   ],
+   "ServiceForecasting-2020-04-ServiceForecasting" : [
+      "createMaintenanceActionByFaultCode"
+   ],
+   "MDOManagement-2014-10-MultiDisciplinaryDataMgt" : [
+      "createOrUpdateMDO",
+      "linkDesignInstances",
+      "unlinkDesignInstances",
+      "searchForLinkedDesignInstances",
+      "searchForArtifactsUsingInstances",
+      "searchMDO"
+   ],
+   "Internal-MultiSite-2007-06-RemoteOperation" : [
+      "idsm3EndImportSvc",
+      "idsm1LocateObjectSvc",
+      "idsm1StartAskInfoSvc",
+      "idsm1VerifyObjectsSvc",
+      "idsm1XferInfoFileSvc",
+      "idsm2DescribeObjectSvc",
+      "idsm2VersionCheckSvc",
+      "idsm3ExportStatusSvc",
+      "idsm3StartImportSvc",
+      "idsm4CheckSyncStatusSvc",
+      "idsm4GetErrorStackSvc",
+      "idsm4RemoteNotificationSvc",
+      "idsm4SetSyncOptionsSvc",
+      "idsm4XferExportFileSvc",
+      "idsm4XferImportFileSvc",
+      "idsm6DescribeItemSvc",
+      "idsm6PerformSendObjectsSvc",
+      "idsm6StartExportItemIdListSvc",
+      "idsm6StartSendObjectsSvc",
+      "idsm7AskVersionSvc",
+      "idsm7DistributedAppSvc",
+      "idsm7StartExportSvc",
+      "idsm9DescribeObjectSvc",
+      "idsm1EndAskInfoSvc",
+      "idsm1EndExportSvc",
+      "idsm1RepublishObjectSvc",
+      "idsm6EndExportItemIdListSvc",
+      "idsm6EndSendObjectsSvc"
+   ],
+   "Internal-Ai-2016-03-Ai" : [
+      "getApplicationInterfaceTypes"
+   ],
+   "Manufacturing-2009-06-StructureManagement" : [
+      "getAttachmentLineChildren",
+      "getBOMLineActivities",
+      "getBOMLineAttachments",
+      "getStructureContextActivityLines",
+      "getStructureContextTopLines",
+      "closeAttachmentWindow",
+      "createOrUpdateAttachments",
+      "deleteAttachments"
+   ],
+   "Internal-AWS2-2017-06-RequirementsManagement" : [
+      "exportToApplication3",
+      "createBaseline",
+      "createBaselineAsync",
+      "exportAsync2"
+   ],
+   "Query-2007-06-Finder" : [
+      "findWorkspaceObjects"
+   ],
+   "Ldf-2016-03-LinkedDataRequest" : [
+      "getLDFServices",
+      "getLDFPropertyValues"
+   ],
+   "CpdCore-2017-11-DataManagement" : [
+      "generateDesignContext"
+   ],
+   "Internal-CpdCore-2017-05-DataManagement" : [
+      "productContextSearch"
+   ],
+   "Internal-StructureManagement-2007-06-Restructure" : [
+      "insertLevel",
+      "moveNode",
+      "removeLevel",
+      "splitOccurrence"
+   ],
+   "Internal-AWPdmCore-2020-05-PlantDataManagement" : [
+      "getCrossProbingData",
+      "getViewerData"
+   ],
+   "Internal-Manufacturing-2012-09-StructureSearch" : [
+      "mapSrchCriteriaToLines",
+      "saveOGLinesInSrchCriteria"
+   ],
+   "Internal-Core-2018-06-LogicalObject" : [
+      "addMembersAndPresentedProps2",
+      "createLogicalObjectTypes2",
+      "updateMembers"
+   ],
+   "StructureManagement-2012-09-PublishByLink" : [
+      "deleteLinksForSource2"
+   ],
+   "Realization-2016-05-RealizationManagement" : [
+      "createOrUpdateCompositionSubset"
+   ],
+   "Core-2019-06-Session" : [
+      "licenseAdmin"
+   ],
+   "Internal-Core-2012-09-Envelope" : [
+      "sendEmail"
+   ],
+   "Core-2006-03-Reservation" : [
+      "getReservationHistory",
+      "cancelCheckout",
+      "checkin",
+      "checkout"
+   ],
+   "Internal-SystemsModeling-2016-12-InterfaceManagement" : [
+      "exportInterfaces",
+      "exportInterfacesAsync"
+   ],
+   "Manufacturing-2015-10-ImportExport" : [
+      "importManufacturingFeatures"
+   ],
+   "Internal-Ldf-2016-03-LinkedDataRequest" : [
+      "requestServerToFetchAccessToken",
+      "getOAuthRequestToken",
+      "signURLForOAuth"
+   ],
+   "Internal-MfgBvrCore-2015-03-DataManagement" : [
+      "loadObjectData",
+      "loadObjectData2",
+      "loadObjectData3"
+   ],
+   "Cad-2016-09-StructureManagement" : [
+      "continueFindModelViews",
+      "startFindModelViews",
+      "continueReconcilePalette",
+      "startReconcilePalette"
+   ],
+   "PlantDataMgmt-2019-06-PdmCore" : [
+      "findPlantContentsUsingExtIds"
+   ],
+   "Ai-2010-09-Ai" : [
+      "generateAndEvaluateStructure"
+   ],
+   "Internal-StructureManagement-2017-05-StructureLiteConversion" : [
+      "liteBOMLinesToBOMLines"
+   ],
+   "Internal-Realization-2016-05-Search" : [
+      "executeSearchInComposition"
+   ],
+   "Internal-SystemsEngineering-2011-06-Budget" : [
+      "getBudgetData",
+      "editBudget",
+      "removeBudget"
+   ],
+   "Internal-CaeAw-2017-06-SimulationManagementAw" : [
+      "processSimulationToolLaunch",
+      "getCAEStatusDetails",
+      "getTraceabilityInformation",
+      "addOrUpdateLatestReferences",
+      "relateSimulationObjects"
+   ],
+   "AttrTargetMgmtAW-2019-06-AttributeTargetManagement" : [
+      "importParameterExcel"
+   ],
+   "LibraryManagement-2014-10-LibrarySearch" : [
+      "searchLibraryElements",
+      "discardSearchResults",
+      "searchLibraries"
+   ],
+   "Internal-GlobalMultiSite-2008-06-Synchronizer" : [
+      "getCandidatesForClasseswOpts",
+      "getCandidatesForObjectswOpts",
+      "getExportedObjects"
+   ],
+   "Internal-AWS2-2017-06-EffectivityManagment" : [
+      "addOrRemoveRelStatusEffectivities"
+   ],
+   "Core-2006-03-Session" : [
+      "getAvailableServices",
+      "getGroupMembership",
+      "getSessionGroupMember",
+      "login",
+      "loginSSO",
+      "getPreferences",
+      "setPreferences",
+      "logout",
+      "setSessionGroupMember"
+   ],
+   "Internal-VerificationManagement-2019-12-VerificationManagement" : [
+      "syncAbsoccID"
+   ],
+   "Manufacturing-2012-02-Model" : [
+      "getCandidateToolsForToolRequirement",
+      "getToolRequirements",
+      "resolveToolRequirement",
+      "updateFlows"
+   ],
+   "Internal-Notification-2015-10-SubscriptionManagement" : [
+      "getAttachEventData2",
+      "createSubscriptionTemplates",
+      "getApplicableSubscriptionTemplates",
+      "modifySubscriptionTemplates",
+      "saveAsSubscription",
+      "unsubscribe"
+   ],
+   "Internal-AWS2-2013-12-OrganizationManagement" : [
+      "getGroupMembership2"
+   ],
+   "Internal-XlsBom-2020-12-Import" : [
+      "importExcelAndUpdateMappingGrp",
+      "getStructureInfoFromExcel",
+      "importExcelAndUpdateMappingGrpAsync"
+   ],
+   "ProjectManagement-2015-07-ScheduleManagement" : [
+      "assignResources",
+      "shiftSchedule",
+      "shiftScheduleAsync"
+   ],
+   "Internal-SupplierCollaboration-2017-11-SupplierCollaboration" : [
+      "cancelModificationRights2",
+      "grantModificationRights2",
+      "associateSiteToVendor",
+      "cancelOwnershipTransferOperation",
+      "performOwnershipTransferOperation2",
+      "performOwnershipTransferOperations"
+   ],
+   "Internal-AsMaintainedAw-2014-06-AsMaintainedAw" : [
+      "modifyPhysicalStructure",
+      "searchInstallPhysicalPart"
+   ],
+   "Internal-AWS2-2018-05-FileMgmt" : [
+      "loadPlmdTicketForReplace"
+   ],
+   "Internal-BusinessModeler-2007-01-DataModelManagement" : [
+      "exportDataModel",
+      "importDataModel"
+   ],
+   "Administration-2010-04-DisciplineManagement" : [
+      "getDiscipline"
+   ],
+   "Workflow-2020-01-Workflow" : [
+      "getSupportedHandlerArguments"
+   ],
+   "Core-2011-06-Reservation" : [
+      "okToCheckout"
+   ],
+   "Core-2014-06-Reservation" : [
+      "bulkCancelCheckout",
+      "bulkCheckin",
+      "bulkCheckout"
+   ],
+   "Internal-StructureManagement-2012-02-StructureVerification" : [
+      "getActivitiesComparisonDetails",
+      "getToolRequirementComparisonDetails"
+   ],
+   "Core-2016-05-DataManagement" : [
+      "generateContextSpecificIDs",
+      "setPropertiesAndDetectOverwrite",
+      "resetContextID"
+   ],
+   "ContractManagement-2018-06-ContractManagement" : [
+      "createOrUpdateSubDelSchedules2",
+      "createOrUpdateSubDelSchedulesAsync"
+   ],
+   "Internal-AWS2-2012-10-LOV" : [
+      "getInitialLOVValues",
+      "getNextLOVValues",
+      "validateLOVValueSelections"
+   ],
+   "Internal-Manufacturing-2015-03-Attachments" : [
+      "getAttachmentLines",
+      "createAttachmentLines"
+   ],
+   "Query-2018-11-SavedQuery" : [
+      "executeBOQueriesWithContext"
+   ],
+   "Core-2016-10-ProjectLevelSecurity" : [
+      "getDefaultProject"
+   ],
+   "ProjectManagement-2011-06-ScheduleManagement" : [
+      "copySchedulesAsyncClient",
+      "deleteScheduleAsyncClient",
+      "copySchedules",
+      "manageScheduleLocks",
+      "refreshScheduleObject",
+      "createProxyTasks",
+      "updateTaskExecution",
+      "copySchedulesAsync",
+      "deleteScheduleAsync"
+   ],
+   "Internal-Administration-2019-06-UserManagement" : [
+      "getGroupRoleViewModelRows"
+   ],
+   "Internal-BusinessModeler-2011-06-DataModelManagement" : [
+      "updateClientMetaCache",
+      "updateServerMetaCache"
+   ],
+   "Manufacturing-2017-05-Validation" : [
+      "getAllRegisteredCallbacks"
+   ],
+   "MDOManagement-2015-07-MultiDisciplinaryDataMgt" : [
+      "qryNotificationsByDesignOrProject",
+      "qryNotificationsByImpactedDesign",
+      "qryNotificationsByOriginDesign",
+      "searchForArtifactsUsingInstances2",
+      "searchMDO2",
+      "updateMDONotification"
+   ],
+   "ParameterManagement-2012-02-Parameter" : [
+      "getMemoryLayoutOrBlockInfo",
+      "setTableSEDProperties"
+   ],
+   "ProjectManagement-2009-10-ScheduleManagement" : [
+      "updateTasks"
+   ],
+   "Internal-AWS2-2020-12-DataManagement" : [
+      "getLocalizedProperties",
+      "setLocalizedProperties"
+   ],
+   "Internal-BehaviorModeling-2014-06-BehaviorModeling" : [
+      "getModelData3",
+      "revise",
+      "saveAs",
+      "saveModelData3"
+   ],
+   "ProgramInfra-2016-10-ProgramManagement" : [
+      "clonePlanHierarchyWithProject"
+   ],
+   "StructureManagement-2016-09-PublishByLink" : [
+      "findSourcesInWindow"
+   ],
+   "Internal-SimProc-2017-05-SimStructureManagement" : [
+      "createDerivedStructures",
+      "highlightModelStructure",
+      "executeStructureMapAsync"
+   ],
+   "Internal-DocumentManagement-2008-06-DispatcherManagement" : [
+      "getConfigurations"
+   ],
+   "Internal-Administration-2017-11-IRM" : [
+      "getAccessorsInfo"
+   ],
+   "Internal-SimProc-2018-11-SimDataManagement" : [
+      "processCAEPackage"
+   ],
+   "Internal-AsMaintained-2009-06-AsMaintained" : [
+      "asmBomCompare",
+      "createMROBOMWindows",
+      "getAllAsmOpenUsage"
+   ],
+   "Internal-CbaExt-2012-02-AlignmentManagement" : [
+      "linkDesignOccToACTLine"
+   ],
+   "Ldf-2015-03-LinkedDataRequest" : [
+      "executeLinkedDataRequests",
+      "generateLinkedDataURI"
+   ],
+   "Vendormanagement-2012-09-VendorManagement" : [
+      "addRemoveVendorRoles"
+   ],
+   "ProductionManagement-2011-06-MeasurementDataQuery" : [
+      "queryClusterGroupInfo",
+      "queryCustomXlsbDs",
+      "queryRuleSetDataSet",
+      "queryLinkNamesInfo",
+      "querySsrsUrlInfo"
+   ],
+   "Internal-Requirementsmanagement-2012-10-RequirementsManagement" : [
+      "getTraceabilityMatrix",
+      "getMatchingLines"
+   ],
+   "Internal-AWS2-2017-06-DataManagement" : [
+      "getStyleSheet3",
+      "getViewerData",
+      "getViewModelProperties",
+      "loadViewModelForEditing",
+      "saveViewModelEditAndSubmitWorkflow"
+   ],
+   "Manufacturing-2013-12-Model" : [
+      "computeAppearancePath"
+   ],
+   "Internal-AWS2-2018-05-DataManagement" : [
+      "getCurrentUserGateway2",
+      "saveViewModelEditAndSubmitWorkflow2",
+      "unpinObjects",
+      "updateTiles",
+      "pinObjects"
+   ],
+   "ProjectManagementAw-2017-06-ScheduleManagementAw" : [
+      "createMasterSchedule",
+      "createMasterScheduleAsync"
+   ],
+   "StructureManagement-2013-05-StructureVerification" : [
+      "getAttributeGroupsAndFormsComparisonDetails",
+      "getConnectedObjectsComparisonDetails"
+   ],
+   "Internal-Core-2017-05-PresentationManagement" : [
+      "getStylesheetPerPage"
+   ],
+   "Internal-ActiveWorkspaceReqMgmt-2018-05-ImportExport" : [
+      "importExcelAndUpdateMappingGrp",
+      "importFromWord",
+      "getMappingGroupInfo",
+      "importExcelAndUpdateMappingGrpAsync",
+      "importFromWordAsync"
+   ],
+   "EditContext-2016-10-DataManagement" : [
+      "setChangeContext2"
+   ],
+   "Manufacturing-2013-05-StructureSearch" : [
+      "findStudies"
+   ],
+   "Process-2017-05-RelationManagement" : [
+      "addPredecessors",
+      "removePredecessors",
+      "restructure"
+   ],
+   "Internal-ManufacturingCore-2017-05-DataManagement" : [
+      "getAttachments",
+      "getConfiguredObjects"
+   ],
+   "Partition-2019-06-Search" : [
+      "executeSearch"
+   ],
+   "Manufacturing-2009-10-DataManagement" : [
+      "createObjects",
+      "disconnectObjects"
+   ],
+   "Internal-Manufacturing-2014-12-IPAManagement" : [
+      "searchDynamicIPAs"
+   ],
+   "StructureManagement-2010-04-StructureSearch" : [
+      "startSearch"
+   ],
+   "Core-2007-09-DataManagement" : [
+      "expandGRMRelationsForPrimary",
+      "expandGRMRelationsForSecondary",
+      "loadObjects",
+      "removeNamedReferenceFromDataset"
+   ],
+   "Manufacturing-2014-12-IPAManagement" : [
+      "findAndRepopulateDynamicIPAs",
+      "repopulateDynamicIPAs"
+   ],
+   "Ai-2008-06-Ai" : [
+      "compareConfigurationContexts",
+      "generateScopedMultipleStructure2",
+      "generateScopedSyncRequest2"
+   ],
+   "StructureManagement-2008-06-Structure" : [
+      "duplicate",
+      "expandOrUpdateDuplicateItems",
+      "validateStructureItemIds"
+   ],
+   "SystemsEngineering-2011-06-FunctionalModeling" : [
+      "deleteFunctionStructure"
+   ],
+   "Internal-ActiveWorkspaceBom-2019-06-OccurrenceManagement" : [
+      "addObject2",
+      "getInfoForAddElement2",
+      "getOccurrences2",
+      "packSimilarElements",
+      "cloneContent",
+      "saveUserWorkingContextState2",
+      "cloneContentAsync"
+   ],
+   "Internal-AWS2-2013-12-Workflow" : [
+      "performTaskSearch"
+   ],
+   "Manufacturing-2009-10-Model" : [
+      "calculateCriticalPath",
+      "createFlow",
+      "getResolvedNodesFromLA",
+      "editLogicalAssignments",
+      "removeFlow",
+      "resolveLogicalAssignments"
+   ],
+   "Multisite-2019-06-ImportExportTCXML" : [
+      "remoteCheckin",
+      "remoteCheckout"
+   ],
+   "ProjectManagement-2014-06-ScheduleManagement" : [
+      "filterUsers"
+   ],
+   "Internal-CpMgmt-2019-06-CpMgmt" : [
+      "getColumnsInfo",
+      "getViewModelRows"
+   ],
+   "Internal-Process-2017-05-RelationManagement" : [
+      "getObjectsInSequence"
+   ],
+   "Internal-DocMgmtAw-2019-12-DocMgmt" : [
+      "processTextDataset"
+   ],
+   "Core-2010-04-DataManagement" : [
+      "createDatasets",
+      "findDisplayableSubBusinessObjectsWithDisplayNames",
+      "getAvailableTypesWithDisplayNames",
+      "getDatasetCreationRelatedInfo2",
+      "isPropertyLocalizable",
+      "getLocalizedProperties",
+      "setLocalizedProperties",
+      "setLocalizedPropertyValues"
+   ],
+   "Process-2017-05-ProductSubset" : [
+      "createOrUpdateProductSubsets",
+      "recalculate"
+   ],
+   "Internal-ActiveWorkspaceBom-2019-12-OccurrenceManagement" : [
+      "getInfoForAddElement3",
+      "findMatchingFilters2",
+      "getOccurrences3",
+      "getSubsetInfo3",
+      "detachObjects",
+      "removeInContextPropertyOverride"
+   ],
+   "Core-2020-01-ProjectLevelSecurity" : [
+      "getProjectTeamChildNodes",
+      "getPrivilegeInProjects",
+      "getFirstLevelProjectTeamStructure",
+      "getModifiableProjects",
+      "addOrRemoveProjectMembers",
+      "setUserPrivilege"
+   ],
+   "TargetManagement-2016-05-TargetManagement" : [
+      "createTargetElements"
+   ],
+   "Query-2007-06-SavedQuery" : [
+      "executeSavedQueries",
+      "retrieveSearchCriteria",
+      "saveSearchCriteria"
+   ],
+   "Internal-AW4GFoundation-2016-04-SubsetManagement" : [
+      "saveRecipe"
+   ],
+   "Internal-GlobalMultiSite-2007-06-Synchronizer" : [
+      "checkReplicaSyncState",
+      "updateObjectsOnOwnershipChange",
+      "updateMasterObjectsOnReplicaDeletion",
+      "createExportRecordOnStubReplication",
+      "getCandidatesToSynchronizeForListOfClasses",
+      "getCandidatesToSynchronizeForListOfObjects"
+   ],
+   "Internal-Core-2014-11-Session" : [
+      "getSecurityToken"
+   ],
+   "Core-2007-06-PropDescriptor" : [
+      "getAttachedPropDescs"
+   ],
+   "Internal-IcsAw-2019-06-Classification" : [
+      "getClassificationCmdVisibilityInfo"
+   ],
+   "AsbAsmAlignment-2009-06-AsbAsmAlignment" : [
+      "generatePhysicalStructure"
+   ],
+   "RelationshipViewer-2019-12-NetworkEngine" : [
+      "getViews4"
+   ],
+   "MESInteg-2014-06-Release" : [
+      "applyReleaseStatusToLines"
+   ],
+   "Core-2017-05-ProjectLevelSecurity" : [
+      "copyProjects2",
+      "createProjects2",
+      "modifyProjects2",
+      "getProjectsForAssignOrRemove",
+      "assignOrRemoveObjectsFromProjects",
+      "setPropagationEnabledProperties"
+   ],
+   "ProductionManagement-2011-06-MeasurementDataLoad" : [
+      "createLinkNames",
+      "populateLinkTables"
+   ],
+   "Internal-Manufacturing-2020-01-DataManagement" : [
+      "associateOrRemoveScopesForProcess"
+   ],
+   "Internal-FmeaManager-2020-12-FMEADataManagement" : [
+      "getNetViewData"
+   ],
+   "ProductionManagement-2014-12-EngineeringDataQuery" : [
+      "getFeatureAttributesForSpec",
+      "getSpecificationLimits",
+      "getSpecSheetNames"
+   ],
+   "Core-2012-09-ProjectLevelSecurity" : [
+      "copyProjects",
+      "createProjects",
+      "modifyProjects",
+      "getProjectTeams"
+   ],
+   "Internal-BehaviorModeling-2013-05-BehaviorModeling" : [
+      "getModelData2",
+      "saveModelData2"
+   ],
+   "Internal-Cae-2009-10-SimulationProcessManagement" : [
+      "notifyUser"
+   ],
+   "ChangeManagement-2020-01-ChangeManagement" : [
+      "deriveChangeItems"
+   ],
+   "Classification-2016-03-Classification" : [
+      "convertValues",
+      "getChildrenExtended",
+      "searchClassesExtended"
+   ],
+   "Cad-2007-01-StructureManagement" : [
+      "closeBOMWindows",
+      "createBOMWindows",
+      "createOrUpdateAbsoluteStructure",
+      "createOrUpdateRelativeStructure",
+      "deleteAssemblyArrangements",
+      "deleteRelativeStructure",
+      "expandPSAllLevels",
+      "expandPSOneLevel",
+      "getRevisionRules",
+      "getVariantRules"
+   ],
+   "SimProc-2015-10-SimulationToolLaunch" : [
+      "executeSimulationToolLaunch"
+   ],
+   "ProductionManagement-2010-04-MeasurementDataQuery" : [
+      "queryPlantsInfo",
+      "queryActiveOrDeactiveData2",
+      "queryRoutinesInfo"
+   ],
+   "ChangeManagement-2015-10-ChangeManagement" : [
+      "createChangeLineage",
+      "deleteChangeLineage"
+   ],
+   "Internal-AsBuiltAw-2016-03-AsBuiltAw" : [
+      "searchInstallPhysicalPart",
+      "modifyPhysicalStructure"
+   ],
+   "Internal-SubsCmplAW-2018-12-SubstanceCompliance" : [
+      "createDeclarationsForTargets",
+      "getComplianceCategoryDetails",
+      "getComplianceResultDetails2",
+      "getRegulationsWithAbstractDecl",
+      "applyExemptions2"
+   ],
+   "Administration-2008-12-Authorization" : [
+      "checkAuthorizationAccess"
+   ],
+   "Internal-Search-2020-12-SearchFolder" : [
+      "createOrEditSearchFolders",
+      "exportSearchFolders",
+      "getSearchFolderAccessors",
+      "importSearchFolder",
+      "getTranslatedReportSearchRecipe"
+   ],
+   "Core-2006-03-DataManagement" : [
+      "createDatasets",
+      "createFolders",
+      "createItems",
+      "createRelations",
+      "generateItemIdsAndInitialRevisionIds",
+      "generateRevisionIds",
+      "revise",
+      "changeOwnership",
+      "deleteObjects",
+      "deleteRelations",
+      "getProperties",
+      "setDisplayProperties"
+   ],
+   "SvcAutoScheduling-2014-06-SvcAutoScheduling" : [
+      "identifyDiscrepancies",
+      "identifyServicePlans",
+      "populateServiceSchedule"
+   ],
+   "Internal-Manufacturing-2017-11-ResourceManagement" : [
+      "addMultiToolCutter",
+      "deleteMultiToolCutter"
+   ],
+   "Manufacturing-2009-10-MFGPropertyCollector" : [
+      "collectProperties"
+   ],
+   "Reports-2015-03-CrfReports" : [
+      "getPrintTemplates",
+      "generatePrintReports",
+      "generateReport",
+      "generatePrintReportsAsync",
+      "generateReportAsync"
+   ],
+   "Internal-Workflow-2017-11-Workflow" : [
+      "createWorkflowAsync"
+   ],
+   "Manufacturing-2010-09-Core" : [
+      "findNodeInContext",
+      "getAffectedProperties"
+   ],
+   "Administration-2014-10-UserManagement" : [
+      "makeUser"
+   ],
+   "Internal-Cae-2014-06-StructureManagement" : [
+      "loadSimulationDataMonitor",
+      "refreshSimulationDataMonitor"
+   ],
+   "Internal-Ldf-2018-06-LinkedDataRequest" : [
+      "getLDFSupportedDatasetTypes"
+   ],
+   "Internal-Core-2010-04-ProjectLevelSecurity" : [
+      "getProjectsSmartFolderHierarchy2"
+   ],
+   "Internal-AWS2-2018-12-Finder" : [
+      "exportSearchResults"
+   ],
+   "ConfigFilterCriteria-2013-05-VariantManagement" : [
+      "getProductConfigurations"
+   ],
+   "Workflow-2015-07-Workflow" : [
+      "addSignoffs"
+   ],
+   "LibraryManagement-2014-10-LibraryManagement" : [
+      "createHierarchies",
+      "createLibraries",
+      "createNodes",
+      "deleteLibraryContent",
+      "findAssignedContexts",
+      "assignOrRemoveContexts"
+   ],
+   "Internal-Core-2008-06-DispatcherManagement" : [
+      "createDatasetOfVersion",
+      "insertDatasetVersion",
+      "queryDispatcherRequests",
+      "updateDispatcherRequests"
+   ],
+   "Internal-AWS2-2015-03-DataManagement" : [
+      "getStyleSheet"
+   ],
+   "Core-2008-06-StructureManagement" : [
+      "createInStructureAssociations",
+      "getPrimariesOfInStructureAssociation",
+      "getSecondariesOfInStructureAssociation",
+      "removeInStructureAssociations"
+   ],
+   "Internal-ImportExport-2018-06-L10NImportExport" : [
+      "exportObjectsForTranslation2"
+   ],
+   "Internal-Manufacturing-2015-03-StructureSearch" : [
+      "getSearchCriteriaFromRecipe"
+   ],
+   "Internal-IppeCore-2020-12-PlanManagement" : [
+      "loadIMPHierarchy"
+   ],
+   "Internal-ValidationContractAW-2018-12-VCManagement" : [
+      "manageAnalysisRequests",
+      "syncPublishMeasurableAttributes",
+      "setMeasurableAttrDirection"
+   ],
+   "Internal-StructureManagement-2011-06-Structure" : [
+      "createOrSavePSBOMViewRevision",
+      "getAvailableViewTypes"
+   ],
+   "Bom-2008-06-StructureManagement" : [
+      "addOrUpdateChildrenToParentLine",
+      "createBaseline",
+      "removeChildrenFromParentLine"
+   ],
+   "Internal-Core-2020-01-ActiveModeler" : [
+      "addPropertiesOnTypes",
+      "createTypes"
+   ],
+   "ImportExport-2007-06-FileImportExport" : [
+      "exportToApplication",
+      "importFromApplication"
+   ],
+   "Internal-Cad-2017-05-StructureManagement" : [
+      "getProductStructureArrangements"
+   ],
+   "Ai-2013-05-Ai" : [
+      "findRequestOnAiWithReferences"
+   ],
+   "Internal-ActiveWorkspaceBom-2012-10-OccurrenceManagement" : [
+      "getChildOccurrences",
+      "getNextChildOccurrences",
+      "getInfoForAddElement",
+      "getInfoForAddToBookmark",
+      "insertLevel",
+      "getNextOccurrencesInProduct",
+      "getOccurrencesInProduct",
+      "updateSavedBookmark"
+   ],
+   "Core-2007-01-ManagedRelations" : [
+      "createRelation",
+      "modifyRelation",
+      "getTraceReport"
+   ],
+   "AWS2-2018-12-RequirementsManagement" : [
+      "createTracelinks"
+   ],
+   "Internal-StructureManagement-2007-06-GlobalAlternate" : [
+      "addRelatedGlobalAlternates",
+      "listGlobalAlternates",
+      "removeRelatedGlobalAlternates",
+      "setPreferredGlobalAlternate"
+   ],
+   "MESInteg-2016-09-Release" : [
+      "createReleaseUpdatePackage2",
+      "executionDataExport3"
+   ],
+   "Internal-UiConfig-2014-11-UiConfig" : [
+      "resetUIConfigs"
+   ],
+   "Internal-SimProc-2020-12-SimStructureManagement" : [
+      "getFileDetails3"
+   ],
+   "ModelCore-2014-10-Search" : [
+      "createSearchExpressions",
+      "aggregateRecipes",
+      "getRecipes2",
+      "setRecipes2"
+   ],
+   "CpdCore-2020-01-DataManagement" : [
+      "generateDesignContext"
+   ],
+   "ModelCore-2016-10-GeometricConnectivity" : [
+      "createOrUpdateGeomConnGroups"
+   ],
+   "Internal-OccMgmt-2020-12-EffectivityManagement" : [
+      "getEffectivity",
+      "setEffectivity"
+   ],
+   "Internal-RevRuleMgmt-2019-12-RevisionRuleAdministration" : [
+      "createOrUpdateRevisionRule",
+      "getRevisionRuleInfo"
+   ],
+   "StructureManagement-2008-03-Composition" : [
+      "assignChildLines"
+   ],
+   "Classification-2011-06-Classification" : [
+      "getLibraryHierarchy",
+      "deleteChildrenInHierarchy"
+   ],
+   "StructureManagement-2010-09-StructureSearch" : [
+      "isSpatialDataAvailable",
+      "startSearch",
+      "getAssemblyBoundingBox"
+   ],
+   "AsBuilt-2008-06-AsBuilt" : [
+      "generateAsBuiltStructure",
+      "installPhysicalPart",
+      "unInstallPhysicalPart"
+   ],
+   "Internal-ImportExport-2017-05-FileImportExport" : [
+      "importSpecAsync"
+   ],
+   "AuthorizedDataAccess-2017-05-LicenseManagement" : [
+      "attachOrDetachLicensesFromObjects"
+   ],
+   "Internal-Structure-2020-12-WhereUsed" : [
+      "getWhereUsedInfo"
+   ],
+   "Internal-ServiceForecastingAW-2019-12-ServiceForecastingAW" : [
+      "generateMaintenanceAction"
+   ],
+   "Internal-StructureManagement-2014-12-BrokenLinks" : [
+      "getBrokenLinkAndReplacements"
+   ],
+   "ValidationContractAW-2015-03-VCManagement" : [
+      "getValidationResults",
+      "getObjectsAddedForValidation",
+      "addObjectsForValidation",
+      "addValidationResults"
+   ],
+   "IssueManagement-2011-06-IssueManagement" : [
+      "castReviewDecisionOnIssues"
+   ],
+   "Internal-SimProc-2016-10-SimStructureManagement" : [
+      "getFileDetails"
+   ],
+   "RelationshipViewer-2014-11-NetworkEngine" : [
+      "getViews3"
+   ],
+   "ProgramPlanningApp-2016-05-AdvancedProgramManagement" : [
+      "getVariantOptions"
+   ],
+   "Internal-AWS2-2017-06-FullTextSearch" : [
+      "identifyImpactedObjects"
+   ],
+   "Internal-SupplierCollaborationAW-2020-05-SupplierCollaboration" : [
+      "getRowInfo2",
+      "removeEventLockForOTItems"
+   ],
+   "Core-2011-06-PropDescriptor" : [
+      "getAttachedPropDescs2"
+   ],
+   "MROCore-2010-04-MROCore" : [
+      "createMROBOMWindows",
+      "duplicatePhysicalStructure",
+      "renamePhysicalPart"
+   ],
+   "Internal-Classification-2017-05-Classification" : [
+      "getClassDefinitionsNX"
+   ],
+   "ContMgmtS1000D40-2014-06-ContMgmtS1000D40" : [
+      "brexValidation",
+      "bulkImport",
+      "incrementalDelivery",
+      "getSNSDefaultValues"
+   ],
+   "Core-2018-11-LogicalObject" : [
+      "getLogicalObjectsWithContext"
+   ],
+   "ModelCore-2014-10-GeometricConstraints" : [
+      "createCollection",
+      "getContainerInfo",
+      "getImpactedContainers",
+      "getImpactingContainers",
+      "getUpToDateStatus",
+      "updateContainer"
+   ],
+   "Internal-AWS2-2015-03-FullTextSearch" : [
+      "getAMImpactedObjects",
+      "getIndexedObjects",
+      "getModifiedObjectsToSync",
+      "cleanupScratchTable",
+      "deleteIndexedIslands",
+      "deregisterApplicationIDs",
+      "updateIndexIslandStatus"
+   ],
+   "Workflow-2008-06-Workflow" : [
+      "addAttachments",
+      "addSignoffs",
+      "assignAllTasks",
+      "delegateSignoff",
+      "performAction",
+      "removeAttachments",
+      "removeSignoffs",
+      "getAssignmentLists",
+      "viewAuditFile",
+      "changeState",
+      "getResourcePool",
+      "createInstance",
+      "listDefinitions",
+      "getAllTasks",
+      "getWorkflowTemplates"
+   ],
+   "PPSMInterfaceAw-2019-06-PPSMInterface" : [
+      "getProgramRelatedObjects",
+      "managePrgDeliverableDependencies",
+      "recalculatePrgDeliverableSeq",
+      "recalculatePrgDeliverableSeqAsync"
+   ],
+   "GlobalMultiSite-2020-04-ImportExport" : [
+      "importObjectsFromPLMXMLWithDSM"
+   ],
+   "Internal-Visualization-2012-10-DataManagement" : [
+      "createSnapshot3D"
+   ],
+   "Core-2015-07-DataManagement" : [
+      "createRelateAndSubmitObjects2",
+      "generateNextValuesForProperties",
+      "getCreatbleSubBuisnessObjectNames",
+      "getDomainOfObjectOrType",
+      "getDeepCopyData",
+      "getLocalizedProperties2"
+   ],
+   "Internal-ActiveWorkspaceVis-2019-06-MassiveModelVisualization" : [
+      "processMMVIndex"
+   ],
+   "PrgPlanningAw-2017-06-ProgramPlanning" : [
+      "loadPlanHierarchy"
+   ],
+   "Process-2018-11-Clone" : [
+      "unlinkObjects"
+   ],
+   "Core-2007-01-FileManagement" : [
+      "getTransientFileTicketsForUpload"
+   ],
+   "Internal-ResourceManager-2020-05-ResourceOccurrencesManagement" : [
+      "setPropagationStartPoint",
+      "replaceResourceElement",
+      "setBOMLinesPredecessor"
+   ],
+   "Internal-ContMgmtBase-2020-01-ContentManagement" : [
+      "importTranslation"
+   ],
+   "Internal-Ldf-2017-05-LinkedDataRequest" : [
+      "getTCTypesFromSemanticTypes",
+      "getLDFPropertiesAndRelationTypes",
+      "getLDFServiceProviderList"
+   ],
+   "Vendormanagement-2012-02-VendorManagement" : [
+      "createOrUpdateLineItemsWithType"
+   ],
+   "Internal-Cae-2012-02-SimulationProcessManagement" : [
+      "importSimulationObjects"
+   ],
+   "Internal-ProductionManagement-2017-11-MeasurementDataQuery" : [
+      "getDatabaseKeysForPlants",
+      "getMeasurementDatabaseDetails"
+   ],
+   "Internal-StructureManagement-2018-11-StructureVerification" : [
+      "getMountAttachComparisonDetails"
+   ],
+   "Internal-CmAws-2020-12-Changes" : [
+      "mergeRedLineChanges",
+      "revertChanges"
+   ],
+   "MESInteg-2017-11-Release" : [
+      "findWorkOrderStatusProps"
+   ],
+   "Requirementsmanagement-2007-01-RequirementsManagement" : [
+      "createOrUpdate",
+      "exportToApplication",
+      "getRichContent",
+      "importFromApplication",
+      "setRichContent"
+   ],
+   "StructureManagement-2014-12-StructureSearch" : [
+      "getStructureChanges"
+   ],
+   "StructureManagement-2014-10-MassUpdate" : [
+      "executeMarkupChanges",
+      "expandOneLevel",
+      "getMarkupChangesForUpdate",
+      "getRevisionRules",
+      "getImpactedObjectDetails",
+      "getImpactedObjects",
+      "manageImpactedObjectUpdates",
+      "updateImpactedObjectsEnd",
+      "updateImpactedObjects",
+      "updateImpactedObjectsStart",
+      "validateChangeObjectForMassUpdate"
+   ],
+   "Internal-ImportExport-2010-04-L10NImportExport" : [
+      "exportObjectsForTranslation",
+      "importTranslations",
+      "filterObjectsForTranslation"
+   ],
+   "LibraryManagement-2014-10-LibrarySpecificationManagement" : [
+      "createActionSets",
+      "createApplicationData",
+      "createSpecificationRules",
+      "createSpecifications",
+      "getActionSetsInfo",
+      "getApplicationData",
+      "getGenericPostPlacementData",
+      "getSpecificationRules",
+      "getSpecifications",
+      "getInterfaceConstraintData",
+      "searchGenericPostPlacementParts",
+      "searchPostPartsForCompConns",
+      "attachSpecificationToLibraries",
+      "detachSpecificationFromLibraries",
+      "setGenericPostPlacementData",
+      "setInterfaceConstraintData"
+   ],
+   "AttrTargetMgmt-2020-12-AttributeTargetManagement" : [
+      "attachParameters",
+      "createParameters",
+      "getLatestMeasureValues",
+      "getParameters",
+      "updateParameters"
+   ],
+   "Internal-ViewMgmtAW-2019-06-ViewDataManagement" : [
+      "manageRecipe",
+      "manageRecipes2",
+      "executeRecipes"
+   ],
+   "ColorAppearance-2014-12-AppearanceManagement" : [
+      "getColorAppearance",
+      "setColorAppearance"
+   ],
+   "Internal-TestManagement-2015-03-InstanceManagement" : [
+      "editObjects",
+      "createObjects",
+      "getTestInstances"
+   ],
+   "Manufacturing-2014-12-StructureSearch" : [
+      "createOrUpdateAssignmentRecipe",
+      "getAssignmentRecipes",
+      "resolveAssignmentRecipe",
+      "deleteAssignmentRecipes"
+   ],
+   "Internal-FmeaManager-2019-12-FMEADataManagement" : [
+      "getFormSheetData"
+   ],
+   "MROCoreAw-2018-12-MROCoreAw" : [
+      "generatePhysicalStructure",
+      "rebasePhysicalPart"
+   ],
+   "Internal-TestManagement-2014-12-ActivityManagement" : [
+      "getTestResults"
+   ],
+   "Internal-AWS2-2020-05-UiConfig" : [
+      "getNamedColumnConfigs",
+      "loadNamedColumnConfig",
+      "createNamedColumnConfig",
+      "deleteNamedColumnConfig",
+      "saveNamedColumnConfig"
+   ],
+   "AttrTargetMgmt-2015-10-AttributeTargetManagement" : [
+      "deleteMeasurableAttributes"
+   ],
+   "Internal-BranchAndVersioning-2018-12-BranchingAndVersioning" : [
+      "branchOutNodes2",
+      "checkoutNodes2",
+      "promoteBranchNodes2",
+      "cancelCheckoutNodes2",
+      "publishBranchNodes2"
+   ],
+   "Core-2012-09-DataManagement" : [
+      "saveAsObjectAndRelate"
+   ],
+   "Internal-IppeCore-2020-12-OBSManagement" : [
+      "getOBSElementsForResourcePkgUpdate",
+      "getOBSElementsForResPkgRequest"
+   ],
+   "Manufacturing-2018-11-StructureManagement" : [
+      "copyRecursively",
+      "pasteDuplicateStructure"
+   ],
+   "Internal-SimProc-2017-11-SimStructureManagement" : [
+      "executeStructureMapOnSelection"
+   ],
+   "Internal-Visualization-2017-05-DataManagement" : [
+      "getSnapshot3DInfo2"
+   ],
+   "CalendarManagement-2008-06-CalendarManagement" : [
+      "createCalendars",
+      "updateCalendars"
+   ],
+   "ProjectManagement-2007-01-ScheduleManagement" : [
+      "addMemberships",
+      "baselineTasks",
+      "copySchedules",
+      "createNewBaselines",
+      "createSchedule",
+      "createScheduleDeliverableTemplates",
+      "createTaskDeliverableTemplates",
+      "deleteSchedulingObjects"
+   ],
+   "Internal-ProductConfiguratorAw-2017-12-ConfiguratorManagement" : [
+      "createCustomVariantRule",
+      "getVariantConfigurationData"
+   ],
+   "Internal-Core-2018-11-LogicalObject" : [
+      "addIncludedLogicalObjects"
+   ],
+   "Cad-2020-01-AppSessionManagement" : [
+      "createOrUpdateSavedSession",
+      "openSavedSession"
+   ],
+   "Core-2014-06-DataManagement" : [
+      "getTraceReport2",
+      "getTraceReportLegacy"
+   ],
+   "Internal-AWS2-2019-12-DataManagement" : [
+      "getIdContexts",
+      "getIdentifierTypes",
+      "createIdDisplayRules"
+   ],
+   "Internal-ClassificationCommon-2020-01-Classification" : [
+      "deleteClassificationObjects",
+      "getClassificationObjects",
+      "saveClassificationObjects"
+   ],
+   "Ldf-2016-09-LinkedDataRequest" : [
+      "getLDFPropertiesRelationTypes"
+   ],
+   "Internal-Retail-2011-02-Retail" : [
+      "activateOrInactivateSKUs"
+   ],
+   "Internal-ActiveWorkspaceReqMgmt-2019-06-SpecNavigation" : [
+      "reuseSpecification",
+      "createReqSpecFromHTMLTemplate"
+   ],
+   "SrmIntegration-2009-10-SRMIntegration" : [
+      "exportToSRM"
+   ],
+   "MES-2010-09-WorkInstructions" : [
+      "loadWorkInstructionDoc",
+      "saveWorkInstructionDoc"
+   ],
+   "PMIManagement-2014-06-PMIManagement" : [
+      "getDCDs"
+   ],
+   "StructureManagement-2008-05-StructureSearch" : [
+      "nextSearch",
+      "startSearch",
+      "stopSearch"
+   ],
+   "Internal-ChangeManagement-2012-10-ChangeManagement" : [
+      "getCreatableChangeTypes"
+   ],
+   "Internal-ActiveWorkspaceSysEng-2018-05-DiagramManagement" : [
+      "getDiagramLegend5"
+   ],
+   "SimProc-2016-05-SimulationToolLaunch" : [
+      "executeSimulationToolLaunch"
+   ],
+   "Classification-2015-10-Classification" : [
+      "getClassDefinitions"
+   ],
+   "Internal-Manufacturing-2015-10-StructureManagement" : [
+      "alignLinesInBOM",
+      "getEquivalentPropertyValues",
+      "pasteOrReplaceAssemblyInContext"
+   ],
+   "Manufacturing-2008-06-DataManagement" : [
+      "createOrUpdateMEActivityFolders",
+      "createOrUpdateMENXObjects"
+   ],
+   "Internal-Cad-2008-03-DataManagement" : [
+      "exportConfiguredNXAssembly"
+   ],
+   "Internal-AWS2-2015-10-FullTextSearch" : [
+      "createFullTextSavedSearch",
+      "modifyFullTextSavedSearch",
+      "deleteFullTextSavedSearch"
+   ],
+   "Internal-StructureManagement-2013-12-StructureExpansionLite" : [
+      "expandBasedOnOccurrenceList2",
+      "expandNext2",
+      "getUndelivered2",
+      "unloadBelow2"
+   ],
+   "Internal-GlobalMultiSite-2007-06-ImportExport" : [
+      "confirmExport",
+      "dryRunExport",
+      "exportObjects",
+      "importObjects"
+   ],
+   "BranchAndVersioning-2017-06-BranchingAndVersioning" : [
+      "manageBranchDiagram"
+   ],
+   "StructureManagement-2014-10-Structure" : [
+      "toggleOccurrenceSuppression",
+      "togglePrecision",
+      "cloneStructureExpandOrUpdate",
+      "cloneStructure",
+      "cloneStructureAsync"
+   ],
+   "ValidationContractAW-2016-03-VCManagement" : [
+      "getAnalysisRequestInfo"
+   ],
+   "Internal-Cae-2012-02-StructureManagement" : [
+      "generateNodeXML",
+      "executeDatamap",
+      "executeStructureMap"
+   ],
+   "SvcProcessing-2009-06-ServiceProcessing" : [
+      "setTxnElementStatus"
+   ],
+   "MDConnectivity-2016-10-MDConnectivity" : [
+      "findConnectionsOnPort2",
+      "queryParentElementGroup2"
+   ],
+   "Internal-StructureManagement-2014-12-Restructure" : [
+      "replaceItems"
+   ],
+   "Internal-Administration-2012-10-OrganizationManagement" : [
+      "getOrganizationGroupMembers"
+   ],
+   "Rdv-2010-09-ContextManagement" : [
+      "createSCO",
+      "updateSCO"
+   ],
+   "Core-2007-06-Session" : [
+      "refreshPOMCachePerRequest"
+   ],
+   "DocumentManagement-2018-11-PrintOrRender" : [
+      "containsRenderableFiles",
+      "renderFilesSubmitRequest"
+   ],
+   "Internal-AWS2-2014-11-Workflow" : [
+      "getWorkflowGraphLegend",
+      "getWorkflowGraph"
+   ],
+   "Internal-AWS2-2016-03-Finder" : [
+      "getClassificationProps",
+      "performSearch"
+   ],
+   "StructureManagement-2014-12-Effectivity" : [
+      "createOccurrenceEffectivities",
+      "createReleaseStatusEffectivity"
+   ],
+   "CpdCore-2011-06-Realization" : [
+      "updateWorksetSubsetContent"
+   ],
+   "Internal-ActiveWorkspaceBom-2018-12-Compare" : [
+      "getCompareOptions",
+      "compareContent2"
+   ],
+   "CmAws-2020-05-Changes" : [
+      "generateStructureEdit",
+      "generateStructureEditAsync"
+   ],
+   "StructureManagement-2012-09-Structure" : [
+      "validateOccurrenceConditions",
+      "validateParentChildConditions",
+      "add"
+   ],
+   "Internal-ActiveWorkspaceBom-2018-05-OccurrenceManagement" : [
+      "addSubstitutes",
+      "duplicateAndReplace",
+      "preferSubstitute",
+      "removeElements",
+      "removeSubstitutes",
+      "duplicateAndReplaceAsync"
+   ],
+   "Internal-Core-2014-10-Licensing" : [
+      "updateLicenseServer"
+   ],
+   "Internal-MultiSite-2007-06-ObjectDirectory" : [
+      "describePublicationRecords",
+      "distributedApplication",
+      "getODSVersion",
+      "locatePublishedObjects",
+      "queryItemIdRecords",
+      "queryPublicationRecords",
+      "createItemIdRecords",
+      "deleteItemIdRecords",
+      "publishObjects",
+      "unpublishObjects",
+      "updatePublicationRecords"
+   ],
+   "ActiveWorkspaceSysEng-2012-10-DiagramManagement" : [
+      "createConnections",
+      "createTracelinks",
+      "deleteConnections",
+      "getDiagramLegend",
+      "getChildOccsPortsConnections"
+   ],
+   "Query-2010-04-SavedQuery" : [
+      "findSavedQueries"
+   ],
+   "Reports-2007-01-CrfReports" : [
+      "createReportDefinition",
+      "generateReportDefintionIds",
+      "generateReport",
+      "getReportDefinitions"
+   ],
+   "Internal-DebugMonitor-2019-06-DebugLogging" : [
+      "startLogging",
+      "stopLogging"
+   ],
+   "Internal-Manufacturing-2014-12-ResourceManagement" : [
+      "getVendorCatalogInfo2",
+      "getStepP21FileCounts2",
+      "importStepP21Files2"
+   ],
+   "Internal-SimProc-2015-03-SimStructureManagement" : [
+      "getCompositeLineNodes",
+      "getCompositeLineNodesExpandBelow",
+      "generateNodeXML",
+      "getTargetReferencesLineNodes",
+      "getTargetRefLineNodesExpandBelow"
+   ],
+   "Internal-DebugMonitor-2011-06-DebugLogging" : [
+      "dumpStatistics",
+      "getJournalingStatus",
+      "getStatisticsStatus",
+      "resetStatistics",
+      "setCheckingLevel",
+      "setJournalEntries",
+      "setSQLLogging",
+      "setStatistics",
+      "setTAOLogLevel",
+      "getCheckingLevel",
+      "getLoggerLevels",
+      "getModuleJournalStatus",
+      "getDebugStatus",
+      "getSQLLogging",
+      "getTAOLogLevel",
+      "getJournalFile",
+      "getSyslogFile",
+      "setLoggerLevels",
+      "setModuleJournalStatus"
+   ],
+   "Internal-Capaonawc-2020-12-QualityIssueManagement" : [
+      "markObjectAsRootCause2",
+      "deriveProblemSolvingItems",
+      "createPngDatasetFromSvgDiagram"
+   ],
+   "Internal-ActiveWorkspaceBom-2015-07-OccurrenceManagement" : [
+      "findMatchingFilters"
+   ],
+   "AsBuilt-2010-04-AsBuilt" : [
+      "rebuildAsBuiltStructure",
+      "searchInstallablePhysPart",
+      "setMroWindowTopLine"
+   ],
+   "Internal-ObjectDataServices-2020-12-ObjectDataServices" : [
+      "findObjects2"
+   ],
+   "Internal-ChangeManagement-2020-01-MassUpdate" : [
+      "hasActiveMarkupAssociated",
+      "saveImpactedAssemblies"
+   ],
+   "CpdCore-2016-10-DataManagement" : [
+      "create4GDPreviewFromMapping",
+      "create4GObjectsFromPreview"
+   ],
+   "Internal-Manufacturing-2014-06-DataManagement" : [
+      "automaticMFGFeaturesAssignment"
+   ],
+   "Internal-Requirementsmanagement-2009-10-RequirementsManagement" : [
+      "importUnmanagedData"
+   ],
+   "Internal-CadBomAlignment-2010-09-QueryManagement" : [
+      "refreshProxies"
+   ],
+   "Cad-2007-01-DataManagement" : [
+      "createOrUpdateParts",
+      "createOrUpdateRelations",
+      "expandFoldersForCAD",
+      "expandGRMRelations",
+      "expandPrimaryObjects",
+      "generateAlternateIds",
+      "getAllAttrMappings",
+      "getAttrMappingsForDatasetType",
+      "getAvailableTypes",
+      "resolveAttrMappingsForDataset"
+   ],
+   "Internal-ResourceManager-2020-12-ResourceOccurrencesManagement" : [
+      "addResourceElementsPostActions",
+      "removeResourceElements"
+   ],
+   "Internal-StructureManagement-2008-03-Structure" : [
+      "resequence"
+   ],
+   "Internal-MROCore-2008-06-MROCore" : [
+      "nameOccurrence",
+      "setupDeviation"
+   ],
+   "Internal-Process-2017-05-Clone" : [
+      "cloneObjects",
+      "updateCloneObjects"
+   ],
+   "ContMgmtBase-2011-06-ContentManagement" : [
+      "createBomWindow",
+      "composeContent",
+      "decomposeContent",
+      "importGraphicOption",
+      "preparePublish",
+      "savePublishOutput",
+      "setBomWindowTopLine",
+      "prepareTranslationDelivery"
+   ],
+   "Internal-Notification-2017-11-SubscriptionManagement" : [
+      "getSubscribableProperties"
+   ],
+   "Internal-MfgBvrCore-2015-03-Reports" : [
+      "generateReport2"
+   ],
+   "Internal-Query-2008-06-Finder" : [
+      "findObjectsByClassAndAttributes"
+   ],
+   "Realization-2015-07-ModelStructureExpand" : [
+      "expandModelStructure"
+   ],
+   "AdsFoundation-2016-10-AdsFoundation" : [
+      "changeOwningProgramOfItems"
+   ],
+   "Internal-AWS2-2016-12-Finder" : [
+      "performSearch2"
+   ],
+   "Internal-AWS2-2019-06-AdvancedSavedSearch" : [
+      "createAdvancedSavedSearch",
+      "updateAdvancedSavedSearch"
+   ],
+   "Requirementsmanagement-2011-06-RequirementsManagement" : [
+      "publishColumnConfiguration"
+   ],
+   "StructureManagement-2012-02-IncrementalChange" : [
+      "carryOver"
+   ],
+   "Cad-2010-09-DataManagement" : [
+      "createOrUpdateParts"
+   ],
+   "Internal-DocumentManagement-2013-05-DigitalSignature" : [
+      "digitalSigningSaveTool",
+      "isCheckOutForSign",
+      "cancelSign"
+   ],
+   "ProductionManagement-2008-06-MeasurementDataQuery" : [
+      "queryEngineeringParameters",
+      "getMeasurementTicket"
+   ],
+   "Core-2008-03-Session" : [
+      "connect",
+      "getFavorites",
+      "setFavorites"
+   ],
+   "Internal-Notification-2014-10-SubscriptionManagement" : [
+      "getSubscriptionConditions",
+      "createSubscriptions",
+      "findSubscriptions",
+      "modifySubscriptions"
+   ],
+   "ProjectManagementAw-2020-05-ScheduleManagementAw" : [
+      "getResourceChartInfo",
+      "shiftSchedules",
+      "shiftSchedulesAsync"
+   ],
+   "StructureManagement-2012-09-VariantManagement" : [
+      "createAndSubstituteVariantItem",
+      "createVariantItem"
+   ],
+   "Core-2007-12-Session" : [
+      "setAndEvaluateIdDisplayRule",
+      "setUserSessionState"
+   ],
+   "Core-2006-03-FileManagement" : [
+      "getFileReadTickets",
+      "getDatasetWriteTickets",
+      "commitDatasetFiles"
+   ],
+   "Internal-SimProc-2020-04-SimDataManagement" : [
+      "processCAEPackage"
+   ],
+   "CpdCore-2016-05-StructureExpand" : [
+      "nextExpandStructure3",
+      "startExpandStructure3"
+   ],
+   "MDOManagement-2020-12-MultiDisciplinaryDataMgt" : [
+      "link4GAndBVRDesignInstances",
+      "getLinkedInstancesFor4G",
+      "getLinkedInstancesForBVR",
+      "unlink4GAndBVRDesignInstances"
+   ],
+   "Internal-Core-2010-04-StructureManagement" : [
+      "validateInStructureAssociations"
+   ],
+   "IssueManagement-2013-05-IssueManagement" : [
+      "getIssueSceneFiles"
+   ],
+   "Internal-Core-2018-12-Licensing" : [
+      "updateLicenseServer2"
+   ],
+   "AttrTargetMgmtAW-2020-12-AttributeTargetManagement" : [
+      "setParametersDirection"
+   ],
+   "Internal-Configurator-2014-06-ConfiguratorManagement" : [
+      "createUpdateVariantRules",
+      "getVariantExpressionDisplayStrings",
+      "getFamilyGroups",
+      "getOptionFamilies",
+      "getOptionValues",
+      "getProductDefaults",
+      "getVariantCache",
+      "executeSearch",
+      "fetchNextSearchResults",
+      "validateProductConfiguration",
+      "getDefaultRules",
+      "getExcludeRules",
+      "getIncludeRules",
+      "getModelsForProduct",
+      "stopSearch"
+   ],
+   "Internal-ProjectManagement-2007-06-ScheduleManagement" : [
+      "loadProgramView",
+      "loadResourceAssignments",
+      "modifySchedule"
+   ],
+   "CpdCore-2012-06-DataManagement" : [
+      "createOrUpdateDesignControlElements",
+      "substituteAsReuseDesignElement2"
+   ],
+   "Ai-2012-09-Ai" : [
+      "findRequests",
+      "getProjectsInfo2",
+      "getRequestsInfo2",
+      "getProjects",
+      "setProjectsInfo",
+      "setRequestsInfo"
+   ],
+   "Internal-Core-2007-01-DataManagement" : [
+      "getAttributeValues",
+      "getOrganizationInformation"
+   ],
+   "Internal-Cad-2008-05-DataManagement" : [
+      "resolveAttrMappingsForNX"
+   ],
+   "Internal-Retail-2009-10-Retail" : [
+      "replaceAllMaterialOcc"
+   ],
+   "Internal-Visualization-2010-04-DataManagement" : [
+      "gatherMarkups"
+   ],
+   "Query-2014-11-Finder" : [
+      "groupObjectsByProperties",
+      "performSearch"
+   ],
+   "Cae-2013-12-SimulationProcessManagement" : [
+      "launchSimulationTool2"
+   ],
+   "MESInteg-2015-10-Release" : [
+      "executionDataExport2"
+   ],
+   "Internal-SubsCmplAW-2019-12-SubstanceCompliance" : [
+      "acknowledgeImpFailureQRecords"
+   ],
+   "Manufacturing-2009-10-ModelDefinitions" : [
+      "getManufacturingPropretyDescs",
+      "getValidRelationTypes"
+   ],
+   "CmAws-2016-12-GraphDisplay" : [
+      "getDependentECNs",
+      "getGraphLegend"
+   ],
+   "Internal-BOMAutomation-2020-05-GenerateBOM" : [
+      "updateTargetBOM",
+      "generateTargetBOMFromSourceBOM",
+      "updateTargetBOMAsync"
+   ],
+   "Administration-2015-07-UserManagement" : [
+      "createOrUpdateUser"
+   ],
+   "Core-2017-05-FileManagement" : [
+      "commitDatasetFilesInBulk",
+      "replaceFiles"
+   ],
+   "Internal-CaeAw-2018-05-SimulationManagementAw" : [
+      "getTicketsForExternalLinks",
+      "processSimulationToolMultiLaunch2"
+   ],
+   "Internal-AwReqMgmtSe-2018-05-SpecNavigation" : [
+      "moveOccurrences"
+   ],
+   "Partition-2012-09-Search" : [
+      "createPartitionExpressions",
+      "executeSearch",
+      "fetchNextSearchResults",
+      "stopSearch"
+   ],
+   "Internal-SubsCmplAW-2018-05-SubstanceCompliance" : [
+      "applyDeclarationApprovals"
+   ],
+   "Internal-CbaExt-2013-05-PublishManagement" : [
+      "publishCadOccurrences",
+      "publishItems"
+   ],
+   "Internal-AWS2-2018-05-TCXML" : [
+      "getDiagnosticInfoForAcctTables",
+      "installDBTriggersForDataSync",
+      "removeDBTriggersForDataSync"
+   ],
+   "Internal-VendorManagementAW-2020-05-VendorManagement" : [
+      "assignPartnerContractToObject2",
+      "removePartnerContractFromObject2",
+      "getAssignedProductsOfContract"
+   ],
+   "MROCore-2020-04-MROCore" : [
+      "recordAndInvalidateUtilization"
+   ],
+   "Internal-IcsAw-2018-12-Classification" : [
+      "findClassificationInfo2",
+      "saveClassificationObjects2"
+   ],
+   "Internal-AWS2-2016-12-RequirementsManagement" : [
+      "exportToApplication2",
+      "setRichContent2",
+      "exportAsync"
+   ],
+   "Core-2015-10-DataManagement" : [
+      "reassignParticipants"
+   ],
+   "Internal-SimProc-2019-06-SimProcessConfigurationManagement" : [
+      "getDashboardDataForIRList",
+      "getDashboardDataForModelStructure"
+   ],
+   "AttrTargetMgmtAW-2017-06-AttributeTargetManagement" : [
+      "attachMeasurableAttributes"
+   ],
+   "Internal-SupplierCollaboration-2015-07-SupplierCollaboration" : [
+      "expandBOMForSupplier",
+      "getQueryDetailsForSupplier",
+      "performSearchForSupplier",
+      "fetchSupplierTrackingReport",
+      "createOrUpdateDesignExchange",
+      "updateEvent"
+   ],
+   "Core-2016-09-DataManagement" : [
+      "createAttachAndSubmitObjects"
+   ],
+   "Internal-Process-2017-05-ManufacturingDisclosure" : [
+      "getBackgroundElements",
+      "addBackgroundElements",
+      "removeBackgroundElements"
+   ],
+   "Internal-GlobalMultiSite-2017-05-ImportExport" : [
+      "transformData"
+   ],
+   "Internal-Administration-2014-10-UserManagement" : [
+      "activateUsers2"
+   ],
+   "Internal-Query-2014-10-SavedQuery" : [
+      "describeSavedQueryDefinitions3"
+   ],
+   "Internal-ActiveWorkspaceBom-2018-12-Markup" : [
+      "applyMarkup",
+      "cancelMarkup"
+   ],
+   "Internal-AsMaintainedAw-2016-03-AsMaintainedAw" : [
+      "installPartUsingSerialNumber"
+   ],
+   "Internal-VendorManagementAW-2019-12-VendorManagement" : [
+      "assignPartnerContractToObject",
+      "removePartnerContractFromObject",
+      "getColumnInfo",
+      "getPartnerContractsOfSelectedObject"
+   ],
+   "Internal-ControlPlan-2020-05-ControlPlanPmiImport" : [
+      "importPMIInControlPlanStruct"
+   ],
+   "Manufacturing-2013-05-DataManagement" : [
+      "createAttachments",
+      "syncStudyAndSource",
+      "setAttributes"
+   ],
+   "Partition-2013-05-PartitionManagement" : [
+      "clonePartitions",
+      "createOrUpdateRealizedPartitions"
+   ],
+   "SubstanceCompliance-2012-09-SubstanceCompliance" : [
+      "getSubstanceComplianceSummary"
+   ],
+   "cfgvalidation-2018-12-ConfigurableValidation" : [
+      "createOrUpdateValidationResults",
+      "getValidationResults"
+   ],
+   "Internal-Core-2010-09-DataManagement" : [
+      "getDatasetFiles"
+   ],
+   "Internal-Core-2010-04-DataManagement" : [
+      "getSubscribableTypesAndSubTypes"
+   ],
+   "ModelCore-2014-10-DataManagement" : [
+      "cloneModelContent"
+   ],
+   "Cad-2014-10-DataManagement" : [
+      "getAttrMappings"
+   ],
+   "Internal-BranchAndVersioning-2017-12-BranchingAndVersioning" : [
+      "branchOutNodes",
+      "checkoutNodes",
+      "promoteBranchNodes",
+      "publishBranchNodes"
+   ],
+   "Core-2013-05-LOV" : [
+      "getInitialLOVValues",
+      "getNextLOVValues",
+      "validateLOVValueSelections"
+   ],
+   "Internal-ControlPlan-2020-05-RuleEngine" : [
+      "createUpdateRuleConditions"
+   ],
+   "Core-2013-05-DataManagement" : [
+      "generateNextValues",
+      "getChildren",
+      "getPasteRelations",
+      "reviseObjects",
+      "getSubTypeNames",
+      "validateValues"
+   ],
+   "Core-2010-09-DataManagement" : [
+      "createOrUpdateStaticTableData",
+      "getEventTypes",
+      "postEvent",
+      "setProperties",
+      "getStaticTableData",
+      "verifyExtension"
+   ],
+   "ProjectManagement-2011-02-ScheduleManagement" : [
+      "specialPasteScheduleTasks"
+   ],
+   "Internal-ConfigFilterCriteria-2013-12-VariantManagement" : [
+      "executeConfiguratorService"
+   ],
+   "Core-2007-06-LOV" : [
+      "getAttachedLOVs"
+   ],
+   "ProjectManagement-2012-02-ScheduleManagement" : [
+      "createDependencies",
+      "assignResources",
+      "createTasks",
+      "findCriticalPathTasks",
+      "deleteTasks",
+      "launchScheduledWorkflow",
+      "deleteAssignments",
+      "deleteDependencies",
+      "moveTasks",
+      "recalculateScheduleNonInteractive",
+      "scaleScheduleNonInteractive",
+      "shiftScheduleNonInteractive",
+      "updateAssignments",
+      "updateDependencies",
+      "updateSchedules",
+      "updateTasks"
+   ],
+   "MDOManagement-2017-05-MultiDisciplinaryDataMgt" : [
+      "carryForwardMDInstanceAssociation",
+      "carryForwardMDThreadAssociation",
+      "linkDesignInstances2",
+      "queryNeedsValidationLink",
+      "searchForLinkedDesignInstances2",
+      "searchForArtifactsUsingInstances3",
+      "searchMDO3",
+      "updateDomainRelevancy",
+      "updateLinksToValidated",
+      "updateMDInstanceToMDThreadLink"
+   ],
+   "Internal-Core-2007-12-Session" : [
+      "getProperties"
+   ],
+   "Manufacturing-2013-05-StructureManagement" : [
+      "findAffectedCCs"
+   ],
+   "Internal-SimProc-2018-11-SimProcessStatusManagement" : [
+      "deleteSimProcessStatusObjects"
+   ],
+   "Cae-2011-06-SimulationProcessManagement" : [
+      "launchSimulationTool"
+   ],
+   "DocumentManagement-2010-04-DigitalSignature" : [
+      "digitalSigningSave"
+   ],
+   "StructureManagement-2015-10-Effectivity" : [
+      "editOccurrenceEffectivity",
+      "editReleaseStatusEffectivity",
+      "removeOccurrenceEffectivities",
+      "removeReleaseStatusEffectivity"
+   ],
+   "Internal-StockMaterialAW-2017-12-StockMaterial" : [
+      "getInputCutDimensionData"
+   ],
+   "Administration-2012-10-IRM" : [
+      "getAMImpactedObjects",
+      "getSessionValues"
+   ],
+   "AsMaintained-2015-03-AsMaintained" : [
+      "recordUtilization"
+   ],
+   "AuthorizedDataAccess-2007-06-LicenseManagement" : [
+      "getLicenseDetails",
+      "getLicenseIdsAndTypes",
+      "attachLicenses",
+      "deleteLicense",
+      "removeLicenses",
+      "setLicenseDetails"
+   ],
+   "Internal-Cae-2013-05-StructureManagement" : [
+      "getCAEPropertyComparisonDetails"
+   ],
+   "Internal-Visualization-2011-02-DataManagement" : [
+      "createLaunchFile"
+   ],
+   "BranchFoundation-2017-05-BranchFoundation" : [
+      "createBranches",
+      "addContentToBranch"
+   ],
+   "ModelCore-2017-05-Search" : [
+      "createSearchExpressions"
+   ],
+   "Internal-BomCore-2017-05-AlignmentManagement" : [
+      "alignPartOccurrences",
+      "getAlignedPartOccurrences",
+      "alignPartAndDesigns",
+      "markPrimaryDesignOnPart",
+      "unAlignPartAndDesigns",
+      "unAlignPartOccurrences",
+      "unAlignPartUsageAndDesignElements"
+   ],
+   "Internal-BusinessModeler-2010-04-DataModelManagement" : [
+      "deployDataModel",
+      "getChangedTemplateFiles",
+      "getTemplateFiles"
+   ],
+   "Internal-AWS2-2012-10-Finder" : [
+      "findObjectsByClassAndAttributes2",
+      "findUsersTasks"
+   ],
+   "Internal-ActiveModeler-2019-12-DataModelManagement" : [
+      "getPropertiesDetails",
+      "getPropertiesForType",
+      "getTypesDetails",
+      "getRootTypes",
+      "getSubTypes"
+   ],
+   "ProjectManagement-2007-06-ScheduleManagement" : [
+      "copySchedules",
+      "getNotificationRules",
+      "createOrUpdateNotificationRules",
+      "createTaskDeliverableTemplates",
+      "deleteNotificationRules"
+   ],
+   "Cad-2016-03-DataManagement" : [
+      "createOrUpdateModelViewProxies",
+      "createOrUpdateModelViewPalette"
+   ],
+   "Internal-Reports-2007-06-BOMRollup" : [
+      "createRollupCalculationTemplates",
+      "generateRollupReports",
+      "reviseRollupReports",
+      "getRollupTemplateCalculations",
+      "cloneRollupTemplates",
+      "createRollupTemplates",
+      "getRollupTemplates"
+   ],
+   "Manufacturing-2011-06-DataManagement" : [
+      "openContexts",
+      "openViews",
+      "closeContexts",
+      "closeViews"
+   ],
+   "ActiveWorkspaceSysEng-2015-10-DiagramManagement" : [
+      "getDiagramLegend4"
+   ],
+   "StructureManagement-2013-05-IncrementalChange" : [
+      "removeIncrementalChanges"
+   ],
+   "Multisite-2007-06-ImportExport" : [
+      "remoteImport"
+   ],
+   "BusinessModeler-2008-06-DeepCopyRules" : [
+      "getDeepCopyInfo"
+   ],
+   "Internal-CharManagerAW-2018-12-QualityManagement" : [
+      "createSpecificationVersion"
+   ],
+   "Internal-ActiveWorkspaceReqMgmt-2020-05-SpecNavigation" : [
+      "markSuspectAsync",
+      "markSuspect"
+   ],
+   "ProductionManagement-2007-06-EngineeringDataQuery" : [
+      "getFeatureAttributeDataOfCluster",
+      "getDatabaseDetailsForPlant",
+      "getEngineeringDataFromRoutine"
+   ],
+   "Core-2007-09-ProjectLevelSecurity" : [
+      "assignOrRemoveObjects"
+   ],
+   "ModelCore-2018-06-Search" : [
+      "createSearchExpressions",
+      "getRecipes3",
+      "setRecipes3"
+   ],
+   "ActiveCollaboration-2020-12-ActiveCollaboration" : [
+      "getReadInfo",
+      "createOrUpdateComment",
+      "createOrUpdateConversation",
+      "deleteComment",
+      "deleteConversation",
+      "manageSubscriptions"
+   ],
+   "Internal-SystemsModeling-2016-03-AlignmentManagement" : [
+      "getAlignmentArtifacts"
+   ],
+   "ProgramInfra-2016-04-ProgramManagement" : [
+      "clonePlanHierarchy",
+      "getEvents",
+      "getPlanHierarchy"
+   ],
+   "Internal-BomCore-2016-10-AlignmentManagement" : [
+      "getAlignedDesignElements"
+   ],
+   "Internal-CbaExt-2016-03-QueryManagement" : [
+      "executeSpatialSearch"
+   ],
+   "Internal-ActiveWorkspaceBom-2018-12-OccurrenceManagement" : [
+      "addObject",
+      "getOccurrences"
+   ],
+   "Core-2008-06-DataManagement" : [
+      "createDatasets2",
+      "addParticipants",
+      "createConnections",
+      "createOrUpdateGDELinks",
+      "createOrUpdateItemElements",
+      "createOrUpdateRelations",
+      "createObjects",
+      "findDisplayableSubBusinessObjects",
+      "getItemAndRelatedObjects",
+      "getNextIds",
+      "getNRPatternsWithCounters",
+      "getRevNRAttachDetails",
+      "revise2",
+      "saveAsNewItem2",
+      "removeParticipants"
+   ],
+   "Internal-Core-2020-04-LogicalObject" : [
+      "addMemAndPresentedPropsWithWrite"
+   ],
+   "Workflow-2019-06-Workflow" : [
+      "createOrUpdateHandler",
+      "createOrUpdatePAL",
+      "createOrUpdateTemplate",
+      "getRegisteredHandlers"
+   ],
+   "CpdCore-2014-10-StructureExpand" : [
+      "nextExpandStructure2",
+      "startExpandStructure2"
+   ],
+   "ProjectManagementAw-2016-12-ScheduleManagementAw" : [
+      "loadSchedule",
+      "removeAssignments",
+      "replaceMemberAssignments",
+      "removeAssignmentsAsync",
+      "replaceMemberAssignmentsAsync"
+   ],
+   "Internal-Manufacturing-2017-05-ImportExport" : [
+      "exportToBriefcaseAsync",
+      "importFromBriefcaseAsync"
+   ],
+   "Internal-OccMgmt-2020-05-ImportExport" : [
+      "importExcelAndUpdateMappingGrp",
+      "getMappingGroupInfo",
+      "importExcelAndUpdateMappingGrpAsync"
+   ],
+   "CpdCore-2011-06-StructureExpand" : [
+      "stopExpandStructure",
+      "nextExpandStructure",
+      "startExpandStructure"
+   ],
+   "IssueManagement-2010-04-IssueManagement" : [
+      "configureIssueLists",
+      "getExpandIssueLists"
+   ],
+   "MROCore-2018-06-MROCore" : [
+      "recordAndInvalidateUtilization"
+   ],
+   "IMDSIntegration-2016-09-IMDSIntegration" : [
+      "getApplicableIMDSUploadActions",
+      "sendDataToIMDS"
+   ],
+   "Partition-2018-11-Search" : [
+      "executeSearch",
+      "executeSearchAsync"
+   ],
+   "Manufacturing-2012-02-DataManagement" : [
+      "associateAndAllocateByPreview",
+      "automaticAssociateAndAllocate",
+      "getAssociatedContexts",
+      "automaticAllocatePreview",
+      "connectObjects",
+      "addAssociatedContexts",
+      "disconnectFromOrigin"
+   ],
+   "AuthorizedDataAccess-2013-05-LicenseManagement" : [
+      "getLicenseDetails4",
+      "createOrUpdateLicense"
+   ],
+   "ProjectManagement-2007-12-ScheduleManagement" : [
+      "getDemandProfile"
+   ],
+   "SimProc-2017-05-SimStructureManagement" : [
+      "executeStructureMap"
+   ],
+   "Internal-Core-2013-05-Licensing" : [
+      "getLicenseBundles"
+   ],
+   "Internal-SystemsModeling-2017-06-DiagramManagement" : [
+      "getInterfaces"
+   ],
+   "ProjectManagement-2017-11-ScheduleManagement" : [
+      "whatIfAnalysis"
+   ],
+   "MaterialManagement-2012-09-MaterialManagement" : [
+      "getMaterialSubstanceInfo"
+   ],
+   "Internal-Core-2009-10-Thumbnail" : [
+      "getThumbnailFileTickets",
+      "updateThumbnail"
+   ],
+   "Internal-MROCoreAw-2018-12-MROCoreAw" : [
+      "generatePhysicalStructureAsync"
+   ],
+   "Diagramming-2012-09-DiagramManagement" : [
+      "createOrUpdateTemplate"
+   ],
+   "Rdv-2013-05-ContextManagement" : [
+      "getRelatedObjectsInContext"
+   ],
+   "DocumentManagement-2010-04-LaunchDefinition" : [
+      "getLaunchDefinition"
+   ],
+   "StructureManagement-2016-05-StructureVerification" : [
+      "getAttrGrpsAndFormsComparisonDetail",
+      "accountabilityCheck2"
+   ],
+   "SubstanceCompliance-2016-10-SubstanceCompliance" : [
+      "relateComplianceCategories"
+   ],
+   "MfgBvrCore-2014-06-DataManagement" : [
+      "getOptions"
+   ],
+   "StructureManagement-2019-06-VariantManagement" : [
+      "applyBOMVariantRules2",
+      "getBOMVariantRules2",
+      "setBOMVariantRules2"
+   ],
+   "Internal-Cae-2012-09-StructureManagement" : [
+      "createNewModelByDM",
+      "executeDatamap",
+      "updateModelAttsByDM",
+      "executeMarkUpToDate"
+   ],
+   "Cad-2008-06-DataManagement" : [
+      "createOrUpdateParts",
+      "expandFoldersForCAD"
+   ],
+   "Internal-StructureManagement-2018-06-SolutionVariantManagement" : [
+      "createMultilevelSolutionVariants",
+      "createSolutionVariantItems",
+      "loadSolutionVariantItems",
+      "searchSolutionVariantItems"
+   ],
+   "Workflow-2014-06-Workflow" : [
+      "performAction3",
+      "performActionWithSignature",
+      "setActiveSurrogate",
+      "setOutOfOffice",
+      "setSurrogate"
+   ],
+   "Internal-Core-2007-06-ProjectLevelSecurity" : [
+      "getFilteredProjectData",
+      "getProjectsSmartFolderHierarchy",
+      "getTopLevelSmartFolderHierarchy"
+   ],
+   "Internal-ActiveWorkspaceBom-2015-10-OccurrenceManagement" : [
+      "saveSelections"
+   ],
+   "Manufacturing-2014-12-Validation" : [
+      "getMaturityReport"
+   ],
+   "Internal-Administration-2007-06-PreferenceManagement" : [
+      "exportPreferences",
+      "getModifiedSitePreferences",
+      "getNonSessionPreferences",
+      "createPreferenceCategories",
+      "deletePreferences",
+      "importPreferences"
+   ],
+   "Internal-Manufacturing-2016-03-ResourceManagement" : [
+      "createSetupSheets"
+   ],
+   "Internal-Process-2017-11-ProductSubset" : [
+      "getOwningObjectCSIDsForModelViews",
+      "searchPartitions"
+   ],
+   "Ai-2013-12-Ai" : [
+      "findRequestsWithDependencies"
+   ],
+   "Internal-AwReqMgmtSe-2018-12-SpecNavigation" : [
+      "getTraceabilityMatrix",
+      "getTraceabilityMatrixAsync"
+   ],
+   "ImportExport-2012-09-FileImportExport" : [
+      "importFromApplication"
+   ],
+   "Internal-AWS2-2017-12-DataManagement" : [
+      "getAvailableWorkspaces",
+      "getTableViewModelProperties",
+      "getViewModelProperties2",
+      "loadViewModelForEditing2",
+      "getTCSessionAnalyticsInfo"
+   ],
+   "Internal-AWS2-2014-11-RequirementsManagement" : [
+      "getExportTemplates"
+   ],
+   "ProjectManagement-2012-09-ScheduleManagement" : [
+      "assignResources",
+      "claimAssignment"
+   ],
+   "ModelCore-2015-07-GeometricConnectivity" : [
+      "createOrUpdateGeomConnGroups",
+      "getConnectivityContents",
+      "getConnectivityGroupContents"
+   ],
+   "UmlSysml-2018-12-UmlSysml" : [
+      "getModelElements2",
+      "updateModelElements3"
+   ],
+   "AsBuilt-2009-06-AsBuilt" : [
+      "replaceAsBuiltPart"
+   ],
+   "Internal-ClassificationCommon-2020-12-Classification" : [
+      "getClassificationObjects",
+      "saveClassificationObjects",
+      "deleteClassificationObjects"
+   ],
+   "Internal-Administration-2015-10-UserManagement" : [
+      "resetUserPassword"
+   ],
+   "GlobalMultiSite-2011-06-ImportExport" : [
+      "createGSIdentities",
+      "getHashedUID"
+   ],
+   "ProjectManagement-2014-10-ScheduleManagement" : [
+      "createPhaseGateTask",
+      "replaceAssignment",
+      "getResourceGraphData",
+      "getCostRollupData",
+      "getEVMResults",
+      "verifySchedule",
+      "detachSchedule",
+      "insertSchedule"
+   ],
+   "Cad-2007-09-StructureManagement" : [
+      "createOrUpdateVariantConditions2"
+   ],
+   "SvcScheduling-2014-10-SvcScheduling" : [
+      "recordUtilization",
+      "updateConfiguration"
+   ],
+   "Internal-Process-2017-05-Assignment" : [
+      "getAssignmentData",
+      "getAssignmentTypeInformation",
+      "getClientRequiredInfo",
+      "getConnectedInfo",
+      "getDesignModelViews",
+      "getVisualizationIDsInWorkset",
+      "getVisualizationIDs",
+      "getObjectsByVisualizationID",
+      "search"
+   ],
+   "Internal-IcsAw-2019-12-Classification" : [
+      "findClassificationInfo3"
+   ],
+   "Core-2019-06-DataManagement" : [
+      "unlinkAndDeleteObjects"
+   ],
+   "Ai-2009-10-Ai" : [
+      "getPropertyValues"
+   ],
+   "ContMgmtBase-2016-10-ContentManagement" : [
+      "decomposeContentWithMetaData"
+   ],
+   "Internal-ActiveWorkspaceSysEng-2017-06-DiagramManagement" : [
+      "manageDiagram2"
+   ],
+   "Internal-BehaviorModeling-2015-10-BehaviorModeling" : [
+      "getModelData4",
+      "revise2",
+      "saveAs2",
+      "saveModelData4"
+   ],
+   "Internal-SimProc-2016-05-SimProcessConfigurationManagement" : [
+      "getToolBOMProperties2",
+      "cloneTool2",
+      "createOrUpdateToolObjects2",
+      "unreleaseTools"
+   ],
+   "Internal-ExpressAddons-2012-02-ReviewPackage" : [
+      "exportReviewPackage"
+   ],
+   "LibraryManagement-2014-10-LibraryUsage" : [
+      "findInstantiations",
+      "publishObjectsToLibrary",
+      "retractObjectsFromLibrary",
+      "validateInstantiations"
+   ],
+   "Internal-AWS2-2018-05-Workflow" : [
+      "getWorkflowTaskViewModel"
+   ],
+   "SubstanceCompliance-2014-10-SubstanceCompliance" : [
+      "importMaterialSubstanceData"
+   ],
+   "Internal-Visualization-2010-09-DataManagement" : [
+      "createSnapshot3D",
+      "getNodesPresentInProductView",
+      "findProductViewsForNodes",
+      "gatherSnapshot3DList",
+      "getSnapshot3DInfo",
+      "updateSnapshot3D",
+      "updateSnapshot3DStructureFiles"
+   ],
+   "Workflow-2012-10-Workflow" : [
+      "performAction2"
+   ],
+   "Internal-PlantDataMgmt-2019-06-PdmCore" : [
+      "isMilestoneActivityInProgress"
+   ],
+   "Internal-Retail-2015-10-Retail" : [
+      "getAddColorsInfo",
+      "getColumnsInfo",
+      "getSampleOtherCreateInfo",
+      "getTableSummary",
+      "addColorsToProductsAndMaterials",
+      "applyConstructionTemplates",
+      "applyGradeRuleTemplates",
+      "createSampleRequests",
+      "modifyConstructionDetails",
+      "relateDepartmentAndUpdateBrandInfo",
+      "unlinkPointsOfMeasure",
+      "updateProductFormulasFromSample"
+   ],
+   "Internal-ViewMgmtAW-2019-12-ViewDataManagement" : [
+      "manageRecipes3"
+   ],
+   "Internal-PlantDataMgmt-2020-12-PdmCore" : [
+      "createChangesetAndUpdateIModelData",
+      "getIModelData",
+      "getIncrementalUpdates"
+   ],
+   "ImportExport-2017-11-FileImportExport" : [
+      "exportToApplication"
+   ],
+   "ConfigFilterCriteria-2011-06-EffectivityManagement" : [
+      "getAvailableProductEffectivity",
+      "getConfigurableProducts",
+      "setEffectivityConditions",
+      "getEffectivityExpressions",
+      "convertEffectivityExpressions",
+      "convertEffectivityTables",
+      "getEffectivityConditions",
+      "getEffectivityTables",
+      "getRevRuleEffectivityCriteria",
+      "setRevRuleEffectivityCriteria"
+   ],
+   "Internal-ClassificationCore-2013-05-Classification" : [
+      "createOrUpdateHierarchyViews"
+   ],
+   "Internal-Retail-2014-12-Retail" : [
+      "calculateRollupCost",
+      "createOrUpdateView",
+      "getDerivedImages",
+      "loadLinePlanUsages",
+      "getVendorCapabilities",
+      "addVendorCapabilities",
+      "removeVendorCapabilities",
+      "restoreSelectedDatasetAsLatest"
+   ],
+   "ModelCore-2011-06-IdManagement" : [
+      "autoAssignValues"
+   ],
+   "Configuration-2010-04-SmartUiBldr" : [
+      "getPropertiesForSelections",
+      "getResultForSelections",
+      "getValuesForComponent",
+      "listForerunnersForComponents",
+      "listObjectsForComponents",
+      "listValuesForComponents",
+      "ungetValuesForComponents"
+   ],
+   "Classification-2009-10-Classification" : [
+      "autoComputeAttributes",
+      "getAttributesForClasses2",
+      "getKeyLOVs2",
+      "createOrUpdateKeyLOVs"
+   ],
+   "TestManagement-2014-06-InstanceManagement" : [
+      "deleteTestInstances",
+      "createTestInstances",
+      "createTestInstancesFromTemplate"
+   ],
+   "Internal-Manufacturing-2015-10-StructureSearch" : [
+      "findCollabPlanningContext",
+      "findEquivalentLines"
+   ],
+   "SvcRequest-2012-02-ServiceRequest" : [
+      "delegateRequestedActivity2",
+      "qualifyActivity2"
+   ],
+   "Cad-2009-04-StructureManagement" : [
+      "createOrUpdateRelativeStructure"
+   ],
+   "ViewMgmtAW-2019-06-ViewDataManagement" : [
+      "executeRecipes2"
+   ],
+   "WeldManagement-2012-02-WeldManagement" : [
+      "createUpdateWelds",
+      "deleteWelds",
+      "findWelds"
+   ],
+   "GlobalMultiSite-2008-06-ImportExport" : [
+      "exportObjectsToOfflinePackage",
+      "importObjectsFromOfflinePackage"
+   ],
+   "Administration-2007-06-PreferenceManagement" : [
+      "setPreferences"
+   ],
+   "StructureManagement-2008-12-StructureVerification" : [
+      "accountabilityCheck"
+   ],
+   "Internal-CmSmInterface-2020-01-RelationManagement" : [
+      "propagateOrRollupRelations"
+   ],
+   "Internal-Manufacturing-2013-12-ResourceManagement" : [
+      "showCoordinateSystems",
+      "showGCSConnectionPoints"
+   ],
+   "Core-2012-10-DataManagement" : [
+      "getDatasetTypesWithFileExtension",
+      "getTraceReport",
+      "refreshObjects2"
+   ],
+   "Core-2014-10-DataManagement" : [
+      "saveAsObjectsAndRelate",
+      "generateIdsUsingIDGenerationRules",
+      "getDeepCopyData",
+      "getPasteRelations2",
+      "addChildren",
+      "pruneNamedReferences",
+      "removeChildren"
+   ],
+   "Cad-2013-05-StructureManagement" : [
+      "createBOMWindows2",
+      "createOrUpdateRelativeStructure",
+      "askChildPathBOMLines"
+   ],
+   "Internal-GlobalMultiSite-2007-06-DataMigration" : [
+      "getRUO",
+      "setRUO"
+   ],
+   "Internal-Core-2012-02-DataManagement" : [
+      "getViewableData"
+   ],
+   "Internal-Rdv-2007-09-VariantManagement" : [
+      "getVariantExprXOChartData"
+   ],
+   "Internal-AWS2-2017-06-UiConfig" : [
+      "getOrResetUIColumnConfigs2"
+   ],
+   "SubstanceCompliance-2014-12-SubstanceCompliance" : [
+      "importSupplierDeclarations",
+      "validateSupplierDeclarations"
+   ],
+   "EditContext-2016-04-DataManagement" : [
+      "setChangeContext"
+   ],
+   "Partition-2015-10-PartitionManagement" : [
+      "getMappedPartitions",
+      "getOwningPartitions",
+      "unmapPartitions"
+   ],
+   "Internal-Retail-2013-12-Retail" : [
+      "addColorsOrColorways",
+      "createOrUpdateDimensions2",
+      "getDimensionMapData",
+      "getDimensions2",
+      "getFilteredAuditLogs",
+      "getImpreciseDimensionMapData",
+      "getPreciseDimensionMapData",
+      "saveDimensionMappings"
+   ],
+   "Core-2017-11-LogicalObject" : [
+      "getLogicalObjects"
+   ],
+   "Diagramming-2014-06-DNDManagement" : [
+      "createAndPaste",
+      "createConnectionPortsAndConnect"
+   ],
+   "Workflow-2007-06-Workflow" : [
+      "setReleaseStatus"
+   ],
+   "ESMBase-2011-06-ESMBase" : [
+      "generateHardwareSoftwareReport",
+      "generateSoftwareHardwareReport"
+   ],
+   "StructureManagement-2012-02-StructureVerification" : [
+      "accountabilityCheck",
+      "compareNetEffectivity",
+      "getAssignmentComparisonDetails",
+      "getDescendentComparisonDetails",
+      "getPartitionComparisonDetails",
+      "getPredecessorComparisonDetails",
+      "getPropertyComparisonDetails",
+      "propagateProperties",
+      "accountabilityCheckAsync"
+   ],
+   "Manufacturing-2013-05-IPAManagement" : [
+      "cleanIPATree",
+      "generateIPATree",
+      "updateIPATree",
+      "doesIPAExist",
+      "localUpdateIPATree"
+   ],
+   "Internal-ProductConfiguratorAw-2018-05-ConfiguratorManagement" : [
+      "getFilterPanelData",
+      "validateProductConfigurations",
+      "variantConfigurationView",
+      "getVariantExpressionData",
+      "setVariantExpressionData",
+      "setVariantExpressionData2"
+   ],
+   "Internal-CbaExt-2013-05-QueryManagement" : [
+      "findAlignedACTForCAD",
+      "findAlignedDesignsForSolutions",
+      "findAlignedDrawingForPart"
+   ],
+   "Classification-2016-09-Classification" : [
+      "findValues"
+   ],
+   "SupplierCollaboration-2016-04-SupplierCollaboration" : [
+      "createAndSendDesignExchange",
+      "getExchangeWeblink",
+      "postExchange"
+   ],
+   "Internal-IppeCore-2020-12-CostManagement" : [
+      "createUpdateTimePhasedEstimate",
+      "populateWBSCostElement",
+      "updateDirectCostFromSource"
+   ],
+   "Internal-TestManagement-2014-06-InstanceManagement" : [
+      "getTestInstances",
+      "editTestInstances"
+   ],
+   "Internal-Retail-2010-09-Retail" : [
+      "applyDimension",
+      "applySKU",
+      "createOrUpdateDimensionalConstraints",
+      "createOrUpdateDimensions",
+      "createVendorSKUs",
+      "deleteDimensions",
+      "generateSKUs",
+      "getDimensionalConstraints",
+      "getDimensions",
+      "generatePDF",
+      "getVendorParts",
+      "getVendorSKUs",
+      "searchWSOs",
+      "copySpecifications",
+      "createOrUpdateDimensionConditions"
+   ],
+   "Core-2007-12-DataManagement" : [
+      "getContextsAndIdentifierTypes",
+      "listAlternateIdDisplayRules",
+      "validateAlternateIds",
+      "createAlternateIdentifiers"
+   ],
+   "AsMaintained-2014-06-AsMaintained" : [
+      "generateAsMaintainedStructure"
+   ],
+   "Internal-Administration-2007-06-Authorization" : [
+      "getAuthorization",
+      "setAuthorization"
+   ],
+   "Administration-2010-04-IRM" : [
+      "getAccessorTypes",
+      "getEffectiveACLInfo2",
+      "getExtraProtectionInfo2",
+      "getPrivilegeNames"
+   ],
+   "Internal-StructureManagement-2015-10-VariantManagement" : [
+      "applyVariantConfiguration"
+   ],
+   "Translation-2007-06-TranslationManagement" : [
+      "createTranslationRequest"
+   ],
+   "Internal-Administration-2016-09-VolumeManagement" : [
+      "getAccessibleVolumes"
+   ],
+   "Core-2012-02-DataManagement" : [
+      "bulkCreateObjects",
+      "validateIdValue",
+      "whereUsed"
+   ],
+   "Internal-StructureManagement-2011-06-VariantManagement" : [
+      "getBOMVariantConfigOptions",
+      "getModularOptionsForBom"
+   ],
+   "Internal-Administration-2013-05-UserManagement" : [
+      "activateUsers2"
+   ],
+   "AuthorizedDataAccess-2012-09-LicenseManagement" : [
+      "getLicenseDetails3",
+      "setLicenseDetails"
+   ],
+   "StructureManagement-2018-11-SolutionVariantManagement" : [
+      "compareManagedSolutionVariantItems",
+      "createMultilevelSolutionVariants3",
+      "createSolutionVariantItems3",
+      "loadSolutionVariantItems2",
+      "searchSolutionVariantItems3",
+      "updateManagedSolutionVariantItems",
+      "updateReuseSolutionVariantItems"
+   ],
+   "ServiceForecastingAW-2020-12-ServiceForecastingAW" : [
+      "generateMaintActionForForecasting"
+   ],
+   "Core-2011-06-Session" : [
+      "updateObjectPropertyPolicy",
+      "getClientCacheData",
+      "login",
+      "loginSSO",
+      "getTypeDescriptions"
+   ],
+   "Internal-SimProc-2015-10-SimulationToolLaunch" : [
+      "importSimulationToolLaunchOutputs"
+   ],
+   "BusinessModeler-2007-06-RulesBasedFramework" : [
+      "executeRbfRules"
+   ],
+   "Internal-Configurator-2016-09-ConfiguratorManagement" : [
+      "getOptionValueAvailability"
+   ],
+   "Core-2008-06-PropDescriptor" : [
+      "getCreateDesc"
+   ],
+   "Internal-CaeAw-2019-06-SimulationManagementAw" : [
+      "processConflictFilesOnMonitorJob",
+      "processStatusObjIntermediateImport",
+      "processSimToolAndCapturePedigree",
+      "getSimulationDashboardDataByQuery2",
+      "getDashboardDataByQueryAsync"
+   ],
+   "Internal-Core-2008-06-FileManagement" : [
+      "commitRegularFiles",
+      "getWriteTickets",
+      "getFileTransferTickets",
+      "getRegularFileTicketsForUpload",
+      "updateImanFileCommits"
+   ],
+   "Core-2014-06-DigitalSignature" : [
+      "getSignatureMessages",
+      "applySignatures",
+      "voidSignatures"
+   ],
+   "Internal-Ldf-2017-11-LinkedDataRequest" : [
+      "getLDFServicesForObject"
+   ],
+   "Internal-Validation-2007-06-Validation" : [
+      "createOrUpdateValidationAgents",
+      "getValidationResults",
+      "createOrUpdateValidationData",
+      "createOrUpdateValidationResults"
+   ],
+   "Internal-AWS2-2016-03-RequirementsManagement" : [
+      "exportToApplication"
+   ],
+   "MROCoreAw-2015-03-MROCoreAw" : [
+      "createAndAssignLot"
+   ],
+   "AuthorizedDataAccess-2018-06-LicenseManagement" : [
+      "createOrUpdateLicense"
+   ],
+   "Internal-SimProc-2014-12-SimProcessConfigurationManagement" : [
+      "getToolBOMProperties",
+      "cloneTool",
+      "createOrUpdateToolObjects",
+      "deleteTool",
+      "pasteTool",
+      "releaseTools",
+      "reviseSimTool"
+   ],
+   "Manufacturing-2012-09-Validation" : [
+      "executeValidations",
+      "getAllValidations"
+   ],
+   "Notification-2014-10-SubscriptionManagement" : [
+      "getSubscriptions"
+   ],
+   "Query-2008-06-SavedQuery" : [
+      "executeSavedQueries"
+   ],
+   "Cad-2016-03-StructureManagement" : [
+      "findModelViewsInStructure"
+   ],
+   "Internal-CodeCoverage-2011-06-CodeCoverageManagement" : [
+      "performOperation"
+   ],
+   "Diagramming-2015-07-Diagramming" : [
+      "queryDiagramElementsAssociatedWith",
+      "queryDiagramElementsNotAssociated",
+      "queryElementsNotInDiagram",
+      "findDiagrams"
+   ],
+   "Internal-DebugMonitor-2015-07-DebugLogging" : [
+      "setPerformanceJournalLevel",
+      "getPerformanceJournalLevel"
+   ],
+   "Internal-AWS2-2018-05-GlobalAlternate" : [
+      "addAlternates",
+      "removeAlternates"
+   ],
+   "Internal-WeightandBalanceAw-2020-12-Report" : [
+      "getBalanceInfo"
+   ],
+   "TestManagement-2014-06-ActivityManagement" : [
+      "deleteTestActivities",
+      "getTestActivities",
+      "createTestActivities",
+      "editTestActivities"
+   ],
+   "Cad-2007-06-StructureManagement" : [
+      "getConfiguredItemRevision",
+      "createOrUpdateClassicOptions",
+      "createOrUpdateVariantConditions",
+      "deleteClassicOptions",
+      "deleteVariantConditions"
+   ],
+   "Internal-SubsCmplAW-2016-03-SubstanceCompliance" : [
+      "getComplianceResultDetails",
+      "getRegulationsForComplianceCheck",
+      "applyExemptions"
+   ],
+   "CmAws-2017-06-Revise" : [
+      "reviseToSolution"
+   ],
+   "Internal-ProjectManagementAw-2019-12-ScheduleManagementAw" : [
+      "manageProgramView"
+   ],
+   "StructureManagement-2010-09-Structure" : [
+      "packOrUnpack",
+      "duplicate2",
+      "expandOrUpdateDuplicateItems2",
+      "validateStructureItemIds2"
+   ],
+   "Internal-Retail-2016-04-Retail" : [
+      "replaceLinePlanProductRequests"
+   ],
+   "Cad-2007-12-DataManagement" : [
+      "createOrUpdateParts"
+   ],
+   "Administration-2017-05-GroupManagement" : [
+      "addChildGroups"
+   ],
+   "Administration-2011-05-PreferenceManagement" : [
+      "refreshPreferences"
+   ],
+   "StructureManagement-2014-06-StructureVerification" : [
+      "getACFavorite",
+      "manageACFavorites"
+   ],
+   "Administration-2007-06-Authorization" : [
+      "checkAuthorization"
+   ],
+   "ValidationContractAW-2017-12-VCManagement" : [
+      "createAnalysisRequest",
+      "addElementsToAnalysisRequest"
+   ],
+   "Manufacturing-2014-12-Model" : [
+      "validateScopeFlowsConsistency"
+   ],
+   "Internal-CbaExt-2014-12-AlignmentManagement" : [
+      "alignCadOccsWithSolutions",
+      "alignDesignsWithParts"
+   ],
+   "Core-2007-01-Session" : [
+      "setObjectPropertyPolicy",
+      "getTCSessionInfo",
+      "getPreferences"
+   ],
+   "Internal-AWS2-2017-06-Finder" : [
+      "performSearchViewModel"
+   ],
+   "SvcRequest-2010-04-ServiceRequest" : [
+      "cancelRequest",
+      "delegateRequestedActivity",
+      "getSvcOfferingOrCatalogObjs",
+      "qualifyActivity",
+      "timeAndCostRollup"
+   ],
+   "Internal-Notification-2015-03-MessageManagement" : [
+      "getUserGroupAlias"
+   ],
+   "Internal-Rdv-2009-04-VariantManagement" : [
+      "createMultipleNamedVariantExpressions",
+      "createSavedVariantRules",
+      "deleteMultipleNamedVariantExpressions"
+   ],
+   "Logistics-2014-06-LogisticsPlanning" : [
+      "assignContainersToStations",
+      "getCandidateStations",
+      "getTransportNetworkInfo"
+   ],
+   "Services-2012-10-SocialCollaboration" : [
+      "createComment",
+      "deleteComment",
+      "fetchNotificationPreferences",
+      "setNotificationPreferences",
+      "fetchSubscriptionPreferences",
+      "setSubscriptionPreferences",
+      "subscribeToObject",
+      "unSubscribeToObject",
+      "getAllTags",
+      "getTags",
+      "removeTags",
+      "setTags",
+      "updateComment",
+      "deleteActivities",
+      "fetchActivities",
+      "fetchSendToList",
+      "fetchSubScribers",
+      "fetchSubscriptions",
+      "fetchTrendingData"
+   ],
+   "Query-2006-03-SavedQuery" : [
+      "describeSavedQueries",
+      "executeSavedQuery",
+      "getSavedQueries"
+   ],
+   "Internal-ActiveWorkspaceVis-2018-05-MassiveModelVisualization" : [
+      "getStructureIdFromRecipe2"
+   ],
+   "GlobalMultiSite-2007-06-ImportExport" : [
+      "createOrUpdateActionRules",
+      "createOrUpdateClosureRules",
+      "createOrUpdateFilterRules",
+      "createOrUpdatePropertySets",
+      "createOrUpdateTransferModes",
+      "createOrUpdateTransferOptionSets",
+      "getActionRules",
+      "getAllTransferOptionSets",
+      "getAvailableTransferOptionSets",
+      "getClosureRules",
+      "getFilterRules",
+      "getPropertySets",
+      "getTransferModes",
+      "requestImportFromOfflinePackage",
+      "requestExportToRemoteSites",
+      "requestImportFromRemoteSites"
+   ],
+   "MESInteg-2015-03-Release" : [
+      "setExecutionIdAndRevisionRule"
+   ],
+   "Requirementsmanagement-2012-09-RequirementsManagement" : [
+      "getBomlineAfterCreate"
+   ],
+   "Internal-Cae-2013-12-StructureManagement" : [
+      "propagateCAEModelAttributes"
+   ],
+   "Administration-2017-05-RoleManagement" : [
+      "addRolesToGroup",
+      "removeRolesFromGroup"
+   ],
+   "Internal-Cad-2010-04-DataManagement" : [
+      "revise",
+      "saveAsNewItem"
+   ],
+   "Internal-ActiveWorkspaceBom-2016-03-OccurrenceManagement" : [
+      "getSubsetInfo2",
+      "addToBookmark2",
+      "replaceElement",
+      "addOrRemoveOccurrenceEffectivities"
+   ],
+   "Internal-ActiveWorkspaceBom-2019-12-DataManagement" : [
+      "getViewModelForCreate"
+   ],
+   "ProjectManagementAw-2019-06-ScheduleManagementAw" : [
+      "loadAssignedTasks",
+      "claimAssignments"
+   ],
+   "Internal-Capaonawc-2020-05-QualityIssueManagement" : [
+      "attachCapaReports"
+   ],
+   "Internal-AWS2-2012-10-OrganizationManagement" : [
+      "getGroupMembership"
+   ],
+   "Internal-AWS2-2016-04-DataManagement" : [
+      "saveEditAndSubmitToWorkflow",
+      "getInitialTableRowData",
+      "getStyleSheet",
+      "loadDataForEditing"
+   ],
+   "SocialInt-2019-06-TeamCollaborationService" : [
+      "getChannels",
+      "queryAppIds",
+      "registerSocialUser",
+      "deleteKeys",
+      "postToSocial",
+      "rotateTokens"
+   ],
+   "FourDPlanning-2013-05-DataManagement" : [
+      "createOrUpdateProcessToTaskRelation"
+   ],
+   "ParameterManagement-2012-02-ImportExport" : [
+      "exportParmData",
+      "importParmData"
+   ],
+   "Internal-SimProc-2016-10-SimProcessConfigurationManagement" : [
+      "populateCAEAnalysisDashboard",
+      "getCAEConfigDetail",
+      "retrieveConfigurationList"
+   ],
+   "Internal-IppeCore-2020-12-WBSManagement" : [
+      "getRespAssignmentMatrix",
+      "addMissingWBSContentFromCompare",
+      "cloneWBSElementStructure",
+      "createAndRelateResourcePackages",
+      "createWBSTemplate",
+      "excludeOBSElementsFromProgOBSCtxt",
+      "setWBSCloneAction",
+      "validateWBSCloneAction"
+   ],
+   "Internal-FmeaManager-2020-05-FMEADataManagement" : [
+      "generateFormSheetPrintReports",
+      "getFormSheetData2",
+      "generateFMEAStructure",
+      "addHigherLowerLevelFunctions",
+      "configureFMEAStructure",
+      "rebaseFMEAStructure",
+      "removeHigherLowerLevelFunctions"
+   ],
+   "Visualization-2013-12-StructureManagement" : [
+      "createVisSCsFromBOMsWithOptions"
+   ],
+   "Internal-IppeCore-2020-12-IPPEExternalScheduleIntegration" : [
+      "exportPlanDataForExtSchedule",
+      "exportWBSDataForExtSchedule",
+      "getEmailAddressOfWBSRootOwner",
+      "updateWBSPlanFromExtSchedule",
+      "updateWBSPostExport"
+   ],
+   "Internal-Cad-2013-05-DataManagement" : [
+      "queryPartRelatedFeatures"
+   ],
+   "Internal-BOMAutomation-2020-12-GenerateBOM" : [
+      "getUpdateActionsSummary"
+   ],
+   "Reports-2007-06-CubeReports" : [
+      "constructReportURL"
+   ],
+   "Classification-2011-12-Classification" : [
+      "getClassificationObjectInfo"
+   ],
+   "Internal-CmSmAwInterface-2016-03-RelationManagement" : [
+      "propagateOrRollupRelations"
+   ],
+   "Internal-ProductionManagement-2020-01-EngineeringDataLoad" : [
+      "updateEngineeringExcel"
+   ],
+   "StructureManagement-2012-09-MassUpdate" : [
+      "massGetAffectedParents",
+      "massUpdateExecutionECN",
+      "massUpdateExecutionECR"
+   ],
+   "Internal-Multisite-2020-12-ImportExportTCXML" : [
+      "getMultisiteDashBoardData"
+   ],
+   "MDConnectivity-2017-11-MDConnectivity" : [
+      "createOrUpdateModelElements2",
+      "createOrUpdateElementGroups2"
+   ],
+   "GlobalMultiSite-2010-04-ImportExport" : [
+      "exportObjectsToPLMXML",
+      "importObjectsFromPLMXML"
+   ],
+   "AttrTargetMgmtAW-2015-10-AttributeTargetManagement" : [
+      "assignMeasurableAttributes2",
+      "createOrUpdateMeasurableAttribute",
+      "getMeasurableAttributes2",
+      "synchronizeMeasuableAttributes"
+   ],
+   "Manufacturing-2017-11-DataManagement" : [
+      "getConnectorInfo",
+      "getPhysicalAttachmentsInScope",
+      "removePhysicalAttachementRelation",
+      "setConnectorInfo",
+      "setPhysicalAttachementsInScope"
+   ],
+   "Requirementsmanagement-2009-10-RequirementsManagement" : [
+      "openStdNote",
+      "setStdNote"
+   ],
+   "Core-2018-06-LogicalObject" : [
+      "getLogicalObjects2"
+   ],
+   "Cad-2007-12-StructureManagement" : [
+      "createOrUpdateAbsoluteStructure",
+      "createOrUpdateRelativeStructure",
+      "deleteAssemblyArrangements",
+      "deleteRelativeStructure",
+      "queryClassicOptions",
+      "queryVariantConditions"
+   ],
+   "Internal-AWS2-2013-12-DataManagement" : [
+      "getTCSessionInfo2",
+      "getTCSessionInfo3"
+   ],
+   "ProductionManagement-2008-03-MeasurementDataQuery" : [
+      "queryActiveOrDeactiveData"
+   ],
+   "StructureManagement-2014-06-StructureFilterWithExpand" : [
+      "expandAndSearch"
+   ],
+   "AsBuilt-2014-06-AsBuilt" : [
+      "generateAsBuiltStructure"
+   ],
+   "BranchFoundation-2019-06-BranchFoundation" : [
+      "getBranchCandidatesInfo"
+   ],
+   "Internal-Rdv-2010-04-VariantManagement" : [
+      "addPartToProduct",
+      "getValidBackgroundOverlays",
+      "replacePartInProduct"
+   ],
+   "Internal-Manufacturing-2011-12-DataManagement" : [
+      "postAssignIDICMaker"
+   ],
+   "Internal-ApqpProgramMgtAw-2020-12-ApqpProgramMgt" : [
+      "resetManualAssessment",
+      "resetManualAssessmentAsync"
+   ],
+   "Internal-ActiveWorkspaceBom-2017-06-OccurrenceConfiguration" : [
+      "getConfigurationRules"
+   ],
+   "Core-2008-05-DataManagement" : [
+      "unloadObjects"
+   ],
+   "Internal-AWS2-2012-10-DataManagement" : [
+      "getChildren",
+      "getCurrentUserGateway",
+      "getTCSessionInfo",
+      "clearHistory",
+      "getHistory",
+      "updateHistory",
+      "loadDataForEditing",
+      "saveEditAndSubmitToWorkflow",
+      "saveEdit"
+   ],
+   "ConfigFilterCriteria-2013-05-EffectivityManagement" : [
+      "getEffectivityDisplayString",
+      "getEffectivityOverlapStates"
+   ],
+   "Internal-Administration-2009-10-PersonManagement" : [
+      "getStringProperties",
+      "setStringProperties"
+   ],
+   "Internal-Core-2014-10-FileManagement" : [
+      "getPlmdFileTicketForDownload",
+      "getPlmdFileTicketForUpload",
+      "postCleanUpFileCommits"
+   ],
+   "Internal-Capaonawc-2019-06-QualityIssueManagement" : [
+      "getChildrenInfo",
+      "markObjectAsRootCause"
+   ],
+   "ImportExport-2008-06-FileImportExport" : [
+      "exportToApplication",
+      "importFromApplication",
+      "getExportTemplates"
+   ],
+   "Internal-StructureManagement-2020-05-RevisionRuleAdministration" : [
+      "createOrUpdateRevisionRule",
+      "getRevisionRuleInfo"
+   ],
+   "Internal-ActiveWorkspaceVis-2015-03-MassiveModelVisualization" : [
+      "getIndexedProducts",
+      "getStructureIdFromRecipe",
+      "getStructureFiles",
+      "groupOccurrencesByProperties",
+      "updateDeltaCollection"
+   ],
+   "Internal-ProgramPlanningApp-2018-11-AdvancedProgramManagement" : [
+      "getVolumeTargets"
+   ],
+   "Internal-AW4GFoundation-2016-04-BuildConditionManagement" : [
+      "detachBuildCondition"
+   ],
+   "AWS2-2016-12-UiConfig" : [
+      "getUIConfigs2"
+   ],
+   "ModelCore-2011-06-DataManagement" : [
+      "deleteModelContent",
+      "getReviseDesc",
+      "reviseObjects"
+   ],
+   "Internal-SimProc-2014-12-SimulationToolLaunch" : [
+      "importSimulationToolLaunchOutputs"
+   ],
+   "Internal-SimProc-2019-06-SimDataManagement" : [
+      "importCAEData",
+      "importCAEDataAsync"
+   ],
+   "Internal-BehaviorModeling-2011-06-BehaviorModeling" : [
+      "getModelData",
+      "saveModelData"
+   ],
+   "Internal-StructureManagement-2012-09-StructureVerification" : [
+      "getValidCriteria"
+   ],
+   "Query-2012-10-Finder" : [
+      "performSearch"
+   ],
+   "DocumentManagement-2007-01-DocumentTemplate" : [
+      "getTemplates"
+   ],
+   "Internal-Rdv-2009-01-VariantManagement" : [
+      "addDesignToProduct",
+      "getApnComponents",
+      "getArchbreakdownBomlineChildComponents",
+      "getArchbreakdownMeapnChildComponents",
+      "askNVEMetaExpression",
+      "validateNVEMetaExpressions",
+      "applyNVEMetaExpression",
+      "reapplyNVEMetaExpressions",
+      "replaceDesignInProduct"
+   ],
+   "Internal-AWS2-2016-03-UiConfig" : [
+      "getOrResetUIColumnConfigs",
+      "getVisibleCommands",
+      "saveUIColumnConfigs"
+   ],
+   "Internal-TCXMLImportExport-2020-12-Briefcase" : [
+      "exportObjectsToBriefcase",
+      "importObjectsFromBriefcase",
+      "exportObjectsToBriefcaseAsync",
+      "importObjectsFromBriefcaseAsync"
+   ],
+   "Manufacturing-2018-06-DataManagement" : [
+      "getOccurrenceKinematicsInformation",
+      "setOccurrenceKinematicsInformation"
+   ],
+   "Internal-Rdv-2009-05-VariantManagement" : [
+      "realignNVEMetaExpressionTokens",
+      "executeAdhocSearchWithOverlays",
+      "executeSearchWithOverlays"
+   ],
+   "Query-2013-05-SavedQuery" : [
+      "createSavedQueries"
+   ],
+   "Internal-CaeAw-2020-05-SimulationManagementAw" : [
+      "processIntermediateImportUsingDSM",
+      "processProgressMonitorFilesUsingDSM",
+      "getSimulationDashboardData",
+      "processSimulationToolLaunchUsingDSM",
+      "getSimulationDashboardDataAsync"
+   ],
+   "EDMDCollab-2020-04-EDMDCollaboration" : [
+      "createOrUpdateCollaboration",
+      "getAssemblyContext3DModels",
+      "getCollaborationData2",
+      "publishAssemblyContext",
+      "publishIDX2"
+   ],
+   "Internal-ObjectDataServices-2020-04-ObjectDataServices" : [
+      "findObjects"
+   ],
+   "Services-2014-11-SocialCollaboration" : [
+      "fetchScalarRating"
+   ],
+   "RelationshipViewer-2012-10-NetworkEngine" : [
+      "createRelations",
+      "getGraphStyleDef",
+      "getViews",
+      "getViews2",
+      "queryNetwork",
+      "queryNetwork2"
+   ],
+   "CpdCore-2017-05-StructureExpand" : [
+      "nextExpandStructure4",
+      "startExpandStructure4"
+   ],
+   "Internal-BusinessModeler-2010-09-DataModelManagement" : [
+      "deployDataModel2",
+      "getSiteTemplateDeployInfo"
+   ],
+   "AttrTargetMgmt-2018-11-AttributeTargetManagement" : [
+      "getAttributeComplexData"
+   ],
+   "Partition-2014-12-PartitionManagement" : [
+      "getChildren",
+      "getMembers",
+      "reparentPartition",
+      "clonePartitions",
+      "getRealizedPartitions"
+   ],
+   "Core-2010-04-Session" : [
+      "getShortcuts",
+      "getPreferences2"
+   ],
+   "MES-2013-05-WorkInstructions" : [
+      "loadWorkInstructionDoc",
+      "saveWorkInstructionDoc"
+   ],
+   "Internal-MROCore-2012-02-MROCore" : [
+      "getLotsforItem",
+      "displayUtilization"
+   ],
+   "Internal-MfgBvrCore-2014-06-DataManagement" : [
+      "loadObjectPageData",
+      "saveData"
+   ],
+   "Internal-Multisite-2018-06-Search" : [
+      "fetchOdsRecords"
+   ],
+   "Internal-GlobalMultiSite-2018-11-Briefcase" : [
+      "checkBriefcaseLicense",
+      "getBriefcasePreviewData"
+   ],
+   "Internal-AWS2-2018-12-MultiSite" : [
+      "fetchODSRecords"
+   ],
+   "PPSMInterfaceAw-2016-03-PPSMInterface" : [
+      "createAutoGenTransactions",
+      "generateSchedulesForEvent",
+      "generateSchedulesForEventAsync"
+   ],
+   "AttrTargetMgmt-2015-03-AttributeTargetManagement" : [
+      "getLatestDefinitions",
+      "synchronizeMeasuableAttributes"
+   ],
+   "BranchFoundation-2017-11-BranchFoundation" : [
+      "getPromoteBranchCandidates"
+   ],
+   "Internal-ProjectManagement-2007-01-ScheduleManagement" : [
+      "loadSchedule",
+      "modifySchedule"
+   ],
+   "Internal-AWPdmCore-2020-12-PlantDataManagement" : [
+      "getDiagramData"
+   ],
+   "Internal-AWS2-2020-05-DataManagement" : [
+      "getRelatedObjsForConfiguredRevision"
+   ],
+   "Ai-2008-05-Ai" : [
+      "generateArrangements"
+   ],
+   "Internal-ActiveWorkspaceSysEng-2014-11-DiagramManagement" : [
+      "getRelatedElements",
+      "manageDiagram",
+      "manageSignal"
+   ],
+   "Core-2018-11-ProjectLevelSecurity" : [
+      "getUserProjects2",
+      "changeOwningProgram"
+   ],
+   "EditContext-2014-12-DataManagement" : [
+      "setEditContext"
+   ],
+   "AttrTargetMgmt-2018-06-AttributeTargetManagement" : [
+      "setAttributeComplexData"
+   ],
+   "Internal-CaeAw-2020-12-SimulationManagementAw" : [
+      "getSimulationDashboardFilterValues",
+      "uploadFilesUsingCAERules",
+      "getSimulationDashboardColumnInfo",
+      "getSimulationDashboardData2",
+      "generateSimulationDashboardReport",
+      "uploadFilesUsingCAERulesAsync"
+   ],
+   "Internal-Visualization-2018-11-StructureManagement" : [
+      "getStructureIdFromRecipe"
+   ],
+   "Internal-Cae-2013-12-SimulationProcessManagement" : [
+      "importSimulationObjects2"
+   ],
+   "StructureManagement-2018-11-Structure" : [
+      "createInterchangeableGroups"
+   ],
+   "Asp0Aspect-2018-06-AspectManagement" : [
+      "expandAspects"
+   ],
+   "Administration-2006-03-IRM" : [
+      "checkAccessorsPrivileges",
+      "getEffectiveACLInfo",
+      "getExtraProtectionInfo",
+      "removeAccessor",
+      "setPrivileges"
+   ],
+   "Internal-StructureManagement-2008-05-Structure" : [
+      "syncAlignedOccurrences"
+   ],
+   "ProjectManagement-2008-06-ScheduleManagement" : [
+      "addMemberships",
+      "createBillRates",
+      "createSchedule",
+      "copySchedules",
+      "updateTaskCostData",
+      "createScheduleDeliverableTemplates"
+   ],
+   "ActiveWorkspaceVis-2015-03-DataManagement" : [
+      "createLaunchInfo"
+   ],
+   "CpdCore-2015-07-DataManagement" : [
+      "createOrUpdateDesignFeatures",
+      "createOrUpdateDesignSubsets",
+      "getProductConfigurations"
+   ],
+   "Administration-2007-01-UserManagement" : [
+      "createDisciplines"
+   ],
+   "Internal-StructureManagement-2013-05-StructureExpansionLite" : [
+      "expandBasedOnOccurrenceList",
+      "expandNext",
+      "getUndelivered",
+      "unloadBelow"
+   ],
+   "SubstanceCompliance-2015-10-SubstanceCompliance" : [
+      "getDeclarationDetailsForReview"
+   ],
+   "Internal-AWS2-2019-06-DataManagement" : [
+      "modifyFavorites"
+   ],
+   "IMDSIntegrationAW-2018-05-IMDSIntegration" : [
+      "findOrCreateAssociatedExchangeRev"
+   ],
+   "Internal-Visualization-2010-09-StructureManagement" : [
+      "createVisSC"
+   ],
+   "Rdv-2008-05-ContextManagement" : [
+      "addPartToProduct",
+      "getProductItemInfo",
+      "removePartsRelatedToABE",
+      "replacePartInProduct"
+   ],
+   "Internal-Retail-2019-06-Retail" : [
+      "reorderDimensionValues"
+   ],
+   "AWS2-2017-06-UiConfig" : [
+      "getUIConfigs3"
+   ],
+   "Administration-2012-09-PreferenceManagement" : [
+      "getPreferencesAtLocations",
+      "getPreferences",
+      "importPreferencesAtLocationDryRun",
+      "importPreferencesAtLocations",
+      "deletePreferenceDefinitions",
+      "deletePreferencesAtLocations",
+      "removeStalePreferenceInstancesAtLocations",
+      "setPreferences2",
+      "setPreferencesAtLocations",
+      "setPreferencesDefinition"
+   ],
+   "Manufacturing-2008-06-TimeManagement" : [
+      "allocatedTimeRollUp",
+      "timeAnalysisRollup"
+   ],
+   "Administration-2012-09-UserManagement" : [
+      "getUserGroupMembers",
+      "setGroupMemberProperties"
+   ],
+   "PPSMInterfaceAw-2017-06-PPSMInterface" : [
+      "loadNetworkGraph",
+      "autoGenerateSchedules",
+      "createIntegratedSchedule",
+      "autoGenerateSchedulesAsync",
+      "createIntegratedScheduleAsync"
+   ],
+   "Core-2015-10-FileManagement" : [
+      "getDigestInfoForDatasets",
+      "getDigestInfoForFiles"
+   ],
+   "Manufacturing-2013-05-TimeWayPlan" : [
+      "getTWPInformation",
+      "setProductImage"
+   ],
+   "Internal-IcsAw-2017-06-Author" : [
+      "createOrUpdateClassificationObjects"
+   ],
+   "Internal-MfgBvrCore-2016-04-DataManagement" : [
+      "saveData2",
+      "saveData3"
+   ],
+   "Internal-Workflowaw-2020-12-Workflow" : [
+      "getWorkflowTaskAssignments",
+      "updateWorkflowTaskAssignments"
+   ],
+   "Ewia-2015-03-DataManagement" : [
+      "loadWorkPackageDataConfigured"
+   ],
+   "Internal-Visualization-2013-05-StructureManagement" : [
+      "createVisSCsFromBOMs"
+   ],
+   "Internal-SupplierCollaboration-2014-12-SupplierCollaboration" : [
+      "searchContactInBulk",
+      "searchContacts",
+      "setSplitInfo"
+   ],
+   "Manufacturing-2010-09-TimeManagement" : [
+      "calculateCriticalPathEx",
+      "getActivityTimes",
+      "populateAllocatedTimeProperties",
+      "updateTimeManagementProperties"
+   ],
+   "Internal-SimProc-2016-03-SimStructureManagement" : [
+      "getCompositeLineNodesExpandBelow2",
+      "getTargetRefLineNodesExpandBelow2"
+   ],
+   "Internal-Query-2012-02-SavedQuery" : [
+      "describeSavedQueryDefinitions"
+   ],
+   "Internal-SvcAutoScheduling-2014-06-SvcAutoScheduling" : [
+      "populateServiceScheduleAsync"
+   ],
+   "Internal-CmAws-2018-12-Changes" : [
+      "getChangeSummaryData"
+   ],
+   "Bom-2010-09-StructureManagement" : [
+      "verifyObjectCoverageByRule",
+      "getTraversedObjectsByRule"
+   ],
+   "Core-2015-10-Session" : [
+      "sponsoredLogin",
+      "sponsoredLoginSSO",
+      "setUserSessionStateAndUpdateDefaults",
+      "getTypeDescriptions2"
+   ],
+   "ValidationContractAW-2020-12-VCManagement" : [
+      "manageVerificationRequests"
+   ],
+   "Internal-ManufacturingCore-2017-05-RelationManagement" : [
+      "getBreadcrumbs"
+   ],
+   "Manufacturing-2011-06-StructureManagement" : [
+      "getReferenceContexts",
+      "setReferenceContexts"
+   ],
+   "Internal-ProductConfiguratorAw-2020-12-ConfiguratorManagement" : [
+      "validateProductConfigurations2",
+      "variantConfigurationView2",
+      "getVariantExpressionData2"
+   ],
+   "Core-2009-10-ProjectLevelSecurity" : [
+      "getUserProjects"
+   ],
+   "Core-2007-06-DataManagement" : [
+      "getDatasetTypeInfo",
+      "expandGRMRelationsForPrimary",
+      "expandGRMRelationsForSecondary",
+      "getAvailableTypes",
+      "validateItemIdsAndRevIds",
+      "whereReferencedByRelationName",
+      "purgeSequences",
+      "setOrRemoveImmunity"
+   ],
+   "Internal-Core-2012-10-DataManagement" : [
+      "createRelateAndSubmitObjects"
+   ],
+   "Internal-AWS2-2017-12-FullTextSearch" : [
+      "getIndexedObjectsAndUpdate",
+      "queryAndUpdateSyncData"
+   ],
+   "Internal-Gdis-2006-03-Reporting" : [
+      "getPrecalRoutineInfo"
+   ],
+   "Internal-Manufacturing-2018-11-ResourceManagement" : [
+      "autoPositionComponentByCSYS"
+   ],
+   "Internal-ImportExport-2017-11-FileImportExport" : [
+      "importDocumentOffline",
+      "importDocumentAsync"
+   ],
+   "BomCore-2016-10-AlignmentManagement" : [
+      "getAlignedBOMData"
+   ],
+   "Internal-DebugMonitor-2015-10-JournalBasedTesting" : [
+      "terminateJBT"
+   ],
+   "Internal-ActiveWorkspaceBom-2015-03-OccurrenceManagement" : [
+      "attachObjects"
+   ],
+   "Internal-Manufacturing-2017-05-DataManagement" : [
+      "getFutureRevisions"
+   ],
+   "Internal-Ai-2016-04-Ai" : [
+      "invoke2"
+   ],
+   "Reports-2010-04-CrfReports" : [
+      "generateReports"
+   ],
+   "Vendormanagement-2007-06-VendorManagement" : [
+      "createOrUpdateLineItems",
+      "deleteLineItems",
+      "deleteVendorRoles",
+      "deleteVendors",
+      "createOrUpdateBidPackages",
+      "createOrUpdateVendorParts",
+      "createOrUpdateVendors"
+   ],
+   "Internal-AwReqMgmtSe-2019-06-SpecNavigation" : [
+      "createOrUpdateContents",
+      "getSpecificationSegment",
+      "setContentsAsync"
+   ],
+   "OfficeOnline-2017-11-OfficeOnline" : [
+      "getLaunchInfo"
+   ],
+   "ModelCore-2015-07-GeometricConstraints" : [
+      "updateContainer2"
+   ],
+   "Internal-Retail-2018-12-Retail" : [
+      "getTableSummary2",
+      "getViewModelRows2"
+   ],
+   "Internal-SupplierCollaboration-2016-10-SupplierCollaboration" : [
+      "getAssignmentObjects",
+      "autoSplitLineItems"
+   ],
+   "Internal-MultiSite-2007-06-TcEntObjectDirectory" : [
+      "describePublicationRecords",
+      "getODSVersion",
+      "queryPublicationRecords",
+      "publishObjects",
+      "republishObjectAfterOwnershipTransfer",
+      "unpublishObjects"
+   ],
+   "Internal-ActiveWorkspaceReqMgmt-2020-05-ImportExport" : [
+      "getPreviewInfo"
+   ],
+   "Internal-Administration-2018-06-PreferenceManagement" : [
+      "deletePreferenceCategories"
+   ],
+   "ServiceForecasting-2014-06-ServiceForecasting" : [
+      "loadMaintenanceAction",
+      "createMaintenanceAction",
+      "disposeMaintenanceAction",
+      "extendMaintenanceActon"
+   ],
+   "ConfigFilterCriteria-2017-05-EffectivityManagement" : [
+      "getEffectivitySubsetTables",
+      "setEffectivityConditionSubsets"
+   ],
+   "Internal-AWS2-2012-10-StructureSearch" : [
+      "getParentsWhereUsed",
+      "getProductsWhereUsed"
+   ],
+   "Core-2008-06-DispatcherManagement" : [
+      "createDispatcherRequest"
+   ],
+   "Visualization-2016-03-DataManagement" : [
+      "getMetaDataStampWithContext"
+   ],
+   "MESInteg-2014-12-Release" : [
+      "executionDataExport"
+   ],
+   "Internal-GlobalMultiSite-2020-01-Briefcase" : [
+      "addMarkOTForCurrentUser",
+      "getObjectsLockInfo",
+      "queryMarkOT",
+      "removeMarkOTForCurrentUser"
+   ],
+   "Internal-ModelCore-2017-05-Search" : [
+      "createRecipeContainers"
+   ],
+   "Internal-ProjectManagement-2012-02-ScheduleManagement" : [
+      "translateFive"
+   ],
+   "Cad-2019-06-StructureManagement" : [
+      "createOrReConfigureBOMWindows"
+   ],
+   "Administration-2008-03-IRM" : [
+      "activateUsers",
+      "deactivateUsers"
+   ],
+   "Internal-ActiveWorkspaceReqMgmt-2019-12-ImportExport" : [
+      "getRulesInfo",
+      "importFromReqIf",
+      "saveRulesInfo",
+      "importFromReqIfAsync"
+   ],
+   "Manufacturing-2012-02-IPAManagement" : [
+      "getFilteredIPAType",
+      "deleteFilteredIPA"
+   ],
+   "Query-2020-04-SavedQuery" : [
+      "executeBOQueriesWithSortAndContext"
+   ],
+   "Internal-Core-2017-11-Type" : [
+      "getSubTypeHierarchicalTrees"
+   ],
+   "Internal-ActiveWorkspaceBom-2017-12-OccurrenceManagement" : [
+      "getPackedOccurrenceCSIDs"
+   ],
+   "Internal-AWS2-2015-10-DataManagement" : [
+      "getDatasetTypesWithDefaultRelation"
+   ],
+   "SimProc-2020-01-SimulationToolLaunch" : [
+      "executeSimulationToolLaunch"
+   ],
+   "Internal-MultiSite-2012-02-RemoteOperation" : [
+      "idsm11CheckSyncStatusSvc",
+      "idsm11DescribeItemSvc",
+      "idsm11DescribeObjectSvc",
+      "idsm11DistributedAppSvc",
+      "idsm11EndImportSvc",
+      "idsm11ExportStatusSvc",
+      "idsm11EndAskInfoSvc",
+      "idsm11EndExportItemIdListSvc",
+      "idsm11EndSendObjectsSvc",
+      "idsm11RepublishObjectSvc",
+      "idsm11GetErrorStackSvc",
+      "idsm11LocateObjectSvc",
+      "idsm11PerformSendObjectsSvc",
+      "idsm11RemoteNotificationSvc",
+      "idsm11SetSyncOptionsSvc",
+      "idsm11StartAskInfoSvc",
+      "idsm11StartExportItemIdListSvc",
+      "idsm11StartExportSvc",
+      "idsm11StartImportSvc",
+      "idsm11StartSendObjectsSvc",
+      "idsm11VerifyObjectsSvc",
+      "idsm11VersionCheckSvc",
+      "idsm11XferInfoFileSvc"
+   ],
+   "Internal-SimProc-2017-05-SimulationToolLaunch" : [
+      "exportObjectsToPLMXMLForToolLaunch",
+      "importObjsFromPLMXMLForToolLaunch"
+   ],
+   "CpdCore-2014-10-DataManagement" : [
+      "createOrUpdateDesignElements",
+      "createOrUpdateDesignFeatures",
+      "createOrUpdateDesignSubsetElements2",
+      "createOrUpdateModelToModelInstantiation"
+   ],
+   "Allocations-2007-01-Allocation" : [
+      "findAllocatedBOMViews",
+      "changeAllocatedBOMWindows",
+      "changeAllocationContext",
+      "createAllocationContext",
+      "openAllocationWindow",
+      "addAllocationLines",
+      "changeICContext",
+      "closeAllocationWindow",
+      "deleteAllocationLines",
+      "findAllocationContexts",
+      "getBOMViews",
+      "modifyAllocationLines",
+      "saveAllocationWindow"
+   ],
+   "Internal-Cad-2008-06-DataManagement" : [
+      "queryRelatedFeatures"
+   ],
+   "Internal-StructureManagement-2017-05-StructureExpansionLite" : [
+      "expandNext3",
+      "getUndelivered3"
+   ],
+   "Internal-AWS2-2019-06-RequirementsManagement" : [
+      "getFullTextVersionInfo"
+   ],
+   "Manufacturing-2010-09-ImportExport" : [
+      "importManufaturingFeatures"
+   ],
+   "Internal-ActiveWorkspaceVis-2014-11-OccurrenceManagement" : [
+      "getVisBookmarkInfo",
+      "saveVisBookmarkInfo"
+   ],
+   "Internal-AwReqMgmtSe-2019-12-SpecNavigation" : [
+      "convertSVG",
+      "exportSpecifications",
+      "getSpecificationMetadata",
+      "exportSpecificationsAsync",
+      "saveTraceabilityMatrix"
+   ],
+   "Internal-AsMaintainedAw-2015-10-AsMaintainedAw" : [
+      "installPhysicalPartRevision"
+   ],
+   "StructureManagement-2012-10-StructureVerification" : [
+      "getAssignmentComparisonDetails",
+      "getComparisonSummaries"
+   ],
+   "Core-2012-02-Session" : [
+      "unregisterState",
+      "registerState",
+      "setObjectPropertyPolicy"
+   ],
+   "Internal-StructureManagement-2016-10-Effectivity" : [
+      "cutbackUnitOccurrenceEffectivity",
+      "getUnitNetOccurrenceEffectivity"
+   ],
+   "Internal-ResourceManager-2019-12-ResourceOccurrencesManagement" : [
+      "getResourceOccurrences"
+   ],
+   "ValidationContractAW-2015-10-VCManagement" : [
+      "areObjectsAddedToAnalysisRequest",
+      "addObjectsForValidationFromDiagram"
+   ],
+   "Internal-DocumentManagement-2008-06-DocumentControl" : [
+      "getIRDCs"
+   ],
+   "Internal-AWS2-2012-10-RequirementsManagement" : [
+      "setRichContent"
+   ],
+   "Internal-StructureManagement-2011-06-IncrementalChange" : [
+      "getAttachmentChanges",
+      "getAttributeChanges",
+      "getParentAndChildComponents",
+      "getPredecessorChanges",
+      "getStructureChanges"
+   ],
+   "Internal-Notification-2015-03-SubscriptionManagement" : [
+      "getAssignEventData",
+      "getAttachEventData",
+      "getEventTypes2",
+      "getSubscribableTypes",
+      "getSubscriptionInput",
+      "createSubscriptions",
+      "findSubscriptions",
+      "modifySubscriptions",
+      "transferNotifications"
+   ],
+   "Manufacturing-2015-10-StructureManagement" : [
+      "createCollabPlanningContext"
+   ],
+   "Internal-BomCore-2016-10-PartStructureManagement" : [
+      "getPartStructure"
+   ],
+   "UiConfig-2015-10-UiConfig" : [
+      "getUIConfigs"
+   ],
+   "Internal-AdsFoundation-2012-09-AdsFoundation" : [
+      "resolveSourceDocument"
+   ],
+   "WireHarness-2008-06-WireHarness" : [
+      "associateWireProtectionToSegments",
+      "createOrUpdateHarness",
+      "createOrUpdateRouteObjects",
+      "createOrUpdateWireData",
+      "createRouteLocations",
+      "deleteRouteObjects",
+      "deleteWireData",
+      "getWireData",
+      "getWireProtectionSegments",
+      "removeWireProtectionAssociation"
+   ],
+   "Internal-Manufacturing-2016-09-StructureManagement" : [
+      "completenessCheckPartStructure",
+      "createOrUpdateDesignPartAlignment",
+      "findRelatedDesignOrPartStructures",
+      "removeDesignPartAlignment",
+      "verifyDesignPartAlignment",
+      "linkOrUnlinkStructures",
+      "createAsyncCollabPlanningContext"
+   ],
+   "Cad-2008-06-StructureManagement" : [
+      "createOrUpdateRelativeStructure",
+      "deleteRelativeStructure",
+      "createOrUpdateAbsoluteStructure",
+      "createVariantRules",
+      "expandPSAllLevels",
+      "expandPSOneLevel",
+      "getAbsoluteStructureData",
+      "reconfigureBOMWindows",
+      "saveBOMWindows"
+   ],
+   "Administration-2016-03-UserManagement" : [
+      "deleteUser"
+   ],
+   "Internal-Core-2017-11-DataManagement" : [
+      "getTCSessionAnalyticsInfo"
+   ],
+   "Internal-AsMaintainedAw-2015-03-AsMaintainedAw" : [
+      "modifyPhysicalStructure",
+      "generatePhysicalPart"
+   ],
+   "Allocations-2011-06-Allocation" : [
+      "createAllocationContext2"
+   ],
+   "Internal-Manufacturing-2019-06-ResourceManagement" : [
+      "getICOMappingTargets"
+   ],
+   "PMIManagement-2011-12-PMIManagement" : [
+      "createPMI",
+      "importPMIs"
+   ],
+   "Internal-Notification-2015-10-MessageManagement" : [
+      "getUnreadMessages",
+      "initializeAsynchMessaging"
+   ],
+   "Administration-2008-06-PreferenceManagement" : [
+      "lockSitePreferences",
+      "unlockSitePreferences"
+   ],
+   "Internal-Manufacturing-2015-03-ResourceManagement" : [
+      "importStep3DModels2",
+      "importStepP21Files3",
+      "mapClassificationObject",
+      "unzipGtcPackage"
+   ],
+   "Process-2017-11-ManufacturingDisclosure" : [
+      "createOrUpdateMfgDisclosure"
+   ],
+   "Internal-Administration-2008-06-IRM" : [
+      "getACLsByType"
+   ],
+   "ProjectManagementAw-2018-12-ScheduleManagementAw" : [
+      "createMultipleTaskDeliverables",
+      "loadBaseline",
+      "loadSchedule2",
+      "designateDiscipline",
+      "recalculateSchedules",
+      "designateDisciplineAsync",
+      "recalculateSchedulesAsync"
+   ],
+   "ModelCore-2014-06-DataManagement" : [
+      "queryRelatedObjects"
+   ],
+   "Internal-Manufacturing-2019-06-ClosureRuleEditor" : [
+      "getClosureRuleTraversalInfo",
+      "setClosureRuleTraversalInfo"
+   ],
+   "Core-2008-06-Reservation" : [
+      "transferCheckout"
+   ],
+   "Internal-CbaExt-2015-10-QueryManagement" : [
+      "findAlignedACTLinesForDesigns"
+   ],
+   "Internal-Rdv-2008-03-VariantManagement" : [
+      "getValidoverlayBomlinesInfo"
+   ],
+   "Internal-ContMgmtS1000D40-2014-06-ContMgmtS1000D40" : [
+      "brexValidationAsync"
+   ],
+   "Internal-ActiveWorkspaceBom-2017-06-OccurrenceManagement" : [
+      "createAndAddElementEffectivity",
+      "editElementEffectivity",
+      "saveUserWorkingContextState"
+   ],
+   "ManufacturingCore-2017-05-DataManagement" : [
+      "getAllowedAttributeGroupTypes",
+      "getAllowedDatasetTypes"
+   ],
+   "Internal-Core-2010-09-FileManagement" : [
+      "commitReplacedFiles"
+   ],
+   "Manufacturing-2008-06-Core" : [
+      "findCheckedOutsInStructure"
+   ],
+   "Internal-ProjectManagement-2011-06-ScheduleManagement" : [
+      "loadProgramView",
+      "modifySchedules",
+      "loadSchedules"
+   ],
+   "DocumentManagement-2008-06-DocumentControl" : [
+      "getAdditionalFilesForCheckin",
+      "getCheckinModeAndFiles",
+      "postCreate"
+   ],
+   "Internal-ActiveWorkspaceBom-2012-10-BOMIndexManagement" : [
+      "createBOMIndexAdminData",
+      "processBomIndex"
+   ],
+   "ActiveWorkspaceBom-2015-10-OccurrenceManagementCad" : [
+      "createBOMWindowsFromContexts",
+      "createBOMWindowsFromBookmarks"
+   ],
+   "Internal-Visualization-2008-06-StructureManagement" : [
+      "areRecipesMergable",
+      "createBOMsFromRecipes",
+      "createVisSCsFromBOMs",
+      "expandPSFromOccurrenceList"
+   ],
+   "ProductionManagement-2008-03-EngineeringDataQuery" : [
+      "getEngineeringDataFromRoutine3"
+   ],
+   "Manufacturing-2014-06-DataManagement" : [
+      "cloneAssemblyAndProcessObjects",
+      "establishOriginLink",
+      "getProcessResourceRelatedInfo",
+      "addOrRemoveAssociatedContexts"
+   ],
+   "Manufacturing-2008-12-IPAManagement" : [
+      "generateSearchScope",
+      "getFilteredIPA",
+      "saveSearchResult",
+      "deletefilteredIPA"
+   ],
+   "DocumentManagement-2011-06-AttributeExchange" : [
+      "resolveAttrMappingsAndGetProperties",
+      "resolveAttrMappingsAndSetProperties"
+   ],
+   "Internal-Retail-2012-02-Retail" : [
+      "generateSelectedSkus"
+   ],
+   "Internal-Manufacturing-2017-11-StructureManagement" : [
+      "createAlternativeScopeForProduct",
+      "pasteByRule"
+   ],
+   "EDMDCollab-2020-01-EDMDCollaboration" : [
+      "checkIDXToProcess",
+      "getCollaborationData",
+      "publishIDX",
+      "cancelProcessChange",
+      "cancelPublishIntent",
+      "deleteIDX",
+      "registerPublishIntent"
+   ],
+   "SvcScheduling-2012-02-SvcScheduling" : [
+      "recordUtilization",
+      "updateConfiguration"
+   ],
+   "Internal-Manufacturing-2016-09-DataManagement" : [
+      "createBOEfromPlantBOP",
+      "linkPlantBOPtoBOE",
+      "synchronizePlantBOPAndBOE"
+   ],
+   "Internal-Process-2017-05-Compare" : [
+      "findAffectedElements",
+      "getObjectsSetsEquivalence",
+      "getStatusInformation",
+      "propagateUpdatedElementsInSubset",
+      "updateRevisionAssignments"
+   ],
+   "Internal-Manufacturing-2020-04-DataManagement" : [
+      "getProductScopeForProcess"
+   ],
+   "Internal-Asp0Aspect-2018-06-AspectManagement" : [
+      "createAspectSearchExpressions"
+   ],
+   "Internal-Configurator-2018-06-ConfiguratorManagement" : [
+      "getConfigurationSessionInfo",
+      "validateProductConditions"
+   ],
+   "Ai-2018-06-Ai" : [
+      "getObjectsByApplicationRefs"
+   ],
+   "Manufacturing-2009-10-StructureManagement" : [
+      "copyEBOPStructure",
+      "getStructureContextLines",
+      "pasteDuplicateStructure"
+   ],
+   "Multisite-2019-06-Search" : [
+      "publish",
+      "unpublish"
+   ],
+   "Internal-Manufacturing-2016-09-IPAManagement" : [
+      "cleanDynamicIPALines",
+      "createDynamicIPALines",
+      "updateDynamicIPALines",
+      "saveContentOfDynamicIPALines"
+   ],
+   "Multisite-2014-10-ImportExportTCXML" : [
+      "remoteExport",
+      "remoteImport",
+      "remoteImportByUID"
+   ],
+   "Requirementsmanagement-2008-06-RequirementsManagement" : [
+      "getRichContent"
+   ],
+   "Internal-FourDPlanning-2013-12-DataManagement" : [
+      "compareProcessWithScheduleTask",
+      "propagateScheduleChanges"
+   ],
+   "Internal-NX-2020-05-DataManagement" : [
+      "exportConfiguredAssyToNX",
+      "exportConfiguredAssyToNXAsync"
+   ],
+   "PMIManagement-2015-10-PMIManagement" : [
+      "importPMIs2",
+      "getPMIProperties"
+   ],
+   "Internal-Ai-2008-06-Ai" : [
+      "invoke",
+      "beginGenerateMonolithicJt",
+      "endGenerateMonolithicJt"
+   ],
+   "AttrTargetMgmtAW-2015-03-AttributeTargetManagement" : [
+      "assignMeasurableAttributes",
+      "createOrModifyMeasurableAttribute",
+      "getMeasurableAttributes"
+   ],
+   "ParameterManagement-2009-10-Parameter" : [
+      "getBitDefinitionProperties",
+      "getBitValueProperties",
+      "setBitDefinitionProperties",
+      "setBitValueProperties"
+   ],
+   "Internal-GlobalMultiSite-2007-06-Briefcase" : [
+      "packageBriefcaseContents",
+      "unpackBriefcaseContents"
+   ],
+   "ValidationContract-2020-12-VCManagement" : [
+      "createVerificationRequest"
+   ],
+   "AttrTargetMgmtAW-2017-12-AttributeTargetManagement" : [
+      "mapMeasurableAttributes",
+      "mapMeasurableAttributes2"
+   ],
+   "Ai-2014-12-Ai" : [
+      "createApplicationInterfaceRecords",
+      "getMappedApplicationRefs"
+   ],
+   "Internal-ActiveWorkspaceBom-2020-12-OccurrenceManagement" : [
+      "getInfoForInsertLevel",
+      "insertLevel2",
+      "removeLevel",
+      "resetUserWorkingContextState"
+   ],
+   "Manufacturing-2015-03-StructureManagement" : [
+      "moveAndResequenceNodes"
+   ],
+   "Configurator-2014-12-ConfiguratorManagement" : [
+      "getAdmissibility"
+   ],
+   "Administration-2017-05-UserManagement" : [
+      "removeGroupMembers",
+      "addUsersAsGroupMembers"
+   ],
+   "ProductionManagement-2008-06-EngineeringDataQuery" : [
+      "getMappedFeatureData"
+   ],
+   "Cad-2011-06-DataManagement" : [
+      "getAllAttrMappings2"
+   ],
+   "Internal-GlobalMultiSite-2010-02-LowlevelOwnershipTransfer" : [
+      "getObjectsForOwnershipTransfer",
+      "transferOwnership",
+      "updateOwnershipTransfer"
+   ],
+   "Internal-ManufacturingCore-2018-06-DataManagement" : [
+      "removeObjects"
+   ],
+   "CpdCore-2011-06-DataManagement" : [
+      "createOrUpdateDesignControlElements",
+      "createOrUpdateDesignElements",
+      "createOrUpdateDesignFeatures",
+      "createOrUpdateDesignSubsetElements",
+      "queryRelatedPrimaryObjects",
+      "queryRelatedSecondaryObjects",
+      "substituteAsReuseDesignElement",
+      "substituteAsShapeDesignElement"
+   ],
+   "Internal-AWS2-2016-12-AdvancedSearch" : [
+      "getSelectedQueryCriteria",
+      "createAdvancedSearchInput"
+   ],
+   "Internal-AWS2-2012-10-Workflow" : [
+      "getTaskResults"
+   ],
+   "BusinessModeler-2008-06-ConditionEngine" : [
+      "evaluateConditions"
+   ],
+   "Query-2010-09-SavedQuery" : [
+      "executeBusinessObjectQueries"
+   ],
+   "EditContext-2015-07-DataManagement" : [
+      "getReferencerEditContexts"
+   ],
+   "ViewMgmtAW-2020-05-ViewDataManagement" : [
+      "executeRecipes3"
+   ],
+   "Manufacturing-2014-06-ResourceManagement" : [
+      "checkToolParameters"
+   ],
+   "Internal-AWS2-2012-10-FullTextSearch" : [
+      "createFullTextSavedSearch",
+      "findFullTextSavedSearches",
+      "performFullTextSearch",
+      "getAddedObjectsToUpdateIndex",
+      "getAddedObjectsToUpdateIndex1",
+      "getDatasetIndexableFilesInfo",
+      "getDeletedObjectsToUpdateIndex",
+      "getDeletedObjectsToUpdateIndex1",
+      "getImpactedItemRevsForReIndex",
+      "getObjectsToIndex",
+      "getPreFilters",
+      "getSuggestions",
+      "updateIndexingStatus"
+   ],
+   "Internal-DocumentManagement-2013-12-Markup" : [
+      "loadMarkups",
+      "saveMarkups"
+   ],
+   "Realization-2015-07-RealizationManagement" : [
+      "createOrUpdateCompositionSubset",
+      "uncoupleModelRealization"
+   ],
+   "Internal-ActiveWorkspaceBom-2019-06-Compare" : [
+      "compareContentAsync2"
+   ],
+   "StructureManagement-2017-05-StructureSearch" : [
+      "nextSearch2",
+      "startSearch2",
+      "stopSearch2"
+   ],
+   "Internal-ProjectManagement-2009-10-ScheduleManagement" : [
+      "translateThree",
+      "translateOne",
+      "translateTwo",
+      "modifySchedules"
+   ],
+   "Internal-Manufacturing-2014-12-Model" : [
+      "getUILocations",
+      "deleteScopeFlows",
+      "saveUILocations",
+      "scheduleLAResolve",
+      "laAsyncResolve"
+   ],
+   "Internal-Manufacturing-2016-09-StructureSearch" : [
+      "getBOEForPlantBOPScope"
+   ],
+   "Internal-ActiveWorkspaceBom-2020-05-OccurrenceManagement" : [
+      "saveWorkingContext",
+      "updateContentBasedOnRevision",
+      "updateWorkingContext"
+   ],
+   "ChangeManagement-2008-06-ChangeManagement" : [
+      "createBOMEdits",
+      "createChangeItems",
+      "createSupercedures",
+      "findContextData",
+      "findSupersedure",
+      "getAllChangeHomeFolders",
+      "getBOMEdits",
+      "configureChangeSearches",
+      "deleteSupercedures",
+      "updateChangeItems",
+      "updateSupercedures"
+   ],
+   "Internal-AuditManager-2012-09-ProcessHistoryManagement" : [
+      "getProcssHistoryAuditRecords"
+   ],
+   "Internal-DebugMonitor-2014-06-JournalBasedTesting" : [
+      "initializeJBT",
+      "validatePropertyValues"
+   ],
+   "Internal-ProductionManagement-2018-11-MeasurementDataQuery" : [
+      "queryDatabaseKeysList"
+   ],
+   "AuthorizedDataAccess-2009-10-LicenseManagement" : [
+      "getLicenseDetails2",
+      "attachLicenses",
+      "setLicenseDetails"
+   ],
+   "Internal-DebugMonitor-2011-06-PerformanceMonitor" : [
+      "getPerformanceInformation",
+      "clearPerformanceInformation",
+      "monitorPerformance"
+   ],
+   "ActiveWorkspaceReqMgmt-2020-12-SpecNavigation" : [
+      "createOrUpdateRequirements",
+      "getRequirementContents"
+   ],
+   "Internal-PlantDataMgmt-2018-06-PdmCore" : [
+      "findCondlMdlElementsAndRltdWSObjs",
+      "setReleaseStatusInBulk"
+   ],
+   "Internal-Manufacturing-2008-12-Core" : [
+      "checkinForProcessSimulate",
+      "checkoutForProcessSimulate"
+   ],
+   "ClassificationCore-2013-05-Classification" : [
+      "createOrUpdateClassificationObjects",
+      "createOrUpdateHierarchyNodes",
+      "getClassificationSearchResults",
+      "getHierarchyNodeChildren",
+      "getHierarchyNodeDetails",
+      "getTopLevelNodes",
+      "searchClassificationObjects",
+      "discardClassificationSearchResults"
+   ],
+   "IMDSIntegration-2013-05-IMDSIntegration" : [
+      "retrieveIMDSData",
+      "sendDataToIMDS"
+   ],
+   "TcmAccess-2016-12-StudyManagement" : [
+      "findStudiesInCC1"
+   ],
+   "Internal-ActiveWorkspaceReqMgmt-2017-12-ImportExport" : [
+      "importSpecificationFromExcel",
+      "importSpecificationFromExcelAsync"
+   ],
+   "ContractManagement-2014-10-ContractManagement" : [
+      "getImpactedDataReqItemRevisions",
+      "createOrUpdateSubDelSchedules"
+   ],
+   "Core-2011-06-Envelope" : [
+      "sendAndDeleteEnvelopes"
+   ],
+   "Internal-GlobalMultiSite-2010-09-LowlevelOwnershipTransfer" : [
+      "getObjectsForOwnershipTransfer"
+   ],
+   "Internal-StructureManagement-2014-12-StructureVerification" : [
+      "createOrUpdatePropagationDetails",
+      "createOrUpdateReviewStatus",
+      "findReviewStatus",
+      "getPropertyPropagationStatusDetails",
+      "getStructureChangeDetails",
+      "getStructureChangeImpactedLines"
+   ],
+   "Internal-Configurator-2015-10-ConfiguratorManagement" : [
+      "getAvailableProductVariability",
+      "convertVariantExpressions",
+      "getProductDefaults",
+      "getRevRulesForConfiguratorContext",
+      "getVariantExpressions",
+      "validateProductConfiguration",
+      "setVariantExpressions"
+   ],
+   "Internal-StructureManagement-2009-10-EffectivitiesManagement" : [
+      "getEffectivityGrpRevList",
+      "createOrUpdateEffectivites",
+      "setEndItemEffectivityGroups"
+   ],
+   "Internal-AWS2-2018-05-Finder" : [
+      "performFacetSearch",
+      "performSearchViewModel3"
+   ],
+   "Internal-MultiSite-2012-02-ObjectDirectory" : [
+      "describePublicationRecords",
+      "locatePublishedObjects",
+      "createItemIdRecords",
+      "deleteItemIdRecords",
+      "publishObjects",
+      "unpublishObjects",
+      "updatePublicationRecords",
+      "queryItemIdRecords",
+      "queryPublicationRecords"
+   ],
+   "Internal-Security-2017-12-AwLicensing" : [
+      "getLicensesWithTypes"
+   ],
+   "SimProc-2015-10-SimProcessConfigurationManagement" : [
+      "getToolTabProperties"
+   ],
+   "Internal-AWS2-2017-12-Finder" : [
+      "performSearchViewModel2"
+   ],
+   "Internal-MultiSite-2011-06-ObjectDirectory" : [
+      "queryItemIdRecords",
+      "createItemIdRecords",
+      "deleteItemIdRecords",
+      "publishObjects",
+      "updatePublicationRecords"
+   ],
+   "Internal-IcsAw-2018-05-Classification" : [
+      "findClassificationInfo",
+      "saveClassificationObjects",
+      "deleteClassificationObjects"
+   ],
+   "StructureManagement-2007-06-PublishByLink" : [
+      "deleteLinkForSource",
+      "deleteTargetsFromLink",
+      "completenessCheck",
+      "findSourceInWindow",
+      "findTargetsInWindow",
+      "getSourceTopLevel",
+      "findLinesWithSameLogicalIdentity",
+      "addTargets",
+      "createLinks",
+      "publishData"
+   ],
+   "Internal-SimProc-2017-11-SimProcessConfigurationManagement" : [
+      "populateDashboardForModelStructure",
+      "populateSimulationDashboard"
+   ],
+   "Internal-MultiBomManager-2020-05-MultiBOMChangeMgmt" : [
+      "getAssignmentAndMismatchStatus",
+      "getChangeSummary"
+   ],
+   "StructureManagement-2012-10-Structure" : [
+      "cutItems"
+   ],
+   "Internal-TestManagement-2015-10-InstanceManagement" : [
+      "getTestSteps"
+   ],
+   "Internal-Manufacturing-2019-06-StructureSearch" : [
+      "searchPartsInProximityOfMFGFeatures"
+   ],
+   "Core-2011-06-OperationDescriptor" : [
+      "getSaveAsDesc"
+   ],
+   "Multisite-2011-06-ImportExport" : [
+      "registerItemId",
+      "unregisterItemId"
+   ],
+   "Internal-Core-2013-05-PresentationManagement" : [
+      "getSharedCommonClientFiles",
+      "getStylesheet"
+   ],
+   "StructureManagement-2010-09-StructureVerification" : [
+      "accountabilityCheck",
+      "compareNetEffectivity"
+   ],
+   "Cad-2008-03-StructureManagement" : [
+      "askChildPathBOMLines"
+   ],
+   "Internal-CaeAw-2018-12-SimulationManagementAw" : [
+      "processProgressMonitorFiles2",
+      "processSimToolMultiLaunchHostPath",
+      "getSimulationDashboardDataByQuery",
+      "generateCAEStructure",
+      "generateCAEStructureAsync"
+   ],
+   "Internal-ControlPlan-2019-12-ControlPlanManagement" : [
+      "generateControlPlanNormDoc"
+   ],
+   "Internal-Configurator-2018-11-ConfiguratorManagement" : [
+      "getConfigurationRosterCoverage"
+   ],
+   "Internal-StructureManagement-2010-04-BOMMarkup" : [
+      "createBOMMarkup",
+      "savePendingEditsAsMarkup",
+      "applyBOMMarkup"
+   ],
+   "Internal-Retail-2009-06-Retail" : [
+      "getClassifiedTemplates",
+      "getLabDips",
+      "getMaterialTestings",
+      "moveClassificationObjects"
+   ],
+   "Internal-Core-2013-05-Thumbnail" : [
+      "getThumbnailFileTickets2"
+   ],
+   "Internal-StructureManagement-2019-06-VariantManagement" : [
+      "applyRollupVariantConfiguration"
+   ],
+   "Administration-2018-11-IRM" : [
+      "getSessionInfoFromTicket",
+      "getSessionInfoTicket"
+   ],
+   "Internal-Validation-2008-06-Validation" : [
+      "evaluateValidationResultsWithRules",
+      "parseRequirementExpressions"
+   ],
+   "UmlSysml-2017-11-UmlSysml" : [
+      "updateModelElements",
+      "getModelElements",
+      "getModelElements1",
+      "getRelatedModels",
+      "updateModelElements2"
+   ],
+   "Reports-2008-12-CrfReports" : [
+      "generateReports"
+   ],
+   "ProductionManagement-2011-06-EngineeringDataLoad" : [
+      "createRelBwDsRoutineRev"
+   ],
+   "Internal-StructureManagement-2007-06-Redlining" : [
+      "revertAllPendingEdits",
+      "revertPendingEdits"
+   ],
+   "Internal-WeightandBalanceAw-2020-05-Report" : [
+      "generateRollupReportAsync",
+      "generateRollupReport",
+      "getStructureInfoFromRollupReport"
+   ],
+   "Internal-BusinessModeler-2013-05-DynamicLOVQuery" : [
+      "executeDynamicLOVQuery"
+   ],
+   "Internal-StructureManagement-2007-06-PublishByLink" : [
+      "createIDCWindowForDesignAsm"
+   ],
+   "Internal-Process-2017-05-ProductSubset" : [
+      "getProductSubsetDefinitions"
+   ],
+   "WProxy-2014-10-ProxyLink" : [
+      "createProxyLink"
+   ],
+   "Core-2009-04-ProjectLevelSecurity" : [
+      "loadProjectDataForUser"
+   ],
+   "Internal-ProductConfiguratorAw-2020-05-ConfiguratorManagement" : [
+      "getConfiguratorDataHierarchy"
+   ],
+   "Classification-2007-01-Classification" : [
+      "createClassificationObjects",
+      "findClassificationObjects",
+      "findClassifiedObjects",
+      "getAttributesForClasses",
+      "getChildren",
+      "getClassDescriptions",
+      "getClassificationObjects",
+      "getFileIds",
+      "getKeyLOVs",
+      "getParents",
+      "getPartFamilyTemplates",
+      "searchByInstanceId",
+      "searchForClasses",
+      "search",
+      "updateClassificationObjects",
+      "deleteClassificationObjects"
+   ],
+   "Internal-Classification-2020-04-Classification" : [
+      "findClassificationInfo"
+   ],
+   "Core-2007-01-DataManagement" : [
+      "createOrUpdateForms",
+      "generateUID",
+      "getDatasetCreationRelatedInfo",
+      "getItemCreationRelatedInfo",
+      "getItemFromId",
+      "moveToNewFolder",
+      "saveAsNewItem",
+      "whereReferenced",
+      "whereUsed",
+      "refreshObjects",
+      "setProperties"
+   ],
+   "Core-2009-04-Session" : [
+      "stopOperation",
+      "startOperation"
+   ],
+   "Internal-SupplierCollaborationAW-2018-12-SupplierCollaboration" : [
+      "getRowInfo",
+      "sendExchangeToRespondent",
+      "sendToSourcingManager",
+      "updateRespondents"
+   ],
+   "Participant-2018-11-Participant" : [
+      "addParticipants",
+      "removeParticipants",
+      "reassignParticipants"
+   ],
+   "Qualification-2014-06-QualificationManagement" : [
+      "appendQualificationLevel",
+      "assignUserQualification",
+      "createQualification",
+      "removeQualificationLevel",
+      "removeUserQualification",
+      "updateQualification"
+   ],
+   "Internal-SupplierCollaboration-2016-09-SupplierCollaboration" : [
+      "performStatusChangeOnExchange"
+   ],
+   "Rdv-2012-09-ContextManagement" : [
+      "createFormAttrSearchCriteria",
+      "createSearchCriteriaScope",
+      "createSearchSCO",
+      "getICSClassNames",
+      "updateSearchSCO"
+   ],
+   "ProjectManagementAw-2015-07-ScheduleManagementAw" : [
+      "createTaskDeliverables"
+   ],
+   "Internal-ActiveWorkspaceSysEng-2016-03-MatrixManagement" : [
+      "manageMatrix"
+   ],
+   "AsMaintained-2009-06-AsMaintained" : [
+      "applyMroRevisionRule",
+      "changePhysicalPartDisposition",
+      "generateAsMaintainedStructure",
+      "installAsmPhysicalPart",
+      "movePhysicalPart",
+      "replaceAsmPhysicalPart",
+      "uninstallPhysicalPart"
+   ],
+   "Internal-ActiveWorkspaceReqMgmt-2019-12-SpecNavigation" : [
+      "getSpecificationContents",
+      "reuseSpecificationAsync"
+   ],
+   "Internal-Requirementsmanagement-2012-02-RequirementsManagement" : [
+      "getTraceabilityMatrix"
+   ],
+   "Vendormanagement-2008-06-VendorManagement" : [
+      "changeVendor",
+      "getVendorPartsWithSelRule"
+   ],
+   "ValidationContract-2015-03-VCManagement" : [
+      "getContractDefnDetails"
+   ],
+   "Internal-AWS2-2020-05-FileMgmt" : [
+      "getFileNamesWithTicketInfo"
+   ],
+   "Internal-VendorManagementAW-2020-12-VendorManagement" : [
+      "sortAndFilterViewModelRows"
+   ],
+   "Internal-Visualization-2011-02-StructureManagement" : [
+      "createVisSC",
+      "createVisSCsFromBOMs"
+   ],
+   "AttrTargetMgmtAW-2019-12-AttributeTargetManagement" : [
+      "removeParameters",
+      "replaceParameters"
+   ],
+   "Internal-Classification-2018-11-Classification" : [
+      "saveClassificationObjects"
+   ],
+   "Visualization-2013-05-DataManagement" : [
+      "createLaunchInfo"
+   ],
+   "ActiveWorkspaceSysEng-2014-11-DiagramManagement" : [
+      "getDiagramLegend2",
+      "getDiagramLegend3"
+   ],
+   "Internal-SupplierCollaboration-2016-03-SupplierCollaboration" : [
+      "autoSplitLineItems"
+   ],
+   "Internal-StructureManagement-2017-05-StructureVerification" : [
+      "getAttachmentComparisonDetails"
+   ],
+   "Administration-2015-03-UserManagement" : [
+      "setUserProfileProperties"
+   ],
+   "Ai-2007-12-Ai" : [
+      "generateScopedMultipleStructure",
+      "generateScopedSyncRequest"
+   ],
+   "ModelCore-2011-06-ModelConfiguration" : [
+      "findRevisionRulesForModel"
+   ],
+   "CaeAw-2016-03-SimulationManagementAw" : [
+      "captureAndAttachCAEPedigree"
+   ],
+   "Internal-SimProc-2020-04-SimulationToolLaunch" : [
+      "exportAndCheckoutPLMXMLWithDSM",
+      "exportMaterialsForToolLaunch",
+      "importAndCheckinPLMXMLwithDSM"
+   ],
+   "Core-2009-10-DataManagement" : [
+      "getItemFromAttribute",
+      "getTableProperties",
+      "setTableProperties"
+   ],
+   "Internal-Configurator-2014-12-ConfiguratorManagement" : [
+      "updateAdmissibility",
+      "getOverlapStates"
+   ],
+   "ModelCore-2016-10-GeometricConstraints" : [
+      "updateContainer3"
+   ],
+   "Internal-Ldf-2015-03-LinkedDataRequest" : [
+      "generateJsonForRequest"
+   ],
+   "Internal-DocMgmtAw-2019-06-DocMgmt" : [
+      "processMarkups"
+   ],
+   "Manufacturing-2019-06-DataManagement" : [
+      "publishSelectionFromStudyToSource",
+      "syncSelectionInStudyWithSource"
+   ],
+   "Internal-Multisite-2017-11-ArchiveRestore" : [
+      "archiveObjects",
+      "restoreObjects",
+      "getReportFileTicket"
+   ],
+   "Core-2011-06-DataManagement" : [
+      "saveAsObjects",
+      "getTraceReport",
+      "validateRevIds"
+   ],
+   "Internal-MROCore-2009-06-MROCore" : [
+      "displayUtilization"
+   ],
+   "Internal-AWS2-2018-05-FullTextSearch" : [
+      "createFullTextSavedSearch",
+      "modifyFullTextSavedSearch"
+   ],
+   "Internal-AsBuilt-2008-06-AsBuilt" : [
+      "createMROBOMWindows",
+      "getAllOpenUsages",
+      "mroBomCompare"
+   ],
+   "Internal-ProjectManagement-2008-06-ScheduleManagement" : [
+      "loadSchedules",
+      "modifySchedule",
+      "getSchedulesToinsert"
+   ],
+   "Core-2018-06-DataManagement" : [
+      "createObjectsInBulkAndRelate"
+   ],
+   "Internal-ActiveWorkspaceReqMgmt-2017-06-SpecNavigation" : [
+      "moveSelectedOccurrences"
+   ],
+   "Internal-StructureManagement-2008-06-Structure" : [
+      "copyRecursively",
+      "findHighestFindNumberInExpand"
+   ],
+   "ProjectManagement-2016-04-ScheduleManagement" : [
+      "createNewBaselines",
+      "createNewBaselinesAsync"
+   ],
+   "CalendarManagement-2007-01-CalendarManagement" : [
+      "createTCCalendars",
+      "getTCCalendars",
+      "modifyTCCalendars",
+      "updateTCCalendars",
+      "deleteTCCalendars"
+   ],
+   "Internal-Core-2013-05-ProjectLevelSecurity" : [
+      "getFilteredObjectsInProject"
+   ],
+   "MROCore-2014-06-MROCore" : [
+      "assignLot"
+   ],
+   "SimProc-2013-05-SimProcessStatusManagement" : [
+      "deleteSimProcessStatus",
+      "updateSimProcessStatus",
+      "createSimProcessStatus",
+      "getSimProcessStatus"
+   ],
+   "Internal-Manufacturing-2017-05-StructureManagement" : [
+      "syncMasterAndAlternative"
+   ],
+   "Internal-TrainingQualificationAw-2020-12-TrainingQualification" : [
+      "assignQualificationUnits"
+   ],
+   "Manufacturing-2016-03-ImportExport" : [
+      "importManufacturingFeatures",
+      "exportToBriefcase"
+   ],
+   "Diagramming-2011-06-DiagramManagement" : [
+      "createDiagram",
+      "createOrUpdateTemplate",
+      "getDiagramMembers",
+      "openDiagram",
+      "saveDiagram"
+   ],
+   "Internal-AWPdmCore-2019-06-PlantDataManagement" : [
+      "createAndRelateSubsetToPR"
+   ],
+   "Manufacturing-2009-10-StructureSearch" : [
+      "nextSearch",
+      "startSearch",
+      "stopSearch"
+   ],
+   "Internal-Workflow-2013-05-Workflow" : [
+      "performActionAsync"
+   ],
+   "Internal-CbaExt-2014-12-QueryManagement" : [
+      "findAlignedACTLinesForDesigns",
+      "findAlignedDesignsForACT",
+      "findAlignedCADForPart",
+      "findAlignedPartForDrawingProxy",
+      "findAlignedPartForCAD",
+      "findAlignedPartForDrawing",
+      "findAlignedSolutionsForDesigns",
+      "executeSpatialSearch"
+   ],
+   "ProductionManagement-2007-06-MeasurementDataLoad" : [
+      "insertEventTrace",
+      "insertFeatureActuals",
+      "insertLimitData",
+      "insertLogData",
+      "insertMeasurementData",
+      "updateEventColumn"
+   ],
+   "Internal-MfgBvrCore-2014-06-Reports" : [
+      "generateReport"
+   ],
+   "Manufacturing-2012-09-DataManagement" : [
+      "createOrUpdateConfigObjects",
+      "applyConfigObjects"
+   ],
+   "ProductionManagement-2008-03-MeasurementDataEdit" : [
+      "activateOrDeactivateData"
+   ],
+   "Internal-CmAws-2017-12-Changes" : [
+      "getChangeSummaryTable"
+   ],
+   "Manufacturing-2013-05-Core" : [
+      "findNodeInContext",
+      "matchObjectsAgainstVariantRules"
+   ],
+   "Cad-2008-03-DataManagement" : [
+      "createOrUpdateParts",
+      "resolveAttrMappings"
+   ],
+   "Internal-ContractDataManagement-2020-12-Icd0IPPEContractDataManagement" : [
+      "createOrUpdateContractSchedule",
+      "validateDataForContractSchCreate"
+   ],
+   "Internal-ProjectManagement-2010-04-ScheduleManagement" : [
+      "translateFour"
+   ],
+   "Vendormanagement-2016-09-VendorManagement" : [
+      "createVendorParts"
+   ],
+   "Process-2018-11-ProductSubset" : [
+      "createOrUpdateProductSubsetsFromPartitions"
+   ],
+   "Internal-CadBomAlignment-2012-02-ProxyManagement" : [
+      "createPMMPersistentProxy",
+      "savePMMPersistentProxy"
+   ],
+   "Internal-Core-2018-11-FileManagement" : [
+      "getTransientFileTicketsForDownload"
+   ],
+   "Internal-StructureManagement-2016-03-StructureVerification" : [
+      "alignMatchedCandidates",
+      "findMatchingCandidates"
+   ],
+   "BusinessModeler-2011-06-Constants" : [
+      "getGlobalConstantValues2"
+   ],
+   "UiConfig-2014-11-UiConfig" : [
+      "getUIConfigs",
+      "saveUiConfigs"
+   ]
+}

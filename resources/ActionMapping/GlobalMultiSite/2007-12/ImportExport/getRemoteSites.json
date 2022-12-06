@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "GlobalMultiSite-2007-12-ImportExport/getRemoteSites",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "siteType" : "String"
+   }
+}

@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/removeExchangeLines",
+   "OperationInput" : {
+      "objectsToBeRemoved" : "IModelObject[]"
+   }
+}

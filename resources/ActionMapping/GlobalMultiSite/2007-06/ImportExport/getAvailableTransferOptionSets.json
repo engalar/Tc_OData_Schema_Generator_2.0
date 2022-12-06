@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "role" : "IModelObject",
+         "isExport" : "bool",
+         "group" : "IModelObject",
+         "user" : "IModelObject",
+         "isPush" : "bool",
+         "site" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "optionSetObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/getAvailableTransferOptionSets"
+}

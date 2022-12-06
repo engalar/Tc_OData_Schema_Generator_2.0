@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2014-12-StructureVerification/createOrUpdatePropagationDetails",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "details" : [
+         {
+            "propagationDetails" : [
+               {
+                  "targetContext" : "IModelObject",
+                  "status" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "changeType" : "String",
+            "targets" : [
+               {
+                  "incrementalChangeElement" : "IModelObject",
+                  "targetLine" : "IModelObject",
+                  "status" : "String"
+               }
+            ],
+            "changedLine" : "IModelObject",
+            "changedObject" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2017-05-ProjectLevelSecurity/assignOrRemoveObjectsFromProjects",
+   "OperationInput" : {
+      "assignOrRemoveInput" : [
+         {
+            "projectsForRemoval" : "IModelObject[]",
+            "objectsForAssignment" : "IModelObject[]",
+            "objectsToRemoveFromProjects" : "IModelObject[]",
+            "projectsToAssign" : "IModelObject[]",
+            "contextInfo" : {
+               "revisionRule" : "IModelObject",
+               "depth" : "int",
+               "variantRule" : "IModelObject",
+               "typeOption" : "int",
+               "selectedTopLevelObject" : "IModelObject"
+            },
+            "processAsynchronously" : "bool"
+         }
+      ]
+   }
+}

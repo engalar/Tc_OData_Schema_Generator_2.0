@@ -1,0 +1,92 @@
+{
+   "OperationInput" : {
+      "getUiConfigsIn" : [
+         {
+            "clientScopeURIs" : "String[]",
+            "scope" : {
+               "scopeQueryParam" : "String",
+               "scopeName" : "String"
+            },
+            "commandContextInfo" : [
+               {
+                  "contextName" : "String",
+                  "contextValue" : "String"
+               }
+            ],
+            "client" : {
+               "clientName" : "String",
+               "hostingClientName" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "AWS2-2017-06-UiConfig/getUIConfigs3",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "uiConfigInfo" : [
+         {
+            "commandConfigurations" : [
+               {
+                  "cmdCollections" : [
+                     {
+                        "childConfigIndex" : "int[]",
+                        "childIsVisible" : "bool[]",
+                        "childIsCollection" : "bool[]",
+                        "commandCollection" : "IModelObject"
+                     }
+                  ],
+                  "scopeName" : "String",
+                  "clientScope" : "IModelObject",
+                  "hostingClient" : "IModelObject",
+                  "commands" : "IModelObject[]",
+                  "visibleCommands" : "IModelObject[]",
+                  "cmdCollectionIndex" : "int[]",
+                  "commandCollectionRels" : "IModelObject[]"
+               }
+            ],
+            "columnConfigurations" : [
+               {
+                  "columnConfigurations" : [
+                     {
+                        "columnConfigId" : "String",
+                        "columns" : [
+                           {
+                              "sortPriority" : "int",
+                              "columnSrcType" : "String",
+                              "sortByFlag" : "bool",
+                              "colDefSortDirection" : "String",
+                              "pixelWidth" : "int",
+                              "columnOrder" : "int",
+                              "hiddenFlag" : "bool",
+                              "propDescriptor" : {
+                                 "srcObjectTypeName" : "String",
+                                 "propConstants" : {
+                                    "SampleKeyString" : "String"
+                                 },
+                                 "lovCategory" : "int",
+                                 "valueType" : "int",
+                                 "displayName" : "String",
+                                 "propertyType" : "int",
+                                 "isArray" : "bool",
+                                 "propertyName" : "String",
+                                 "maxArraySize" : "int",
+                                 "lov" : "IModelObject",
+                                 "maxLength" : "int"
+                              }
+                           }
+                        ],
+                        "operationType" : "String",
+                        "sortDirection" : "String"
+                     }
+                  ],
+                  "hostingClient" : "String",
+                  "scopeName" : "String",
+                  "scope" : "String",
+                  "clientScopeURI" : "String"
+               }
+            ],
+            "client" : "String"
+         }
+      ]
+   }
+}

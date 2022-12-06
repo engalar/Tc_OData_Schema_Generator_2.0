@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "modifications" : [
+         {
+            "scheduleTCCalendar" : "IModelObject",
+            "action" : "MergeSchedule ResetSchedule"
+         }
+      ]
+   },
+   "ServiceOperation" : "CalendarManagement-2007-01-CalendarManagement/modifyTCCalendars",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "tccalendars" : [
+         {
+            "events" : "IModelObject[]",
+            "tccalendar" : "IModelObject"
+         }
+      ]
+   }
+}

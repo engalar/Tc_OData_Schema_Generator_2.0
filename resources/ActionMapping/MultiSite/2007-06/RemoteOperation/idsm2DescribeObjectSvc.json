@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "tagsAsString" : "String",
+         "clientInfo" : {
+            "targetSiteId" : "int",
+            "groupName" : "String",
+            "roleName" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "osUserName" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "out" : {
+         "objectDesc" : {
+            "objectOwner" : "String",
+            "objectClass" : "String",
+            "objectReleaseStatusNames" : "String[]",
+            "objectType" : "String",
+            "objectId" : "String",
+            "objectLastModDate" : "Date",
+            "objectDesc" : "String",
+            "tagAsString" : "String",
+            "objectCreationDate" : "Date",
+            "objectGroup" : "String",
+            "siteId" : "int",
+            "objectName" : "String"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm2DescribeObjectSvc"
+}

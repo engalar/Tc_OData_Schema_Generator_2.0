@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "idContextOuts" : [
+         {
+            "inputObj" : "IModelObject",
+            "idContexts" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2020-01-DataManagement/getIdContexts",
+   "OperationInput" : {
+      "inputObjs" : "IModelObject[]"
+   }
+}

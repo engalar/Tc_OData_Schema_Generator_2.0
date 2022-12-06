@@ -1,0 +1,44 @@
+{
+   "ServiceOperation" : "StructureManagement-2011-06-Structure/validateStructureItemIds3",
+   "OperationResponse" : {
+      "clonedIdStructure" : [
+         {
+            "newItemInfo" : {
+               "newItemName" : "String",
+               "newItemId" : "String"
+            },
+            "oldItemComponent" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "options" : "NoDep Drawing PartFamilyMaster PartFamilyMember Required AllDep ExcludeFromBom[]",
+            "clonedIdStructure" : [
+               {
+                  "newItemInfo" : {
+                     "newItemId" : "String",
+                     "newItemName" : "String"
+                  },
+                  "oldItemComponent" : "IModelObject"
+               }
+            ],
+            "projects" : {
+               "assign" : "bool",
+               "projects" : "IModelObject[]",
+               "validate" : "bool"
+            },
+            "topLine" : "IModelObject",
+            "defaultName" : {
+               "to" : "String",
+               "suffix" : "String",
+               "autogen" : "bool",
+               "from" : "String",
+               "prefix" : "String"
+            }
+         }
+      ]
+   }
+}

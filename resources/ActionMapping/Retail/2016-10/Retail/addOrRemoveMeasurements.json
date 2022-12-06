@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-Retail-2016-10-Retail/addOrRemoveMeasurements",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : {
+         "isAddMeasurement" : "bool",
+         "sourceTemplateOrProduct" : "IModelObject",
+         "measurements" : "IModelObject[]"
+      }
+   }
+}

@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "productViews" : [
+         {
+            "pvAttachedTo" : "IModelObject",
+            "productView" : "IModelObject",
+            "nodesPresentInPv" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Visualization-2010-09-DataManagement/findProductViewsForNodes",
+   "OperationInput" : {
+      "searchCriteria" : [
+         {
+            "nodesToSearch" : "IModelObject[]",
+            "nodeCombination" : "String",
+            "searchScope" : "IModelObject[]"
+         }
+      ]
+   }
+}

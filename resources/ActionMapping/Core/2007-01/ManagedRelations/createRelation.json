@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "relationinfo" : [
+         {
+            "secondaryTagList" : "IModelObject[]",
+            "type" : "String",
+            "name" : "String",
+            "primaryTagList" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "managedRelationObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2007-01-ManagedRelations/createRelation"
+}

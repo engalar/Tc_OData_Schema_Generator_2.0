@@ -1,0 +1,61 @@
+{
+   "ServiceOperation" : "ModelCore-2015-07-GeometricConstraints/updateContainer2",
+   "OperationResponse" : {
+      "updatedContainers" : [
+         {
+            "members" : [
+               {
+                  "isForeground" : "bool",
+                  "csid" : "String",
+                  "member" : "IModelObject"
+               }
+            ],
+            "nameReferenceTicketMap" : {
+               "SampleKeyString" : "String"
+            },
+            "outputIteration" : "int",
+            "owner" : "IModelObject",
+            "isLatestIterationWorking" : "bool",
+            "latestIteration" : "int",
+            "inputIteration" : "int",
+            "constraintDataSet" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "containerInfo2" : [
+         {
+            "attrInfoMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "constraintData" : {
+               "dataSetType" : "String",
+               "nameReferenceFileMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "updateIteration" : "int",
+            "constraintOptionsMap" : {
+               "SampleKeyString" : "bool"
+            },
+            "areConstraintsFullySolved" : "bool",
+            "systemManaged" : "bool",
+            "owner" : "IModelObject",
+            "constraintAttrInfoMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "memberList" : [
+               {
+                  "memberToRemove" : "IModelObject",
+                  "membership" : {
+                     "isForeground" : "bool",
+                     "csid" : "String",
+                     "member" : "IModelObject"
+                  }
+               }
+            ]
+         }
+      ]
+   }
+}

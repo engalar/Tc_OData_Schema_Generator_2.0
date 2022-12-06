@@ -1,0 +1,35 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2016-03-DataManagement/saveXRT",
+   "OperationInput" : {
+      "dsInfo" : {
+         "datasetObject" : "IModelObject",
+         "injectedByPreference" : {
+            "SampleKeyString" : [
+               {
+                  "xml" : "String",
+                  "dataset" : "IModelObject",
+                  "datasetName" : "String"
+               }
+            ]
+         },
+         "stylesheetContext" : {
+            "datasetName" : "String",
+            "location" : "String",
+            "stylesheetType" : "String",
+            "preferenceLocation" : "String",
+            "client" : "String",
+            "sublocation" : "String",
+            "type" : "String"
+         },
+         "xrt" : "String",
+         "injectedByDatasetName" : {
+            "SampleKeyString" : {
+               "datasetName" : "String",
+               "dataset" : "IModelObject",
+               "xml" : "String"
+            }
+         }
+      }
+   }
+}

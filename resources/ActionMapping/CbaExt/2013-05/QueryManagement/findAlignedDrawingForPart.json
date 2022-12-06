@@ -1,0 +1,49 @@
+{
+   "OperationResponse" : {
+      "partToAlignedDesignsInfos" : [
+         {
+            "remoteDesigns" : [
+               {
+                  "remoteDesign" : "IModelObject",
+                  "isPrimary" : "bool",
+                  "isPublished" : "bool"
+               }
+            ],
+            "localDesigns" : [
+               {
+                  "isPrimary" : "bool",
+                  "isPublished" : "bool",
+                  "localDesign" : "IModelObject"
+               }
+            ],
+            "impreciseUniqueKey" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CbaExt-2013-05-QueryManagement/findAlignedDrawingForPart",
+   "OperationInput" : {
+      "pmmParts" : {
+         "rowSet" : {
+            "row" : [
+               {
+                  "value" : "String[]",
+                  "clientID" : "String"
+               }
+            ]
+         },
+         "columnSet" : {
+            "table" : "String",
+            "column" : [
+               {
+                  "width" : "int",
+                  "datatype" : "String",
+                  "logicalName" : "String",
+                  "name" : "String",
+                  "table" : "String"
+               }
+            ]
+         }
+      }
+   }
+}

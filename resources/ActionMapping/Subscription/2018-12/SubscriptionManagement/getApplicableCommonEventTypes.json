@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "objectsOrTypes" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "commonEventTypes" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Subscription-2018-12-SubscriptionManagement/getApplicableCommonEventTypes"
+}

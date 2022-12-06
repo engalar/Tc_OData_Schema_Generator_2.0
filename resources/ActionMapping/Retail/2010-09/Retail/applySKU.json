@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/applySKU",
+   "OperationResponse" : {
+      "bomWindowUIDs" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "bomWindowUID" : "String",
+            "skuObjectUID" : "String"
+         }
+      ]
+   }
+}

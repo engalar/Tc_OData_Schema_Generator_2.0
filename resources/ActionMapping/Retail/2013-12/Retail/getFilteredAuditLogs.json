@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "auditLogs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Retail-2013-12-Retail/getFilteredAuditLogs",
+   "OperationInput" : {
+      "filterCriteria" : {
+         "boTypeToQuery" : "String",
+         "userValues" : "String[]",
+         "userEntries" : "String[]",
+         "userDisplayedFields" : "String[]"
+      }
+   }
+}

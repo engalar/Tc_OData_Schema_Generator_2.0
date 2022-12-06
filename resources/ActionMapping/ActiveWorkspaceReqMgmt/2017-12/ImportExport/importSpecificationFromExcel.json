@@ -1,0 +1,42 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2017-12-ImportExport/importSpecificationFromExcel",
+   "OperationResponse" : {
+      "columnHeaders" : "String[]",
+      "serviceData" : "IServiceData",
+      "typePropInfos" : [
+         {
+            "dispTypeName" : "String",
+            "objectType" : "String",
+            "propInfos" : [
+               {
+                  "realPropName" : "String",
+                  "dispPropName" : "String",
+                  "propHeader" : "String",
+                  "isRequired" : "bool"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputData" : {
+         "selectedObject" : "IModelObject",
+         "importOptions" : "String[]",
+         "typePropInfos" : [
+            {
+               "propInfos" : [
+                  {
+                     "realPropName" : "String",
+                     "dispPropName" : "String",
+                     "propHeader" : "String",
+                     "isRequired" : "bool"
+                  }
+               ],
+               "objectType" : "String",
+               "dispTypeName" : "String"
+            }
+         ],
+         "transientFileWriteTicket" : "String"
+      }
+   }
+}

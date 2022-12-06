@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "Vendormanagement-2008-06-VendorManagement/getVendorPartsWithSelRule",
+   "OperationResponse" : {
+      "partData" : [
+         {
+            "partAndRel" : [
+               {
+                  "vendorPart" : "IModelObject",
+                  "vmRepresentRel" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "conditionName" : "String",
+            "comPartRev" : "IModelObject"
+         }
+      ]
+   }
+}

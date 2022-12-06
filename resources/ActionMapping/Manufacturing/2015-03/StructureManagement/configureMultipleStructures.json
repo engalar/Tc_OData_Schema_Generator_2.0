@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : {
+         "fileTicket" : "String",
+         "filename" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-StructureManagement/configureMultipleStructures",
+   "OperationInput" : {
+      "configurationsInfo" : [
+         {
+            "effGrpRevisions" : "IModelObject[]",
+            "showUnconfigVariants" : "bool",
+            "showSupressedOccurrences" : "bool",
+            "saveCC" : "IModelObject",
+            "showUnconfigOccEffectivity" : "bool",
+            "variantRule" : "IModelObject",
+            "revisionRule" : "IModelObject",
+            "showUnconfigICs" : "bool",
+            "rootLine" : "IModelObject",
+            "showUnconfigAssignedOccs" : "bool",
+            "window" : "IModelObject"
+         }
+      ]
+   }
+}

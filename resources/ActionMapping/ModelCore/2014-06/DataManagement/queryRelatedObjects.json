@@ -1,0 +1,52 @@
+{
+   "ServiceOperation" : "ModelCore-2014-06-DataManagement/queryRelatedObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "relatedObjects" : [
+         {
+            "otherSideObjects" : [
+               {
+                  "relationInfos" : [
+                     {
+                        "otherSideObject" : "IModelObject",
+                        "relationObject" : "IModelObject"
+                     }
+                  ],
+                  "indexToSource" : "int"
+               }
+            ],
+            "indexToInput" : "int"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "configurationContext" : "IModelObject",
+            "returnRelations" : "bool",
+            "sourceObjects" : "IModelObject[]",
+            "queryPrimaries" : "bool",
+            "filters" : [
+               {
+                  "filters" : [
+                     {
+                        "attributeType" : "BooleanType IntegerType StringType DoubleType DateType TagType",
+                        "attributeName" : "String",
+                        "attributeValues" : {
+                           "stringValues" : "String[]",
+                           "dateValues" : "Date[]",
+                           "booleanValues" : "bool[]",
+                           "doubleValues" : "double[]",
+                           "tagValues" : "IModelObject[]",
+                           "integerValues" : "int[]"
+                        }
+                     }
+                  ],
+                  "relationTypeName" : "String",
+                  "otherSideObjectTypeName" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "exchangeObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/getSupplierTrackingReport",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "attachmentTrackingReports" : [
+         {
+            "viewModelProperties" : [
+               {
+                  "propParentBO" : "IModelObject",
+                  "hasLOV" : "bool",
+                  "propDataType" : "String",
+                  "propDBValue" : "String",
+                  "propUIValue" : "String",
+                  "isEditable" : "bool",
+                  "propDisplayName" : "String",
+                  "propInternalName" : "String"
+               }
+            ],
+            "modelObject" : "IModelObject"
+         }
+      ],
+      "activityTrackingReports" : [
+         {
+            "viewModelProperties" : [
+               {
+                  "propUIValue" : "String",
+                  "propDBValue" : "String",
+                  "propDataType" : "String",
+                  "hasLOV" : "bool",
+                  "propParentBO" : "IModelObject",
+                  "propInternalName" : "String",
+                  "propDisplayName" : "String",
+                  "isEditable" : "bool"
+               }
+            ],
+            "modelObject" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,43 @@
+{
+   "OperationResponse" : {
+      "views" : [
+         {
+            "displayName" : "String",
+            "visible" : "bool",
+            "diagramMode" : "bool",
+            "defaultLayout" : "String",
+            "groups" : [
+               {
+                  "name" : "String",
+                  "filters" : [
+                     {
+                        "types" : [
+                           {
+                              "displayName" : "String",
+                              "internalName" : "String"
+                           }
+                        ],
+                        "name" : "String",
+                        "color" : {
+                           "greenValue" : "double",
+                           "redValue" : "double",
+                           "blueValue" : "double"
+                        },
+                        "displayName" : "String"
+                     }
+                  ]
+               }
+            ],
+            "name" : "String",
+            "defaultExpandDirection" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "RelationshipViewer-2019-12-NetworkEngine/getViews4",
+   "OperationInput" : {
+      "getViewsInput" : {
+         "SampleKeyString" : "String[]"
+      }
+   }
+}

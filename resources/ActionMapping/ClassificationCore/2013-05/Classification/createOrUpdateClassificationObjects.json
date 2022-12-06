@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "classificationObjectInfos" : [
+         {
+            "classifiedObjectRef" : "IModelObject",
+            "objectId" : "String",
+            "objectName" : "String",
+            "objectDesc" : "String",
+            "nodeRef" : "IModelObject",
+            "objectToUpdate" : "IModelObject",
+            "propValues" : [
+               {
+                  "values" : "String[]",
+                  "name" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "classificationObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ClassificationCore-2013-05-Classification/createOrUpdateClassificationObjects"
+}

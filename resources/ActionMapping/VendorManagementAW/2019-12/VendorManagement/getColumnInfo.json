@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "Internal-VendorManagementAW-2019-12-VendorManagement/getColumnInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "columnInfo" : [
+         {
+            "objectTypeName" : "String",
+            "propInternalName" : "String",
+            "propDisplayName" : "String",
+            "columnWidth" : "int",
+            "isDisplayed" : "bool"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "tableType" : "String",
+         "inputObject" : "IModelObject"
+      }
+   }
+}

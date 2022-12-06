@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "specRulesInputs" : [
+         {
+            "ruleExprs" : [
+               {
+                  "expression" : "String",
+                  "propertyName" : "String"
+               }
+            ],
+            "specification" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibrarySpecificationManagement/getSpecificationRules",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "specRulesOutputs" : [
+         {
+            "specification" : "IModelObject",
+            "specRules" : "IModelObject[]"
+         }
+      ]
+   }
+}

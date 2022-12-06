@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "level" : "int"
+   },
+   "OperationResponse" : "bool",
+   "ServiceOperation" : "Internal-DebugMonitor-2015-07-DebugLogging/setPerformanceJournalLevel"
+}

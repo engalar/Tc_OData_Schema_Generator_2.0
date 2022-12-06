@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "generateCAEStructureInputs" : {
+         "selectedElements" : "IModelObject[]",
+         "domain" : "String",
+         "structureMapIR" : "IModelObject",
+         "isAsyncMode" : "bool",
+         "rootElement" : "IModelObject",
+         "variantRules" : "IModelObject[]",
+         "revisionRule" : "IModelObject"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-CaeAw-2018-12-SimulationManagementAw/generateCAEStructure"
+}

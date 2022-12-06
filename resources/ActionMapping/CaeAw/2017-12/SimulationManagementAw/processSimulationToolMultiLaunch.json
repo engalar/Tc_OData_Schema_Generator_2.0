@@ -1,0 +1,115 @@
+{
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/processSimulationToolMultiLaunch",
+   "OperationResponse" : {
+      "toolConfig" : {
+         "launchMethods" : "String[]",
+         "optionalInputExists" : "bool",
+         "displayProgressMonitor" : "bool",
+         "fileUploadConflictOptionExists" : "bool",
+         "optionalInputConfigList" : [
+            {
+               "inputValueObject" : "IModelObject",
+               "inputRevisionType" : "String",
+               "inputDesc" : "String",
+               "inputVisible" : "bool",
+               "optionalInputObject" : "IModelObject",
+               "exportDirectoryName" : "String"
+            }
+         ],
+         "inputParamList" : [
+            {
+               "inputType" : "String",
+               "propertyDisplayName" : "String",
+               "hasLov" : "bool",
+               "propertyLabelDisplay" : "String",
+               "lovValues" : "String[]",
+               "isEnabled" : "bool",
+               "type" : "String",
+               "isEditable" : "bool",
+               "dbValue" : "String"
+            }
+         ],
+         "rootLaunchDirectory" : "String",
+         "fileUploadConflictOption" : {
+            "optionName" : "String",
+            "isPromptUser" : "bool"
+         }
+      },
+      "fmsTicket" : "String",
+      "serviceData" : "IServiceData",
+      "showLaunchFileInfo" : "bool",
+      "launchFileInfo" : {
+         "SampleKeyString" : [
+            {
+               "fileDS" : "IModelObject",
+               "fileIRObjStr" : "String",
+               "file" : "IModelObject",
+               "selectedIRObjStr" : "String",
+               "fileSize" : "String",
+               "fileName" : "String",
+               "isSelected" : "bool",
+               "fileDSName" : "String",
+               "fileIR" : "IModelObject"
+            }
+         ]
+      },
+      "showLaunchSimToolDialog" : "bool"
+   },
+   "OperationInput" : {
+      "isLaunchFileInfoPresent" : "bool",
+      "selectedFileInfo" : {
+         "SampleKeyString" : [
+            {
+               "fileIRObjStr" : "String",
+               "fileDS" : "IModelObject",
+               "file" : "IModelObject",
+               "selectedIRObjStr" : "String",
+               "fileSize" : "String",
+               "isSelected" : "bool",
+               "fileName" : "String",
+               "fileIR" : "IModelObject",
+               "fileDSName" : "String"
+            }
+         ]
+      },
+      "simTool" : "IModelObject",
+      "isTestTTLC" : "bool",
+      "selectedObjects" : "IModelObject[]",
+      "launchDialogInfo" : {
+         "simToolOptionalInputList" : [
+            {
+               "inputValueObject" : "IModelObject",
+               "inputDesc" : "String",
+               "inputRevisionType" : "String",
+               "inputVisible" : "bool",
+               "optionalInputObject" : "IModelObject",
+               "exportDirectoryName" : "String"
+            }
+         ],
+         "fileUploadConflictOption" : {
+            "optionName" : "String",
+            "isPromptUser" : "bool"
+         },
+         "rootLaunchDirectory" : "String",
+         "launchType" : "String",
+         "launchWithoutConfigInput" : "bool",
+         "simToolInputParamList" : [
+            {
+               "lovValues" : "String[]",
+               "isEnabled" : "bool",
+               "type" : "String",
+               "isEditable" : "bool",
+               "dbValue" : "String",
+               "inputType" : "String",
+               "propertyDisplayName" : "String",
+               "hasLov" : "bool",
+               "propertyLabelDisplay" : "String"
+            }
+         ],
+         "fileUploadConflictOptionExists" : "bool",
+         "displayProgressMonitor" : "bool",
+         "openLaunchDirectory" : "bool"
+      },
+      "isLaunchDialogInfoPresent" : "bool"
+   }
+}

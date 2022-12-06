@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "SupplierCollaboration-2016-04-SupplierCollaboration/createAndSendDesignExchange",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "exchangeObj" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "designExInputInfo" : [
+         {
+            "closeDate" : "Date",
+            "instructions" : "String",
+            "partSuppInfoMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "description" : "String",
+            "exchangeObj" : "IModelObject",
+            "attrValueMap" : {
+               "SampleKeyString" : "String"
+            },
+            "clientId" : "String",
+            "exName" : "String"
+         }
+      ]
+   }
+}

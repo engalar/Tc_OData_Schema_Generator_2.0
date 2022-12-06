@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/unlinkPointsOfMeasure",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "pointOfMeasureRows" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "cfgvalidation-2018-12-ConfigurableValidation/getValidationResults",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "resultOwningObjects" : "IModelObject[]",
+      "valAgentRevObjects" : "IModelObject[]",
+      "valDataObjects" : "IModelObject[]"
+   }
+}

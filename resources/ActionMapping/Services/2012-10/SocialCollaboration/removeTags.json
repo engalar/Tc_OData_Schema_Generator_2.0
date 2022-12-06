@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "request" : {
+         "tagNames" : "String[]",
+         "objectUid" : "String"
+      }
+   },
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/removeTags",
+   "OperationResponse" : {
+      "tagNames" : "String[]",
+      "success" : "bool",
+      "msg" : "String"
+   }
+}

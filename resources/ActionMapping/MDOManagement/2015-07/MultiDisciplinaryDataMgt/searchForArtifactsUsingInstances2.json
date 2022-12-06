@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "designInstances" : "IModelObject[]",
+            "filterByDomain" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "mdoSearchOutput" : {
+         "mdoOutput" : [
+            {
+               "mdoObject" : "IModelObject",
+               "clientId" : "String",
+               "associatedDesignArtifact" : [
+                  {
+                     "domain" : "String",
+                     "designArtifact" : "IModelObject"
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "MDOManagement-2015-07-MultiDisciplinaryDataMgt/searchForArtifactsUsingInstances2"
+}

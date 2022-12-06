@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "scheduleUpdates" : [
+         {
+            "typedUpdates" : [
+               {
+                  "updates" : [
+                     {
+                        "attrName" : "String",
+                        "attrValue" : "String",
+                        "attrType" : "int"
+                     }
+                  ],
+                  "objectType" : "String"
+               }
+            ],
+            "updates" : [
+               {
+                  "attrName" : "String",
+                  "attrValue" : "String",
+                  "attrType" : "int"
+               }
+            ],
+            "object" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/updateSchedules",
+   "OperationResponse" : "IServiceData"
+}

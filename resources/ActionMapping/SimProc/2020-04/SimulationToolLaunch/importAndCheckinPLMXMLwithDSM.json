@@ -1,0 +1,34 @@
+{
+   "OperationResponse" : {
+      "logFileTickets" : [
+         {
+            "fileName" : "String",
+            "ticket" : "String"
+         }
+      ],
+      "plmxmlNamedRefPlmdTicketInfoList" : [
+         {
+            "plmdTicket" : "String",
+            "refName" : "String",
+            "absoluteFilePath" : "String",
+            "dataset" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SimProc-2020-04-SimulationToolLaunch/importAndCheckinPLMXMLwithDSM",
+   "OperationInput" : {
+      "logFileTickets" : "String[]",
+      "namedRefFileTickets" : "String[]",
+      "transferMode" : "String",
+      "xmlFileTicket" : "String",
+      "checkInOnImport" : "bool",
+      "performCancelCheckOut" : "bool",
+      "sessionOptions" : [
+         {
+            "optionValue" : "String",
+            "optionName" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,62 @@
+{
+   "OperationInput" : {
+      "targetObjects" : "IModelObject[]",
+      "revisionRule" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "configObjectExpressions" : [
+         {
+            "clientId" : "String",
+            "expressions" : [
+               {
+                  "formula" : "String",
+                  "exprID" : "String",
+                  "expressionType" : "int",
+                  "configExprSets" : [
+                     {
+                        "configExpressions" : [
+                           {
+                              "expressionType" : "int",
+                              "subExpressions" : [
+                                 {
+                                    "expressionGroups" : [
+                                       {
+                                          "terms" : [
+                                             {
+                                                "selectionClass" : "String",
+                                                "value" : "IModelObject",
+                                                "operatorCode" : "int",
+                                                "family" : "IModelObject",
+                                                "rangeExpressions" : [
+                                                   {
+                                                      "feature" : "IModelObject",
+                                                      "operatorCode" : "int",
+                                                      "valueText" : "String"
+                                                   }
+                                                ],
+                                                "valueText" : "String",
+                                                "familyID" : "String",
+                                                "familyNamespace" : "String"
+                                             }
+                                          ],
+                                          "context" : "IModelObject",
+                                          "groupName" : "String"
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "clientID" : "String",
+                              "formula" : "String"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "targetObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Configurator-2015-10-ConfiguratorManagement/getVariantExpressions"
+}

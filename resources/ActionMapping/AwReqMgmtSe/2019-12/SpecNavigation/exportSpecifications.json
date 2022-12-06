@@ -1,0 +1,56 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "mode" : "String",
+         "selectedObjects" : "IModelObject[]",
+         "options" : "String[]",
+         "inputCtxt" : {
+            "configuration" : {
+               "svrOwningProduct" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "endItem" : "IModelObject",
+               "effectivityDate" : "Date",
+               "variantRule" : "IModelObject",
+               "unitNo" : "int",
+               "now" : "bool",
+               "configurationObject" : "IModelObject"
+            },
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            },
+            "pageSize" : "int",
+            "structureContextObject" : "IModelObject",
+            "productContext" : "IModelObject"
+         },
+         "isRunInBackground" : "bool",
+         "typePropsData" : [
+            {
+               "objectType" : "String",
+               "dispTypeName" : "String",
+               "objectTypeRev" : "String",
+               "propInfos" : [
+                  {
+                     "propName" : "String",
+                     "hasLOV" : "bool",
+                     "isArray" : "bool",
+                     "lovDispValues" : "String[]",
+                     "propType" : "String",
+                     "isRequired" : "bool",
+                     "minValue" : "int",
+                     "dispPropName" : "String",
+                     "isEditable" : "bool",
+                     "maxValue" : "int",
+                     "lovValues" : "String[]"
+                  }
+               ],
+               "typeInfo" : "String"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "fileTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2019-12-SpecNavigation/exportSpecifications"
+}

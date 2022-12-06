@@ -1,0 +1,79 @@
+{
+   "OperationInput" : {
+      "parmGrpDefRev" : "IModelObject",
+      "includeChildren" : "bool",
+      "memLayoutOrBlock" : [
+         {
+            "isLayout" : "bool",
+            "memLayoutOrBlock" : "IModelObject"
+         }
+      ],
+      "includeOverrides" : "bool"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "memOverrides" : [
+         {
+            "convRuleOverrides" : [
+               {
+                  "parmDefRec" : "IModelObject",
+                  "parmDefRev" : "IModelObject"
+               }
+            ],
+            "overrideContainer" : "IModelObject",
+            "memOverrides" : [
+               {
+                  "parmDefRec" : "IModelObject",
+                  "parmDefRev" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "memLayoutInfo" : [
+         {
+            "trailerObject" : "IModelObject",
+            "headerObject" : "IModelObject",
+            "memoryContent" : {
+               "parmDefRecords" : [
+                  {
+                     "parmDefRev" : "IModelObject",
+                     "parmDefRec" : "IModelObject"
+                  }
+               ],
+               "memContent" : "IModelObject",
+               "memBlocks" : [
+                  {
+                     "trailerObject" : "IModelObject",
+                     "memBlocks" : "Teamcenter::Soa::ParameterManagement::_2012_02::Parameter::MemoryBlockInfo[]",
+                     "headerObject" : "IModelObject",
+                     "parmDefRecords" : [
+                        {
+                           "parmDefRec" : "IModelObject",
+                           "parmDefRev" : "IModelObject"
+                        }
+                     ],
+                     "memBlock" : "IModelObject"
+                  }
+               ]
+            },
+            "layoutObject" : "IModelObject"
+         }
+      ],
+      "memBlockInfo" : [
+         {
+            "headerObject" : "IModelObject",
+            "parmDefRecords" : [
+               {
+                  "parmDefRev" : "IModelObject",
+                  "parmDefRec" : "IModelObject"
+               }
+            ],
+            "memBlocks" : "Teamcenter::Soa::ParameterManagement::_2012_02::Parameter::MemoryBlockInfo[]",
+            "trailerObject" : "IModelObject",
+            "memBlock" : "IModelObject"
+         }
+      ],
+      "unassignedParmDefRevs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ParameterManagement-2012-02-Parameter/getMemoryLayoutOrBlockInfo"
+}

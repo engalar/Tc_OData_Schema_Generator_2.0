@@ -1,0 +1,95 @@
+{
+   "OperationResponse" : {
+      "pmmscoOutputMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2014-12-ObjectManagement/createPMMSCO",
+   "OperationInput" : {
+      "input" : [
+         {
+            "pmmServiceName" : "String",
+            "clientId" : "String",
+            "scoName" : "String",
+            "contextName" : "String",
+            "scoInfo" : {
+               "baseSearch" : {
+                  "pmmResults" : {
+                     "selectedObjects" : [
+                        {
+                           "objectType" : "String",
+                           "objects" : "String[]"
+                        }
+                     ],
+                     "unselectedObjects" : [
+                        {
+                           "objectType" : "String",
+                           "objects" : "String[]"
+                        }
+                     ]
+                  },
+                  "cadResults" : [
+                     {
+                        "window" : "IModelObject",
+                        "structureType" : "int",
+                        "selectedLines" : "IModelObject[]"
+                     }
+                  ],
+                  "queryInfos" : [
+                     {
+                        "queryNameValues" : {
+                           "SampleKeyString" : "String"
+                        },
+                        "tableName" : "String"
+                     }
+                  ]
+               },
+               "advancedSearch" : {
+                  "searchCriteria" : {
+                     "attributes" : [
+                        {
+                           "tableName" : "String",
+                           "queryNameValues" : {
+                              "SampleKeyString" : "String"
+                           }
+                        }
+                     ],
+                     "vooState" : "bool",
+                     "searchType" : "int",
+                     "tstState" : "bool",
+                     "measUnit" : "String",
+                     "distance" : "double",
+                     "coords" : "double[]",
+                     "lengths" : "double[]"
+                  },
+                  "cadResults" : [
+                     {
+                        "window" : "IModelObject",
+                        "structureType" : "int",
+                        "selectedLines" : "IModelObject[]"
+                     }
+                  ],
+                  "pmmResults" : {
+                     "selectedObjects" : [
+                        {
+                           "objectType" : "String",
+                           "objects" : "String[]"
+                        }
+                     ],
+                     "unselectedObjects" : [
+                        {
+                           "objects" : "String[]",
+                           "objectType" : "String"
+                        }
+                     ]
+                  }
+               }
+            },
+            "plmxmlFile" : "IModelObject",
+            "scoDesc" : "String",
+            "scoType" : "int"
+         }
+      ]
+   }
+}

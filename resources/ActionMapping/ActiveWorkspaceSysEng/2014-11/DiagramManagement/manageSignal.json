@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "interfaceElements" : "IModelObject[]",
+            "clientId" : "String",
+            "parentOccurrence" : "IModelObject",
+            "signalObjects" : "IModelObject[]",
+            "productContext" : "IModelObject",
+            "userAction" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "relatedSignals" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceSysEng-2014-11-DiagramManagement/manageSignal"
+}

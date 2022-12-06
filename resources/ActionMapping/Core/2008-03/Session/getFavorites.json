@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Core-2008-03-Session/getFavorites",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : {
+         "containers" : [
+            {
+               "clientId" : "String",
+               "id" : "String",
+               "parentId" : "String",
+               "type" : "String",
+               "displayName" : "String"
+            }
+         ],
+         "objects" : [
+            {
+               "clientId" : "String",
+               "parentId" : "String",
+               "objectTag" : "IModelObject",
+               "displayName" : "String"
+            }
+         ]
+      }
+   }
+}

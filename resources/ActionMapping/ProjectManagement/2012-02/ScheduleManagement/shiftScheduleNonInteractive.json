@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "schedule" : "IModelObject",
+      "newDate" : "Date",
+      "newFinish" : "bool"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/shiftScheduleNonInteractive"
+}

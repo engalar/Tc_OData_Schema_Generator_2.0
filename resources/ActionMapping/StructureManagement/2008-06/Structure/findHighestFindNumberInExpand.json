@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2008-06-Structure/findHighestFindNumberInExpand",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "highestFindNumber" : "int",
+            "clientId" : "String"
+         }
+      ],
+      "incrementNumber" : "int",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "bvr" : "IModelObject",
+            "occType" : "String"
+         }
+      ]
+   }
+}

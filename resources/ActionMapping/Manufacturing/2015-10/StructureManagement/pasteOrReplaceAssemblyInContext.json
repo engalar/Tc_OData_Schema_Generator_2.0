@@ -1,0 +1,49 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2015-10-StructureManagement/pasteOrReplaceAssemblyInContext",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "additionalInfo" : {
+         "strToDateVectorMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strToIntVectorMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strToObjVectorMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strToStrVectorMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "strToDoubleVectorMap" : {
+            "SampleKeyString" : "double[]"
+         }
+      }
+   },
+   "OperationInput" : {
+      "assemblyInContextInput" : [
+         {
+            "targetObject" : "IModelObject",
+            "sourceObject" : "IModelObject",
+            "newObject" : "IModelObject",
+            "additionalInfo" : {
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            }
+         }
+      ]
+   }
+}

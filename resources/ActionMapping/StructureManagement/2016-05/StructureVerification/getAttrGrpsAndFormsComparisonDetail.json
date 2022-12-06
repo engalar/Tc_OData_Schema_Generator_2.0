@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "sourceConfigContext" : "IModelObject",
+      "targetConfigContext" : "IModelObject",
+      "equivalentObjects" : [
+         {
+            "eqvTargetLines" : "IModelObject[]",
+            "eqvSrcLines" : "IModelObject[]"
+         }
+      ],
+      "attributeGroupsNames" : "String[]"
+   },
+   "OperationResponse" : {
+      "attributeGroupAndFormDetails" : [
+         {
+            "attributeGroupDetailElements" : [
+               {
+                  "attributeDetails" : [
+                     {
+                        "isDifferent" : "bool",
+                        "attributeNames" : "String[]"
+                     }
+                  ],
+                  "attrGroupsAndForms" : "IModelObject[]",
+                  "isDifferent" : "bool",
+                  "attributeGroupName" : "String"
+               }
+            ],
+            "equivalentObjects" : "IModelObject[]",
+            "index" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2016-05-StructureVerification/getAttrGrpsAndFormsComparisonDetail"
+}

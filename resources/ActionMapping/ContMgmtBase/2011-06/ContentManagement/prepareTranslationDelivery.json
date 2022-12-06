@@ -1,0 +1,29 @@
+{
+   "ServiceOperation" : "ContMgmtBase-2011-06-ContentManagement/prepareTranslationDelivery",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "tranlationDeliveryRev" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "translationOrderRev" : "IModelObject",
+            "clientId" : "String",
+            "booleanProps" : {
+               "SampleKeyString" : "bool"
+            },
+            "languageRow" : [
+               {
+                  "reviewOrder" : "bool",
+                  "languageRef" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

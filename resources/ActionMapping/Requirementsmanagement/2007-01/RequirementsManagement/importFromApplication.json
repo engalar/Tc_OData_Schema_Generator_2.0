@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "resultObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Requirementsmanagement-2007-01-RequirementsManagement/importFromApplication",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "transientFileWriteTicket" : "String",
+            "applicationFormat" : "String",
+            "createSpecElementType" : "String"
+         }
+      ]
+   }
+}

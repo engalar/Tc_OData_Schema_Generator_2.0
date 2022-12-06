@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "createdFutureICRevs" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "updatedObject" : "IModelObject",
+      "createdICRevs" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2009-10-StructureManagement/copyEBOPStructure",
+   "OperationInput" : {
+      "configuringEBOPWindow" : "IModelObject",
+      "newRoot" : "IModelObject",
+      "workingWindow" : "IModelObject",
+      "copyFutureEffectivity" : "bool",
+      "copyRulesKey" : "String"
+   }
+}

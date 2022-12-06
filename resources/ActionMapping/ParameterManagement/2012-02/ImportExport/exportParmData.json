@@ -1,0 +1,56 @@
+{
+   "OperationResponse" : {
+      "selectedObjectsExpOutput" : [
+         {
+            "datasetOutput" : [
+               {
+                  "memoryLayout" : "IModelObject",
+                  "datasetCreated" : "IModelObject",
+                  "datasetFileInfo" : {
+                     "fileTicket" : "String",
+                     "filename" : "String"
+                  }
+               }
+            ],
+            "selectedObjects" : "IModelObject[]",
+            "logFileInfo" : {
+               "filename" : "String",
+               "fileTicket" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ParameterManagement-2012-02-ImportExport/exportParmData",
+   "OperationInput" : {
+      "inputForExportDataAndOptions" : [
+         {
+            "fileNamePrefix" : "String",
+            "overrideContainer" : "IModelObject",
+            "selectedObjectsInfo" : [
+               {
+                  "selectedObjTag" : "IModelObject",
+                  "varRuleTag" : "IModelObject",
+                  "revRuleTag" : "IModelObject"
+               }
+            ],
+            "exportOptionsFormData" : {
+               "formType" : "String",
+               "relationName" : "IModelObject",
+               "name" : "String",
+               "parentObject" : "IModelObject",
+               "formObject" : "IModelObject",
+               "attributesMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "description" : "String"
+            },
+            "saveFlag" : "bool",
+            "purposeString" : "FlashFile CalibrationSharing DictionarySharing",
+            "fileType" : "IModelObject",
+            "overwriteFlag" : "bool",
+            "memoryLayouts" : "IModelObject[]"
+         }
+      ]
+   }
+}

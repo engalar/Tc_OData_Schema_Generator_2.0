@@ -1,0 +1,60 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "targetScope" : "IModelObject",
+         "targetDatasets" : "IModelObject[]",
+         "additionalInfo" : {
+            "strToDoubleVectorMap" : {
+               "SampleKeyString" : "double[]"
+            },
+            "strToStrVectorMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "strToObjVectorMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "strToIntVectorMap" : {
+               "SampleKeyString" : "int[]"
+            },
+            "strToDateVectorMap" : {
+               "SampleKeyString" : "Date[]"
+            }
+         }
+      }
+   },
+   "OperationResponse" : {
+      "brokenPartsDetail" : [
+         {
+            "propertyInfo" : {
+               "propTypes" : "String[]",
+               "propValues" : "String[]",
+               "csidValue" : "String"
+            },
+            "childrenMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "additonalInfo" : {
+               "strToStrVectorMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "strToDoubleVectorMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strToDateVectorMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strToObjVectorMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strToIntVectorMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "firstLevelChildrenCSID" : "String[]",
+            "targetPV" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2018-11-StructureManagement/findBrokenPartsInProductView"
+}

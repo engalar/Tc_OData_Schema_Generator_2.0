@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/makeUniqueCost",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "skuObjects" : "IModelObject[]",
+      "makeEachUnique" : "bool"
+   }
+}

@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2018-05-GlobalAlternate/addAlternates",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "alternatesToBeAdded" : "IModelObject[]",
+      "element" : "IModelObject"
+   }
+}

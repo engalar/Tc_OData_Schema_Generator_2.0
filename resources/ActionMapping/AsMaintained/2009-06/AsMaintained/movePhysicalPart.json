@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "inTime" : "Date",
+            "clientId" : "String",
+            "physicalPart" : "IModelObject",
+            "location" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "relation" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "AsMaintained-2009-06-AsMaintained/movePhysicalPart"
+}

@@ -1,0 +1,49 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2016-03-StructureVerification/alignMatchedCandidates",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "additionalInfo" : {
+         "intMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "strMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "dblMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "objMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "dateMap" : {
+            "SampleKeyString" : "Date[]"
+         }
+      }
+   },
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "sourceObject" : "IModelObject",
+            "targetObject" : "IModelObject",
+            "alignAction" : "String"
+         }
+      ],
+      "additionalInfo" : {
+         "intMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "dateMap" : {
+            "SampleKeyString" : "Date[]"
+         },
+         "strMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "objMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "dblMap" : {
+            "SampleKeyString" : "double[]"
+         }
+      }
+   }
+}

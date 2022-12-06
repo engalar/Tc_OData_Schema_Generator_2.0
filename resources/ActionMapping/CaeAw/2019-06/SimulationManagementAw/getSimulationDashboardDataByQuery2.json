@@ -1,0 +1,90 @@
+{
+   "ServiceOperation" : "Internal-CaeAw-2019-06-SimulationManagementAw/getSimulationDashboardDataByQuery2",
+   "OperationResponse" : {
+      "endIndex" : "int",
+      "fileStatus" : [
+         {
+            "ambiguousCount" : "int",
+            "totalCount" : "int",
+            "columnNameHeading" : "String",
+            "notApplicableCount" : "int",
+            "datasetType" : "String",
+            "notFoundCount" : "int",
+            "foundCount" : "int"
+         }
+      ],
+      "objectsProcessed" : "int",
+      "simulationDashboardViewModelRows" : [
+         {
+            "objectToMonitor" : "IModelObject",
+            "simulationDashboardViewModelProps" : [
+               {
+                  "pedigreeObject" : "IModelObject",
+                  "columnType" : "String",
+                  "maxLength" : "int",
+                  "columnValueInternalType" : "String",
+                  "attributeComp" : "IModelObject",
+                  "attributeName" : "String",
+                  "columnName" : "String",
+                  "isRequired" : "bool",
+                  "columnValue" : "String",
+                  "hasLov" : "bool",
+                  "statusValue" : "String",
+                  "columnInternalValues" : "IModelObject[]",
+                  "isModifiable" : "bool",
+                  "uiColumnValueType" : "String",
+                  "isArray" : "bool",
+                  "fileDetails" : [
+                     {
+                        "itemRevName" : "String",
+                        "fileName" : "String",
+                        "fileComponent" : "IModelObject",
+                        "lastModifiedDate" : "String",
+                        "itemRevComp" : "IModelObject",
+                        "datasetComponent" : "IModelObject",
+                        "datasetName" : "String",
+                        "fileOwningUser" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "isDashboardEditable" : "bool",
+      "simulationDashboardColumnsInfo" : [
+         {
+            "pinnedLeft" : "bool",
+            "enableSorting" : "bool",
+            "displayName" : "String",
+            "enablePinning" : "bool",
+            "typeName" : "String",
+            "name" : "String",
+            "enableFiltering" : "bool"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "objectsFiltered" : "int",
+      "totalFound" : "int"
+   },
+   "OperationInput" : {
+      "dashboardQueryInput" : {
+         "generateDashboardReport" : {
+            "datasetName" : "String",
+            "isGenerateDashboardReport" : "bool",
+            "createDataset" : "bool",
+            "inputContext" : "String",
+            "lastUpdatedTime" : "String"
+         },
+         "dashboardConfig" : "IModelObject",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "startIndex" : "int",
+         "pageSize" : "int",
+         "sortCriteria" : {
+            "SampleKeyString" : "String"
+         }
+      },
+      "isAsyncMode" : "bool"
+   }
+}

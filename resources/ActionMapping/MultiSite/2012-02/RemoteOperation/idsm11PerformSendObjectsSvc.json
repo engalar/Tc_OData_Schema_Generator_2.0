@@ -1,0 +1,53 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "commandOptionFlags" : "int",
+         "commandToPerform" : "int",
+         "abortOnError" : "bool",
+         "plmxmlFileFormat" : "bool",
+         "objectsXmlFile" : "String",
+         "emailAddresses" : "String[]",
+         "serverStagingDir" : "String",
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userDataIp" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "clientCorrelationId" : "String",
+            "roleName" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "targetSiteId" : "int",
+            "groupName" : "String"
+         },
+         "objectsXmlFileOut" : "String",
+         "substitutions" : [
+            {
+               "substitutionValue" : "String",
+               "attrName" : "String",
+               "className" : "String",
+               "attrValue" : "String"
+            }
+         ],
+         "retentions" : [
+            {
+               "className" : "String",
+               "attrName" : "String"
+            }
+         ],
+         "errorFile" : "String",
+         "compressPerformedFlg" : "int",
+         "reportFile" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "serverCorrelationId" : "String",
+      "userDataIp" : "String",
+      "out" : {
+         "compressSupportedFlg" : "int",
+         "returnFiles" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11PerformSendObjectsSvc"
+}

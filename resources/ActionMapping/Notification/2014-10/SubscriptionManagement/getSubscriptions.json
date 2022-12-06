@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "eventType" : "IModelObject",
+         "execTimeBefore" : "Date",
+         "target" : "IModelObject",
+         "expDateAfter" : "Date",
+         "expDateBefore" : "Date",
+         "noExpDate" : "bool",
+         "execImmediately" : "bool",
+         "execTimeAfter" : "Date",
+         "subscriber" : "IModelObject",
+         "handlers" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Notification-2014-10-SubscriptionManagement/getSubscriptions",
+   "OperationResponse" : {
+      "subscriptions" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

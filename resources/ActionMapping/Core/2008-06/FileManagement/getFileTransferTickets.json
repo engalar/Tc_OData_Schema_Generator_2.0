@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "writeTickets" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ],
+      "readTickets" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Core-2008-06-FileManagement/getFileTransferTickets",
+   "OperationInput" : {
+      "imanFiles" : "IModelObject[]"
+   }
+}

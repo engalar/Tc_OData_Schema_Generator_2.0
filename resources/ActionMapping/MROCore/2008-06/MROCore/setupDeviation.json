@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "setupDeviationPhysInput" : [
+         {
+            "childPhysicalPartImpl" : "IModelObject",
+            "parentPhysicalPartImpl" : "IModelObject",
+            "selectedDocument" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "relation" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MROCore-2008-06-MROCore/setupDeviation"
+}

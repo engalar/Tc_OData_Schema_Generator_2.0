@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "Workflow-2019-06-Workflow/createOrUpdatePAL",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "createdorUpdatedObjects" : [
+         {
+            "palObject" : "IModelObject",
+            "clientID" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "workflowTemplate" : "String",
+            "palName" : "String",
+            "clientID" : "String",
+            "palDescription" : "String[]",
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "resourceLists" : [
+               {
+                  "profiles" : "IModelObject[]",
+                  "templateResources" : "IModelObject[]",
+                  "taskTemplate" : "IModelObject",
+                  "revQuorum" : "int",
+                  "ackQuorum" : "int",
+                  "actions" : "int[]"
+               }
+            ]
+         }
+      ]
+   }
+}

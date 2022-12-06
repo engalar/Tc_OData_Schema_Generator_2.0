@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "activityLog" : "String"
+   },
+   "ServiceOperation" : "Internal-SimProc-2017-05-SimStructureManagement/createDerivedStructures",
+   "OperationInput" : {
+      "optionalIndex" : "String",
+      "varConfigDetails" : "String",
+      "useAutoIndex" : "bool",
+      "numOfStructs" : "int",
+      "selectedRule" : "IModelObject",
+      "rootBOMLine" : "IModelObject",
+      "optionalRootName" : "String",
+      "selectedVarConfig" : "String"
+   }
+}

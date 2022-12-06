@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputBreakdownCriteria" : {
+         "explosionLevel" : "int",
+         "partInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "queryInfo" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2013-05-QueryManagement/performMultilevelEngineeringBreakdown",
+   "OperationResponse" : {
+      "asmPartofLevelOneLOA" : "IModelObject",
+      "serviceData" : "IServiceData"
+   }
+}

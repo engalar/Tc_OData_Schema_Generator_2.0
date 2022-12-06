@@ -1,0 +1,49 @@
+{
+   "OperationInput" : {
+      "shortcutInputs" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "ServiceOperation" : "Core-2010-04-Session/getShortcuts",
+   "OperationResponse" : {
+      "shortcuts" : {
+         "SampleKeyString" : {
+            "nonTcObjects" : {
+               "SampleKeyInt" : {
+                  "nonTcObjects" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            },
+            "tcObjects" : {
+               "SampleKeyInt" : {
+                  "tcObject" : "IModelObject",
+                  "details" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            }
+         }
+      },
+      "serviceData" : "IServiceData",
+      "favorites" : {
+         "objects" : [
+            {
+               "parentId" : "String",
+               "clientId" : "String",
+               "objectTag" : "IModelObject",
+               "displayName" : "String"
+            }
+         ],
+         "containers" : [
+            {
+               "displayName" : "String",
+               "clientId" : "String",
+               "id" : "String",
+               "parentId" : "String",
+               "type" : "String"
+            }
+         ]
+      }
+   }
+}

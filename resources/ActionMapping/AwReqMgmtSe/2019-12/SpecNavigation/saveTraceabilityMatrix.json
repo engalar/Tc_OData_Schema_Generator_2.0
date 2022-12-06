@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2019-12-SpecNavigation/saveTraceabilityMatrix",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputData" : {
+         "targetFolder" : "IModelObject",
+         "matrixType" : "String",
+         "tracelinkInput" : {
+            "targetContextInfo" : "IModelObject",
+            "actionPerformed" : "String",
+            "colPageToNavigate" : "int",
+            "targetObjects" : "IModelObject[]",
+            "showChildrenTracelinks" : "bool",
+            "srcContextInfo" : "IModelObject",
+            "options" : "String[]",
+            "traceabilityMatrixObject" : "IModelObject",
+            "itemsPerPage" : "int",
+            "relationType" : "String",
+            "isRunInBackground" : "bool",
+            "rowPageTonavigate" : "int",
+            "sourceObjects" : "IModelObject[]"
+         },
+         "operation" : "String"
+      }
+   }
+}

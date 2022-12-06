@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Manufacturing-2013-12-ResourceManagement/getVendorCatalogInfo",
+   "OperationResponse" : {
+      "catalogInfo" : [
+         {
+            "vendorAcronym" : "String",
+            "vendorCatalogShortDescription" : "String",
+            "vendorCatalogDescription" : "String",
+            "vendorName" : "String",
+            "vendorCatalogRootClassID" : "String",
+            "vendorCatalogLanguage" : "String",
+            "vendorCatalogVersion" : "String",
+            "vendorCatalogRootDir" : "String",
+            "vendorCatalogID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

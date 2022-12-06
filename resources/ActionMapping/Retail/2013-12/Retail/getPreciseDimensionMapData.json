@@ -1,0 +1,79 @@
+{
+   "OperationResponse" : {
+      "topBomLine" : "String",
+      "serviceData" : "IServiceData",
+      "topBomLineDimensions" : [
+         {
+            "dimensionValues" : [
+               {
+                  "displayValue" : "String",
+                  "internalValue" : "String",
+                  "dimensionType" : "String",
+                  "isActive" : "bool",
+                  "dimensionName" : "String"
+               }
+            ],
+            "defaultDimensionValue" : "String",
+            "dimensionName" : "String",
+            "dimensionType" : "String"
+         }
+      ],
+      "dimensionMappingMap" : {
+         "SampleKeyString" : [
+            {
+               "parentDimensionName" : "String",
+               "dimensionMappings" : [
+                  {
+                     "parentBomLine" : "String",
+                     "parentDimensionValue" : {
+                        "isActive" : "bool",
+                        "dimensionName" : "String",
+                        "dimensionType" : "String",
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     },
+                     "childDimensionValue" : {
+                        "isActive" : "bool",
+                        "dimensionName" : "String",
+                        "dimensionType" : "String",
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     },
+                     "childBomLine" : "String"
+                  }
+               ],
+               "childDimensionName" : "String"
+            }
+         ]
+      },
+      "mappedDimensions" : "String[]",
+      "dimensionValuesMapPrecise" : {
+         "SampleKeyString" : {
+            "skuTableColumns" : [
+               {
+                  "defaultDimensionValue" : "String",
+                  "dimensionName" : "String"
+               }
+            ],
+            "skuTableRows" : [
+               {
+                  "dimensionValues" : [
+                     {
+                        "dimensionName" : "String",
+                        "isActive" : "bool",
+                        "dimensionType" : "String",
+                        "internalValue" : "String",
+                        "displayValue" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Retail-2013-12-Retail/getPreciseDimensionMapData",
+   "OperationInput" : {
+      "revisionUid" : "String",
+      "bomLineUid" : "String"
+   }
+}

@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "objectWithChildren" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "propertyName" : "String",
+                  "children" : "IModelObject[]"
+               }
+            ]
+         ]
+      ]
+   },
+   "ServiceOperation" : "Core-2013-05-DataManagement/getChildren",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "obj" : "IModelObject",
+            "clientId" : "String",
+            "propertyNames" : "String[]"
+         }
+      ]
+   }
+}

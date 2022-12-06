@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "gdeLinkInfos" : [
+         {
+            "attributes" : [
+               {
+                  "values" : "String[]",
+                  "name" : "String"
+               }
+            ],
+            "description" : "String",
+            "clientID" : "String",
+            "type" : "String",
+            "name" : "String",
+            "gdeLink" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2008-06-DataManagement/createOrUpdateGDELinks",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "successfullyProcessedGDELinks" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   }
+}

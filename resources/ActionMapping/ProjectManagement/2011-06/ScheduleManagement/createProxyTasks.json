@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "newProxyTasks" : [
+         {
+            "taskTag" : "IModelObject",
+            "sublevels" : "int",
+            "schedule" : "IModelObject",
+            "refTag" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2011-06-ScheduleManagement/createProxyTasks",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "responses" : [
+         {
+            "subScheduleAdditions" : "Teamcenter::Soa::ProjectManagement::_2011_06::ScheduleManagement::ProxyTaskResponse[]",
+            "schedule" : "IModelObject",
+            "proxyTask" : "IModelObject"
+         }
+      ]
+   }
+}

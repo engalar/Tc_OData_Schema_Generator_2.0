@@ -1,0 +1,118 @@
+{
+   "ServiceOperation" : "StructureManagement-2017-05-StructureSearch/startSearch2",
+   "OperationResponse" : {
+      "linesDone" : "int",
+      "finished" : "bool",
+      "outLines" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "searchCursor" : "IModelObject"
+   },
+   "OperationInput" : {
+      "returnLiteLines" : "bool",
+      "searchExpression" : {
+         "inClassQueryExpressions" : [
+            {
+               "inClassClassNames" : "String[]",
+               "inClassAttributeValues" : "String[]",
+               "inClassAttributeIDs" : "int[]"
+            }
+         ],
+         "sizeSearchExpression" : {
+            "diagonalLength" : "double",
+            "largerThan" : "bool"
+         },
+         "boxZoneExpressions" : [
+            {
+               "searchBoxes" : [
+                  {
+                     "zmin" : "double",
+                     "xmin" : "double",
+                     "zmax" : "double",
+                     "xmax" : "double",
+                     "transform" : "double[]",
+                     "ymin" : "double",
+                     "ymax" : "double"
+                  }
+               ],
+               "boxOperator" : "Inside Outside Intersects InsideOrIntersects OutsideOrIntersects"
+            }
+         ],
+         "executeVOOFilter" : "bool",
+         "planeZoneExpressions" : [
+            {
+               "planeZoneOperator" : "PlaneZone_above PlaneZone_below PlaneZone_intersects PlaneZone_aboveOrIntersects PlaneZone_belowOrIntersects",
+               "planeZone" : {
+                  "zValue" : "double",
+                  "displacement" : "double",
+                  "yValue" : "double",
+                  "xValue" : "double"
+               }
+            }
+         ],
+         "savedQueryExpressions" : [
+            {
+               "savedQuery" : "IModelObject",
+               "entries" : "String[]",
+               "values" : "String[]"
+            }
+         ],
+         "itemAndRevisionAttributeExpressions" : [
+            {
+               "attributeType" : "BooleanType IntegerType DoubleType StringType DateType TagType",
+               "className" : "String",
+               "values" : {
+                  "tagValues" : "IModelObject[]",
+                  "intValues" : "int[]",
+                  "boolValues" : "bool[]",
+                  "doubleValues" : "double[]",
+                  "dateValues" : "Date",
+                  "stringValues" : "String[]"
+               },
+               "attributeName" : "String",
+               "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike"
+            }
+         ],
+         "returnScopedSubTreesHit" : "bool",
+         "proximitySearchExpressions" : [
+            {
+               "distance" : "double",
+               "includeChildLines" : "bool",
+               "srcLines" : "IModelObject[]"
+            }
+         ],
+         "formAttributeExpressions" : [
+            {
+               "values" : {
+                  "stringValues" : "String[]",
+                  "boolValues" : "bool[]",
+                  "doubleValues" : "double[]",
+                  "dateValues" : "Date",
+                  "tagValues" : "IModelObject[]",
+                  "intValues" : "int[]"
+               },
+               "isItemForm" : "bool",
+               "attributeType" : "BooleanType IntegerType DoubleType StringType DateType TagType",
+               "formType" : "IModelObject",
+               "relationType" : "IModelObject",
+               "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike",
+               "attributeName" : "String"
+            }
+         ],
+         "remoteSiteID" : "String",
+         "occurrenceNoteExpressions" : [
+            {
+               "queryOperator" : "Equal GreaterThan GreaterThanOrEqual LessThan LessThanOrEqual NotEqual IsNull IsNotNull Like NotLike",
+               "noteType" : "String",
+               "values" : "String[]"
+            }
+         ],
+         "doTrushapeRefinement" : "bool",
+         "executeRemoteSearch" : "bool"
+      },
+      "scope" : {
+         "ignoreOccurrenceTypes" : "String[]",
+         "scopeLines" : "IModelObject[]",
+         "window" : "IModelObject"
+      }
+   }
+}

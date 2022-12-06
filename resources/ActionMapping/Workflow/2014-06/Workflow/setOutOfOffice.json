@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Workflow-2014-06-Workflow/setOutOfOffice",
+   "OperationInput" : {
+      "startDate" : "Date",
+      "toResource" : "IModelObject",
+      "endDate" : "Date",
+      "fromResource" : "IModelObject"
+   }
+}

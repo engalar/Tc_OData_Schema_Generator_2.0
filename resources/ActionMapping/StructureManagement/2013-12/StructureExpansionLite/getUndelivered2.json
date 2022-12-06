@@ -1,0 +1,63 @@
+{
+   "OperationInput" : {
+      "controls" : {
+         "expansionPref" : {
+            "SampleKeyString" : "int"
+         },
+         "relationCriteria" : [
+            {
+               "datasetTypeAndNamedRefs" : [
+                  {
+                     "namedReferenceNames" : "String[]",
+                     "datasetTypeName" : "String"
+                  }
+               ],
+               "namedRefHandler" : "String",
+               "relationName" : "String"
+            }
+         ]
+      },
+      "undeliveredLineUids" : "String[]"
+   },
+   "OperationResponse" : {
+      "datasetInfo" : [
+         {
+            "dataset" : "IModelObject",
+            "relationName" : "String",
+            "namedRefInfo" : [
+               {
+                  "originalFileName" : "String",
+                  "type" : "String",
+                  "name" : "String",
+                  "fileTicket" : "String",
+                  "object" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "parentUndeliveredChildrenUids" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String[]"
+         ]
+      ],
+      "parentChildInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "line" : "IModelObject",
+                  "configNotReliable" : "bool",
+                  "indexToAttachedObjInfos" : "int[]"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2013-12-StructureExpansionLite/getUndelivered2"
+}

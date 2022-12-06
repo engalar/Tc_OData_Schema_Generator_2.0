@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-CbaExt-2014-12-QueryManagement/findAlignedDesignsForACT",
+   "OperationResponse" : {
+      "designToAlignedACTLineInfos" : [
+         {
+            "pmmACTLine" : "IModelObject[]",
+            "design" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputACTData" : [
+         {
+            "clientID" : "String",
+            "actLine" : "IModelObject"
+         }
+      ]
+   }
+}

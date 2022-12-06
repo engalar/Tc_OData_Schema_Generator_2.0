@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2011-06-IncrementalChange/getPredecessorChanges",
+   "OperationResponse" : {
+      "response" : [
+         {
+            "listOfPredecessors" : [
+               {
+                  "sequenceNumber" : "String",
+                  "predecessorName" : "String"
+               }
+            ],
+            "baseICEInfo" : [
+               {
+                  "howConfigured" : "String",
+                  "typeOfIce" : "int",
+                  "icRev" : "IModelObject",
+                  "ice" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "fRefresh" : "bool",
+      "predecessorLines" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Search-2020-12-SearchFolder/exportSearchFolders",
+   "OperationInput" : {
+      "searchFolderUIDs" : "String[]"
+   }
+}

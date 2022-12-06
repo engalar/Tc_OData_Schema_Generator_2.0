@@ -1,0 +1,38 @@
+{
+   "OperationResponse" : {
+      "extraProtectionReports" : [
+         {
+            "extraProtectionInfos" : [
+               {
+                  "accessorTypeNameInfo" : {
+                     "displayName" : "String",
+                     "internalName" : "String"
+                  },
+                  "rules" : "String[]",
+                  "verdict" : "bool",
+                  "ruleEvaluation" : "String[]",
+                  "accessorIdInfo" : {
+                     "displayName" : "String",
+                     "internalName" : "String"
+                  },
+                  "privilegeNameInfo" : {
+                     "internalName" : "String",
+                     "displayName" : "String"
+                  },
+                  "aclNameInfo" : {
+                     "displayName" : "String",
+                     "internalName" : "String"
+                  }
+               }
+            ],
+            "workSpaceObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Administration-2010-04-IRM/getExtraProtectionInfo2",
+   "OperationInput" : {
+      "user" : "IModelObject",
+      "objects" : "IModelObject[]"
+   }
+}

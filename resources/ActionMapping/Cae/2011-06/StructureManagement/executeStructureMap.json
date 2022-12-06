@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "rootBOMLine" : "IModelObject",
+      "structureMapIR" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "activityLog" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Cae-2011-06-StructureManagement/executeStructureMap"
+}

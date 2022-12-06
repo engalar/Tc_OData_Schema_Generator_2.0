@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "objects" : "IModelObject[]",
+         "operationType" : "String"
+      }
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2019-06-SpecNavigation/setContentsAsync"
+}

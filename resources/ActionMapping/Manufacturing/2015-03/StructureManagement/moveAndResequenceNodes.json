@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : {
+      "createdICRevs" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "createdFutureICRevs" : "IModelObject[]",
+      "newChildLines" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2015-03-StructureManagement/moveAndResequenceNodes",
+   "OperationInput" : {
+      "inputList" : [
+         {
+            "isPasteDuplicate" : "bool",
+            "findNumberContext" : "IModelObject",
+            "sourceNodes" : "IModelObject[]",
+            "predecessor" : "IModelObject",
+            "targetNode" : "IModelObject",
+            "isDroppedOnTarget" : "bool"
+         }
+      ]
+   }
+}

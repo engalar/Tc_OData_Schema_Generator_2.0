@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "ProjectManagementAw-2015-07-ScheduleManagementAw/createTaskDeliverables",
+   "OperationResponse" : {
+      "responses" : [
+         {
+            "scheduleTaskDeliverable" : "IModelObject",
+            "scheduleDeliverable" : "IModelObject",
+            "scheduleTask" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "taskDeliverableData" : [
+         {
+            "deliverableReference" : "IModelObject",
+            "deliverableType" : "String",
+            "submitType" : "int",
+            "deliverableName" : "String",
+            "scheduleTask" : "IModelObject"
+         }
+      ]
+   }
+}

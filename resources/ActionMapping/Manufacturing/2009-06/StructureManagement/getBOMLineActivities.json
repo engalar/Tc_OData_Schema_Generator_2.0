@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "bomLines" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "lines" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2009-06-StructureManagement/getBOMLineActivities"
+}

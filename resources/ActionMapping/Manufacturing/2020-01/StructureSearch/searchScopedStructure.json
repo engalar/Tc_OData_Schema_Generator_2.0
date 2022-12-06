@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "searchScopedStructureInput" : {
+         "closureRuleName" : "String",
+         "processScopeForSearch" : "IModelObject[]",
+         "returnAssignedObjects" : "bool",
+         "objectType" : "IModelObject",
+         "queryType" : "String",
+         "additionalInfo" : {
+            "strToDoubleMap" : {
+               "SampleKeyString" : "double[]"
+            },
+            "strToObjMap" : {
+               "SampleKeyString" : "IModelObject[]"
+            },
+            "strToDateMap" : {
+               "SampleKeyString" : "Date[]"
+            },
+            "strToIntMap" : {
+               "SampleKeyString" : "int[]"
+            },
+            "strToStrMap" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "queryOutput" : "IModelObject[]",
+      "assignedObjects" : "IModelObject[]",
+      "outOfScopeObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2020-01-StructureSearch/searchScopedStructure"
+}

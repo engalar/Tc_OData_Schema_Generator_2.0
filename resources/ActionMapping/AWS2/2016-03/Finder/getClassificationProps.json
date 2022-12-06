@@ -1,0 +1,31 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2016-03-Finder/getClassificationProps",
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "clsAttrDetailsMap" : {
+         "SampleKeyInt" : {
+            "attributeName" : "String",
+            "attributeId" : "int"
+         }
+      },
+      "wsoClsPropDetailsMap" : {
+         "SampleKeyString" : {
+            "clsObjClassName" : "String",
+            "clsObjClassId" : "String",
+            "clsObject" : "IModelObject",
+            "attributeValues" : [
+               {
+                  "attrValue" : "String[]",
+                  "attrId" : "int"
+               }
+            ],
+            "unitSystem" : "String",
+            "clsObjId" : "String"
+         }
+      }
+   },
+   "OperationInput" : {
+      "showAllProperties" : "bool",
+      "objects" : "IModelObject[]"
+   }
+}

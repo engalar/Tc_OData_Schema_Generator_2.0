@@ -1,0 +1,49 @@
+{
+   "ServiceOperation" : "Internal-ChangeManagement-2015-03-ChangeManagement/connectChangeNoticeToContext",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "info" : {
+         "intMap" : {
+            "SampleKeyString" : "int[]"
+         },
+         "dblMap" : {
+            "SampleKeyString" : "double[]"
+         },
+         "objMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "strMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "dateMap" : {
+            "SampleKeyString" : "Date[]"
+         }
+      }
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "info" : {
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "context" : "IModelObject",
+            "shareMode" : "String",
+            "changeObject" : "IModelObject"
+         }
+      ]
+   }
+}

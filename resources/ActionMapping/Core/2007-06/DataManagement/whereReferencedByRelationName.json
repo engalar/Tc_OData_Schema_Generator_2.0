@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "filter" : [
+               {
+                  "otherSideObjectTypes" : "String[]",
+                  "relationTypeName" : "String"
+               }
+            ],
+            "object" : "IModelObject"
+         }
+      ],
+      "numLevels" : "int"
+   },
+   "ServiceOperation" : "Core-2007-06-DataManagement/whereReferencedByRelationName",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "info" : [
+               {
+                  "referencer" : "IModelObject",
+                  "relationTypeName" : "String",
+                  "level" : "int"
+               }
+            ],
+            "inputObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

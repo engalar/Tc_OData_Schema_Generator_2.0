@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "batchDetails" : {
+         "site" : "int",
+         "startTime" : "Date",
+         "identifier" : "String",
+         "secondaryObjects" : "IModelObject[]",
+         "primaryObjects" : "IModelObject[]",
+         "endAfterOccurrences" : "int",
+         "daysOfWeek" : "bool[]",
+         "endTime" : "Date",
+         "priority" : "int",
+         "mode" : "String"
+      },
+      "laResolveData" : {
+         "products" : "IModelObject[]",
+         "resolveRecursively" : "bool",
+         "scopeLines" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Manufacturing-2014-12-Model/scheduleLAResolve"
+}

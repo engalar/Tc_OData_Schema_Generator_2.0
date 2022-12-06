@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "workingDirectory" : "String",
+      "revisionID" : "String",
+      "itemID" : "String",
+      "objectUID" : "String",
+      "datasetCreationSetting" : "String",
+      "xmlFileName" : "String",
+      "itemCreationSetting" : "String",
+      "processHierarchy" : "String"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Cae-2013-12-SimulationProcessManagement/importSimulationObjects2"
+}

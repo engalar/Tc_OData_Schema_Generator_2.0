@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "nRev" : "int",
+      "pref" : {
+         "prefs" : [
+            {
+               "objectTypeNames" : "String[]",
+               "relationTypeName" : "String"
+            }
+         ]
+      },
+      "infos" : [
+         {
+            "revIds" : "String[]",
+            "itemAttributes" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "item" : "IModelObject",
+            "itemRevOutput" : [
+               {
+                  "itemRevision" : "IModelObject",
+                  "datasets" : "IModelObject[]"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2009-10-DataManagement/getItemFromAttribute"
+}

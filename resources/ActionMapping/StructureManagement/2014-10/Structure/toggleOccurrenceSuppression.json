@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2014-10-Structure/toggleOccurrenceSuppression"
+}

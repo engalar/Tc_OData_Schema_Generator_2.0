@@ -1,0 +1,109 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "cursor" : {
+               "goForward" : "bool",
+               "rowCursor" : {
+                  "startReached" : "bool",
+                  "endReached" : "bool",
+                  "endIndex" : "int",
+                  "startIndex" : "int"
+               },
+               "cursorType" : "String",
+               "columnCursor" : {
+                  "endReached" : "bool",
+                  "startReached" : "bool",
+                  "endIndex" : "int",
+                  "startIndex" : "int"
+               },
+               "pageSize" : "int"
+            },
+            "clientId" : "String",
+            "cellData" : [
+               {
+                  "rowObject" : {
+                     "objectInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "object" : "IModelObject"
+                  },
+                  "cellObjects" : [
+                     {
+                        "objectInfo" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "object" : "IModelObject"
+                     }
+                  ],
+                  "columnObject" : {
+                     "objectInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "object" : "IModelObject"
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceSysEng-2016-03-MatrixManagement/manageMatrix",
+   "OperationInput" : {
+      "input" : [
+         {
+            "newRowObjects" : "IModelObject[]",
+            "columnObjects" : "IModelObject[]",
+            "createInput" : {
+               "compoundCreateInput" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "boName" : "String",
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               }
+            },
+            "newColumnObjects" : "IModelObject[]",
+            "inputCtxt" : {
+               "configuration" : {
+                  "configurationObject" : "IModelObject",
+                  "revisionRule" : "IModelObject",
+                  "now" : "bool",
+                  "endItem" : "IModelObject",
+                  "variantRule" : "IModelObject",
+                  "effectivityDate" : "Date",
+                  "unitNo" : "int"
+               },
+               "productContext" : "IModelObject",
+               "structureContextObject" : "IModelObject"
+            },
+            "filterInput" : {
+               "typesMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "excludeSubtypes" : "bool",
+               "requestKey" : "String",
+               "cursor" : {
+                  "cursorType" : "String",
+                  "rowCursor" : {
+                     "endReached" : "bool",
+                     "startReached" : "bool",
+                     "endIndex" : "int",
+                     "startIndex" : "int"
+                  },
+                  "goForward" : "bool",
+                  "pageSize" : "int",
+                  "columnCursor" : {
+                     "startReached" : "bool",
+                     "endReached" : "bool",
+                     "endIndex" : "int",
+                     "startIndex" : "int"
+                  }
+               }
+            },
+            "clientId" : "String",
+            "rowObjects" : "IModelObject[]"
+         }
+      ]
+   }
+}

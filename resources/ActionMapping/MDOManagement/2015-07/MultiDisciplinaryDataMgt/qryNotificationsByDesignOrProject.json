@@ -1,0 +1,60 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "notificationOutputs" : [
+               {
+                  "notificationByDesignOutputs" : [
+                     {
+                        "ignoredResponses" : [
+                           {
+                              "notificationQualifier" : "String",
+                              "model" : "IModelObject",
+                              "triggeringComponent" : "IModelObject",
+                              "objectName" : "String"
+                           }
+                        ],
+                        "notificationQualifier" : "String",
+                        "acceptedResponses" : [
+                           {
+                              "notificationQualifier" : "String",
+                              "model" : "IModelObject",
+                              "objectName" : "String",
+                              "triggeringComponent" : "IModelObject"
+                           }
+                        ],
+                        "designInstance" : "IModelObject",
+                        "notificationObject" : "IModelObject",
+                        "rejectedResponses" : [
+                           {
+                              "notificationQualifier" : "String",
+                              "triggeringComponent" : "IModelObject",
+                              "objectName" : "String",
+                              "model" : "IModelObject"
+                           }
+                        ]
+                     }
+                  ],
+                  "designObject" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2015-07-MultiDisciplinaryDataMgt/qryNotificationsByDesignOrProject",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "inputDesign" : "IModelObject",
+            "dateCriteria" : {
+               "fromDate" : "Date",
+               "toDate" : "Date"
+            },
+            "project" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

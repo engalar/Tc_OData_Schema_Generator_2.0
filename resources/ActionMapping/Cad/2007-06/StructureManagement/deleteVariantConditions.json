@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "clientId" : "String",
+            "bomLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2007-06-StructureManagement/deleteVariantConditions",
+   "OperationResponse" : "IServiceData"
+}

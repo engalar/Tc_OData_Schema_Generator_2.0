@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2016-12-DataManagement/getDeclarativeStyleSheets",
+   "OperationResponse" : {
+      "declarativeUIDefs" : [
+         {
+            "view" : "String",
+            "viewModel" : "String",
+            "glueCodeJS" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "processEntireXRT" : "bool",
+      "input" : [
+         {
+            "targetPage" : "String",
+            "styleSheetType" : "String",
+            "businessObjectType" : "String",
+            "clientContext" : {
+               "SampleKeyString" : "String"
+            },
+            "styleSheetLastModDate" : "Date",
+            "businessObject" : "IModelObject"
+         }
+      ]
+   }
+}

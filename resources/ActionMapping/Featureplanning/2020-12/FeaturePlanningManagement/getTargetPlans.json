@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "planType" : "String",
+      "models" : "IModelObject[]",
+      "confPerspective" : "IModelObject",
+      "planValidity" : [
+         {
+            "validTo" : "Date",
+            "validFrom" : "Date"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "targetPlansInfo" : [
+         {
+            "model" : "IModelObject",
+            "targetPlans" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Featureplanning-2020-12-FeaturePlanningManagement/getTargetPlans"
+}

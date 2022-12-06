@@ -1,0 +1,41 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "attrList" : [
+         {
+            "isOverriden" : "bool",
+            "clientId" : "String",
+            "measureValue" : "IModelObject",
+            "measurableAttribute" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "AttrTargetMgmtAW-2015-03-AttributeTargetManagement/createOrModifyMeasurableAttribute",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "parentLine" : "IModelObject",
+            "parentObj" : "IModelObject",
+            "attributeObjInput" : {
+               "objName" : "String",
+               "objInput" : {
+                  "objType" : "String",
+                  "objPropertiesMap" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            },
+            "contextLine" : "IModelObject",
+            "attribute" : "IModelObject",
+            "measureValueObjInput" : {
+               "objPropertiesMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "objType" : "String"
+            },
+            "relationName" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

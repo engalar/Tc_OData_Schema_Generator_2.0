@@ -1,0 +1,55 @@
+{
+   "OperationInput" : {
+      "licenseInputs" : {
+         "licenseParamsIn" : "String[]",
+         "isAssigned" : "bool",
+         "paginationInfo" : {
+            "startIndex" : "int",
+            "maxToReturn" : "int"
+         },
+         "selectedLicenses" : "IModelObject[]",
+         "isAceContext" : "bool",
+         "selectedObjects" : "IModelObject[]",
+         "filterInfo" : {
+            "licenseType" : "String",
+            "licenseId" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Security-2017-12-AwLicensing/getLicensesWithTypes",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int",
+      "licenseParamsOut" : {
+         "SampleKeyString" : "String[]"
+      },
+      "totalFound" : "int",
+      "licenseOptions" : {
+         "SampleKeyString" : [
+            {
+               "internalValue" : "String",
+               "isDefaultValue" : "bool",
+               "displayValue" : "String"
+            }
+         ]
+      },
+      "licensesOutput" : {
+         "commonAssignedLicenseList" : "IModelObject[]",
+         "availableLicenseList" : "IModelObject[]",
+         "allAssignedLicenseList" : "IModelObject[]",
+         "availableLicenseTypes" : [
+            {
+               "internalValue" : "String",
+               "displayValue" : "String"
+            }
+         ],
+         "assignedLicenseTypes" : [
+            {
+               "displayValue" : "String",
+               "internalValue" : "String"
+            }
+         ]
+      },
+      "endIndex" : "int"
+   }
+}

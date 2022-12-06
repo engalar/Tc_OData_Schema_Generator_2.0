@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "stateInput" : {
+         "state" : "open_notrunning open_notrunning_suspended open_running closed_completed closed_abnormalcompleted closed_abnormalcompleted_terminated closed_abnormalcompleted_aborted open_notrunning_pending open_running_started open_running_failed",
+         "remoteProcessID" : "String"
+      }
+   },
+   "ServiceOperation" : "Workflow-2008-06-Workflow/changeState",
+   "OperationResponse" : {
+      "remoteProcessID" : "String",
+      "serviceData" : "IServiceData",
+      "state" : "open_notrunning open_notrunning_suspended open_running closed_completed closed_abnormalcompleted closed_abnormalcompleted_terminated closed_abnormalcompleted_aborted open_notrunning_pending open_running_started open_running_failed",
+      "parentProcessID" : "String"
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "ServiceOperation" : "TestManagement-2014-06-InstanceManagement/createTestInstancesFromTemplate",
+   "OperationResponse" : {
+      "testInstances" : "IModelObject[]",
+      "srvcData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "testType" : "String",
+            "executionScope" : "String",
+            "testPlacemarks" : "String[]",
+            "testName" : "String",
+            "testTemplate" : "IModelObject",
+            "owningObject" : "IModelObject",
+            "executionSystem" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,38 @@
+{
+   "OperationResponse" : {
+      "visibleCommandsInfo" : [
+         {
+            "commandId" : "String",
+            "commandCollectionId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2016-03-UiConfig/getVisibleCommands",
+   "OperationInput" : {
+      "getVisibleCommandsInfo" : [
+         {
+            "selectionInfo" : [
+               {
+                  "selectedObjects" : "IModelObject[]",
+                  "parentSelectionIndex" : "int",
+                  "contextName" : "String"
+               }
+            ],
+            "commandContextInfo" : [
+               {
+                  "contextValue" : "String",
+                  "contextName" : "String"
+               }
+            ],
+            "clientScopeURI" : "String",
+            "commandInfo" : [
+               {
+                  "commandId" : "String",
+                  "commandCollectionId" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

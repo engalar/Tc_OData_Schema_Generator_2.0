@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "templateNames" : "String[]"
+   },
+   "ServiceOperation" : "Internal-BusinessModeler-2010-09-DataModelManagement/getSiteTemplateDeployInfo",
+   "OperationResponse" : {
+      "siteName" : "String",
+      "siteID" : "String",
+      "serviceData" : "IServiceData",
+      "templatesDeployInfo" : "IModelObject[]"
+   }
+}

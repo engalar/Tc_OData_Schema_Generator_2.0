@@ -1,0 +1,33 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "datasetTypesWithDefaultRelInfo" : [
+               {
+                  "defaultRelationInfo" : {
+                     "displayName" : "String",
+                     "defaultRelation" : "IModelObject",
+                     "name" : "String"
+                  },
+                  "datasetType" : "IModelObject",
+                  "refInfos" : [
+                     {
+                        "referenceName" : "String",
+                        "isObject" : "bool",
+                        "fileExtension" : "String",
+                        "fileFormat" : "String"
+                     }
+                  ]
+               }
+            ],
+            "fileExtension" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2015-10-DataManagement/getDatasetTypesWithDefaultRelation",
+   "OperationInput" : {
+      "parent" : "IModelObject",
+      "fileExtensions" : "String[]"
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "plants" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "isMileStoneActivityInProgress" : "bool[]"
+   },
+   "ServiceOperation" : "Internal-PlantDataMgmt-2019-06-PdmCore/isMilestoneActivityInProgress"
+}

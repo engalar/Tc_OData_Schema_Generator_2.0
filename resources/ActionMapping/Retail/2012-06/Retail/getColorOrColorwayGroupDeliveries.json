@@ -1,0 +1,47 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "fabricOrProductTag" : "IModelObject",
+         "seasonTags" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "response" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "primaryFabricInfos" : [
+                     {
+                        "colorOrColorway" : "IModelObject",
+                        "groupDelivery" : "IModelObject"
+                     }
+                  ],
+                  "gdInfos" : [
+                     {
+                        "groupDelivery" : "IModelObject",
+                        "colorOrColorwayGroupDeliveryInfos" : [
+                           {
+                              "relation" : "IModelObject",
+                              "colorOrColorway" : "IModelObject",
+                              "usageObject" : "IModelObject"
+                           }
+                        ]
+                     }
+                  ],
+                  "colorOrColorwayInfos" : [
+                     {
+                        "colorOrColorway" : "IModelObject",
+                        "usage" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         ]
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/getColorOrColorwayGroupDeliveries"
+}

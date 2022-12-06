@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "isCleanupSuccessful" : "bool[]"
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/updateImpactedObjectsEnd",
+   "OperationInput" : {
+      "input" : [
+         {
+            "isSelected" : "bool[]",
+            "replacement" : "IModelObject",
+            "operation" : "int",
+            "impactedObjects" : "IModelObject[]",
+            "target" : "IModelObject",
+            "change" : "IModelObject",
+            "addToSolution" : "bool",
+            "addToProblem" : "bool"
+         }
+      ]
+   }
+}

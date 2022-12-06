@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2019-12-ImportExport/saveRulesInfo",
+   "OperationInput" : {
+      "input" : {
+         "actionName" : "String",
+         "rulesData" : [
+            {
+               "ruleScope" : "String",
+               "ruleObject" : "IModelObject",
+               "rules" : "String",
+               "ruleDispName" : "String",
+               "ruleName" : "String",
+               "accessRight" : "String"
+            }
+         ],
+         "mappingType" : "String"
+      }
+   }
+}

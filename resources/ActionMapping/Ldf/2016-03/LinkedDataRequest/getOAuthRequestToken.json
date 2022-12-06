@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "uidServiceProvider" : "String"
+   },
+   "ServiceOperation" : "Internal-Ldf-2016-03-LinkedDataRequest/getOAuthRequestToken",
+   "OperationResponse" : "String"
+}

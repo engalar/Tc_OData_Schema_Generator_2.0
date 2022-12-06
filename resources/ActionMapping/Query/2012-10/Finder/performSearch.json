@@ -1,0 +1,66 @@
+{
+   "OperationInput" : {
+      "searchInput" : {
+         "attributesToInflate" : "String[]",
+         "providerName" : "String",
+         "maxToReturn" : "int",
+         "searchFilterFieldSortType" : "Alphabetical Priority",
+         "startIndex" : "int",
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "endNumericValue" : "double",
+                  "startNumericValue" : "double",
+                  "startDateValue" : "Date",
+                  "endDateValue" : "Date",
+                  "stringValue" : "String",
+                  "searchFilterType" : "StringFilter DateFilter NumericFilter",
+                  "count" : "int",
+                  "selected" : "bool",
+                  "startEndRange" : "String"
+               }
+            ]
+         },
+         "searchSortCriteria" : [
+            {
+               "fieldName" : "String",
+               "sortDirection" : "ASC DESC"
+            }
+         ],
+         "maxToLoad" : "int",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   },
+   "ServiceOperation" : "Query-2012-10-Finder/performSearch",
+   "OperationResponse" : {
+      "searchFilterMap" : {
+         "SampleKeyString" : [
+            {
+               "count" : "int",
+               "startEndRange" : "String",
+               "selected" : "bool",
+               "startDateValue" : "Date",
+               "startNumericValue" : "double",
+               "endNumericValue" : "double",
+               "searchFilterType" : "StringFilter DateFilter NumericFilter",
+               "stringValue" : "String",
+               "endDateValue" : "Date"
+            }
+         ]
+      },
+      "defaultFilterFieldDisplayCount" : "int",
+      "searchResults" : "IModelObject[]",
+      "searchFilterCategories" : [
+         {
+            "displayName" : "String",
+            "defaultFilterValueDisplayCount" : "int",
+            "internalName" : "String"
+         }
+      ],
+      "totalFound" : "int",
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int"
+   }
+}

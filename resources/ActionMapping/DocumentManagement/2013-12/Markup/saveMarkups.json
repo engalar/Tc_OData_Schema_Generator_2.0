@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : {
+      "message" : "String",
+      "markups" : "String",
+      "version" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-DocumentManagement-2013-12-Markup/saveMarkups",
+   "OperationInput" : {
+      "markups" : "String",
+      "version" : "String",
+      "baseObject" : "IModelObject",
+      "message" : "String"
+   }
+}

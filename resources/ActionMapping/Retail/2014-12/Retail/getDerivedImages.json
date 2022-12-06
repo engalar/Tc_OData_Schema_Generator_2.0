@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "sourceDataset" : "IModelObject",
+            "derivedImageFormats" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2014-12-Retail/getDerivedImages",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "derivedImagesOfSourceDataset" : [
+         {
+            "sourceDataset" : "IModelObject",
+            "derivedImageFormatsAndTicket" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   }
+}

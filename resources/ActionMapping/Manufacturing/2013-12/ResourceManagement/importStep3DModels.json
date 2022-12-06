@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "icoIDs" : "String[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2013-12-ResourceManagement/importStep3DModels"
+}

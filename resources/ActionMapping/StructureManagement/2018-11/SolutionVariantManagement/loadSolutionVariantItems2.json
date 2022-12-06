@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : {
+      "loadSVItemsOutputList" : [
+         {
+            "svItemRev" : "IModelObject",
+            "svItemPropsMap" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2018-11-SolutionVariantManagement/loadSolutionVariantItems2",
+   "OperationInput" : {
+      "svItemObjectsToBeLoadedList" : {
+         "SampleKeyString" : "String[]"
+      }
+   }
+}

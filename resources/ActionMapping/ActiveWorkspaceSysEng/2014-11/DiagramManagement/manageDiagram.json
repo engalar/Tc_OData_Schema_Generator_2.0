@@ -1,0 +1,76 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "diagramInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "elementData" : [
+               {
+                  "element" : "IModelObject",
+                  "elementInfo" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "edgeData" : [
+               {
+                  "edgeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "end1Element" : "IModelObject",
+                  "end2Element" : "IModelObject",
+                  "edge" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceSysEng-2014-11-DiagramManagement/manageDiagram",
+   "OperationInput" : {
+      "input" : [
+         {
+            "diagramInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "primaryObjects" : "IModelObject[]",
+            "createInput" : {
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "compoundCreateInput" : "Ase0::Soa::ActiveWorkspaceSysEng::_2012_10::DiagramManagement::CreateInputMap",
+                        "boName" : "String",
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        }
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               }
+            },
+            "clientId" : "String",
+            "inputCtxt" : {
+               "productContext" : "IModelObject",
+               "structureContextObject" : "IModelObject",
+               "pageSize" : "int",
+               "configuration" : {
+                  "configurationObject" : "IModelObject",
+                  "now" : "bool",
+                  "endItem" : "IModelObject",
+                  "revisionRule" : "IModelObject",
+                  "unitNo" : "int",
+                  "variantRule" : "IModelObject",
+                  "effectivityDate" : "Date"
+               }
+            },
+            "userAction" : "String",
+            "secondaryObjects" : "IModelObject[]"
+         }
+      ]
+   }
+}

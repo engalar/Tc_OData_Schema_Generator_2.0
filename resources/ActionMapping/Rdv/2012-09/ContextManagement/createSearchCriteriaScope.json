@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "collections" : "IModelObject[]",
+            "nodes" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "searchCriteriaScpObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Rdv-2012-09-ContextManagement/createSearchCriteriaScope"
+}

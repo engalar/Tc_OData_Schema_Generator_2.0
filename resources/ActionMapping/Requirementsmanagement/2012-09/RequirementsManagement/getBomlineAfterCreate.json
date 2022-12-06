@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "selectedBomLine" : "IModelObject",
+            "newComp" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Requirementsmanagement-2012-09-RequirementsManagement/getBomlineAfterCreate"
+}

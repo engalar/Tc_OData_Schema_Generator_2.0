@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "Internal-Rdv-2009-01-VariantManagement/getApnComponents",
+   "OperationResponse" : {
+      "compsApnAndGcid" : [
+         {
+            "childMeapn" : "IModelObject",
+            "desc" : "String",
+            "gcid" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "gcid" : "String",
+         "bomWindow" : "IModelObject",
+         "topArchTag" : "IModelObject"
+      }
+   }
+}

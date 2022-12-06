@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "sParents" : "bool[]",
+            "operation" : "int",
+            "target" : "IModelObject",
+            "executionMode" : "int",
+            "newItem" : "IModelObject",
+            "addToProblem" : "bool",
+            "addToSolution" : "bool",
+            "change" : "IModelObject",
+            "parents" : "IModelObject[]",
+            "markupChange" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "status" : "int",
+            "parent" : "IModelObject",
+            "statusComment" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2012-09-MassUpdate/massUpdateExecutionECR"
+}

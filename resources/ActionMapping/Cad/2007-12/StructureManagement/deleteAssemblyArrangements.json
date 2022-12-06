@@ -1,0 +1,19 @@
+{
+   "ServiceOperation" : "Cad-2007-12-StructureManagement/deleteAssemblyArrangements",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "pref" : {
+         "overwriteForLastModDate" : "bool"
+      },
+      "info" : [
+         {
+            "lastModifiedOfBVR" : "Date",
+            "itemRev" : "IModelObject",
+            "arrangements" : "IModelObject[]"
+         }
+      ],
+      "bomViewTypeName" : "String"
+   }
+}

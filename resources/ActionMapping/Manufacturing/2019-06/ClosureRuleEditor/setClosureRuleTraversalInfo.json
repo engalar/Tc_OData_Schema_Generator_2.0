@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "updatedTraversalInfo" : {
+         "SampleKeyString" : [
+            {
+               "isPrimaryEditable" : "bool",
+               "imanRelationType" : "String",
+               "isSecondaryIncluded" : "bool",
+               "isSecondaryEditable" : "bool",
+               "isPrimaryIncluded" : "bool",
+               "secondaryObjectType" : "String",
+               "imanRelationDescription" : "String"
+            }
+         ]
+      },
+      "closureRuleName" : "String"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2019-06-ClosureRuleEditor/setClosureRuleTraversalInfo",
+   "OperationResponse" : "IServiceData"
+}

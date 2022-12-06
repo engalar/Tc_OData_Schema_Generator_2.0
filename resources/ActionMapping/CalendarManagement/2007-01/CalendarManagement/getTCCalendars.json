@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "getTCCalendars" : [
+         {
+            "schedule" : "IModelObject",
+            "resource" : "IModelObject",
+            "type" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "tccalendars" : [
+         {
+            "events" : "IModelObject[]",
+            "tccalendar" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "CalendarManagement-2007-01-CalendarManagement/getTCCalendars"
+}

@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "ImportExport-2008-06-FileImportExport/getExportTemplates",
+   "OperationResponse" : {
+      "configuredObjectTemplates" : [
+         {
+            "businessObjectType" : "String",
+            "templateType" : "String",
+            "templateName" : "String"
+         }
+      ],
+      "objectTemplats" : "String[]",
+      "serviceData" : "IServiceData",
+      "specTemplates" : "String[]",
+      "excelTemplates" : "String[]",
+      "configuredSpecTemplates" : [
+         {
+            "businessObjectType" : "String",
+            "templateType" : "String",
+            "templateName" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "filter" : {
+         "getSpecTemplates" : "bool",
+         "getObjectTemplates" : "bool",
+         "getExcelTemplates" : "bool",
+         "getConfiguredObjectTemplate" : "bool",
+         "getConfiguredSpecTemplate" : "bool"
+      }
+   }
+}

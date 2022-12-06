@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "allocWindowInput" : {
+         "allocationRule" : "IModelObject",
+         "allocationContext" : "IModelObject",
+         "openedBOMWindows" : "IModelObject[]"
+      },
+      "icContext" : "IModelObject"
+   },
+   "ServiceOperation" : "Allocations-2007-01-Allocation/openAllocationWindow",
+   "OperationResponse" : {
+      "allocationWindow" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "allocationLines" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "inputCriteria" : {
+         "criteriaValues" : "String[]",
+         "datasetName" : "String",
+         "stylesheetTag" : "IModelObject",
+         "criteriaNames" : "String[]",
+         "rdTag" : "IModelObject",
+         "contextObjects" : "IModelObject[]"
+      },
+      "applicationId" : "String"
+   },
+   "ServiceOperation" : "Reports-2007-01-CrfReports/generateReport",
+   "OperationResponse" : {
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData",
+      "transientFileTicketInfos" : [
+         {
+            "ticket" : "String",
+            "transientFileInfo" : {
+               "isText" : "bool",
+               "fileName" : "String"
+            }
+         }
+      ]
+   }
+}

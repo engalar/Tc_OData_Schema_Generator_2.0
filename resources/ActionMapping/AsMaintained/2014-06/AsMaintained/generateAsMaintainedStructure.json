@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "neutralBOMLine" : "IModelObject",
+            "asMaintainedStructureInfo" : {
+               "lotNumber" : "String",
+               "manufacturerId" : "String",
+               "quantity" : "double",
+               "structureContext" : "String",
+               "installationDate" : "Date",
+               "useSerialNumberGenerators" : "bool",
+               "numberOfLevels" : "int",
+               "locationName" : "String",
+               "dispositionType" : "String",
+               "effectiveFromDate" : "Date",
+               "neutralItemId" : "String",
+               "serialNumber" : "String",
+               "manufacturingDate" : "Date",
+               "effectiveToDate" : "Date"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "physicalPartRevision" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "AsMaintained-2014-06-AsMaintained/generateAsMaintainedStructure"
+}

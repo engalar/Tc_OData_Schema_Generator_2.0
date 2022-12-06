@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "bomWindowUIDs" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/applyDimension",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "dimensionValue" : "String",
+            "bomWindowUID" : "String",
+            "dimensionName" : "String"
+         }
+      ]
+   }
+}

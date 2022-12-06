@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "applicationFormat" : "String",
+            "templateId" : "String",
+            "objectsToExport" : "IModelObject[]",
+            "attributesToExport" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Requirementsmanagement-2007-01-RequirementsManagement/exportToApplication",
+   "OperationResponse" : {
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "vInfoForNextId" : [
+         {
+            "typeName" : "String",
+            "propName" : "String",
+            "pattern" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2008-06-DataManagement/getNextIds",
+   "OperationResponse" : {
+      "nextIds" : "String[]",
+      "serviceData" : "IServiceData"
+   }
+}

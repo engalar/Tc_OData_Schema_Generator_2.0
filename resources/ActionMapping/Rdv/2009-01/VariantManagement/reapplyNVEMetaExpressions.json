@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Rdv-2009-01-VariantManagement/reapplyNVEMetaExpressions",
+   "OperationInput" : {
+      "bomlines" : "IModelObject[]",
+      "validate" : "bool"
+   }
+}

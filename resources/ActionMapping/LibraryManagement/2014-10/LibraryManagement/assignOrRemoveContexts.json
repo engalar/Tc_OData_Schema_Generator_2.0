@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "contextInfo" : [
+         {
+            "assignContexts" : [
+               {
+                  "isOwningContext" : "bool",
+                  "context" : "IModelObject"
+               }
+            ],
+            "removeContexts" : [
+               {
+                  "context" : "IModelObject",
+                  "isOwningContext" : "bool"
+               }
+            ],
+            "library" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryManagement/assignOrRemoveContexts"
+}

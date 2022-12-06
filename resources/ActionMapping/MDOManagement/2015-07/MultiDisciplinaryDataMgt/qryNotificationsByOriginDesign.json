@@ -1,0 +1,109 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "modifyNotificationOutputs" : [
+               {
+                  "linkedInstances" : "IModelObject[]",
+                  "modifyTriggerNotifications" : [
+                     {
+                        "notificationObject" : "IModelObject",
+                        "rejectedResponses" : [
+                           {
+                              "model" : "IModelObject",
+                              "triggeringComponent" : "IModelObject",
+                              "objectName" : "String",
+                              "notificationQualifier" : "String"
+                           }
+                        ],
+                        "acceptedResponses" : [
+                           {
+                              "notificationQualifier" : "String",
+                              "triggeringComponent" : "IModelObject",
+                              "objectName" : "String",
+                              "model" : "IModelObject"
+                           }
+                        ],
+                        "designInstance" : "IModelObject",
+                        "notificationQualifier" : "String",
+                        "ignoredResponses" : [
+                           {
+                              "model" : "IModelObject",
+                              "objectName" : "String",
+                              "triggeringComponent" : "IModelObject",
+                              "notificationQualifier" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "instanceThread" : "IModelObject"
+               }
+            ],
+            "createNotificationOutputs" : [
+               {
+                  "instanceThread" : "IModelObject",
+                  "linkedInstances" : "IModelObject[]",
+                  "createTriggerNotification" : {
+                     "designInstance" : "IModelObject",
+                     "acceptedResponses" : [
+                        {
+                           "triggeringComponent" : "IModelObject",
+                           "objectName" : "String",
+                           "model" : "IModelObject",
+                           "notificationQualifier" : "String"
+                        }
+                     ],
+                     "rejectedResponses" : [
+                        {
+                           "notificationQualifier" : "String",
+                           "model" : "IModelObject",
+                           "objectName" : "String",
+                           "triggeringComponent" : "IModelObject"
+                        }
+                     ],
+                     "notificationObject" : "IModelObject",
+                     "ignoredResponses" : [
+                        {
+                           "model" : "IModelObject",
+                           "objectName" : "String",
+                           "triggeringComponent" : "IModelObject",
+                           "notificationQualifier" : "String"
+                        }
+                     ],
+                     "notificationQualifier" : "String"
+                  },
+                  "mdoOutput" : [
+                     {
+                        "clientId" : "String",
+                        "associatedDesignArtifact" : [
+                           {
+                              "domain" : "String",
+                              "designArtifact" : "IModelObject"
+                           }
+                        ],
+                        "mdoObject" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "MDOManagement-2015-07-MultiDisciplinaryDataMgt/qryNotificationsByOriginDesign",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "designInstance" : "IModelObject",
+            "projectContext" : "IModelObject",
+            "performCreateNotificationQueryAlso" : "bool",
+            "filterCompatibleArtifactByType" : "IModelObject",
+            "filterByDomain" : "String",
+            "filterModifyTriggerNotificationByType" : "IModelObject",
+            "filterByDesign" : "IModelObject"
+         }
+      ]
+   }
+}

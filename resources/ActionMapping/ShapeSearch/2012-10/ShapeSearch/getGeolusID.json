@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "objectUID" : "String"
+   },
+   "ServiceOperation" : "Internal-ShapeSearch-2012-10-ShapeSearch/getGeolusID",
+   "OperationResponse" : {
+      "geolusID" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

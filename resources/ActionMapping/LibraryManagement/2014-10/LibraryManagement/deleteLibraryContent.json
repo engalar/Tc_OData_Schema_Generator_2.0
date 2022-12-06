@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryManagement/deleteLibraryContent",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "undeletedObjects" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "deleteIn" : [
+         {
+            "deleteContent" : "bool",
+            "object" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "qualificationInfo" : [
+         {
+            "qualificationLevels" : "String[]",
+            "description" : "String",
+            "qualificationName" : "String",
+            "isExpiryDateRequired" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Qualification-2014-06-QualificationManagement/createQualification"
+}

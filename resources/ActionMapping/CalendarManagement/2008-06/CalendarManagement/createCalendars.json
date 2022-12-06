@@ -1,0 +1,88 @@
+{
+   "OperationResponse" : {
+      "calendarResponse" : [
+         {
+            "calendar" : "IModelObject",
+            "calendarEvent" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "CalendarManagement-2008-06-CalendarManagement/createCalendars",
+   "OperationInput" : {
+      "newTCCalendars" : [
+         {
+            "newEvents" : [
+               {
+                  "numRecurrences" : "int",
+                  "recurDaysOfWeek" : "int",
+                  "firstRecurStart" : "Date",
+                  "eventRanges" : [
+                     {
+                        "startRange" : "int",
+                        "endRange" : "int"
+                     }
+                  ],
+                  "recurMonth" : "int",
+                  "recurInterval" : "int",
+                  "firstRecurEnd" : "Date",
+                  "recurWeeksOfMonth" : "int",
+                  "eventExpiryDate" : "Date",
+                  "eventType" : "int"
+               }
+            ],
+            "tccalendarAttributes" : {
+               "thuRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "name" : "String",
+               "type" : "int",
+               "friRanges" : [
+                  {
+                     "endRange" : "int",
+                     "startRange" : "int"
+                  }
+               ],
+               "tueRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "timeZone" : "String",
+               "description" : "String",
+               "baseCalendar" : "IModelObject",
+               "monRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "wedRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ],
+               "source" : "IModelObject",
+               "satRanges" : [
+                  {
+                     "endRange" : "int",
+                     "startRange" : "int"
+                  }
+               ],
+               "schedule" : "IModelObject",
+               "sunRanges" : [
+                  {
+                     "startRange" : "int",
+                     "endRange" : "int"
+                  }
+               ]
+            }
+         }
+      ]
+   }
+}

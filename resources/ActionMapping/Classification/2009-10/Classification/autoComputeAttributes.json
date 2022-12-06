@@ -1,0 +1,42 @@
+{
+   "ServiceOperation" : "Classification-2009-10-Classification/autoComputeAttributes",
+   "OperationResponse" : {
+      "autoComputedAttrs" : {
+         "SampleKeyInt" : {
+            "unitName" : "String",
+            "attributeProperties" : "int",
+            "length" : "int",
+            "isModified" : "bool",
+            "values" : [
+               {
+                  "dbValue" : "String",
+                  "displayValue" : "String"
+               }
+            ]
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "classId" : "String",
+      "unitSystem" : "int",
+      "icoId" : "String",
+      "mode" : "int",
+      "wso" : "IModelObject",
+      "inputAttrs" : {
+         "SampleKeyInt" : {
+            "attributeProperties" : "int",
+            "unitName" : "String",
+            "isModified" : "bool",
+            "length" : "int",
+            "values" : [
+               {
+                  "dbValue" : "String",
+                  "displayValue" : "String"
+               }
+            ]
+         }
+      },
+      "viewId" : "String"
+   }
+}

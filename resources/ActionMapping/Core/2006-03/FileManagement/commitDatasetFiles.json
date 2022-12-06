@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "commitInput" : [
+         {
+            "createNewVersion" : "bool",
+            "dataset" : "IModelObject",
+            "datasetFileTicketInfos" : [
+               {
+                  "ticket" : "String",
+                  "datasetFileInfo" : {
+                     "fileName" : "String",
+                     "namedReferencedName" : "String",
+                     "allowReplace" : "bool",
+                     "clientId" : "String",
+                     "isText" : "bool"
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2006-03-FileManagement/commitDatasetFiles"
+}

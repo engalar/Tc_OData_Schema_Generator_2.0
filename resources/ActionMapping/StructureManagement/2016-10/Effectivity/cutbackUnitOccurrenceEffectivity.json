@@ -1,0 +1,84 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "cutbacks" : [
+         {
+            "cutbackParent" : "IModelObject",
+            "cutbacks" : [
+               {
+                  "name" : "String",
+                  "impacted" : [
+                     {
+                        "effProposals" : [
+                           {
+                              "proposal" : "IModelObject",
+                              "effectivity" : "String"
+                           }
+                        ],
+                        "occ" : "IModelObject"
+                     }
+                  ],
+                  "allowGaps" : "bool",
+                  "description" : "String",
+                  "solutions" : [
+                     {
+                        "effProposals" : [
+                           {
+                              "effectivity" : "String",
+                              "proposal" : "IModelObject"
+                           }
+                        ],
+                        "occ" : "IModelObject"
+                     }
+                  ],
+                  "actionForCutback" : "int",
+                  "cutback" : "IModelObject",
+                  "sequence" : "int",
+                  "effectivity" : "String[]"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2016-10-Effectivity/cutbackUnitOccurrenceEffectivity",
+   "OperationInput" : {
+      "occEffCutbacks" : [
+         {
+            "cutbackParent" : "IModelObject",
+            "cutbacks" : [
+               {
+                  "description" : "String",
+                  "solutions" : [
+                     {
+                        "occ" : "IModelObject",
+                        "effProposals" : [
+                           {
+                              "proposal" : "IModelObject",
+                              "effectivity" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "impacted" : [
+                     {
+                        "occ" : "IModelObject",
+                        "effProposals" : [
+                           {
+                              "proposal" : "IModelObject",
+                              "effectivity" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "allowGaps" : "bool",
+                  "name" : "String",
+                  "effectivity" : "String[]",
+                  "sequence" : "int",
+                  "cutback" : "IModelObject",
+                  "actionForCutback" : "int"
+               }
+            ]
+         }
+      ]
+   }
+}

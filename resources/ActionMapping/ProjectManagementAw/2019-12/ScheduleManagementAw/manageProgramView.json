@@ -1,0 +1,117 @@
+{
+   "OperationInput" : {
+      "programViewInfo" : {
+         "programViewConfiguration" : {
+            "scheduleUIDs" : "String[]",
+            "groups" : [
+               {
+                  "order" : "String",
+                  "range" : "String",
+                  "rollups" : [
+                     {
+                        "stringValue" : "String",
+                        "name" : "String"
+                     }
+                  ],
+                  "attributeName" : "String",
+                  "color" : "String"
+               }
+            ],
+            "columns" : [
+               {
+                  "columnName" : "String",
+                  "order" : "String"
+               }
+            ],
+            "filterSets" : [
+               {
+                  "filters" : [
+                     {
+                        "filterValue" : "String",
+                        "attributeName" : "String",
+                        "criteria" : "String"
+                     }
+                  ]
+               }
+            ]
+         },
+         "contextNodeId" : "String",
+         "referenceNodeId" : "String",
+         "operationType" : "String",
+         "programView" : "IModelObject",
+         "inputOptions" : [
+            {
+               "name" : "String",
+               "stringValue" : "String"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "dayRanges" : [
+         {
+            "ranges" : "String[]",
+            "day" : "int"
+         }
+      ],
+      "configuration" : {
+         "scheduleUIDs" : "String[]",
+         "filterSets" : [
+            {
+               "filters" : [
+                  {
+                     "criteria" : "String",
+                     "attributeName" : "String",
+                     "filterValue" : "String"
+                  }
+               ]
+            }
+         ],
+         "groups" : [
+            {
+               "rollups" : [
+                  {
+                     "stringValue" : "String",
+                     "name" : "String"
+                  }
+               ],
+               "range" : "String",
+               "order" : "String",
+               "color" : "String",
+               "attributeName" : "String"
+            }
+         ],
+         "columns" : [
+            {
+               "columnName" : "String",
+               "order" : "String"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData",
+      "programView" : "IModelObject",
+      "programViewNodesJson" : "String",
+      "options" : [
+         {
+            "name" : "String",
+            "stringValue" : "String"
+         }
+      ],
+      "programViewNodes" : [
+         {
+            "nodeProperties" : [
+               {
+                  "stringValue" : "String",
+                  "name" : "String"
+               }
+            ],
+            "isTcObject" : "bool"
+         }
+      ],
+      "eventDateRanges" : {
+         "ranges" : "String[]",
+         "eventDate" : "Date"
+      }
+   },
+   "ServiceOperation" : "Internal-ProjectManagementAw-2019-12-ScheduleManagementAw/manageProgramView"
+}

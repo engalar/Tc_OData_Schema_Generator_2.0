@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "responseObj" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputList" : [
+         {
+            "itemObject" : "IModelObject",
+            "derivedExchangeLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/getItemsListForSupplierResponse"
+}

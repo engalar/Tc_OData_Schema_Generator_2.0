@@ -1,0 +1,90 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "parent" : "IModelObject",
+            "parameters" : [
+               {
+                  "parameter" : "IModelObject",
+                  "goalFileInputs" : [
+                     {
+                        "type" : "String",
+                        "clientId" : "String",
+                        "dataset" : "IModelObject",
+                        "namedReference" : "String",
+                        "description" : "String",
+                        "fileName" : "String"
+                     }
+                  ],
+                  "clientId" : "String",
+                  "valueInputs" : [
+                     {
+                        "toCreate" : "bool",
+                        "valueFileInputs" : [
+                           {
+                              "fileName" : "String",
+                              "namedReference" : "String",
+                              "description" : "String",
+                              "dataset" : "IModelObject",
+                              "clientId" : "String",
+                              "type" : "String"
+                           }
+                        ],
+                        "valueProps" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "measureValue" : "IModelObject",
+                        "method" : "String"
+                     }
+                  ],
+                  "paramProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "paramDirection" : "String"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "parent" : "IModelObject",
+            "updatedParams" : [
+               {
+                  "retParameter" : {
+                     "paramDirection" : "String",
+                     "goalFiles" : [
+                        {
+                           "fileName" : "String",
+                           "fileTicket" : "String",
+                           "dataset" : "IModelObject"
+                        }
+                     ],
+                     "parameter" : "IModelObject"
+                  },
+                  "inputParameter" : "IModelObject",
+                  "clientId" : "String",
+                  "retMeasureValues" : [
+                     {
+                        "method" : "String",
+                        "measureValue" : "IModelObject",
+                        "valueFiles" : [
+                           {
+                              "dataset" : "IModelObject",
+                              "fileTicket" : "String",
+                              "fileName" : "String"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "AttrTargetMgmt-2020-12-AttributeTargetManagement/updateParameters"
+}

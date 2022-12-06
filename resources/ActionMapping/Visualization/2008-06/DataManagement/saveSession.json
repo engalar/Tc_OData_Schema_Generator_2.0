@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "sessionModelDataset" : "IModelObject",
+            "uploadSessionFile" : {
+               "clientFileId" : "String",
+               "refName" : "String",
+               "fileState" : "String",
+               "fileName" : "String",
+               "existingObject" : "IModelObject",
+               "newObject" : "IModelObject",
+               "fileTicket" : "String"
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "sessionToSessionModelInfo" : {
+         "SampleKeyString" : {
+            "sessionModelDataset" : "IModelObject",
+            "reference" : {
+               "clientFileId" : "String",
+               "uploadedFile" : "IModelObject",
+               "uploadedFilename" : "String",
+               "uploadedFileRefNames" : "String"
+            }
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/saveSession"
+}

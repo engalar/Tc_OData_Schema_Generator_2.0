@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Cad-2007-01-StructureManagement/getVariantRules",
+   "OperationResponse" : {
+      "inputItemRevToVarRules" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "itemRevs" : "IModelObject[]"
+   }
+}

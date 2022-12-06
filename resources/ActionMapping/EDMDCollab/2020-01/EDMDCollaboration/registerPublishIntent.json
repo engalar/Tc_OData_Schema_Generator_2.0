@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "registerIntentInput" : {
+         "publishIntent" : "String",
+         "domainIdentifier" : "String",
+         "designUID" : "String"
+      }
+   },
+   "ServiceOperation" : "EDMDCollab-2020-01-EDMDCollaboration/registerPublishIntent",
+   "OperationResponse" : "IServiceData"
+}

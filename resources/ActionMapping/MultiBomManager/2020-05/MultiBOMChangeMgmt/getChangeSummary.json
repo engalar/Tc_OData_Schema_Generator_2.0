@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "properyInfo" : [
+               {
+                  "oldUIValue" : "String",
+                  "propDisplayName" : "String",
+                  "currentDBValue" : "String",
+                  "currentUIValue" : "String",
+                  "oldDBValue" : "String",
+                  "propInternalName" : "String"
+               }
+            ],
+            "itemRev" : "IModelObject",
+            "parentItemRev" : "IModelObject",
+            "changeType" : "MBMBOM_Added MBMBOM_Removed MBMBOM_Updated MBMBOM_Occurrence_Updated"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-MultiBomManager-2020-05-MultiBOMChangeMgmt/getChangeSummary",
+   "OperationInput" : {
+      "changeNoticeRev" : "IModelObject"
+   }
+}

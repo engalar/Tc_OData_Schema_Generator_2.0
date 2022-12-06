@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "ProductionManagement-2011-06-MeasurementDataQuery/queryRuleSetDataSet",
+   "OperationResponse" : {
+      "dpvRuleSetDsSet" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "Internal-Mmv-2012-09-SpatialStructureManagement/releaseSpatialHierarchy",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : {
+         "vsSpatialHierUids" : "String[]"
+      }
+   }
+}

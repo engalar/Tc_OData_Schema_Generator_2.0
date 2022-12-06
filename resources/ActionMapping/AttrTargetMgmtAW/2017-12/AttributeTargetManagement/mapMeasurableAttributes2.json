@@ -1,0 +1,51 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "elements" : [
+               {
+                  "sourceElement" : "IModelObject",
+                  "attributes" : "IModelObject[]"
+               }
+            ],
+            "productInfo" : [
+               {
+                  "rootElement" : "IModelObject",
+                  "productContext" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ],
+      "pref" : {
+         "mapObjType" : "String",
+         "alignmentObjType" : "String"
+      }
+   },
+   "ServiceOperation" : "AttrTargetMgmtAW-2017-12-AttributeTargetManagement/mapMeasurableAttributes2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outputs" : [
+         {
+            "clientId" : "String",
+            "elementAttrOutputs" : [
+               {
+                  "sourceElement" : "IModelObject",
+                  "attrMapOutputs" : [
+                     {
+                        "attribute" : "IModelObject",
+                        "attrAlignments" : [
+                           {
+                              "sourceAttr" : "IModelObject",
+                              "targetAttr" : "IModelObject",
+                              "alignmentObj" : "IModelObject"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

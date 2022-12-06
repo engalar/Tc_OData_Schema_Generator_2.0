@@ -1,0 +1,36 @@
+{
+   "ServiceOperation" : "DocumentManagement-2008-06-DocumentControl/postCreate",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "itemRevision" : "IModelObject",
+            "commitInfos" : [
+               {
+                  "dataset" : "IModelObject",
+                  "dsTypeName" : "String",
+                  "fileTicketInfo" : {
+                     "ticket" : "String",
+                     "fileInfo" : {
+                        "fileName" : "String",
+                        "namedReferencedName" : "String",
+                        "allowReplace" : "bool",
+                        "clientId" : "String",
+                        "isText" : "bool"
+                     }
+                  }
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "fileNames" : "String[]",
+            "itemRevision" : "IModelObject"
+         }
+      ]
+   }
+}

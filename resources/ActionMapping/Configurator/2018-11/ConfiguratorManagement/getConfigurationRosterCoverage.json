@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "configurationRoster" : {
+         "perspective" : "IModelObject",
+         "jsonRequest" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-Configurator-2018-11-ConfiguratorManagement/getConfigurationRosterCoverage",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "jsonResponse" : "String"
+   }
+}

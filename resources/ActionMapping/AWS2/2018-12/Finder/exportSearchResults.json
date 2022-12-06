@@ -1,0 +1,70 @@
+{
+   "OperationInput" : {
+      "selectedObjectUIDs" : "String[]",
+      "applicationFormat" : "String",
+      "exportAll" : "bool",
+      "searchInput" : {
+         "maxToReturn" : "int",
+         "providerName" : "String",
+         "searchFilterFieldSortType" : "String",
+         "attributesToInflate" : "String[]",
+         "cursor" : {
+            "startIndex" : "int",
+            "endIndex" : "int",
+            "endReached" : "bool",
+            "startReached" : "bool"
+         },
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "maxToLoad" : "int",
+         "internalPropertyName" : "String",
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "endNumericValue" : "double",
+                  "startNumericValue" : "double",
+                  "startDateValue" : "Date",
+                  "stringDisplayValue" : "String",
+                  "endDateValue" : "Date",
+                  "stringValue" : "String",
+                  "searchFilterType" : "String",
+                  "count" : "int",
+                  "colorValue" : "String",
+                  "startEndRange" : "String",
+                  "selected" : "bool"
+               }
+            ]
+         },
+         "searchSortCriteria" : [
+            {
+               "fieldName" : "String",
+               "sortDirection" : "ASC DESC"
+            }
+         ],
+         "pagingType" : "String",
+         "focusObjUid" : "String"
+      },
+      "columnConfig" : {
+         "columns" : [
+            {
+               "sortPriority" : "int",
+               "propertyName" : "String",
+               "pixelWidth" : "int",
+               "displayName" : "String",
+               "typeName" : "String",
+               "hiddenFlag" : "bool",
+               "sortDirection" : "String",
+               "columnOrder" : "int"
+            }
+         ],
+         "columnConfigId" : "String",
+         "operationType" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-12-Finder/exportSearchResults",
+   "OperationResponse" : {
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   }
+}

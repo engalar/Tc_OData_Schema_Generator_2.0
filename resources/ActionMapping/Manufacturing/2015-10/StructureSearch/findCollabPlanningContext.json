@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2015-10-StructureSearch/findCollabPlanningContext",
+   "OperationResponse" : {
+      "foundCPCs" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputScopes" : "IModelObject[]"
+   }
+}

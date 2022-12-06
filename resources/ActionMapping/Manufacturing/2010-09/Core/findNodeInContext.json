@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "byIdOnly" : "bool",
+            "context" : "IModelObject",
+            "nodes" : "IModelObject[]",
+            "clientID" : "String",
+            "allContexts" : "bool",
+            "inContextLine" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "resultInfo" : [
+         {
+            "resultNodes" : [
+               {
+                  "originalNode" : "IModelObject",
+                  "foundNodes" : "IModelObject[]"
+               }
+            ],
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2010-09-Core/findNodeInContext"
+}

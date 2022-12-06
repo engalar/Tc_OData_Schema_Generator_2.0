@@ -1,0 +1,152 @@
+{
+   "OperationInput" : {
+      "impactedLinesCriteria" : [
+         {
+            "findImpactedLinesByPeriod" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "findImpactedLinesByICInfo" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "findImpactedLinesByRevisionEff" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "findImpactedLinesByOccEff" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               }
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "impactedLinesInfo" : [
+         {
+            "occEffImpactedLinesInfo" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "revisionImpactedLinesInfo" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "periodImpactedLinesInfo" : {
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            },
+            "icImpactedLinesInfo" : {
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               }
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2014-12-StructureVerification/getStructureChangeImpactedLines"
+}

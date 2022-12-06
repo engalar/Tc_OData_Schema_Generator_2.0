@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "activityInfos" : [
+         {
+            "type" : "String",
+            "name" : "String",
+            "toolInfo" : {
+               "processBV" : "IModelObject",
+               "toolOccThreadChains" : {
+                  "SampleKeyInt" : "String[]"
+               }
+            },
+            "predecessors" : "IModelObject[]",
+            "description" : "String",
+            "contents" : "IModelObject[]",
+            "parentActivities" : "IModelObject[]",
+            "complete" : "bool",
+            "attributes" : [
+               {
+                  "name" : "String",
+                  "values" : "String[]"
+               }
+            ],
+            "activity" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2008-06-DataManagement/createOrUpdateMEActivityFolders",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "successfullyProcessedMEAct" : {
+         "SampleKeyInt" : "IModelObject"
+      }
+   }
+}

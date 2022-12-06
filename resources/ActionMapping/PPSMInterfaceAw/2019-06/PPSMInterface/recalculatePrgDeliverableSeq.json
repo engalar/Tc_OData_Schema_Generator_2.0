@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "runInBackground" : "bool",
+      "eventObject" : "IModelObject"
+   },
+   "ServiceOperation" : "PPSMInterfaceAw-2019-06-PPSMInterface/recalculatePrgDeliverableSeq",
+   "OperationResponse" : "IServiceData"
+}

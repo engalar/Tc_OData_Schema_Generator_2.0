@@ -1,0 +1,10 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2018-11-MassUpdate/hasActiveMarkupAssociated",
+   "OperationResponse" : {
+      "hasActiveMarkup" : "bool",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "changeObject" : "IModelObject"
+   }
+}

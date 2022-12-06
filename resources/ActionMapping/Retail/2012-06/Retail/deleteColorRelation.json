@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/deleteColorRelation",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "relationType" : "String",
+            "primaryObject" : "IModelObject",
+            "secondaryObject" : "IModelObject"
+         }
+      ]
+   }
+}

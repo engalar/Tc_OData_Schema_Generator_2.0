@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "inputs" : {
+         "clientVersion" : "int",
+         "clientInfo" : {
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "roleName" : "String",
+            "clientCorrelationId" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "userDataIp" : "String",
+            "osUserName" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serverCorrelationId" : "String",
+      "out" : {
+         "clientRejected" : "int",
+         "serverVersion" : "int"
+      },
+      "userDataIp" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11VersionCheckSvc"
+}

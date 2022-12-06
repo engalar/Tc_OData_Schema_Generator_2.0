@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Core-2007-01-DataManagement/moveToNewFolder",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "moveToNewFolderInfos" : [
+         {
+            "objectsToMove" : "IModelObject[]",
+            "oldFolder" : "IModelObject",
+            "newFolder" : "IModelObject"
+         }
+      ]
+   }
+}

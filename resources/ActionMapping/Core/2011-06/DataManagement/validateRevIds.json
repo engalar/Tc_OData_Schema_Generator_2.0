@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "itemType" : "String",
+            "revId" : "String",
+            "itemObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2011-06-DataManagement/validateRevIds",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "modRevId" : "String",
+            "revIdStatus" : "ValidRevID InvalidRevID ModifiedRevID OverrideRevID DuplicateRevID"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

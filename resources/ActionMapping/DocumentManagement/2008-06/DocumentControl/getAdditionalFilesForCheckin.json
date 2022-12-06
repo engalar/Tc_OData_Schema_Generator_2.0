@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "DocumentManagement-2008-06-DocumentControl/getAdditionalFilesForCheckin",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "outs" : [
+         {
+            "datasetInfos" : [
+               {
+                  "dataset" : "IModelObject",
+                  "dsTypeName" : "String",
+                  "fileTicketInfo" : {
+                     "fileInfo" : {
+                        "namedReferencedName" : "String",
+                        "allowReplace" : "bool",
+                        "isText" : "bool",
+                        "clientId" : "String",
+                        "fileName" : "String"
+                     },
+                     "ticket" : "String"
+                  }
+               }
+            ],
+            "itemRevision" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "itemRevision" : "IModelObject",
+            "filenames" : "String[]"
+         }
+      ]
+   }
+}

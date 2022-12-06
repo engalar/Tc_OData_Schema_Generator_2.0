@@ -1,0 +1,67 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "cursor" : {
+            "endReached" : "bool",
+            "startReached" : "bool",
+            "pageSize" : "int",
+            "startIndex" : "int",
+            "endIndex" : "int"
+         },
+         "typePropInfos" : {
+            "SampleKeyString" : [
+               {
+                  "propHeader" : "String",
+                  "isRequired" : "bool",
+                  "realPropDisplayName" : "String",
+                  "realPropName" : "String"
+               }
+            ]
+         },
+         "transientFileWriteTicket" : "String",
+         "propInfos" : [
+            {
+               "realPropName" : "String",
+               "propHeader" : "String",
+               "isRequired" : "bool",
+               "realPropDisplayName" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-XlsBom-2020-12-Import/getStructureInfoFromExcel",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "nodeInfos" : [
+         {
+            "level" : "int",
+            "numberOfChildren" : "int",
+            "propNameValueMap" : {
+               "SampleKeyString" : "String"
+            },
+            "nodeId" : "String",
+            "underlyingObjectType" : "String",
+            "parentIndex" : "int",
+            "displayName" : "String"
+         }
+      ],
+      "columnConfig" : {
+         "operationType" : "String",
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "pixelWidth" : "int",
+               "displayName" : "String",
+               "propertyName" : "String"
+            }
+         ]
+      },
+      "cursor" : {
+         "startReached" : "bool",
+         "endReached" : "bool",
+         "endIndex" : "int",
+         "startIndex" : "int",
+         "pageSize" : "int"
+      }
+   }
+}

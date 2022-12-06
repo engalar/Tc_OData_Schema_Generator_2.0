@@ -1,0 +1,48 @@
+{
+   "ServiceOperation" : "Internal-Notification-2015-03-SubscriptionManagement/createSubscriptions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "subscriptions" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "name" : "String",
+            "eventType" : "IModelObject",
+            "revisionOption" : "NoRevisions2 AllRevisions2 ItemRevisions2 BaselineRevision2",
+            "target" : "IModelObject",
+            "isActive" : "bool",
+            "notificationPriority" : "String",
+            "criteria" : [
+               {
+                  "logicOperator" : "LogicalAnd LogicalOr",
+                  "attributeComparison" : {
+                     "attributeName" : "String",
+                     "attributeValue" : "String",
+                     "mathOperator" : "EqualTo NotEqualTo GreaterThan LessThan GreaterThanEqualTo LessThanEqualTo"
+                  }
+               }
+            ],
+            "executionPeriod" : {
+               "frequency" : "String",
+               "executionDay" : "String",
+               "executionTime" : "Date"
+            },
+            "notification" : {
+               "message" : "String",
+               "subject" : "String",
+               "propertyNames" : "String[]"
+            },
+            "condition" : "IModelObject",
+            "subscriber" : "IModelObject",
+            "expirationDate" : "Date",
+            "handlers" : [
+               {
+                  "parameters" : "String[]",
+                  "handler" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

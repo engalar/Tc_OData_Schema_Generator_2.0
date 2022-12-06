@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "request" : {
+         "objectUid" : "String",
+         "categories" : [
+            {
+               "perferences" : [
+                  {
+                     "prefName" : "String",
+                     "prefDisplayName" : "String",
+                     "prefValue" : "bool"
+                  }
+               ],
+               "categoryName" : "String"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "categories" : [
+         {
+            "perferences" : [
+               {
+                  "prefName" : "String",
+                  "prefValue" : "bool",
+                  "prefDisplayName" : "String"
+               }
+            ],
+            "categoryName" : "String"
+         }
+      ],
+      "success" : "bool",
+      "message" : "String"
+   },
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/fetchNotificationPreferences"
+}

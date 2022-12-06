@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "ProjectManagementAw-2018-12-ScheduleManagementAw/loadBaseline",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "baselineTasksInfo" : {
+         "SampleKeyString" : {
+            "baselineTask" : "IModelObject",
+            "properties" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      }
+   },
+   "OperationInput" : {
+      "loadBaselineInfo" : {
+         "loadOptions" : {
+            "SampleKeyString" : "String"
+         },
+         "scheduleTasks" : "IModelObject[]",
+         "baselineSchedule" : "IModelObject",
+         "sourceSchedule" : "IModelObject"
+      }
+   }
+}

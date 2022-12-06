@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "parentChildren" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Capaonawc-2019-06-QualityIssueManagement/getChildrenInfo",
+   "OperationInput" : {
+      "level" : "int",
+      "parentList" : "IModelObject[]"
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "syncMasterAndAlternativeInputInfo" : {
+         "syncParams" : {
+            "SampleKeyString" : "String"
+         },
+         "syncStructsInfo" : [
+            {
+               "target" : "IModelObject[]",
+               "source" : "IModelObject[]"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "syncResult" : [
+         {
+            "target" : "IModelObject",
+            "resultData" : [
+               {
+                  "propertyName" : "String",
+                  "values" : "String[]",
+                  "dataType" : "String"
+               }
+            ],
+            "source" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2017-05-StructureManagement/syncMasterAndAlternative"
+}

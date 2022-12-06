@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Partition-2015-10-PartitionManagement/unmapPartitions",
+   "OperationInput" : {
+      "operationInput" : [
+         {
+            "appModelReference" : "IModelObject",
+            "targetPartitions" : "IModelObject[]",
+            "owningPartitions" : "IModelObject[]"
+         }
+      ]
+   }
+}

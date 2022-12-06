@@ -1,0 +1,46 @@
+{
+   "OperationInput" : {
+      "importExcelData" : [
+         {
+            "typePropInfos" : [
+               {
+                  "dispTypeName" : "String",
+                  "objectType" : "String",
+                  "propInfos" : [
+                     {
+                        "realPropName" : "String",
+                        "dispPropName" : "String",
+                        "propHeader" : "String",
+                        "isRequired" : "bool"
+                     }
+                  ]
+               }
+            ],
+            "transientFileWriteTicket" : "String",
+            "mappingGroupData" : {
+               "groupName" : {
+                  "dispName" : "String",
+                  "realName" : "String",
+                  "isModifiable" : "bool"
+               },
+               "mappingInfo" : [
+                  {
+                     "isRequired" : "bool",
+                     "propHeader" : "String",
+                     "dispPropName" : "String",
+                     "realPropName" : "String"
+                  }
+               ],
+               "actionName" : "String"
+            },
+            "selectedObject" : "IModelObject",
+            "importOptions" : "String[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "revObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-OccMgmt-2020-05-ImportExport/importExcelAndUpdateMappingGrp"
+}

@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "removePhPartInput" : [
+         {
+            "asbuiltBOMLine" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "replacerLine" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AsBuilt-2008-06-AsBuilt/unInstallPhysicalPart"
+}

@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm1VerifyObjectsSvc",
+   "OperationResponse" : {
+      "out" : {
+         "failureCodes" : "int[]",
+         "verdicts" : "int[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : {
+         "objectsToVerify" : "String[]",
+         "clientInfo" : {
+            "groupName" : "String",
+            "targetSiteId" : "int",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "roleName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "osUserName" : "String"
+         }
+      }
+   }
+}

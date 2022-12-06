@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "parent" : "IModelObject",
+            "arguments" : [
+               {
+                  "input" : "String",
+                  "name" : "String",
+                  "output" : "String"
+               }
+            ],
+            "clientId" : "String",
+            "type" : "ROLLUPCalcInvalid ROLLUPCalcSum ROLLUPCalcCofm ROLLUPCalcInertia ROLLUPCalcRef"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "calcTemplate" : "IModelObject",
+            "type" : "ROLLUPCalcInvalid ROLLUPCalcSum ROLLUPCalcCofm ROLLUPCalcInertia ROLLUPCalcRef",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Reports-2007-06-BOMRollup/createRollupCalculationTemplates"
+}

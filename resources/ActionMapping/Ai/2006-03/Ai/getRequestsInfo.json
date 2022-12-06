@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "reqIds" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/getRequestsInfo",
+   "OperationResponse" : "IServiceData"
+}

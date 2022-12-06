@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "scopeAttribute" : "bool",
+            "unselectedNodes" : "IModelObject[]",
+            "selectedNodes" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2012-09-StructureSearch/saveOGLinesInSrchCriteria",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "srchCriterias" : "IModelObject[]"
+   }
+}

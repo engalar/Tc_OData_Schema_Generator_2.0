@@ -1,0 +1,7 @@
+{
+    "TC_URL": "http://10.134.94.202:7001/tc",
+	"Credentials":  {
+		"UserName": "tcadmin",
+		"Password": "tcadmin"
+	}
+}

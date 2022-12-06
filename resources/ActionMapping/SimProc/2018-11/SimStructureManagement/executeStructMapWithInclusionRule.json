@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inclusionRuleInputs" : {
+         "inclusionRuleFileItemRevDesc" : "String",
+         "inclusionRuleFileTicket" : "String",
+         "inclusionRuleFileItemRevName" : "String",
+         "selectedInclusionRuleItemRev" : "IModelObject"
+      },
+      "structureMapInputs" : {
+         "domain" : "String",
+         "structureMapIR" : "IModelObject",
+         "selectedBOMLines" : "IModelObject[]",
+         "rootBOMLine" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "activityLog" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SimProc-2018-11-SimStructureManagement/executeStructMapWithInclusionRule"
+}

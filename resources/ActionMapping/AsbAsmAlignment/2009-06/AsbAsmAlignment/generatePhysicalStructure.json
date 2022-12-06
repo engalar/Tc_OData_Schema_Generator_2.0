@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "newPhysPartRev" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AsbAsmAlignment-2009-06-AsbAsmAlignment/generatePhysicalStructure",
+   "OperationInput" : {
+      "input" : [
+         {
+            "generatePhysicalStructInfo" : {
+               "physicalLocationName" : "String",
+               "generateAsBuilt" : "bool",
+               "dispositionType" : "String",
+               "rebuildDate" : "Date",
+               "numberOfLevels" : "int"
+            },
+            "clientId" : "String",
+            "physPartRev" : "IModelObject"
+         }
+      ]
+   }
+}

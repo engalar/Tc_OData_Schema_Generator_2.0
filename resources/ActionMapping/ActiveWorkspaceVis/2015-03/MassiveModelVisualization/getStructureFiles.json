@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "productAndConfigInfoInput" : [
+         {
+            "recipeObject" : "IModelObject",
+            "deltaIdentifier" : "String",
+            "productConfigInfo" : {
+               "product" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "effectivityInfos" : [
+                  {
+                     "endItem" : "IModelObject",
+                     "effectivityDate" : "Date",
+                     "effectivityUnitNo" : "int"
+                  }
+               ],
+               "variantRuleInfos" : [
+                  {
+                     "variantRuleOwningObject" : "IModelObject",
+                     "variantRule" : "IModelObject"
+                  }
+               ]
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "productStructureFileInfos" : [
+         {
+            "fullStructureFileReadTicket" : "String",
+            "deltaStructureFileReadTickets" : "String[]",
+            "clientId" : "String",
+            "nextDeltaIdentifierToken" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceVis-2015-03-MassiveModelVisualization/getStructureFiles"
+}

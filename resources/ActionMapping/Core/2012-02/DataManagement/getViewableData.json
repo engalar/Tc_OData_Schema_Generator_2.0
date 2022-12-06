@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "viewableNamedRefs" : [
+               {
+                  "namedRefType" : "String",
+                  "fileTickets" : "String[]"
+               }
+            ],
+            "traversal" : "IModelObject[]",
+            "inputObj" : "IModelObject",
+            "viewableObj" : "IModelObject",
+            "viewerID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Core-2012-02-DataManagement/getViewableData",
+   "OperationInput" : {
+      "viewerConfigKey" : "String",
+      "configuredViewerIDs" : "String[]",
+      "input" : "IModelObject[]"
+   }
+}

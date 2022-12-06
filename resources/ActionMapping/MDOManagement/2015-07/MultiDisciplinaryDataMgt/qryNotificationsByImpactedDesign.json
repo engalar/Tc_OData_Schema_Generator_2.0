@@ -1,0 +1,109 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "filterCompatibleArtifactByType" : "IModelObject",
+            "filterByDesign" : "IModelObject",
+            "filterModifyTriggerNotificationByType" : "IModelObject",
+            "filterByDomain" : "String",
+            "performCreateNotificationQueryAlso" : "bool",
+            "designInstance" : "IModelObject",
+            "clientId" : "String",
+            "projectContext" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2015-07-MultiDisciplinaryDataMgt/qryNotificationsByImpactedDesign",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "createNotificationOutputs" : [
+               {
+                  "linkedInstances" : "IModelObject[]",
+                  "createTriggerNotification" : {
+                     "notificationQualifier" : "String",
+                     "ignoredResponses" : [
+                        {
+                           "model" : "IModelObject",
+                           "triggeringComponent" : "IModelObject",
+                           "objectName" : "String",
+                           "notificationQualifier" : "String"
+                        }
+                     ],
+                     "notificationObject" : "IModelObject",
+                     "rejectedResponses" : [
+                        {
+                           "notificationQualifier" : "String",
+                           "triggeringComponent" : "IModelObject",
+                           "objectName" : "String",
+                           "model" : "IModelObject"
+                        }
+                     ],
+                     "designInstance" : "IModelObject",
+                     "acceptedResponses" : [
+                        {
+                           "notificationQualifier" : "String",
+                           "model" : "IModelObject",
+                           "triggeringComponent" : "IModelObject",
+                           "objectName" : "String"
+                        }
+                     ]
+                  },
+                  "mdoOutput" : [
+                     {
+                        "mdoObject" : "IModelObject",
+                        "clientId" : "String",
+                        "associatedDesignArtifact" : [
+                           {
+                              "designArtifact" : "IModelObject",
+                              "domain" : "String"
+                           }
+                        ]
+                     }
+                  ],
+                  "instanceThread" : "IModelObject"
+               }
+            ],
+            "modifyNotificationOutputs" : [
+               {
+                  "linkedInstances" : "IModelObject[]",
+                  "instanceThread" : "IModelObject",
+                  "modifyTriggerNotifications" : [
+                     {
+                        "notificationQualifier" : "String",
+                        "ignoredResponses" : [
+                           {
+                              "triggeringComponent" : "IModelObject",
+                              "objectName" : "String",
+                              "model" : "IModelObject",
+                              "notificationQualifier" : "String"
+                           }
+                        ],
+                        "notificationObject" : "IModelObject",
+                        "rejectedResponses" : [
+                           {
+                              "notificationQualifier" : "String",
+                              "objectName" : "String",
+                              "triggeringComponent" : "IModelObject",
+                              "model" : "IModelObject"
+                           }
+                        ],
+                        "acceptedResponses" : [
+                           {
+                              "notificationQualifier" : "String",
+                              "model" : "IModelObject",
+                              "triggeringComponent" : "IModelObject",
+                              "objectName" : "String"
+                           }
+                        ],
+                        "designInstance" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "replacerAsMaintainedBOMLine" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AsMaintained-2009-06-AsMaintained/replaceAsmPhysicalPart",
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "replacePhysicalPartInfo" : {
+               "dispositionValue" : "String",
+               "extendedData" : {
+                  "attributes" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "objectType" : "String"
+               },
+               "replaceDate" : "Date",
+               "locationName" : "String"
+            },
+            "clientId" : "String",
+            "selectedAsMaintainedBOMLine" : "IModelObject",
+            "copiedPhysPart" : "IModelObject"
+         }
+      ]
+   }
+}

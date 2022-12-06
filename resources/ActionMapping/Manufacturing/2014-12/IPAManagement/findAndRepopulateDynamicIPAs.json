@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "dynamicIPAsData" : [
+         {
+            "bopLine" : "IModelObject",
+            "dynamicIPAsData" : [
+               {
+                  "consumedParts" : "IModelObject[]",
+                  "dynamicIPA" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2014-12-IPAManagement/findAndRepopulateDynamicIPAs",
+   "OperationInput" : {
+      "inputBOPLines" : "IModelObject[]"
+   }
+}

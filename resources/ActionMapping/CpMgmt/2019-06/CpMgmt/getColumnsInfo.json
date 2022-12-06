@@ -1,0 +1,37 @@
+{
+   "ServiceOperation" : "Internal-CpMgmt-2019-06-CpMgmt/getColumnsInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "columnInfos" : [
+         {
+            "sortingOrder" : "int",
+            "columnWidth" : "int",
+            "isAscending" : "bool",
+            "dataTypeName" : "String",
+            "isDisplayed" : "bool",
+            "propDisplayName" : "String",
+            "groupingOrder" : "int",
+            "propInternalName" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "sourceBO" : "IModelObject",
+         "providerName" : "String",
+         "isResetView" : "bool",
+         "columnconfigInfo" : [
+            {
+               "sortingOrder" : "int",
+               "columnWidth" : "int",
+               "isAscending" : "bool",
+               "dataTypeName" : "String",
+               "isDisplayed" : "bool",
+               "propDisplayName" : "String",
+               "groupingOrder" : "int",
+               "propInternalName" : "String"
+            }
+         ]
+      }
+   }
+}

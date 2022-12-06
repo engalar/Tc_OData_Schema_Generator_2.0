@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "IMDSIntegrationAW-2018-05-IMDSIntegration/findOrCreateAssociatedExchangeRev",
+   "OperationResponse" : {
+      "outputObject" : [
+         {
+            "selectedObject" : "IModelObject",
+            "exchangeRevision" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   }
+}

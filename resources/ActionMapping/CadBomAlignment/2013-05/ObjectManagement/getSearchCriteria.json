@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "criteriaInput" : [
+         {
+            "searchCriteriaMap" : {
+               "SampleKeyString" : "String"
+            },
+            "bomLine" : "IModelObject",
+            "criteriaType" : "int",
+            "isCreate" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "criteriaInfoOutput" : {
+         "searchCriteriaMap" : {
+            "SampleKeyString" : "String"
+         },
+         "bomLine" : "IModelObject"
+      }
+   },
+   "ServiceOperation" : "Internal-CadBomAlignment-2013-05-ObjectManagement/getSearchCriteria"
+}

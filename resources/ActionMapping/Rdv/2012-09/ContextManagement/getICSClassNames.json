@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "icsClassNames" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Rdv-2012-09-ContextManagement/getICSClassNames",
+   "OperationInput" : {
+      "searchCriteriaInClass" : "IModelObject[]"
+   }
+}

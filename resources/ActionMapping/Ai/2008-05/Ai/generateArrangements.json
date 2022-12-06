@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Ai-2008-05-Ai/generateArrangements",
+   "OperationResponse" : {
+      "fileTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "revRule" : {
+         "useDefaultRevisionRule" : "bool",
+         "rulename" : "String",
+         "id" : "IModelObject"
+      },
+      "bvType" : "String",
+      "itemRev" : "IModelObject"
+   }
+}

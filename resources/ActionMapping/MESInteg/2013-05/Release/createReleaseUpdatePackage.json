@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "deltaReleaseinfo" : {
+               "releaseCandidatesFromReleaseStatus" : "IModelObject[]",
+               "releaseCandidatesWithIncrementalChange" : [
+                  [
+                     "SampleKeyIModelObject"
+                  ],
+                  [
+                     "IModelObject[]"
+                  ]
+               ]
+            },
+            "fullReleaseInfo" : {
+               "targetSites" : "IModelObject[]",
+               "executionPlan" : "IModelObject"
+            },
+            "fullReleaseUpdate" : "bool",
+            "infoForm" : "IModelObject",
+            "workflowTemplate" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "workflows" : "IModelObject[]"
+   },
+   "ServiceOperation" : "MESInteg-2013-05-Release/createReleaseUpdatePackage"
+}

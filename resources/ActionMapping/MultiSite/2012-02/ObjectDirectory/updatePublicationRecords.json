@@ -1,0 +1,56 @@
+{
+   "OperationInput" : {
+      "clientInfo" : {
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientCorrelID" : "String",
+         "clientMinorReleaseVersion" : "int",
+         "clientMaintPackVersion" : "int",
+         "targetServerSiteId" : "int",
+         "groupName" : "String",
+         "clientOdsMinorVersion" : "int",
+         "osUserName" : "String",
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "clientSiteId" : "int",
+         "userDataInput" : "String",
+         "roleName" : "String",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         }
+      },
+      "records" : [
+         {
+            "pubDate" : "Date",
+            "objectType" : "String",
+            "localeCountStr" : "String",
+            "objectClass" : "String",
+            "customAttributes" : {
+               "SampleKeyString" : "String"
+            },
+            "owningUserId" : "String",
+            "objectName" : "String",
+            "objectTag" : "String",
+            "revisionId" : "String",
+            "owningGroupName" : "String",
+            "l10NPropertiesInfo" : "String[]",
+            "objectId" : "String",
+            "objectDesc" : "String",
+            "l10NLocalizedValues" : "String[]",
+            "releaseStatus" : "String[]",
+            "domainName" : "String",
+            "keyValue" : "String",
+            "creationDate" : "Date",
+            "owningSiteId" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "userDataOutput" : "String",
+      "serverCorrelID" : "String"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-ObjectDirectory/updatePublicationRecords"
+}

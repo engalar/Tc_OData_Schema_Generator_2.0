@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "Internal-MfgBvrCore-2014-06-DataManagement/saveData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "saveResults" : [
+         {
+            "saveErrors" : [
+               {
+                  "severity" : "SAVE_ERROR SAVE_WARNING",
+                  "saveErrorMessage" : "String",
+                  "saveErrorCode" : "int"
+               }
+            ],
+            "clientID" : "String",
+            "saveResultObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : "String",
+      "relatedObjects" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   }
+}

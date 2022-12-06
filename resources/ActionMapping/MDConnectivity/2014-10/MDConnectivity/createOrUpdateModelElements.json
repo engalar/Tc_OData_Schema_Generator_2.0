@@ -1,0 +1,65 @@
+{
+   "ServiceOperation" : "MDConnectivity-2014-10-MDConnectivity/createOrUpdateModelElements",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "connectionObjects" : [
+               {
+                  "attributeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "end2ClientId" : "String",
+                  "connectionObject" : "IModelObject",
+                  "lastModifiedDateGuard" : "Date",
+                  "end1ClientId" : "String",
+                  "clientId" : "String",
+                  "boType" : "String",
+                  "end2Object" : "IModelObject",
+                  "end1Object" : "IModelObject",
+                  "modelObject" : "IModelObject"
+               }
+            ],
+            "portObjects" : [
+               {
+                  "modelElement" : "IModelObject",
+                  "portObject" : "IModelObject",
+                  "clientId" : "String",
+                  "boType" : "String",
+                  "modelElementClientId" : "String",
+                  "lastModifiedDateGuard" : "Date",
+                  "sourceObject" : "IModelObject",
+                  "attributeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  }
+               }
+            ],
+            "modelElementObjects" : [
+               {
+                  "variantRule" : "IModelObject",
+                  "bomView" : "String",
+                  "lastModifiedDateGuard" : "Date",
+                  "sourceObject" : "IModelObject",
+                  "attributeInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "parentModelElementClientId" : "String",
+                  "modelElement" : "IModelObject",
+                  "revRule" : "IModelObject",
+                  "modelObject" : "IModelObject",
+                  "updateSubordinates" : "bool",
+                  "clientId" : "String",
+                  "parentModelElement" : "IModelObject",
+                  "boType" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

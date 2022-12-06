@@ -1,0 +1,71 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "details" : [
+         {
+            "assignmentDetails" : [
+               {
+                  "extensionName" : "String",
+                  "assignmentTypesDetails" : [
+                     {
+                        "assignmentType" : "String",
+                        "logicalAssignments" : [
+                           {
+                              "logicalAssignments" : "IModelObject[]",
+                              "resolvedAssignments" : [
+                                 {
+                                    "assignments" : "IModelObject[]",
+                                    "matchType" : "int"
+                                 }
+                              ],
+                              "criteria" : "String[]",
+                              "matchType" : "int"
+                           }
+                        ],
+                        "manualAssignments" : [
+                           {
+                              "assignments" : "IModelObject[]",
+                              "matchType" : "int"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "index" : "int",
+            "equivalentLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2012-10-StructureVerification/getAssignmentComparisonDetails",
+   "OperationInput" : {
+      "equivalentObjects" : [
+         {
+            "eqvTargetLines" : "IModelObject[]",
+            "eqvSrcLines" : "IModelObject[]"
+         }
+      ],
+      "partialMatchCriteria" : [
+         {
+            "extensionCriteria" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               }
+            },
+            "extensionName" : "String"
+         }
+      ]
+   }
+}

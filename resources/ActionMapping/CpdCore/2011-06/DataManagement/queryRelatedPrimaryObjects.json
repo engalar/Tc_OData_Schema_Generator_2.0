@@ -1,0 +1,45 @@
+{
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "sourceObject" : "IModelObject",
+            "filters" : [
+               {
+                  "otherSideObjectTypeName" : "String",
+                  "relationTypeName" : "String",
+                  "filters" : [
+                     {
+                        "attributeValues" : {
+                           "dateValues" : "Date[]",
+                           "booleanValues" : "bool[]",
+                           "doubleValues" : "double[]",
+                           "stringValues" : "String[]",
+                           "integerValues" : "int[]",
+                           "tagValues" : "IModelObject[]"
+                        },
+                        "attributeName" : "String",
+                        "attributeType" : "BooleanType IntegerType StringType DoubleType DateType TagType"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "configurationContext" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "outputObjects" : [
+         {
+            "relationInfos" : [
+               {
+                  "relationObject" : "IModelObject",
+                  "otherSideObject" : "IModelObject"
+               }
+            ],
+            "sourceObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "CpdCore-2011-06-DataManagement/queryRelatedPrimaryObjects"
+}

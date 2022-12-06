@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "licServerInfo" : [
+         {
+            "licenseServerName" : "String",
+            "licenseBundles" : [
+               {
+                  "expirationDate" : "Date",
+                  "licenseBundleName" : "String",
+                  "numberPurchased" : "int",
+                  "baseFeatureKey" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2013-05-Licensing/getLicenseBundles",
+   "OperationInput" : {
+      "licenseServerNames" : "String[]"
+   }
+}

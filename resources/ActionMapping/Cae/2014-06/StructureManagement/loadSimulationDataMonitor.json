@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Internal-Cae-2014-06-StructureManagement/loadSimulationDataMonitor",
+   "OperationResponse" : {
+      "monitoredComponentMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "value" : "String",
+                  "columnHeading" : "String",
+                  "isImage" : "bool"
+               }
+            ]
+         ]
+      ],
+      "progressHeadings" : [
+         {
+            "foundCount" : "int",
+            "totalCount" : "int",
+            "heading" : "String",
+            "dstype" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "columnHeadings" : "String[]"
+   },
+   "OperationInput" : {
+      "rootbomline" : "IModelObject"
+   }
+}

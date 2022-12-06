@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "contextState" : {
+         "openedObject" : "IModelObject",
+         "cloneContentSaveSpecifications" : [
+            [
+               "SampleKeyIModelObject"
+            ],
+            [
+               [
+                  {
+                     "cloneOperationType" : "int",
+                     "clonedObjectInfo" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "element" : "IModelObject"
+                  }
+               ]
+            ]
+         ],
+         "sublocationAttributes" : {
+            "SampleKeyString" : "String[]"
+         }
+      },
+      "requestPref" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-06-OccurrenceManagement/saveUserWorkingContextState2",
+   "OperationResponse" : "IServiceData"
+}

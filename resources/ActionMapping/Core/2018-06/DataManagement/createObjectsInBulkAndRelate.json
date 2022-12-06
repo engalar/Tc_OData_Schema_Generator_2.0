@@ -1,0 +1,38 @@
+{
+   "OperationInput" : {
+      "createInputs" : [
+         {
+            "clientId" : "String",
+            "pasteProp" : "String",
+            "targetObject" : "IModelObject",
+            "createData" : {
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "compoundCreateInput" : "Teamcenter::Soa::Core::_2015_07::DataManagement::CreateInputMap2",
+                        "boName" : "String",
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        }
+                     }
+                  ]
+               },
+               "boName" : "String"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "objects" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2018-06-DataManagement/createObjectsInBulkAndRelate"
+}

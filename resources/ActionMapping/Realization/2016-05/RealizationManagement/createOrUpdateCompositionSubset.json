@@ -1,0 +1,128 @@
+{
+   "ServiceOperation" : "Realization-2016-05-RealizationManagement/createOrUpdateCompositionSubset",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "srmeData" : [
+         {
+            "subsetData" : [
+               {
+                  "subsetClientId" : "String",
+                  "persistentObjMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "IModelObject"
+                     ]
+                  ],
+                  "csIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ],
+                  "subset" : "IModelObject",
+                  "appendedSourceElementList" : "IModelObject[]",
+                  "subsetCsId" : "String",
+                  "removedSourceElementList" : "IModelObject[]"
+               }
+            ],
+            "clientId" : "String",
+            "composition" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "updateInfo" : [
+            {
+               "appendList" : "IModelObject[]",
+               "recipeDef" : "IModelObject",
+               "updateAuxInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "clientID" : "String",
+               "subsetElement" : "IModelObject",
+               "baselineRev" : "IModelObject",
+               "updateConfigurationContext" : "IModelObject",
+               "transform" : "double[]",
+               "replaceSourceElements" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "updateRecipeForAppendsAndRemoves" : "bool",
+               "objLastModifiedDateGuard" : "Date",
+               "updateConditionalElementInfo" : {
+                  "includeChildren" : "bool",
+                  "conditionalElement" : "IModelObject"
+               },
+               "persistSourceElements" : "IModelObject[]",
+               "removeSecondaryObjectsAutomatically" : "bool",
+               "updateAuxObjectInfo" : [
+                  {
+                     "relationType" : "String",
+                     "boType" : "String",
+                     "attributeInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "auxObject" : "IModelObject",
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "boType" : "String",
+                              "compoundInfo" : "Rlz0::Soa::Realization::_2015_07::RealizationManagement::CompoundCreateInfoMap3",
+                              "attributeInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              }
+                           }
+                        ]
+                     }
+                  }
+               ],
+               "removeList" : "IModelObject[]"
+            }
+         ],
+         "createInfo" : [
+            {
+               "compositionInfo" : {
+                  "compositionType" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "composition" : "IModelObject",
+                  "targetModel" : "IModelObject"
+               },
+               "auxInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "clientID" : "String",
+               "auxObjectInfo" : [
+                  {
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "sourceObject" : "IModelObject"
+                  }
+               ],
+               "subsetCreateInfos" : [
+                  {
+                     "sourceModel" : "IModelObject",
+                     "transform" : "double[]",
+                     "baselineRev" : "IModelObject",
+                     "includeSourceElements" : "IModelObject[]",
+                     "recipeDef" : "IModelObject",
+                     "subsetClientId" : "String",
+                     "purpose" : "String",
+                     "configContext" : "IModelObject",
+                     "conditionalElementInfo" : {
+                        "conditionalElement" : "IModelObject",
+                        "includeChildren" : "bool"
+                     }
+                  }
+               ]
+            }
+         ]
+      }
+   }
+}

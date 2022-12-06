@@ -1,0 +1,46 @@
+{
+   "ServiceOperation" : "Cad-2007-01-StructureManagement/createOrUpdateRelativeStructure",
+   "OperationResponse" : {
+      "output" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "pref" : {
+         "cadOccIdAttrName" : "String",
+         "itemTypes" : "String[]"
+      },
+      "inputs" : [
+         {
+            "childInfo" : [
+               {
+                  "occInfo" : {
+                     "occTransform" : "double[]",
+                     "asRequired" : "bool",
+                     "attrsToSet" : [
+                        {
+                           "name" : "String",
+                           "value" : "String"
+                        }
+                     ],
+                     "occNotes" : [
+                        {
+                           "noteType" : "String",
+                           "noteText" : "String"
+                        }
+                     ]
+                  },
+                  "cadOccId" : "String",
+                  "child" : "IModelObject",
+                  "clientId" : "String"
+               }
+            ],
+            "precise" : "bool",
+            "parent" : "IModelObject"
+         }
+      ],
+      "complete" : "bool",
+      "bomViewTypeName" : "String"
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2020-05-SpecNavigation/markSuspectAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "inputData" : {
+         "removePrevNotifications" : "bool",
+         "requestPref" : {
+            "SampleKeyString" : "String"
+         },
+         "suspectObjectsMap" : {
+            "SampleKeyString" : "IModelObject[]"
+         },
+         "dueDate" : "Date",
+         "isRunInBackground" : "bool",
+         "note" : "String"
+      }
+   }
+}

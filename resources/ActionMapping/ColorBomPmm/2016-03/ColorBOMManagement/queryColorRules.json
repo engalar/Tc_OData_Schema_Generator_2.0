@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "queryRuleOutput" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ColorBomPmm-2016-03-ColorBOMManagement/queryColorRules",
+   "OperationInput" : {
+      "queryInput" : {
+         "colorRules" : "IModelObject[]",
+         "queryCriteria" : {
+            "SampleKeyString" : "String"
+         },
+         "lessFinishParts" : "String[]",
+         "productContext" : "IModelObject",
+         "revisionRule" : "IModelObject"
+      }
+   }
+}

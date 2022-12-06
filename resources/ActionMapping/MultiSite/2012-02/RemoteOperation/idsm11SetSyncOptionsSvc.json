@@ -1,0 +1,30 @@
+{
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11SetSyncOptionsSvc",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "out" : {
+         "failureCodes" : "int[]"
+      },
+      "userDataIp" : "String",
+      "serverCorrelationId" : "String"
+   },
+   "OperationInput" : {
+      "inputs" : {
+         "optionsToken" : "int",
+         "objectsOfInterest" : "String[]",
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userDataIp" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "clientCorrelationId" : "String",
+            "roleName" : "String",
+            "groupName" : "String",
+            "targetSiteId" : "int"
+         },
+         "objectsNotifyOption" : "bool[]"
+      }
+   }
+}

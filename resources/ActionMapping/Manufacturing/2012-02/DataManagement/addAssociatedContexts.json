@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "Manufacturing-2012-02-DataManagement/addAssociatedContexts",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "addedContexts" : [
+               {
+                  "context" : "IModelObject",
+                  "relationName" : "String"
+               }
+            ],
+            "associateToContext" : "IModelObject"
+         }
+      ]
+   }
+}

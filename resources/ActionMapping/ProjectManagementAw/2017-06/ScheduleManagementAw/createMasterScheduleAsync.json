@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "ProjectManagementAw-2017-06-ScheduleManagementAw/createMasterScheduleAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "createMasterInputs" : [
+         {
+            "description" : "String",
+            "timeZone" : "String",
+            "schedulesToInsert" : "IModelObject[]",
+            "name" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2017-05-StructureLiteConversion/liteBOMLinesToBOMLines",
+   "OperationResponse" : {
+      "convertedBOMLines" : [
+         {
+            "convertedBOMLine" : "IModelObject",
+            "inputLWBIndex" : "int",
+            "lwbChildren" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "linesToConvert" : "IModelObject[]"
+   }
+}

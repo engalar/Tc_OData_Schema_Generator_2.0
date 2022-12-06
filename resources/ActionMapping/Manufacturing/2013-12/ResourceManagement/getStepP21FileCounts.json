@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "classIDs" : "String[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "countMap" : {
+         "SampleKeyString" : "int"
+      }
+   },
+   "ServiceOperation" : "Manufacturing-2013-12-ResourceManagement/getStepP21FileCounts"
+}

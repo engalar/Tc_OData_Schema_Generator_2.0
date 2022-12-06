@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2006-03-DataManagement/deleteObjects"
+}

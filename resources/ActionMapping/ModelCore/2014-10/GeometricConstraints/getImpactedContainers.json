@@ -1,0 +1,43 @@
+{
+   "OperationInput" : {
+      "datasetOptions" : {
+         "namedRefName" : "String",
+         "mode" : "NO_DATA GET_DATASET_ONLY GET_FILE_FOR_NAMED_REF GET_READTICKET_FOR_NAMED_REF"
+      },
+      "elements" : "IModelObject[]",
+      "navOptions" : {
+         "configContextObject" : "IModelObject",
+         "mode" : "PRECISE CONFIGURED"
+      }
+   },
+   "ServiceOperation" : "ModelCore-2014-10-GeometricConstraints/getImpactedContainers",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "containerInfoMap" : {
+         "SampleKeyString" : {
+            "latestIteration" : "int",
+            "isLatestIterationWorking" : "bool",
+            "owner" : "IModelObject",
+            "memberList" : [
+               {
+                  "csid" : "String",
+                  "isForeground" : "bool",
+                  "member" : "IModelObject"
+               }
+            ],
+            "iteration" : "int",
+            "constraintData" : "IModelObject",
+            "areConstraintsFullySolved" : "bool",
+            "systemManaged" : "bool",
+            "nameReferenceTicketMap" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      },
+      "listImpactedContainers" : [
+         {
+            "impactedOwnerIterationIds" : "String[]"
+         }
+      ]
+   }
+}

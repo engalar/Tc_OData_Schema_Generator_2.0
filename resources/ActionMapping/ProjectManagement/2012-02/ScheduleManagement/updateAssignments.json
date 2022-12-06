@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "assignmentUpdates" : [
+         {
+            "assignment" : "IModelObject",
+            "newEffort" : "double"
+         }
+      ],
+      "schedule" : "IModelObject"
+   },
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/updateAssignments",
+   "OperationResponse" : "IServiceData"
+}

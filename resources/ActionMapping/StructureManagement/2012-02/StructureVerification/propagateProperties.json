@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "criteria" : {
+               "SampleKeyString" : {
+                  "intMap" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "objMap" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "dblMap" : {
+                     "SampleKeyString" : "double[]"
+                  },
+                  "strMap" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "dateMap" : {
+                     "SampleKeyString" : "Date[]"
+                  }
+               }
+            },
+            "sources" : "IModelObject[]",
+            "target" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2012-02-StructureVerification/propagateProperties",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : "String",
+      "results" : [
+         {
+            "propagationResults" : {
+               "SampleKeyString" : [
+                  {
+                     "object" : "IModelObject",
+                     "propagatedProperties" : "String[]",
+                     "logFileTicket" : "String"
+                  }
+               ]
+            },
+            "index" : "int"
+         }
+      ]
+   }
+}

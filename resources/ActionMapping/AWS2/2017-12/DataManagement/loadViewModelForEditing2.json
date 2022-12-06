@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "viewModelObjectsJsonStrings" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-12-DataManagement/loadViewModelForEditing2",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "isPessimisticLock" : "bool",
+            "objs" : "IModelObject[]",
+            "propertyNames" : "String[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,16 @@
+{
+   "ServiceOperation" : "Manufacturing-2012-09-Validation/getAllValidations",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "params" : [
+         {
+            "type" : "String",
+            "name" : "String",
+            "func" : "String",
+            "library" : "String",
+            "failAllOnError" : "bool"
+         }
+      ]
+   },
+   "OperationInput" : {}
+}

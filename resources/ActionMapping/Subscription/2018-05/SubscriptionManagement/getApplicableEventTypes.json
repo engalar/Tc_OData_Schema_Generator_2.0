@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : {
+      "eventTypes" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Subscription-2018-05-SubscriptionManagement/getApplicableEventTypes",
+   "OperationInput" : {
+      "subscriptionsToFilter" : "IModelObject[]",
+      "objectOrType" : "IModelObject"
+   }
+}

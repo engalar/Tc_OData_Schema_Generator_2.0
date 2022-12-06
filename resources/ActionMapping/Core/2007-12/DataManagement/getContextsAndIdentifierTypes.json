@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "typeTags" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Core-2007-12-DataManagement/getContextsAndIdentifierTypes",
+   "OperationResponse" : {
+      "contextAndIdentifierTypesMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "context" : "IModelObject",
+                  "identfierTypes" : "IModelObject[]"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

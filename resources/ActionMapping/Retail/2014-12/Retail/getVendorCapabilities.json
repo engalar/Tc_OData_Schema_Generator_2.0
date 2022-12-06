@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "vendor" : "IModelObject",
+            "vendorCapabilities" : [
+               {
+                  "brand" : "IModelObject",
+                  "vendorClassId" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2014-12-Retail/getVendorCapabilities",
+   "OperationResponse" : {
+      "vendorCapabilityInfoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "vendorCapability" : {
+                     "brand" : "IModelObject",
+                     "vendorClassId" : "String"
+                  },
+                  "locationAndContacts" : [
+                     {
+                        "contacts" : "IModelObject[]",
+                        "location" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

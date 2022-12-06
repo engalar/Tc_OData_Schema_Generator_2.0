@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2018-05-DataManagement/pinObjects",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "actionParams" : "String",
+            "uid" : "String",
+            "templateId" : "String"
+         }
+      ]
+   }
+}

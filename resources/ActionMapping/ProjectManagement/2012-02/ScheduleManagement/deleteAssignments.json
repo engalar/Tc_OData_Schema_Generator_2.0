@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/deleteAssignments",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "assignmentDeletes" : "IModelObject[]",
+      "schedule" : "IModelObject"
+   }
+}

@@ -1,0 +1,69 @@
+{
+   "ServiceOperation" : "Cad-2008-06-StructureManagement/expandPSOneLevel",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "children" : [
+               {
+                  "bomLine" : "IModelObject",
+                  "objectOfBOMLine" : "IModelObject",
+                  "relatedObjects" : [
+                     {
+                        "namedRefList" : [
+                           {
+                              "referenceObject" : "IModelObject",
+                              "namedReferenceName" : "String",
+                              "fileTicket" : "String",
+                              "namedReferenceType" : "String"
+                           }
+                        ],
+                        "relatedObject" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "parent" : {
+               "bomLine" : "IModelObject",
+               "parentRelatedObjects" : [
+                  {
+                     "namedRefList" : [
+                        {
+                           "fileTicket" : "String",
+                           "namedReferenceType" : "String",
+                           "namedReferenceName" : "String",
+                           "referenceObject" : "IModelObject"
+                        }
+                     ],
+                     "relatedObject" : "IModelObject"
+                  }
+               ],
+               "objectOfBOMLine" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "OperationInput" : {
+      "pref" : {
+         "info" : [
+            {
+               "namedRefHandler" : "UseNamedRefsList NoNamedRefs AllNamedRefs PreferredJT",
+               "relationName" : "String",
+               "relatedObjAndNamedRefs" : [
+                  {
+                     "namedReferenceNames" : "String[]",
+                     "objectTypeName" : "String"
+                  }
+               ]
+            }
+         ],
+         "excludeOccurrenceTypes" : "String[]",
+         "expItemRev" : "bool",
+         "includeOccurrenceTypes" : "String[]"
+      },
+      "info" : {
+         "excludeFilter" : "None2 ExcludeOverridden2 ExcludeICHistory2 ExcludeGDEs2 ExcludeImanItemLines2",
+         "parentBomLines" : "IModelObject[]"
+      }
+   }
+}

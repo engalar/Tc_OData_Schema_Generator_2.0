@@ -1,0 +1,30 @@
+{
+   "OperationResponse" : {
+      "resultObjects" : [
+         {
+            "clientId" : "String",
+            "standardNote" : "IModelObject",
+            "noteText" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Requirementsmanagement-2009-10-RequirementsManagement/setStdNote",
+   "OperationInput" : {
+      "input" : [
+         {
+            "inputNoteDetails" : {
+               "stdNoteRelation" : "IModelObject",
+               "clientId" : "String",
+               "standardNote" : "IModelObject"
+            },
+            "values" : [
+               {
+                  "parameter" : "String",
+                  "value" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "hierarchyViewDetails" : [
+         {
+            "hierarchyViewId" : "String",
+            "hierarchyViewName" : "String",
+            "scheme" : "IModelObject",
+            "hierarchyViewDescription" : "String",
+            "contextObj" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "hierarchyObjects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-ClassificationCore-2013-05-Classification/createOrUpdateHierarchyViews"
+}

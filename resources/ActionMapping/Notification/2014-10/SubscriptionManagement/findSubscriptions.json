@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "subscriptions" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Notification-2014-10-SubscriptionManagement/findSubscriptions",
+   "OperationInput" : {
+      "input" : {
+         "eventType" : "IModelObject",
+         "target" : "IModelObject",
+         "condition" : "IModelObject",
+         "subscriber" : "IModelObject",
+         "handlers" : "IModelObject[]"
+      }
+   }
+}

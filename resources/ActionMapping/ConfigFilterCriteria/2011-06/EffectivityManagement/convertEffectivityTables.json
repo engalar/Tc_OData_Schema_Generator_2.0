@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "ConfigFilterCriteria-2011-06-EffectivityManagement/convertEffectivityTables",
+   "OperationResponse" : {
+      "effectivityFormulae" : [
+         {
+            "productNameSpace" : "String",
+            "formula" : "String",
+            "productName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "productNameSpace" : "String",
+      "productName" : "String",
+      "configuratorURL" : "String",
+      "effectivityTables" : [
+         {
+            "effectivityTableRows" : [
+               {
+                  "dateOut" : "Date",
+                  "rest" : {
+                     "productNameSpace" : "String",
+                     "formula" : "String",
+                     "productName" : "String"
+                  },
+                  "unitIn" : "int",
+                  "unitOut" : "int",
+                  "dateIn" : "Date"
+               }
+            ]
+         }
+      ]
+   }
+}

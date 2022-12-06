@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-StructureManagement-2007-12-BrokenLinks/repairBrokenLinks",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "candidate" : "IModelObject",
+            "brokenLink" : "IModelObject"
+         }
+      ]
+   }
+}

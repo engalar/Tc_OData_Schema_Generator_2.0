@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "testInstance" : "IModelObject",
+            "searchScope" : "IModelObject",
+            "createdBeforeDate" : "Date",
+            "clientId" : "String",
+            "activityType" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "searchResults" : [
+         {
+            "clientId" : "String",
+            "testActivities" : "IModelObject[]"
+         }
+      ],
+      "srvcData" : "IServiceData"
+   },
+   "ServiceOperation" : "TestManagement-2014-06-ActivityManagement/getTestActivities"
+}

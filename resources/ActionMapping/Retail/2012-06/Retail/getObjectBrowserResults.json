@@ -1,0 +1,22 @@
+{
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/getObjectBrowserResults",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "response" : [
+         {
+            "parent" : "IModelObject",
+            "children" : "Teamcenter::Soa::Internal::Retail::_2012_06::Retail::ObjectBrowserOutput[]"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "attributeData" : "String[]",
+            "items" : "String[]",
+            "loadAllLevels" : "bool",
+            "filterRules" : "String[]"
+         }
+      ]
+   }
+}

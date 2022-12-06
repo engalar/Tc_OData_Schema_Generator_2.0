@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-StructureSearch/getBOEForPlantBOPScope",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "resultObjects" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "searchInput" : {
+         "inputScopes" : "IModelObject[]",
+         "searchCriteria" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   }
+}

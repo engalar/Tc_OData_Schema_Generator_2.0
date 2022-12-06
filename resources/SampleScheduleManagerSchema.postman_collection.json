@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "ba651639-6abb-411c-84d8-d3358e5742b9",
+		"name": "SampleScheduleManagerSchema",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "00_Teamcenter Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\t\"header\": {\r\n\t\t\"state\": {},\r\n\t\t\"policy\": {}\r\n\t},\r\n\t\"body\": {\r\n\t\t\"credentials\": {\r\n\t\t\t\"user\": \"tcadmin\",\r\n\t\t\t\"password\": \"tcadmin\",\r\n\t\t\t\"role\": \"\",\r\n\t\t\t\"descrimator\": \"\",\r\n\t\t\t\"locale\": \"\",\r\n\t\t\t\"group\": \"\"\r\n\t\t}\r\n\t}\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{TcURL}}/JsonRestServices/Core-2011-06-Session/login",
+					"host": [
+						"{{TcURL}}"
+					],
+					"path": [
+						"JsonRestServices",
+						"Core-2011-06-Session",
+						"login"
+					]
+				},
+				"description": "This is the post method for teamcenter login.\r\nPlease change the username and password value as per your crediantials."
+			},
+			"response": []
+		},
+		{
+			"name": "01_Metadata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TcURL}}/micro/ODataService/v1/SampleService.svc/v1/$metadata",
+					"host": [
+						"{{TcURL}}"
+					],
+					"path": [
+						"micro",
+						"ODataService",
+						"v1",
+						"SampleService.svc",
+						"v1",
+						"$metadata"
+					]
+				},
+				"description": "The url will fire the metadata query which will give you the metadata information on the given service.\r\nChange the <SampleService> service name to your service name and <v1> to your version."
+			},
+			"response": []
+		},
+		{
+			"name": "02_All Objects query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TcURL}}/micro/ODataService/v1/SampleService.svc/v1/Schedules",
+					"host": [
+						"{{TcURL}}"
+					],
+					"path": [
+						"micro",
+						"ODataService",
+						"v1",
+						"SampleService.svc",
+						"v1",
+						"Schedules"
+					]
+				},
+				"description": "This URL gives you all the objects for given Entityset name.\r\nReplae <SampleService> with your service name and <v1> withservice version."
+			},
+			"response": []
+		},
+		{
+			"name": "03_Filter query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TcURL}}/micro/ODataService/v1/SampleService.svc/v1/Schedules?$filter=(Name eq 'Schedule1')",
+					"host": [
+						"{{TcURL}}"
+					],
+					"path": [
+						"micro",
+						"ODataService",
+						"v1",
+						"SampleService.svc",
+						"v1",
+						"Schedules"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "(Name eq 'Schedule1')"
+						}
+					]
+				},
+				"description": "This URL gives you the objects for given Entityset name and apply the filter parameter.\r\nReplae <SampleService> with your service name and <v1> withservice version."
+			},
+			"response": []
+		},
+		{
+			"name": "04_$expand query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TcURL}}/micro/ODataService/v1/SampleService.svc/v1/Schedule_Tasks?$expand=ScheduleTag",
+					"host": [
+						"{{TcURL}}"
+					],
+					"path": [
+						"micro",
+						"ODataService",
+						"v1",
+						"SampleService.svc",
+						"v1",
+						"Schedule_Tasks"
+					],
+					"query": [
+						{
+							"key": "$expand",
+							"value": "ScheduleTag"
+						}
+					]
+				},
+				"description": "This URL gives you all the objects for given Entityset nameand also gives the value of references mention in value of $expand parameter.\r\nReplae <SampleService> with your service name and <v1> withservice version."
+			},
+			"response": []
+		},
+		{
+			"name": "05_Navigation Query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TcURL}}/micro/ODataService/v1/SampleService.svc/v1/Schedule_Tasks?$expand=ScheduleTag&$filter=(ScheduleTag/Name eq 'Schedule1')",
+					"host": [
+						"{{TcURL}}"
+					],
+					"path": [
+						"micro",
+						"ODataService",
+						"v1",
+						"SampleService.svc",
+						"v1",
+						"Schedule_Tasks"
+					],
+					"query": [
+						{
+							"key": "$expand",
+							"value": "ScheduleTag"
+						},
+						{
+							"key": "$filter",
+							"value": "(ScheduleTag/Name eq 'Schedule1')"
+						}
+					]
+				},
+				"description": "This URL gives you the objects for given Entityset name and apply the filter parameter. Replace <SampleService> with your service name and <v1> with service version"
+			},
+			"response": []
+		},
+		{
+			"name": "06_Navigation Filter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TcURL}}/micro/ODataService/v1/SampleService.svc/v1/Schedule_Tasks?$filter=(Name eq 'Task2' and ScheduleTag/Name eq 'Schedule1')",
+					"host": [
+						"{{TcURL}}"
+					],
+					"path": [
+						"micro",
+						"ODataService",
+						"v1",
+						"SampleService.svc",
+						"v1",
+						"Schedule_Tasks"
+					],
+					"query": [
+						{
+							"key": "$filter",
+							"value": "(Name eq 'Task2' and ScheduleTag/Name eq 'Schedule1')"
+						}
+					]
+				},
+				"description": "This URL gives you the objects for given Entityset name and apply the filter parameter. Replace <SampleService> with your service name and <v1> with service version"
+			},
+			"response": []
+		},
+		{
+			"name": "07_Key property Query",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{TcURL}}/micro/ODataService/v1/SampleService.svc/v1/Schedule_Tasks('AWf5aUf15UdT8B')",
+					"host": [
+						"{{TcURL}}"
+					],
+					"path": [
+						"micro",
+						"ODataService",
+						"v1",
+						"SampleService.svc",
+						"v1",
+						"Schedule_Tasks('AWf5aUf15UdT8B')"
+					]
+				},
+				"description": "This URL gives you the objects for given Entityset name and apply the filter on key property which is uid. Replace <SampleService> with your service name and <v1> with service version"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

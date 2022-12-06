@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "searchCursor" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "outLines" : "IModelObject[]",
+      "finished" : "bool",
+      "linesDone" : "int",
+      "searchCursor" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2017-05-StructureSearch/nextSearch2"
+}

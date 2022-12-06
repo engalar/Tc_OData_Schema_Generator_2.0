@@ -1,0 +1,48 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2015-07-OccurrenceManagement/findMatchingFilters",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "filterOut" : [
+         {
+            "searchFilterMap" : {
+               "SampleKeyString" : [
+                  {
+                     "selected" : "bool",
+                     "startEndRange" : "String",
+                     "count" : "int",
+                     "hasChildren" : "bool",
+                     "endDateValue" : "Date",
+                     "stringValue" : "String",
+                     "searchFilterType" : "String",
+                     "endNumericValue" : "double",
+                     "startNumericValue" : "double",
+                     "startDateValue" : "Date",
+                     "stringDisplayValue" : "String"
+                  }
+               ]
+            }
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "appliedCriteria" : [
+               {
+                  "criteriaDisplayValue" : "String",
+                  "criteriaType" : "String",
+                  "subCriteria" : "Awb0::Soa::Internal::ActiveWorkspaceBom::_2015_07::OccurrenceManagement::Criteria[]",
+                  "criteriaValues" : "String[]",
+                  "criteriaOperatorType" : "String"
+               }
+            ],
+            "productInfo" : "IModelObject",
+            "searchCriteria" : {
+               "categoryInternalName" : "String",
+               "categoryType" : "String",
+               "searchString" : "String"
+            }
+         }
+      ]
+   }
+}

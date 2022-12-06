@@ -1,0 +1,74 @@
+{
+   "OperationInput" : {
+      "loInputs" : [
+         {
+            "rootInstances" : [
+               {
+                  "root" : "IModelObject",
+                  "clientID" : "String"
+               }
+            ],
+            "loQueryNameValues" : {
+               "SampleKeyString" : "String"
+            },
+            "loTypeName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2018-11-LogicalObject/getLogicalObjectsWithContext",
+   "OperationResponse" : {
+      "classificationObjectInfo" : {
+         "SampleKeyString" : {
+            "icoType" : "int",
+            "icoClassId" : "String",
+            "icoAttributeValues" : [
+               {
+                  "unit" : "String",
+                  "attributeValues" : "String[]",
+                  "attributeName" : "String",
+                  "attributeID" : "int"
+               }
+            ],
+            "classifiedObjectUID" : "String",
+            "icoClassName" : "String",
+            "icoID" : "String",
+            "unitBase" : "String"
+         }
+      },
+      "serviceData" : "IServiceData",
+      "loOutputs" : [
+         {
+            "logicalObjectsOutput" : [
+               {
+                  "root" : "IModelObject",
+                  "logicalObjectInstances" : [
+                     {
+                        "loInstance" : "IModelObject",
+                        "includedLOInstances" : {
+                           "SampleKeyString" : [
+                              {
+                                 "includedLOInstances" : "Teamcenter::Soa::Core::_2018_11::LogicalObject::IncludedLOInstanceMap",
+                                 "memberClassificationObjects" : [
+                                    {
+                                       "icoIDs" : "String[]",
+                                       "memberOrRootName" : "String"
+                                    }
+                                 ],
+                                 "loInstance" : "IModelObject"
+                              }
+                           ]
+                        },
+                        "memberClassificationObjects" : [
+                           {
+                              "memberOrRootName" : "String",
+                              "icoIDs" : "String[]"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+}

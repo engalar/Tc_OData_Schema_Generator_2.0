@@ -1,0 +1,17 @@
+{
+   "OperationResponse" : {
+      "unconfiguredVOOBOMLines" : "IModelObject[]",
+      "unconfigurableBOMLines" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "unconfiguredBOMLines" : "IModelObject[]",
+      "backgroundBOMLines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Rdv-2009-05-VariantManagement/executeSearchWithOverlays",
+   "OperationInput" : {
+      "targetBOMLine" : "IModelObject[]",
+      "bookMarkStringsToMatch" : "String[]",
+      "revRule" : "IModelObject",
+      "bomWindow" : "IModelObject",
+      "vooFlag" : "bool"
+   }
+}

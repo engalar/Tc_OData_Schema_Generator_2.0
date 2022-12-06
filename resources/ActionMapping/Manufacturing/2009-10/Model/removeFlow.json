@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Manufacturing-2009-10-Model/removeFlow",
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   }
+}

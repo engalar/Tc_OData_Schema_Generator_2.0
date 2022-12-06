@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "scope" : {
+         "pBOMWindow" : "IModelObject",
+         "vsPathScopes" : [
+            {
+               "vsThreadUIDs" : "String[]"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "pMmvCursor" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Mmv-2012-09-SpatialStructureManagement/createMmvCursor"
+}

@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-StructureManagement-2008-05-Restructure/replaceInContext",
+   "OperationInput" : {
+      "input" : [
+         {
+            "bomLine" : "IModelObject",
+            "itemRevision" : "IModelObject"
+         }
+      ]
+   }
+}

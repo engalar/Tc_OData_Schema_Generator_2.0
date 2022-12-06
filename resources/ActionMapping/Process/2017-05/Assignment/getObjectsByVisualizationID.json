@@ -1,0 +1,132 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientRequiredInformation" : "String[]",
+            "visualizationIDs" : "String[]",
+            "context" : "IModelObject",
+            "filterCriteria" : [
+               {
+                  "filterValues" : "String[]",
+                  "filterName" : "String"
+               }
+            ],
+            "searchOptions" : {
+               "startFrom" : "IModelObject",
+               "sortOptions" : [
+                  {
+                     "ascending" : "bool",
+                     "sortAttribute" : "String"
+                  }
+               ],
+               "pageSize" : "int"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Assignment/getObjectsByVisualizationID",
+   "OperationResponse" : {
+      "searchOutput" : [
+         {
+            "finished" : "bool",
+            "results" : [
+               {
+                  "clientRequiredInfo" : {
+                     "integerArrayInfo" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "doubleInfo" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "tagArrayInfo" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "booleanArrayInfo" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "stringArrayInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "tagInfo" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "tagToTagVectorMapInfo" : {
+                        "SampleKeyString" : {
+                           "tagToTagVectorMap" : [
+                              [
+                                 "SampleKeyIModelObject"
+                              ],
+                              [
+                                 "IModelObject[]"
+                              ]
+                           ]
+                        }
+                     },
+                     "stringInfo" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "integerInfo" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "doubleArrayInfo" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "booleanInfo" : {
+                        "SampleKeyString" : "bool"
+                     }
+                  },
+                  "obj" : "IModelObject",
+                  "breadcrumbs" : "IModelObject[]"
+               }
+            ],
+            "index" : "int",
+            "totalFound" : "int",
+            "assignedAncestorsClientReqInfo" : {
+               "doubleInfo" : {
+                  "SampleKeyString" : "double"
+               },
+               "integerArrayInfo" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "booleanArrayInfo" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagArrayInfo" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "stringArrayInfo" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "tagToTagVectorMapInfo" : {
+                  "SampleKeyString" : {
+                     "tagToTagVectorMap" : [
+                        [
+                           "SampleKeyIModelObject"
+                        ],
+                        [
+                           "IModelObject[]"
+                        ]
+                     ]
+                  }
+               },
+               "tagInfo" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "doubleArrayInfo" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "integerInfo" : {
+                  "SampleKeyString" : "int"
+               },
+               "stringInfo" : {
+                  "SampleKeyString" : "String"
+               },
+               "booleanInfo" : {
+                  "SampleKeyString" : "bool"
+               }
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

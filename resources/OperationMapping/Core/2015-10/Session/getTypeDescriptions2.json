@@ -1,0 +1,19 @@
+{
+    "ServiceOperation": "Core-2015-10-Session\/getTypeDescriptions2",
+    "InputType":        "SchemaGenerator.GetTypeDescriptions2Input",
+    "ResponseType":     "SchemaGenerator.GetTypeDescriptions2Response",
+    "ObjectMapping":    "",
+    "OperationInput": 
+    {
+		"typeNames": "$Input\/SchemaGenerator.TypeNamesValues\/typeNames;AttributeAsArray",
+	    "options": 
+		{
+			"PropertyExclusions": ["LovReferences", "NamingRules", "RendererReferences"],
+			"TypeExclusions": ["DirectChildTypesInfo", "RevisionNamingRules", "ToolInfo"]
+		}
+    },
+    "OperationResponse": 
+    {
+        "types": "$Response\/SchemaGenerator.GetTypeDescriptions2Response_InterimProperty\/SchemaGenerator._types"
+    }
+}

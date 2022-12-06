@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "results" : [
+         {
+            "clientId" : "String",
+            "diagrams" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Diagramming-2017-05-Diagramming/findDiagrams2",
+   "OperationInput" : {
+      "input" : [
+         {
+            "context" : "IModelObject",
+            "elements" : "IModelObject[]",
+            "clientId" : "String",
+            "partitions" : "IModelObject[]"
+         }
+      ]
+   }
+}

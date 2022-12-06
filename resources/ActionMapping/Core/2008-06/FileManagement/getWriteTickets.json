@@ -1,0 +1,31 @@
+{
+   "ServiceOperation" : "Internal-Core-2008-06-FileManagement/getWriteTickets",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "tickets" : {
+         "SampleKeyString" : [
+            {
+               "clientFileId" : "String",
+               "ticket" : "String"
+            }
+         ]
+      }
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "fileInfos" : [
+               {
+                  "isText" : "bool",
+                  "refName" : "String",
+                  "fileName" : "String",
+                  "clientFileId" : "String"
+               }
+            ],
+            "clientId" : "String",
+            "datasetTypeName" : "String",
+            "version" : "int"
+         }
+      ]
+   }
+}

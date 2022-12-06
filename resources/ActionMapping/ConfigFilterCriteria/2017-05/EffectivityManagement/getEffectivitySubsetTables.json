@@ -1,0 +1,86 @@
+{
+   "ServiceOperation" : "ConfigFilterCriteria-2017-05-EffectivityManagement/getEffectivitySubsetTables",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "effectivityTables" : [
+         {
+            "effectivityTableRows" : [
+               {
+                  "dateIn" : "Date",
+                  "unitOut" : "int",
+                  "dateOut" : "Date",
+                  "rest" : {
+                     "formula" : "String",
+                     "productName" : "String",
+                     "productNameSpace" : "String"
+                  },
+                  "unitIn" : "int"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationInput" : {
+      "subsetCriteria" : {
+         "formula" : {
+            "formula" : "String",
+            "productName" : "String",
+            "productNameSpace" : "String"
+         },
+         "effectivityTable" : [
+            {
+               "dateIn" : "Date",
+               "unitOut" : "int",
+               "dateOut" : "Date",
+               "rest" : {
+                  "productNameSpace" : "String",
+                  "productName" : "String",
+                  "formula" : "String"
+               },
+               "unitIn" : "int"
+            }
+         ],
+         "opCode" : "int",
+         "value" : {
+            "name" : "String",
+            "family" : "IModelObject",
+            "description" : "String"
+         },
+         "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]"
+      },
+      "productName" : "String",
+      "productNamespace" : "String",
+      "effectivityConditions" : [
+         {
+            "sourceExpression" : {
+               "subExpressions" : "Fnd0::Soa::ConfigFilterCriteria::_2011_06::EffectivityManagement::ConfigExpression[]",
+               "value" : {
+                  "name" : "String",
+                  "family" : "IModelObject",
+                  "description" : "String"
+               },
+               "effectivityTable" : [
+                  {
+                     "unitOut" : "int",
+                     "unitIn" : "int",
+                     "dateOut" : "Date",
+                     "rest" : {
+                        "productNameSpace" : "String",
+                        "formula" : "String",
+                        "productName" : "String"
+                     },
+                     "dateIn" : "Date"
+                  }
+               ],
+               "formula" : {
+                  "productNameSpace" : "String",
+                  "productName" : "String",
+                  "formula" : "String"
+               },
+               "opCode" : "int"
+            },
+            "sourceObject" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "getAllOpenUsageOutput" : {
+         "usageType" : "String[]",
+         "propName" : "String",
+         "values" : "String[]",
+         "childBOMLines" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Internal-AsBuilt-2008-06-AsBuilt/getAllOpenUsages",
+   "OperationInput" : {
+      "getAllOpenUsageInput" : [
+         {
+            "parentAsBuiltBOMLine" : "IModelObject",
+            "childPhysicalPartRevision" : "IModelObject",
+            "allUsages" : "bool"
+         }
+      ]
+   }
+}

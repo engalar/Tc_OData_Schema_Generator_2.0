@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "updaterModeOption" : "String",
+      "deployOption" : "String",
+      "inputs" : [
+         {
+            "deploymentFileTicket" : "String",
+            "deploymentFileType" : "int"
+         }
+      ],
+      "updaterUpdateOption" : "String"
+   },
+   "ServiceOperation" : "Internal-BusinessModeler-2010-04-DataModelManagement/deployDataModel",
+   "OperationResponse" : {
+      "logFileTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   }
+}

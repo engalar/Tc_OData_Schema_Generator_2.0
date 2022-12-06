@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "GlobalMultiSite-2008-06-ImportExport/exportObjectsToOfflinePackage",
+   "OperationResponse" : {
+      "exportLogFileFMSTickets" : "String[]",
+      "briefcaseDataSet" : "IModelObject",
+      "briefcaseFileFMSTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "optionNamesAndValues" : [
+         {
+            "name" : "String",
+            "value" : "String"
+         }
+      ],
+      "optionSetTag" : "IModelObject",
+      "reason" : "String",
+      "sites" : "IModelObject[]",
+      "sessionOptionAndValues" : [
+         {
+            "value" : "String",
+            "name" : "String"
+         }
+      ]
+   }
+}

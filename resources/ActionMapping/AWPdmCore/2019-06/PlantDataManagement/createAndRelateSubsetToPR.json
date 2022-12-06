@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWPdmCore-2019-06-PlantDataManagement/createAndRelateSubsetToPR",
+   "OperationInput" : {
+      "inputWorkContext" : [
+         {
+            "recipe" : [
+               {
+                  "criteriaOperatorType" : "String",
+                  "criteriaValues" : "String[]",
+                  "criteriaDisplayValue" : "String",
+                  "criteriaType" : "String",
+                  "subCriteria" : "Pdm1::Soa::Internal::AWPdmCore::_2019_06::PlantDataManagement::Criteria[]"
+               }
+            ],
+            "productInfo" : "IModelObject"
+         }
+      ],
+      "inputProblemReportRevision" : "IModelObject",
+      "participantInfo" : [
+         {
+            "participentType" : "String",
+            "assignee" : "IModelObject"
+         }
+      ]
+   }
+}

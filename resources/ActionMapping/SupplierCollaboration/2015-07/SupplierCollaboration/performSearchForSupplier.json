@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "savedQryExpression" : {
+         "values" : "String[]",
+         "entries" : "String[]",
+         "savedQuery" : "IModelObject"
+      },
+      "structureContextObject" : "IModelObject",
+      "vendorContactObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2015-07-SupplierCollaboration/performSearchForSupplier",
+   "OperationResponse" : {
+      "searchResults" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

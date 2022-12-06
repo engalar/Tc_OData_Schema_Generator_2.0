@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Core-2017-05-FileManagement/replaceFiles",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "retainOriginalFileName" : "bool",
+            "imanFile" : "IModelObject",
+            "newFileTicket" : "String"
+         }
+      ]
+   }
+}

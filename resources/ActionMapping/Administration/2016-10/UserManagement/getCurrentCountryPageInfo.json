@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : {
+      "displayCountries" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData",
+      "extraInfoOut" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "ServiceOperation" : "Administration-2016-10-UserManagement/getCurrentCountryPageInfo",
+   "OperationInput" : {}
+}

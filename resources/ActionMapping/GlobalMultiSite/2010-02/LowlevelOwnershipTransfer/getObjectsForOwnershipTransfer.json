@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "tcGSMessageId" : "String",
+      "dryrun" : "bool",
+      "changeOwnershipToSite" : "int"
+   },
+   "OperationResponse" : {
+      "fileFmsTickets" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2010-02-LowlevelOwnershipTransfer/getObjectsForOwnershipTransfer"
+}

@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "searchFolders" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Search-2020-12-SearchFolder/getSearchFolderAccessors",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "searchFolderAndItsAccessors" : {
+         "SampleKeyString" : "IModelObject[]"
+      }
+   }
+}

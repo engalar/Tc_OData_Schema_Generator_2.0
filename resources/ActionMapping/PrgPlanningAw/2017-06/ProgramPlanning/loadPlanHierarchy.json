@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "contextPlan" : "IModelObject",
+      "referencePlan" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "planEventsData" : [
+         {
+            "events" : "IModelObject[]",
+            "plan" : "IModelObject"
+         }
+      ],
+      "hasMorePlanObjects" : "bool",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "PrgPlanningAw-2017-06-ProgramPlanning/loadPlanHierarchy"
+}

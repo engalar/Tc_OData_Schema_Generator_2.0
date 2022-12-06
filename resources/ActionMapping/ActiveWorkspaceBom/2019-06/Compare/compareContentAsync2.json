@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2019-06-Compare/compareContentAsync2",
+   "OperationInput" : {
+      "input" : {
+         "target" : {
+            "productContextInfo" : "IModelObject",
+            "element" : "IModelObject",
+            "depth" : "int"
+         },
+         "compareOptionsMap" : {
+            "SampleKeyString" : "String[]"
+         },
+         "source" : {
+            "productContextInfo" : "IModelObject",
+            "element" : "IModelObject",
+            "depth" : "int"
+         }
+      }
+   }
+}

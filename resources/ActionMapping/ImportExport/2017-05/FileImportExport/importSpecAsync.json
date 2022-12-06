@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "clientId" : "String",
+         "specDesc" : "String",
+         "fileMetaDatalist" : [
+            {
+               "key" : "String",
+               "data" : "String"
+            }
+         ],
+         "transientFileWriteTicket" : "String",
+         "specificationType" : "String",
+         "applicationFormat" : "String",
+         "importOptions" : [
+            {
+               "option" : "String",
+               "value" : "String"
+            }
+         ],
+         "selectedBomLine" : "IModelObject",
+         "createSpecElementType" : "String",
+         "isLive" : "bool"
+      }
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-ImportExport-2017-05-FileImportExport/importSpecAsync"
+}

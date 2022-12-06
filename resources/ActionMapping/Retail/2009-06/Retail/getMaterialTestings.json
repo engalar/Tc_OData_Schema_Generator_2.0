@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "vendor" : "IModelObject",
+            "matRev" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "getMatTestingQuery" : [
+         {
+            "matTesting" : "IModelObject",
+            "isMatTestingExists" : "bool",
+            "isVendorPartExists" : "bool",
+            "vendorPart" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2009-06-Retail/getMaterialTestings"
+}

@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "userInputs" : [
+         {
+            "userId" : "String",
+            "userPropertyMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "password" : "String",
+            "person" : "String",
+            "defaultGroup" : "String",
+            "newOwningGroup" : "String",
+            "newOwner" : "String",
+            "userAddlPropertyMap" : {
+               "SampleKeyString" : "String[]"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Administration-2015-07-UserManagement/createOrUpdateUser",
+   "OperationResponse" : {
+      "userObjectMap" : {
+         "SampleKeyString" : {
+            "person" : "IModelObject",
+            "user" : "IModelObject",
+            "profile" : "IModelObject"
+         }
+      },
+      "serviceData" : "IServiceData"
+   }
+}

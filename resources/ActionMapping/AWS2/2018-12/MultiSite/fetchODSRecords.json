@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "searchMode" : "int",
+      "odsSiteName" : "String",
+      "odsSessionInfo" : {
+         "SampleKeyString" : "String[]"
+      },
+      "endDate" : "String",
+      "startDate" : "String",
+      "pubrList" : "String[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2018-12-MultiSite/fetchODSRecords",
+   "OperationResponse" : {
+      "odsResults" : {
+         "odsSessionOutput" : {
+            "SampleKeyString" : "String[]"
+         },
+         "fmsTickets" : "String[]",
+         "systemLogFiles" : "String[]",
+         "failedObjects" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

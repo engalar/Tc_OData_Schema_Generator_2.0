@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "dependencyDeletes" : "IModelObject[]",
+      "schedule" : "IModelObject"
+   },
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/deleteDependencies",
+   "OperationResponse" : "IServiceData"
+}

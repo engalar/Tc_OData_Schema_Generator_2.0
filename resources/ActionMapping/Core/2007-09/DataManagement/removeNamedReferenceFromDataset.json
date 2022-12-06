@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "nrInfo" : [
+               {
+                  "targetObject" : "IModelObject",
+                  "deleteTarget" : "bool",
+                  "clientId" : "String",
+                  "type" : "String"
+               }
+            ],
+            "dataset" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2007-09-DataManagement/removeNamedReferenceFromDataset"
+}

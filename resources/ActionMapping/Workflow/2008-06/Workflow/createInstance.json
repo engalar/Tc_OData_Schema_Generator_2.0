@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "startImmediately" : "bool",
+      "name" : "String",
+      "subject" : "String",
+      "contextData" : {
+         "processTemplate" : "String",
+         "remoteParent" : "String",
+         "processAssignmentList" : "String",
+         "container" : "String",
+         "remoteParentUrl" : "String",
+         "subscriptionEventList" : "String[]",
+         "processResources" : "String[]",
+         "attachmentCount" : "int",
+         "attachmentTypes" : "int[]",
+         "subscribeToEvents" : "bool",
+         "remoteParentAppguid" : "String",
+         "dependencyTask" : "String",
+         "processOwner" : "String",
+         "relationType" : "String",
+         "deadlineDate" : "Date",
+         "attachments" : "String[]",
+         "subscriptionEventCount" : "int"
+      },
+      "observerKey" : "String",
+      "description" : "String"
+   },
+   "ServiceOperation" : "Workflow-2008-06-Workflow/createInstance",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "newProcessDepTask" : "String",
+      "instanceKey" : "String",
+      "newProcessDepTaskUrl" : "String",
+      "newProcessUrl" : "String"
+   }
+}

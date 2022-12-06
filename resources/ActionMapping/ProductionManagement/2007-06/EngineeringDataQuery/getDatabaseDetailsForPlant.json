@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "plantids" : "String[]"
+   },
+   "OperationResponse" : {
+      "databaseDetails" : [
+         {
+            "plantId" : "String",
+            "databaseType" : "String",
+            "databaseName" : "String",
+            "hostName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2007-06-EngineeringDataQuery/getDatabaseDetailsForPlant"
+}

@@ -1,0 +1,19 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Allocations-2007-01-Allocation/modifyAllocationLines",
+   "OperationInput" : {
+      "inputAllocationLines" : [
+         {
+            "allocationLine" : "IModelObject",
+            "allocationLineInfo" : {
+               "reason" : "String",
+               "fromBOMLines" : "IModelObject[]",
+               "type" : "String",
+               "name" : "String",
+               "toBOMLines" : "IModelObject[]"
+            }
+         }
+      ],
+      "allocWindowInput" : "IModelObject"
+   }
+}

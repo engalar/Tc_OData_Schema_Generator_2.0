@@ -1,0 +1,52 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "columnConfigurations" : [
+         {
+            "columnConfigurations" : [
+               {
+                  "operationType" : "String",
+                  "columns" : [
+                     {
+                        "typeName" : "String",
+                        "columnOrder" : "int",
+                        "sortDirection" : "String",
+                        "propertyName" : "String",
+                        "hiddenFlag" : "bool",
+                        "pixelWidth" : "int",
+                        "sortPriority" : "int"
+                     }
+                  ],
+                  "columnConfigId" : "String"
+               }
+            ],
+            "hostingClient" : "String",
+            "scopeName" : "String",
+            "scope" : "String",
+            "clientScopeURI" : "String"
+         }
+      ],
+      "clientName" : "String"
+   },
+   "ServiceOperation" : "Internal-AWS2-2016-03-UiConfig/getOrResetUIColumnConfigs",
+   "OperationInput" : {
+      "getOrResetUiConfigsIn" : [
+         {
+            "scope" : "String",
+            "businessObjects" : "IModelObject[]",
+            "scopeName" : "String",
+            "resetColumnConfig" : "bool",
+            "clientName" : "String",
+            "columnConfigQueryInfos" : [
+               {
+                  "typeNames" : "String[]",
+                  "columnsToExclude" : "String[]",
+                  "operationType" : "String",
+                  "clientScopeURI" : "String"
+               }
+            ],
+            "hostingClientName" : "String"
+         }
+      ]
+   }
+}

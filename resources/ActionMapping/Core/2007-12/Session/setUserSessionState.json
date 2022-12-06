@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "pairs" : [
+         {
+            "name" : "String",
+            "value" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Core-2007-12-Session/setUserSessionState"
+}

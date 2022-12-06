@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Ai-2006-03-Ai/getRequestsForProject",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "filter" : {
+         "states" : "RequestState_New RequestState_Processing RequestState_Pending RequestState_Communicating RequestState_Completed RequestState_Rejected RequestState_Any[]",
+         "types" : "RequestType_Publish RequestTypeSync RequestType_Any RequestType_Notify[]"
+      },
+      "projectId" : "IModelObject"
+   }
+}

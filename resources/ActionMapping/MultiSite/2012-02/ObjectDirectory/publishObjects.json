@@ -1,0 +1,56 @@
+{
+   "OperationInput" : {
+      "records" : [
+         {
+            "releaseStatus" : "String[]",
+            "domainName" : "String",
+            "keyValue" : "String",
+            "creationDate" : "Date",
+            "owningSiteId" : "int",
+            "owningGroupName" : "String",
+            "objectDesc" : "String",
+            "l10NPropertiesInfo" : "String[]",
+            "objectId" : "String",
+            "l10NLocalizedValues" : "String[]",
+            "customAttributes" : {
+               "SampleKeyString" : "String"
+            },
+            "owningUserId" : "String",
+            "objectName" : "String",
+            "revisionId" : "String",
+            "objectTag" : "String",
+            "localeCountStr" : "String",
+            "objectType" : "String",
+            "pubDate" : "Date",
+            "objectClass" : "String"
+         }
+      ],
+      "clientInfo" : {
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "clientOdsMinorVersion" : "int",
+         "clientMaintPackVersion" : "int",
+         "clientCorrelID" : "String",
+         "clientMinorReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientReleaseVersion" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "userDataInput" : "String",
+         "roleName" : "String",
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "clientSiteId" : "int",
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String",
+         "osUserName" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-ObjectDirectory/publishObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "userDataOutput" : "String",
+      "serverCorrelID" : "String"
+   }
+}

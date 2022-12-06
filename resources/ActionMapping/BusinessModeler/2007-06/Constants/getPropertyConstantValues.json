@@ -1,0 +1,25 @@
+{
+   "ServiceOperation" : "BusinessModeler-2007-06-Constants/getPropertyConstantValues",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "constantValues" : [
+         {
+            "value" : "String",
+            "key" : {
+               "constantName" : "String",
+               "typeName" : "String",
+               "propertyName" : "String"
+            }
+         }
+      ]
+   },
+   "OperationInput" : {
+      "keys" : [
+         {
+            "constantName" : "String",
+            "typeName" : "String",
+            "propertyName" : "String"
+         }
+      ]
+   }
+}

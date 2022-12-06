@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "classes" : "String[]"
+   },
+   "ServiceOperation" : "Cad-2007-01-DataManagement/getAvailableTypes",
+   "OperationResponse" : {
+      "inputClassToTypes" : {
+         "SampleKeyString" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

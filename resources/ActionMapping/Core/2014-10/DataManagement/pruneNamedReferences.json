@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "namedReferences" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Core-2014-10-DataManagement/pruneNamedReferences",
+   "OperationResponse" : "IServiceData"
+}

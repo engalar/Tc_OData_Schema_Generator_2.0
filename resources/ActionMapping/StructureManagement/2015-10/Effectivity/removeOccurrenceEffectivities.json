@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "StructureManagement-2015-10-Effectivity/removeOccurrenceEffectivities",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "bomLine" : "IModelObject",
+            "effectivityComponents" : "IModelObject[]"
+         }
+      ]
+   }
+}

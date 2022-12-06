@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "linkBOPtoBOEObjectInfo" : [
+         {
+            "targetLine" : "IModelObject",
+            "sourceLine" : "IModelObject",
+            "clientID" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "relationObjects" : [
+         {
+            "relation" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-DataManagement/linkPlantBOPtoBOE"
+}

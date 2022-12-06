@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "MROCoreAw-2015-03-MROCoreAw/createAndAssignLot",
+   "OperationInput" : {
+      "info" : [
+         {
+            "createLotInfo" : {
+               "lotNumber" : "String",
+               "quantity" : "int",
+               "designItem" : "IModelObject",
+               "expirationDate" : "Date",
+               "manufacturerID" : "String"
+            },
+            "assignLotInfo" : {
+               "lot" : "IModelObject",
+               "quantity" : "int",
+               "physicalPartRevision" : "IModelObject"
+            },
+            "createAndAssign" : "int"
+         }
+      ]
+   }
+}

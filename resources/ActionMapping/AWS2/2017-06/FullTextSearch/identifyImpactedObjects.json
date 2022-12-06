@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2017-06-FullTextSearch/identifyImpactedObjects",
+   "OperationResponse" : {
+      "impactedObjectsUIDs" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "impactedObjectsInput" : {
+         "tieSyncStatus" : "int",
+         "impactingOperations" : "int",
+         "returnObjIds" : "bool"
+      }
+   }
+}

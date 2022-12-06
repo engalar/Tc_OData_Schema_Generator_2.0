@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "uid" : "String"
+   },
+   "ServiceOperation" : "Internal-AWS2-2020-05-UiConfig/deleteNamedColumnConfig",
+   "OperationResponse" : "IServiceData"
+}

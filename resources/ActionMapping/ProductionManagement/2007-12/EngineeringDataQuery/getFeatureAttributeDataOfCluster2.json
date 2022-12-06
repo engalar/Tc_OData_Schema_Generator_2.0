@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "clusterIdentifier" : [
+         {
+            "clusterRevision" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProductionManagement-2007-12-EngineeringDataQuery/getFeatureAttributeDataOfCluster2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "clusterData" : [
+         {
+            "cluster" : "IModelObject",
+            "featureAttributeInfo" : [
+               {
+                  "attributeCode" : "String",
+                  "parentFeatureId" : "String",
+                  "parentFeatureName" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

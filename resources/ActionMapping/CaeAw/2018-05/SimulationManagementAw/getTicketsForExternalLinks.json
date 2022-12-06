@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "webLinkObjectList" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "fmsTickets" : "String[]"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2018-05-SimulationManagementAw/getTicketsForExternalLinks"
+}

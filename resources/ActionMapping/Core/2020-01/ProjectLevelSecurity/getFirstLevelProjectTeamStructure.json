@@ -1,0 +1,29 @@
+{
+   "OperationResponse" : {
+      "totalMemberCount" : "int",
+      "structuredGroupMembers" : [
+         {
+            "isRemovable" : "bool",
+            "tcRole" : "IModelObject",
+            "tcGroup" : "IModelObject"
+         }
+      ],
+      "groups" : [
+         {
+            "tcGroup" : "IModelObject",
+            "isRemovable" : "bool"
+         }
+      ],
+      "endIndex" : "int",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2020-01-ProjectLevelSecurity/getFirstLevelProjectTeamStructure",
+   "OperationInput" : {
+      "input" : {
+         "quickLoad" : "bool",
+         "project" : "IModelObject",
+         "startIndex" : "int",
+         "pageSize" : "int"
+      }
+   }
+}

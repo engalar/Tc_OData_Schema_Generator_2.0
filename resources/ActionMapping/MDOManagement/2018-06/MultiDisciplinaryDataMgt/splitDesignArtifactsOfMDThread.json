@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "setValidationRequired" : "bool",
+            "designArtifacts" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "MDOManagement-2018-06-MultiDisciplinaryDataMgt/splitDesignArtifactsOfMDThread",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "isSuccess" : "bool",
+            "updatedMDTObjects" : "IModelObject[]",
+            "newMDTObject" : "IModelObject"
+         }
+      ]
+   }
+}

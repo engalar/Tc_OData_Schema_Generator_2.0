@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/deleteCAEFiles",
+   "OperationInput" : {
+      "shouldDeleteDatasetIfEmpty" : "bool",
+      "caeRelatedFiles" : "IModelObject[]",
+      "contextObject" : "IModelObject"
+   }
+}

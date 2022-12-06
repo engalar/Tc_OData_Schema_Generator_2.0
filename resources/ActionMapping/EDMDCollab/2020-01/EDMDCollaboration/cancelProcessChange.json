@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "cancelProcessInput" : {
+         "domainIdentifier" : "String",
+         "designUID" : "String"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "EDMDCollab-2020-01-EDMDCollaboration/cancelProcessChange"
+}

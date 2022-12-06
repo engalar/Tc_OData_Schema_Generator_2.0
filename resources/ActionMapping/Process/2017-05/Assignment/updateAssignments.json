@@ -1,0 +1,14 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Process-2017-05-Assignment/updateAssignments",
+   "OperationInput" : {
+      "input" : [
+         {
+            "assignedToObject" : "IModelObject",
+            "assignedObject" : "IModelObject",
+            "newAssignmentType" : "IModelObject",
+            "currentAssignmentType" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,146 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "inputCtxt" : {
+            "configuration" : {
+               "variantRule" : "IModelObject",
+               "effectivityDate" : "Date",
+               "unitNo" : "int",
+               "svrOwningProduct" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "endItem" : "IModelObject",
+               "now" : "bool",
+               "configurationObject" : "IModelObject"
+            },
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            },
+            "pageSize" : "int",
+            "productContext" : "IModelObject",
+            "structureContextObject" : "IModelObject"
+         },
+         "nextOccData" : {
+            "goForward" : "bool",
+            "cursor" : {
+               "inputCtxt" : {
+                  "pageSize" : "int",
+                  "productContext" : "IModelObject",
+                  "structureContextObject" : "IModelObject",
+                  "configuration" : {
+                     "effectivityDate" : "Date",
+                     "variantRule" : "IModelObject",
+                     "unitNo" : "int",
+                     "svrOwningProduct" : "IModelObject",
+                     "revisionRule" : "IModelObject",
+                     "endItem" : "IModelObject",
+                     "configurationObject" : "IModelObject",
+                     "now" : "bool"
+                  },
+                  "requestPref" : {
+                     "SampleKeyString" : "String"
+                  }
+               },
+               "parentOccurrences" : "IModelObject[]",
+               "startOcc" : "IModelObject",
+               "firstLevelOnly" : "bool",
+               "endOcc" : "IModelObject",
+               "pageSize" : "int",
+               "contextInfo" : "IModelObject"
+            }
+         },
+         "clientId" : "String",
+         "options" : "String[]",
+         "inputObjects" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : {
+      "output" : {
+         "fileTicket" : "String",
+         "clientId" : "String",
+         "htmlContents" : "String[]",
+         "cursor" : {
+            "firstLevelOnly" : "bool",
+            "endOcc" : "IModelObject",
+            "pageSize" : "int",
+            "startOcc" : "IModelObject",
+            "contextInfo" : "IModelObject",
+            "inputCtxt" : {
+               "configuration" : {
+                  "now" : "bool",
+                  "configurationObject" : "IModelObject",
+                  "revisionRule" : "IModelObject",
+                  "svrOwningProduct" : "IModelObject",
+                  "endItem" : "IModelObject",
+                  "variantRule" : "IModelObject",
+                  "effectivityDate" : "Date",
+                  "unitNo" : "int"
+               },
+               "requestPref" : {
+                  "SampleKeyString" : "String"
+               },
+               "pageSize" : "int",
+               "productContext" : "IModelObject",
+               "structureContextObject" : "IModelObject"
+            },
+            "parentOccurrences" : "IModelObject[]"
+         },
+         "startReached" : "bool",
+         "endReached" : "bool",
+         "markUpData" : [
+            {
+               "markups" : "String",
+               "baseObject" : "IModelObject",
+               "version" : "String",
+               "properties" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         ],
+         "contextInfo" : "IModelObject",
+         "allowedChildTypes" : {
+            "SampleKeyString" : [
+               {
+                  "displayTypeName" : "String",
+                  "realTypeName" : "String"
+               }
+            ]
+         },
+         "specContents" : [
+            {
+               "tracelinkInfo" : {
+                  "numOfLinks" : "int",
+                  "complyingLinksInfo" : [
+                     {
+                        "name" : "String",
+                        "tracelinkObj" : "IModelObject",
+                        "objectType" : "String",
+                        "id" : "String",
+                        "clearText" : "String",
+                        "obj" : "IModelObject",
+                        "typeHierarchy" : "String"
+                     }
+                  ],
+                  "definingLinksInfo" : [
+                     {
+                        "name" : "String",
+                        "tracelinkObj" : "IModelObject",
+                        "id" : "String",
+                        "objectType" : "String",
+                        "clearText" : "String",
+                        "typeHierarchy" : "String",
+                        "obj" : "IModelObject"
+                     }
+                  ]
+               },
+               "occurrence" : "IModelObject",
+               "contents" : "String",
+               "lastSavedDate" : "Date",
+               "specElemRevision" : "IModelObject",
+               "fulltext" : "IModelObject"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AwReqMgmtSe-2019-06-SpecNavigation/getSpecificationSegment"
+}

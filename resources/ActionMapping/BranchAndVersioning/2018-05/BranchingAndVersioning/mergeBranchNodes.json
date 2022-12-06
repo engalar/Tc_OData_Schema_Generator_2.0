@@ -1,0 +1,44 @@
+{
+   "ServiceOperation" : "Internal-BranchAndVersioning-2018-05-BranchingAndVersioning/mergeBranchNodes",
+   "OperationResponse" : {
+      "mergedInfo" : [
+         {
+            "edges" : [
+               {
+                  "edgeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "edgeType" : "String",
+                  "endNode" : "IModelObject",
+                  "startNode" : "IModelObject",
+                  "edgeObject" : "IModelObject"
+               }
+            ],
+            "newObjects" : "IModelObject[]",
+            "branchNodes" : [
+               {
+                  "tupleNode" : "IModelObject",
+                  "branchNode" : "IModelObject",
+                  "nodeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ],
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "config" : {
+               "SampleKeyString" : "String"
+            },
+            "clientID" : "String",
+            "sourceNode" : "IModelObject",
+            "destinationNode" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,48 @@
+{
+   "OperationInput" : {
+      "expandCursor" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "expandCursor" : "IModelObject",
+      "content" : [
+         {
+            "bomLineContent" : "IModelObject[]",
+            "sourceTargetMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ],
+            "elementContent" : "IModelObject[]",
+            "copyStableIDData" : [
+               {
+                  "copyStableIDMap" : [
+                     [
+                        "SampleKeyIModelObject"
+                     ],
+                     [
+                        "String"
+                     ]
+                  ],
+                  "subset" : "IModelObject"
+               }
+            ],
+            "startingObject" : "IModelObject",
+            "presentedParentContent" : "IModelObject[]",
+            "contentObjInfoInContextMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject"
+               ]
+            ]
+         }
+      ],
+      "finished" : "bool",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "CpdCore-2016-05-StructureExpand/nextExpandStructure3"
+}

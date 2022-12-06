@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "revisionRule" : "IModelObject",
+            "subset" : "IModelObject",
+            "intentOptions" : [
+               {
+                  "intentValue" : "String",
+                  "intentNamespace" : "String",
+                  "intentFamily" : "String"
+               }
+            ],
+            "inheritedFrom" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-ProductSubset/getProductSubsetDefinitions"
+}

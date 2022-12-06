@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2008-06-Synchronizer/getExportedObjects",
+   "OperationResponse" : {
+      "exportedObjectsList" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "targetSiteId" : "int",
+      "classList" : "String[]"
+   }
+}

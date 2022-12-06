@@ -1,0 +1,50 @@
+{
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2018-05-ConfiguratorManagement/setVariantExpressionData2",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : {
+         "requestInfo" : {
+            "SampleKeyString" : "String[]"
+         },
+         "configPerspective" : "IModelObject",
+         "selectedExpressions" : {
+            "SampleKeyString" : [
+               {
+                  "exprType" : "int",
+                  "exprID" : "String",
+                  "configExprSets" : [
+                     {
+                        "configExprSections" : [
+                           {
+                              "formula" : "String",
+                              "subExpressions" : [
+                                 {
+                                    "configExpressionGroupMap" : {
+                                       "SampleKeyString" : [
+                                          {
+                                             "family" : "String",
+                                             "nodeUid" : "String",
+                                             "familyNamespace" : "String",
+                                             "selectionState" : "int",
+                                             "familyId" : "String",
+                                             "props" : {
+                                                "SampleKeyString" : "String[]"
+                                             },
+                                             "valueText" : "String"
+                                          }
+                                       ]
+                                    }
+                                 }
+                              ],
+                              "exprType" : "int"
+                           }
+                        ]
+                     }
+                  ],
+                  "formula" : "String"
+               }
+            ]
+         }
+      }
+   }
+}

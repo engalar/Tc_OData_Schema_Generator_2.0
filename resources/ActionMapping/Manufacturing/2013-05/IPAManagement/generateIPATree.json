@@ -1,0 +1,37 @@
+{
+   "ServiceOperation" : "Manufacturing-2013-05-IPAManagement/generateIPATree",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFileTicket" : {
+         "fileTicket" : "String",
+         "fileName" : "String"
+      },
+      "appPathRootType" : "IModelObject",
+      "productWindowAppPathRoot" : "IModelObject"
+   },
+   "OperationInput" : {
+      "ipaInput" : {
+         "emailDetails" : {
+            "mailMessage" : "String",
+            "mailSubject" : "String",
+            "mailToReceivers" : "String[]",
+            "isLogFileNeeded" : "bool",
+            "logFileName" : "String",
+            "mailCcReceivers" : "String[]"
+         },
+         "configDetails" : {
+            "processWindow" : "IModelObject",
+            "occGrpType" : "String",
+            "consumptionOccTypes" : "String[]",
+            "processTypes" : "String[]",
+            "ipaName" : "String",
+            "effectivityDetails" : {
+               "effectivityEndItemRev" : "IModelObject",
+               "effectivityEndItem" : "IModelObject",
+               "effectivityUnitRange" : "String",
+               "effectivityDateRange" : "String"
+            }
+         }
+      }
+   }
+}

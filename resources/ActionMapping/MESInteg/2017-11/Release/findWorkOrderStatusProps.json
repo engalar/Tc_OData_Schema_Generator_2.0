@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "orderCCs" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "statusMap" : {
+         "SampleKeyString" : {
+            "propMap" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      }
+   },
+   "ServiceOperation" : "MESInteg-2017-11-Release/findWorkOrderStatusProps"
+}

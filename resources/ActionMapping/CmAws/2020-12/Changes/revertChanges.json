@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "Internal-CmAws-2020-12-Changes/revertChanges",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "revertInput" : [
+         {
+            "secondarySelections" : "IModelObject[]",
+            "selectedObject" : "IModelObject",
+            "revertChildren" : "bool",
+            "selectedBOMLine" : "IModelObject",
+            "propertiesToRevert" : "String[]"
+         }
+      ]
+   }
+}

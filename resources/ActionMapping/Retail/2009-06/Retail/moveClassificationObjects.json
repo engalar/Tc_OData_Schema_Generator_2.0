@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clsObjTag" : "IModelObject",
+            "moveToClassId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2009-06-Retail/moveClassificationObjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   }
+}

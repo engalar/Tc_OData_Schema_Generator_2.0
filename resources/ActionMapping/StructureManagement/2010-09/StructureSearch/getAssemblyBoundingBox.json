@@ -1,0 +1,24 @@
+{
+   "OperationInput" : {
+      "items" : "IModelObject[]"
+   },
+   "ServiceOperation" : "StructureManagement-2010-09-StructureSearch/getAssemblyBoundingBox",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "boundingBoxes" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "zmin" : "double",
+               "ymax" : "double",
+               "ymin" : "double",
+               "xmax" : "double",
+               "zmax" : "double",
+               "xmin" : "double"
+            }
+         ]
+      ]
+   }
+}

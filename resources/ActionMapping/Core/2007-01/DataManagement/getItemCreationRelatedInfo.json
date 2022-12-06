@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "typeName" : "String",
+      "parentObject" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "uoms" : "String[]",
+      "complexValuePropertyRules" : "String[]",
+      "revTypeName" : "String",
+      "patternMap" : {
+         "SampleKeyString" : "String[]"
+      },
+      "initValuePropertyRules" : "String[]",
+      "serviceData" : "IServiceData",
+      "formAttrs" : [
+         {
+            "formType" : "String",
+            "formPDs" : [
+               {
+                  "displayName" : "String",
+                  "isModifiable" : "bool",
+                  "propName" : "String",
+                  "propValueType" : "int",
+                  "isArray" : "bool",
+                  "isRequired" : "bool",
+                  "propType" : "int",
+                  "maxLength" : "int",
+                  "attachedSpecifier" : "int",
+                  "lov" : "IModelObject",
+                  "isDisplayable" : "bool",
+                  "interdependentProps" : "String[]",
+                  "isEnabled" : "bool"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2007-01-DataManagement/getItemCreationRelatedInfo"
+}

@@ -1,0 +1,5 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Subscription-2018-12-SubscriptionManagement/getAllSubscribableEventTypes",
+   "OperationInput" : {}
+}

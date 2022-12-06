@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "importOptions" : "String[]",
+         "selectedObject" : "IModelObject",
+         "transientFileWriteTicket" : "String",
+         "typePropInfos" : [
+            {
+               "propInfos" : [
+                  {
+                     "propHeader" : "String",
+                     "isRequired" : "bool",
+                     "realPropName" : "String",
+                     "dispPropName" : "String"
+                  }
+               ],
+               "objectType" : "String",
+               "dispTypeName" : "String"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2017-12-ImportExport/importSpecificationFromExcelAsync"
+}

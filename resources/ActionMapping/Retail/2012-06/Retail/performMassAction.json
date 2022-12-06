@@ -1,0 +1,15 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/performMassAction",
+   "OperationInput" : {
+      "input" : {
+         "performSignoffs" : {
+            "SampleKeyString" : "String"
+         },
+         "supportingValue" : "SOA_EPM_no_decision SOA_EPM_approve SOA_EPM_reject SOA_EPM_unset SOA_EPM_completed SOA_EPM_unable_to_complete SOA_EPM_true SOA_EPM_false SOA_EPM_no_error",
+         "comments" : "String",
+         "action" : "SOA_EPM_complete_action SOA_EPM_approve_action SOA_EPM_reject_action SOA_EPM_assign_action SOA_EPM_start_action SOA_EPM_skip_action SOA_EPM_suspend_action SOA_EPM_resume_action SOA_EPM_undo_action SOA_EPM_abort_action SOA_EPM_perform_action SOA_EPM_add_attachment_action SOA_EPM_remove_attachment_action SOA_EPM_promote_action SOA_EPM_demote_action SOA_EPM_refuse_action SOA_EPM_assign_approver_action SOA_EPM_notify_action SOA_EPM_fail_action SOA_EPM_no_action",
+         "doTasks" : "String[]"
+      }
+   }
+}

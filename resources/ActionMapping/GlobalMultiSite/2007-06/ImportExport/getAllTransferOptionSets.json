@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/getAllTransferOptionSets",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "optionSetObjects" : "IModelObject[]"
+   },
+   "OperationInput" : {}
+}

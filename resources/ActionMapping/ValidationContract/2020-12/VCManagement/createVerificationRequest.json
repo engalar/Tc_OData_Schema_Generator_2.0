@@ -1,0 +1,63 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "populateFromParent" : "bool",
+            "verificationRequestType" : "String",
+            "domain" : "IModelObject",
+            "parentVRObject" : "IModelObject",
+            "verificationRequestName" : "String",
+            "verificationRequestDefinition" : "IModelObject",
+            "verificationRequestContent" : [
+               {
+                  "objectToBeAdded" : "IModelObject",
+                  "additionalProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "parameters" : [
+                     {
+                        "direction" : "String",
+                        "parameter" : "IModelObject"
+                     }
+                  ],
+                  "childPathContextToBeAdded" : "String",
+                  "childPathObjectToBeAdded" : "String",
+                  "contextForObjectToBeAdded" : "IModelObject"
+               }
+            ],
+            "verificationRequestProps" : {
+               "SampleKeyString" : "String[]"
+            },
+            "participants" : [
+               {
+                  "user" : "IModelObject",
+                  "role" : "String"
+               }
+            ],
+            "workflowNameToInitiate" : "String",
+            "reviseVerificationRequestRevision" : "IModelObject",
+            "createParameterCopyOptions" : "String",
+            "recipeData" : {
+               "recipeName" : "String",
+               "bomWindows" : "IModelObject[]",
+               "recipeUid" : "String"
+            },
+            "clientID" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ValidationContract-2020-12-VCManagement/createVerificationRequest",
+   "OperationResponse" : {
+      "verificationRequestData" : [
+         {
+            "verificationRequest" : "IModelObject",
+            "clientID" : "String",
+            "parameterData" : {
+               "direction" : "String",
+               "parameter" : "IModelObject"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

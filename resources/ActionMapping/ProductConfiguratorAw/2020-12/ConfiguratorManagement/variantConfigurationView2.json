@@ -1,0 +1,169 @@
+{
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2020-12-ConfiguratorManagement/variantConfigurationView2",
+   "OperationResponse" : {
+      "payloadStrings" : {
+         "SampleKeyString" : "String[]"
+      },
+      "serviceData" : "IServiceData",
+      "responseInfo" : {
+         "SampleKeyString" : "String[]"
+      },
+      "viewModelObjectMap" : {
+         "SampleKeyString" : {
+            "sourceType" : "String",
+            "props" : {
+               "SampleKeyString" : "String[]"
+            },
+            "displayName" : "String",
+            "sourceUid" : "String"
+         }
+      },
+      "labels" : {
+         "SampleKeyString" : [
+            {
+               "nodeMap" : {
+                  "SampleKeyString" : [
+                     {
+                        "sourceUid" : "String",
+                        "props" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "displayName" : "String",
+                        "wsObject" : "IModelObject",
+                        "sourceType" : "String"
+                     }
+                  ]
+               }
+            }
+         ]
+      },
+      "violationCombo" : [
+         {
+            "ruleUids" : "String[]",
+            "props" : {
+               "SampleKeyString" : "String[]"
+            },
+            "userSelections" : [
+               {
+                  "groupUid" : "String",
+                  "configExpressionTerm" : {
+                     "selectionState" : "int",
+                     "familyNamespace" : "String",
+                     "valueText" : "String",
+                     "props" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "familyId" : "String",
+                     "family" : "String",
+                     "nodeUid" : "String"
+                  }
+               }
+            ]
+         }
+      ],
+      "selectedExpressions" : {
+         "SampleKeyString" : [
+            {
+               "exprID" : "String",
+               "exprType" : "int",
+               "configExprSets" : [
+                  {
+                     "configExprSections" : [
+                        {
+                           "formula" : "String",
+                           "subExpressions" : [
+                              {
+                                 "configExpressionGroupMap" : {
+                                    "SampleKeyString" : [
+                                       {
+                                          "nodeUid" : "String",
+                                          "family" : "String",
+                                          "familyId" : "String",
+                                          "valueText" : "String",
+                                          "props" : {
+                                             "SampleKeyString" : "String[]"
+                                          },
+                                          "familyNamespace" : "String",
+                                          "selectionState" : "int"
+                                       }
+                                    ]
+                                 }
+                              }
+                           ],
+                           "exprType" : "int"
+                        }
+                     ]
+                  }
+               ],
+               "formula" : "String"
+            }
+         ]
+      },
+      "configPerspective" : "IModelObject",
+      "scopes" : "String[]",
+      "variabilityTreeData" : {
+         "variabiltyNodes" : [
+            {
+               "isExpanded" : "bool",
+               "nodeUid" : "String",
+               "childrenUids" : "String[]",
+               "props" : {
+                  "SampleKeyString" : "String[]"
+               }
+            }
+         ]
+      }
+   },
+   "OperationInput" : {
+      "input" : {
+         "selectedExpressions" : {
+            "SampleKeyString" : [
+               {
+                  "formula" : "String",
+                  "configExprSets" : [
+                     {
+                        "configExprSections" : [
+                           {
+                              "formula" : "String",
+                              "exprType" : "int",
+                              "subExpressions" : [
+                                 {
+                                    "configExpressionGroupMap" : {
+                                       "SampleKeyString" : [
+                                          {
+                                             "nodeUid" : "String",
+                                             "family" : "String",
+                                             "props" : {
+                                                "SampleKeyString" : "String[]"
+                                             },
+                                             "valueText" : "String",
+                                             "familyId" : "String",
+                                             "selectionState" : "int",
+                                             "familyNamespace" : "String"
+                                          }
+                                       ]
+                                    }
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "exprID" : "String",
+                  "exprType" : "int"
+               }
+            ]
+         },
+         "selectedContext" : "IModelObject",
+         "configPerspective" : "IModelObject",
+         "scopes" : "String[]",
+         "payloadStrings" : {
+            "SampleKeyString" : "String[]"
+         },
+         "activeVariantRules" : "IModelObject[]",
+         "requestInfo" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   }
+}

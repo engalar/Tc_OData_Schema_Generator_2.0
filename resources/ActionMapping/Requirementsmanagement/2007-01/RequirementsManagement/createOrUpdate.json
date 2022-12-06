@@ -1,0 +1,183 @@
+{
+   "OperationInput" : {
+      "info" : [
+         {
+            "itemInput" : {
+               "extraObject" : [
+                  {
+                     "typeName" : "String",
+                     "attrNameValuePairs" : [
+                        {
+                           "value" : "String",
+                           "name" : "String"
+                        }
+                     ],
+                     "clientId" : "String",
+                     "object" : "IModelObject",
+                     "relationTypeName" : "String"
+                  }
+               ],
+               "itemId" : "String",
+               "name" : "String",
+               "attrList" : [
+                  {
+                     "value" : "String",
+                     "name" : "String"
+                  }
+               ],
+               "itemType" : "String",
+               "description" : "String",
+               "item" : "IModelObject",
+               "folder" : "IModelObject"
+            },
+            "clientId" : "String",
+            "datasetInput" : [
+               {
+                  "id" : "String",
+                  "mappingAttributes" : [
+                     {
+                        "name" : "String",
+                        "value" : "String"
+                     }
+                  ],
+                  "dataset" : "IModelObject",
+                  "clientId" : "String",
+                  "datasetFileInfos" : [
+                     {
+                        "isText" : "bool",
+                        "clientId" : "String",
+                        "namedReferencedName" : "String",
+                        "allowReplace" : "bool",
+                        "fileName" : "String"
+                     }
+                  ],
+                  "createNewVersion" : "bool",
+                  "extraObject" : [
+                     {
+                        "relationTypeName" : "String",
+                        "object" : "IModelObject",
+                        "typeName" : "String",
+                        "attrNameValuePairs" : [
+                           {
+                              "value" : "String",
+                              "name" : "String"
+                           }
+                        ],
+                        "clientId" : "String"
+                     }
+                  ],
+                  "itemRevRelationName" : "String",
+                  "name" : "String",
+                  "type" : "String",
+                  "attrList" : [
+                     {
+                        "value" : "String",
+                        "name" : "String"
+                     }
+                  ],
+                  "description" : "String",
+                  "namedReferenceObjectInfos" : [
+                     {
+                        "typeName" : "String",
+                        "clientId" : "String",
+                        "attrNameValuePairs" : [
+                           {
+                              "name" : "String",
+                              "value" : "String"
+                           }
+                        ],
+                        "namedReferenceName" : "String",
+                        "relationTypeName" : "String",
+                        "object" : "IModelObject"
+                     }
+                  ],
+                  "datasetRev" : "String"
+               }
+            ],
+            "itemRevInput" : {
+               "extraObject" : [
+                  {
+                     "object" : "IModelObject",
+                     "relationTypeName" : "String",
+                     "attrNameValuePairs" : [
+                        {
+                           "name" : "String",
+                           "value" : "String"
+                        }
+                     ],
+                     "clientId" : "String",
+                     "typeName" : "String"
+                  }
+               ],
+               "revId" : "String",
+               "attrList" : [
+                  {
+                     "value" : "String",
+                     "name" : "String"
+                  }
+               ],
+               "itemRevision" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "extraItemRevObjs" : [
+               {
+                  "object" : "IModelObject",
+                  "clientId" : "String"
+               }
+            ],
+            "itemRev" : "IModelObject",
+            "clientId" : "String",
+            "item" : "IModelObject",
+            "extraItemObjs" : [
+               {
+                  "object" : "IModelObject",
+                  "clientId" : "String"
+               }
+            ],
+            "datasetOutput" : [
+               {
+                  "namedRefObjs" : [
+                     {
+                        "object" : "IModelObject",
+                        "clientId" : "String"
+                     }
+                  ],
+                  "commitInfo" : [
+                     {
+                        "datasetFileTicketInfos" : [
+                           {
+                              "ticket" : "String",
+                              "datasetFileInfo" : {
+                                 "namedReferencedName" : "String",
+                                 "allowReplace" : "bool",
+                                 "isText" : "bool",
+                                 "clientId" : "String",
+                                 "fileName" : "String"
+                              }
+                           }
+                        ],
+                        "createNewVersion" : "bool",
+                        "dataset" : "IModelObject"
+                     }
+                  ],
+                  "clientId" : "String",
+                  "extraObjs" : [
+                     {
+                        "object" : "IModelObject",
+                        "clientId" : "String"
+                     }
+                  ],
+                  "dataset" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Requirementsmanagement-2007-01-RequirementsManagement/createOrUpdate"
+}

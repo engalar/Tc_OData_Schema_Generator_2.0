@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "bomViewTypeName" : "String",
+      "info" : [
+         {
+            "itemRev" : "IModelObject",
+            "arrangements" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2007-01-StructureManagement/deleteAssemblyArrangements"
+}

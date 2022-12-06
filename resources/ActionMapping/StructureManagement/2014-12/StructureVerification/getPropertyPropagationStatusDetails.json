@@ -1,0 +1,78 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "details" : [
+         {
+            "propagationStatusDetails" : [
+               {
+                  "statusDetails" : [
+                     {
+                        "setByUser" : "bool",
+                        "evaluatedScopes" : "IModelObject[]",
+                        "resultantStatus" : "String",
+                        "resultantScope" : "IModelObject",
+                        "evaluatedStatus" : "String[]"
+                     }
+                  ],
+                  "inputIndex" : "int"
+               }
+            ],
+            "propertyDetails" : [
+               {
+                  "propertyDetails" : [
+                     {
+                        "propertyName" : "String",
+                        "isDifferent" : "bool"
+                     }
+                  ],
+                  "index" : "int"
+               }
+            ],
+            "additionalInfo" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2014-12-StructureVerification/getPropertyPropagationStatusDetails",
+   "OperationInput" : {
+      "input" : [
+         {
+            "impactedLines" : "IModelObject[]",
+            "additionalInfo" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               }
+            },
+            "objectsDescribingChange" : "IModelObject[]",
+            "changedLines" : "IModelObject[]"
+         }
+      ]
+   }
+}

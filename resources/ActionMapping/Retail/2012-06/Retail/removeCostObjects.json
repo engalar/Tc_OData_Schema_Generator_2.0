@@ -1,0 +1,9 @@
+{
+   "OperationInput" : {
+      "costObjects" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/removeCostObjects"
+}

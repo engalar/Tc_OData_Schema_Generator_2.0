@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "groupContentMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ModelCore-2015-07-GeometricConnectivity/getConnectivityGroupContents",
+   "OperationInput" : {
+      "geomGroups" : "IModelObject[]",
+      "configContext" : "IModelObject"
+   }
+}

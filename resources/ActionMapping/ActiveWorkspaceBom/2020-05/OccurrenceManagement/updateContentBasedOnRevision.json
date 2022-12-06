@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         },
+         "workspaceObject" : "IModelObject",
+         "productContext" : "IModelObject"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2020-05-OccurrenceManagement/updateContentBasedOnRevision"
+}

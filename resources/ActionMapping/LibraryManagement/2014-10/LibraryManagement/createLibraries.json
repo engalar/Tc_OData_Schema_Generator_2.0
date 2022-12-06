@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "createInput" : [
+         {
+            "description" : "String",
+            "disciplines" : "String[]",
+            "boName" : "String",
+            "contexts" : [
+               {
+                  "isOwningContext" : "bool",
+                  "context" : "IModelObject"
+               }
+            ],
+            "name" : "String",
+            "additionalProperties" : {
+               "SampleKeyString" : "String[]"
+            },
+            "libraryType" : "String",
+            "allowedMemberTypes" : "String[]",
+            "clientID" : "String",
+            "id" : "String",
+            "administrators" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "LibraryManagement-2014-10-LibraryManagement/createLibraries",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "library" : "IModelObject",
+            "clientID" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

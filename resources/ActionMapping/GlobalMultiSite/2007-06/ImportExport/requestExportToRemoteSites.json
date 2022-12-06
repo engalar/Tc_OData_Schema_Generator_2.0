@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "sessionOptionNamesAndValues" : [
+         {
+            "name" : "String",
+            "value" : "String"
+         }
+      ],
+      "sites" : "IModelObject[]",
+      "optionNameAndValues" : [
+         {
+            "name" : "String",
+            "value" : "String"
+         }
+      ],
+      "optionSet" : "IModelObject",
+      "reason" : "String",
+      "objects" : "IModelObject[]"
+   },
+   "ServiceOperation" : "GlobalMultiSite-2007-06-ImportExport/requestExportToRemoteSites",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "msgIDs" : "String[]"
+   }
+}

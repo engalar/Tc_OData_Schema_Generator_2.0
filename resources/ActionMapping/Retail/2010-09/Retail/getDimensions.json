@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : {
+      "responses" : {
+         "SampleKeyString" : [
+            {
+               "dimensionType" : "DIMENSION_TYPE_STRING DIMENSION_TYPE_INTEGER DIMENSION_TYPE_REAL DIMENSION_TYPE_BOOLEAN",
+               "dimensionName" : "String",
+               "dimensionDefaultValue" : "String",
+               "dimensionValues" : "String[]",
+               "dimensionDescription" : "String",
+               "dimensionVisibility" : "DIMENSION_VISIBILITY_PUBLIC DIMENSION_VISIBILITY_PRIVATE"
+            }
+         ]
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/getDimensions",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "onlySeasonlessDimValsIfNoContextSet" : "bool",
+            "dimensionNames" : "String[]",
+            "getAllDimension" : "bool",
+            "bomLineUID" : "String"
+         }
+      ]
+   }
+}

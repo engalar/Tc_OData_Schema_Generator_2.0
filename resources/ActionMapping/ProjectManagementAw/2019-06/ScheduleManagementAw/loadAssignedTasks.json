@@ -1,0 +1,28 @@
+{
+   "OperationInput" : {
+      "loadTasksInfo" : [
+         {
+            "state" : "String",
+            "loadOptions" : {
+               "SampleKeyString" : "String"
+            },
+            "maxToLoad" : "int",
+            "startIndex" : "int",
+            "status" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "assignedTasks" : [
+         {
+            "state" : "String",
+            "nFoundTasks" : "int",
+            "status" : "String",
+            "loadedTasks" : "IModelObject[]",
+            "foundTasks" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagementAw-2019-06-ScheduleManagementAw/loadAssignedTasks"
+}

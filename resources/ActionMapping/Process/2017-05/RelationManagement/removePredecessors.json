@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Process-2017-05-RelationManagement/removePredecessors",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : [
+         {
+            "successor" : "IModelObject",
+            "predecessor" : "IModelObject"
+         }
+      ]
+   }
+}

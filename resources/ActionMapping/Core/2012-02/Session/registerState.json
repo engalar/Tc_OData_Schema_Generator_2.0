@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "Core-2012-02-Session/registerState",
+   "OperationResponse" : {
+      "registryIndex" : "int"
+   },
+   "OperationInput" : {
+      "level" : "String"
+   }
+}

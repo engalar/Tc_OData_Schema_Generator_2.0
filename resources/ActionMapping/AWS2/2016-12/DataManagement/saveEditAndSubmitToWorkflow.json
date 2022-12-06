@@ -1,0 +1,47 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "workflowData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "tcobject" : "IModelObject",
+            "objLsds" : [
+               {
+                  "lsd" : "Date",
+                  "obj" : "IModelObject"
+               }
+            ],
+            "isPessimisticLock" : "bool",
+            "propertyNameValues" : [
+               {
+                  "name" : "String",
+                  "values" : "String[]",
+                  "rowValues" : [
+                     {
+                        "nameValues" : [
+                           {
+                              "values" : "String[]",
+                              "name" : "String"
+                           }
+                        ],
+                        "uid" : "String",
+                        "rowType" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2016-12-DataManagement/saveEditAndSubmitToWorkflow",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "workflowProcess" : "IModelObject"
+         }
+      ]
+   }
+}

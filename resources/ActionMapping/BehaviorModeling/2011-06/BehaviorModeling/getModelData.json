@@ -1,0 +1,276 @@
+{
+   "OperationInput" : {
+      "vecBhmModelInfo" : [
+         {
+            "timestamp" : "String",
+            "tcType" : "String",
+            "action" : "String",
+            "revAttributes" : {
+               "SampleKeyString" : "String[]"
+            },
+            "viewableData" : [
+               {
+                  "reservation" : "bool",
+                  "datasetUid" : "String",
+                  "type" : "String",
+                  "action" : "String",
+                  "datasetFileInfos" : [
+                     {
+                        "fileName" : "String",
+                        "namedReferenceName" : "String"
+                     }
+                  ]
+               }
+            ],
+            "connections" : [
+               {
+                  "instanceUid" : "String",
+                  "applicationInfo" : "String",
+                  "type" : "String",
+                  "revAttributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "action" : "String",
+                  "itemUid" : "String",
+                  "attributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "connPoints" : [
+                     {
+                        "modelInstanceName" : "String",
+                        "portId" : "String",
+                        "action" : "String",
+                        "portName" : "String"
+                     }
+                  ]
+               }
+            ],
+            "folderUid" : "String",
+            "primaryData" : [
+               {
+                  "type" : "String",
+                  "action" : "String",
+                  "datasetFileInfos" : [
+                     {
+                        "namedReferenceName" : "String",
+                        "fileName" : "String"
+                     }
+                  ],
+                  "reservation" : "bool",
+                  "datasetUid" : "String"
+               }
+            ],
+            "uid" : "String",
+            "checkoutComment" : "String",
+            "bvrTimeStamp" : "String",
+            "additionalData" : [
+               {
+                  "datasetInfo" : {
+                     "reservation" : "bool",
+                     "datasetUid" : "String",
+                     "type" : "String",
+                     "datasetFileInfos" : [
+                        {
+                           "fileName" : "String",
+                           "namedReferenceName" : "String"
+                        }
+                     ],
+                     "action" : "String"
+                  },
+                  "action" : "String",
+                  "tooltype" : "String"
+               }
+            ],
+            "attributes" : {
+               "SampleKeyString" : "String[]"
+            },
+            "ports" : [
+               {
+                  "portId" : "String",
+                  "attributes" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "portUid" : "String",
+                  "instanceType" : "String",
+                  "instanceUid" : "String",
+                  "portType" : "String",
+                  "action" : "String",
+                  "portName" : "String"
+               }
+            ],
+            "userSelections" : [
+               {
+                  "userSelection" : "CHECK_IN CHECK_OUT DWNDL_ADD_DATA RELOAD_TC_MDL NO_RELOAD_TC_MDL SAVE_VIEWABLE SAVE_ADD_DATA LOAD_NEW_REV CARRY_FWD_ADD_DATA NO_ACTION"
+               }
+            ],
+            "modelElements" : [
+               {
+                  "action" : "String",
+                  "modelName" : "String",
+                  "uid" : "String",
+                  "instanceName" : "String",
+                  "instanceUid" : "String",
+                  "instanceType" : "String"
+               }
+            ],
+            "modelName" : "String",
+            "topModel" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "modelData" : [
+         {
+            "subModelAdditionalData" : [
+               {
+                  "tooltype" : "String",
+                  "action" : "String",
+                  "datasetInfo" : {
+                     "datasetUid" : "String",
+                     "reservation" : "bool",
+                     "action" : "String",
+                     "type" : "String",
+                     "datasetFileInfos" : [
+                        {
+                           "fileName" : "String",
+                           "namedReferenceName" : "String"
+                        }
+                     ]
+                  }
+               }
+            ],
+            "rootModelInfo" : {
+               "revAttributes" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "action" : "String",
+               "tcType" : "String",
+               "timestamp" : "String",
+               "folderUid" : "String",
+               "connections" : [
+                  {
+                     "connPoints" : [
+                        {
+                           "portId" : "String",
+                           "modelInstanceName" : "String",
+                           "action" : "String",
+                           "portName" : "String"
+                        }
+                     ],
+                     "attributes" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "action" : "String",
+                     "revAttributes" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "type" : "String",
+                     "itemUid" : "String",
+                     "applicationInfo" : "String",
+                     "instanceUid" : "String"
+                  }
+               ],
+               "primaryData" : [
+                  {
+                     "reservation" : "bool",
+                     "datasetUid" : "String",
+                     "datasetFileInfos" : [
+                        {
+                           "namedReferenceName" : "String",
+                           "fileName" : "String"
+                        }
+                     ],
+                     "action" : "String",
+                     "type" : "String"
+                  }
+               ],
+               "viewableData" : [
+                  {
+                     "datasetUid" : "String",
+                     "reservation" : "bool",
+                     "type" : "String",
+                     "action" : "String",
+                     "datasetFileInfos" : [
+                        {
+                           "fileName" : "String",
+                           "namedReferenceName" : "String"
+                        }
+                     ]
+                  }
+               ],
+               "bvrTimeStamp" : "String",
+               "additionalData" : [
+                  {
+                     "datasetInfo" : {
+                        "type" : "String",
+                        "datasetFileInfos" : [
+                           {
+                              "fileName" : "String",
+                              "namedReferenceName" : "String"
+                           }
+                        ],
+                        "action" : "String",
+                        "reservation" : "bool",
+                        "datasetUid" : "String"
+                     },
+                     "tooltype" : "String",
+                     "action" : "String"
+                  }
+               ],
+               "checkoutComment" : "String",
+               "uid" : "String",
+               "modelName" : "String",
+               "topModel" : "bool",
+               "attributes" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "userSelections" : [
+                  {
+                     "userSelection" : "CHECK_IN CHECK_OUT DWNDL_ADD_DATA RELOAD_TC_MDL NO_RELOAD_TC_MDL SAVE_VIEWABLE SAVE_ADD_DATA LOAD_NEW_REV CARRY_FWD_ADD_DATA NO_ACTION"
+                  }
+               ],
+               "modelElements" : [
+                  {
+                     "uid" : "String",
+                     "modelName" : "String",
+                     "action" : "String",
+                     "instanceUid" : "String",
+                     "instanceType" : "String",
+                     "instanceName" : "String"
+                  }
+               ],
+               "ports" : [
+                  {
+                     "instanceUid" : "String",
+                     "instanceType" : "String",
+                     "portType" : "String",
+                     "portName" : "String",
+                     "action" : "String",
+                     "portId" : "String",
+                     "attributes" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "portUid" : "String"
+                  }
+               ]
+            },
+            "subModelPrimaryData" : [
+               {
+                  "type" : "String",
+                  "datasetFileInfos" : [
+                     {
+                        "fileName" : "String",
+                        "namedReferenceName" : "String"
+                     }
+                  ],
+                  "action" : "String",
+                  "datasetUid" : "String",
+                  "reservation" : "bool"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-BehaviorModeling-2011-06-BehaviorModeling/getModelData"
+}

@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "srmInput" : {
+         "sponsorEmailID" : "String",
+         "reason" : "String",
+         "parts" : "IModelObject[]",
+         "transferOption" : "IModelObject",
+         "sponsorUserID" : "String"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "SrmIntegration-2009-10-SRMIntegration/exportToSRM"
+}

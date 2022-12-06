@@ -1,0 +1,36 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2012-10-Finder/findObjectsByClassAndAttributes2",
+   "OperationResponse" : {
+      "totalFound" : "int",
+      "serviceData" : "IServiceData",
+      "totalLoaded" : "int",
+      "result" : "IModelObject[]",
+      "thumbnailMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "searchMode" : "GeneralInListQuery GeneralQuery SavedQuery",
+         "maxLoad" : "int",
+         "attributes" : "String[]",
+         "maxToReturn" : "int",
+         "clientId" : "String",
+         "uids" : "IModelObject[]",
+         "startIndex" : "int",
+         "searchCriteria" : [
+            {
+               "className" : "String",
+               "searchAttributes" : {
+                  "SampleKeyString" : "String"
+               }
+            }
+         ]
+      }
+   }
+}

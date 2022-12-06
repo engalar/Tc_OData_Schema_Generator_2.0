@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "serverCorrelationId" : "String",
+      "userDataIp" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-RemoteOperation/idsm11EndAskInfoSvc",
+   "OperationInput" : {
+      "inputs" : {
+         "clientInfo" : {
+            "osUserName" : "String",
+            "clientNode" : "String",
+            "userId" : "String",
+            "userDataIp" : "String",
+            "roleName" : "String",
+            "clientCorrelationId" : "String",
+            "clientSiteId" : "int",
+            "userName" : "String",
+            "targetSiteId" : "int",
+            "groupName" : "String"
+         },
+         "infoType" : "int",
+         "abortFlag" : "bool",
+         "infoStagingDir" : "String"
+      }
+   }
+}

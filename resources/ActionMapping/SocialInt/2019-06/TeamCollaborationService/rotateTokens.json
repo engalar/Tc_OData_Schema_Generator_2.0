@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "socialAppType" : "String",
+            "id" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "SocialInt-2019-06-TeamCollaborationService/rotateTokens"
+}

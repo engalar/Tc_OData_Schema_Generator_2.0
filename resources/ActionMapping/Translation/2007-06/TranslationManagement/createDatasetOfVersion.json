@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "createdDatasets" : "IModelObject[]",
+      "svcData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Translation-2007-06-TranslationManagement/createDatasetOfVersion",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "typeName" : "String",
+            "tool" : "IModelObject",
+            "version" : "int",
+            "datasetName" : "String",
+            "itemRevision" : "IModelObject"
+         }
+      ]
+   }
+}

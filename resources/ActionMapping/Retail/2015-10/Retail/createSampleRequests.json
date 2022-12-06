@@ -1,0 +1,129 @@
+{
+   "OperationInput" : {
+      "inputParams" : [
+         {
+            "targetContacts" : "IModelObject[]",
+            "sampleCreateInput" : {
+               "data" : {
+                  "tagArrayProps" : {
+                     "SampleKeyString" : "IModelObject[]"
+                  },
+                  "intProps" : {
+                     "SampleKeyString" : "int"
+                  },
+                  "tagProps" : {
+                     "SampleKeyString" : "IModelObject"
+                  },
+                  "stringProps" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "compoundCreateInput" : {
+                     "SampleKeyString" : [
+                        {
+                           "tagArrayProps" : {
+                              "SampleKeyString" : "IModelObject[]"
+                           },
+                           "intProps" : {
+                              "SampleKeyString" : "int"
+                           },
+                           "tagProps" : {
+                              "SampleKeyString" : "IModelObject"
+                           },
+                           "compoundCreateInput" : "Teamcenter::Soa::Internal::Retail::_2012_06::Retail::CreateInputMap",
+                           "stringProps" : {
+                              "SampleKeyString" : "String"
+                           },
+                           "floatArrayProps" : {
+                              "SampleKeyString" : "float[]"
+                           },
+                           "boName" : "String",
+                           "boolArrayProps" : {
+                              "SampleKeyString" : "bool[]"
+                           },
+                           "stringArrayProps" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "floatProps" : {
+                              "SampleKeyString" : "float"
+                           },
+                           "boolProps" : {
+                              "SampleKeyString" : "bool"
+                           },
+                           "intArrayProps" : {
+                              "SampleKeyString" : "int[]"
+                           },
+                           "doubleArrayProps" : {
+                              "SampleKeyString" : "double[]"
+                           },
+                           "dateArrayProps" : {
+                              "SampleKeyString" : "Date[]"
+                           },
+                           "dateProps" : {
+                              "SampleKeyString" : "Date"
+                           },
+                           "doubleProps" : {
+                              "SampleKeyString" : "double"
+                           }
+                        }
+                     ]
+                  },
+                  "floatProps" : {
+                     "SampleKeyString" : "float"
+                  },
+                  "boName" : "String",
+                  "floatArrayProps" : {
+                     "SampleKeyString" : "float[]"
+                  },
+                  "boolArrayProps" : {
+                     "SampleKeyString" : "bool[]"
+                  },
+                  "stringArrayProps" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "dateProps" : {
+                     "SampleKeyString" : "Date"
+                  },
+                  "dateArrayProps" : {
+                     "SampleKeyString" : "Date[]"
+                  },
+                  "doubleProps" : {
+                     "SampleKeyString" : "double"
+                  },
+                  "boolProps" : {
+                     "SampleKeyString" : "bool"
+                  },
+                  "intArrayProps" : {
+                     "SampleKeyString" : "int[]"
+                  },
+                  "doubleArrayProps" : {
+                     "SampleKeyString" : "double[]"
+                  }
+               },
+               "clientId" : "String"
+            },
+            "techPackInput" : {
+               "isCompressionRequired" : "bool",
+               "printGroup" : "String",
+               "techpackfilename" : "String",
+               "reportTemplate" : "IModelObject",
+               "tcGSMessageId" : "String",
+               "saveAsDataset" : "bool",
+               "userAttrs" : "String[]",
+               "optionSetName" : "String",
+               "exportObjectUIDs" : "String[]",
+               "synchronize" : "bool"
+            },
+            "dimensions" : [
+               {
+                  "dimensionValues" : "String[]",
+                  "dimensionName" : "String"
+               }
+            ],
+            "referenceContacts" : "IModelObject[]",
+            "colors" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/createSampleRequests"
+}

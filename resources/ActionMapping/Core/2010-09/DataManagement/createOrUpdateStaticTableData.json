@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "rowProperties" : [
+         {
+            "rowAttrValueMap" : {
+               "SampleKeyString" : "String[]"
+            },
+            "rowType" : "String",
+            "rowObject" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "staticTableInfo" : {
+         "tableType" : "String",
+         "tableObject" : "IModelObject"
+      }
+   },
+   "OperationResponse" : {
+      "staticTableObject" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2010-09-DataManagement/createOrUpdateStaticTableData"
+}

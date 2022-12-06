@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "targetItemRevId" : "String",
+      "options" : "int",
+      "targetItemDescription" : "String",
+      "targetItemName" : "String",
+      "targetItemTypeName" : "String",
+      "targetItemId" : "String",
+      "sourceIcoId" : "String",
+      "targetClassId" : "String"
+   },
+   "OperationResponse" : {
+      "targetIcoUid" : "String",
+      "serviceData" : "IServiceData",
+      "targetWsoUid" : "String"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-ResourceManagement/mapClassificationObject"
+}

@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "CpdCore-2017-05-Realization/updateSubsetsContent",
+   "OperationResponse" : {
+      "realizedContent" : [
+         {
+            "addedContent" : "IModelObject[]",
+            "updatedContent" : "IModelObject[]",
+            "realization" : "IModelObject",
+            "unmappedEffectivityConditionsEncountered" : "bool",
+            "removedContent" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "subsetContentInfos" : [
+         {
+            "subset" : "IModelObject",
+            "executeRecipe" : "bool"
+         }
+      ]
+   }
+}

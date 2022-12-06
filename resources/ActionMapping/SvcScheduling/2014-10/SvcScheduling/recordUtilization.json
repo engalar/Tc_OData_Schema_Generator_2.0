@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "SvcScheduling-2014-10-SvcScheduling/recordUtilization",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "capturedBy" : "String",
+            "propagate" : "bool",
+            "logEntryDesc" : "String",
+            "logBook" : "IModelObject",
+            "recordedAt" : "Date",
+            "jobActivity" : "IModelObject",
+            "valueInput" : [
+               {
+                  "dateValue" : "Date",
+                  "value" : "double",
+                  "forPhysicalPart" : "bool",
+                  "charDef" : "IModelObject"
+               }
+            ],
+            "clientId" : "String"
+         }
+      ]
+   }
+}

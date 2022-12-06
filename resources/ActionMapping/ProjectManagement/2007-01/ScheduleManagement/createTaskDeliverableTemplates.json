@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "taskDeliverableData" : [
+         {
+            "scheduleDeliverable" : "IModelObject",
+            "submitType" : "int",
+            "scheduleTask" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2007-01-ScheduleManagement/createTaskDeliverableTemplates",
+   "OperationResponse" : "IServiceData"
+}

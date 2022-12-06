@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "supercedureTobeDeleted" : "IModelObject[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ChangeManagement-2008-06-ChangeManagement/deleteSupercedures"
+}

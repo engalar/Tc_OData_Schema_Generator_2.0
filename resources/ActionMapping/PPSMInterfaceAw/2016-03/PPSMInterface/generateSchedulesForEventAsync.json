@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "eventObject" : "IModelObject"
+   },
+   "ServiceOperation" : "PPSMInterfaceAw-2016-03-PPSMInterface/generateSchedulesForEventAsync",
+   "OperationResponse" : {}
+}

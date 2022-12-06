@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "cloneAction" : "String",
+      "conditionalElements" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-IppeCore-2020-12-WBSManagement/setWBSCloneAction",
+   "OperationResponse" : "IServiceData"
+}

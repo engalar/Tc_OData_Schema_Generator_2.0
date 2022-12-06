@@ -1,0 +1,34 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "propertyNames" : "String[]",
+            "objs" : "IModelObject[]",
+            "isPessimisticLock" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-06-DataManagement/loadViewModelForEditing",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "viewModelObjects" : [
+               {
+                  "viewModelProperties" : [
+                     {
+                        "isModifiable" : "bool",
+                        "uiValues" : "String[]",
+                        "dbValues" : "String[]",
+                        "srcObjLsd" : "Date",
+                        "propertyName" : "String",
+                        "intermediateObjectUids" : "String[]"
+                     }
+                  ],
+                  "modelObject" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

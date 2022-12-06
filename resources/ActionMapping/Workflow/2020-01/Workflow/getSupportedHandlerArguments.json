@@ -1,0 +1,25 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "handlerData" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Workflow-2020-01-Workflow/getSupportedHandlerArguments",
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "additionalData" : {
+               "SampleKeyString" : "String[]"
+            },
+            "handlerName" : "String"
+         }
+      ]
+   }
+}

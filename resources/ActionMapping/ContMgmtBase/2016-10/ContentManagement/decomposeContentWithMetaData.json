@@ -1,0 +1,24 @@
+{
+   "ServiceOperation" : "ContMgmtBase-2016-10-ContentManagement/decomposeContentWithMetaData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "decomposeOutput2" : [
+         {
+            "clientId" : "String",
+            "topicRevision" : "IModelObject",
+            "decomposedMetaDataReadTicket" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "keyValueArgs" : {
+               "SampleKeyString" : "String"
+            },
+            "transientFileWriteTicket" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-BomCore-2017-05-AlignmentManagement/alignPartAndDesigns",
+   "OperationInput" : {
+      "partAlgnmtInput" : [
+         {
+            "primaryDesign" : "IModelObject",
+            "part" : "IModelObject",
+            "designList" : "IModelObject[]"
+         }
+      ]
+   }
+}

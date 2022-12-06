@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "Workflow-2019-06-Workflow/getRegisteredHandlers",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "ruleHandlers" : "String[]",
+      "actionHandlers" : "String[]"
+   },
+   "OperationInput" : {}
+}

@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "prevSibling" : "IModelObject",
+            "flag" : "int",
+            "newParent" : "IModelObject",
+            "sourceTask" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-ProjectManagement-2014-10-ScheduleManagement/pasteTasks",
+   "OperationResponse" : "IServiceData"
+}

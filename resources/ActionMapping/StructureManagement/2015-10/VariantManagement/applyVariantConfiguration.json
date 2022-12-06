@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "window" : "IModelObject",
+      "variantConfigurationCriteria" : {
+         "variantConfiguratorFormula" : "String",
+         "savedVariantRules" : "IModelObject[]"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-StructureManagement-2015-10-VariantManagement/applyVariantConfiguration"
+}

@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Cad-2007-06-StructureManagement/createOrUpdateVariantConditions",
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "variantCondInfo" : [
+               {
+                  "optionName" : "String",
+                  "value" : "String",
+                  "compOperator" : "EQ NEQ LT GT GTEQ LTEQ",
+                  "joinOperator" : "AND OR"
+               }
+            ],
+            "bomLine" : "IModelObject",
+            "clientId" : "String",
+            "operation" : "Create Update"
+         }
+      ]
+   }
+}

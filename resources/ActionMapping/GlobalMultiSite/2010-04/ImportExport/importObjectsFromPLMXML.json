@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "xmlFileTicket" : "String",
+      "namedRefFileTickets" : "String[]",
+      "transfermode" : "IModelObject",
+      "icRev" : "IModelObject",
+      "sessionOptions" : [
+         {
+            "value" : "String",
+            "name" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "GlobalMultiSite-2010-04-ImportExport/importObjectsFromPLMXML",
+   "OperationResponse" : {
+      "logFileTicket" : {
+         "ticket" : "String",
+         "fileName" : "String"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "bidPackage" : {
+         "itemId" : "String",
+         "clientId" : "String",
+         "name" : "String",
+         "type" : "String",
+         "revId" : "String",
+         "description" : "String"
+      },
+      "input" : [
+         {
+            "quote" : "IModelObject",
+            "revRule" : "String",
+            "quantity" : "int",
+            "varRule" : "String",
+            "closureRule" : "String",
+            "viewtype" : "String",
+            "partid" : "String",
+            "description" : "String",
+            "liccdesc" : "String",
+            "liccname" : "String",
+            "name" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Vendormanagement-2007-06-VendorManagement/deleteLineItems",
+   "OperationResponse" : "IServiceData"
+}

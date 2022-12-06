@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "outputData" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "IntegrationFramework-2017-11-DataManagement/exportCollection",
+   "OperationInput" : {
+      "inputData" : "String"
+   }
+}

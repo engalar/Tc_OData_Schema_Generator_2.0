@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "dryRun" : "bool",
+      "transactionId" : "String"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2020-01-OwnershipRecovery/recoverOwnership",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "reportFmsTicket" : "String"
+   }
+}

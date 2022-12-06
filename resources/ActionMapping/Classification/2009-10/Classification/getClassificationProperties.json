@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "propDeprecatedflags" : {
+         "SampleKeyString" : "bool[]"
+      },
+      "propnames" : {
+         "SampleKeyString" : "String[]"
+      },
+      "hierarchies" : {
+         "SampleKeyString" : "String[]"
+      },
+      "propvalues" : {
+         "SampleKeyString" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Internal-Classification-2009-10-Classification/getClassificationProperties",
+   "OperationInput" : {
+      "wsos" : "IModelObject[]"
+   }
+}

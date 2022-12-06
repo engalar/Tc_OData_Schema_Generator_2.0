@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "publishedObjTagAsString" : "String[]",
+      "clientInfo" : {
+         "clientNode" : "String",
+         "clientReleaseVersion" : "int",
+         "clientMaintPackVersion" : "int",
+         "roleName" : "String",
+         "clientSiteId" : "int",
+         "clientServiceReleaseVersion" : "int",
+         "userName" : "String",
+         "groupName" : "String",
+         "targetServerSiteId" : "int",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "records" : [
+         {
+            "objectClass" : "String",
+            "pubDate" : "Date",
+            "objectId" : "String",
+            "objectType" : "String",
+            "objectDesc" : "String",
+            "owningGroupName" : "String",
+            "objectTag" : "String",
+            "revisionId" : "String",
+            "owningSiteId" : "int",
+            "projectName" : "String",
+            "creationDate" : "Date",
+            "objectName" : "String",
+            "owningUserId" : "String",
+            "customAttributes" : {
+               "SampleKeyString" : "String"
+            },
+            "releaseStatus" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-TcEntObjectDirectory/describePublicationRecords"
+}

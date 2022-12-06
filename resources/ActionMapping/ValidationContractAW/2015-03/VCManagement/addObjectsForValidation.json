@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "endContext" : "IModelObject",
+            "traceLinkType" : "String",
+            "sectionName" : "String",
+            "start" : "IModelObject",
+            "end" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ValidationContractAW-2015-03-VCManagement/addObjectsForValidation",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,61 @@
+{
+   "ServiceOperation" : "Classification-2009-10-Classification/getAttributesForClasses2",
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "attributes" : {
+         "SampleKeyString" : [
+            {
+               "name" : "String",
+               "description" : "String",
+               "extendedProperties" : [
+                  {
+                     "propertyName" : "String",
+                     "values" : [
+                        {
+                           "value" : "String"
+                        }
+                     ]
+                  }
+               ],
+               "options" : "int",
+               "arraySize" : "int",
+               "shortName" : "String",
+               "attributeConfiguration" : {
+                  "postConfig" : "String",
+                  "config" : "String",
+                  "preConfig" : "String"
+               },
+               "nonMetricFormat" : {
+                  "defaultValue" : "String",
+                  "format" : {
+                     "formatModifier1" : "int",
+                     "formatLength" : "int",
+                     "formatModifier2" : "int",
+                     "formatType" : "int"
+                  },
+                  "maximumValue" : "String",
+                  "unitName" : "String",
+                  "minimumValue" : "String"
+               },
+               "annotation" : "String",
+               "id" : "int",
+               "metricFormat" : {
+                  "unitName" : "String",
+                  "maximumValue" : "String",
+                  "defaultValue" : "String",
+                  "format" : {
+                     "formatType" : "int",
+                     "formatModifier2" : "int",
+                     "formatLength" : "int",
+                     "formatModifier1" : "int"
+                  },
+                  "minimumValue" : "String"
+               }
+            }
+         ]
+      }
+   },
+   "OperationInput" : {
+      "classIds" : "String[]"
+   }
+}

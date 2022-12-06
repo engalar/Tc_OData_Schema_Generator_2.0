@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "filteredObjectsInProjects" : [
+         {
+            "projectID" : "String",
+            "objectsInProject" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Core-2013-05-ProjectLevelSecurity/getFilteredObjectsInProject",
+   "OperationInput" : {
+      "input" : [
+         {
+            "filters" : [
+               {
+                  "sourceTypeName" : "String",
+                  "name" : "String",
+                  "value" : "String"
+               }
+            ],
+            "projectID" : "String"
+         }
+      ]
+   }
+}

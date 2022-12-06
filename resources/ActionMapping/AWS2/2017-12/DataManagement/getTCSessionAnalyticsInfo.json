@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "extraInfo" : "String[]"
+   },
+   "ServiceOperation" : "Internal-AWS2-2017-12-DataManagement/getTCSessionAnalyticsInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "analyticsData" : {
+         "analyticsExtraInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "isDataCollectionEnabled" : "bool",
+         "useInternalServer" : "bool",
+         "burstTimeInterval" : "int"
+      },
+      "extraInfoOut" : {
+         "SampleKeyString" : "String"
+      },
+      "userSession" : "IModelObject"
+   }
+}

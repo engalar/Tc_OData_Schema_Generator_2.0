@@ -1,0 +1,63 @@
+{
+   "OperationInput" : {
+      "linesToExpand" : "IModelObject[]",
+      "controls" : {
+         "relationCriteria" : [
+            {
+               "namedRefHandler" : "String",
+               "relationName" : "String",
+               "datasetTypeAndNamedRefs" : [
+                  {
+                     "datasetTypeName" : "String",
+                     "namedReferenceNames" : "String[]"
+                  }
+               ]
+            }
+         ],
+         "expansionPref" : {
+            "SampleKeyString" : "int"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2013-12-StructureExpansionLite/expandNext2",
+   "OperationResponse" : {
+      "parentUndeliveredChildrenUids" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "String[]"
+         ]
+      ],
+      "datasetInfo" : [
+         {
+            "relationName" : "String",
+            "dataset" : "IModelObject",
+            "namedRefInfo" : [
+               {
+                  "fileTicket" : "String",
+                  "name" : "String",
+                  "type" : "String",
+                  "originalFileName" : "String",
+                  "object" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "parentChildInfo" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "line" : "IModelObject",
+                  "indexToAttachedObjInfos" : "int[]",
+                  "configNotReliable" : "bool"
+               }
+            ]
+         ]
+      ]
+   }
+}

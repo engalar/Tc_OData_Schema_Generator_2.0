@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2017-12-OccurrenceManagement/getPackedOccurrenceCSIDs",
+   "OperationResponse" : {
+      "csids" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "occurrences" : "IModelObject[]",
+      "productContextInfo" : "IModelObject"
+   }
+}

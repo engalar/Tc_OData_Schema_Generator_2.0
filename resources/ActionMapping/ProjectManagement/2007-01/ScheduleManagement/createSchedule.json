@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "newSchedules" : [
+         {
+            "percentLinked" : "bool",
+            "customerNumber" : "String",
+            "description" : "String",
+            "customerName" : "String",
+            "finishDate" : "Date",
+            "status" : "String",
+            "name" : "String",
+            "linksAllowed" : "bool",
+            "published" : "bool",
+            "stringValueContainer" : [
+               {
+                  "key" : "String",
+                  "type" : "int",
+                  "value" : "String"
+               }
+            ],
+            "isTemplate" : "bool",
+            "startDate" : "Date",
+            "isPublic" : "bool",
+            "datesLinked" : "bool",
+            "scheduleType" : "int",
+            "priority" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagement-2007-01-ScheduleManagement/createSchedule"
+}

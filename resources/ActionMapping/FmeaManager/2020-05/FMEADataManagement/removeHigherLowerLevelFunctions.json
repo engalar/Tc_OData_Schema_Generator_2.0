@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-FmeaManager-2020-05-FMEADataManagement/removeHigherLowerLevelFunctions",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "focusElementFunction" : "IModelObject",
+            "relationName" : "String",
+            "functions" : "IModelObject[]"
+         }
+      ]
+   }
+}

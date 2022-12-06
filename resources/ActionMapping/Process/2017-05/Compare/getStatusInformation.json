@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "option" : "String",
+      "input" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-Compare/getStatusInformation",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "objectsStatusData" : [
+         {
+            "cloneStatus" : {
+               "status" : "MASTER CLONE CLONE_MASTER_DELETED MASTER_AND_CLONE MASTER_AND_CLONE_MASTER_DELETED NO_STATUS",
+               "masterInfo" : {
+                  "originalMaster" : "IModelObject",
+                  "masterProductEffectivity" : "String",
+                  "configuredMaster" : "IModelObject",
+                  "hasMasterProgressed" : "bool"
+               },
+               "clonesInfo" : [
+                  {
+                     "clone" : "IModelObject",
+                     "cloneProductEffectivity" : "String"
+                  }
+               ]
+            },
+            "assignedToObjects" : "IModelObject[]",
+            "assignmentStatuses" : "String[]"
+         }
+      ]
+   }
+}

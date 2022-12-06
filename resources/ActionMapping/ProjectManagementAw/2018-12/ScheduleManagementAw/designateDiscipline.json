@@ -1,0 +1,11 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagementAw-2018-12-ScheduleManagementAw/designateDiscipline",
+   "OperationInput" : {
+      "runInBackground" : "bool",
+      "schedule" : "IModelObject",
+      "user" : "IModelObject",
+      "revert" : "bool",
+      "discipline" : "IModelObject"
+   }
+}

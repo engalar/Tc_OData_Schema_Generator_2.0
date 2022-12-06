@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "indexerStatusInput" : {
+         "applicationId" : "String",
+         "lastProcessedDate" : "Date"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/updateIndexingStatus"
+}

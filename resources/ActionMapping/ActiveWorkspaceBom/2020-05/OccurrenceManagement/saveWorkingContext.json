@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2020-05-OccurrenceManagement/saveWorkingContext",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "workingContexts" : "IModelObject[]"
+   }
+}

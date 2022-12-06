@@ -1,0 +1,7 @@
+{
+   "OperationResponse" : "String",
+   "ServiceOperation" : "Core-2008-06-Session/setObjectPropertyPolicy",
+   "OperationInput" : {
+      "policy" : "IModelObject"
+   }
+}

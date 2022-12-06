@@ -1,0 +1,60 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "currentBranch" : "IModelObject",
+            "clientID" : "String",
+            "branchObjectNodes" : "IModelObject[]",
+            "newBranchName" : "String",
+            "branchOutComment" : {
+               "propMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "boName" : "String"
+            },
+            "config" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-BranchAndVersioning-2018-12-BranchingAndVersioning/branchOutNodes2",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "branchInfos" : [
+         {
+            "edges" : [
+               {
+                  "edgeObject" : "IModelObject",
+                  "edgeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "edgeType" : "String",
+                  "endNode" : "IModelObject",
+                  "startNode" : "IModelObject"
+               }
+            ],
+            "newBranchContent" : {
+               "childrenBranches" : "Bhv1::Soa::Internal::BranchAndVersioning::_2017_12::BranchingAndVersioning::BranchContents[]",
+               "branchObjectNodeData" : {
+                  "nodeInfoMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "tupleNode" : "IModelObject",
+                  "branchObjectNode" : "IModelObject"
+               },
+               "versionObjectNodesData" : [
+                  {
+                     "nodeInfoMap" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "tupleNode" : "IModelObject",
+                     "versionObjectNode" : "IModelObject"
+                  }
+               ]
+            },
+            "clientID" : "String"
+         }
+      ]
+   }
+}

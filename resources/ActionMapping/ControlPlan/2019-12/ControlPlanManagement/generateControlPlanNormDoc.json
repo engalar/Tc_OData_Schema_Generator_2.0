@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "reportGenerationInput" : {
+         "reportOptionMap" : {
+            "SampleKeyString" : "String"
+         },
+         "reportDefinitionObject" : "IModelObject",
+         "stylesheetObject" : "IModelObject",
+         "datasetName" : "String",
+         "reportName" : "String",
+         "contextObject" : "IModelObject",
+         "criteriaValuesMap" : {
+            "SampleKeyString" : "String"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "dataset" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ControlPlan-2019-12-ControlPlanManagement/generateControlPlanNormDoc"
+}

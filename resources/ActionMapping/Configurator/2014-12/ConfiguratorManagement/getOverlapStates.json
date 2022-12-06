@@ -1,0 +1,109 @@
+{
+   "OperationInput" : {
+      "overlapStateInputs" : [
+         {
+            "expressions" : [
+               {
+                  "formula" : "String",
+                  "exprID" : "String",
+                  "expressionType" : "int",
+                  "configExprSets" : [
+                     {
+                        "configExpressions" : [
+                           {
+                              "expressionType" : "int",
+                              "subExpressions" : [
+                                 {
+                                    "expressionGroups" : [
+                                       {
+                                          "groupName" : "String",
+                                          "context" : "IModelObject",
+                                          "terms" : [
+                                             {
+                                                "rangeExpressions" : [
+                                                   {
+                                                      "feature" : "IModelObject",
+                                                      "operatorCode" : "int",
+                                                      "valueText" : "String"
+                                                   }
+                                                ],
+                                                "operatorCode" : "int",
+                                                "family" : "IModelObject",
+                                                "valueText" : "String",
+                                                "familyNamespace" : "String",
+                                                "familyID" : "String",
+                                                "value" : "IModelObject",
+                                                "selectionClass" : "String"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ],
+                              "clientID" : "String",
+                              "formula" : "String"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "referenceExpression" : {
+               "configExprSets" : [
+                  {
+                     "configExpressions" : [
+                        {
+                           "formula" : "String",
+                           "clientID" : "String",
+                           "subExpressions" : [
+                              {
+                                 "expressionGroups" : [
+                                    {
+                                       "groupName" : "String",
+                                       "terms" : [
+                                          {
+                                             "operatorCode" : "int",
+                                             "family" : "IModelObject",
+                                             "rangeExpressions" : [
+                                                {
+                                                   "operatorCode" : "int",
+                                                   "feature" : "IModelObject",
+                                                   "valueText" : "String"
+                                                }
+                                             ],
+                                             "valueText" : "String",
+                                             "familyID" : "String",
+                                             "familyNamespace" : "String",
+                                             "selectionClass" : "String",
+                                             "value" : "IModelObject"
+                                          }
+                                       ],
+                                       "context" : "IModelObject"
+                                    }
+                                 ]
+                              }
+                           ],
+                           "expressionType" : "int"
+                        }
+                     ]
+                  }
+               ],
+               "expressionType" : "int",
+               "exprID" : "String",
+               "formula" : "String"
+            }
+         }
+      ],
+      "context" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "overlapInfo" : [
+         {
+            "overlapStates" : "String[]",
+            "index" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-12-ConfiguratorManagement/getOverlapStates"
+}

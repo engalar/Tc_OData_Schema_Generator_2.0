@@ -1,0 +1,26 @@
+{
+   "ServiceOperation" : "Internal-Core-2008-06-DispatcherManagement/queryDispatcherRequests",
+   "OperationResponse" : {
+      "outputObjects" : [
+         {
+            "queriedRequests" : "IModelObject[]"
+         }
+      ],
+      "svcData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "taskID" : "String[]",
+            "modifiedDate" : "String",
+            "unLoaded" : "bool",
+            "states" : "String[]",
+            "type" : "String[]",
+            "priorities" : "int[]",
+            "services" : "String[]",
+            "primaryObjects" : "IModelObject[]",
+            "providers" : "String[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "allocationMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ],
+      "input" : {
+         "referenceProductBOP" : "IModelObject",
+         "sourceProductBOP" : "IModelObject",
+         "targetPlantBOPLines" : "IModelObject[]"
+      }
+   },
+   "ServiceOperation" : "Manufacturing-2012-02-DataManagement/associateAndAllocateByPreview",
+   "OperationResponse" : {
+      "logFileTicket" : {
+         "ticket" : "String",
+         "fileName" : "String"
+      },
+      "serviceData" : "IServiceData"
+   }
+}

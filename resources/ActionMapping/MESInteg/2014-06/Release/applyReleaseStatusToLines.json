@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "MESInteg-2014-06-Release/applyReleaseStatusToLines",
+   "OperationInput" : {
+      "input" : [
+         {
+            "isRecursive" : "bool",
+            "releaseStatus" : "String",
+            "unitEffectivityInfo" : {
+               "effectivity" : "String",
+               "endItem" : "IModelObject",
+               "endItemRev" : "IModelObject"
+            },
+            "roots" : "IModelObject[]"
+         }
+      ]
+   }
+}

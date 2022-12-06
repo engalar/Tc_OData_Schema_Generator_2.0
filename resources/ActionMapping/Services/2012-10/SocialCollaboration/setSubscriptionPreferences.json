@@ -1,0 +1,32 @@
+{
+   "ServiceOperation" : "Services-2012-10-SocialCollaboration/setSubscriptionPreferences",
+   "OperationResponse" : {
+      "isSuccess" : "bool",
+      "categories" : {
+         "categoryName" : "String",
+         "perferences" : [
+            {
+               "prefName" : "String",
+               "prefValue" : "bool",
+               "prefDisplayName" : "String"
+            }
+         ]
+      },
+      "message" : "String"
+   },
+   "OperationInput" : {
+      "input" : {
+         "categories" : {
+            "categoryName" : "String",
+            "perferences" : [
+               {
+                  "prefValue" : "bool",
+                  "prefDisplayName" : "String",
+                  "prefName" : "String"
+               }
+            ]
+         },
+         "userUid" : "String"
+      }
+   }
+}

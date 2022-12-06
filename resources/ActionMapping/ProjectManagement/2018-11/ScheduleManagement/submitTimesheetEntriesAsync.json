@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "timesheetEntries" : "IModelObject[]"
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "ProjectManagement-2018-11-ScheduleManagement/submitTimesheetEntriesAsync"
+}

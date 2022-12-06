@@ -1,0 +1,26 @@
+{
+   "OperationResponse" : {
+      "srvcData" : "IServiceData",
+      "searchResults" : [
+         {
+            "testInstances" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-TestManagement-2014-06-InstanceManagement/getTestInstances",
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "executionScope" : "String",
+            "testName" : "String",
+            "testTemplate" : "IModelObject",
+            "referredObjects" : "IModelObject[]",
+            "executionSystem" : "String",
+            "clientId" : "String",
+            "testType" : "String",
+            "searchScope" : "IModelObject"
+         }
+      ]
+   }
+}

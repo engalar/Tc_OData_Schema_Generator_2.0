@@ -1,0 +1,39 @@
+{
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-ImportExport/exportObjects",
+   "OperationResponse" : {
+      "sitesResponse" : [
+         {
+            "logFmsTickets" : "String[]",
+            "siteId" : "int",
+            "fileFmsTickets" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "targetSites" : "int[]",
+      "expObjList" : "String[]",
+      "tcGSMessageId" : "String",
+      "synchronize" : "bool",
+      "inputData" : {
+         "transferModeName" : "String",
+         "optionSetUid" : "String",
+         "reason" : "String",
+         "sessionOptions" : [
+            {
+               "value" : "String",
+               "name" : "String"
+            }
+         ],
+         "optionOverrides" : [
+            {
+               "value" : "String",
+               "name" : "String"
+            }
+         ],
+         "optionSetName" : "String",
+         "transferModeUid" : "String",
+         "xsltFMSTicket" : "String"
+      }
+   }
+}

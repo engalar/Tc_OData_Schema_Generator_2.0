@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "externalIds" : "String[]",
+      "rootObject" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "objectsToCreate" : "String[]",
+      "objectsToDeleteMap" : {
+         "SampleKeyString" : "String"
+      },
+      "objectsToUpdateMap" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-PlantDataMgmt-2020-12-PdmCore/getIncrementalUpdates"
+}

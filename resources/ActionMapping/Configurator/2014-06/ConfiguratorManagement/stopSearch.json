@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "searchCursor" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/stopSearch",
+   "OperationResponse" : "IServiceData"
+}

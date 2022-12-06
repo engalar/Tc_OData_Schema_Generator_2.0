@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ServiceForecasting-2014-06-ServiceForecasting/disposeMaintenanceAction",
+   "OperationInput" : {
+      "isComplete" : "bool",
+      "maintenanceAction" : "IModelObject[]"
+   }
+}

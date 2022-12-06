@@ -1,0 +1,27 @@
+{
+   "OperationResponse" : {
+      "contractDefnOutputs" : [
+         {
+            "contractDefnSections" : [
+               {
+                  "propertyNames" : "String[]",
+                  "objectInfos" : [
+                     {
+                        "quantity" : "String",
+                        "type" : "String"
+                     }
+                  ],
+                  "displayName" : "String",
+                  "propertyDisplayNames" : "String[]"
+               }
+            ],
+            "groupName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ValidationContract-2015-03-VCManagement/getContractDefnDetails",
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   }
+}

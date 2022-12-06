@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Internal-Search-2020-12-SearchFolder/importSearchFolder",
+   "OperationResponse" : {
+      "previewStringJSON" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : {
+         "searchFolderUID" : "String",
+         "transientFileTicket" : "String",
+         "mode" : "String"
+      }
+   }
+}

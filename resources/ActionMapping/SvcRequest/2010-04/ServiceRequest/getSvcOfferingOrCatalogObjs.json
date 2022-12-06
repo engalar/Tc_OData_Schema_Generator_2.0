@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "physicalPart" : "IModelObject",
+            "clientId" : "String",
+            "queryProps" : {
+               "SampleKeyString" : "String"
+            },
+            "svcCatalogs" : "IModelObject[]"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "svcOfferings" : "IModelObject[]",
+            "svcCatalogs" : "IModelObject[]",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "SvcRequest-2010-04-ServiceRequest/getSvcOfferingOrCatalogObjs"
+}

@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "importAsSpec" : "bool",
+         "transientFileWriteTicket" : "String",
+         "specDesc" : "String",
+         "applicationFormat" : "String",
+         "specificationType" : "String",
+         "isRunInBackground" : "bool",
+         "isPermanentconvertToHtml" : "bool",
+         "isLive" : "bool",
+         "keywordImportRules" : [
+            {
+               "targetChildType" : "String",
+               "conditionProcessingType" : "String",
+               "keywordImportConditions" : [
+                  {
+                     "keyword" : "String",
+                     "opType" : "String"
+                  }
+               ]
+            }
+         ],
+         "selectedObject" : "IModelObject",
+         "createSpecElementType" : "String",
+         "pasteTopSpecRevisionUnderSelection" : "bool",
+         "importOptions" : [
+            {
+               "val" : "String",
+               "option" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2018-05-ImportExport/importFromWordAsync",
+   "OperationResponse" : {}
+}

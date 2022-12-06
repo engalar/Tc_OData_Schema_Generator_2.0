@@ -1,0 +1,80 @@
+{
+   "OperationResponse" : {
+      "loOutputs" : [
+         {
+            "logicalObjects" : [
+               {
+                  "root" : "IModelObject",
+                  "memberClassificationObjects" : [
+                     {
+                        "icoIDs" : "String[]",
+                        "memberOrRootName" : "String"
+                     }
+                  ],
+                  "logicalObjectInstances" : "IModelObject[]"
+               }
+            ]
+         }
+      ],
+      "classificationAttributeDesc" : {
+         "SampleKeyString" : {
+            "attributeDescMap" : {
+               "SampleKeyString" : {
+                  "metricDefaultValue" : "String",
+                  "name" : "String",
+                  "nonMetricMaxValue" : "String",
+                  "shortName" : "String",
+                  "arraySize" : "int",
+                  "nonMetricUnit" : "String",
+                  "metricFormat" : "int",
+                  "metricMaxValue" : "String",
+                  "nonMetricDefaultValue" : "String",
+                  "options" : "int",
+                  "extendedProps" : [
+                     {
+                        "propertyName" : "String",
+                        "propertyValue" : "String[]"
+                     }
+                  ],
+                  "metricUnit" : "String",
+                  "metricMinValue" : "String",
+                  "descripton" : "String",
+                  "nonMetricMinValue" : "String",
+                  "nonMetricFormat" : "int",
+                  "annotation" : "String",
+                  "id" : "String"
+               }
+            }
+         }
+      },
+      "serviceData" : "IServiceData",
+      "classificationObjectInfo" : {
+         "SampleKeyString" : {
+            "classId" : "String",
+            "unitBase" : "CLS_METRIC CLS_NONMETRIC CLS_BOTH",
+            "classifiedObject" : "IModelObject",
+            "attributeValuesMap" : {
+               "SampleKeyString" : {
+                  "isAttributeValid" : "bool",
+                  "values" : [
+                     {
+                        "attrValue" : "String",
+                        "unit" : "String",
+                        "locale" : "String"
+                     }
+                  ]
+               }
+            }
+         }
+      }
+   },
+   "ServiceOperation" : "Core-2017-11-LogicalObject/getLogicalObjects",
+   "OperationInput" : {
+      "loInputs" : [
+         {
+            "loTypeName" : "String",
+            "rootObjects" : "IModelObject[]"
+         }
+      ]
+   }
+}

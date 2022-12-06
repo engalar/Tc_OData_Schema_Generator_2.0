@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "icoTags" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "wsos" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Classification-2007-01-Classification/findClassifiedObjects"
+}

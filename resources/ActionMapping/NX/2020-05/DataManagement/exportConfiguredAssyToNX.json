@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         },
+         "elementToExport" : "IModelObject"
+      }
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-NX-2020-05-DataManagement/exportConfiguredAssyToNX"
+}

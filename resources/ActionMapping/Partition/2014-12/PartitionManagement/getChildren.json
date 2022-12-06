@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "maxChildCount" : "int",
+            "configurationContext" : "IModelObject",
+            "parentPartitions" : "IModelObject[]",
+            "maxLevelCount" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "Partition-2014-12-PartitionManagement/getChildren",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "parentChildMap" : [
+               [
+                  "SampleKeyIModelObject"
+               ],
+               [
+                  "IModelObject[]"
+               ]
+            ],
+            "expandedLevelCount" : "int",
+            "childPartitionListTruncated" : "bool"
+         }
+      ]
+   }
+}

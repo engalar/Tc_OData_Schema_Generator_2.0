@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Core-2007-06-Session/refreshPOMCachePerRequest",
+   "OperationResponse" : "bool",
+   "OperationInput" : {
+      "refresh" : "bool"
+   }
+}

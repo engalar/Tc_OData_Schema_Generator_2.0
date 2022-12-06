@@ -1,0 +1,128 @@
+{
+   "ServiceOperation" : "ModelCore-2017-05-Search/createSearchExpressions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "expressions" : [
+         {
+            "clientid" : "String",
+            "searchDef" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "searchExpressionInput" : {
+         "compositeExpressions" : [
+            {
+               "searchExpressions" : "Mdl0::Soa::ModelCore::_2017_05::Search::SearchExpressionInput[]",
+               "clientid" : "String",
+               "compositeSearchType" : "String"
+            }
+         ],
+         "proximitySearchExpressions" : [
+            {
+               "traversalKey" : "String",
+               "clientid" : "String",
+               "proximityExpression" : {
+                  "targetElements" : "IModelObject[]",
+                  "distance" : "double",
+                  "targetElement" : "IModelObject"
+               },
+               "rootType" : "String"
+            }
+         ],
+         "geomConstraintExpressions" : [
+            {
+               "geomConstraintExpression" : {
+                  "sourceElements" : "IModelObject[]",
+                  "sourceCriteria" : "IModelObject",
+                  "processCtrlFlag" : "int"
+               },
+               "clientid" : "String"
+            }
+         ],
+         "excludeElements" : [
+            {
+               "clientid" : "String",
+               "modelElements" : "IModelObject[]"
+            }
+         ],
+         "optionSetExpressions" : [
+            {
+               "optionSetExpression" : {
+                  "optionSet" : "IModelObject",
+                  "optionSetMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "searchDef" : "IModelObject"
+               },
+               "clientid" : "String"
+            }
+         ],
+         "boxZoneExpressions" : [
+            {
+               "boxZoneExpression" : {
+                  "boxOperator" : "Inside Outside Intersects InsideOrIntersects OutsideOrIntersects",
+                  "searchBoxes" : [
+                     {
+                        "xmin" : "double",
+                        "zmax" : "double",
+                        "ymin" : "double",
+                        "ymax" : "double",
+                        "xmax" : "double",
+                        "transform" : "double[]",
+                        "zmin" : "double"
+                     }
+                  ]
+               },
+               "traversalKey" : "String",
+               "clientid" : "String",
+               "rootType" : "String"
+            }
+         ],
+         "planeZoneExpressions" : [
+            {
+               "planeZoneExpression" : {
+                  "planeZone" : {
+                     "zvalue" : "double",
+                     "yvalue" : "double",
+                     "displacement" : "double",
+                     "xvalue" : "double"
+                  },
+                  "planeZoneOperator" : "Plane_above Plane_below Plane_intersects Plane_aboveOrIntersects Plane_belowOrIntersects"
+               },
+               "rootType" : "String",
+               "clientid" : "String",
+               "traversalKey" : "String"
+            }
+         ],
+         "includeElements" : [
+            {
+               "clientid" : "String",
+               "modelElements" : "IModelObject[]"
+            }
+         ],
+         "returnType" : "String",
+         "savedQueryExpressions" : [
+            {
+               "savedQueryExpression" : {
+                  "savedQuery" : "IModelObject",
+                  "entries" : "String[]",
+                  "values" : "String[]"
+               },
+               "traversalKey" : "String",
+               "clientid" : "String",
+               "rootType" : "String"
+            }
+         ],
+         "closureQueryExpression" : [
+            {
+               "clientid" : "String",
+               "closureExpression" : {
+                  "searchCriteria" : "IModelObject",
+                  "closureRule" : "IModelObject"
+               }
+            }
+         ]
+      }
+   }
+}

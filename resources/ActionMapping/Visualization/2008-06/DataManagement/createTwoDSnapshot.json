@@ -1,0 +1,55 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "snapshotOutput" : {
+         "SampleKeyString" : {
+            "form" : "IModelObject",
+            "references" : [
+               {
+                  "uploadedFile" : "IModelObject",
+                  "clientFileId" : "String",
+                  "uploadedFilename" : "String",
+                  "uploadedFileRefNames" : "String"
+               }
+            ],
+            "attachRelation" : "IModelObject",
+            "dataset" : "IModelObject"
+         }
+      }
+   },
+   "ServiceOperation" : "Internal-Visualization-2008-06-DataManagement/createTwoDSnapshot",
+   "OperationInput" : {
+      "input" : [
+         {
+            "namedRefInfo" : [
+               {
+                  "fileState" : "String",
+                  "fileName" : "String",
+                  "refName" : "String",
+                  "clientFileId" : "String",
+                  "fileTicket" : "String",
+                  "existingObject" : "IModelObject",
+                  "newObject" : "IModelObject"
+               }
+            ],
+            "sourceItemRev" : "IModelObject",
+            "createDatasetInfo" : {
+               "datasetName" : "String",
+               "tool" : "String",
+               "datasetType" : "String",
+               "datasetDesc" : "String"
+            },
+            "clientId" : "String",
+            "createFormInfo" : {
+               "attributesMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "saveDB" : "bool",
+               "formType" : "String",
+               "name" : "String",
+               "description" : "String"
+            }
+         }
+      ]
+   }
+}

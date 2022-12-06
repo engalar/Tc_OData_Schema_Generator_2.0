@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "addIncludedLOInput" : {
+         "logicalObjectType" : "IModelObject",
+         "includedLODefinitions" : [
+            {
+               "description" : "String",
+               "displayName" : "String",
+               "applyConfigurationContext" : "bool",
+               "traversalPath" : [
+                  {
+                     "propertyName" : "String",
+                     "destinationObjectCriteria" : "String",
+                     "direction" : "String",
+                     "propertyType" : "String",
+                     "destinationType" : "String"
+                  }
+               ],
+               "includedLogicalObjectID" : "String"
+            }
+         ]
+      }
+   },
+   "ServiceOperation" : "Internal-Core-2018-11-LogicalObject/addIncludedLogicalObjects",
+   "OperationResponse" : {
+      "includedLogicalObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   }
+}

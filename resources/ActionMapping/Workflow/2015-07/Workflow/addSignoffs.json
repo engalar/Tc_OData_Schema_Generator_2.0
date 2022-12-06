@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Workflow-2015-07-Workflow/addSignoffs",
+   "OperationInput" : {
+      "signoffs" : [
+         {
+            "signoffInfo" : [
+               {
+                  "signoffAction" : "String",
+                  "origin" : "IModelObject",
+                  "signoffMember" : "IModelObject",
+                  "signoffRequired" : "String",
+                  "originType" : "String"
+               }
+            ],
+            "task" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,18 @@
+{
+   "OperationResponse" : {
+      "downloadInfo" : [
+         {
+            "dataset" : "IModelObject",
+            "absoluteFilePath" : "String",
+            "imanFile" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/getDownloadInfoForDSM",
+   "OperationInput" : {
+      "workingDirectory" : "String",
+      "caeRelatedFiles" : "IModelObject[]",
+      "shouldCheckOutDataset" : "bool"
+   }
+}

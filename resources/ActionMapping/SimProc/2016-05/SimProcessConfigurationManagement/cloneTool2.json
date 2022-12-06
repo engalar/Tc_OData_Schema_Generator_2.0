@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "cloneName" : "String",
+      "toolBOMLines" : "IModelObject[]",
+      "cloneItemRevId" : "String",
+      "cloneItemId" : "String"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SimProc-2016-05-SimProcessConfigurationManagement/cloneTool2"
+}

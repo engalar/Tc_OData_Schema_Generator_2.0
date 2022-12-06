@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "prevDebugLoggingFlags" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-DebugMonitor-2019-06-DebugLogging/stopLogging"
+}

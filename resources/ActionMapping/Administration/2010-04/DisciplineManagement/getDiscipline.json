@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "disciplineName" : "String"
+   },
+   "OperationResponse" : {
+      "discipline" : "IModelObject",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Administration-2010-04-DisciplineManagement/getDiscipline"
+}

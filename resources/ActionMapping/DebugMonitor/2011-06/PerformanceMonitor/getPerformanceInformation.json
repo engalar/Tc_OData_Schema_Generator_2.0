@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "clear" : "bool"
+   },
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-PerformanceMonitor/getPerformanceInformation",
+   "OperationResponse" : {
+      "performanceDataVec" : "IModelObject[]",
+      "performanceServiceData" : "IServiceData"
+   }
+}

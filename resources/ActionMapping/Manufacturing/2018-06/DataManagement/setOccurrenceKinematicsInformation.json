@@ -1,0 +1,14 @@
+{
+   "ServiceOperation" : "Manufacturing-2018-06-DataManagement/setOccurrenceKinematicsInformation",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "occInfoInputMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject"
+         ]
+      ]
+   }
+}

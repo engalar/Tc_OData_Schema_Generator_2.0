@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "isSelectable" : "bool",
+            "impactedObject" : "IModelObject",
+            "isOutOfDate" : "bool",
+            "nonSelectableReason" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "StructureManagement-2014-10-MassUpdate/getImpactedObjectDetails",
+   "OperationInput" : {
+      "input" : [
+         {
+            "processedImpactedUIDs" : "String[]",
+            "impactedObjectUIDs" : "String[]",
+            "change" : "IModelObject",
+            "operation" : "int"
+         }
+      ]
+   }
+}

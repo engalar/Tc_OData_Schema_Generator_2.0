@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Ai-2006-03-Ai/startExchange",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "id" : "IModelObject"
+   }
+}

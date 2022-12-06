@@ -1,0 +1,251 @@
+{
+   "OperationInput" : {
+      "bomViewTypeName" : "String",
+      "complete" : "bool",
+      "absOccInfos" : [
+         {
+            "lastModifiedOfBVR" : "Date",
+            "contextItemRev" : "IModelObject",
+            "arrAbsOccInfo" : [
+               {
+                  "absOccInfo" : [
+                     {
+                        "absOcc" : "IModelObject",
+                        "clientId" : "String",
+                        "absOccData" : {
+                           "overridesToSet" : [
+                              {
+                                 "value" : "String",
+                                 "name" : "String"
+                              }
+                           ],
+                           "attachmentsToUnattach" : [
+                              {
+                                 "dataset" : "IModelObject",
+                                 "relationTypeName" : "String"
+                              }
+                           ],
+                           "overridesToRemove" : "String[]",
+                           "occNotes" : [
+                              {
+                                 "noteType" : "String",
+                                 "noteText" : "String"
+                              }
+                           ],
+                           "attachments" : [
+                              {
+                                 "dataset" : "IModelObject",
+                                 "relationTypeName" : "String"
+                              }
+                           ],
+                           "usedArr" : "IModelObject",
+                           "asRequired" : "bool",
+                           "occTransform" : "double[]",
+                           "clientIdOfUsedArrangement" : "String"
+                        },
+                        "cadOccIdPath" : "String[]"
+                     }
+                  ],
+                  "isDefault" : "bool",
+                  "description" : "String",
+                  "clientId" : "String",
+                  "name" : "String",
+                  "arrangement" : "IModelObject",
+                  "externalUid" : "String"
+               }
+            ],
+            "bvrAbsOccInfo" : [
+               {
+                  "absOcc" : "IModelObject",
+                  "absOccData" : {
+                     "boundingBoxInfo" : [
+                        {
+                           "dataset" : "IModelObject",
+                           "boundingBoxVector" : [
+                              {
+                                 "zmax" : "double",
+                                 "xmin" : "double",
+                                 "ymax" : "double",
+                                 "ymin" : "double",
+                                 "xmax" : "double",
+                                 "zmin" : "double"
+                              }
+                           ]
+                        }
+                     ],
+                     "occNotes" : [
+                        {
+                           "noteType" : "String",
+                           "noteText" : "String"
+                        }
+                     ],
+                     "attachments" : [
+                        {
+                           "relationTypeName" : "String",
+                           "overrideObject" : "IModelObject"
+                        }
+                     ],
+                     "asRequired" : "bool",
+                     "occTransform" : "double[]",
+                     "usedArr" : "IModelObject",
+                     "clientIdOfUsedArrangement" : "String",
+                     "formAttachments" : [
+                        {
+                           "clientId" : "String",
+                           "createIfFound" : "bool",
+                           "formInfo" : {
+                              "description" : "String",
+                              "attributes" : [
+                                 {
+                                    "values" : "String[]",
+                                    "name" : "String"
+                                 }
+                              ],
+                              "formObject" : "IModelObject",
+                              "formType" : "String",
+                              "name" : "String"
+                           },
+                           "relationTypeName" : "String"
+                        }
+                     ],
+                     "overridesToSet" : [
+                        {
+                           "name" : "String",
+                           "value" : "String"
+                        }
+                     ],
+                     "attachmentsToUnattach" : [
+                        {
+                           "relationTypeName" : "String",
+                           "overrideObject" : "IModelObject"
+                        }
+                     ],
+                     "datasetAttachments" : [
+                        {
+                           "datasetInfo" : {
+                              "namedReferencePreference" : "String",
+                              "description" : "String",
+                              "datasetRev" : "String",
+                              "namedReferenceObjectInfos" : [
+                                 {
+                                    "namedReferenceName" : "String",
+                                    "object" : "IModelObject",
+                                    "dataNameValuePairs" : [
+                                       {
+                                          "name" : "String",
+                                          "values" : "String[]"
+                                       }
+                                    ],
+                                    "typeName" : "String",
+                                    "clientId" : "String"
+                                 }
+                              ],
+                              "type" : "String",
+                              "name" : "String",
+                              "lastModifiedOfDataset" : "Date",
+                              "basisName" : "String",
+                              "dataset" : "IModelObject",
+                              "clientId" : "String",
+                              "dataList" : [
+                                 {
+                                    "values" : "String[]",
+                                    "name" : "String"
+                                 }
+                              ],
+                              "id" : "String",
+                              "createNewVersion" : "bool",
+                              "datasetFileInfos" : [
+                                 {
+                                    "allowReplace" : "bool",
+                                    "namedReferencedName" : "String",
+                                    "clientId" : "String",
+                                    "boundingBoxesAvailable" : "bool",
+                                    "isText" : "bool",
+                                    "boundingBoxes" : [
+                                       {
+                                          "ymin" : "double",
+                                          "ymax" : "double",
+                                          "xmax" : "double",
+                                          "zmax" : "double",
+                                          "xmin" : "double",
+                                          "zmin" : "double"
+                                       }
+                                    ],
+                                    "fileName" : "String"
+                                 }
+                              ]
+                           },
+                           "relationTypeName" : "String",
+                           "clientId" : "String",
+                           "createIfFound" : "bool"
+                        }
+                     ],
+                     "overridesToRemove" : "String[]"
+                  },
+                  "clientId" : "String",
+                  "cadOccIdPath" : "String[]"
+               }
+            ]
+         }
+      ],
+      "pref" : {
+         "overridesToSynchronize" : "String[]",
+         "relationFilters" : [
+            {
+               "relationTypeNames" : "String[]",
+               "relationName" : "String"
+            }
+         ],
+         "overwriteForLastModDate" : "bool",
+         "cadOccIdAttrName" : "String"
+      }
+   },
+   "ServiceOperation" : "Cad-2008-06-StructureManagement/createOrUpdateAbsoluteStructure",
+   "OperationResponse" : {
+      "formOutput" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "asmArrangementOutput" : {
+         "SampleKeyString" : "IModelObject[]"
+      },
+      "datasetOutput" : [
+         {
+            "dataset" : "IModelObject",
+            "clientId" : "String",
+            "commitInfo" : [
+               {
+                  "datasetFileTicketInfos" : [
+                     {
+                        "ticket" : "String",
+                        "datasetFileInfo" : {
+                           "boundingBoxes" : [
+                              {
+                                 "xmax" : "double",
+                                 "ymax" : "double",
+                                 "ymin" : "double",
+                                 "zmax" : "double",
+                                 "xmin" : "double",
+                                 "zmin" : "double"
+                              }
+                           ],
+                           "fileName" : "String",
+                           "allowReplace" : "bool",
+                           "namedReferencedName" : "String",
+                           "boundingBoxesAvailable" : "bool",
+                           "clientId" : "String",
+                           "isText" : "bool"
+                        }
+                     }
+                  ],
+                  "dataset" : "IModelObject",
+                  "createNewVersion" : "bool"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData",
+      "absOccOutput" : {
+         "SampleKeyString" : "IModelObject"
+      }
+   }
+}

@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "requestedQueries" : [
+         {
+            "substituteKeyword" : "bool",
+            "query" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "definitions" : [
+         {
+            "sortAttributes" : [
+               {
+                  "entryNameDisplay" : "String",
+                  "attributeName" : "String",
+                  "entryName" : "String",
+                  "orderBy" : "String"
+               }
+            ],
+            "query" : "IModelObject",
+            "clauses" : [
+               {
+                  "dependentIndexes" : "int[]",
+                  "keyLovId" : "int",
+                  "attributeName" : "String",
+                  "lov" : "IModelObject",
+                  "entryNameDisplay" : "String",
+                  "attachedSpecifier" : "int",
+                  "mathOperation" : "String",
+                  "attributeType" : "int",
+                  "logicalOperation" : "String",
+                  "entryName" : "String",
+                  "defaultValue" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Query-2012-02-SavedQuery/describeSavedQueryDefinitions"
+}

@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "properties" : [
+         {
+            "description" : "String",
+            "itemElemAttributes" : {
+               "SampleKeyString" : "String"
+            },
+            "name" : "String",
+            "type" : "String",
+            "itemElement" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "itemElem" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2008-06-DataManagement/createOrUpdateItemElements"
+}

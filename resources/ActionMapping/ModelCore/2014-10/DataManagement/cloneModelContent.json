@@ -1,0 +1,51 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "failedObjects" : [
+               {
+                  "sourceObject" : "IModelObject",
+                  "errorValue" : {
+                     "message" : "String",
+                     "code" : "int",
+                     "level" : "Error_severity_information Error_severity_warning Error_severity_error"
+                  }
+               }
+            ],
+            "clientID" : "String",
+            "sourceToTargetMap" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ModelCore-2014-10-DataManagement/cloneModelContent",
+   "OperationInput" : {
+      "info" : {
+         "createInfo" : [
+            {
+               "clientID" : "String",
+               "sourceModelInfo" : {
+                  "subsetDef" : "IModelObject",
+                  "includeSourceElements" : "IModelObject[]",
+                  "auxObjectInfo" : [
+                     {
+                        "attrInfo" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "sourceObject" : "IModelObject"
+                     }
+                  ],
+                  "configContext" : "IModelObject",
+                  "sourceModelObject" : "IModelObject",
+                  "auxInfo" : {
+                     "SampleKeyString" : "String"
+                  }
+               },
+               "targetModel" : "IModelObject"
+            }
+         ]
+      }
+   }
+}

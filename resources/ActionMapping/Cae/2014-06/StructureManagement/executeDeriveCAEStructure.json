@@ -1,0 +1,13 @@
+{
+   "ServiceOperation" : "Cae-2014-06-StructureManagement/executeDeriveCAEStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "activityLog" : "String"
+   },
+   "OperationInput" : {
+      "optionalIndex" : "String",
+      "rootBOMLine" : "IModelObject",
+      "selectedRule" : "String",
+      "optionalRootName" : "String"
+   }
+}

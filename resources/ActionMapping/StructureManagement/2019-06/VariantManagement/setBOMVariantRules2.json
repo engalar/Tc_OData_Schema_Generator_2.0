@@ -1,0 +1,72 @@
+{
+   "OperationInput" : {
+      "setBOMVariantRuleInput" : [
+         {
+            "clientId" : "String",
+            "window" : "IModelObject",
+            "rules" : [
+               {
+                  "variantRule" : "IModelObject",
+                  "bomVariantOptionValueEntry" : [
+                     {
+                        "optionDesc" : "String",
+                        "option" : "IModelObject",
+                        "variantOptionValue" : [
+                           {
+                              "howSet" : "String",
+                              "howSetInt" : "int",
+                              "isConfiguredOptionValue" : "bool",
+                              "value" : "String",
+                              "whereSet" : "String",
+                              "index" : "int"
+                           }
+                        ],
+                        "optionName" : "String",
+                        "owningItem" : "IModelObject"
+                     }
+                  ],
+                  "isSVRModified" : "bool",
+                  "svr" : "IModelObject",
+                  "isConstraintsEvaluated" : "bool"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2019-06-VariantManagement/setBOMVariantRules2",
+   "OperationResponse" : {
+      "variantRuleData" : [
+         {
+            "window" : "IModelObject",
+            "clientId" : "String",
+            "rules" : [
+               {
+                  "variantRule" : "IModelObject",
+                  "bomVariantOptionValueEntry" : [
+                     {
+                        "owningItem" : "IModelObject",
+                        "variantOptionValue" : [
+                           {
+                              "whereSet" : "String",
+                              "index" : "int",
+                              "value" : "String",
+                              "isConfiguredOptionValue" : "bool",
+                              "howSet" : "String",
+                              "howSetInt" : "int"
+                           }
+                        ],
+                        "optionName" : "String",
+                        "option" : "IModelObject",
+                        "optionDesc" : "String"
+                     }
+                  ],
+                  "isSVRModified" : "bool",
+                  "isConstraintsEvaluated" : "bool",
+                  "svr" : "IModelObject"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

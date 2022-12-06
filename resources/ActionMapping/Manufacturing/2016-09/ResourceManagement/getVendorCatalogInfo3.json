@@ -1,0 +1,31 @@
+{
+   "OperationInput" : {
+      "catalogTypeFilter" : "int"
+   },
+   "OperationResponse" : {
+      "catalogInfo" : [
+         {
+            "vendorAcronym" : "String",
+            "vendorCatalogShortDescription" : "String",
+            "vendorCatalogDescription" : "String",
+            "vendorCatalogRootClassId" : "String",
+            "vendorHierarchyVersion" : "String",
+            "gtcPackageId" : "String",
+            "gtcHierarchyVersion" : "String",
+            "vendorName" : "String",
+            "vendorCatalogLanguage" : "String",
+            "vendorCatalogVersion" : "String",
+            "gtcVersion" : "String",
+            "onlineConnectionConfiguration" : "String",
+            "downloadSecurity" : "String",
+            "logoUrl" : "String",
+            "gtcPackageCreationDate" : "String",
+            "disclaimerText" : "String",
+            "vendorCatalogRootDir" : "String",
+            "vendorCatalogId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2016-09-ResourceManagement/getVendorCatalogInfo3"
+}

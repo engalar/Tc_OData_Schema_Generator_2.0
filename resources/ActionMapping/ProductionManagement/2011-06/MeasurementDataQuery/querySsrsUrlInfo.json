@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "ssrsrUrlSet" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "ProductionManagement-2011-06-MeasurementDataQuery/querySsrsUrlInfo"
+}

@@ -1,0 +1,21 @@
+{
+   "OperationResponse" : {
+      "templateDeployInfo" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "siteID" : "String",
+      "logFileTickets" : "String[]",
+      "siteName" : "String"
+   },
+   "ServiceOperation" : "Internal-BusinessModeler-2010-09-DataModelManagement/deployDataModel2",
+   "OperationInput" : {
+      "updaterModeOption" : "String",
+      "deployOption" : "String",
+      "inputs" : [
+         {
+            "deploymentFileType" : "int",
+            "deploymentFileTicket" : "String"
+         }
+      ],
+      "updaterUpdateOption" : "String"
+   }
+}

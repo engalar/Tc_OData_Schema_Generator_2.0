@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "productContextInfo" : "IModelObject",
+      "selectedRoot" : "IModelObject",
+      "templateName" : "String",
+      "templateDescription" : "String"
+   },
+   "ServiceOperation" : "Internal-IppeCore-2020-12-WBSManagement/createWBSTemplate",
+   "OperationResponse" : "IServiceData"
+}

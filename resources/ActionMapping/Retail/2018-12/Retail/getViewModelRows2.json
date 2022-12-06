@@ -1,0 +1,48 @@
+{
+   "ServiceOperation" : "Internal-Retail-2018-12-Retail/getViewModelRows2",
+   "OperationResponse" : {
+      "viewModelRows" : [
+         {
+            "viewModelProperties" : [
+               {
+                  "propUIValue" : "String",
+                  "propDataType" : "String",
+                  "propDBValue" : "String",
+                  "isModifiable" : "bool",
+                  "hasLOV" : "bool",
+                  "propParentBO" : "IModelObject",
+                  "propInternalName" : "String",
+                  "propDisplayName" : "String",
+                  "isEditable" : "bool"
+               }
+            ],
+            "modelObject" : "IModelObject"
+         }
+      ],
+      "totalFound" : "int",
+      "serviceData" : "IServiceData",
+      "endIndex" : "int"
+   },
+   "OperationInput" : {
+      "input" : {
+         "sourceObjects" : "IModelObject[]",
+         "startIndex" : "int",
+         "columnConfigId" : "String",
+         "searchSortCriteria" : [
+            {
+               "isAscending" : "bool",
+               "sortingOrder" : "int",
+               "fieldName" : "String"
+            }
+         ],
+         "columnFilters" : [
+            {
+               "columnName" : "String",
+               "values" : "String[]",
+               "operation" : "String"
+            }
+         ],
+         "pageSize" : "int"
+      }
+   }
+}

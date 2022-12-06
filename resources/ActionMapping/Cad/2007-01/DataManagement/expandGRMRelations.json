@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]",
+      "pref" : {
+         "info" : [
+            {
+               "objectTypeNames" : "String[]",
+               "relationName" : "String"
+            }
+         ],
+         "expItemRev" : "bool"
+      }
+   },
+   "ServiceOperation" : "Cad-2007-01-DataManagement/expandGRMRelations",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "inputObject" : "IModelObject",
+            "otherSideObjData" : [
+               {
+                  "otherSideObjects" : "IModelObject[]",
+                  "relationName" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

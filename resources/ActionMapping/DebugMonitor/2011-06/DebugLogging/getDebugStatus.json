@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {},
+   "ServiceOperation" : "Internal-DebugMonitor-2011-06-DebugLogging/getDebugStatus",
+   "OperationResponse" : {
+      "statisticsStatus" : "bool",
+      "taoStatus" : "int",
+      "sqlLogStatus" : {
+         "profile" : "bool",
+         "timing" : "bool",
+         "toJournal" : "bool",
+         "debugState" : "bool",
+         "showBindVariables" : "bool"
+      },
+      "journalStatus" : "bool",
+      "checkingStatus" : "int"
+   }
+}

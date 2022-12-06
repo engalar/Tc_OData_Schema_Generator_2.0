@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "schedule" : "IModelObject",
+      "deleteTasks" : "IModelObject[]"
+   },
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/deleteTasks",
+   "OperationResponse" : {
+      "orphaned" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "updated" : "IModelObject[]"
+   }
+}

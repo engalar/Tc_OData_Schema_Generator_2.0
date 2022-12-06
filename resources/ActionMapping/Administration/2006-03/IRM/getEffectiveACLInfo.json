@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "objects" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "aclInfoList" : [
+         {
+            "object" : "IModelObject",
+            "aclInfos" : [
+               {
+                  "revokedNames" : "String[]",
+                  "grantedNames" : "String[]",
+                  "namedACL" : "String",
+                  "accessorId" : "String",
+                  "accessorType" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Administration-2006-03-IRM/getEffectiveACLInfo"
+}

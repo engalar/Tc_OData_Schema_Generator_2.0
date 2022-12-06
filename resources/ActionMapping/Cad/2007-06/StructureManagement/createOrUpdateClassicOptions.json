@@ -1,0 +1,21 @@
+{
+   "OperationInput" : {
+      "inputObjects" : [
+         {
+            "options" : [
+               {
+                  "optionDesc" : "String",
+                  "existingValues" : "String[]",
+                  "optionName" : "String",
+                  "values" : "String[]"
+               }
+            ],
+            "bomLine" : "IModelObject",
+            "clientId" : "String",
+            "operation" : "CreateOption AddValue RemoveValue ReplaceValue"
+         }
+      ]
+   },
+   "ServiceOperation" : "Cad-2007-06-StructureManagement/createOrUpdateClassicOptions",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "disclosureOwningObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Process-2017-11-ManufacturingDisclosure/createOrUpdateMfgDisclosure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : "IModelObject"
+   }
+}

@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "outputJSONString" : "bool",
+            "inputObject" : "IModelObject",
+            "inputObjectName" : "String",
+            "objectPropsToOutput" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "criteria" : {
+               "criteriaSet" : {
+                  "closureRuleNames" : "String[]",
+                  "lwoQueryExpression" : "String"
+               },
+               "configSet" : {
+                  "variantRules" : "IModelObject[]",
+                  "effectivityDate" : "Date",
+                  "effectivityGroups" : "IModelObject[]",
+                  "revisionRule" : "String",
+                  "effectivityUnit" : "int",
+                  "effectivityEndItem" : "IModelObject"
+               },
+               "selectContentInputs" : "IModelObject[]"
+            }
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "recipeOutput" : [
+         {
+            "jSONString" : "String",
+            "zipFileFMSTicket" : "String",
+            "jSONFileFMSTicket" : "String",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "ViewMgmtAW-2019-06-ViewDataManagement/executeRecipes2"
+}

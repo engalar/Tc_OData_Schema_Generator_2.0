@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "sessionDiscriminator" : "String",
+      "group" : "String",
+      "username" : "String",
+      "role" : "String",
+      "ssoCredentials" : "String"
+   },
+   "ServiceOperation" : "Core-2006-03-Session/loginSSO",
+   "OperationResponse" : {
+      "user" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "groupMember" : "IModelObject"
+   }
+}

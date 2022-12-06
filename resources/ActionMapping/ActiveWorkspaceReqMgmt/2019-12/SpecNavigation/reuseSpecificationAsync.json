@@ -1,0 +1,55 @@
+{
+   "ServiceOperation" : "Internal-ActiveWorkspaceReqMgmt-2019-12-SpecNavigation/reuseSpecificationAsync",
+   "OperationResponse" : {},
+   "OperationInput" : {
+      "inputs" : {
+         "tracelinkType" : "String",
+         "isDeep" : "bool",
+         "options" : {
+            "SampleKeyString" : "String"
+         },
+         "isRunInBackground" : "bool",
+         "inputCtxt" : {
+            "requestPref" : {
+               "SampleKeyString" : "String"
+            },
+            "configuration" : {
+               "now" : "bool",
+               "configurationObject" : "IModelObject",
+               "svrOwningProduct" : "IModelObject",
+               "revisionRule" : "IModelObject",
+               "endItem" : "IModelObject",
+               "effectivityDate" : "Date",
+               "variantRule" : "IModelObject",
+               "unitNo" : "int"
+            },
+            "productContext" : "IModelObject",
+            "structureContextObject" : "IModelObject",
+            "pageSize" : "int"
+         },
+         "operationType" : "String",
+         "createInputs" : [
+            {
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "compoundCreateInput" : "Arm0::Soa::Internal::ActiveWorkspaceReqMgmt::_2019_06::SpecNavigation::CreateInputMap",
+                        "boName" : "String"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               }
+            }
+         ],
+         "selectedElements" : "IModelObject[]",
+         "datasetVersion" : "int",
+         "dataset" : "IModelObject"
+      }
+   }
+}

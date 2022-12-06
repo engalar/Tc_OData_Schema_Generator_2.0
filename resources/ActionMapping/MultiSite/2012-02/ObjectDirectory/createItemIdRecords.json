@@ -1,0 +1,40 @@
+{
+   "OperationInput" : {
+      "records" : [
+         {
+            "registrationSite" : "int",
+            "context" : "String",
+            "domain" : "String",
+            "keyValue" : "String",
+            "itemId" : "String"
+         }
+      ],
+      "clientInfo" : {
+         "clientOdsMajorVersion" : "int",
+         "userId" : "String",
+         "osUserName" : "String",
+         "customAttributeNames" : {
+            "SampleKeyString" : "String"
+         },
+         "userName" : "String",
+         "clientServiceReleaseVersion" : "int",
+         "clientSiteId" : "int",
+         "userDataInput" : "String",
+         "roleName" : "String",
+         "clientReleaseVersion" : "int",
+         "clientNode" : "String",
+         "clientCorrelID" : "String",
+         "clientMinorReleaseVersion" : "int",
+         "targetServerSiteId" : "int",
+         "groupName" : "String",
+         "clientOdsMinorVersion" : "int",
+         "clientMaintPackVersion" : "int"
+      }
+   },
+   "OperationResponse" : {
+      "serverCorrelID" : "String",
+      "userDataOutput" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-MultiSite-2012-02-ObjectDirectory/createItemIdRecords"
+}

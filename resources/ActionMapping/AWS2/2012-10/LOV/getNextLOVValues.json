@@ -1,0 +1,65 @@
+{
+   "ServiceOperation" : "Internal-AWS2-2012-10-LOV/getNextLOVValues",
+   "OperationResponse" : {
+      "behaviorData" : {
+         "descriptionsAttached" : "bool[]",
+         "lovUsage" : "int",
+         "rangeUpperLimit" : "String",
+         "columnNames" : {
+            "lovValueProp" : "String",
+            "filterProperties" : "String[]",
+            "displayNames" : {
+               "SampleKeyString" : "String"
+            },
+            "lovDescrProp" : "String"
+         },
+         "dependendProps" : "String[]",
+         "style" : "String",
+         "rangeLowerLimit" : "String"
+      },
+      "lovValues" : [
+         {
+            "propDisplayValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "childRows" : "Awp0::Soa::Internal::AWS2::_2012_10::LOV::LOVValueRow[]",
+            "propInternalValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "uid" : "String"
+         }
+      ],
+      "moreValuesExist" : "bool",
+      "lovData" : {
+         "lovs" : "IModelObject[]",
+         "filterData" : {
+            "order" : "int",
+            "maxResults" : "int",
+            "numberToReturn" : "int",
+            "sortPropertyName" : "String",
+            "filterString" : "String"
+         },
+         "additionalValuesSkipped" : "bool",
+         "style" : "String",
+         "currentIndex" : "int",
+         "unProcessedObjects" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "lovData" : {
+         "lovs" : "IModelObject[]",
+         "additionalValuesSkipped" : "bool",
+         "style" : "String",
+         "currentIndex" : "int",
+         "unProcessedObjects" : "String[]",
+         "filterData" : {
+            "order" : "int",
+            "maxResults" : "int",
+            "numberToReturn" : "int",
+            "filterString" : "String",
+            "sortPropertyName" : "String"
+         }
+      }
+   }
+}

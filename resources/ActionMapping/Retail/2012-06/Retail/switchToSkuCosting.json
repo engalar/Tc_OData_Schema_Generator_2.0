@@ -1,0 +1,9 @@
+{
+   "ServiceOperation" : "Internal-Retail-2012-06-Retail/switchToSkuCosting",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "input" : "IModelObject[]"
+   }
+}

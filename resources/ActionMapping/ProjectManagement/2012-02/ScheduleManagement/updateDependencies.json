@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "schedule" : "IModelObject",
+      "dependencyUpdates" : [
+         {
+            "newLag" : "int",
+            "dependency" : "IModelObject",
+            "newType" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/updateDependencies",
+   "OperationResponse" : "IServiceData"
+}

@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Qualification-2014-06-QualificationManagement/removeUserQualification",
+   "OperationInput" : {
+      "removeUserQualificationInfo" : [
+         {
+            "qualification" : "IModelObject",
+            "user" : "IModelObject"
+         }
+      ]
+   }
+}

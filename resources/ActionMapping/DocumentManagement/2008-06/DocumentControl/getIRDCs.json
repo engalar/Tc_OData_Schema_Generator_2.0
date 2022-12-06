@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "itemRevs" : "IModelObject[]"
+   },
+   "OperationResponse" : {
+      "outIRDC" : "IModelObject[]",
+      "svcData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-DocumentManagement-2008-06-DocumentControl/getIRDCs"
+}

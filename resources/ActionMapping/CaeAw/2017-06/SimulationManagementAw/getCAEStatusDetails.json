@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "contextObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-06-SimulationManagementAw/getCAEStatusDetails",
+   "OperationResponse" : {
+      "caeStatus" : "String",
+      "outOfDateDetails" : {
+         "SampleKeyString" : "int"
+      },
+      "lastUpToDateTimestamp" : "Date",
+      "serviceData" : "IServiceData"
+   }
+}

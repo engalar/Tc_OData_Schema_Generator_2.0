@@ -1,0 +1,20 @@
+{
+   "OperationInput" : {
+      "importPreferenceIn" : {
+         "importAction" : "String",
+         "fileTicket" : "String",
+         "locations" : [
+            {
+               "object" : "IModelObject",
+               "location" : "String"
+            }
+         ],
+         "categoryNames" : "String[]"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "fileTicket" : "String"
+   },
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/importPreferencesAtLocations"
+}

@@ -1,0 +1,25 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "aNves" : "IModelObject[]",
+            "component" : "IModelObject",
+            "carrySubstitutes" : "bool",
+            "splitAndClone" : "bool",
+            "abeAPN" : "IModelObject",
+            "values" : [
+               {
+                  "noteText" : "String",
+                  "noteType" : "String"
+               }
+            ],
+            "bomLine" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "component" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Rdv-2008-05-ContextManagement/replacePartInProduct"
+}

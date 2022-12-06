@@ -1,0 +1,10 @@
+{
+   "OperationResponse" : {
+      "output" : "String[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "SocialInt-2019-06-TeamCollaborationService/queryAppIds",
+   "OperationInput" : {
+      "input" : "String[]"
+   }
+}

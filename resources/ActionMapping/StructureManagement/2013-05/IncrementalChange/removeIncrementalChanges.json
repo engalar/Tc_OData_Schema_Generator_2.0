@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "StructureManagement-2013-05-IncrementalChange/removeIncrementalChanges",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "listOfObjects" : [
+         {
+            "ices" : "IModelObject[]",
+            "object" : "IModelObject"
+         }
+      ]
+   }
+}

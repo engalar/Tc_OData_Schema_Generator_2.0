@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "plantids" : "String[]"
+   },
+   "OperationResponse" : {
+      "plantDatabaseInfo" : {
+         "SampleKeyString" : "String"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ProductionManagement-2017-11-MeasurementDataQuery/getDatabaseKeysForPlants"
+}

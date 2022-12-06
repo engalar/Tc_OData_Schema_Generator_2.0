@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "searchCursor" : "IModelObject"
+   },
+   "ServiceOperation" : "StructureManagement-2008-05-StructureSearch/stopSearch",
+   "OperationResponse" : {
+      "estimatedLinesLeft" : "int",
+      "searchCursor" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "bomLines" : "IModelObject[]",
+      "percentComplete" : "double",
+      "finished" : "bool",
+      "linesDone" : "int"
+   }
+}

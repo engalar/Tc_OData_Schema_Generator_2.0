@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "allocationWindow" : "IModelObject",
+      "allocationLines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Allocations-2011-06-Allocation/createAllocationContext2",
+   "OperationInput" : {
+      "input" : {
+         "id" : "String",
+         "revision" : "String",
+         "attrValueMap" : {
+            "SampleKeyString" : "String"
+         },
+         "name" : "String",
+         "type" : "String",
+         "openedBOMWindows" : "IModelObject[]"
+      }
+   }
+}

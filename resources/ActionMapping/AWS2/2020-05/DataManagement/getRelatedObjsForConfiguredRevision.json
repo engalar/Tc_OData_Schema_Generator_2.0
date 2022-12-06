@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "response" : [
+         {
+            "childrenObj" : "IModelObject[]",
+            "propertyName" : "String",
+            "parentObj" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-AWS2-2020-05-DataManagement/getRelatedObjsForConfiguredRevision",
+   "OperationInput" : {
+      "input" : [
+         {
+            "childrenObj" : "IModelObject[]",
+            "propertyName" : "String",
+            "parentObj" : "IModelObject"
+         }
+      ]
+   }
+}

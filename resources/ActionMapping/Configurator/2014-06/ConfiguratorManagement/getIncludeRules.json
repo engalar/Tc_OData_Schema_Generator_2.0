@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "context" : "IModelObject",
+      "filterCriteria" : {
+         "familyFilters" : {
+            "families" : "IModelObject[]",
+            "familyIDs" : "String[]"
+         },
+         "groupFilters" : {
+            "groups" : "IModelObject[]",
+            "groupIDs" : "String[]"
+         },
+         "valueFilters" : {
+            "valueIDs" : "String[]",
+            "values" : "IModelObject[]"
+         },
+         "includeUnreferencedRules" : "bool"
+      },
+      "severities" : "String[]"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/getIncludeRules"
+}

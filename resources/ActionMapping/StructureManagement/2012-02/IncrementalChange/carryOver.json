@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "bomLineInfos" : [
+         {
+            "sourceLine" : "IModelObject",
+            "targetLine" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "StructureManagement-2012-02-IncrementalChange/carryOver"
+}

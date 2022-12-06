@@ -1,0 +1,9 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-SimProc-2019-06-SimDataManagement/importCAEData",
+   "OperationInput" : {
+      "isAsync" : "bool",
+      "selectedFolder" : "IModelObject",
+      "zipFileTickets" : "String[]"
+   }
+}

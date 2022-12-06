@@ -1,0 +1,23 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "paritionScheme" : "IModelObject",
+            "isListTruncated" : "bool",
+            "partitions" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Partition-2011-06-PartitionManagement/getPartitions",
+   "OperationInput" : {
+      "input" : [
+         {
+            "partitionScheme" : "IModelObject",
+            "maxPartitionCount" : "int",
+            "modelCntxt" : "IModelObject",
+            "configurationContext" : "IModelObject"
+         }
+      ]
+   }
+}

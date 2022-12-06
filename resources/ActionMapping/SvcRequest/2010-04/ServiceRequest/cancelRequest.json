@@ -1,0 +1,20 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientId" : "String",
+            "output" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "SvcRequest-2010-04-ServiceRequest/cancelRequest",
+   "OperationInput" : {
+      "input" : [
+         {
+            "request" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

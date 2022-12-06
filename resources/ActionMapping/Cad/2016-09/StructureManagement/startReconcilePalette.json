@@ -1,0 +1,74 @@
+{
+   "OperationResponse" : {
+      "finished" : "bool",
+      "percentComplete" : "double",
+      "configurationMisMatch" : "bool",
+      "estimatedMVPsLeft" : "int",
+      "origConfigInfo" : {
+         "configOptions" : [
+            {
+               "boolValues" : "bool[]",
+               "doubleValues" : "double[]",
+               "strValues" : "String[]",
+               "dateValues" : "Date[]",
+               "refValues" : "IModelObject[]",
+               "intValues" : "int[]",
+               "optionName" : "String"
+            }
+         ],
+         "configWindow" : "IModelObject",
+         "variantRules" : "IModelObject[]",
+         "revRuleConfigEntriesAsStrings" : "String[]",
+         "revisionRule" : "IModelObject"
+      },
+      "palMVPReconcileInfos" : [
+         {
+            "reconcileInfos" : [
+               {
+                  "reconcileActionEnum" : "String",
+                  "candidateMVP" : "IModelObject",
+                  "reconcileAction" : "String",
+                  "reconcileReason" : "String",
+                  "candidateStructNodeInfos" : [
+                     {
+                        "csIdContextOccurrence" : "IModelObject",
+                        "cloneStableIdChain" : "String[]",
+                        "structNode" : "IModelObject"
+                     }
+                  ]
+               }
+            ],
+            "paletteMVP" : "IModelObject"
+         }
+      ],
+      "reconcileConfigInfo" : {
+         "revisionRule" : "IModelObject",
+         "revRuleConfigEntriesAsStrings" : "String[]",
+         "variantRules" : "IModelObject[]",
+         "configWindow" : "IModelObject",
+         "configOptions" : [
+            {
+               "intValues" : "int[]",
+               "refValues" : "IModelObject[]",
+               "optionName" : "String",
+               "boolValues" : "bool[]",
+               "doubleValues" : "double[]",
+               "dateValues" : "Date[]",
+               "strValues" : "String[]"
+            }
+         ]
+      },
+      "clientID" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Cad-2016-09-StructureManagement/startReconcilePalette",
+   "OperationInput" : {
+      "reconcilePaletteInput" : {
+         "doEntirePalette" : "bool",
+         "mvProxiesOrMvGroups" : "IModelObject[]",
+         "clientID" : "String",
+         "configRecipe" : "IModelObject",
+         "paletteOrDisclosingObject" : "IModelObject"
+      }
+   }
+}

@@ -1,0 +1,24 @@
+{
+   "OperationResponse" : {
+      "partialErrors" : "IServiceData",
+      "output" : [
+         {
+            "ruleDomain" : "String",
+            "verdict" : "bool",
+            "name" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Administration-2008-12-Authorization/checkAuthorizationAccess",
+   "OperationInput" : {
+      "role" : "IModelObject",
+      "inputNames" : [
+         {
+            "name" : "String",
+            "ruleDomain" : "String"
+         }
+      ],
+      "user" : "IModelObject",
+      "group" : "IModelObject"
+   }
+}

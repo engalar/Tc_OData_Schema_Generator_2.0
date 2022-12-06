@@ -1,0 +1,49 @@
+{
+   "ServiceOperation" : "Internal-AsMaintainedAw-2014-06-AsMaintainedAw/searchInstallPhysicalPart",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "parentPhysicalPart" : "IModelObject",
+            "altInstallablePhysParts" : "IModelObject[]",
+            "usageName" : "String",
+            "lotNumbers" : {
+               "SampleKeyString" : "String[]"
+            },
+            "isParent" : "bool",
+            "dispositions" : "String[]",
+            "manufacturerIds" : {
+               "SampleKeyString" : "String"
+            },
+            "prefInstallableNeutralParts" : "IModelObject[]",
+            "clientId" : "String",
+            "isMissingPart" : "bool",
+            "deviatedInstallablePhysParts" : "IModelObject[]",
+            "subInstallablePhysParts" : "IModelObject[]",
+            "locations" : "String[]",
+            "subInstallableNeutralParts" : "IModelObject[]",
+            "deviatedInstallableNeutralPart" : "IModelObject[]",
+            "endOfSearchFound" : "bool",
+            "prefInstallablePhysParts" : "IModelObject[]",
+            "altInstallableNeutralParts" : "IModelObject[]",
+            "searchResultIndex" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "searchFlag" : "bool",
+            "searchInfo" : {
+               "searchMap" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "childBomLine" : "IModelObject",
+            "clientId" : "String",
+            "searchResultIndex" : "int",
+            "physPartRev" : "IModelObject"
+         }
+      ]
+   }
+}

@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "lines" : "IModelObject[]",
+      "searchConditions" : [
+         {
+            "relationalOperator" : "String",
+            "logicalOperator" : "String",
+            "inputValue" : "String",
+            "propertyName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2014-06-StructureFilterWithExpand/expandAndSearch",
+   "OperationResponse" : {
+      "outputLines" : [
+         {
+            "resultLine" : "IModelObject",
+            "satisfiedConditions" : "int[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

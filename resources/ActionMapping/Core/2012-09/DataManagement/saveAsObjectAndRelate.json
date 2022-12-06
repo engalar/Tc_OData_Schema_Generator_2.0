@@ -1,0 +1,136 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "objects" : "IModelObject[]",
+            "targetObject" : "IModelObject"
+         }
+      ],
+      "saveAsTrees" : [
+         {
+            "childSaveAsNodes" : "Teamcenter::Soa::Core::_2011_06::DataManagement::SaveAsTree[]",
+            "originalObject" : "IModelObject",
+            "objectCopy" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2012-09-DataManagement/saveAsObjectAndRelate",
+   "OperationInput" : {
+      "saveAsInput" : [
+         {
+            "saveAsInput" : {
+               "boolProps" : {
+                  "SampleKeyString" : "bool"
+               },
+               "intArrayProps" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "doubleArrayProps" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "dateProps" : {
+                  "SampleKeyString" : "Date"
+               },
+               "dateArrayProps" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "doubleProps" : {
+                  "SampleKeyString" : "double"
+               },
+               "stringProps" : {
+                  "SampleKeyString" : "String"
+               },
+               "tagArrayProps" : {
+                  "SampleKeyString" : "IModelObject[]"
+               },
+               "boName" : "String",
+               "floatArrayProps" : {
+                  "SampleKeyString" : "float[]"
+               },
+               "intProps" : {
+                  "SampleKeyString" : "int"
+               },
+               "boolArrayProps" : {
+                  "SampleKeyString" : "bool[]"
+               },
+               "tagProps" : {
+                  "SampleKeyString" : "IModelObject"
+               },
+               "stringArrayProps" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "floatProps" : {
+                  "SampleKeyString" : "float"
+               }
+            },
+            "deepCopyDatas" : [
+               {
+                  "childDeepCopyData" : "Teamcenter::Soa::Core::_2011_06::DataManagement::DeepCopyData[]",
+                  "propertyName" : "String",
+                  "attachedObject" : "IModelObject",
+                  "copyRelations" : "bool",
+                  "saveAsInput" : {
+                     "floatProps" : {
+                        "SampleKeyString" : "float"
+                     },
+                     "floatArrayProps" : {
+                        "SampleKeyString" : "float[]"
+                     },
+                     "boName" : "String",
+                     "tagArrayProps" : {
+                        "SampleKeyString" : "IModelObject[]"
+                     },
+                     "stringArrayProps" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "boolArrayProps" : {
+                        "SampleKeyString" : "bool[]"
+                     },
+                     "tagProps" : {
+                        "SampleKeyString" : "IModelObject"
+                     },
+                     "intProps" : {
+                        "SampleKeyString" : "int"
+                     },
+                     "dateProps" : {
+                        "SampleKeyString" : "Date"
+                     },
+                     "dateArrayProps" : {
+                        "SampleKeyString" : "Date[]"
+                     },
+                     "doubleProps" : {
+                        "SampleKeyString" : "double"
+                     },
+                     "stringProps" : {
+                        "SampleKeyString" : "String"
+                     },
+                     "doubleArrayProps" : {
+                        "SampleKeyString" : "double[]"
+                     },
+                     "intArrayProps" : {
+                        "SampleKeyString" : "int[]"
+                     },
+                     "boolProps" : {
+                        "SampleKeyString" : "bool"
+                     }
+                  },
+                  "isRequired" : "bool",
+                  "saveAsInputTypeName" : "String",
+                  "copyAction" : "String",
+                  "isTargetPrimary" : "bool",
+                  "propertyType" : "Relation Reference"
+               }
+            ],
+            "targetObject" : "IModelObject"
+         }
+      ],
+      "relateInfo" : [
+         {
+            "propertyName" : "String",
+            "target" : "IModelObject",
+            "relate" : "bool"
+         }
+      ]
+   }
+}

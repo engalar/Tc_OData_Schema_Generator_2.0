@@ -1,0 +1,8 @@
+{
+   "OperationResponse" : "String",
+   "ServiceOperation" : "Internal-CodeCoverage-2011-06-CodeCoverageManagement/performOperation",
+   "OperationInput" : {
+      "arguments" : "String[]",
+      "opType" : "String"
+   }
+}

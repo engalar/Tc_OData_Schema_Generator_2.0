@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Internal-ResourceManager-2020-05-ResourceOccurrencesManagement/replaceResourceElement",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "input" : {
+         "productContextInfo" : "IModelObject",
+         "replacement" : "IModelObject",
+         "resourceElements" : "IModelObject[]"
+      }
+   }
+}

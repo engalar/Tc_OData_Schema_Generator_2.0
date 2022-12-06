@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "copyRulesKey" : "String",
+      "notifyEvents" : "bool",
+      "pasteDuplicateInput" : [
+         {
+            "sourceLine" : "IModelObject",
+            "targetLine" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "pasteDuplicateOutput" : [
+         {
+            "srcLineIndex" : "int",
+            "targetLine" : "IModelObject",
+            "newChildLine" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Manufacturing-2018-11-StructureManagement/pasteDuplicateStructure"
+}

@@ -1,0 +1,8 @@
+{
+   "OperationInput" : {
+      "selectedObjects" : "IModelObject[]",
+      "contextObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/deleteExternalLinks",
+   "OperationResponse" : "IServiceData"
+}

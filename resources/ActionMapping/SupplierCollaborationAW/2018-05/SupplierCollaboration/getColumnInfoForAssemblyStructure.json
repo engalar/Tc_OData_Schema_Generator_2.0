@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "columnInfo" : [
+         {
+            "propDisplayName" : "String",
+            "columnWidth" : "int",
+            "isDisplayed" : "bool",
+            "propInternalName" : "String",
+            "typeName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaborationAW-2018-05-SupplierCollaboration/getColumnInfoForAssemblyStructure"
+}

@@ -1,0 +1,16 @@
+{
+   "OperationResponse" : {
+      "userInfo" : {
+         "SampleKeyString" : "String"
+      },
+      "siteId" : "int",
+      "sessionValues" : {
+         "SampleKeyString" : "String[]"
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Administration-2018-11-IRM/getSessionInfoFromTicket",
+   "OperationInput" : {
+      "sessionInfoTicket" : "String"
+   }
+}

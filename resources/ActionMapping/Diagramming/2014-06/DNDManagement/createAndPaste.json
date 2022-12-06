@@ -1,0 +1,41 @@
+{
+   "ServiceOperation" : "Diagramming-2014-06-DNDManagement/createAndPaste",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "clientID" : "String",
+            "pasteResultObject" : "IModelObject",
+            "newObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "opType" : "String",
+            "createData" : {
+               "compoundCreateInput" : {
+                  "SampleKeyString" : [
+                     {
+                        "propertyNameValues" : {
+                           "SampleKeyString" : "String[]"
+                        },
+                        "compoundCreateInput" : "Fnd0::Soa::Diagramming::_2014_06::DNDManagement::CreateInputMap",
+                        "boName" : "String"
+                     }
+                  ]
+               },
+               "boName" : "String",
+               "propertyNameValues" : {
+                  "SampleKeyString" : "String[]"
+               }
+            },
+            "clientId" : "String",
+            "pasteTarget" : "IModelObject",
+            "newObject" : "IModelObject",
+            "pasteRelation" : "String"
+         }
+      ]
+   }
+}

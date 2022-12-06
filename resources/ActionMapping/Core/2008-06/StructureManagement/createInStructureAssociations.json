@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "associationType" : "String",
+            "primaryBOMLine" : "IModelObject",
+            "secondaries" : "IModelObject[]",
+            "contextBOMLine" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Core-2008-06-StructureManagement/createInStructureAssociations"
+}

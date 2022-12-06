@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "limitInput" : [
+         {
+            "success" : "bool",
+            "ftrLimits" : [
+               {
+                  "usl" : "double",
+                  "ftrUid" : "String",
+                  "lsl" : "double",
+                  "ftrattCode" : "String"
+               }
+            ],
+            "plantId" : "String",
+            "routineRev" : "String",
+            "routineId" : "String",
+            "creationTime" : "String",
+            "deviceType" : "String"
+         }
+      ],
+      "targetTable" : "String"
+   },
+   "ServiceOperation" : "ProductionManagement-2007-06-MeasurementDataLoad/insertLimitData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData"
+   }
+}

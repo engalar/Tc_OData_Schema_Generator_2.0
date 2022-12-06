@@ -1,0 +1,57 @@
+{
+   "OperationInput" : {
+      "loInputs" : [
+         {
+            "rootObjects" : [
+               {
+                  "clientID" : "String",
+                  "root" : "IModelObject"
+               }
+            ],
+            "loTypeName" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "Core-2018-06-LogicalObject/getLogicalObjects2",
+   "OperationResponse" : {
+      "loOutputs" : [
+         {
+            "logicalObjectsOutput" : [
+               {
+                  "root" : "IModelObject",
+                  "logicalObjectInstances" : [
+                     {
+                        "memberClassificationObjects" : [
+                           {
+                              "memberOrRootName" : "String",
+                              "icoIDs" : "String[]"
+                           }
+                        ],
+                        "loInstance" : "IModelObject"
+                     }
+                  ]
+               }
+            ]
+         }
+      ],
+      "classificationObjectInfo" : {
+         "SampleKeyString" : {
+            "icoClassName" : "String",
+            "unitBase" : "String",
+            "icoID" : "String",
+            "classifiedObjectUID" : "String",
+            "icoAttributeValues" : [
+               {
+                  "unit" : "String",
+                  "attributeValues" : "String[]",
+                  "attributeName" : "String",
+                  "attributeID" : "int"
+               }
+            ],
+            "icoType" : "int",
+            "icoClassId" : "String"
+         }
+      },
+      "serviceData" : "IServiceData"
+   }
+}

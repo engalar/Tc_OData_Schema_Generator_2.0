@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "searchScope" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Manufacturing-2008-06-Core/findCheckedOutsInStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "checkedOutList" : "IModelObject[]"
+   }
+}

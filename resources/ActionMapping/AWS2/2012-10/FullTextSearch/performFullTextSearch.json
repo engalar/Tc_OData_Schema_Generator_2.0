@@ -1,0 +1,63 @@
+{
+   "OperationResponse" : {
+      "searchFilterCategories" : [
+         {
+            "internalName" : "String",
+            "displayName" : "String",
+            "defaultFilterValueDisplayCount" : "int"
+         }
+      ],
+      "searchResults" : "IModelObject[]",
+      "defaultFilterFieldDisplayCount" : "int",
+      "searchFilterMap" : {
+         "SampleKeyString" : [
+            {
+               "startNumericValue" : "double",
+               "endNumericValue" : "double",
+               "startDateValue" : "Date",
+               "endDateValue" : "Date",
+               "searchFilterType" : "StringFilter DateFilter NumericFilter",
+               "stringValue" : "String",
+               "count" : "int",
+               "startEndRange" : "String",
+               "selected" : "bool"
+            }
+         ]
+      },
+      "totalLoaded" : "int",
+      "serviceData" : "IServiceData",
+      "totalFound" : "int"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-FullTextSearch/performFullTextSearch",
+   "OperationInput" : {
+      "searchInput" : {
+         "attributesToInflate" : "String[]",
+         "searchString" : "String",
+         "searchFilterFieldSortType" : "Alphabetical Priority",
+         "maxToReturn" : "int",
+         "startIndex" : "int",
+         "searchFilterMap" : {
+            "SampleKeyString" : [
+               {
+                  "count" : "int",
+                  "startEndRange" : "String",
+                  "selected" : "bool",
+                  "startDateValue" : "Date",
+                  "startNumericValue" : "double",
+                  "endNumericValue" : "double",
+                  "searchFilterType" : "StringFilter DateFilter NumericFilter",
+                  "stringValue" : "String",
+                  "endDateValue" : "Date"
+               }
+            ]
+         },
+         "searchSortCriteria" : [
+            {
+               "sortDirection" : "ASC DESC",
+               "fieldName" : "String"
+            }
+         ],
+         "maxToLoad" : "int"
+      }
+   }
+}

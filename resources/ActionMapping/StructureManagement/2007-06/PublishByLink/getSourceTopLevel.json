@@ -1,0 +1,15 @@
+{
+   "ServiceOperation" : "StructureManagement-2007-06-PublishByLink/getSourceTopLevel",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "topLevelBomView" : "IModelObject",
+            "inputIndex" : "int"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "targets" : "IModelObject[]"
+   }
+}

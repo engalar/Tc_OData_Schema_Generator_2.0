@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "startIndex" : "int",
+      "pageSize" : "int"
+   },
+   "ServiceOperation" : "Core-2020-01-ProjectLevelSecurity/getModifiableProjects",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "userProjects" : [
+         {
+            "userGroupRole" : {
+               "tcRole" : "IModelObject",
+               "tcUser" : "IModelObject",
+               "tcGroup" : "IModelObject"
+            },
+            "totalProjectCount" : "int",
+            "endIndex" : "int",
+            "projects" : [
+               {
+                  "privilege" : "int",
+                  "project" : "IModelObject"
+               }
+            ]
+         }
+      ]
+   }
+}

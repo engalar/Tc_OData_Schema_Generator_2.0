@@ -1,0 +1,23 @@
+{
+   "OperationInput" : {
+      "searchCriteria" : [
+         {
+            "searchOption" : "int",
+            "searchAttributes" : [
+               {
+                  "attributeId" : "int",
+                  "query" : "String"
+               }
+            ],
+            "classIds" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Retail-2010-09-Retail/searchWSOs",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "searchResults" : {
+         "SampleKeyString" : "String[]"
+      }
+   }
+}

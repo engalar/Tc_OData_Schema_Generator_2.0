@@ -1,0 +1,41 @@
+{
+   "OperationInput" : {
+      "serverInfo" : {
+         "protocol" : "String",
+         "hostpath" : "String",
+         "serverAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "servermode" : "int"
+      },
+      "idInfos" : [
+         {
+            "operation" : "String",
+            "itemRev" : "IModelObject",
+            "id" : "IModelObject",
+            "item" : "IModelObject",
+            "idAdditionalInfo" : {
+               "SampleKeyString" : "String"
+            }
+         }
+      ],
+      "userDataAgentInfo" : {
+         "userApplication" : "String",
+         "userAppVersion" : "String",
+         "userAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         }
+      },
+      "sessionInfo" : {
+         "sessionAdditionalInfo" : {
+            "SampleKeyString" : "String"
+         },
+         "sessionDescriminator" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "ticket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Visualization-2011-02-DataManagement/createLaunchFile"
+}

@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "historyInput" : {
+         "objectsToRemove" : "IModelObject[]",
+         "objectsToAdd" : "IModelObject[]",
+         "returnHistory" : "bool"
+      }
+   },
+   "OperationResponse" : {
+      "historyObjects" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-AWS2-2012-10-DataManagement/updateHistory"
+}

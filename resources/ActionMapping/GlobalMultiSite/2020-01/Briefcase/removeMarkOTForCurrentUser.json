@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "successInfo" : "String[]",
+      "serviceData" : "IServiceData",
+      "failureInfo" : [
+         {
+            "objectUID" : "String",
+            "errorInfo" : [
+               {
+                  "elementName" : "String",
+                  "elementValue" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2020-01-Briefcase/removeMarkOTForCurrentUser",
+   "OperationInput" : {
+      "objects" : "String[]",
+      "appId" : "String"
+   }
+}

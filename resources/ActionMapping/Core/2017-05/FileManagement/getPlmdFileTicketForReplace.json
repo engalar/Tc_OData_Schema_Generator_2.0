@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "infos" : [
+         {
+            "dataset" : "IModelObject",
+            "absoluteFilePath" : "String",
+            "imanFile" : "IModelObject",
+            "namedReferenceName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "ticket" : "String"
+   },
+   "ServiceOperation" : "Internal-Core-2017-05-FileManagement/getPlmdFileTicketForReplace"
+}

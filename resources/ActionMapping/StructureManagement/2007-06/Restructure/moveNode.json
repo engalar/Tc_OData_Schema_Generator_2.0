@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "bomLines" : "IModelObject[]",
+            "newParent" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-Restructure/moveNode",
+   "OperationResponse" : "IServiceData"
+}

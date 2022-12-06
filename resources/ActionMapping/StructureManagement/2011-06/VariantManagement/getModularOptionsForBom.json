@@ -1,0 +1,50 @@
+{
+   "OperationInput" : {
+      "modules" : [
+         {
+            "bomLines" : "IModelObject[]",
+            "bomWindow" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2011-06-VariantManagement/getModularOptionsForBom",
+   "OperationResponse" : {
+      "optionsOutput" : [
+         {
+            "optionsInfo" : [
+               {
+                  "options" : {
+                     "mvl" : "String",
+                     "options" : [
+                        {
+                           "defaultValue" : "String",
+                           "optionValueType" : "int",
+                           "allowedValues" : "String[]",
+                           "basedOnOption" : {
+                              "basedOptionId" : "int",
+                              "owningModuleKey" : "String",
+                              "owningOptionName" : "String",
+                              "path" : "String",
+                              "basedOnType" : "int"
+                           },
+                           "mvlDefinitions" : "String[]",
+                           "optionType" : "int",
+                           "maxValues" : "double[]",
+                           "optionScope" : "int",
+                           "optionName" : "String",
+                           "optionDescription" : "String",
+                           "minValues" : "double[]",
+                           "optionId" : "int",
+                           "operationTypes" : "int[]"
+                        }
+                     ]
+                  },
+                  "bomLine" : "IModelObject"
+               }
+            ],
+            "bomWindow" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

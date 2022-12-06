@@ -1,0 +1,56 @@
+{
+   "OperationInput" : {
+      "inputData" : {
+         "rollupDataset" : "IModelObject",
+         "requestPref" : {
+            "SampleKeyString" : "String[]"
+         },
+         "parent" : "String"
+      }
+   },
+   "ServiceOperation" : "Internal-WeightandBalanceAw-2020-05-Report/getStructureInfoFromRollupReport",
+   "OperationResponse" : {
+      "parentChildrenInfos" : [
+         {
+            "childrenInfo" : [
+               {
+                  "displayName" : "String",
+                  "underlyingObjectType" : "String",
+                  "propNameValueMap" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "nodeId" : "String",
+                  "numberOfChildren" : "int"
+               }
+            ],
+            "parentInfo" : {
+               "numberOfChildren" : "int",
+               "propNameValueMap" : {
+                  "SampleKeyString" : "String"
+               },
+               "nodeId" : "String",
+               "underlyingObjectType" : "String",
+               "displayName" : "String"
+            }
+         }
+      ],
+      "configurationInfo" : {
+         "SampleKeyString" : "String"
+      },
+      "responsePref" : {
+         "SampleKeyString" : "String[]"
+      },
+      "serviceData" : "IServiceData",
+      "columnConfig" : {
+         "columnConfigId" : "String",
+         "columns" : [
+            {
+               "pixelWidth" : "int",
+               "displayName" : "String",
+               "propertyName" : "String"
+            }
+         ],
+         "operationType" : "String"
+      }
+   }
+}

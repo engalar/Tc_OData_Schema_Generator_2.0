@@ -1,0 +1,32 @@
+{
+   "OperationInput" : {
+      "recordUtilizationInfo" : [
+         {
+            "clientId" : "String",
+            "asmPhyPartRev" : "IModelObject",
+            "valueInput" : [
+               {
+                  "charDef" : "IModelObject",
+                  "value" : "double",
+                  "dateValue" : "Date"
+               }
+            ],
+            "recordedAt" : "Date",
+            "logbook" : "IModelObject",
+            "propagate" : "bool",
+            "capturedBy" : "String",
+            "logEntryDesc" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "AsMaintained-2015-03-AsMaintained/recordUtilization",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "logEntry" : "IModelObject",
+            "clientId" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

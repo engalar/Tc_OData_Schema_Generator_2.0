@@ -1,0 +1,36 @@
+{
+   "OperationInput" : {
+      "attachmentsInputList" : [
+         {
+            "dsContainer" : "IModelObject",
+            "importFileType" : "String",
+            "saveForm" : "bool",
+            "namedRefType" : "String",
+            "toolUsed" : "String",
+            "name" : "String",
+            "relation" : "String",
+            "objectType" : "String",
+            "datasetID" : "String",
+            "datasetRev" : "String",
+            "namedRefSubType" : "String",
+            "description" : "String",
+            "targetObject" : "IModelObject",
+            "sourceLine" : "IModelObject",
+            "importFilePath" : "String",
+            "type" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "attchments" : [
+         {
+            "createdObject" : "IModelObject",
+            "sourceLine" : "IModelObject",
+            "writeFileTicket" : "String",
+            "attachmentLine" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-Attachments/createAttachmentLines"
+}

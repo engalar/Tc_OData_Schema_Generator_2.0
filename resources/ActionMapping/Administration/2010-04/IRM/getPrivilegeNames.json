@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {},
+   "OperationResponse" : {
+      "privNameInfos" : [
+         {
+            "internalName" : "String",
+            "displayName" : "String"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Administration-2010-04-IRM/getPrivilegeNames"
+}

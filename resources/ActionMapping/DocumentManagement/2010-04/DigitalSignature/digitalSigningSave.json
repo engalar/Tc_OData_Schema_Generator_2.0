@@ -1,0 +1,17 @@
+{
+   "ServiceOperation" : "DocumentManagement-2010-04-DigitalSignature/digitalSigningSave",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "basedDataset" : "IModelObject"
+   },
+   "OperationInput" : {
+      "saveInput" : {
+         "validSignature" : "bool",
+         "createToolName" : "String",
+         "signTime" : "String",
+         "baseObj" : "IModelObject",
+         "userNameWhoSign" : "String",
+         "signedFileTicket" : "String"
+      }
+   }
+}

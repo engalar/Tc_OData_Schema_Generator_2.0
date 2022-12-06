@@ -1,0 +1,23 @@
+{
+   "ServiceOperation" : "SvcRequest-2010-04-ServiceRequest/timeAndCostRollup",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "serviceRequest" : "IModelObject",
+            "timeCostProps" : {
+               "SampleKeyString" : "String"
+            },
+            "clientId" : "String"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : [
+         {
+            "serviceRequest" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

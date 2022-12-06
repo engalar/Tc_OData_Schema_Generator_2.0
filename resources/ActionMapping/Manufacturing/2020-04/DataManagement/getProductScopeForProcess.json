@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "processLine" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2020-04-DataManagement/getProductScopeForProcess",
+   "OperationResponse" : {
+      "scopedProductBOMLine" : "ARRAY(0x14fc5401c78)[]",
+      "serviceData" : "IServiceData"
+   }
+}

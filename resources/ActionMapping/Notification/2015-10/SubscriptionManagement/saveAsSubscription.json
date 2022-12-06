@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : {
+      "subscriptions" : "IModelObject[]",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Notification-2015-10-SubscriptionManagement/saveAsSubscription",
+   "OperationInput" : {
+      "input" : {
+         "subscription" : "IModelObject",
+         "name" : "String"
+      }
+   }
+}

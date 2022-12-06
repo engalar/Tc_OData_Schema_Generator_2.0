@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "unreplacedMaterialInput" : [
+         {
+            "newMaterialRev" : "IModelObject",
+            "itemRev" : "IModelObject",
+            "existingMaterialRev" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-Retail-2009-10-Retail/replaceAllMaterialOcc",
+   "OperationInput" : {
+      "input" : [
+         {
+            "existingMaterialRev" : "IModelObject",
+            "itemRev" : "IModelObject",
+            "newMaterialRev" : "IModelObject"
+         }
+      ]
+   }
+}

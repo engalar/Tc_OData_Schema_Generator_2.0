@@ -1,0 +1,11 @@
+{
+   "ServiceOperation" : "Workflow-2008-06-Workflow/getWorkflowTemplates",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "workflowTemplates" : "IModelObject[]"
+   },
+   "OperationInput" : {
+      "allOrAssignedCriteria" : "SOA_EPM_All SOA_EPM_Assigned",
+      "targets" : "IModelObject[]"
+   }
+}

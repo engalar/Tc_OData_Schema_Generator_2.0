@@ -1,0 +1,37 @@
+{
+   "OperationInput" : {
+      "getPreferenceAtLocationIn" : [
+         {
+            "preferenceNames" : "String[]",
+            "location" : {
+               "location" : "String",
+               "object" : "IModelObject"
+            }
+         }
+      ],
+      "includePreferenceDescriptions" : "bool"
+   },
+   "OperationResponse" : {
+      "data" : "IServiceData",
+      "responses" : [
+         {
+            "values" : {
+               "values" : "String[]",
+               "valueOrigination" : "String"
+            },
+            "definition" : {
+               "type" : "int",
+               "name" : "String",
+               "isDisabled" : "bool",
+               "description" : "String",
+               "protectionScope" : "String",
+               "isEnvEnabled" : "bool",
+               "category" : "String",
+               "isOOTBPreference" : "bool",
+               "isArray" : "bool"
+            }
+         }
+      ]
+   },
+   "ServiceOperation" : "Administration-2012-09-PreferenceManagement/getPreferencesAtLocations"
+}

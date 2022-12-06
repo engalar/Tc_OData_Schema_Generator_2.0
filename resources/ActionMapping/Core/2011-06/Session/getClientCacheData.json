@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "features" : "String[]"
+   },
+   "OperationResponse" : {
+      "features" : [
+         {
+            "cacheTickets" : {
+               "SampleKeyString" : "String"
+            },
+            "name" : "String"
+         }
+      ],
+      "partialErrors" : "IModelObject"
+   },
+   "ServiceOperation" : "Core-2011-06-Session/getClientCacheData"
+}

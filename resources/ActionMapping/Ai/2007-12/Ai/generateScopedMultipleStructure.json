@@ -1,0 +1,44 @@
+{
+   "OperationInput" : {
+      "objectsToProcess" : [
+         {
+            "config" : {
+               "configuringObject" : {
+                  "version" : "String",
+                  "application" : "String",
+                  "label" : "String"
+               },
+               "revRuleName" : "String",
+               "relatedContexts" : [
+                  {
+                     "version" : "String",
+                     "application" : "String",
+                     "label" : "String"
+                  }
+               ],
+               "variantRule" : {
+                  "application" : "String",
+                  "version" : "String",
+                  "label" : "String"
+               },
+               "useDefaultRevisionRule" : "bool"
+            },
+            "apprefs" : [
+               {
+                  "label" : "String",
+                  "application" : "String",
+                  "version" : "String"
+               }
+            ]
+         }
+      ],
+      "aiObject" : "IModelObject",
+      "serverMode" : "int",
+      "exportTransferMode" : "String"
+   },
+   "ServiceOperation" : "Ai-2007-12-Ai/generateScopedMultipleStructure",
+   "OperationResponse" : {
+      "ticket" : "String",
+      "data" : "IServiceData"
+   }
+}

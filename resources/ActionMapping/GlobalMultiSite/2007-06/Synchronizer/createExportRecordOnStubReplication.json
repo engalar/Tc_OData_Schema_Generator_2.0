@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "replicaSite" : "int",
+      "transactionID" : "String",
+      "transferFormula" : "String",
+      "inputReplicaGSIdentityList" : "String[]"
+   },
+   "OperationResponse" : {
+      "logFmsTicket" : "String",
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-Synchronizer/createExportRecordOnStubReplication"
+}

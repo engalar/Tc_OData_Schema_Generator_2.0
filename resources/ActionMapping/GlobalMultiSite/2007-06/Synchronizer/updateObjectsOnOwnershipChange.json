@@ -1,0 +1,11 @@
+{
+   "OperationInput" : {
+      "newOwningSite" : "int",
+      "inputReplicaGSIdentityList" : "String[]"
+   },
+   "ServiceOperation" : "Internal-GlobalMultiSite-2007-06-Synchronizer/updateObjectsOnOwnershipChange",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "logFmsTicket" : "String"
+   }
+}

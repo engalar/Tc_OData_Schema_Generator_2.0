@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-PlantDataMgmt-2018-06-PdmCore/setReleaseStatusInBulk",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "releaseDate" : "Date",
+      "releaseStatusListToSkip" : "String[]",
+      "skipIfAlreadyHasStatus" : "bool",
+      "workspaceObjs" : "IModelObject[]",
+      "revisionRuleName" : "String",
+      "releaseStatus" : "String"
+   }
+}

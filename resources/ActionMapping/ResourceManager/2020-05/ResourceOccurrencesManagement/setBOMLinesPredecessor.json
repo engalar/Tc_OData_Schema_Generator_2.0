@@ -1,0 +1,8 @@
+{
+   "ServiceOperation" : "Internal-ResourceManager-2020-05-ResourceOccurrencesManagement/setBOMLinesPredecessor",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "newAddedComponentUIDs" : "String[]",
+      "predecessorComponentUID" : "String"
+   }
+}

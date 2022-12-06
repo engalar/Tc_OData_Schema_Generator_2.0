@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Ai-2006-03-Ai/setExchangeMessage",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "stateMsg" : "String",
+      "id" : "IModelObject",
+      "info" : {
+         "description" : "String",
+         "status" : "RequestStatus_Normal RequestStatus_Warning RequestStatus_Severe RequestStatus_Abort RequestStatus_Any"
+      }
+   }
+}

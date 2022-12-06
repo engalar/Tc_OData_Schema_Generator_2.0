@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Internal-SimProc-2017-05-SimStructureManagement/highlightModelStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "highlightModelMap" : {
+         "SampleKeyString" : "IModelObject[]"
+      }
+   },
+   "OperationInput" : {
+      "modelRoot" : "IModelObject"
+   }
+}

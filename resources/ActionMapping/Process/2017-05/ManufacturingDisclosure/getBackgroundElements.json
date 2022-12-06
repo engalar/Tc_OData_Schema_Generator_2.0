@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "context" : "IModelObject"
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "deletedElementsInfo" : {
+         "SampleKeyString" : {
+            "activity" : "IModelObject",
+            "elementDisplayInfo" : "String"
+         }
+      },
+      "backgroundelements" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Process-2017-05-ManufacturingDisclosure/getBackgroundElements"
+}

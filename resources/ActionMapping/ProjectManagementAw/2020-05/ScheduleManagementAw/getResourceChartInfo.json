@@ -1,0 +1,46 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "resourceChartInfoList" : [
+         {
+            "resource" : "String",
+            "resourceInfoPerDay" : [
+               {
+                  "resourceInfo" : [
+                     {
+                        "name" : "String",
+                        "keyValue" : "String"
+                     }
+                  ],
+                  "date" : "Date",
+                  "assignedTasksInfo" : [
+                     {
+                        "info" : [
+                           {
+                              "keyValue" : "String",
+                              "name" : "String"
+                           }
+                        ],
+                        "taskUid" : "String"
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+   },
+   "ServiceOperation" : "ProjectManagementAw-2020-05-ScheduleManagementAw/getResourceChartInfo",
+   "OperationInput" : {
+      "resources" : "String[]",
+      "schedulesToInclude" : "IModelObject[]",
+      "assignedObjects" : "IModelObject[]",
+      "loadOptions" : [
+         {
+            "name" : "String",
+            "keyValue" : "String"
+         }
+      ],
+      "startDate" : "Date",
+      "endDate" : "Date"
+   }
+}

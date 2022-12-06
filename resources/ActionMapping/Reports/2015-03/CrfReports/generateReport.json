@@ -1,0 +1,39 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "contextObjectUIDs" : "String[]",
+            "reportOptionsNames" : "String[]",
+            "clientId" : "String",
+            "reportOptionsValues" : "String[]",
+            "datasetCtxObj" : "IModelObject",
+            "criteriaValues" : "String[]",
+            "reportName" : "String",
+            "rdTag" : "IModelObject",
+            "datasetType" : "String",
+            "datasetName" : "String",
+            "datasetCtxUID" : "String",
+            "stylesheetName" : "String",
+            "contextObjects" : "IModelObject[]",
+            "stylesheetTag" : "IModelObject",
+            "relationName" : "String",
+            "criteriaNames" : "String[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Reports-2015-03-CrfReports/generateReport",
+   "OperationResponse" : {
+      "asyncFlagInfo" : "bool",
+      "transientFileTicketInfos" : [
+         {
+            "transientFileInfo" : {
+               "fileName" : "String",
+               "isText" : "bool"
+            },
+            "ticket" : "String"
+         }
+      ],
+      "transientFileReadTickets" : "String[]",
+      "serviceData" : "IServiceData"
+   }
+}

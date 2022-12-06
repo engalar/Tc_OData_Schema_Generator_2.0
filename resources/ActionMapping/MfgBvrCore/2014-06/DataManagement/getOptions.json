@@ -1,0 +1,20 @@
+{
+   "ServiceOperation" : "MfgBvrCore-2014-06-DataManagement/getOptions",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "options" : [
+         {
+            "optionsAndValues" : [
+               {
+                  "values" : "String[]",
+                  "option" : "String"
+               }
+            ],
+            "sourceObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationInput" : {
+      "sourceObject" : "IModelObject[]"
+   }
+}

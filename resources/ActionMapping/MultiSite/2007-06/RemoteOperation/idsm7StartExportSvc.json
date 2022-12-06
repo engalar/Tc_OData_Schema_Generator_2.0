@@ -1,0 +1,47 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "out" : {
+         "compressPerformedFlg" : "int",
+         "failures" : [
+            {
+               "failureCode" : "int",
+               "failingObject" : "String"
+            }
+         ],
+         "exportStagingDir" : "String",
+         "exportFiles" : "String[]"
+      }
+   },
+   "ServiceOperation" : "Internal-MultiSite-2007-06-RemoteOperation/idsm7StartExportSvc",
+   "OperationInput" : {
+      "inputs" : {
+         "reason" : "String",
+         "exportObjects" : "String[]",
+         "checkClientAfterNWsos" : "int",
+         "includeObjects" : "String[]",
+         "exportOptions" : [
+            {
+               "optValue" : {
+                  "stringOptVal" : "String",
+                  "optVal" : "int"
+               },
+               "optType" : "int"
+            }
+         ],
+         "excludeObjects" : "String[]",
+         "compressFlg" : "int",
+         "compressType" : "String",
+         "clientInfo" : {
+            "osUserName" : "String",
+            "userId" : "String",
+            "clientNode" : "String",
+            "roleName" : "String",
+            "userName" : "String",
+            "clientSiteId" : "int",
+            "targetSiteId" : "int",
+            "groupName" : "String"
+         }
+      }
+   }
+}

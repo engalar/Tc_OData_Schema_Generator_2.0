@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "physicalStructureInfo" : {
+               "manufacturingDate" : "Date",
+               "effectiveFromDate" : "Date",
+               "serialNumber" : "String",
+               "effectiveToDate" : "Date",
+               "locationName" : "String",
+               "dispositionType" : "String",
+               "structureContext" : "String",
+               "quantity" : "double",
+               "manufacturerId" : "String",
+               "useSerialNumberGenerators" : "bool",
+               "numberOfLevels" : "int",
+               "installationDate" : "Date",
+               "lotNumber" : "String",
+               "partNumber" : "String"
+            },
+            "generateInBackground" : "bool",
+            "neutralPart" : "IModelObject",
+            "productContext" : "IModelObject",
+            "isAsBuilt" : "bool"
+         }
+      ]
+   },
+   "ServiceOperation" : "MROCoreAw-2018-12-MROCoreAw/generatePhysicalStructure",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : {
+         "physicalPartRevision" : "IModelObject"
+      }
+   }
+}

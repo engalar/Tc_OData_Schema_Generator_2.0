@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "tableData" : [
+         {
+            "tableDefInfo" : {
+               "tableDef" : "IModelObject",
+               "rowLabels" : "String[]",
+               "cols" : "int",
+               "colLabels" : "String[]",
+               "rows" : "int"
+            },
+            "tableCells" : [
+               {
+                  "row" : "int",
+                  "value" : "String",
+                  "domainElementName" : "String",
+                  "description" : "String",
+                  "col" : "int"
+               }
+            ],
+            "tableObject" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ParameterManagement-2012-02-Parameter/setTableSEDProperties"
+}

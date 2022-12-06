@@ -1,0 +1,16 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "clientId" : "String",
+            "revisionRule" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "ContMgmtBase-2011-06-ContentManagement/createBomWindow",
+   "OperationResponse" : {
+      "bomWindow" : "IModelObject",
+      "serviceData" : "IServiceData",
+      "clientId" : "String"
+   }
+}

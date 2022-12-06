@@ -1,0 +1,35 @@
+{
+   "ServiceOperation" : "Core-2008-06-DataManagement/createConnections",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "connection" : "IModelObject",
+            "clientId" : "String",
+            "connectionRev" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "container" : "IModelObject",
+      "relationType" : "String",
+      "properties" : [
+         {
+            "connId" : "String",
+            "revId" : "String",
+            "description" : "String",
+            "extendedAttributes" : [
+               {
+                  "attributes" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "objectType" : "String"
+               }
+            ],
+            "type" : "String",
+            "name" : "String",
+            "clientId" : "String"
+         }
+      ]
+   }
+}

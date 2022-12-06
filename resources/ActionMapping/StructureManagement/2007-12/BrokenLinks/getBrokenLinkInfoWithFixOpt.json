@@ -1,0 +1,31 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "foundCandidates" : [
+         {
+            "candidates" : "IModelObject[]",
+            "brokenLink" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2007-12-BrokenLinks/getBrokenLinkInfoWithFixOpt",
+   "OperationInput" : {
+      "input" : [
+         {
+            "autofixAllowed" : "bool",
+            "brokenLinkBOMLines" : "IModelObject[]",
+            "quickSearch" : "bool",
+            "criteria" : {
+               "criteria" : [
+                  {
+                     "operatorName" : "String",
+                     "propertyName" : "String"
+                  }
+               ],
+               "previousConfiguration" : "IModelObject",
+               "candidateScopeBOMLines" : "IModelObject[]"
+            }
+         }
+      ]
+   }
+}

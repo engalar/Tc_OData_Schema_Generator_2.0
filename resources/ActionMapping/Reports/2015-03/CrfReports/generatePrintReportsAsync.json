@@ -1,0 +1,35 @@
+{
+   "OperationInput" : {
+      "reportDef" : "IModelObject",
+      "inputs" : [
+         {
+            "clientID" : "String",
+            "isBatchPrint" : "bool",
+            "inputObject" : "IModelObject",
+            "printInfos" : [
+               {
+                  "extraInfo" : {
+                     "SampleKeyString" : "String"
+                  },
+                  "bannerPage" : "String",
+                  "printStamp" : "String",
+                  "pageRange" : "String",
+                  "numberCopies" : "String",
+                  "printObjs" : "IModelObject[]",
+                  "printerName" : "String",
+                  "colorMode" : "String",
+                  "collate" : "bool",
+                  "paperSize" : "String",
+                  "printerConfigurationName" : "String",
+                  "orientation" : "String",
+                  "clientID" : "String",
+                  "userStamp" : "String",
+                  "printToScale" : "String"
+               }
+            ]
+         }
+      ]
+   },
+   "OperationResponse" : {},
+   "ServiceOperation" : "Reports-2015-03-CrfReports/generatePrintReportsAsync"
+}

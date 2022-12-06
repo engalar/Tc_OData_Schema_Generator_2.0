@@ -1,0 +1,12 @@
+{
+   "OperationInput" : {
+      "ldfFileSelectionDialogInputMap" : {
+         "SampleKeyString" : "String"
+      }
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "ldfFileSelectionDialogUrl" : "String"
+   },
+   "ServiceOperation" : "Ldf-2018-06-LinkedDataRequest/getLDFFileSelectionDialogService"
+}

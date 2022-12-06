@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "infos" : [
+         {
+            "targetAppProjectId" : "String",
+            "ai" : "IModelObject",
+            "name" : "String",
+            "targetSiteIds" : "String[]",
+            "description" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Ai-2012-09-Ai/setProjectsInfo"
+}

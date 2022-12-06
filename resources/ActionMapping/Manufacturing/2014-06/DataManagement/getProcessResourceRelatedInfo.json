@@ -1,0 +1,18 @@
+{
+   "ServiceOperation" : "Manufacturing-2014-06-DataManagement/getProcessResourceRelatedInfo",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "infoMap" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            "IModelObject[]"
+         ]
+      ]
+   },
+   "OperationInput" : {
+      "input" : "IModelObject[]",
+      "objectPreference" : "String"
+   }
+}

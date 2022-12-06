@@ -1,0 +1,32 @@
+{
+   "OperationResponse" : {
+      "output" : [
+         {
+            "parentDetails" : {
+               "parentObject" : "IModelObject",
+               "parentBOMLineProperties" : {
+                  "SampleKeyString" : "String"
+               }
+            },
+            "childrenDetails" : [
+               {
+                  "childObject" : "IModelObject",
+                  "childBOMLineProperties" : {
+                     "SampleKeyString" : "String"
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2015-07-SupplierCollaboration/expandBOMForSupplier",
+   "OperationInput" : {
+      "expandBOMForSupplierInfo" : {
+         "structureContext" : "IModelObject",
+         "returnFullStructureWithVerdict" : "bool",
+         "inputObjects" : "IModelObject[]",
+         "vendorContact" : "IModelObject"
+      }
+   }
+}

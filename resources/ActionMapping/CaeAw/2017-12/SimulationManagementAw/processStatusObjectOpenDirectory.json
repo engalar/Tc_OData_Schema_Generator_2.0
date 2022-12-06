@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "statusObject" : "IModelObject"
+   },
+   "ServiceOperation" : "Internal-CaeAw-2017-12-SimulationManagementAw/processStatusObjectOpenDirectory",
+   "OperationResponse" : {
+      "fmsTicket" : "String",
+      "serviceData" : "IServiceData"
+   }
+}

@@ -1,0 +1,45 @@
+{
+   "OperationResponse" : {
+      "openDiagOutput" : [
+         {
+            "diagramMembers" : [
+               {
+                  "shapeRelation" : "IModelObject",
+                  "persistentObject" : "IModelObject",
+                  "isMemberOmitted" : "bool",
+                  "objectTCTypeName" : "String",
+                  "primaryObject" : "IModelObject"
+               }
+            ],
+            "diagramTmplFileTickets" : "String[]",
+            "relationsOnDiagram" : [
+               {
+                  "secondaryObject" : "IModelObject",
+                  "shapeRelation" : "IModelObject",
+                  "relation" : "IModelObject",
+                  "primaryObject" : "IModelObject",
+                  "relationType" : "String",
+                  "isRelationMemberOmitted" : "bool"
+               }
+            ],
+            "startObject" : "IModelObject",
+            "diagMappingFileTicket" : "String",
+            "diagramFileTicket" : "String",
+            "appDomain" : "String",
+            "objectUIDvsShapeID" : {
+               "SampleKeyString" : "int"
+            }
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Diagramming-2011-06-DiagramManagement/openDiagram",
+   "OperationInput" : {
+      "inputData" : [
+         {
+            "diagramRevision" : "IModelObject",
+            "selectedObject" : "IModelObject"
+         }
+      ]
+   }
+}

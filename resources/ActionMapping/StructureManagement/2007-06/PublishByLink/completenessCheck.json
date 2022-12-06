@@ -1,0 +1,22 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "skippedLines" : "IModelObject[]",
+            "incompleteLines" : "IModelObject[]",
+            "inputIndex" : "int",
+            "completeLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "StructureManagement-2007-06-PublishByLink/completenessCheck",
+   "OperationInput" : {
+      "input" : [
+         {
+            "action" : "String",
+            "bomline" : "IModelObject"
+         }
+      ]
+   }
+}

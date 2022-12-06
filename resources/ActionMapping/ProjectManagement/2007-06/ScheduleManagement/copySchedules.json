@@ -1,0 +1,28 @@
+{
+   "ServiceOperation" : "ProjectManagement-2007-06-ScheduleManagement/copySchedules",
+   "OperationResponse" : {
+      "scheduleResponse" : [
+         {
+            "calendar" : "IModelObject[]",
+            "calendarEvent" : "IModelObject[]",
+            "schedule" : "IModelObject",
+            "scheduleTask" : "IModelObject[]",
+            "taskDependency" : "IModelObject[]",
+            "resourceAssignment" : "IModelObject[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "scheduleCopyContainer" : [
+         {
+            "resetWork" : "bool",
+            "scheduleToCopy" : "IModelObject",
+            "name" : "String",
+            "description" : "String",
+            "loadOnResponse" : "bool",
+            "copyBaselines" : "bool"
+         }
+      ]
+   }
+}

@@ -1,0 +1,10 @@
+{
+   "OperationInput" : {
+      "ldfListFileExtensions" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Ldf-2018-06-LinkedDataRequest/getLDFSupportedDatasetTypes",
+   "OperationResponse" : {
+      "ldfServiceData" : "IServiceData",
+      "datasetTypeList" : "String[]"
+   }
+}

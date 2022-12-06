@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Process-2017-05-RelationManagement/restructure",
+   "OperationInput" : {
+      "input" : [
+         {
+            "newParent" : "IModelObject",
+            "child" : "IModelObject"
+         }
+      ]
+   }
+}

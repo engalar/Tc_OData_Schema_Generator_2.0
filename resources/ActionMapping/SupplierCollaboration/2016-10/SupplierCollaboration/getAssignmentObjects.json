@@ -1,0 +1,22 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "clientId" : "String",
+            "companyContact" : "IModelObject",
+            "objectType" : "String",
+            "searchString" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "clientId" : "String",
+            "objectsList" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SupplierCollaboration-2016-10-SupplierCollaboration/getAssignmentObjects"
+}

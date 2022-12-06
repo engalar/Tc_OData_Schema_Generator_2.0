@@ -1,0 +1,55 @@
+{
+   "OperationResponse" : {
+      "objectsToMonitor" : "int",
+      "dashboardTableInfoDetails" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            [
+               {
+                  "columnCellValue" : "String",
+                  "pedigreeObject" : "IModelObject",
+                  "columnType" : "String",
+                  "columnCellValueType" : "String",
+                  "attributeName" : "String",
+                  "columnName" : "String",
+                  "attributeComponent" : "IModelObject",
+                  "statusValue" : "String",
+                  "fileDetails" : [
+                     {
+                        "itemRevComp" : "IModelObject",
+                        "lastModifiedDate" : "String",
+                        "datasetComponent" : "IModelObject",
+                        "fileOwningUser" : "String",
+                        "datasetName" : "String",
+                        "itemRevName" : "String",
+                        "fileName" : "String",
+                        "fileComponent" : "IModelObject"
+                     }
+                  ],
+                  "isModifiable" : "bool"
+               }
+            ]
+         ]
+      ],
+      "serviceData" : "IServiceData",
+      "objectsFiltered" : "int",
+      "fileSummaryInfo" : [
+         {
+            "ambiguousCount" : "int",
+            "totalCount" : "int",
+            "columnNameHeading" : "String",
+            "notApplicableCount" : "int",
+            "notFoundCount" : "int",
+            "datasetType" : "String",
+            "foundCount" : "int"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-SimProc-2019-06-SimProcessConfigurationManagement/getDashboardDataForIRList",
+   "OperationInput" : {
+      "itemRevisionList" : "IModelObject[]",
+      "dashboardConfiguration" : "IModelObject"
+   }
+}

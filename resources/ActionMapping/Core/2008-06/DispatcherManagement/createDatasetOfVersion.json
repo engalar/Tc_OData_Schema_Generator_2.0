@@ -1,0 +1,18 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "typeName" : "String",
+            "version" : "int",
+            "tool" : "IModelObject",
+            "itemRevision" : "IModelObject",
+            "datasetName" : "String"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "createdDatasets" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Core-2008-06-DispatcherManagement/createDatasetOfVersion"
+}

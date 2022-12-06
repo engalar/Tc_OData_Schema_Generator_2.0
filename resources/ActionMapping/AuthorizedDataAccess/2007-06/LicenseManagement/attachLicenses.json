@@ -1,0 +1,12 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "AuthorizedDataAccess-2007-06-LicenseManagement/attachLicenses",
+   "OperationInput" : {
+      "attachLicense" : [
+         {
+            "selectedLicenses" : "String[]",
+            "objects" : "IModelObject[]"
+         }
+      ]
+   }
+}

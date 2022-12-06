@@ -1,0 +1,7 @@
+{
+   "OperationInput" : {
+      "categoryNames" : "String[]"
+   },
+   "ServiceOperation" : "Internal-Administration-2007-06-PreferenceManagement/createPreferenceCategories",
+   "OperationResponse" : "IServiceData"
+}

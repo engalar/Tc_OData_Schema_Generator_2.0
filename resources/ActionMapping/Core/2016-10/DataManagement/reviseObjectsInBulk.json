@@ -1,0 +1,42 @@
+{
+   "OperationInput" : {
+      "reviseData" : [
+         {
+            "inputPropValues" : {
+               "SampleKeyString" : "String[]"
+            },
+            "deepCopyDatas" : [
+               {
+                  "operationInputTypeName" : "String",
+                  "childDeepCopyData" : "Teamcenter::Soa::Core::_2014_10::DataManagement::DeepCopyData[]",
+                  "propertyValuesMap" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "operationInputs" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "attachedObject" : "IModelObject"
+               }
+            ],
+            "targetObject" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-Core-2016-10-DataManagement/reviseObjectsInBulk",
+   "OperationResponse" : {
+      "output" : [
+         {
+            "targetObject" : "IModelObject",
+            "objects" : "IModelObject[]"
+         }
+      ],
+      "reviseTrees" : [
+         {
+            "objectCopy" : "IModelObject",
+            "originalObject" : "IModelObject",
+            "childReviseNodes" : "Teamcenter::Soa::Core::_2013_05::DataManagement::ReviseTree[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

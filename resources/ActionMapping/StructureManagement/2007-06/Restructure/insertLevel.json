@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "itemRevision" : "IModelObject",
+            "bomLines" : "IModelObject[]",
+            "isPrecise" : "bool",
+            "viewType" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2007-06-Restructure/insertLevel",
+   "OperationResponse" : "IServiceData"
+}

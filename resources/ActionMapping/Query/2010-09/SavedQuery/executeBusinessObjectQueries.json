@@ -1,0 +1,30 @@
+{
+   "ServiceOperation" : "Query-2010-09-SavedQuery/executeBusinessObjectQueries",
+   "OperationResponse" : {
+      "arrayOfResults" : [
+         {
+            "objectsRelMap" : "int[]",
+            "objectUIDS" : "String[]"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "maxNumToReturn" : "int",
+            "clauses" : [
+               {
+                  "propName" : "String",
+                  "mathOperator" : "String",
+                  "logicOperator" : "String",
+                  "propValue" : "String"
+               }
+            ],
+            "requestId" : "String",
+            "clientId" : "String",
+            "typeName" : "String"
+         }
+      ]
+   }
+}

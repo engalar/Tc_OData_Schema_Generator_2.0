@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "projectId" : "IModelObject",
+      "curReq" : "IModelObject"
+   },
+   "ServiceOperation" : "Ai-2006-03-Ai/getNextApprovedRequest",
+   "OperationResponse" : {
+      "ticket" : {
+         "originalFileName" : "String",
+         "ticket" : "String"
+      },
+      "data" : "IServiceData"
+   }
+}

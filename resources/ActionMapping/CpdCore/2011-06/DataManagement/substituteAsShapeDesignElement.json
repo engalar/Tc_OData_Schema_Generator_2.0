@@ -1,0 +1,81 @@
+{
+   "OperationInput" : {
+      "substituteInfos" : [
+         {
+            "trueshapeDataset" : "IModelObject",
+            "element" : "IModelObject",
+            "boundingBox" : "double[]",
+            "objLastModifiedDateGuard" : "Date",
+            "directModelDataset" : "IModelObject",
+            "modelObject" : "IModelObject",
+            "compoundCreateInput" : {
+               "folder" : "IModelObject",
+               "createInfo" : {
+                  "boType" : "String",
+                  "attrInfo" : {
+                     "SampleKeyString" : "String[]"
+                  },
+                  "compoundInfo" : {
+                     "SampleKeyString" : [
+                        {
+                           "boType" : "String",
+                           "attrInfo" : {
+                              "SampleKeyString" : "String[]"
+                           },
+                           "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap"
+                        }
+                     ]
+                  }
+               }
+            },
+            "auxiliaryObjects" : {
+               "SampleKeyString" : [
+                  {
+                     "boType" : "String",
+                     "subObjects" : {
+                        "SampleKeyString" : [
+                           {
+                              "attrInfo" : {
+                                 "SampleKeyString" : "String[]"
+                              },
+                              "compoundInfo" : "Cpd0::Soa::CpdCore::_2011_06::DataManagement::CompoundCreateInfoMap",
+                              "boType" : "String"
+                           }
+                        ]
+                     },
+                     "attrInfo" : {
+                        "SampleKeyString" : "String[]"
+                     },
+                     "object" : "IModelObject"
+                  }
+               ]
+            },
+            "guardObjLastModifiedDate" : "bool",
+            "transform" : "double[]",
+            "attrInfo" : {
+               "SampleKeyString" : "String[]"
+            },
+            "clientId" : "String",
+            "boType" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "CpdCore-2011-06-DataManagement/substituteAsShapeDesignElement",
+   "OperationResponse" : {
+      "clientIDMap" : {
+         "SampleKeyString" : "IModelObject"
+      },
+      "shapeDesigns" : [
+         [
+            "SampleKeyIModelObject"
+         ],
+         [
+            {
+               "shapeDesign" : "IModelObject",
+               "shapeDesignRevsion" : "IModelObject"
+            }
+         ]
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

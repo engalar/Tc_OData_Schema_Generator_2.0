@@ -1,0 +1,7 @@
+{
+   "ServiceOperation" : "Core-2006-03-Session/getAvailableServices",
+   "OperationResponse" : {
+      "serviceNames" : "String[]"
+   },
+   "OperationInput" : {}
+}

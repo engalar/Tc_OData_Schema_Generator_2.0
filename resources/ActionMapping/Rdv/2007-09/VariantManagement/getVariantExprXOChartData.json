@@ -1,0 +1,27 @@
+{
+   "ServiceOperation" : "Internal-Rdv-2007-09-VariantManagement/getVariantExprXOChartData",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "nveData" : {
+         "varExprXOData" : {
+            "noOfTableChars" : "int",
+            "colHeaderExprs" : "IModelObject[]",
+            "colHeaderExprStrs" : "String[]",
+            "noOfRows" : "int",
+            "noOfColHeaders" : "int",
+            "tableChars" : "String",
+            "noOfCols" : "int"
+         },
+         "codeDescData" : [
+            {
+               "nve" : "IModelObject",
+               "code" : "String",
+               "desc" : "String"
+            }
+         ]
+      }
+   },
+   "OperationInput" : {
+      "inputs" : "IModelObject[]"
+   }
+}

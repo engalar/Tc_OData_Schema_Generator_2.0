@@ -1,0 +1,5 @@
+{
+   "ServiceOperation" : "Internal-Notification-2015-10-MessageManagement/initializeAsynchMessaging",
+   "OperationResponse" : "String",
+   "OperationInput" : {}
+}

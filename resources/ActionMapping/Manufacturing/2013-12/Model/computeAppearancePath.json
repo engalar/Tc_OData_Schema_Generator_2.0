@@ -1,0 +1,27 @@
+{
+   "OperationInput" : {
+      "input" : {
+         "parentObject" : "IModelObject",
+         "childPaths" : [
+            {
+               "threadIDs" : "String[]"
+            }
+         ]
+      }
+   },
+   "OperationResponse" : {
+      "results" : [
+         {
+            "childResults" : [
+               {
+                  "absOccUID" : "String",
+                  "apnUID" : "String"
+               }
+            ],
+            "parentObject" : "IModelObject"
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Manufacturing-2013-12-Model/computeAppearancePath"
+}

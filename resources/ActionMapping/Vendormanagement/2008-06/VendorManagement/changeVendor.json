@@ -1,0 +1,26 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "vendorParts" : "IModelObject[]",
+            "newVendor" : "IModelObject",
+            "vendorToChange" : "IModelObject"
+         }
+      ]
+   },
+   "ServiceOperation" : "Vendormanagement-2008-06-VendorManagement/changeVendor",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "statuses" : [
+         {
+            "changedStatus" : [
+               {
+                  "notes" : "String",
+                  "newPartStr" : "String",
+                  "oldPartStr" : "String"
+               }
+            ]
+         }
+      ]
+   }
+}

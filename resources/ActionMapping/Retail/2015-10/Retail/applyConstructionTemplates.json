@@ -1,0 +1,13 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-Retail-2015-10-Retail/applyConstructionTemplates",
+   "OperationInput" : {
+      "templatesInput" : [
+         {
+            "secondaryTemplates" : "IModelObject[]",
+            "primaryTemplates" : "IModelObject[]",
+            "retailProduct" : "IModelObject"
+         }
+      ]
+   }
+}

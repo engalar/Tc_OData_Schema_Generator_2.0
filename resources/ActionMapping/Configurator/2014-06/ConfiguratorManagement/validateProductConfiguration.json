@@ -1,0 +1,128 @@
+{
+   "ServiceOperation" : "Internal-Configurator-2014-06-ConfiguratorManagement/validateProductConfiguration",
+   "OperationResponse" : {
+      "outputs" : [
+         {
+            "updatedExpression" : {
+               "clientId" : "String",
+               "expressions" : [
+                  {
+                     "formula" : "String",
+                     "subExpressions" : [
+                        {
+                           "expressionGroups" : [
+                              {
+                                 "terms" : [
+                                    {
+                                       "familyNamespace" : "String",
+                                       "familyID" : "String",
+                                       "valueText" : "String",
+                                       "rangeExpressions" : [
+                                          {
+                                             "valueText" : "String",
+                                             "operatorCode" : "int"
+                                          }
+                                       ],
+                                       "family" : "IModelObject",
+                                       "operatorCode" : "int",
+                                       "value" : "IModelObject"
+                                    }
+                                 ],
+                                 "groupName" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "expressionType" : "int",
+                     "clientId" : "String"
+                  }
+               ],
+               "targetObject" : "IModelObject"
+            },
+            "violations" : [
+               {
+                  "severity" : "String",
+                  "violatedRule" : {
+                     "subExpressions" : [
+                        {
+                           "expressionGroups" : [
+                              {
+                                 "terms" : [
+                                    {
+                                       "familyID" : "String",
+                                       "familyNamespace" : "String",
+                                       "valueText" : "String",
+                                       "family" : "IModelObject",
+                                       "operatorCode" : "int",
+                                       "rangeExpressions" : [
+                                          {
+                                             "valueText" : "String",
+                                             "operatorCode" : "int"
+                                          }
+                                       ],
+                                       "value" : "IModelObject"
+                                    }
+                                 ],
+                                 "groupName" : "String"
+                              }
+                           ]
+                        }
+                     ],
+                     "expressionType" : "int",
+                     "clientId" : "String",
+                     "formula" : "String"
+                  },
+                  "message" : "String"
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   },
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "applyConstraints" : "int",
+            "expressionsToValidate" : [
+               {
+                  "targetObject" : "IModelObject",
+                  "expressions" : [
+                     {
+                        "subExpressions" : [
+                           {
+                              "expressionGroups" : [
+                                 {
+                                    "groupName" : "String",
+                                    "terms" : [
+                                       {
+                                          "valueText" : "String",
+                                          "familyID" : "String",
+                                          "familyNamespace" : "String",
+                                          "value" : "IModelObject",
+                                          "operatorCode" : "int",
+                                          "family" : "IModelObject",
+                                          "rangeExpressions" : [
+                                             {
+                                                "operatorCode" : "int",
+                                                "valueText" : "String"
+                                             }
+                                          ]
+                                       }
+                                    ]
+                                 }
+                              ]
+                           }
+                        ],
+                        "expressionType" : "int",
+                        "clientId" : "String",
+                        "formula" : "String"
+                     }
+                  ],
+                  "clientId" : "String"
+               }
+            ],
+            "context" : "IModelObject"
+         }
+      ]
+   }
+}

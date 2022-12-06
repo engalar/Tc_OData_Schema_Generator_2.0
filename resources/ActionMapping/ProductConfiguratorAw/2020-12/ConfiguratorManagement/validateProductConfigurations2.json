@@ -1,0 +1,101 @@
+{
+   "OperationInput" : {
+      "validateProductConfigsInput" : {
+         "selectedExpressions" : {
+            "SampleKeyString" : [
+               {
+                  "configExprSets" : [
+                     {
+                        "configExprSections" : [
+                           {
+                              "formula" : "String",
+                              "exprType" : "int",
+                              "subExpressions" : [
+                                 {
+                                    "configExpressionGroupMap" : {
+                                       "SampleKeyString" : [
+                                          {
+                                             "familyId" : "String",
+                                             "valueText" : "String",
+                                             "props" : {
+                                                "SampleKeyString" : "String[]"
+                                             },
+                                             "familyNamespace" : "String",
+                                             "selectionState" : "int",
+                                             "nodeUid" : "String",
+                                             "family" : "String"
+                                          }
+                                       ]
+                                    }
+                                 }
+                              ]
+                           }
+                        ]
+                     }
+                  ],
+                  "exprID" : "String",
+                  "exprType" : "int",
+                  "formula" : "String"
+               }
+            ]
+         },
+         "configPerspective" : "IModelObject",
+         "applyConstraints" : "int",
+         "requestInfo" : {
+            "SampleKeyString" : "String[]"
+         }
+      }
+   },
+   "OperationResponse" : {
+      "responseInfo" : {
+         "SampleKeyString" : "String[]"
+      },
+      "validateProductConfigurationOutputs" : {
+         "SampleKeyString" : {
+            "expression" : {
+               "configExprSets" : [
+                  {
+                     "configExprSections" : [
+                        {
+                           "subExpressions" : [
+                              {
+                                 "configExpressionGroupMap" : {
+                                    "SampleKeyString" : [
+                                       {
+                                          "valueText" : "String",
+                                          "props" : {
+                                             "SampleKeyString" : "String[]"
+                                          },
+                                          "familyId" : "String",
+                                          "selectionState" : "int",
+                                          "familyNamespace" : "String",
+                                          "nodeUid" : "String",
+                                          "family" : "String"
+                                       }
+                                    ]
+                                 }
+                              }
+                           ],
+                           "exprType" : "int",
+                           "formula" : "String"
+                        }
+                     ]
+                  }
+               ],
+               "exprType" : "int",
+               "exprID" : "String",
+               "formula" : "String"
+            },
+            "valueToViolations" : {
+               "SampleKeyString" : {
+                  "messages" : "String[]",
+                  "severities" : "int[]"
+               }
+            },
+            "criteriaStatus" : "bool"
+         }
+      },
+      "serviceData" : "IServiceData"
+   },
+   "ServiceOperation" : "Internal-ProductConfiguratorAw-2020-12-ConfiguratorManagement/validateProductConfigurations2"
+}

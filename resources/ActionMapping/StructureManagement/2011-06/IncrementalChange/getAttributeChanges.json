@@ -1,0 +1,30 @@
+{
+   "OperationInput" : {
+      "fRefresh" : "bool",
+      "attributeOccLines" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2011-06-IncrementalChange/getAttributeChanges",
+   "OperationResponse" : {
+      "response" : [
+         {
+            "attributeInfo" : [
+               {
+                  "baseICEInfo" : {
+                     "howConfigured" : "String",
+                     "typeOfIce" : "int",
+                     "icRev" : "IModelObject",
+                     "ice" : "IModelObject"
+                  },
+                  "attributes" : {
+                     "bomViewRevision" : "IModelObject",
+                     "attributeName" : "String",
+                     "absOccRootLine" : "String",
+                     "attributeValue" : "String"
+                  }
+               }
+            ]
+         }
+      ],
+      "serviceData" : "IServiceData"
+   }
+}

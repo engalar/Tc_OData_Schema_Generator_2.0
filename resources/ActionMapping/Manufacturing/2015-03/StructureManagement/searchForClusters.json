@@ -1,0 +1,29 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "mbomModelAssemblyNode" : "IModelObject",
+            "ebomContext" : "IModelObject"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "nodesAssignedInModelAssembly" : "IModelObject[]",
+      "serviceData" : "IServiceData",
+      "basisOccurrenceChain" : "String",
+      "patterns" : [
+         {
+            "patternNodes" : [
+               {
+                  "isBasis" : "bool",
+                  "idic" : "String",
+                  "line" : "IModelObject"
+               }
+            ],
+            "owningModelAssemblies" : "IModelObject[]"
+         }
+      ],
+      "unassignedModelAssemblyNodes" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Manufacturing-2015-03-StructureManagement/searchForClusters"
+}

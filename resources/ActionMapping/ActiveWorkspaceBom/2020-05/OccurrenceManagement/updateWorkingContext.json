@@ -1,0 +1,14 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "operation" : "String",
+            "workingContext" : "IModelObject",
+            "productInfo" : "IModelObject",
+            "saveResult" : "bool"
+         }
+      ]
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "Internal-ActiveWorkspaceBom-2020-05-OccurrenceManagement/updateWorkingContext"
+}

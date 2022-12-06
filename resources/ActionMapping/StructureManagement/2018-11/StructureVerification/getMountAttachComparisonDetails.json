@@ -1,0 +1,58 @@
+{
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "mountAttachTypeDetails" : [
+         {
+            "mountAttachTypeExtensions" : [
+               {
+                  "extensionName" : "String",
+                  "mountAttachDetailTypes" : [
+                     {
+                        "relationType" : "IModelObject",
+                        "mountAttachDetails" : [
+                           {
+                              "attachments" : "IModelObject[]",
+                              "matchType" : "int"
+                           }
+                        ]
+                     }
+                  ]
+               }
+            ],
+            "index" : "int",
+            "equivalentLines" : "IModelObject[]"
+         }
+      ]
+   },
+   "ServiceOperation" : "Internal-StructureManagement-2018-11-StructureVerification/getMountAttachComparisonDetails",
+   "OperationInput" : {
+      "partialMatchCriteria" : [
+         {
+            "extensionCriteria" : {
+               "intMap" : {
+                  "SampleKeyString" : "int[]"
+               },
+               "dateMap" : {
+                  "SampleKeyString" : "Date[]"
+               },
+               "strMap" : {
+                  "SampleKeyString" : "String[]"
+               },
+               "dblMap" : {
+                  "SampleKeyString" : "double[]"
+               },
+               "objMap" : {
+                  "SampleKeyString" : "IModelObject[]"
+               }
+            },
+            "extensionName" : "String"
+         }
+      ],
+      "equivalentObjects" : [
+         {
+            "eqvTargetLines" : "IModelObject[]",
+            "eqvSrcLines" : "IModelObject[]"
+         }
+      ]
+   }
+}

@@ -1,0 +1,17 @@
+{
+   "OperationInput" : {
+      "propagateUsersInput" : [
+         {
+            "propagateOptions" : {
+               "name" : "String",
+               "keyValue" : "String"
+            },
+            "parentObject" : "IModelObject",
+            "targetObjects" : "IModelObject[]"
+         }
+      ],
+      "runInBackground" : "bool"
+   },
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "PPSMInterfaceAw-2020-05-PPSMInterface/propagateUsers"
+}

@@ -1,0 +1,13 @@
+{
+   "OperationInput" : {
+      "input" : [
+         {
+            "isDeleteChildren" : "bool",
+            "funcBomLine" : "IModelObject",
+            "clientId" : "String"
+         }
+      ]
+   },
+   "ServiceOperation" : "SystemsEngineering-2011-06-FunctionalModeling/deleteFunctionStructure",
+   "OperationResponse" : "IServiceData"
+}

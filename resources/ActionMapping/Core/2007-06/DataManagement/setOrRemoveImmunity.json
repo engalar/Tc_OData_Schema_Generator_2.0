@@ -1,0 +1,12 @@
+{
+   "ServiceOperation" : "Core-2007-06-DataManagement/setOrRemoveImmunity",
+   "OperationResponse" : "IServiceData",
+   "OperationInput" : {
+      "objects" : [
+         {
+            "setOrRemoveFlag" : "bool",
+            "inputObject" : "IModelObject"
+         }
+      ]
+   }
+}

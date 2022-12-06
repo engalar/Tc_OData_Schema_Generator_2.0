@@ -1,0 +1,37 @@
+{
+   "ServiceOperation" : "Cad-2007-01-StructureManagement/expandPSOneLevel",
+   "OperationResponse" : {
+      "serviceData" : "IServiceData",
+      "output" : [
+         {
+            "children" : [
+               {
+                  "datasets" : "IModelObject[]",
+                  "bomLine" : "IModelObject",
+                  "itemRevOfBOMLine" : "IModelObject"
+               }
+            ],
+            "parent" : {
+               "parentDatasets" : "IModelObject[]",
+               "bomLine" : "IModelObject",
+               "itemRevOfBOMLine" : "IModelObject"
+            }
+         }
+      ]
+   },
+   "OperationInput" : {
+      "input" : {
+         "parentBomLines" : "IModelObject[]",
+         "excludeFilter" : "None ExcludeOverridden ExcludeICHistory ExcludeGDEs ExcludeNonImanItemLines"
+      },
+      "pref" : {
+         "info" : [
+            {
+               "relationTypeNames" : "String[]",
+               "relationName" : "String"
+            }
+         ],
+         "expItemRev" : "bool"
+      }
+   }
+}

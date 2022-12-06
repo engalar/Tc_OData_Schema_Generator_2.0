@@ -1,0 +1,28 @@
+{
+   "OperationResponse" : "IServiceData",
+   "ServiceOperation" : "ProjectManagement-2012-02-ScheduleManagement/scaleScheduleNonInteractive",
+   "OperationInput" : {
+      "options" : {
+         "stringOptions" : [
+            {
+               "value" : "String",
+               "name" : "String"
+            }
+         ],
+         "logicalOptions" : [
+            {
+               "name" : "String",
+               "value" : "bool"
+            }
+         ],
+         "integerOptions" : [
+            {
+               "name" : "String",
+               "value" : "int"
+            }
+         ]
+      },
+      "schedule" : "IModelObject",
+      "scaleFactor" : "double"
+   }
+}

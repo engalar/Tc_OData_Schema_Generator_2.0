@@ -1,0 +1,15 @@
+{
+   "OperationInput" : {
+      "inputs" : [
+         {
+            "dataset" : "IModelObject",
+            "versionNumber" : "int"
+         }
+      ]
+   },
+   "OperationResponse" : {
+      "svcData" : "IServiceData",
+      "datasetTags" : "IModelObject[]"
+   },
+   "ServiceOperation" : "Internal-Core-2008-06-DispatcherManagement/insertDatasetVersion"
+}
