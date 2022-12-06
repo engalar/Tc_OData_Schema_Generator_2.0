@@ -65,62 +65,57 @@ public class ReviseObjects extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		boolean before = true;
-		try
-		{
+		try {
 			IContext context = getContext();
 			// Prepare the request body
 			JSONObject reqBodyJson = prepareReviseInputBody(context);
-			
-			BusinessObjectMappings boMappings = new BusinessObjectMappings(businessObjectMapping,ConfigurationName);
+
+			BusinessObjectMappings boMappings = new BusinessObjectMappings(businessObjectMapping, ConfigurationName);
 			JPolicy policy = new JPolicy(boMappings);
 			// Call the ReviseObjects service
-			JSONObject response = TcConnection.callTeamcenterService(context, Constants.OPERATION_REVISEOBJECTS, reqBodyJson, policy, ConfigurationName);
-			
+			JSONObject response = TcConnection.callTeamcenterService(context, Constants.OPERATION_REVISEOBJECTS,
+					reqBodyJson, policy, ConfigurationName);
+
 			before = false;
 			ReviseObjectsResponse reponseEntity = new ReviseObjectsResponse(context);
 
 			// Update the Response entity with revised objects.
-			//Update the output container from response
+			// Update the output container from response
 			JSONArray outputArray = response.getJSONArray(KEY_OUTPUT);
-			ReviseOutputResponse  revieseOutput = new ReviseOutputResponse(context);
+			ReviseOutputResponse revieseOutput = new ReviseOutputResponse(context);
 			revieseOutput.setoutput(reponseEntity);
-			for(int outputIndex=0; outputIndex < outputArray.length(); ++outputIndex) 
-			{
+			for (int outputIndex = 0; outputIndex < outputArray.length(); ++outputIndex) {
 				JSONObject output = outputArray.getJSONObject(outputIndex);
-				
-				//Update the objects container from output container from response
+
+				// Update the objects container from output container from response
 				JSONArray objectArray = output.getJSONArray(KEY_OBJECTS);
-				for(int objIndex=0; objIndex < objectArray.length(); ++objIndex)
-				{
-					JModelObject jmo = (JModelObject)objectArray.get(objIndex);
-					IMendixObject objectsEntity = jmo.instantiateEntity(getContext(), null, boMappings,ConfigurationName);
+				for (int objIndex = 0; objIndex < objectArray.length(); ++objIndex) {
+					JModelObject jmo = (JModelObject) objectArray.get(objIndex);
+					IMendixObject objectsEntity = jmo.instantiateEntity(getContext(), null, boMappings,
+							ConfigurationName);
 					ModelObject mo = ModelObject.initialize(getContext(), objectsEntity);
 					mo.setrevise_objects(revieseOutput);
 				}
 			}
-			
-			//Update the revise trees container from response
+
+			// Update the revise trees container from response
 			JSONArray reviseTreeArray = response.getJSONArray(KEY_REVISE_TREES);
-			for(int reviseTreeIndex = 0; reviseTreeIndex < reviseTreeArray.length(); ++reviseTreeIndex) 
-			{
+			for (int reviseTreeIndex = 0; reviseTreeIndex < reviseTreeArray.length(); ++reviseTreeIndex) {
 				ReviseTreesResponse reviseTree = new ReviseTreesResponse(context);
 				reviseTree.setreviseTrees(reponseEntity);
 				instantiateReviseTree(reviseTreeArray.getJSONObject(reviseTreeIndex), reviseTree, boMappings);
 			}
 			return reponseEntity.getMendixObject();
-		}
-		catch(Exception e)
-		{
-			String message = (before)? "Failed to marshall the the service operation " +
-                    Constants.SERVICE_DATAMANAGEMENT_1305+"/"+ Constants.SERVICE_DATAMANAGEMENT_1305 + 
-                    " input argument.":
-                    "Failed to marshall the the service operation " +
-                    Constants.SERVICE_DATAMANAGEMENT_1305+"/"+ Constants.SERVICE_DATAMANAGEMENT_1305 +
-                    " response data.";
+		} catch (Exception e) {
+			String message = (before)
+					? "Failed to marshall the the service operation " + Constants.SERVICE_DATAMANAGEMENT_1305 + "/"
+							+ Constants.SERVICE_DATAMANAGEMENT_1305 + " input argument."
+					: "Failed to marshall the the service operation " + Constants.SERVICE_DATAMANAGEMENT_1305 + "/"
+							+ Constants.SERVICE_DATAMANAGEMENT_1305 + " response data.";
 			Constants.LOGGER.error(message + e.getMessage());
 			message += "Please contact your system administrator for further assistance.";
 			throw e;
-		}	
+		}
 		// END USER CODE
 	}
 
@@ -135,76 +130,71 @@ public class ReviseObjects extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	
-	private void instantiateReviseTree(JSONObject reviseTree, ReviseTreesResponse responseTreeEntity, BusinessObjectMappings boMappings)
-	{
-		
-		//Update the original object container from output container from response
+
+	private void instantiateReviseTree(JSONObject reviseTree, ReviseTreesResponse responseTreeEntity,
+			BusinessObjectMappings boMappings) {
+
+		// Update the original object container from output container from response
 		Object originalObj = reviseTree.get(KEY_ORIGINAL_OBJ);
-		if(!originalObj.equals(null))
-		{
+		if (!originalObj.equals(null)) {
 			Object originalObjProps = null;
-			if(originalObj instanceof JSONObject)
-			{
-				originalObjProps = ((JSONObject)originalObj).optString("props");
+			if (originalObj instanceof JSONObject) {
+				originalObjProps = ((JSONObject) originalObj).optString("props");
 			}
-			if(originalObjProps != null)
-			{
-				JModelObject jmo = (JModelObject)originalObj;
-				IMendixObject originalObjectEntity = jmo.instantiateEntity(getContext(), null, boMappings,ConfigurationName);
+			if (originalObjProps != null) {
+				JModelObject jmo = (JModelObject) originalObj;
+				IMendixObject originalObjectEntity = jmo.instantiateEntity(getContext(), null, boMappings,
+						ConfigurationName);
 				ModelObject mo = ModelObject.initialize(getContext(), originalObjectEntity);
 				mo.setoriginalObject(responseTreeEntity);
 			}
 		}
-		
-		//Update the object copy container from output container from response
+
+		// Update the object copy container from output container from response
 		Object objectCopy = reviseTree.get(KEY_OBJECT_COPY);
-		if(!objectCopy.equals(null))
-		{
+		if (!objectCopy.equals(null)) {
 			Object objectCopyProps = null;
-			if(objectCopy instanceof JSONObject)
-			{
-				objectCopyProps = ((JSONObject)objectCopy).optString("props");
+			if (objectCopy instanceof JSONObject) {
+				objectCopyProps = ((JSONObject) objectCopy).optString("props");
 			}
-			if(objectCopyProps != null)
-			{
-				JModelObject jmo = (JModelObject)objectCopy;
-				IMendixObject objectCopyEntity = jmo.instantiateEntity(getContext(), null, boMappings,ConfigurationName);
+			if (objectCopyProps != null) {
+				JModelObject jmo = (JModelObject) objectCopy;
+				IMendixObject objectCopyEntity = jmo.instantiateEntity(getContext(), null, boMappings,
+						ConfigurationName);
 				ModelObject mo = ModelObject.initialize(getContext(), objectCopyEntity);
 				mo.setobjectCopy(responseTreeEntity);
 			}
 		}
-		
-		//Update the child revise nodes container from output container from response
+
+		// Update the child revise nodes container from output container from response
 		JSONArray childReviseNodeArray = reviseTree.getJSONArray(KEY_CHILD_REVISE_NODE);
-		for(int childReviseNodeIndex=0; childReviseNodeIndex < childReviseNodeArray.length(); ++childReviseNodeIndex)
-		{
-			instantiateReviseTree(childReviseNodeArray.getJSONObject(childReviseNodeIndex), responseTreeEntity, boMappings);
+		for (int childReviseNodeIndex = 0; childReviseNodeIndex < childReviseNodeArray
+				.length(); ++childReviseNodeIndex) {
+			instantiateReviseTree(childReviseNodeArray.getJSONObject(childReviseNodeIndex), responseTreeEntity,
+					boMappings);
 		}
 	}
-	
-	private JSONObject prepareReviseInputBody(IContext context) throws Exception
-	{
-		JSONObject getDeepCopyDataResponse = DeepCopyDataHelper.callGetDeepCopyDataSOA(context, objectToRevise, KEY_REVISE, null, ConfigurationName);
-		
+
+	private JSONObject prepareReviseInputBody(IContext context) throws Exception {
+		JSONObject getDeepCopyDataResponse = DeepCopyDataHelper.callGetDeepCopyDataSOA(context, objectToRevise,
+				KEY_REVISE, null, ConfigurationName);
+
 		JSONObject revise = new JSONObject();
 		JSONObject tgtObject = new JSONObject();
-		if(objectToRevise != null)
-		{
+		if (objectToRevise != null) {
 			tgtObject.put(KEY_UID, objectToRevise.getUID());
 			tgtObject.put(KEY_TYPE, objectToRevise.get_Type());
 		}
 		revise.put(KEY_TARGET_OBJECT, tgtObject);
-		
+
 		JSONObject reviseInputData = new JSONObject();
-		
-		Map<String, ? extends IMendixObjectMember<?>> mendixObjMembers = reviseInput.getMendixObject().getMembers(context);
-		
-		for(String memberName: mendixObjMembers.keySet())
-		{
+
+		Map<String, ? extends IMendixObjectMember<?>> mendixObjMembers = reviseInput.getMendixObject()
+				.getMembers(context);
+
+		for (String memberName : mendixObjMembers.keySet()) {
 			Object memberValue = mendixObjMembers.get(memberName).getValue(context);
-			if(memberValue != null)
-			{
+			if (memberValue != null) {
 				JSONArray attrValues = new JSONArray();
 				attrValues.put(memberValue.toString());
 				reviseInputData.put(memberName, attrValues);
@@ -212,39 +202,38 @@ public class ReviseObjects extends CustomJavaAction<IMendixObject>
 		}
 
 		revise.put(KEY_REVISE_INPUTS, reviseInputData);
-		
+
 		JSONArray deepCopyDatas = new JSONArray();
 		JSONArray responseDeepCopyDatas = getDeepCopyDataResponse.getJSONArray(KEY_DEEP_COPY_DATAS);
-		
-		for(int index = 0; index < responseDeepCopyDatas.length(); index++)
-		{
+
+		for (int index = 0; index < responseDeepCopyDatas.length(); index++) {
 			JSONObject responseDeepCopyData = responseDeepCopyDatas.getJSONObject(index);
 			JSONObject deepCopyData = DeepCopyDataHelper.processDeepCopyDatas(responseDeepCopyData);
 			deepCopyDatas.put(deepCopyData);
 		}
-		
+
 		revise.put(KEY_DEEP_COPY_DATAS, deepCopyDatas);
-		
+
 		JSONArray reviseIn = new JSONArray();
 		reviseIn.put(revise);
 		JSONObject reviseData = new JSONObject();
 		reviseData.put(KEY_REVISE_IN, reviseIn);
 		return reviseData;
 	}
-	
-	private static final String KEY_REVISE										 	 = "Revise";
-	private static final String KEY_UID											  	 = "uid";
-	private static final String KEY_TYPE										  	 = "type";
-	private static final String KEY_REVISE_IN		  							  	 = "reviseIn";
-	private static final String KEY_TARGET_OBJECT									 = "targetObject";
-	private static final String KEY_DEEP_COPY_DATAS   							 	 = "deepCopyDatas";
-	private static final String KEY_REVISE_INPUTS   								 = "reviseInputs";
-	private static final String KEY_OUTPUT			  								 = "output";
-	private static final String KEY_OBJECTS			   								 = "objects";
-	private static final String KEY_REVISE_TREES	  								 = "reviseTrees";
-	private static final String KEY_ORIGINAL_OBJ	  								 = "originalObject";
-	private static final String KEY_OBJECT_COPY 	  								 = "objectCopy";
-	private static final String KEY_CHILD_REVISE_NODE  								 = "childReviseNodes";
+
+	private static final String KEY_REVISE = "Revise";
+	private static final String KEY_UID = "uid";
+	private static final String KEY_TYPE = "type";
+	private static final String KEY_REVISE_IN = "reviseIn";
+	private static final String KEY_TARGET_OBJECT = "targetObject";
+	private static final String KEY_DEEP_COPY_DATAS = "deepCopyDatas";
+	private static final String KEY_REVISE_INPUTS = "reviseInputs";
+	private static final String KEY_OUTPUT = "output";
+	private static final String KEY_OBJECTS = "objects";
+	private static final String KEY_REVISE_TREES = "reviseTrees";
+	private static final String KEY_ORIGINAL_OBJ = "originalObject";
+	private static final String KEY_OBJECT_COPY = "objectCopy";
+	private static final String KEY_CHILD_REVISE_NODE = "childReviseNodes";
 
 	// END EXTRA CODE
 }

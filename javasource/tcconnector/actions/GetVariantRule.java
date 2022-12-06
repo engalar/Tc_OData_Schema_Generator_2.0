@@ -55,52 +55,47 @@ public class GetVariantRule extends CustomJavaAction<java.lang.Boolean>
 
 		// BEGIN USER CODE
 		boolean isGetVariantRuleSuccess = true;
-		try 
-		{
+		try {
 			JSONObject getVariantRuleBody = new JSONObject();
 			JSONArray itemRevs = new JSONArray();
 
-			JModelObject itemRevJModelObj  = new JModelObject(getContext(), __ItemRevision);
+			JModelObject itemRevJModelObj = new JModelObject(getContext(), __ItemRevision);
 			JSONObject itemRevJSONObj = new JSONObject();
 			itemRevJSONObj.put("uid", itemRevJModelObj.getUID());
 			itemRevs.put(itemRevJSONObj);
 			getVariantRuleBody.put("itemRevs", itemRevs);
-			
-			BusinessObjectMappings boMappings = new BusinessObjectMappings(BusinessObjectMappings,ConfigurationName);
+
+			BusinessObjectMappings boMappings = new BusinessObjectMappings(BusinessObjectMappings, ConfigurationName);
 			JPolicy policy = new JPolicy(boMappings);
-			
-			JSONObject getVariantRuleResponse = TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETVARIANTRULES, getVariantRuleBody, policy, ConfigurationName);
-			if(getVariantRuleResponse != null)
-			{
+
+			JSONObject getVariantRuleResponse = TcConnection.callTeamcenterService(getContext(),
+					Constants.OPERATION_GETVARIANTRULES, getVariantRuleBody, policy, ConfigurationName);
+			if (getVariantRuleResponse != null) {
 				JSONArray varRuleJASONArray = getVariantRuleResponse.getJSONArray("inputItemRevToVarRules");
-				
-				if(varRuleJASONArray.length() >= 1)
-				{
+
+				if (varRuleJASONArray.length() >= 1) {
 					JSONArray varRuleJASONArray1 = varRuleJASONArray.getJSONArray(1);
-					if(varRuleJASONArray1.length() > 0)
-					{
+					if (varRuleJASONArray1.length() > 0) {
 						JSONArray varRuleJASONArray2 = varRuleJASONArray1.getJSONArray(0);
-						for(int cnt=0 ; cnt < varRuleJASONArray2.length(); cnt++)
-						{
+						for (int cnt = 0; cnt < varRuleJASONArray2.length(); cnt++) {
 							JSONObject varRuleJASONObject = varRuleJASONArray2.getJSONObject(cnt);
-							JModelObject varRuleModelObject  = (JModelObject)varRuleJASONObject;
-							String  entityName = boMappings.getEntityName("VariantRule","VariantRule");
+							JModelObject varRuleModelObject = (JModelObject) varRuleJASONObject;
+							String entityName = boMappings.getEntityName("VariantRule", "VariantRule");
 							IMendixObject varRuleEntity = Core.instantiate(getContext(), entityName);
-							varRuleModelObject.initializeEntity(getContext(), varRuleEntity, null,ConfigurationName);
-							varRuleEntity.setValue(getContext(), "TcConnector.variantRulesForItemRevision", ItemRevision.getMendixObject().getId());
+							varRuleModelObject.initializeEntity(getContext(), varRuleEntity, null, ConfigurationName);
+							varRuleEntity.setValue(getContext(), "TcConnector.variantRulesForItemRevision",
+									ItemRevision.getMendixObject().getId());
 						}
 					}
 				}
 			}
-		}
-		catch (Exception e)
-		{
-			Constants.LOGGER.error( Messages.VariantRuleErrorMessage.VariantRuleError + e.getMessage());
+		} catch (Exception e) {
+			Constants.LOGGER.error(Messages.VariantRuleErrorMessage.VariantRuleError + e.getMessage());
 			isGetVariantRuleSuccess = false;
 			throw e;
 		}
 		return isGetVariantRuleSuccess;
-		
+
 		// END USER CODE
 	}
 

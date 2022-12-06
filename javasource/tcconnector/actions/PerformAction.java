@@ -61,9 +61,9 @@ public class PerformAction extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		ServiceResponse response = new ServiceResponse(getContext());
-		response = (ServiceResponse)TcConnection.callTeamcenterService(  getContext(), 
-													Constants.OPERATION_PERFORMACTION, InputData.getMendixObject(), 
-													response, SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+		response = (ServiceResponse) TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_PERFORMACTION,
+				InputData.getMendixObject(), response, SERVICE_OPERATION_MAP, BusinessObjectMappings,
+				ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -79,6 +79,6 @@ public class PerformAction extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Workflow/2012-10/Workflow/performAction2.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Workflow/2012-10/Workflow/performAction2.json";
 	// END EXTRA CODE
 }

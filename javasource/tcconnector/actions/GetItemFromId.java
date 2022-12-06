@@ -48,10 +48,10 @@ public class GetItemFromId extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		GetItemFromIdResponse response = new GetItemFromIdResponse(getContext());
-		response = (GetItemFromIdResponse)TcConnection.callTeamcenterService(  getContext(), 
-													Constants.OPERATION_GET_ITEM_FROM_ID, InputEntity.getMendixObject(), 
-													response, SERVICE_OPERATION_MAP, BusinessObjectMappings,ConfigurationName);
-		return response.getMendixObject();		
+		response = (GetItemFromIdResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_GET_ITEM_FROM_ID, InputEntity.getMendixObject(), response, SERVICE_OPERATION_MAP,
+				BusinessObjectMappings, ConfigurationName);
+		return response.getMendixObject();
 		// END USER CODE
 	}
 
@@ -66,6 +66,6 @@ public class GetItemFromId extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Core/2007-01/DataManagement/getItemFromId.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Core/2007-01/DataManagement/getItemFromId.json";
 	// END EXTRA CODE
 }

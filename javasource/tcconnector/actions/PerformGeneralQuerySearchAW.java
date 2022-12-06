@@ -49,7 +49,8 @@ public class PerformGeneralQuerySearchAW extends CustomJavaAction<IMendixObject>
 		this.generalQuerySearchInput = this.__generalQuerySearchInput == null ? null : tcconnector.proxies.SearchInput.initialize(getContext(), __generalQuerySearchInput);
 
 		// BEGIN USER CODE
-		return AdvancedSearchHelper.performAdvanceSearch(getContext(), KEY_GENERAL_QUERY_NAME, generalQuerySearchInput.getMendixObject(), businessObjectMapping,ConfigurationName);
+		return AdvancedSearchHelper.performAdvanceSearch(getContext(), KEY_GENERAL_QUERY_NAME,
+				generalQuerySearchInput.getMendixObject(), businessObjectMapping, ConfigurationName);
 		// END USER CODE
 	}
 
@@ -64,6 +65,6 @@ public class PerformGeneralQuerySearchAW extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String KEY_GENERAL_QUERY_NAME 	= "General...";
+	private static final String KEY_GENERAL_QUERY_NAME = "General...";
 	// END EXTRA CODE
 }

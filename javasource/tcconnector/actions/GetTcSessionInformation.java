@@ -40,9 +40,10 @@ public class GetTcSessionInformation extends CustomJavaAction<IMendixObject>
 	{
 		// BEGIN USER CODE
 		TcServerInformation response = new TcServerInformation(getContext());
-		
-		response = (TcServerInformation) TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETSESSIONINFO,
-				null, response, SERVICE_OPERATION_MAP, businessObjectMapping, ConfigurationName);
+
+		response = (TcServerInformation) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_GETSESSIONINFO, null, response, SERVICE_OPERATION_MAP, businessObjectMapping,
+				ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -58,6 +59,6 @@ public class GetTcSessionInformation extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Core/2007-01/Session/getTCSessionInfo.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Core/2007-01/Session/getTCSessionInfo.json";
 	// END EXTRA CODE
 }

@@ -48,7 +48,18 @@
                 },
                 {
                     "name": "home_folder"
-                }
+                },
+				{
+					"name": "user_projects",
+					"modifiers": [{
+						"name": "excludeUiValues",
+						"Value": "true"
+					},
+					{
+						"name": "withProperties",
+						"Value": "true"
+					}]
+				}
             ]
         },
         {

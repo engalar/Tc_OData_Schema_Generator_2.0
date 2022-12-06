@@ -9,11 +9,12 @@
 
 package tcconnector.actions;
 
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import com.mendix.core.Core;
 import com.mendix.systemwideinterfaces.core.IContext;
+import com.mendix.systemwideinterfaces.core.IMendixObject;
+import com.mendix.thirdparty.org.json.JSONArray;
+import com.mendix.thirdparty.org.json.JSONObject;
 import com.mendix.webui.CustomJavaAction;
 import tcconnector.foundation.BusinessObjectMappings;
 import tcconnector.foundation.JModelObject;
@@ -23,9 +24,6 @@ import tcconnector.internal.foundation.Messages;
 import tcconnector.internal.foundation.ServiceMapper;
 import tcconnector.proxies.ItemRevision;
 import tcconnector.proxies.WhereUsedResponseInfo;
-import com.mendix.systemwideinterfaces.core.IMendixObject;
-import com.mendix.thirdparty.org.json.JSONArray;
-import com.mendix.thirdparty.org.json.JSONObject;
 
 /**
  * SOA URL:
@@ -59,48 +57,48 @@ public class WhereUsed extends CustomJavaAction<java.lang.Boolean>
 		this.InputEntity = this.__InputEntity == null ? null : tcconnector.proxies.WhereUsedInput.initialize(getContext(), __InputEntity);
 
 		// BEGIN USER CODE
-		
-		boolean isWhereUsedSuccess =true;
-		try 
-		{				
-			BusinessObjectMappings boMappings = new BusinessObjectMappings(BusinessObjectMappings,ConfigurationName);
-			ServiceMapper serviceMapper= new ServiceMapper(getContext(), Constants.OPERATION_WHERE_USED,  SERVICE_OPERATION_MAP, BusinessObjectMappings,ConfigurationName);
-			JSONObject jsonInputObj    = serviceMapper.mapInputData(InputEntity.getMendixObject());
-			JSONObject jsonPolicy      = serviceMapper.getObjectPropertyPolicy();
-			JSONObject jsonResponseObj = TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_WHERE_USED, jsonInputObj, jsonPolicy,ConfigurationName);
+
+		boolean isWhereUsedSuccess = true;
+		try {
+			BusinessObjectMappings boMappings = new BusinessObjectMappings(BusinessObjectMappings, ConfigurationName);
+			ServiceMapper serviceMapper = new ServiceMapper(getContext(), Constants.OPERATION_WHERE_USED,
+					SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+			JSONObject jsonInputObj = serviceMapper.mapInputData(InputEntity.getMendixObject());
+			JSONObject jsonPolicy = serviceMapper.getObjectPropertyPolicy();
+			JSONObject jsonResponseObj = TcConnection.callTeamcenterService(getContext(),
+					Constants.OPERATION_WHERE_USED, jsonInputObj, jsonPolicy, ConfigurationName);
 			System.out.println(jsonResponseObj);
-			
-			List<IMendixObject> inputModelObjectList = Core.retrieveByPath(getContext(), InputEntity.getMendixObject(), "TcConnector.objects");
-			
+
+			List<IMendixObject> inputModelObjectList = Core.retrieveByPath(getContext(), InputEntity.getMendixObject(),
+					"TcConnector.objects");
+
 			JSONArray outputArray = jsonResponseObj.getJSONArray("output");
-			for(int cnt=0; cnt <outputArray.length();++cnt)
-			{
+			for (int cnt = 0; cnt < outputArray.length(); ++cnt) {
 				JSONObject outputJSONObj = outputArray.getJSONObject(cnt);
 				JSONArray infoJSONArray = outputJSONObj.getJSONArray("info");
 
 				IMendixObject modelObj = inputModelObjectList.get(cnt);
-				for(int infoCnt=0; infoCnt <infoJSONArray.length();++infoCnt)
-				{
+				for (int infoCnt = 0; infoCnt < infoJSONArray.length(); ++infoCnt) {
 					WhereUsedResponseInfo whereUsedResponseInfo = new WhereUsedResponseInfo(getContext());
 					JSONObject infoJSONObj = infoJSONArray.optJSONObject(infoCnt);
 					JSONObject parentItemRevJSONObj = infoJSONObj.getJSONObject("parentItemRev");
 					int level = infoJSONObj.getInt("level");
 					ItemRevision parentItemRevMxObj = new ItemRevision(getContext());
-					JModelObject parentItemRevjModelObj  = new JModelObject(parentItemRevJSONObj);
-					parentItemRevjModelObj.initializeEntity(getContext(), parentItemRevMxObj.getMendixObject(), boMappings, ConfigurationName);
+					JModelObject parentItemRevjModelObj = new JModelObject(parentItemRevJSONObj);
+					parentItemRevjModelObj.initializeEntity(getContext(), parentItemRevMxObj.getMendixObject(),
+							boMappings, ConfigurationName);
 					whereUsedResponseInfo.setparentItemRev(getContext(), parentItemRevMxObj);
 					whereUsedResponseInfo.setlevel(getContext(), level);
-					whereUsedResponseInfo.getMendixObject().setValue(getContext(),  "TcConnector.WhereUsedResponseInfo_ModelObject", modelObj.getId());
+					whereUsedResponseInfo.getMendixObject().setValue(getContext(),
+							"TcConnector.WhereUsedResponseInfo_ModelObject", modelObj.getId());
 				}
 			}
-	    }
-		catch (Exception e)
-		{
-			Constants.LOGGER.error( Messages.WhereUsedMessage.WhereUsedMessageError + e.getMessage());
+		} catch (Exception e) {
+			Constants.LOGGER.error(Messages.WhereUsedMessage.WhereUsedMessageError + e.getMessage());
 			isWhereUsedSuccess = false;
 			throw e;
 		}
-		return isWhereUsedSuccess;		
+		return isWhereUsedSuccess;
 		// END USER CODE
 	}
 
@@ -115,6 +113,6 @@ public class WhereUsed extends CustomJavaAction<java.lang.Boolean>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Core/2007-01/DataManagement/whereUsed.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Core/2007-01/DataManagement/whereUsed.json";
 	// END EXTRA CODE
 }

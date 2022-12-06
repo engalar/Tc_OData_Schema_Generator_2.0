@@ -42,11 +42,11 @@ public class GetRevisionRules extends CustomJavaAction<IMendixObject>
 	public IMendixObject executeAction() throws Exception
 	{
 		// BEGIN USER CODE
-		IMendixObject jsonInputObj = null ;
+		IMendixObject jsonInputObj = null;
 		GetRevisionRulesResponse response = new GetRevisionRulesResponse(getContext());
-		response = (GetRevisionRulesResponse)TcConnection.callTeamcenterService(  getContext(), 
-													Constants.OPERATION_GETREVISIONRULES, jsonInputObj, 
-													response, SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+		response = (GetRevisionRulesResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_GETREVISIONRULES, jsonInputObj, response, SERVICE_OPERATION_MAP,
+				BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -62,6 +62,6 @@ public class GetRevisionRules extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Cad/2007-01/StructureManagement/GetRevisionRules.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Cad/2007-01/StructureManagement/GetRevisionRules.json";
 	// END EXTRA CODE
 }

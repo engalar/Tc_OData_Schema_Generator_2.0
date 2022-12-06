@@ -48,45 +48,44 @@ public class GetTcSessionInfo extends CustomJavaAction<IMendixObject>
 		// BEGIN USER CODE
 		IContext context = getContext();
 		JSONObject inputArgs = new JSONObject();
-		
-		BusinessObjectMappings mappings = new BusinessObjectMappings("User=TcConnector.User;Group=TcConnector.Group",ConfigurationName);
-		JSONObject policy    = new JPolicy(mappings);
-		JSONObject response = TcConnection.callTeamcenterService(context, "Core-2007-01-Session/getTCSessionInfo", inputArgs, policy, ConfigurationName);
-		
+
+		BusinessObjectMappings mappings = new BusinessObjectMappings("User=TcConnector.User;Group=TcConnector.Group",
+				ConfigurationName);
+		JSONObject policy = new JPolicy(mappings);
+		JSONObject response = TcConnection.callTeamcenterService(context, "Core-2007-01-Session/getTCSessionInfo",
+				inputArgs, policy, ConfigurationName);
+
 		TcServerInfo info = new TcServerInfo(context);
 		JSONObject extraInfo = response.getJSONObject("extraInfo");
-		info.setVersion (extraInfo.getString("DisplayVersion"));
-		info.setLocale  (extraInfo.getString("TCServerLocale"));
-		info.setSyslog  (extraInfo.getString("syslogFile"));
+		info.setVersion(extraInfo.getString("DisplayVersion"));
+		info.setLocale(extraInfo.getString("TCServerLocale"));
+		info.setSyslog(extraInfo.getString("syslogFile"));
 		info.setServerID(extraInfo.getString("TcServerID"));
-			
-		JModelObject user  = (JModelObject)response.getJSONObject("user");
-		JModelObject group = (JModelObject)response.getJSONObject("group");
-		JServiceData sd    = (JServiceData)response.getJSONObject("ServiceData");
+
+		JModelObject user = (JModelObject) response.getJSONObject("user");
+		JModelObject group = (JModelObject) response.getJSONObject("group");
+		JServiceData sd = (JServiceData) response.getJSONObject("ServiceData");
 		sd.getPlainObjects().size();
-		try
-		{
+		try {
 			SessionUser userEntity = new SessionUser(context);
-			user.initializeEntity(context, userEntity.getMendixObject(), null,ConfigurationName);
+			user.initializeEntity(context, userEntity.getMendixObject(), null, ConfigurationName);
 			info.set_user(userEntity);
-				
-			info.setGroup( group.getPropertyValue("name"));
-		}
-		catch(NotLoadedExcpetion e) 
-		{
-			String message = e.getMessage() +
-						"\n\nThis is demonstrating error handling for a programming error in CallGetTcSessionInfo Java Action "+
-						"('group.getPropertyValue(\"nameXX\")' should be 'group.getPropertyValue(\"name\")'";
+
+			info.setGroup(group.getPropertyValue("name"));
+		} catch (NotLoadedExcpetion e) {
+			String message = e.getMessage()
+					+ "\n\nThis is demonstrating error handling for a programming error in CallGetTcSessionInfo Java Action "
+					+ "('group.getPropertyValue(\"nameXX\")' should be 'group.getPropertyValue(\"name\")'";
 			Constants.LOGGER.info(message);
 			// Uncomment the showError call, to show the error to the user (pop-up message)
-			// Since this is a RuntimeExcpetion, it does not need to be caught here, if passed to the Mendix framework
+			// Since this is a RuntimeExcpetion, it does not need to be caught here, if
+			// passed to the Mendix framework
 			// a generic message is displayed to the user.
 			// In either case, the error is logged in the JModelObject class.
-				
+
 			// tcconnector.proxies.microflows.Microflows.showError(getContext(), message );
 		}
-		
-		
+
 		return info.getMendixObject();
 		// END USER CODE
 	}

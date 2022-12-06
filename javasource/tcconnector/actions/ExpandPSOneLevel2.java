@@ -76,152 +76,158 @@ public class ExpandPSOneLevel2 extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		ExpandPSOneLevel2Response response = new ExpandPSOneLevel2Response(getContext());
-		String[]  fmsURLs = retrieveFMSURLs();
-		CommonsFSCWholeFileIOImpl fscFileIOImpl = initializeFMS( fmsURLs );
-		try 
-		{
-			ServiceMapper serviceMapper= new ServiceMapper(getContext(), Constants.OPERATION_EXPANDPSONELEVEL2,  SERVICE_OPERATION_MAP, BusinessObjectMappings,ConfigurationName);
-			JSONObject jsonInputObj    = serviceMapper.mapInputData(InputEntity.getMendixObject());
-			JSONObject jsonPolicy      = serviceMapper.getObjectPropertyPolicy();
-			JSONObject jsonResponseObj = TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_EXPANDPSONELEVEL2, jsonInputObj, jsonPolicy,ConfigurationName);
-			response =(ExpandPSOneLevel2Response)serviceMapper.mapOutputData( jsonResponseObj, response );	
-			
-			List<IMendixObject> inputBOMLineList = Core.retrieveByPath(getContext(), InputEntity.getMendixObject(), "TcConnector.parentBomLines__");
-			
+		String[] fmsURLs = retrieveFMSURLs();
+		CommonsFSCWholeFileIOImpl fscFileIOImpl = initializeFMS(fmsURLs);
+		try {
+			ServiceMapper serviceMapper = new ServiceMapper(getContext(), Constants.OPERATION_EXPANDPSONELEVEL2,
+					SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+			JSONObject jsonInputObj = serviceMapper.mapInputData(InputEntity.getMendixObject());
+			JSONObject jsonPolicy = serviceMapper.getObjectPropertyPolicy();
+			JSONObject jsonResponseObj = TcConnection.callTeamcenterService(getContext(),
+					Constants.OPERATION_EXPANDPSONELEVEL2, jsonInputObj, jsonPolicy, ConfigurationName);
+			response = (ExpandPSOneLevel2Response) serviceMapper.mapOutputData(jsonResponseObj, response);
+
+			List<IMendixObject> inputBOMLineList = Core.retrieveByPath(getContext(), InputEntity.getMendixObject(),
+					"TcConnector.parentBomLines__");
+
 			System.out.println(jsonResponseObj);
-						
-			Map<String,List<String>> parentChildUIDMap = new HashMap<String,List<String>>();
+
+			Map<String, List<String>> parentChildUIDMap = new HashMap<String, List<String>>();
 			JSONArray outputArray = jsonResponseObj.getJSONArray("output");
 			JSONArray childJSONArray;
-			for(int cnt=0; cnt <outputArray.length();++cnt)
-			{
+			for (int cnt = 0; cnt < outputArray.length(); ++cnt) {
 				JSONObject outputJSONObj = outputArray.getJSONObject(cnt);
 				JSONObject parentJSONObj = outputJSONObj.getJSONObject("parent");
 				JSONObject parentBLJSONObj = parentJSONObj.getJSONObject("bomLine");
-				String ParentUID= parentBLJSONObj.getString("uid");
+				String ParentUID = parentBLJSONObj.getString("uid");
 				childJSONArray = outputJSONObj.getJSONArray("children");
 				String childUID;
-				List<String> childList= new ArrayList<String>();
-				for(int childCnt=0; childCnt <childJSONArray.length();++childCnt)
-				{
+				List<String> childList = new ArrayList<String>();
+				for (int childCnt = 0; childCnt < childJSONArray.length(); ++childCnt) {
 					JSONObject childJSONObj = childJSONArray.getJSONObject(childCnt);
 					JSONObject childBLJSONObj = childJSONObj.getJSONObject("bomLine");
-					childUID= childBLJSONObj.getString("uid");
+					childUID = childBLJSONObj.getString("uid");
 					childList.add(childUID);
-				
+
 				}
-				parentChildUIDMap.put(ParentUID,childList);
+				parentChildUIDMap.put(ParentUID, childList);
 			}
-			
-			List<IMendixObject> ParentChildWrapperList = Core.retrieveByPath(getContext(), response.getMendixObject(), "TcConnector.output__ExpandPSOneLevel2Response");
-			for(int cnt=0; cnt <ParentChildWrapperList.size();++cnt)
-			{
-				System.out.println("ParentChildWrapperList.size():"+ParentChildWrapperList.size());
-				
-				List<IMendixObject> childrenObjList = Core.retrieveByPath(getContext(), ParentChildWrapperList.get(cnt), "TcConnector.children__ParentChildWrapper");
-				System.out.println("childrenObjList.size():"+childrenObjList.size());
-				
-				for (Map.Entry<String, List<String>> entry : parentChildUIDMap.entrySet()) 
-				{
-				    List<String> childUIDList = entry.getValue();
-				    System.out.println("childUIDList.size():"+childUIDList.size());
-				    Boolean matchfound = true;
-				    if(childUIDList.size() == childrenObjList.size())
-				    {
-				    	System.out.println("Size Equal");
-				    	for(int childCnt=0; childCnt <childrenObjList.size();++childCnt)
-						{
-				    		System.out.println("childrenObjList.size() in Loop:"+childrenObjList.size());
-				    		List<IMendixObject> childBOMLineList = Core.retrieveByPath(getContext(), childrenObjList.get(childCnt), "TcConnector.bomLine__Child");
-				    		IMendixObject childBOMLineObj = childBOMLineList.get(0);
-				    		JModelObject childBOMLineModelObj  = new JModelObject(getContext(), childBOMLineObj);
-				    		String ChildObjUID = childBOMLineModelObj.getUID();
-				    		if(!childUIDList.contains(ChildObjUID))
-				    		{
-				    			System.out.println("-------------------------------");
-			    				System.out.println("Match Not Found");
-			    				System.out.println("-------------------------------");
-				    			matchfound = false;
-				    			break;
-				    		}
+
+			List<IMendixObject> ParentChildWrapperList = Core.retrieveByPath(getContext(), response.getMendixObject(),
+					"TcConnector.output__ExpandPSOneLevel2Response");
+			for (int cnt = 0; cnt < ParentChildWrapperList.size(); ++cnt) {
+				System.out.println("ParentChildWrapperList.size():" + ParentChildWrapperList.size());
+
+				List<IMendixObject> childrenObjList = Core.retrieveByPath(getContext(), ParentChildWrapperList.get(cnt),
+						"TcConnector.children__ParentChildWrapper");
+				System.out.println("childrenObjList.size():" + childrenObjList.size());
+
+				for (Map.Entry<String, List<String>> entry : parentChildUIDMap.entrySet()) {
+					List<String> childUIDList = entry.getValue();
+					System.out.println("childUIDList.size():" + childUIDList.size());
+					Boolean matchfound = true;
+					if (childUIDList.size() == childrenObjList.size()) {
+						System.out.println("Size Equal");
+						for (int childCnt = 0; childCnt < childrenObjList.size(); ++childCnt) {
+							System.out.println("childrenObjList.size() in Loop:" + childrenObjList.size());
+							List<IMendixObject> childBOMLineList = Core.retrieveByPath(getContext(),
+									childrenObjList.get(childCnt), "TcConnector.bomLine__Child");
+							IMendixObject childBOMLineObj = childBOMLineList.get(0);
+							JModelObject childBOMLineModelObj = new JModelObject(getContext(), childBOMLineObj);
+							String ChildObjUID = childBOMLineModelObj.getUID();
+							if (!childUIDList.contains(ChildObjUID)) {
+								System.out.println("-------------------------------");
+								System.out.println("Match Not Found");
+								System.out.println("-------------------------------");
+								matchfound = false;
+								break;
+							}
 						}
-				    	if(matchfound)
-				    	{
-				    		System.out.println("Match Found True");
-				    		for(int bomLineCnt=0; bomLineCnt <inputBOMLineList.size();++bomLineCnt)
-				    		{
-				    			IMendixObject InputBOMLine = inputBOMLineList.get(bomLineCnt);
-				    			JModelObject parentBOMLineModelObj  = new JModelObject(getContext(), InputBOMLine);
-				    			String parentBOMLineUID = parentBOMLineModelObj.getUID();
-				    			String parentUIDfromMap = entry.getKey();
-				    			IMendixObject childBOMLine =null;
-				    			if(parentBOMLineUID.compareTo(parentUIDfromMap)==0)
-				    			{
-				    				System.out.println("Set ChildObjList to Parent BOMLIne");
-				    				List<IMendixObject> parentObjList = Core.retrieveByPath(getContext(), ParentChildWrapperList.get(cnt), "TcConnector.parent__ParentChildWrapper");
-				    				parentObjList.get(0).setValue(getContext(), "TcConnector.bomLine__Parent", InputBOMLine.getId());
-				    				for(int childObjCnt=0; childObjCnt <childrenObjList.size();++childObjCnt)
-									{
-				    					IMendixObject childObj = childrenObjList.get(childObjCnt);
-				    					
-				    					childObj.setValue(getContext(), "TcConnector.BOMLine_childrenObj", InputBOMLine.getId());
-				    					List<IMendixObject> childBOMLineItemRevisionList = Core.retrieveByPath(getContext(), childObj, "TcConnector.objectOfBOMLine");
-				    					IMendixObject childBOMLineItemRevision=null;
-				    					if(childBOMLineItemRevisionList.size()>0)
-				    					{
-				    						childBOMLineItemRevision = childBOMLineItemRevisionList.get(0);
-				    						List<IMendixObject> childBOMLineList = Core.retrieveByPath(getContext(), childObj, "TcConnector.bomLine__Child");
-					    					childBOMLine = childBOMLineList.get(0);
-				    						//childBOMLine.setValue(getContext(), "TcConnector.bl_item_item_revision", childBOMLineItemRevision.getId());
-				    					}
-				    					List<IMendixObject> childBOMLineRelatedObjectsList = Core.retrieveByPath(getContext(), childObj, "TcConnector.relatedObjects");
-				    					for(int relatedObjCnt=0; relatedObjCnt <childBOMLineRelatedObjectsList.size();++relatedObjCnt)
-				    					{
-				    						List<IMendixObject> datasetList = Core.retrieveByPath(getContext(), childBOMLineRelatedObjectsList.get(relatedObjCnt), "TcConnector.relatedObject");
-				    						if(datasetList.size()>0)
-				    						{
-				    							IMendixObject dataset = datasetList.get(0);
-				    							List<IMendixObject> namedRefList = Core.retrieveByPath(getContext(), childBOMLineRelatedObjectsList.get(relatedObjCnt), "TcConnector.namedRefList");
-				    							List<IMendixIdentifier> fileDocumentList =new ArrayList<IMendixIdentifier>();
-				    							
-				    							for(int namedRefListCnt=0;  namedRefListCnt < namedRefList.size(); ++namedRefListCnt)
-				    							{
-				    								IMendixObject fileDocument = Core.instantiate(getContext(), tcconnector.proxies.FileDocument.entityName);
-				    								IMendixObjectMember<?> FileTicket = namedRefList.get(namedRefListCnt).getMember(getContext(), "fileTicket");
-				    								//fileDocument.setValue(getContext(), "FileTicket", FileTicket.getValue(getContext()).toString());
-				    								fileDocumentList.add(fileDocument.getId());
-				    								if(DownloadFiles)
-				    								{
-				    									
-					    								Thread thread = new Thread(){
-					    								    public void run(){
-					    								    	try {
-																	downloadFiles( fileDocument,fmsURLs,fscFileIOImpl, FileTicket.getValue(getContext()).toString());
+						if (matchfound) {
+							System.out.println("Match Found True");
+							for (int bomLineCnt = 0; bomLineCnt < inputBOMLineList.size(); ++bomLineCnt) {
+								IMendixObject InputBOMLine = inputBOMLineList.get(bomLineCnt);
+								JModelObject parentBOMLineModelObj = new JModelObject(getContext(), InputBOMLine);
+								String parentBOMLineUID = parentBOMLineModelObj.getUID();
+								String parentUIDfromMap = entry.getKey();
+								IMendixObject childBOMLine = null;
+								if (parentBOMLineUID.compareTo(parentUIDfromMap) == 0) {
+									System.out.println("Set ChildObjList to Parent BOMLIne");
+									List<IMendixObject> parentObjList = Core.retrieveByPath(getContext(),
+											ParentChildWrapperList.get(cnt), "TcConnector.parent__ParentChildWrapper");
+									parentObjList.get(0).setValue(getContext(), "TcConnector.bomLine__Parent",
+											InputBOMLine.getId());
+									for (int childObjCnt = 0; childObjCnt < childrenObjList.size(); ++childObjCnt) {
+										IMendixObject childObj = childrenObjList.get(childObjCnt);
+
+										childObj.setValue(getContext(), "TcConnector.BOMLine_childrenObj",
+												InputBOMLine.getId());
+										List<IMendixObject> childBOMLineItemRevisionList = Core
+												.retrieveByPath(getContext(), childObj, "TcConnector.objectOfBOMLine");
+										IMendixObject childBOMLineItemRevision = null;
+										if (childBOMLineItemRevisionList.size() > 0) {
+											childBOMLineItemRevision = childBOMLineItemRevisionList.get(0);
+											List<IMendixObject> childBOMLineList = Core.retrieveByPath(getContext(),
+													childObj, "TcConnector.bomLine__Child");
+											childBOMLine = childBOMLineList.get(0);
+										}
+										List<IMendixObject> childBOMLineRelatedObjectsList = Core
+												.retrieveByPath(getContext(), childObj, "TcConnector.relatedObjects");
+										for (int relatedObjCnt = 0; relatedObjCnt < childBOMLineRelatedObjectsList
+												.size(); ++relatedObjCnt) {
+											List<IMendixObject> datasetList = Core.retrieveByPath(getContext(),
+													childBOMLineRelatedObjectsList.get(relatedObjCnt),
+													"TcConnector.relatedObject");
+											if (datasetList.size() > 0) {
+												IMendixObject dataset = datasetList.get(0);
+												List<IMendixObject> namedRefList = Core.retrieveByPath(getContext(),
+														childBOMLineRelatedObjectsList.get(relatedObjCnt),
+														"TcConnector.namedRefList");
+												List<IMendixIdentifier> fileDocumentList = new ArrayList<IMendixIdentifier>();
+
+												for (int namedRefListCnt = 0; namedRefListCnt < namedRefList
+														.size(); ++namedRefListCnt) {
+													IMendixObject fileDocument = Core.instantiate(getContext(),
+															tcconnector.proxies.FileDocument.entityName);
+													IMendixObjectMember<?> FileTicket = namedRefList
+															.get(namedRefListCnt).getMember(getContext(), "fileTicket");
+													// fileDocument.setValue(getContext(), "FileTicket",
+													// FileTicket.getValue(getContext()).toString());
+													fileDocumentList.add(fileDocument.getId());
+													if (DownloadFiles) {
+
+														Thread thread = new Thread() {
+															public void run() {
+																try {
+																	downloadFiles(fileDocument, fmsURLs, fscFileIOImpl,
+																			FileTicket.getValue(getContext())
+																					.toString());
 																} catch (Exception e) {
 																	e.printStackTrace();
-																	Constants.LOGGER.error( Messages.ExpandPSOneLevel2Message.ExpandPSOneLevel2Error + e.getMessage());
+																	Constants.LOGGER.error(
+																			Messages.ExpandPSOneLevel2Message.ExpandPSOneLevel2Error
+																					+ e.getMessage());
 																}
-					    								    }
-					    								  };
-					    								  thread.start();
-				    								}
-				    							}
-				    							childBOMLine.setValue(getContext(), "TcConnector.BOMLineAttachments", fileDocumentList);
-				    						}
-				    					}
+															}
+														};
+														thread.start();
+													}
+												}
+												childBOMLine.setValue(getContext(), "TcConnector.BOMLineAttachments",
+														fileDocumentList);
+											}
+										}
 									}
-				    				break;
-				    			}
-				    		}
-				    	}
-				    }
-				    continue;
-				}			
+									break;
+								}
+							}
+						}
+					}
+					continue;
+				}
 			}
-		}
-		catch (Exception e)
-		{
-			Constants.LOGGER.error( Messages.ExpandPSOneLevel2Message.ExpandPSOneLevel2Error + e.getMessage());
+		} catch (Exception e) {
+			Constants.LOGGER.error(Messages.ExpandPSOneLevel2Message.ExpandPSOneLevel2Error + e.getMessage());
 			throw e;
 		}
 		return response.getMendixObject();
@@ -239,23 +245,24 @@ public class ExpandPSOneLevel2 extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Cad/2008-06/StructureManagement/ExpandPSOneLevel.json";
-	
-	private int downloadFiles(IMendixObject fileDocumentEntity,String[]  fmsURLs,CommonsFSCWholeFileIOImpl fscFileIOImpl,String fileTicket) throws Exception
-	{		
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Cad/2008-06/StructureManagement/ExpandPSOneLevel.json";
+
+	private int downloadFiles(IMendixObject fileDocumentEntity, String[] fmsURLs,
+			CommonsFSCWholeFileIOImpl fscFileIOImpl, String fileTicket) throws Exception {
 		ByteArrayOutputStream os = new ByteArrayOutputStream();
 		fscFileIOImpl.download("TCM", fmsURLs, fileTicket, os);
 		ByteArrayInputStream is = new ByteArrayInputStream(os.toByteArray());
 		Core.storeFileDocumentContent(getContext(), fileDocumentEntity, is);
 		System.out.println("File Download Done");
-		Constants.LOGGER.debug( "ExpandPSOneLevel2: File Downloaded" );
+		Constants.LOGGER.debug("ExpandPSOneLevel2: File Downloaded");
 		os.close();
 		is.close();
 		return 0;
 	}
-	
+
 	private String[] retrieveFMSURLs() {
-		TeamcenterConfiguration config = tcconnector.proxies.microflows.Microflows.retrieveTeamcenterConifgurationByName((IContext)getContext(), ConfigurationName); 
+		TeamcenterConfiguration config = tcconnector.proxies.microflows.Microflows
+				.retrieveTeamcenterConifgurationByName((IContext) getContext(), ConfigurationName);
 		String FMSURL = config.getFMSURL(getContext());
 		String[] bootstrapURLs = FMSURL.split(",");
 		return bootstrapURLs;
@@ -265,9 +272,9 @@ public class ExpandPSOneLevel2 extends CustomJavaAction<IMendixObject>
 		CommonsFSCWholeFileIOImpl fscFileIOImpl;
 		fscFileIOImpl = new CommonsFSCWholeFileIOImpl();
 		final InetAddress clientIP = InetAddress.getLocalHost();
-		fscFileIOImpl.init(clientIP.getHostAddress(), fmsURLs, fmsURLs);		
+		fscFileIOImpl.init(clientIP.getHostAddress(), fmsURLs, fmsURLs);
 		return fscFileIOImpl;
 	}
-	
+
 	// END EXTRA CODE
 }

@@ -56,21 +56,21 @@ public class GetAvailableDatasetTypes extends CustomJavaAction<java.util.List<IM
 		try {
 			// retrieve dataset types with display name
 			JSONObject getAvailableTypesWithDisplayNamesResponse = getAvailableTypesWithDisplayNames();
-			JSONObject inputClassToTypesJO = getAvailableTypesWithDisplayNamesResponse.getJSONObject("inputClassToTypes");
+			JSONObject inputClassToTypesJO = getAvailableTypesWithDisplayNamesResponse
+					.getJSONObject("inputClassToTypes");
 			JSONArray DatasetTypes = inputClassToTypesJO.getJSONArray("Dataset");
-			
-			for( int i = 0 ; i < DatasetTypes.length() ; i ++ )
-			{
+
+			for (int i = 0; i < DatasetTypes.length(); i++) {
 				JSONObject DatasetTypeJO = DatasetTypes.getJSONObject(i);
-				IMendixObject datasetType = Core.instantiate(getContext(), tcconnector.proxies.Pair.entityName );
+				IMendixObject datasetType = Core.instantiate(getContext(), tcconnector.proxies.Pair.entityName);
 				datasetType.setValue(getContext(), "Name", DatasetTypeJO.getString("displayType"));
 				datasetType.setValue(getContext(), "Value", DatasetTypeJO.getString("type"));
 				iMendixObjectList.add(datasetType);
 			}
 		} catch (Exception e) {
-			String message = "Retrieving available dataset types failed." +
-					 		 "Please contact your system administrator for further assistance.";
-			Constants.LOGGER.error( message + e.getMessage());
+			String message = "Retrieving available dataset types failed."
+					+ "Please contact your system administrator for further assistance.";
+			Constants.LOGGER.error(message + e.getMessage());
 			throw e;
 		}
 		return iMendixObjectList;
@@ -95,33 +95,27 @@ public class GetAvailableDatasetTypes extends CustomJavaAction<java.util.List<IM
 		return Substitutions;
 	}
 
-	private static String createServiceInput(String jsonTemplate, ArrayList<String> substitutions)
-	{
-		for(int i=0; i<substitutions.size(); i++)
-		{
-			String replacement 	= substitutions.get(i);
-			String target       = "{"+(i+1)+"}";
-			jsonTemplate 		= jsonTemplate.replace(target, replacement);
+	private static String createServiceInput(String jsonTemplate, ArrayList<String> substitutions) {
+		for (int i = 0; i < substitutions.size(); i++) {
+			String replacement = substitutions.get(i);
+			String target = "{" + (i + 1) + "}";
+			jsonTemplate = jsonTemplate.replace(target, replacement);
 		}
 		return jsonTemplate;
 	}
 
 	private JSONObject getAvailableTypesWithDisplayNames() throws Exception {
-		
+
 		// getAvailableTypesWithDisplayNames JSON Template
-		String getAvailableTypesWithDisplayNamesJT = "{\r\n" + 
-				"        \"classes\": [\r\n" + 
-				"            {\r\n" + 
-				"                \"baseClass\": \"Dataset\",\r\n" + 
-				"                \"exclusionTypes\": []\r\n" + 
-				"            }\r\n" + 
-				"        ]\r\n" + 
-				"    }";
+		String getAvailableTypesWithDisplayNamesJT = "{\r\n" + "        \"classes\": [\r\n" + "            {\r\n"
+				+ "                \"baseClass\": \"Dataset\",\r\n" + "                \"exclusionTypes\": []\r\n"
+				+ "            }\r\n" + "        ]\r\n" + "    }";
 		// substitutions for getAvailableTypesWithDisplayNames
 		ArrayList<String> Substitutions = createSubstitutionsFor_getAvailableTypesWithDisplayNames();
-		getAvailableTypesWithDisplayNamesJT = createServiceInput( getAvailableTypesWithDisplayNamesJT, Substitutions );
+		getAvailableTypesWithDisplayNamesJT = createServiceInput(getAvailableTypesWithDisplayNamesJT, Substitutions);
 
-		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETAVAILABLETYPESWITHDISPLAYNAMES , getAvailableTypesWithDisplayNamesJT, new JSONObject(), ConfigurationName);
+		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETAVAILABLETYPESWITHDISPLAYNAMES,
+				getAvailableTypesWithDisplayNamesJT, new JSONObject(), ConfigurationName);
 	}
 	// END EXTRA CODE
 }

@@ -9,7 +9,10 @@
 
 package tcconnector.actions;
 
+import java.util.List;
+import com.mendix.core.Core;
 import com.mendix.systemwideinterfaces.core.IContext;
+import com.mendix.systemwideinterfaces.core.IMendixObject;
 import com.mendix.thirdparty.org.json.JSONObject;
 import com.mendix.webui.CustomJavaAction;
 import tcconnector.foundation.TcConnection;
@@ -43,11 +46,32 @@ public class Logout extends CustomJavaAction<java.lang.Boolean>
 	public java.lang.Boolean executeAction() throws Exception
 	{
 		// BEGIN USER CODE
-		JSONObject logoutArgs = new JSONObject();
-		TcSession tcSession = tcconnector.proxies.microflows.Microflows.retrieveTcSessionBasedOnConfigName(getContext(),ConfigurationName);
-		TcConnection.callTeamcenterService(getContext(),  Constants.OPERATION_LOGOUT, logoutArgs, null, ConfigurationName);
-		CookieManager.deleteCookies(getContext(), tcSession);
-		tcSession.delete(getContext());
+		try {
+			JSONObject logoutArgs = new JSONObject();
+			if (ConfigurationName == null || ConfigurationName.isEmpty()) {
+				List<IMendixObject> TcConfig = Core.retrieveXPathQuery(getContext(),
+						"//TcConnector.TeamcenterConfiguration" + "[Active = '" + true + "']");
+				if (!TcConfig.isEmpty() && TcConfig.size() == 1) {
+					List<IMendixObject> TcSession_current = Core.retrieveByPath(getContext(),
+							getContext().getSession().getMendixObject(), "TcConnector.TeamcenterSession");
+					List<IMendixObject> TcSession_host = Core.retrieveXPathQuery(getContext(),
+							"//TcConnector.TcSession" + "[ HostAddress = '"
+									+ TcConfig.get(0).getMember(getContext(), "TCURL").getValue(getContext()) + "']");
+					TcSession_current.retainAll(TcSession_host);
+					if (TcSession_current.size() == 0)
+						return true;
+				}
+			}
+			TcSession tcSession = tcconnector.proxies.microflows.Microflows
+					.retrieveTcSessionBasedOnConfigName(getContext(), ConfigurationName);
+			if (tcSession != null) {
+				TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_LOGOUT, logoutArgs, null,
+						ConfigurationName);
+				CookieManager.deleteCookies(getContext(), tcSession);
+				tcSession.delete(getContext());
+			}
+		} catch (Exception e) {
+		}
 		return true;
 		// END USER CODE
 	}

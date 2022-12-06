@@ -49,29 +49,29 @@ public class FindUsersTasks extends CustomJavaAction<IMendixObject>
 	{
 		// BEGIN USER CODE
 		FindUsersTasksResponse response = new FindUsersTasksResponse(getContext());
-		try
-		{
-			GetTcSessionInformation getTcSessionInfo = new GetTcSessionInformation(getContext(), "User=TcConnector.User;Group=TcConnector.Group", ConfigurationName);
+		try {
+			GetTcSessionInformation getTcSessionInfo = new GetTcSessionInformation(getContext(),
+					"User=TcConnector.User;Group=TcConnector.Group", ConfigurationName);
 			IMendixObject getTcSessionInfoResponse = (IMendixObject) getTcSessionInfo.execute();
 			IMendixObjectMember<?> user = getTcSessionInfoResponse.getMember(getContext(), "TcConnector.user__");
-			IMendixObject userObject = ((IMendixIdentifier)user.getValue(getContext())).getObject();
-			List<IMendixObject> subscribedInboxList = Core.retrieveByPath(getContext(), userObject, "TcConnector.subscribed_inboxes");
-			for(int inboxCnt=0 ; inboxCnt < subscribedInboxList.size() ; inboxCnt++)
-			{
+			IMendixObject userObject = ((IMendixIdentifier) user.getValue(getContext())).getObject();
+			List<IMendixObject> subscribedInboxList = Core.retrieveByPath(getContext(), userObject,
+					"TcConnector.subscribed_inboxes");
+			for (int inboxCnt = 0; inboxCnt < subscribedInboxList.size(); inboxCnt++) {
 				IMendixObject taskInboxObject = subscribedInboxList.get(inboxCnt);
-				String BusinessMappings="TaskInbox=TcConnector.TaskInbox;EPMTask=TcConnector.EPMTask";
-				
+				String BusinessMappings = "TaskInbox=TcConnector.TaskInbox;EPMTask=TcConnector.EPMTask";
+
 				List<IMendixObject> taskInboxList = new ArrayList<IMendixObject>();
 				taskInboxList.add(taskInboxObject);
-				GetProperties getProperties = new GetProperties(getContext(), taskInboxList, BusinessMappings,ConfigurationName);
+				GetProperties getProperties = new GetProperties(getContext(), taskInboxList, BusinessMappings,
+						ConfigurationName);
 				boolean getPropertiesResponse = getProperties.executeAction();
-				
-				if(getPropertiesResponse)
-					taskInboxObject.setValue(getContext(), "TcConnector.TaskInbox_FindUsersTasksResponse", response.getMendixObject().getId());
+
+				if (getPropertiesResponse)
+					taskInboxObject.setValue(getContext(), "TcConnector.TaskInbox_FindUsersTasksResponse",
+							response.getMendixObject().getId());
 			}
-		}
-		catch(NotLoadedExcpetion e) 
-		{
+		} catch (NotLoadedExcpetion e) {
 			String message = e.getMessage();
 			Constants.LOGGER.error(message + e.getMessage());
 			message += "Please contact your system administrator for further assistance.";

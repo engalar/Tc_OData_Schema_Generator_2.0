@@ -48,9 +48,9 @@ public class CreateBOMWindows extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		CreateBomWindowResponse response = new CreateBomWindowResponse(getContext());
-		response = (CreateBomWindowResponse)TcConnection.callTeamcenterService(  getContext(), 
-													Constants.OPERATION_CREATEBOMWINDOWS2, InputData.getMendixObject(), 
-													response, SERVICE_OPERATION_MAP, BusinessObjectMappings,ConfigurationName);
+		response = (CreateBomWindowResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_CREATEBOMWINDOWS2, InputData.getMendixObject(), response, SERVICE_OPERATION_MAP,
+				BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -66,6 +66,6 @@ public class CreateBOMWindows extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Cad/2007-01/StructureManagement/createBoMWindows.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Cad/2007-01/StructureManagement/createBoMWindows.json";
 	// END EXTRA CODE
 }

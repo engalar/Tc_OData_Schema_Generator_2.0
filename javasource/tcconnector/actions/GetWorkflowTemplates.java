@@ -47,9 +47,9 @@ public class GetWorkflowTemplates extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		GetWorkflowTemplatesResponse response = new GetWorkflowTemplatesResponse(getContext());
-		response = (GetWorkflowTemplatesResponse)TcConnection.callTeamcenterService(  getContext(), 
-													Constants.OPERATION_GETWORKFLOWTEMPLATES, InputData.getMendixObject(), 
-													response, SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+		response = (GetWorkflowTemplatesResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_GETWORKFLOWTEMPLATES, InputData.getMendixObject(), response, SERVICE_OPERATION_MAP,
+				BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -65,6 +65,6 @@ public class GetWorkflowTemplates extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Workflow/2008-06/Workflow/getWorkflowTemplates.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Workflow/2008-06/Workflow/getWorkflowTemplates.json";
 	// END EXTRA CODE
 }

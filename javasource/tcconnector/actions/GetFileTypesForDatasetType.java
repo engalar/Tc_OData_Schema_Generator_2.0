@@ -50,28 +50,26 @@ public class GetFileTypesForDatasetType extends CustomJavaAction<java.util.List<
 		// BEGIN USER CODE
 		List<IMendixObject> iMendixObjectList = new ArrayList<IMendixObject>();
 
-
 		try {
 			// retrive dataset type information like extension
 			JSONObject getDatasetTypeInfoResponse = getDatasetTypeInfo();
 			JSONArray infosJA = getDatasetTypeInfoResponse.getJSONArray("infos");
 			JSONArray refInfosJA = infosJA.getJSONObject(0).getJSONArray("refInfos");
-			
-			for( int i = 0 ; i < refInfosJA.length() ; i ++ )
-			{
+
+			for (int i = 0; i < refInfosJA.length(); i++) {
 				JSONObject refInfoJO = refInfosJA.getJSONObject(i);
-				IMendixObject refIno = Core.instantiate(getContext(), tcconnector.proxies.Pair.entityName );
+				IMendixObject refIno = Core.instantiate(getContext(), tcconnector.proxies.Pair.entityName);
 				refIno.setValue(getContext(), "Name", refInfoJO.getString("fileExtension"));
 				refIno.setValue(getContext(), "Value", refInfoJO.getString("referenceName"));
 				iMendixObjectList.add(refIno);
 			}
 		} catch (Exception e) {
-			String message = "Retrieving available file types for dataset '" + dataset_type + "' failed." +
-			 		 		 "Please contact your system administrator for further assistance.";
-			Constants.LOGGER.error( message + e.getMessage());
+			String message = "Retrieving available file types for dataset '" + dataset_type + "' failed."
+					+ "Please contact your system administrator for further assistance.";
+			Constants.LOGGER.error(message + e.getMessage());
 			throw e;
 		}
-		return iMendixObjectList;		
+		return iMendixObjectList;
 		// END USER CODE
 	}
 
@@ -86,18 +84,16 @@ public class GetFileTypesForDatasetType extends CustomJavaAction<java.util.List<
 	}
 
 	// BEGIN EXTRA CODE
-	
-	private static String createServiceInput(String jsonTemplate, ArrayList<String> substitutions)
-	{
-		for(int i=0; i<substitutions.size(); i++)
-		{
-			String replacement 	= substitutions.get(i);
-			String target       = "{"+(i+1)+"}";
-			jsonTemplate 		= jsonTemplate.replace(target, replacement);
+
+	private static String createServiceInput(String jsonTemplate, ArrayList<String> substitutions) {
+		for (int i = 0; i < substitutions.size(); i++) {
+			String replacement = substitutions.get(i);
+			String target = "{" + (i + 1) + "}";
+			jsonTemplate = jsonTemplate.replace(target, replacement);
 		}
 		return jsonTemplate;
 	}
-	
+
 	private ArrayList<String> createSubstitutionsFor_getDatasetTypeInfo() {
 		ArrayList<String> Substitutions = new java.util.ArrayList<String>();
 		Substitutions.add(dataset_type);
@@ -106,17 +102,14 @@ public class GetFileTypesForDatasetType extends CustomJavaAction<java.util.List<
 
 	private JSONObject getDatasetTypeInfo() throws Exception {
 		// getAvailableTypesWithDisplayNames JSON Template
-		String getDatasetTypeInfoJT = "{\r\n" + 
-				"        \"datasetTypeNames\": [\r\n" + 
-				"             \"{1}\"\r\n" + 
-				"             ]\r\n" + 
-				"            }\r\n" + 
-				"    }";
+		String getDatasetTypeInfoJT = "{\r\n" + "        \"datasetTypeNames\": [\r\n" + "             \"{1}\"\r\n"
+				+ "             ]\r\n" + "            }\r\n" + "    }";
 		// substitutions for createDatasets
 		ArrayList<String> Substitutions = createSubstitutionsFor_getDatasetTypeInfo();
-		getDatasetTypeInfoJT = createServiceInput( getDatasetTypeInfoJT, Substitutions );
+		getDatasetTypeInfoJT = createServiceInput(getDatasetTypeInfoJT, Substitutions);
 
-		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETDATASETTYPEINFO , getDatasetTypeInfoJT, new JSONObject(), ConfigurationName);
+		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETDATASETTYPEINFO,
+				getDatasetTypeInfoJT, new JSONObject(), ConfigurationName);
 	}
 	// END EXTRA CODE
 }

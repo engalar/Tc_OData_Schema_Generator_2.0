@@ -8,17 +8,20 @@
 
 package tcconnector.foundation.exceptions;
 
-public abstract class AuthException extends BaseServiceException
-{
+public abstract class AuthException extends BaseServiceException {
 	private static final long serialVersionUID = 1L;
 	protected String ssoUrl = "";
-	protected String appId  = "";
+	protected String appId = "";
 
-	protected AuthException(String message)
-	{
+	protected AuthException(String message) {
 		super(message);
 	}
 
-	public String getSsoUrl() 	{ return ssoUrl; }
-	public String getAppId() 	{ return appId;  }
+	public String getSsoUrl() {
+		return ssoUrl;
+	}
+
+	public String getAppId() {
+		return appId;
+	}
 }

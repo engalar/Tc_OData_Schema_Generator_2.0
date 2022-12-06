@@ -48,9 +48,9 @@ public class CreateRelation extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		CreateRelationResponse response = new CreateRelationResponse(getContext());
-		response = (CreateRelationResponse)TcConnection.callTeamcenterService(  getContext(), 
-													Constants.OPERATION_CREATERELATIONS, InputData.getMendixObject(), 
-													response, SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+		response = (CreateRelationResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_CREATERELATIONS, InputData.getMendixObject(), response, SERVICE_OPERATION_MAP,
+				BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -67,6 +67,6 @@ public class CreateRelation extends CustomJavaAction<IMendixObject>
 
 	// BEGIN EXTRA CODE
 
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Core/2006-03/DataManagement/createRelations.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Core/2006-03/DataManagement/createRelations.json";
 	// END EXTRA CODE
 }

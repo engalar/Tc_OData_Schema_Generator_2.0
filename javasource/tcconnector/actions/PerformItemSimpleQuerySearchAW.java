@@ -49,7 +49,8 @@ public class PerformItemSimpleQuerySearchAW extends CustomJavaAction<IMendixObje
 		this.itemSimpleQuerySearchInput = this.__itemSimpleQuerySearchInput == null ? null : tcconnector.proxies.SearchInput.initialize(getContext(), __itemSimpleQuerySearchInput);
 
 		// BEGIN USER CODE
-		return AdvancedSearchHelper.performAdvanceSearch(getContext(), KEY_ITEM_SIMPLE_QUERY_NAME, itemSimpleQuerySearchInput.getMendixObject(), businessObjectMapping,ConfigurationName);
+		return AdvancedSearchHelper.performAdvanceSearch(getContext(), KEY_ITEM_SIMPLE_QUERY_NAME,
+				itemSimpleQuerySearchInput.getMendixObject(), businessObjectMapping, ConfigurationName);
 		// END USER CODE
 	}
 
@@ -64,6 +65,6 @@ public class PerformItemSimpleQuerySearchAW extends CustomJavaAction<IMendixObje
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String KEY_ITEM_SIMPLE_QUERY_NAME 	= "Item - simple";
+	private static final String KEY_ITEM_SIMPLE_QUERY_NAME = "Item - simple";
 	// END EXTRA CODE
 }

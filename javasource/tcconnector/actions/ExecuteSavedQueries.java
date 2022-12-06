@@ -57,99 +57,94 @@ public class ExecuteSavedQueries extends CustomJavaAction<IMendixObject>
 	public IMendixObject executeAction() throws Exception
 	{
 		// BEGIN USER CODE
-		
+
 		IContext context = getContext();
-		
-		//Find Saved Query SOA call
-		String newQueryUidVal = AdvancedSearchHelper.getSavedQueryUID(context, QueryName,ConfigurationName);
-		if(newQueryUidVal == null)
+
+		// Find Saved Query SOA call
+		String newQueryUidVal = AdvancedSearchHelper.getSavedQueryUID(context, QueryName, ConfigurationName);
+		if (newQueryUidVal == null)
 			return Core.instantiate(context, "TcConnector.FindSavedQueryResponse");
-		
-		//executeSavedQueries SOA Call
+
+		// executeSavedQueries SOA Call
 		JSONObject imanQueryObj = new JSONObject();
 		imanQueryObj.put(KEY_UID, newQueryUidVal);
-		
+
 		JSONObject input = new JSONObject();
 		input.put(KEY_QUERY, imanQueryObj);
-		
+
 		ArrayList<String> enteries = new ArrayList<String>();
 		ArrayList<String> values = new ArrayList<String>();
-			
-		if(InputData != null)
-		{
+
+		if (InputData != null) {
 			Map<String, ? extends IMendixObjectMember<?>> allMembers = InputData.getMembers(context);
-			for(String attribute: allMembers.keySet())
-			{
-				if(InputData.getMetaObject().getMetaPrimitive(attribute) != null)
-				{
+			for (String attribute : allMembers.keySet()) {
+				if (InputData.getMetaObject().getMetaPrimitive(attribute) != null) {
 					Object attrValue = InputData.getValue(context, attribute);
-					
-					if(attrValue != null)
-					{
-						if(attrValue.getClass().getName().contains("Date"))
-						{
-							SimpleDateFormat format = new SimpleDateFormat( "dd-MMM-yyyy HH:MM" );
+
+					if (attrValue != null) {
+						if (attrValue.getClass().getName().contains("Date")) {
+							SimpleDateFormat format = new SimpleDateFormat("dd-MMM-yyyy HH:MM");
 							attrValue = format.format(attrValue);
 						}
-						
+
 						String[] attrNameSplit = attribute.split("_");
-						if(attrNameSplit.length == 2 && attrNameSplit[0].equals(""))
+						if (attrNameSplit.length == 2 && attrNameSplit[0].equals(""))
 							attribute = attrNameSplit[1];
-						else if(attrNameSplit.length > 1)
-						{
+						else if (attrNameSplit.length > 1) {
 							attribute = "";
-							for(String name: attrNameSplit)
-							{
-								if(name.equals(attrNameSplit[0]))
+							for (String name : attrNameSplit) {
+								if (name.equals(attrNameSplit[0]))
 									attribute = name;
 								else
 									attribute = attribute + " " + name;
 							}
 						}
-						
+
 						enteries.add(attribute);
 						values.add(attrValue.toString());
 					}
 				}
 			}
 		}
-		
+
 		input.put(KEY_ENTERIES, enteries);
 		input.put(KEY_VALUES, values);
-		
+
 		input.put(KEY_MAX_TO_RETURN, 0);
 		input.put(KEY_RESULT_TYPE, 0);
 		input.put(KEY_REQUEST_ID, "");
 		input.put(KEY_CLIENT_ID, "");
-				
+
 		JSONArray inputData = new JSONArray();
 		inputData.put(input);
-		
+
 		JSONObject inputJson = new JSONObject();
 		inputJson.put(KEY_INPUT, inputData);
 
-		BusinessObjectMappings boMappings = new BusinessObjectMappings(BusinessObjectMappings,ConfigurationName);
+		BusinessObjectMappings boMappings = new BusinessObjectMappings(BusinessObjectMappings, ConfigurationName);
 		JPolicy policy = new JPolicy(boMappings);
-		
+
 		// Call the executeSavedQueries service
-		JSONObject queryResult = TcConnection.callTeamcenterService(context, Constants.OPERATION_EXECUTESAVEDQUERIES, inputJson, policy, ConfigurationName);
-		
-		//Load Objects SOA
+		JSONObject queryResult = TcConnection.callTeamcenterService(context, Constants.OPERATION_EXECUTESAVEDQUERIES,
+				inputJson, policy, ConfigurationName);
+
+		// Load Objects SOA
 		JSONObject arrayOfResults = queryResult.getJSONArray(KEY_ARRAY_OF_RESULTS).getJSONObject(0);
-		
+
 		ServiceResponse responseObj = new ServiceResponse(getContext());
-		if(arrayOfResults.length() == 0)
+		if (arrayOfResults.length() == 0)
 			return responseObj.getMendixObject();
-		
+
 		JSONObject loadObjInputJSON = new JSONObject();
 		loadObjInputJSON.put(KEY_UIDS, arrayOfResults.getJSONArray(KEY_OBJECT_UIDS));
-		
-		//Call loadObjects SOA
-		JSONObject searchResult = TcConnection.callTeamcenterService(context, Constants.OPERATION_LOAD_OBJECTS, loadObjInputJSON, policy, ConfigurationName);
-		
+
+		// Call loadObjects SOA
+		JSONObject searchResult = TcConnection.callTeamcenterService(context, Constants.OPERATION_LOAD_OBJECTS,
+				loadObjInputJSON, policy, ConfigurationName);
+
 		JServiceData svcData = new JServiceData(searchResult);
-		responseObj.setResponseData(svcData.instantiateServiceData(getContext(), boMappings,ConfigurationName) );
-		
+		responseObj.setResponseData(svcData.instantiateServiceData(getContext(), boMappings, ConfigurationName));
+
 		return responseObj.getMendixObject();
 		// END USER CODE
 	}
@@ -165,17 +160,17 @@ public class ExecuteSavedQueries extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String KEY_INPUT			="input";
-	private static final String KEY_QUERY			="query";
-	private static final String KEY_ENTERIES		="entries";
-	private static final String KEY_VALUES			="values";
-	private static final String KEY_MAX_TO_RETURN	="maxNumToReturn";
-	private static final String KEY_RESULT_TYPE		="resultsType";
-	private static final String KEY_REQUEST_ID		="requestId";
-	private static final String KEY_CLIENT_ID		="clientId";
-	private static final String KEY_UIDS			="uids";
-	private static final String KEY_ARRAY_OF_RESULTS="arrayOfResults";
-	private static final String KEY_OBJECT_UIDS		="objectUIDS";
-	private static final String KEY_UID				="uid";
+	private static final String KEY_INPUT = "input";
+	private static final String KEY_QUERY = "query";
+	private static final String KEY_ENTERIES = "entries";
+	private static final String KEY_VALUES = "values";
+	private static final String KEY_MAX_TO_RETURN = "maxNumToReturn";
+	private static final String KEY_RESULT_TYPE = "resultsType";
+	private static final String KEY_REQUEST_ID = "requestId";
+	private static final String KEY_CLIENT_ID = "clientId";
+	private static final String KEY_UIDS = "uids";
+	private static final String KEY_ARRAY_OF_RESULTS = "arrayOfResults";
+	private static final String KEY_OBJECT_UIDS = "objectUIDS";
+	private static final String KEY_UID = "uid";
 	// END EXTRA CODE
 }

@@ -53,36 +53,35 @@ public class CreateObject extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		boolean before = true;
-		
-		try 
-		{
+
+		try {
 			// Prepare the request body
-			tcconnector.internal.servicehelper.PrepareCreateObjectsReqBody createObjectsReqBody = new tcconnector.internal.servicehelper.PrepareCreateObjectsReqBody(getContext(),  createInput.getMendixObject());
+			tcconnector.internal.servicehelper.PrepareCreateObjectsReqBody createObjectsReqBody = new tcconnector.internal.servicehelper.PrepareCreateObjectsReqBody(
+					getContext(), createInput.getMendixObject());
 			String reqBody = createObjectsReqBody.get();
 			JSONObject reqBodyJson = new JSONObject(reqBody);
 			BusinessObjectMappings boMappings = new BusinessObjectMappings(businessObjectMapping, ConfigurationName);
 			JPolicy policy = new JPolicy(boMappings);
-			
+
 			// Call the CreateObjects service
-			JSONObject response = TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_CREATEOBJECTS, reqBodyJson, policy, ConfigurationName);
+			JSONObject response = TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_CREATEOBJECTS,
+					reqBodyJson, policy, ConfigurationName);
 			before = false;
 			ServiceResponse responseObj = new ServiceResponse(getContext());
-			
-			JServiceData serviceData = (JServiceData)response.getJSONObject(RES_SERVICEDATA_KEY);
-			responseObj.setResponseData(serviceData.instantiateServiceData(getContext(), boMappings,ConfigurationName) );
+
+			JServiceData serviceData = (JServiceData) response.getJSONObject(RES_SERVICEDATA_KEY);
+			responseObj
+					.setResponseData(serviceData.instantiateServiceData(getContext(), boMappings, ConfigurationName));
 			return responseObj.getMendixObject();
-		}
-		catch(Exception e) 
-		{
-			String message = (before)? "Failed to marshall the the service operation " +
-		                                Constants.OPERATION_CREATEOBJECTS + 
-		                                " input argument.":
-				                        "Failed to marshall the the service operation " +
-		                                Constants.OPERATION_CREATEOBJECTS +
-		                                " response data.";
+		} catch (Exception e) {
+			String message = (before)
+					? "Failed to marshall the the service operation " + Constants.OPERATION_CREATEOBJECTS
+							+ " input argument."
+					: "Failed to marshall the the service operation " + Constants.OPERATION_CREATEOBJECTS
+							+ " response data.";
 			Constants.LOGGER.error(message + e.getMessage());
 			message += "Please contact your system administrator for further assistance.";
-			throw e;			
+			throw e;
 		}
 		// END USER CODE
 	}

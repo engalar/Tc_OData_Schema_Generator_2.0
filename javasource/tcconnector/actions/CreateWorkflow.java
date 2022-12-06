@@ -47,9 +47,9 @@ public class CreateWorkflow extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		CreateWorkflowResponse response = new CreateWorkflowResponse(getContext());
-		response = (CreateWorkflowResponse)TcConnection.callTeamcenterService(  getContext(), 
-													Constants.OPERATION_CREATEWORKFLOW, InputData.getMendixObject(), 
-													response, SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+		response = (CreateWorkflowResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_CREATEWORKFLOW, InputData.getMendixObject(), response, SERVICE_OPERATION_MAP,
+				BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -65,6 +65,6 @@ public class CreateWorkflow extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Workflow/2014-10/Workflow/createWorkflow.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Workflow/2014-10/Workflow/createWorkflow.json";
 	// END EXTRA CODE
 }

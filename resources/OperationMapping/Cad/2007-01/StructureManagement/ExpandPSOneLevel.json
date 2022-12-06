@@ -13,7 +13,6 @@
 		"pref": {
 			"expItemRev": true,
 			"info":
-			"info":
 			[{
 				"relationName": "$Input\/RelationName",
 				"relationTypeNames": []
@@ -23,7 +22,6 @@
     "OperationResponse": 
     {
         "output": [{
-				"parent": "$Response\/TcConnector.parent",
 				"children": "$Response\/TcConnector.children"
 			}]
     }

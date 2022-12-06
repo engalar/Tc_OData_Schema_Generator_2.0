@@ -48,9 +48,9 @@ public class ExpandGRMRelationsForSecondary extends CustomJavaAction<IMendixObje
 
 		// BEGIN USER CODE
 		ExpandGRMResponse response = new ExpandGRMResponse(getContext());
-		response = (ExpandGRMResponse)TcConnection.callTeamcenterService(  getContext(), 
-													Constants.OPERATION_EXPAND_GRM_RELATIONS_SECONDARY, InputEntity.getMendixObject(), 
-													response, SERVICE_OPERATION_MAP, BusinessObjectMappings,ConfigurationName);
+		response = (ExpandGRMResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_EXPAND_GRM_RELATIONS_SECONDARY, InputEntity.getMendixObject(), response,
+				SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -66,6 +66,6 @@ public class ExpandGRMRelationsForSecondary extends CustomJavaAction<IMendixObje
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Core/2007-09/DataManagement/expandGRMRelationsForSecondary.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Core/2007-09/DataManagement/expandGRMRelationsForSecondary.json";
 	// END EXTRA CODE
 }

@@ -66,60 +66,53 @@ public class GetProperties extends CustomJavaAction<java.lang.Boolean>
 
 		// BEGIN USER CODE
 		boolean isGetPropertySuccess = true;
-		try 
-		{
+		try {
 			JSONObject getPropertyBody = new JSONObject();
 			JSONArray objects = new JSONArray();
 			JSONArray attributes = new JSONArray();
-			for(int cnt=0; cnt < InputObjects.size(); ++cnt)
-			{
+			for (int cnt = 0; cnt < InputObjects.size(); ++cnt) {
 				JSONObject object = new JSONObject();
-				object.put("uid",InputObjects.get(cnt).getUID());
+				object.put("uid", InputObjects.get(cnt).getUID());
 				objects.put(object);
 			}
 			getPropertyBody.put("objects", objects);
 			getPropertyBody.put("attributes", attributes);
-			
-			BusinessObjectMappings boMappings = new BusinessObjectMappings(BusinessObjectMappings,ConfigurationName);
+
+			BusinessObjectMappings boMappings = new BusinessObjectMappings(BusinessObjectMappings, ConfigurationName);
 			JPolicy policy = new JPolicy(boMappings);
 
-			JSONObject response = TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETPROPERTIES, getPropertyBody, policy, ConfigurationName);
-			JServiceData object = (JServiceData)response;
+			JSONObject response = TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETPROPERTIES,
+					getPropertyBody, policy, ConfigurationName);
+			JServiceData object = (JServiceData) response;
 			List<JModelObject> plainObjectsList = object.getPlainObjects();
-			Map<String,JModelObject> plainObjectsMap = new HashMap<String,JModelObject>();
+			Map<String, JModelObject> plainObjectsMap = new HashMap<String, JModelObject>();
 			IMendixObject inputEntity;
-			if(!plainObjectsList.isEmpty())
-			{
-				for(int cnt=0; cnt < plainObjectsList.size(); ++cnt)
-				{
+			if (!plainObjectsList.isEmpty()) {
+				for (int cnt = 0; cnt < plainObjectsList.size(); ++cnt) {
 					String jsonObjUid = plainObjectsList.get(cnt).getUID();
 					plainObjectsMap.put(jsonObjUid, plainObjectsList.get(cnt));
 				}
-				
-				for(int inputCnt=0; inputCnt < InputObjects.size(); ++inputCnt)
-				{
+
+				for (int inputCnt = 0; inputCnt < InputObjects.size(); ++inputCnt) {
 					inputEntity = InputObjects.get(inputCnt).getMendixObject();
 					IMendixObjectMember<?> member = inputEntity.getMembers(getContext()).get("UID");
 					Object value = member.getValue(getContext());
 					String inputObjUid = "";
-	
-					if(value !=null)
-					{
+
+					if (value != null) {
 						inputObjUid = value.toString();
 					}
-					
+
 					JModelObject plainObject = plainObjectsMap.get(inputObjUid);
-					
-					if(plainObject!=null)
-					{
-						ModelObjectMapper.initializeEntity(getContext(), plainObject, inputEntity, TcModelObjectMappings.INSTANCE, boMappings,ConfigurationName);
+
+					if (plainObject != null) {
+						ModelObjectMapper.initializeEntity(getContext(), plainObject, inputEntity,
+								TcModelObjectMappings.INSTANCE, boMappings, ConfigurationName);
 					}
 				}
 			}
-		} 
-		catch (Exception e)
-		{
-			Constants.LOGGER.error( Messages.GetPropertyErrorMessage.GetPropertyError + e.getMessage());
+		} catch (Exception e) {
+			Constants.LOGGER.error(Messages.GetPropertyErrorMessage.GetPropertyError + e.getMessage());
 			isGetPropertySuccess = false;
 			throw e;
 		}

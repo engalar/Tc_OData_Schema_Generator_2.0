@@ -64,39 +64,35 @@ public class SetProperties extends CustomJavaAction<IMendixObject>
 			.collect(java.util.stream.Collectors.toList());
 
 		// BEGIN USER CODE
-		
+
 		boolean before = true;
-		try 
-		{
+		try {
 			JSONObject setPropertyBody = new JSONObject();
 			JSONArray info = new JSONArray();
-			for(int modelObjCount=0; modelObjCount < __modelObjects.size(); ++modelObjCount)
-			{
+			for (int modelObjCount = 0; modelObjCount < __modelObjects.size(); ++modelObjCount) {
 				IMendixObject modelObject = __modelObjects.get(modelObjCount);
 				JSONObject infoElement = new JSONObject();
-				JModelObject jModelObj  = new JModelObject(getContext(), modelObject);
+				JModelObject jModelObj = new JModelObject(getContext(), modelObject);
 				infoElement.put("object", jModelObj);
-				
-				List<IMendixObject> changedMembersList = Core.retrieveByPath(getContext(), modelObject, OBJECT_SETPROPS_KEY);
+
+				List<IMendixObject> changedMembersList = Core.retrieveByPath(getContext(), modelObject,
+						OBJECT_SETPROPS_KEY);
 				JSONArray NameValVec = new JSONArray();
-				
-				for(int cnt=0; cnt < changedMembersList.size(); ++cnt)
-				{
+
+				for (int cnt = 0; cnt < changedMembersList.size(); ++cnt) {
 					IMendixObject changedMember = changedMembersList.get(cnt);
 					String propName = changedMember.getMember(getContext(), NAME_KEY).getValue(getContext()).toString();
-					List<IMendixObject> changedValuesList = Core.retrieveByPath(getContext(), changedMember, VALUES_KEY);
-					
-					for(IMendixObject changedValue : changedValuesList)
-					{
+					List<IMendixObject> changedValuesList = Core.retrieveByPath(getContext(), changedMember,
+							VALUES_KEY);
+
+					for (IMendixObject changedValue : changedValuesList) {
 						Object value = changedValue.getMember(getContext(), VALUE_KEY).getValue(getContext());
 						JSONObject name = new JSONObject();
 						JSONArray values = new JSONArray();
 						name.put("name", propName);
-						if(value != null && !(changedMember instanceof MendixObjectReference) )
-						{
-							if(modelObject.getMember(getContext(), propName) instanceof MendixDateTime)
-							{
-								SimpleDateFormat format = new SimpleDateFormat( "yyyy-MM-dd'T'HH:mm:ssZ" );
+						if (value != null && !(changedMember instanceof MendixObjectReference)) {
+							if (modelObject.getMember(getContext(), propName) instanceof MendixDateTime) {
+								SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ssZ");
 								java.util.Date date = (Date) value;
 								value = format.format(date);
 							}
@@ -105,39 +101,38 @@ public class SetProperties extends CustomJavaAction<IMendixObject>
 						name.put("values", values);
 						NameValVec.put(name);
 					}
-					
+
 				}
 				infoElement.put("vecNameVal", NameValVec);
 				infoElement.put("timestamp", "");
 				info.put(infoElement);
 			}
-	
+
 			setPropertyBody.put("info", info);
 			JSONArray options = new JSONArray();
 			setPropertyBody.put("options", options);
 
-			BusinessObjectMappings boMappings = new BusinessObjectMappings(businessObjectMapping,ConfigurationName);
+			BusinessObjectMappings boMappings = new BusinessObjectMappings(businessObjectMapping, ConfigurationName);
 			JPolicy policy = new JPolicy(boMappings);
-			JSONObject response = TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_SETPROPERTIES, setPropertyBody, policy, ConfigurationName);
-			
+			JSONObject response = TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_SETPROPERTIES,
+					setPropertyBody, policy, ConfigurationName);
+
 			before = false;
 			ServiceResponse responseObj = new ServiceResponse(getContext());
-				
-			JServiceData serviceData = (JServiceData)response.getJSONObject(RES_SERVICEDATA_KEY);
-			responseObj.setResponseData(serviceData.instantiateServiceData(getContext(), boMappings,ConfigurationName) );
+
+			JServiceData serviceData = (JServiceData) response.getJSONObject(RES_SERVICEDATA_KEY);
+			responseObj
+					.setResponseData(serviceData.instantiateServiceData(getContext(), boMappings, ConfigurationName));
 			return responseObj.getMendixObject();
-		}
-		catch(Exception e) 
-		{
-			String message = (before)? "Failed to marshall the the service operation " +
-		                                Constants.OPERATION_SETPROPERTIES + 
-		                                " input argument.":
-				                        "Failed to marshall the the service operation " +
-		                                Constants.OPERATION_SETPROPERTIES +
-		                                " response data.";
+		} catch (Exception e) {
+			String message = (before)
+					? "Failed to marshall the the service operation " + Constants.OPERATION_SETPROPERTIES
+							+ " input argument."
+					: "Failed to marshall the the service operation " + Constants.OPERATION_SETPROPERTIES
+							+ " response data.";
 			Constants.LOGGER.error(message + e.getMessage());
 			message += "Please contact your system administrator for further assistance.";
-			throw e;			
+			throw e;
 		}
 		// END USER CODE
 	}
@@ -154,9 +149,9 @@ public class SetProperties extends CustomJavaAction<IMendixObject>
 
 	// BEGIN EXTRA CODE
 	private static final String RES_SERVICEDATA_KEY = "ServiceData";
-	private static final String OBJECT_SETPROPS_KEY	= "TcConnector.objectsSetProperties";
-	private static final String VALUES_KEY 			= "TcConnector.values";
-	private static final String NAME_KEY 			= "name";
-	private static final String VALUE_KEY 			= "value";
+	private static final String OBJECT_SETPROPS_KEY = "TcConnector.objectsSetProperties";
+	private static final String VALUES_KEY = "TcConnector.values";
+	private static final String NAME_KEY = "name";
+	private static final String VALUE_KEY = "value";
 	// END EXTRA CODE
 }

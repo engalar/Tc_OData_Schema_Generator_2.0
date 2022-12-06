@@ -48,9 +48,9 @@ public class ExpandPSAllLevels extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		ExpandPSAllLevelsResponse response = new ExpandPSAllLevelsResponse(getContext());
-		response = (ExpandPSAllLevelsResponse)TcConnection.callTeamcenterService( getContext(),
-												Constants.OPERATION_EXPANDPSALLLEVELS, InputEntity.getMendixObject(), 
-												response, SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+		response = (ExpandPSAllLevelsResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_EXPANDPSALLLEVELS, InputEntity.getMendixObject(), response, SERVICE_OPERATION_MAP,
+				BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -66,6 +66,6 @@ public class ExpandPSAllLevels extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Cad/2007-01/StructureManagement/expandPSAllLevels.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Cad/2007-01/StructureManagement/expandPSAllLevels.json";
 	// END EXTRA CODE
 }

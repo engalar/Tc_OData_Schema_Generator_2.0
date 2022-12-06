@@ -38,17 +38,14 @@ public class RetrieveCookie extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		HttpHeader header = null;
-		if( Cookie != null )
-		{
-			
+		if (Cookie != null) {
+
 			header = new HttpHeader(getContext());
 			header.setKey("Cookie");
 			header.setValue(Cookie.getName() + '=' + Cookie.getValue());
 			header.commit();
-		}
-		else
-		{
-			throw new InvalidUserException(Constants.InvalidUserException);	
+		} else {
+			throw new InvalidUserException(Constants.InvalidUserException);
 		}
 		return header.getMendixObject();
 		// END USER CODE

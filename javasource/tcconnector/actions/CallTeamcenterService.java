@@ -54,10 +54,9 @@ public class CallTeamcenterService extends CustomJavaAction<IMendixObject>
 		this.ResponseObject = this.__ResponseObject == null ? null : tcconnector.proxies.ServiceResponse.initialize(getContext(), __ResponseObject);
 
 		// BEGIN USER CODE
-		//TcSession tcSession = null;
-		ServiceResponse response = TcConnection.callTeamcenterService( getContext(), 
-										ServiceName, InputArgument, ResponseObject, 
-										OperationMapping, BusinessObjectMappings,ConfigurationName);
+		// TcSession tcSession = null;
+		ServiceResponse response = TcConnection.callTeamcenterService(getContext(), ServiceName, InputArgument,
+				ResponseObject, OperationMapping, BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}

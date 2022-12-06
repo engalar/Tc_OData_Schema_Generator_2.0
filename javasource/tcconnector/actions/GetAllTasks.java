@@ -47,9 +47,9 @@ public class GetAllTasks extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		GetAllTasksResponse response = new GetAllTasksResponse(getContext());
-		response = (GetAllTasksResponse)TcConnection.callTeamcenterService(  getContext(), 
-													Constants.OPERATION_GETALLTASK, InputData.getMendixObject(), 
-													response, SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+		response = (GetAllTasksResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_GETALLTASK, InputData.getMendixObject(), response, SERVICE_OPERATION_MAP,
+				BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -65,6 +65,6 @@ public class GetAllTasks extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Workflow/2008-06/Workflow/getAllTasks.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Workflow/2008-06/Workflow/getAllTasks.json";
 	// END EXTRA CODE
 }

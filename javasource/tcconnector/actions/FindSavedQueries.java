@@ -48,9 +48,9 @@ public class FindSavedQueries extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		FindSavedQueryResponse response = new FindSavedQueryResponse(getContext());
-		response = (FindSavedQueryResponse)TcConnection.callTeamcenterService( getContext(),
-												Constants.OPERATION_FINDSAVEDQUERIES, InputData.getMendixObject(), 
-												response, SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+		response = (FindSavedQueryResponse) TcConnection.callTeamcenterService(getContext(),
+				Constants.OPERATION_FINDSAVEDQUERIES, InputData.getMendixObject(), response, SERVICE_OPERATION_MAP,
+				BusinessObjectMappings, ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -66,6 +66,6 @@ public class FindSavedQueries extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Query/2010-04/SavedQuery/findSavedQueries.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Query/2010-04/SavedQuery/findSavedQueries.json";
 	// END EXTRA CODE
 }

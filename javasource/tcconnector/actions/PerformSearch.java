@@ -48,9 +48,9 @@ public class PerformSearch extends CustomJavaAction<IMendixObject>
 
 		// BEGIN USER CODE
 		SearchResponse response = new SearchResponse(getContext());
-		response = (SearchResponse)TcConnection.callTeamcenterService( getContext(),
-												Constants.OPERATION_PERFORMSEARCH, InputData.getMendixObject(), 
-												response, SERVICE_OPERATION_MAP, BusinessObjectMappings, ConfigurationName);
+		response = (SearchResponse) TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_PERFORMSEARCH,
+				InputData.getMendixObject(), response, SERVICE_OPERATION_MAP, BusinessObjectMappings,
+				ConfigurationName);
 		return response.getMendixObject();
 		// END USER CODE
 	}
@@ -66,6 +66,6 @@ public class PerformSearch extends CustomJavaAction<IMendixObject>
 	}
 
 	// BEGIN EXTRA CODE
-	private static final String SERVICE_OPERATION_MAP  = "OperationMapping/Query/2014-11/Finder/performSearch.json";
+	private static final String SERVICE_OPERATION_MAP = "OperationMapping/Query/2014-11/Finder/performSearch.json";
 	// END EXTRA CODE
 }

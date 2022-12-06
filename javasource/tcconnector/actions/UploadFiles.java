@@ -10,22 +10,21 @@
 package tcconnector.actions;
 
 import java.io.InputStream;
-import java.net.InetAddress;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import org.apache.commons.io.FilenameUtils;
 import com.mendix.core.Core;
 import com.mendix.core.CoreException;
 import com.mendix.systemwideinterfaces.core.IContext;
+import com.mendix.systemwideinterfaces.core.IMendixObject;
+import com.mendix.thirdparty.org.json.JSONArray;
+import com.mendix.thirdparty.org.json.JSONObject;
 import com.mendix.webui.CustomJavaAction;
 import com.teamcenter.fms.servercache.FSCException;
 import com.teamcenter.fms.servercache.proxy.CommonsFSCWholeFileIOImpl;
 import tcconnector.foundation.TcConnection;
-import tcconnector.proxies.TeamcenterConfiguration;
-import com.mendix.systemwideinterfaces.core.IMendixObject;
-import com.mendix.thirdparty.org.json.JSONArray;
-import com.mendix.thirdparty.org.json.JSONObject;
 import tcconnector.internal.foundation.Constants;
+import tcconnector.internal.foundation.FMSUtils;
 import tcconnector.internal.foundation.Messages;
 
 /**
@@ -68,41 +67,36 @@ public class UploadFiles extends CustomJavaAction<java.lang.Boolean>
 		// BEGIN USER CODE
 		boolean areFilesUploaded = Boolean.TRUE;
 		try {
-			
-			if( DatasetParameter.getDocuments().size() > 0 )
-			{
+
+			if (DatasetParameter.getDocuments().size() > 0) {
 				// Create Dataset
 				JSONObject createDatasetResponse = createDatasets();
-				if( isDatasetCreated(createDatasetResponse) == true )
-				{
-					// Dataset Created. Upload the file. 
+				if (isDatasetCreated(createDatasetResponse) == true) {
+					// Dataset Created. Upload the file.
 					// Method would throw exception in case of error. Hence no return value
 					uploadFiletoFMS(createDatasetResponse);
-	
+
 					// Commit Dataset
 					JSONObject commitDatasetFilesResponse = commitDatasetFiles(createDatasetResponse);
-					if( isDatasetCommited(commitDatasetFilesResponse) == true )
-					{
+					if (isDatasetCommited(commitDatasetFilesResponse) == true) {
 						// Update dataset with UID
-						DatasetParameter.setUID(getContext(), ((JSONObject) createDatasetResponse.getJSONArray("datasetOutput").get(0)).getJSONObject("dataset").getString("uid"));
+						DatasetParameter.setUID(getContext(),
+								((JSONObject) createDatasetResponse.getJSONArray("datasetOutput").get(0))
+										.getJSONObject("dataset").getString("uid"));
 						DatasetParameter.commit(getContext());
 						areFilesUploaded = Boolean.TRUE;
-					}
-					else
-					{
+					} else {
 						areFilesUploaded = Boolean.FALSE;
 					}
 				}
-			}
-			else
-			{
-				Constants.LOGGER.info( Messages.Dataset.NoFilesAvailableToUpload );
+			} else {
+				Constants.LOGGER.info(Messages.Dataset.NoFilesAvailableToUpload);
 				areFilesUploaded = Boolean.FALSE;
 			}
 		} catch (Exception e) {
-			Constants.LOGGER.error( Messages.Dataset.UploadFilesError + e.getMessage());
+			Constants.LOGGER.error(Messages.Dataset.UploadFilesError + e.getMessage());
 			areFilesUploaded = Boolean.FALSE;
-			throw e;			
+			throw e;
 		}
 		return areFilesUploaded;
 		// END USER CODE
@@ -121,22 +115,18 @@ public class UploadFiles extends CustomJavaAction<java.lang.Boolean>
 	// BEGIN EXTRA CODE
 
 	/*
-	 * commitDatasetFiles service would return updated JSONArray in response.
-	 * It should contain UID of the dataset passed as input.
+	 * commitDatasetFiles service would return updated JSONArray in response. It
+	 * should contain UID of the dataset passed as input.
 	 */
 	private boolean isDatasetCommited(JSONObject commitDatasetFilesResponse) {
 		boolean sucess = Boolean.FALSE;
-		if( commitDatasetFilesResponse.getJSONArray("updated").length() > 0 )
-		{
+		if (commitDatasetFilesResponse.getJSONArray("updated").length() > 0) {
 			JSONObject updated = (JSONObject) commitDatasetFilesResponse.getJSONArray("updated").get(0);
 			int length = updated.getString("uid").length();
-			if( length > 0 )
-			{
+			if (length > 0) {
 				sucess = Boolean.TRUE;
 			}
-		}
-		else
-		{
+		} else {
 			sucess = Boolean.FALSE;
 		}
 		return sucess;
@@ -147,28 +137,25 @@ public class UploadFiles extends CustomJavaAction<java.lang.Boolean>
 	 */
 	private boolean isDatasetCreated(JSONObject createDatasetResponse) {
 		boolean success = Boolean.FALSE;
-		if( createDatasetResponse.getJSONArray("datasetOutput").length() > 0 )
-		{
+		if (createDatasetResponse.getJSONArray("datasetOutput").length() > 0) {
 			JSONObject datasetOutput = (JSONObject) createDatasetResponse.getJSONArray("datasetOutput").get(0);
 			JSONObject dataset = datasetOutput.getJSONObject("dataset");
 			int length = dataset.getString("uid").length();
-			if( length > 0 )
-			{
+			if (length > 0) {
 				success = Boolean.TRUE;
 			}
-		}
-		else
-		{
+		} else {
 			success = Boolean.FALSE;
 		}
 		return success;
 	}
-	
+
 	/*
-	 * Sequence of Substitution objects added to ArrayList is important.
-	 * It needs to be in sequence as mentioned in JSON Template for commitDatasetFiles
+	 * Sequence of Substitution objects added to ArrayList is important. It needs to
+	 * be in sequence as mentioned in JSON Template for commitDatasetFiles
 	 */
-	private ArrayList<String>  createSubstitutionsFor_commitDatasetFiles(JSONObject createDatasetResponse ) throws CoreException {
+	private ArrayList<String> createSubstitutionsFor_commitDatasetFiles(JSONObject createDatasetResponse)
+			throws CoreException {
 		ArrayList<String> Substitutions = new java.util.ArrayList<String>();
 		JSONObject datasetOutput = (JSONObject) createDatasetResponse.getJSONArray("datasetOutput").get(0);
 		JSONObject dataset = datasetOutput.getJSONObject("dataset");
@@ -178,7 +165,7 @@ public class UploadFiles extends CustomJavaAction<java.lang.Boolean>
 
 		// DatasetType;
 		Substitutions.add(checkForNull(DatasetParameter.getdataset_type(getContext())));
-		
+
 		// fileName
 		Substitutions.add(checkForNull(this.DatasetParameter.getDocuments().get(0).getName()));
 
@@ -189,15 +176,13 @@ public class UploadFiles extends CustomJavaAction<java.lang.Boolean>
 		Substitutions.add(checkForNull(getTicket(datasetOutput)));
 		return Substitutions;
 	}
-	
-	private String checkForNull(String input)
-	{
-		return input != null  ? input : "";
+
+	private String checkForNull(String input) {
+		return input != null ? input : "";
 	}
 
-
 	/*
-	 * retrieve ticket from createDataset response 
+	 * retrieve ticket from createDataset response
 	 */
 	private String getTicket(JSONObject datasetOutput) {
 		// ticket information
@@ -206,16 +191,16 @@ public class UploadFiles extends CustomJavaAction<java.lang.Boolean>
 		String ticket = datasetFileTicketInfos.getString("ticket");
 		return ticket;
 	}
-	
+
 	private ArrayList<String> createSubstitutionsFor_createDatasets() throws CoreException {
 		ArrayList<String> Substitutions = new java.util.ArrayList<String>();
 
 		// object_name
 		Substitutions.add(checkForNull(DatasetParameter.getobject_name(getContext())));
-		
+
 		// DatasetType;
 		Substitutions.add(checkForNull(DatasetParameter.getdataset_type(getContext())));
-		
+
 		// object_desc
 		Substitutions.add(checkForNull(DatasetParameter.getobject_desc(getContext())));
 
@@ -226,48 +211,30 @@ public class UploadFiles extends CustomJavaAction<java.lang.Boolean>
 		Substitutions.add(checkForNull(this.DatasetParameter.getDocuments().get(0).getName()));
 		return Substitutions;
 	}
-	
+
 	/*
 	 * Upload File to FMS.
 	 */
-	private void uploadFiletoFMS(JSONObject createDatasetResponse) throws UnknownHostException, FSCException, CoreException {
+	private void uploadFiletoFMS(JSONObject createDatasetResponse)
+			throws UnknownHostException, FSCException, CoreException {
 		JSONObject datasetOutput = (JSONObject) createDatasetResponse.getJSONArray("datasetOutput").get(0);
 		// get ticket
 		String ticket = getTicket(datasetOutput);
-		CommonsFSCWholeFileIOImpl fscFileIOImpl = initializeFMS();
-		
+		CommonsFSCWholeFileIOImpl fscFileIOImpl = FMSUtils.initializeFMS(getContext(), ConfigurationName);
+
 		// open stream to upload file to FMS
-		InputStream is = Core.getFileDocumentContent(getContext(), this.DatasetParameter.getDocuments().get(0).getMendixObject());
+		InputStream is = Core.getFileDocumentContent(getContext(),
+				this.DatasetParameter.getDocuments().get(0).getMendixObject());
 
 		// This API throws exception if file upload is unsuccessful.
-		fscFileIOImpl.upload( "TCM", null, ticket, is, this.DatasetParameter.getDocuments().get(0).getSize() );
-	}
-	
-	private CommonsFSCWholeFileIOImpl initializeFMS() throws UnknownHostException, FSCException {
-		CommonsFSCWholeFileIOImpl fscFileIOImpl = new CommonsFSCWholeFileIOImpl();
-		String[] fmsURLs = retrieveFMSURLs();
-		final InetAddress clientIP = InetAddress.getLocalHost();
-		fscFileIOImpl.init( clientIP.getHostAddress(), fmsURLs, fmsURLs );
-		return fscFileIOImpl;
+		fscFileIOImpl.upload("TCM", null, ticket, is, this.DatasetParameter.getDocuments().get(0).getSize());
 	}
 
-	/*
-	 * retrieve FMS URL from active TC configuration
-	 */
-	private String[] retrieveFMSURLs() {
-		TeamcenterConfiguration config = tcconnector.proxies.microflows.Microflows.retrieveTeamcenterConifgurationByName((IContext)getContext(), ConfigurationName); 
-		String FMSURL = config.getFMSURL(getContext());
-		String[] bootstrapURLs = FMSURL.split(",");
-		return bootstrapURLs;
-	}
-
-	private static String createServiceInput(String jsonTemplate, ArrayList<String> substitutions)
-	{
-		for(int i=0; i<substitutions.size(); i++)
-		{
-			String replacement 	= substitutions.get(i);
-			String target       = "{"+(i+1)+"}";
-			jsonTemplate 		= jsonTemplate.replace(target, replacement);
+	private static String createServiceInput(String jsonTemplate, ArrayList<String> substitutions) {
+		for (int i = 0; i < substitutions.size(); i++) {
+			String replacement = substitutions.get(i);
+			String target = "{" + (i + 1) + "}";
+			jsonTemplate = jsonTemplate.replace(target, replacement);
 		}
 		return jsonTemplate;
 	}
@@ -275,113 +242,77 @@ public class UploadFiles extends CustomJavaAction<java.lang.Boolean>
 	private JSONObject createDatasets() throws Exception {
 		isTextFileType();
 		// Create Dataset JSON Template
-		String CreateDatasetJT = "\r\n" + 
-				"{\r\n" + 
-				"    \"input\": [\r\n" + 
-				"        {\r\n" + 
-				"            \"clientId\": \"TCM\",\r\n" + 
-				"            \"container\": \"\",\r\n" + 
-				"            \"datasetFileInfos\": [\r\n" + 
-				"                {\r\n" + 
-				"                    \"fileName\": \"{5}\",\r\n" + 
-				"                    \"namedReferenceName\": \"{4}\",\r\n" + 
-				"				     \"isText\":"+isTextFileType+ ",\r\n" + 
-				"                    \"clientId\": \"\",\r\n" + 
-				"                    \"allowReplace\": false\r\n" + 
-				"                }\r\n" + 
-				"            ],\r\n" + 
-				"            \"relationType\": \"\",\r\n" + 
-				"            \"name\": \"{1}\",\r\n" + 
-				"            \"type\": \"{2}\",\r\n" + 
-				"            \"description\": \"{3}\",\r\n" + 
-				"            \"datasetId\": \"\",\r\n" + 
-				"            \"datasetRev\": \"\",\r\n" + 
-				"            \"toolUsed\": \"\",\r\n" + 
-				"            \"attrs\": [],\r\n" + 
-				"            \"nrObjectInfos\": []\r\n" + 
-				"        }\r\n" + 
-				"    ]\r\n" + 
-				"}\r\n" + 
-				"\r\n" + 
-				"\r\n" + 
-				"";
+		String CreateDatasetJT = "\r\n" + "{\r\n" + "    \"input\": [\r\n" + "        {\r\n"
+				+ "            \"clientId\": \"TCM\",\r\n" + "            \"container\": \"\",\r\n"
+				+ "            \"datasetFileInfos\": [\r\n" + "                {\r\n"
+				+ "                    \"fileName\": \"{5}\",\r\n"
+				+ "                    \"namedReferenceName\": \"{4}\",\r\n" + "				     \"isText\":"
+				+ isTextFileType + ",\r\n" + "                    \"clientId\": \"\",\r\n"
+				+ "                    \"allowReplace\": false\r\n" + "                }\r\n" + "            ],\r\n"
+				+ "            \"relationType\": \"\",\r\n" + "            \"name\": \"{1}\",\r\n"
+				+ "            \"type\": \"{2}\",\r\n" + "            \"description\": \"{3}\",\r\n"
+				+ "            \"datasetId\": \"\",\r\n" + "            \"datasetRev\": \"\",\r\n"
+				+ "            \"toolUsed\": \"\",\r\n" + "            \"attrs\": [],\r\n"
+				+ "            \"nrObjectInfos\": []\r\n" + "        }\r\n" + "    ]\r\n" + "}\r\n" + "\r\n" + "\r\n"
+				+ "";
 
 		// substitutions for createDatasets
 		ArrayList<String> Substitutions = createSubstitutionsFor_createDatasets();
-		CreateDatasetJT = createServiceInput( CreateDatasetJT, Substitutions );
-		
-		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_CREATEDATASETS , CreateDatasetJT, new JSONObject(), ConfigurationName);
+		CreateDatasetJT = createServiceInput(CreateDatasetJT, Substitutions);
+
+		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_CREATEDATASETS, CreateDatasetJT,
+				new JSONObject(), ConfigurationName);
 	}
-	
+
 	private JSONObject commitDatasetFiles(JSONObject createDatasetResponse) throws Exception {
 		// commitDatasetFiles JSON Template
-		String CommitDatasetFilesJT = "\r\n" + 
-				"{\r\n" + 
-				"	\"commitInput\": [{\r\n" + 
-				"			\"dataset\": {\r\n" + 
-				"				\"uid\": \"{1}\",\r\n" + 
-				"				\"type\": \"{2}\"\r\n" + 
-				"			},\r\n" + 
-				"			\"createNewVersion\": true,\r\n" + 
-				"			\"datasetFileTicketInfos\": [{\r\n" + 
-				"					\"datasetFileInfo\": {\r\n" + 
-				"						\"clientId\": \"\",\r\n" + 
-				"						\"fileName\": \"{3}\",\r\n" + 
-				"						\"namedReferencedName\": \"{4}\",\r\n" + 
-				"						\"isText\":"+isTextFileType+ ",\r\n" + 
-				"						\"allowReplace\": false\r\n" + 
-				"					},\r\n" + 
-				"					\"ticket\": \"{5}\"\r\n" + 
-				"				}\r\n" + 
-				"			]\r\n" + 
-				"		}\r\n" + 
-				"	]\r\n" + 
-				"}\r\n" + 
-				"\r\n" + 
-				"\r\n" + 
-				"";
+		String CommitDatasetFilesJT = "\r\n" + "{\r\n" + "	\"commitInput\": [{\r\n" + "			\"dataset\": {\r\n"
+				+ "				\"uid\": \"{1}\",\r\n" + "				\"type\": \"{2}\"\r\n" + "			},\r\n"
+				+ "			\"createNewVersion\": true,\r\n" + "			\"datasetFileTicketInfos\": [{\r\n"
+				+ "					\"datasetFileInfo\": {\r\n" + "						\"clientId\": \"\",\r\n"
+				+ "						\"fileName\": \"{3}\",\r\n"
+				+ "						\"namedReferencedName\": \"{4}\",\r\n" + "						\"isText\":"
+				+ isTextFileType + ",\r\n" + "						\"allowReplace\": false\r\n"
+				+ "					},\r\n" + "					\"ticket\": \"{5}\"\r\n" + "				}\r\n"
+				+ "			]\r\n" + "		}\r\n" + "	]\r\n" + "}\r\n" + "\r\n" + "\r\n" + "";
 
 		// substitutions for commitDatasetFiles
 		ArrayList<String> Substitutions = createSubstitutionsFor_commitDatasetFiles(createDatasetResponse);
-		CommitDatasetFilesJT = createServiceInput( CommitDatasetFilesJT, Substitutions );
-		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_COMMITDATASETFILES , CommitDatasetFilesJT, new JSONObject(), ConfigurationName);
+		CommitDatasetFilesJT = createServiceInput(CommitDatasetFilesJT, Substitutions);
+		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_COMMITDATASETFILES,
+				CommitDatasetFilesJT, new JSONObject(), ConfigurationName);
 	}
-	
+
 	private Boolean isTextFileType = false;
+
 	/**
 	 * 
-	 * @return  true  in case fileFormat is Text
-	 * 			false in case of Binary
+	 * @return true in case fileFormat is Text false in case of Binary
 	 * @throws Exception
 	 */
-	private void isTextFileType() throws Exception
-	{
+	private void isTextFileType() throws Exception {
 		JSONObject getDatasetTypeInfoResponse = getDatasetTypeInfo();
 		JSONArray infosJA = getDatasetTypeInfoResponse.getJSONArray("infos");
 		JSONArray refInfosJA = infosJA.getJSONObject(0).getJSONArray("refInfos");
-		String fileExtension = "*."+FilenameUtils.getExtension(this.DatasetParameter.getDocuments().get(0).getName());
+		String fileExtension = "*." + FilenameUtils.getExtension(this.DatasetParameter.getDocuments().get(0).getName());
 
 		Boolean foundNamedReferenceAndFileExtension = false;
-		for( int i = 0 ; i < refInfosJA.length() ; i++ )
-		{
+		for (int i = 0; i < refInfosJA.length(); i++) {
 			JSONObject refInfoJO = refInfosJA.getJSONObject(i);
-			if( refInfoJO.getString("referenceName").compareToIgnoreCase(NamedReference) == 0 &&
-			    ( refInfoJO.getString("fileExtension").compareToIgnoreCase(fileExtension) == 0 ||
-			      refInfoJO.getString("fileExtension").compareTo("*") == 0 )
-			   )
-			{
-				isTextFileType = ( refInfoJO.getString("fileFormat").compareToIgnoreCase("TEXT") == 0 ? true : false );
+			if (refInfoJO.getString("referenceName").compareToIgnoreCase(NamedReference) == 0
+					&& (refInfoJO.getString("fileExtension").compareToIgnoreCase(fileExtension) == 0
+							|| refInfoJO.getString("fileExtension").compareTo("*") == 0)) {
+				isTextFileType = (refInfoJO.getString("fileFormat").compareToIgnoreCase("TEXT") == 0 ? true : false);
 				foundNamedReferenceAndFileExtension = true;
 				break;
 			}
 		}
-		if(!foundNamedReferenceAndFileExtension)
-		{
-			throw new Exception(createServiceInput(Messages.Dataset.InvalidNamedReferenceFileExtensionCombination, 
+		if (!foundNamedReferenceAndFileExtension) {
+			throw new Exception(createServiceInput(Messages.Dataset.InvalidNamedReferenceFileExtensionCombination,
 					createSubstitutionsFor_NamedReferenceFileExtensionMismatch(fileExtension)));
 		}
 	}
-	
+
 	private ArrayList<String> createSubstitutionsFor_NamedReferenceFileExtensionMismatch(String fileExtension) {
 		String datasetType = DatasetParameter.getdataset_type(getContext());
 		ArrayList<String> Substitutions = new java.util.ArrayList<String>();
@@ -400,17 +331,14 @@ public class UploadFiles extends CustomJavaAction<java.lang.Boolean>
 
 	private JSONObject getDatasetTypeInfo() throws Exception {
 		// getAvailableTypesWithDisplayNames JSON Template
-		String getDatasetTypeInfoJT = "{\r\n" + 
-				"        \"datasetTypeNames\": [\r\n" + 
-				"             \"{1}\"\r\n" + 
-				"             ]\r\n" + 
-				"            }\r\n" + 
-				"    }";
+		String getDatasetTypeInfoJT = "{\r\n" + "        \"datasetTypeNames\": [\r\n" + "             \"{1}\"\r\n"
+				+ "             ]\r\n" + "            }\r\n" + "    }";
 		// substitutions for createDatasets
 		ArrayList<String> Substitutions = createSubstitutionsFor_getDatasetTypeInfo();
-		getDatasetTypeInfoJT = createServiceInput( getDatasetTypeInfoJT, Substitutions );
+		getDatasetTypeInfoJT = createServiceInput(getDatasetTypeInfoJT, Substitutions);
 
-		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETDATASETTYPEINFO , getDatasetTypeInfoJT, new JSONObject(), ConfigurationName);
+		return TcConnection.callTeamcenterService(getContext(), Constants.OPERATION_GETDATASETTYPEINFO,
+				getDatasetTypeInfoJT, new JSONObject(), ConfigurationName);
 	}
 	// END EXTRA CODE
 }
