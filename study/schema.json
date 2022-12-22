@@ -1,0 +1,131 @@
+{
+  "externalReferences": [
+    {
+      "uri": "http://localhost/Org.OData.Capabilities.V1/v4.0/Org.OData.Capabilities.V1.xml",
+      "namespaces": [
+        {
+          "name": "Org.OData.Capabilities.V1",
+          "alias": "Capabilities"
+        }
+      ]
+    }
+  ],
+  "dataServices": [
+    {
+      "enumInfo": [],
+      "schemaNameSpace": "YinLeiService002",
+      "entityInfo": [
+        {
+          "teamcenterTypeName": "DesignReq",
+          "attributeInfo": [
+            {
+              "teamcenterAttrName": "current_id",
+              "isReadOnly": true,
+              "inherited": false,
+              "autoAdded": false,
+              "isCollection": false,
+              "attributeName": "Current_ID",
+              "autoReadOnly": true,
+              "isKeyProp": false,
+              "isRuntime": true,
+              "attributeDataType": "String"
+            },
+            {
+              "teamcenterAttrName": "fnd0PartIdentifier",
+              "isReadOnly": true,
+              "inherited": false,
+              "autoAdded": false,
+              "isCollection": false,
+              "attributeName": "Part_Identifier",
+              "autoReadOnly": true,
+              "isKeyProp": false,
+              "isRuntime": true,
+              "attributeDataType": "String"
+            },
+            {
+              "teamcenterAttrName": "project_ids",
+              "isReadOnly": true,
+              "inherited": false,
+              "autoAdded": false,
+              "isCollection": false,
+              "attributeName": "Project_IDs",
+              "autoReadOnly": true,
+              "isKeyProp": false,
+              "isRuntime": true,
+              "attributeDataType": "String"
+            },
+            {
+              "teamcenterAttrName": "pid",
+              "isReadOnly": true,
+              "inherited": false,
+              "autoAdded": false,
+              "isCollection": false,
+              "attributeName": "Process_ID",
+              "autoReadOnly": true,
+              "isKeyProp": false,
+              "isRuntime": false,
+              "attributeDataType": "Integer"
+            },
+            {
+              "teamcenterAttrName": "item_id",
+              "isReadOnly": false,
+              "inherited": false,
+              "autoAdded": false,
+              "isCollection": false,
+              "attributeName": "Requirement_ID",
+              "autoReadOnly": false,
+              "isKeyProp": false,
+              "isRuntime": false,
+              "attributeDataType": "String"
+            },
+            {
+              "teamcenterAttrName": "fnd0RevisionId",
+              "isReadOnly": true,
+              "inherited": false,
+              "autoAdded": false,
+              "isCollection": false,
+              "attributeName": "Revision_ID",
+              "autoReadOnly": true,
+              "isKeyProp": false,
+              "isRuntime": false,
+              "attributeDataType": "String"
+            },
+            {
+              "teamcenterAttrName": "fnd0objectId",
+              "isReadOnly": false,
+              "inherited": false,
+              "autoAdded": false,
+              "isCollection": false,
+              "attributeName": "Revision_Independent_Object_ID",
+              "autoReadOnly": false,
+              "isKeyProp": false,
+              "isRuntime": true,
+              "attributeDataType": "String"
+            },
+            {
+              "teamcenterAttrName": "puid",
+              "isReadOnly": true,
+              "inherited": false,
+              "autoAdded": false,
+              "isCollection": false,
+              "attributeName": "uid",
+              "autoReadOnly": true,
+              "isKeyProp": true,
+              "isRuntime": false,
+              "attributeDataType": "String"
+            }
+          ],
+          "oDataEntityName": "YinLeiService002.Design_Requirement",
+          "stream": false,
+          "autoAdded": false,
+          "actionInfo": [],
+          "exposeObject": true,
+          "creatable": true,
+          "isAbstract": false
+        }
+      ],
+      "actionInfo": [],
+      "complexTypeInfo": []
+    }
+  ]
+}

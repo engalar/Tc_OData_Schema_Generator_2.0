@@ -1,0 +1,14 @@
+# inspire by javasource\schemagenerator\actions\CreateRegisterServiceRequest.java
+
+GET /tc/micro/ODataService/v1/getDeployedServiceCSDLSchemaContentWithRefs?schemaVersion={SchemaDocument.MajorVersion}&schemaName={SchemaDocument.Name} HTTP/1.1
+
+
+POST /tc/micro/ODataService/v1/{name}.svc/{majorVersion} HTTP/1.1
+
+
+POST /tc/micro/ODataService/v1/YinLeiService002.svc/V1 HTTP/1.1
+
+GET /tc/micro/ODataService/v1/YinLeiService002.svc/V1/$metadata HTTP/1.1
+
+
+GET /tc/micro/ODataService/v1/getDeployedServiceCSDLSchemaContentWithRefs?schemaVersion=v1&schemaName=YinLeiService002 HTTP/1.1
