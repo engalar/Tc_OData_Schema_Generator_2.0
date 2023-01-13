@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edmx:Edmx Version="4.0"
+  xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+  <edmx:Reference Uri="https://docs.oasis-open.org/odata/odata/v4.0/os/vocabularies/Org.OData.Capabilities.V1.xml">
+    <edmx:Include Namespace="Org.OData.Capabilities.V1" Alias="Capabilities"></edmx:Include>
+  </edmx:Reference>
+  <edmx:DataServices>
+    <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="YinLeiService002">
+      <EntityType Name="Design_Requirement">
+        <Key>
+          <PropertyRef Name="uid"/>
+        </Key>
+        <Property Name="Current_ID" Type="Edm.String">
+          <Annotation Term="Org.OData.Core.V1.Permissions">
+            <EnumMember>Org.OData.Core.V1.Permission/Read</EnumMember>
+          </Annotation>
+        </Property>
+        <Property Name="Part_Identifier" Type="Edm.String">
+          <Annotation Term="Org.OData.Core.V1.Permissions">
+            <EnumMember>Org.OData.Core.V1.Permission/Read</EnumMember>
+          </Annotation>
+        </Property>
+        <Property Name="Project_IDs" Type="Edm.String">
+          <Annotation Term="Org.OData.Core.V1.Permissions">
+            <EnumMember>Org.OData.Core.V1.Permission/Read</EnumMember>
+          </Annotation>
+        </Property>
+        <Property Name="Process_ID" Type="Edm.Int64">
+          <Annotation Term="Org.OData.Core.V1.Permissions">
+            <EnumMember>Org.OData.Core.V1.Permission/Read</EnumMember>
+          </Annotation>
+        </Property>
+        <Property Name="Requirement_ID" Type="Edm.String"></Property>
+        <Property Name="Revision_ID" Type="Edm.String">
+          <Annotation Term="Org.OData.Core.V1.Permissions">
+            <EnumMember>Org.OData.Core.V1.Permission/Read</EnumMember>
+          </Annotation>
+        </Property>
+        <Property Name="Revision_Independent_Object_ID" Type="Edm.String"></Property>
+        <Property Name="uid" Type="Edm.String" Nullable="false" MaxLength="2000">
+          <Annotation Term="Org.OData.Core.V1.Permissions">
+            <EnumMember>Org.OData.Core.V1.Permission/Read</EnumMember>
+          </Annotation>
+        </Property>
+      </EntityType>
+      <EntityContainer Name="YinLeiService002__CONTAINER">
+        <EntitySet Name="Design_Requirements" EntityType="YinLeiService002.Design_Requirement"></EntitySet>
+      </EntityContainer>
+      <Annotations Target="YinLeiService002.YinLeiService002__CONTAINER/Design_Requirements">
+        <Annotation Term="Capabilities.FilterRestrictions">
+          <Record>
+            <PropertyValue Property="NonFilterableProperties">
+              <Collection>
+                <PropertyPath>Current_ID</PropertyPath>
+                <PropertyPath>Part_Identifier</PropertyPath>
+                <PropertyPath>Project_IDs</PropertyPath>
+                <PropertyPath>Revision_Independent_Object_ID</PropertyPath>
+              </Collection>
+            </PropertyValue>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.SortRestrictions">
+          <Record>
+            <PropertyValue Property="NonSortableProperties">
+              <Collection>
+                <PropertyPath>Current_ID</PropertyPath>
+                <PropertyPath>Part_Identifier</PropertyPath>
+                <PropertyPath>Project_IDs</PropertyPath>
+                <PropertyPath>Revision_Independent_Object_ID</PropertyPath>
+              </Collection>
+            </PropertyValue>
+          </Record>
+        </Annotation>
+        <Annotation Term="Capabilities.CountRestrictions">
+          <Record>
+            <PropertyValue Property="Countable">
+              <Bool>false</Bool>
+            </PropertyValue>
+            <PropertyValue Property="NonCountableProperties">
+              <Collection>
+                <PropertyPath>Current_ID</PropertyPath>
+                <PropertyPath>Part_Identifier</PropertyPath>
+                <PropertyPath>Project_IDs</PropertyPath>
+                <PropertyPath>Process_ID</PropertyPath>
+                <PropertyPath>Requirement_ID</PropertyPath>
+                <PropertyPath>Revision_ID</PropertyPath>
+                <PropertyPath>Revision_Independent_Object_ID</PropertyPath>
+                <PropertyPath>uid</PropertyPath>
+              </Collection>
+            </PropertyValue>
+          </Record>
+        </Annotation>
+      </Annotations>
+    </Schema>
+  </edmx:DataServices>
+</edmx:Edmx>

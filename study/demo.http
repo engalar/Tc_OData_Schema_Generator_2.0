@@ -1,5 +1,8 @@
 # inspire by javasource\schemagenerator\actions\CreateRegisterServiceRequest.java
 
+
+
+# 绕过datahub云服务，本地获取metadata xml文件
 GET /tc/micro/ODataService/v1/getDeployedServiceCSDLSchemaContentWithRefs?schemaVersion={SchemaDocument.MajorVersion}&schemaName={SchemaDocument.Name} HTTP/1.1
 
 
@@ -7,6 +10,8 @@ POST /tc/micro/ODataService/v1/{name}.svc/{majorVersion} HTTP/1.1
 
 
 POST /tc/micro/ODataService/v1/YinLeiService002.svc/V1 HTTP/1.1
+
+http://192.168.1.2:7001/tc/micro/ODataService/v1/YinLeiService002.svc/V1
 
 GET /tc/micro/ODataService/v1/YinLeiService002.svc/V1/$metadata HTTP/1.1
 
