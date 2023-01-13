@@ -1,0 +1,23 @@
+Request content for GET request to http://dev-awc.landspace.com/tc/micro/ODataService/v1/sv1.svc/v1/Items?$select=uid%2CAccess_control_Bits%2CActive_sequence&$top=21&$skip=180&$orderby=uid%20asc HTTP/1.1
+Cookie: JSESSIONID=37567B0DEE6855234CB58E097E70AF2E
+Accept: application/json, application/atom+xml
+
+
+Response content for GET request to http://dev-awc.landspace.com/tc/micro/ODataService/v1/sv1.svc/v1/Items?$select=uid%2CAccess_control_Bits%2CActive_sequence&$top=21&$skip=180&$orderby=uid%20asc
+HTTP/1.1 200 OK
+Date: Mon, 09 Jan 2023 07:45:42 GMT
+Content-Type: application/json;odata.metadata=minimal
+Transfer-Encoding: chunked
+Connection: keep-alive
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+odata-version: 4.0
+Vary: Accept-Encoding
+
+{"@odata.context":"http://10.30.133.96:7001/tc/micro/ODataService/v1/sv1.svc/v1/$metadata#Items(Access_control_Bits,Active_sequence,uid)","value":[{"Access_control_Bits":0,"Active_sequence":1,"uid":"wsnNqMBGJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"wukNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"wviNapsWJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"wxmNqMBGJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"x$sNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"x3tNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"x8gNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xDkNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xLjNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xMmNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xTiNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xVpNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"x_kNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xbhNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xckNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xejNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xjgNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xmuNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xnvNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xsiNqMdqJaGpzC"},{"Access_control_Bits":0,"Active_sequence":1,"uid":"xtkNqMdqJaGpzC"}]}
